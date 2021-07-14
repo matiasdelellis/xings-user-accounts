@@ -1,0 +1,5384 @@
+# Czech translation of gnome-control-center.
+# Copyright (C) 1999, 2003, 2006, 2007, 2008, 2009, 2010, 2011 the author(s) of gnome-control-center.
+# Copyright (C) 2003, 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
+# Copyright (C) 2006 Lukas Novotny <lukasnov@cvs.gnome.org>.
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# David Šauer <davids@penguin.cz>, 1999.
+# Jiří Lebl <jirka@5z.cz>, 2002.
+# Michal Bukovjan <bukm@centrum.cz>, 2002, 2003.
+# Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005, 2006.
+# Jakub Friedl <jfriedl@suse.cz>, 2006, 2007.
+# Petr Tomeš <ptomes@gmail.com>, 2006.
+# Lukas Novotny <lukasnov@cvs.gnome.org>, 2006.
+# Petr Kovar <pknbe@volny.cz>, 2007, 2008, 2009, 2010, 2011, 2012.
+# Andre Klapper <ak-47@gmx.net>, 2009.
+# Ondřej Kopka <ondrej.kopka@gmail.com>, 2011.
+# Adam Matoušek <adamatousek@gmail.com>, 2012.
+# Jiri Eischmann <jiri@eischmann.cz>, 2013.
+# František Zatloukal <Zatloukal.Frantisek@gmail.com>, 2014.
+# Marek Černocký <marek@manet.cz>, 2011, 2012, 2013, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center gnome-3.22\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-10-28 09:09+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Uživatelské jméno"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Celé jméno"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Běžný"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Správce"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Typ účtu"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Heslo"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Umožnit uživateli nastavit si heslo při příštím přih_lášení"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Nastavit heslo _nyní"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Heslo"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "O_věření"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Přihlašování do domény umožňuje použít na tomto zařízení stávající centrálně "
+"spravované uživatelské účty. Tento účet můžete pak použít i pro přístup k "
+"firemním prostředkům na Internetu."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Doména"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Abyste mohli přidat doménové uživatele, musíte být připojeni."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Přihlášení do domény"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Přidání uživatele"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Přihlášení doménového správce"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Abyste mohli použít přihlašování do domény, musí být tento\n"
+"počítač v doméně zahrnut. Požádejte prosím svého správce\n"
+"sítě o vepsání doménového hesla zde."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "_Jméno správce"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Heslo správce"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Palec levé ruky"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Prostředníček levé ruky"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Prsteníček levé ruky"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Malíček levé ruky"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Palec pravé ruky"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Prostředníček pravé ruky"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Prsteníček pravé ruky"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Malíček pravé ruky"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Povolit přihlášení otiskem prstů"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Ukazováček p_ravé ruky"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Ukazováček _levé ruky"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Jiný prst:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Váš otisk prstů byl úspěšně uložen. Nyní by mělo být možné přihlásit se za "
+"použití čtečky otisku prstů."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Uživatelé"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Přidat nebo odebrat uživatele a změnit heslo"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "přihlášení;jméno;otisk prstu;avatar;logo;obličej;heslo;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Změna hesla"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Zrušit"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Změn_it"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Nové heslo"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Nové heslo"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Současné _heslo"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Nabídnout uživateli změnu jeho hesla při příštím přihlášení"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Nastavit heslo nyní"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Přidat uživatele…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Volby přiblížení"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "A_utomatické přihlašování"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Přihlášení otiskem _prstu"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Ikona uživatele"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Poslední přihlášení"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Odebrat účet"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Ostatní účty"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Selhalo smazání účtu"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Selhalo zneplatnění vzdáleně spravovaného uživatele"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Nemůžete smazat svůj vlastní účet."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "Uživatel %s je doposud přihlášen"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Smazání účtu, zatímco je dotyčný uživatel přihlášen, může přivést systém do "
+"nekonzistentního stavu."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Chcete zachovat soubory uživatele %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Je možné zachovat domovskou složku, poštovní schránku a dočasné soubory, i "
+"když bude uživatelský účet smazán."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "O_dstranit soubory"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "Zacho_vat soubory"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Opravdu chcete zneplatnit vzdáleně spravovaný účet uživatele %s?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "O_dstranit"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Účet zakázán"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Bude nastaveno při příštím přihlášení"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Žádné"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "právě přihlášený"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Selhalo kontaktování účtovací služby"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+"Zkontrolujte prosím, že je účtovací služba AccountService nainstalovaná a "
+"zapnutá."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Abyste mohli provést změny,\n"
+"klikněte nejprve na ikonu *"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Vytvořit uživatelský účet"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Pro vytvoření uživatelského účtu\n"
+"nejprve klikněte na ikonu *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Odstranit vybraný uživatelský účet"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Pro odstranění uživatelského účtu\n"
+"nejprve klikněte na ikonu *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Můj účet"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Nové heslo se musí lišit od toho starého"
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Zkuste změnit některá písmena a číslice."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Zkuste změnit heslo trochu víc."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Heslo bez vašeho uživatelského jména by bylo silnější."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Zkuste se vyhnout použití svého jména v heslu."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Zkuste se vyhnout použití některých slov v hesle."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Zkuste se vyhnout běžným slovům."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Zkuste se vyhnout změně pořadí stávajících slov."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Zkuste použít víc číslic."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Zkuste použít víc velkých písmen."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Zkuste použít víc malých písmen."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Zkuste použít více speciálních znaků, jako jsou interpunkční znaménka."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Zkuste použít směs písmen, číslic a interpunkčních znamének."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Zkuste se vyhnout opakování stejného znaku."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Zkuste se vyhnout opakování stejného typu znaků: měli byste kombinovat "
+"písmena, čísla a interpunkční znaménka."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Zkuste se vyhnout sekvencím, jako je 1234 nebo abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Zkuste použít směs písmen, číslic a interpunkčních znamének."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Zkombinujte velká a malá písmena a zkuste použít jednu či dvě číslice."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Dobré heslo! Přidáním dalších písmen, číslic a interpunkčních znamének jej "
+"můžete ještě zesílit."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Autentizace selhala"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Nové heslo je příliš krátké"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Nové heslo je příliš jednoduché"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Nové heslo je příliš podobné starému"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Stejné heslo, jako nové, bylo použito nedávno."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Nové heslo musí obsahovat číslice nebo speciální znaky."
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Staré a nové heslo jsou stejné"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Vaše heslo se od vaší prvotní autentizace změnilo!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Nové heslo neobsahuje dostatek různorodých znaků"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+"Mělo by se shodovat s webovou adresou poskytovatele vašeho přihlašování."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Přidání účtu selhalo"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Hesla si neodpovídají."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Registrace účtu selhala"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Ověření s touto doménou není podporováno"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Připojení k doméně selhalo"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Toto přihlašovací jméno nefunguje.\n"
+"Zkuste to, prosím, znovu."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Toto přihlašovací heslo nefunguje.\n"
+"Zkuste to, prosím, znovu."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Přihlášení do domény selhalo"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Nelze najít doménu. Nemáte v názvu překlep?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "Přid_at"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Normální"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Správce"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Nemáte oprávnění přístupu k zařízení. Kontaktujte svého správce systému."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Zařízení se již používá."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Došlo k vnitřní chybě."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Vypnuto"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Zapnuto"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Smazat registrované otisky prstů?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Smazat otisky prstů"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Přejete si smazat registrované otisky prstů, čímž dojde k vypnutí přihlášení "
+"otiskem prstů?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Hotovo!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Nezdařil se přístup k zařízení „%s“"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Nezdařilo se spustit registraci otisků prstů na zařízení „%s“"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Nelze přistupovat k žádné čtečce otisku prstů"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Potřebujete-li pomoc, kontaktujte prosím správce systému."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Chcete-li zapnout přihlášení otiskem prstů, je nutné uložit jeden z vašich "
+"otisků prstů za použití zařízení \"%s\"."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Výběr prstu"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Registrace otisku prstu"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Souhrn"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Tento týden"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Poslední týden"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e. %B"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e. %B %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s – %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Sezení ukončeno"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Sezení započato"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s – Aktivita účtu"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Zvolte prosím jiné heslo."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Zadejte prosím své současné heslo ještě jednou."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Heslo nelze změnit"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Vybrat"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Procházet další obrázky"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Otevřít"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Vypnout obrázek"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Pořídit fotografii…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Najít více obrázků…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Použito uživatelem %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Nelze se automaticky připojit k tomuto typu domény"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Doména nebyla nalezena"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Nelze se přihlásit jako „%s“ v doméně „%s“"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Neplatné heslo, zkuste to, prosím, znovu"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Nelze se připojit k doméně „%s“: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Toto uživatelské jméno není bohužel dostupné. Zkuste prosím jiné."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Uživatelské jméno je příliš dlouhé."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Uživatelské jméno nesmí začínat znakem „-“."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Uživatelské jméno se musí skládat jen z malých a velkých písmen a-z, číslic "
+"a některého ze znaků: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Bude použito k pojmenování vaší domovské složky a nemůže být dodatečně "
+"změněno."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "dnes"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "včera"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e. %B"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e. %B %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "O_věřit nové heslo"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Zkuste přidat další písmena, číslice a symboly."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Síla: slabé"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Síla: nic moc"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Síla: průměrné"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Síla: dobré"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Síla: silné"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Hesla si neodpovídají."
+
+#~ msgid "_Background"
+#~ msgstr "_Pozadí"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Měnit v průběhu dne"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Zamykací obrazovka"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Dlaždice"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Zvětšit"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Na střed"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Přizpůsobit"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Vyplnit"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Rozšířit"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Tapety"
+
+#~ msgid "Colors"
+#~ msgstr "Barvy"
+
+#~ msgid "Select Background"
+#~ msgstr "Zvolit pozadí"
+
+#~ msgid "Pictures"
+#~ msgstr "Obrázky"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Nenalezen žádný obrázek"
+
+#~ msgid "Home"
+#~ msgstr "Domů"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "Můžete obrázky přidat do své složky %s a potom se zde objeví"
+
+#~ msgid "_Select"
+#~ msgstr "_Vybrat"
+
+#~ msgid "multiple sizes"
+#~ msgstr "více velikostí"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Bez pozadí pracovní plochy"
+
+#~ msgid "Current background"
+#~ msgstr "Aktuální pozadí"
+
+#~ msgid "Back­ground"
+#~ msgstr "Pozadí"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Změnit obrázek na pozadí na tapetu nebo fotografii"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "tapeta;obrazovka;plocha;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Vypnout režim „letadlo“"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Nebyl nalezeno žádné Bluetooth"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Připojte adaptér, aby šlo používat Bluetooth."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth vypnuto"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Zapnout, aby se připojila zařízení a obdržela přenosy souborů."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Režim „letadlo“ je zapnutý"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Když je zapnutý režim „letadlo“, je Bluetooth zakázané."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Hardwarový režim „letadlo“ je zapnutý"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Vypněte přepínač režimu „letadlo“, aby se povolilo Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Zapnout a vypnout Bluetooth a připojit se k zařízením"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "sdílet;sdílení;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "Umístěte kalibrační zařízení na čtverec a zmáčkněte „Začít“"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Posuňte kalibrační zařízení do kalibrační pozice a zmáčkněte „Pokračovat“"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Posuňte kalibrační zařízení do pozice na povrchu a zmáčkněte „Pokračovat“"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Zavřete víko notebooku"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Došlo k vnitřní chybě, z které už se nelze obnovit."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Nástroje vyžadované pro kalibraci nejsou nainstalované."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Profil nemohl být vygenerován."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Cílový bílý bod nebyl dosažitelný."
+
+#~ msgid "Complete!"
+#~ msgstr "Dokončeno!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Kalibrace selhala!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Můžete oddělat kalibrační zařízení."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Nestrkejte do kalibračního zařízení během procesu kalibrace"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Obrazovka notebooku"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Zabudovaná webkamera"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Monitor %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Skener %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Fotoaparát %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Tiskárna %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Webová kamera %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Povolit správu barev pro %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Zobrazit barevné profily pro %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Nezkalibrováno"
+
+#~ msgid "Default: "
+#~ msgstr "Výchozí:"
+
+#~ msgid "Colorspace: "
+#~ msgstr "Prostor barev:"
+
+#~ msgid "Test profile: "
+#~ msgstr "Testovací profil: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Výběr souboru s profilem ICC"
+
+#~ msgid "_Import"
+#~ msgstr "_Importovat"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Podporované profily ICC"
+
+#~ msgid "All files"
+#~ msgstr "Všechny soubory"
+
+#~ msgid "Screen"
+#~ msgstr "Obrazovka"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Selhalo odeslání souboru: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profil byl odeslán na:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Zapište si tuto adresu URL."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Restartujte tento počítač a zaveďte svůj normální operační systém."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Zadejte adresu URL do svého prohlížeče, aby se stáhl a nainstaloval "
+#~ "profil."
+
+#~ msgid "Save Profile"
+#~ msgstr "Uložit profil"
+
+#~ msgid "_Save"
+#~ msgstr "_Uložit"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Vytvořit barevný profil pro vybrané zařízení"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Měřící sonda nebyla nalezena. Zkontrolujte prosím, zda je správně "
+#~ "připojena a zapnutá."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Měřící sonda nepodporuje profilování tiskáren."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Typ zařízení není v současnosti podporován."
+
+#~ msgid "Standard Space"
+#~ msgstr "Standardní rozsah"
+
+#~ msgid "Test Profile"
+#~ msgstr "Testovací profil"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatický"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Nízká kvalita"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Střední kvalita"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Vysoká kvalita"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Výchozí RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Výchozí CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Výchozí odstíny šedé"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Výrobce dodal tovární kalibrační data"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Celoobrazovková korekce není s tímto profilem možná"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Tento profil už nemusí být přesný"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Kalibrace displeje"
+
+#~ msgid "_Start"
+#~ msgstr "Z_ačít"
+
+#~ msgid "_Resume"
+#~ msgstr "_Pokračovat"
+
+#~ msgid "_Done"
+#~ msgstr "_Hotovo"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Kalibrace obrazovky"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Kalibrace vytvoří profil, který můžete použít pro barevnou správu vaší "
+#~ "obrazovky. Čím více času strávíte kalibrací, tím vyšší kvalitu profil "
+#~ "bude mít."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Během kalibrace nebudete moct počítač používat."
+
+#~ msgid "Quality"
+#~ msgstr "Kvalita"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Odhadovaný čas"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kvalita kalibrace"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Vyberte senzorové zařízení, které chcete použít pro kalibraci."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Kalibrační zařízení"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Vyberte typ displeje, který je připojený."
+
+#~ msgid "Display Type"
+#~ msgstr "Typ displeje"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Vyberte cílový bílý bod na obrazovce. Většina displejů by měla být "
+#~ "kalibrována na luminaci D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profilový bílý bod"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Nastavte prosím displej na jas, který běžně používáte. Správa barev bude "
+#~ "nejpřesnější právě na této hladině jasu."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Alternativně můžete použít hladinu jasu, která je použitá v jiném profilu "
+#~ "pro toto zařízení."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Jas displeje"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Barevný profil můžete použít i na jiných počítačích, nebo můžete dokonce "
+#~ "vytvořit profily pro různé světelné podmínky."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Název profilu:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Název profilu"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Profil úspěšně vytvořen!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Kopírovat profil"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Vyžaduje zapisovatelné médium"
+
+#~ msgid "Upload profile"
+#~ msgstr "Odeslat profil"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Vyžaduje internetové připojení"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Tyto instrukce, jak použít profil na systémech <a href=\"linux\">GNU/"
+#~ "Linux</a>, <a href=\"osx\">Apple OS X</a> a <a href=\"windows\">Microsoft "
+#~ "Windows</a>, pro vás mohou být užitečné."
+
+#~ msgid "Add profile"
+#~ msgstr "Přidání profilu"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Importovat soubor…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Zjištěny problémy. Profil nemusí fungovat správně. <a href=\"\">Zobrazit "
+#~ "podrobnosti.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Aby u jednotlivých zařízení byla uplatněna správa barev, potřebují "
+#~ "aktuální barevné profily."
+
+#~ msgid "Learn more"
+#~ msgstr "Dozvědět se více"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Dozvědět se více o správě barev"
+
+#~ msgid "_Set for all users"
+#~ msgstr "Pro _všechny uživatele"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Nastavit tento profil pro všechny uživatele tohoto počítače"
+
+#~ msgid "_Enable"
+#~ msgstr "Povo_lit"
+
+#~ msgid "_Add profile"
+#~ msgstr "Přid_at profil"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibrovat…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Kalibrovat zařízení"
+
+#~ msgid "_Remove profile"
+#~ msgstr "Odeb_rat profil"
+
+#~ msgid "_View details"
+#~ msgstr "_Zobrazit detaily"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Nelze najít žádná zařízení, u kterých lze provádět správu barev"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektor"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (podsvětlení výbojkami CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (podsvětlení RGB LED)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (podsvětlení bílými LED)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Široký gamut LCD (podsvětlení výbojkami CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Široký gamut LCD (podsvětlení RGB LED)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Vysoká"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minut"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Střední"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minut"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Nízká"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minut"
+
+#~ msgid "Native to display"
+#~ msgstr "Nativní pro zobrazení"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (tisk a publikování)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (fotografie a grafika)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Barvy"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Kalibrovat barvy zařízení, jako jsou obrazovky, kamery nebo tiskárny"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "barvy;ICC;profil;kalibrace;tiskárna;obrazovka;displej;"
+
+#~ msgid "Other…"
+#~ msgstr "Ostatní…"
+
+#~ msgid "More…"
+#~ msgstr "Více…"
+
+#~ msgid "No languages found"
+#~ msgstr "Žádné jazyky nenalezeny"
+
+#~ msgid "Language"
+#~ msgstr "Jazyk"
+
+#~ msgid "Day"
+#~ msgstr "Den"
+
+#~ msgid "Month"
+#~ msgstr "Měsíc"
+
+#~ msgid "Year"
+#~ msgstr "Rok"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e. %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e. %B %Y, %k:%M"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l∶%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%k∶%M"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "leden"
+
+#~ msgid "February"
+#~ msgstr "únor"
+
+#~ msgid "March"
+#~ msgstr "březen"
+
+#~ msgid "April"
+#~ msgstr "duben"
+
+#~ msgid "May"
+#~ msgstr "květen"
+
+#~ msgid "June"
+#~ msgstr "červen"
+
+#~ msgid "July"
+#~ msgstr "červenec"
+
+#~ msgid "August"
+#~ msgstr "srpen"
+
+#~ msgid "September"
+#~ msgstr "září"
+
+#~ msgid "October"
+#~ msgstr "říjen"
+
+#~ msgid "November"
+#~ msgstr "listopad"
+
+#~ msgid "December"
+#~ msgstr "prosinec"
+
+#~ msgid "Date & Time"
+#~ msgstr "Datum a čas"
+
+#~ msgid "Hour"
+#~ msgstr "Hodina"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Minuta"
+
+#~ msgid "Time Zone"
+#~ msgstr "Časové pásmo"
+
+#~ msgid "Search for a city"
+#~ msgstr "hledat město"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_Datum a čas automaticky"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Vyžaduje přístup k Internetu"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Časové pás_mo automaticky"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Da_tum a čas"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Čas_ové pásmo"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Formát času"
+
+#~ msgid "24-hour"
+#~ msgstr "24hodinový"
+
+#~ msgid "AM / PM"
+#~ msgstr "dop./odp."
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Změnit datum a čas, včetně časového pásma"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "hodiny;časové pásmo;umístění;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Změnit nastavení systémového času a data"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Abyste mohli měnit nastavení času a data, musíte se autentizovat."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Víko zavřeno"
+
+#~ msgid "Mirrored"
+#~ msgstr "Duplikovaný"
+
+#~ msgid "Primary"
+#~ msgstr "Hlavní"
+
+#~ msgid "Off"
+#~ msgstr "Vypnuto"
+
+#~ msgid "Secondary"
+#~ msgstr "Vedlejší"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Uspořádání sloučených displejů"
+
+#~ msgid "_Apply"
+#~ msgstr "_Použít"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Pořadí displejů změňte přetažením"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Otočit o 90° doleva"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Otočit o 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Otočit o 90° doprava"
+
+#~ msgid "Size"
+#~ msgstr "Velikost"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Poměr stran"
+
+#~ msgid "Resolution"
+#~ msgstr "Rozlišení"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Přizpůsobit televizi"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Obnovovací frekvence"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Na tomto displeji zobrazovat horní lištu a přehled činností"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Vedlejší"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Spojit tento displej s jiným pro vytvoření rozšířené pracovní plochy"
+
+#~ msgid "Presentation"
+#~ msgstr "Prezentace"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Zobrazovat jen promítání a multimédia"
+
+#~ msgid "Mirror"
+#~ msgstr "Duplikovat"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Zobrazovat stávající zobrazení na obou displejích stejně"
+
+#~ msgid "Turn Off"
+#~ msgstr "Vypnout"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Tento displej nepoužívat"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nelze získat informace o obrazovce"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "Uspořádat sloučené displeje"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Displeje"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Zvolit, jak se mají používat připojené monitory a projektory"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr ""
+#~ "panel;projektor;xrandr;obrazovka;rozlišení;obnovovací frekvence;monitor;"
+#~ "displej;"
+
+#~ msgid "Unknown"
+#~ msgstr "Není známo"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s, %dbitový (ID sestavení: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%dbitový (ID sestavení: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s, %dbitový"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%dbitový"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Zeptat se na další postup"
+
+#~ msgid "Do nothing"
+#~ msgstr "Nic nedělat"
+
+#~ msgid "Open folder"
+#~ msgstr "Otevřít složku"
+
+#~ msgid "Other Media"
+#~ msgstr "Ostatní média"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Vyberte aplikaci pro zvuková CD"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Vyberte aplikaci pro DVD s videem"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Vyberte aplikaci, která má být spuštěna po připojení hudebního přehrávače"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Vyberte aplikaci, která má být spuštěna po připojení fotoaparátu"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Vyberte aplikaci pro CD se softwarem"
+
+#~ msgid "audio DVD"
+#~ msgstr "zvukové DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "prázdný disk Blu-ray"
+
+#~ msgid "blank CD disc"
+#~ msgstr "prázdný disk CD"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "prázdný disk DVD"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "prázdný disk HD DVD"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "videodisk Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "čtečka elektronických knih"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "videodisk HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Software Windows"
+
+#~ msgid "Section"
+#~ msgstr "Oddíl"
+
+#~ msgid "Overview"
+#~ msgstr "Přehled"
+
+#~ msgid "Default Applications"
+#~ msgstr "Výchozí aplikace"
+
+#~ msgid "Removable Media"
+#~ msgstr "Vyměnitelná média"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Verze %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Podrobnosti"
+
+#~ msgid "View information about your system"
+#~ msgstr "Zobrazit informace o systému"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "zařízení;systém;informace;paměť;procesor;verze;výchozí;aplikace;"
+#~ "upřednostňovaný;cd;dvd;usb;zvuk;video;disk;výměnný;média;automatické "
+#~ "spuštění;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Vyberte jak by měla být obsluhována ostatní média"
+
+#~ msgid "_Action:"
+#~ msgstr "_Činnost:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Typ:"
+
+#~ msgid "Device name"
+#~ msgstr "Název zařízení"
+
+#~ msgid "Memory"
+#~ msgstr "Paměť"
+
+#~ msgid "Processor"
+#~ msgstr "Procesor"
+
+#~ msgid "Base system"
+#~ msgstr "Základní systém"
+
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Calculating…"
+#~ msgstr "Počítá se…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualizace"
+
+#~ msgid "Check for updates"
+#~ msgstr "Zkontrolovat aktualizace"
+
+#~ msgid "_Web"
+#~ msgstr "_WWW"
+
+#~ msgid "_Mail"
+#~ msgstr "_Pošta"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Kalendář"
+
+#~ msgid "M_usic"
+#~ msgstr "H_udba"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fotografie"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Vyberte jak budou média obsluhována"
+
+#~ msgid "CD _audio"
+#~ msgstr "Zvukové _CD"
+
+#~ msgid "_DVD video"
+#~ msgstr "Videodisk _DVD"
+
+#~ msgid "_Music player"
+#~ msgstr "_Hudební přehrávač"
+
+#~ msgid "_Software"
+#~ msgstr "_Software"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Ostatní média…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Nikdy se nedotazovat nebo spouštět programy na vloženém médiu"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Zvuk a média"
+
+#~ msgid "Volume mute"
+#~ msgstr "Úplně ztišit"
+
+#~ msgid "Volume down"
+#~ msgstr "Snížit hlasitost"
+
+#~ msgid "Volume up"
+#~ msgstr "Zvýšit hlasitost"
+
+#~ msgid "Launch media player"
+#~ msgstr "Spustit multimediální přehrávač"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Přehrát (nebo přehrát/pozastavit)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pozastavit přehrávání"
+
+#~ msgid "Stop playback"
+#~ msgstr "Zastavit přehrávání"
+
+#~ msgid "Previous track"
+#~ msgstr "Předchozí stopa"
+
+#~ msgid "Next track"
+#~ msgstr "Následující stopa"
+
+#~ msgid "Eject"
+#~ msgstr "Vysunout"
+
+#~ msgid "Typing"
+#~ msgstr "Psaní"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Přepnout na další vstupní zdroj"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Přepnout na předchozí vstupní zdroj"
+
+#~ msgid "Launchers"
+#~ msgstr "Spouštěče"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Spustit prohlížeč nápovědy"
+
+#~ msgid "Settings"
+#~ msgstr "Nastavení"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Spustit kalkulačku"
+
+#~ msgid "Launch email client"
+#~ msgstr "Spustit poštovního klienta"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Spustit webový prohlížeč"
+
+#~ msgid "Home folder"
+#~ msgstr "Domovská složka"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Hledat"
+
+#~ msgid "Screenshots"
+#~ msgstr "Snímky obrazovky"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Uložit snímek obrazovky do složky $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Uložit snímek okna do složky $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Uložit snímek výřezu obrazovky do složky $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Kopírovat snímek obrazovky do schránky"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Kopírovat snímek okna do schránky"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Kopírovat snímek části obrazovky do schránky"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Nahrát krátké video s děním na obrazovce"
+
+#~ msgid "System"
+#~ msgstr "Systém"
+
+#~ msgid "Log out"
+#~ msgstr "Odhlásit se"
+
+#~ msgid "Lock screen"
+#~ msgstr "Uzamknout obrazovku"
+
+#~ msgid "Universal Access"
+#~ msgstr "Univerzální přístup"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Zapnout nebo vypnout přiblížení"
+
+#~ msgid "Zoom in"
+#~ msgstr "Přiblížit"
+
+#~ msgid "Zoom out"
+#~ msgstr "Oddálit"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Zapnout nebo vypnout čtení obrazovky"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Zapnout nebo vypnout klávesnici na obrazovce"
+
+#~ msgid "Increase text size"
+#~ msgstr "Zvětšit velikost textu"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Zmenšit velikost textu"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Zapnout nebo vypnout vysoký kontrast"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Vlastní zkratky"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Klávesa alternativních znaků"
+
+#~ msgid "Compose Key"
+#~ msgstr "Klávesa Compose"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Přepínač na další zdroj pouze pro modifikátory"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Vrátit klávesovou zkratku na výchozí"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s se již používá pro <b>%s</b>. Pokud ji nahradíte, bude klávesová "
+#~ "zkratka pro %s zakázána"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Nastavení vlastní klávesové zkratky"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Nastavit zkratku"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Zadejte novou zkratku pro změnu <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Přidání klávesové zkratky"
+
+#~ msgid "Key­board"
+#~ msgstr "Klávesnice"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "Zobrazit a změnit klávesové zkratky a nastavit předvolby pro psaní"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "zkratka;opakovat;blikat;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Nebyla nalezena žádná klávesová zkratka"
+
+#~ msgid "Try a different search"
+#~ msgstr "Zkuste jiné hledání"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Zrušíte zmáčknutím Esc."
+
+#~ msgid "Name"
+#~ msgstr "Název"
+
+#~ msgid "Command"
+#~ msgstr "Příkaz"
+
+#~ msgid "Shortcut"
+#~ msgstr "Klávesová zkratka"
+
+#~ msgid "Edit"
+#~ msgstr "Upravit"
+
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgid "Remove"
+#~ msgstr "Odebrat"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Zadejte novou klávesovou zkratku"
+
+#~ msgid "Add"
+#~ msgstr "Přidat"
+
+#~ msgid "Replace"
+#~ msgstr "Nahradit"
+
+#~ msgid "Set"
+#~ msgstr "Nastavit"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Vyzkoušejte své nastavení"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Myš a touchpad"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Změnit citlivost myši nebo touchpadu a vybrat ovládání pro praváky nebo "
+#~ "leváky"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "trackpad;ukazatel;kliknutí;klepnutí;dvojité;tlačítko;trackball;posuv;"
+#~ "posouvat;"
+
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgid "Primary Button"
+#~ msgstr "Hlavní tlačítko"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Nastavuje pořadí fyzických tlačítek myši a touchpadu."
+
+#~ msgid "Left"
+#~ msgstr "Levé"
+
+#~ msgid "Right"
+#~ msgstr "Pravé"
+
+#~ msgid "Mouse"
+#~ msgstr "Myš"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Rychlost myši"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Časový limit dvojitého kliknutí"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Přirozený posuv"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Posouvá se obsah, a ne zobrazení."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Rychlost touchpadu"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Kliknutí klepnutím"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Posunování dvěma prsty"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Posunování po hraně"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Zkuste jednoduché a dvojité kliknutí a posouvání"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Pětiklepnutí – čas na GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Dvojité kliknutí, hlavní tlačítko"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Kliknutí, hlavní tlačítko"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Dvojité kliknutí, prostřední tlačítko"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Kliknutí, prostřední tlačítko"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Dvojité kliknutí, vedlejší tlačítko"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Kliknutí, vedlejší tlačítko"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Režim „_Letadlo“"
+
+#~ msgid "Network proxy"
+#~ msgstr "Proxy sítě"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "VPN %s"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr "Problém, něco se stalo špatně. Kontaktujte prosím vyrobce softwaru."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "Je zapotřebí, aby běžel program NetworkManager."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Zabezpečení 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "strana 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Anony_mní identita"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Vnitřní _oveření totožnosti"
+
+#~ msgid "page 2"
+#~ msgstr "strana 2"
+
+#~ msgid "Security"
+#~ msgstr "Zabezpečení"
+
+#~ msgid "automatic"
+#~ msgstr "automaticky"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profil %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Firemní"
+
+# Zabezpečení
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Žádné"
+
+#~ msgid "Never"
+#~ msgstr "nikdy"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "před %i dnem"
+#~ msgstr[1] "před %i dny"
+#~ msgstr[2] "před %i dny"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+# Síla signálu
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+# Síla signálu
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Slabá"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Dostačující"
+
+# Síla signálu
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Dobrá"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Výborná"
+
+#~ msgid "Details"
+#~ msgstr "Podrobnosti"
+
+#~ msgid "Identity"
+#~ msgstr "Identita"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "Netmask"
+#~ msgstr "Maska sítě"
+
+#~ msgid "Gateway"
+#~ msgstr "Brána"
+
+#~ msgid "Delete Address"
+#~ msgstr "Smazat adresu"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Smazat DNS server"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrika"
+
+#~ msgid "Delete Route"
+#~ msgstr "Smazat směrování"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatické (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Ruční"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Pouze link-local"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefix"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatické"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatické, pouze DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Resetovat"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Žádné"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128bitový klíč (Hex nebo ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128bitová přístupová fráze"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Dynamické WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Síla signálu"
+
+#~ msgid "Link speed"
+#~ msgstr "Rychlost spojení"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Adresa IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Adresa IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Hardwarová adresa"
+
+#~ msgid "Default Route"
+#~ msgstr "Výchozí směrování"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Naposledy použito"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Kroucená dvojlinka (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Název"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC adresa"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Klonovaná adresa"
+
+#~ msgid "bytes"
+#~ msgstr "bajtů"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Zpřístupnit ostatním _uživatelům"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Připojit _automaticky"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Zóna firewallu"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Výchozí"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Zóna definuje úroveň důvěry k připojení"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Adresy"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Automatické DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Směrování"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Automatické směrování"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Použít toto připojení _pouze pro zdroje na jeho síti"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Nelze otevřít editor připojení"
+
+#~ msgid "New Profile"
+#~ msgstr "Nový profil"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Importovat ze souboru…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Přidání VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Resetovat"
+
+#~ msgid "_Forget"
+#~ msgstr "_Zapomenout"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Resetovat nastavení pro tuto síť včetně hesel, ale pamatovat si ji jako "
+#~ "preferovanou síť"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Smazat všechny podrobnosti týkající se této sítě a nezkoušet se "
+#~ "automaticky připojit"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Zab_ezpečení"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Nelze importovat připojení VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Soubor „%s“ nelze přečíst nebo neobsahuje rozpoznatelné informace o "
+#~ "připojení VPN\n"
+#~ "\n"
+#~ "Chyba: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Vybrat soubor pro import"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Soubor s názvem „%s“ již existuje."
+
+#~ msgid "_Replace"
+#~ msgstr "_Nahradit"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Chcete nahradit %s připojením VPN, které ukládáte?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Nelze exportovat připojení VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Připojení VPN „%s“ nemůže být exportováno do %s.\n"
+#~ "\n"
+#~ "Chyba: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Exportovat připojení VPN"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Chyba: nelze načíst editor připojení VPN)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Má domácí síť"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Zpřístupnit _ostatním uživatelům"
+
+#~ msgid "Net­work"
+#~ msgstr "Síť"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Určit, jak se připojujete k Internetu"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "síť;bezdrátové;bezdrátová;Wi-Fi;WiFi;drátové;drátová;IP;LAN;proxy;WAN;"
+#~ "širokopásmové;připojení;modem;Bluetooth;vpn;dns;"
+
+#~ msgid "never"
+#~ msgstr "nikdy"
+
+#~ msgid "today"
+#~ msgstr "dnes"
+
+#~ msgid "yesterday"
+#~ msgstr "včera"
+
+#~ msgid "IP Address"
+#~ msgstr "Adresa IP"
+
+#~ msgid "Last used"
+#~ msgstr "Naposledy použito"
+
+#~ msgid "Wired"
+#~ msgstr "Drátová"
+
+#~ msgid "Options…"
+#~ msgstr "Volby…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Přidat nové připojení"
+
+# Příliš neformální?
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Používáte-li k přístupu na Internet připojení jiné než bezdrátové, můžete "
+#~ "nastavit bezdrátový přístupový bod pro sdílení připojení s ostatními."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Zapnutím bezdrátového přístupového bodu bude připojení k <b>%s</b> "
+#~ "ztraceno."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Není možné se k Internetu připojovat prostřednictvím bezdrátového "
+#~ "připojení zatímco je aktivní režim přístupového bodu."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Zastavit přístupový bod a odpojit případné uživatele?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "Za_stavit přístupový bod"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Systémová zásada zakazuje použití jako přístupový bod"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Bezdrátové zařízení nepodporuje režim přístupového bodu"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Informace o síti pro vybrané sítě, včetně hesel a vlastního nastavení, "
+#~ "budou ztraceny."
+
+#~ msgid "History"
+#~ msgstr "Historie"
+
+#~ msgid "_Close"
+#~ msgstr "_Zavřít"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Zapomenout"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Pokud není adresa URL pro nastavení poskytnuta, použije se automatické "
+#~ "vyhledání webové proxy."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Nedoporučuje se v nedůvěryhodných veřejných sítích."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Přidat profil…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Poskytovatel"
+
+#~ msgid "Network"
+#~ msgstr "Síť"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Ručně"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automaticky"
+
+#~ msgid "_Method"
+#~ msgstr "_Metoda"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_URL s nastavením"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Proxy _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Proxy H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Proxy _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Počítač _SOCKS"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Ignorovat hostitele"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Port proxy HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Port proxy HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Port proxy FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Port proxy Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "Vypnout zařízení"
+
+#~ msgid "Add Device"
+#~ msgstr "Přidat zařízení"
+
+#~ msgid "Remove Device"
+#~ msgstr "Odebrat zařízení"
+
+#~ msgid "VPN Type"
+#~ msgstr "Typ VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Název skupiny"
+
+#~ msgid "Group Password"
+#~ msgstr "Heslo skupiny"
+
+#~ msgid "Username"
+#~ msgstr "Uživatelské jméno"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Vypnout připojení VPN"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "A_utomatické připojení"
+
+#~ msgid "details"
+#~ msgstr "podrobnosti"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Ukázat he_slo"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Zpřístupnit ostatním uživatelům"
+
+#~ msgid "identity"
+#~ msgstr "identita"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Pouze automatické (DHCP) adresy"
+
+#~ msgid "Link-local only"
+#~ msgstr "Pouze link-local"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Sdíleno s dalšími počítači"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Ignorovat automaticky obdržená směrování"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Klonovaná MAC adresa"
+
+#~ msgid "hardware"
+#~ msgstr "hardware"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Vrátit nastavení pro toto připojení na výchozí hodnoty, ale pamatovat si "
+#~ "připojení jako preferované."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Odstranit všechny podrobnosti, týkající se této sítě, a nesnažit se do ní "
+#~ "automaticky připojovat."
+
+#~ msgid "reset"
+#~ msgstr "resetovat"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Bezdrátový přístupový bod"
+
+#~ msgid "_Turn On"
+#~ msgstr "Zapnou_t"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Zapnout Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "Po_užít jako přístupový bod…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "Přip_ojit se ke skryté síti…"
+
+#~ msgid "_History"
+#~ msgstr "_Historie"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Vypněte, chcete-li se připojit k bezdrátové síti"
+
+#~ msgid "Network Name"
+#~ msgstr "Název sítě"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Připojená zařízení"
+
+#~ msgid "Security type"
+#~ msgstr "Typ zabezpečení"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Dočasná síť"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Přístupový bod"
+
+#~ msgid "Status unknown"
+#~ msgstr "Neznámý stav"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Nespravováno"
+
+#~ msgid "Unavailable"
+#~ msgstr "Nedostupné"
+
+#~ msgid "Connecting"
+#~ msgstr "Připojuje se"
+
+#~ msgid "Authentication required"
+#~ msgstr "Požadována autentizace"
+
+#~ msgid "Connected"
+#~ msgstr "Připojeno"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Odpojuje se"
+
+#~ msgid "Connection failed"
+#~ msgstr "Připojení selhalo"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Neznámý stav (chybí)"
+
+#~ msgid "Not connected"
+#~ msgstr "Nepřipojeno"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Nastavení selhalo"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Nastavení IP selhalo"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Konfigurace IP vypršela"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Hesla byla požadována, ale neposkytnuta"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "Žadatel 802.1x odpojen"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Konfigurace žadatele 802.1x selhala"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Žadatel 802.1x selhal"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "Žadateli 802.1x trvalo ověření příliš dlouho"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Spuštění služby PPP selhalo"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "Služba PPP odpojena"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP selhalo"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Spuštění klienta DHCP selhalo"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Chyba klienta DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Klient DHCP selhal"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Spuštění služby sdíleného připojení selhalo"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Služba sdíleného připojení selhala"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Spuštění služby AutoIP selhalo"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Chyba služby AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Služba AutoIP selhala"
+
+#~ msgid "Line busy"
+#~ msgstr "Linka obsazena"
+
+#~ msgid "No dial tone"
+#~ msgstr "Žádný vytáčecí tón"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Nelze navázat spojení"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Požadavek na vytáčení vypršel"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Pokus o vytáčení selhal"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Inicializace modemu selhala"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Výběr zvoleného APN selhal"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Nevyhledávají se sítě"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Registrace do sítě zamítnuta"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Registrace do sítě vypršela"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Registrace do požadované sítě selhala"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Ověření PIN selhalo"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Firmware zařízení nejspíše chybí"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Připojení bylo ztraceno"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Existující spojení bylo převzato"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem nenalezen"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Připojení Bluetooth selhalo"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "Karta SIM není vložena"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Požadován PIN karty SIM"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Požadován PUK karty SIM"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Chybná SIM"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Závislost připojení selhala"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Schází firmware"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Odpojen kabel"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "nedefinovaná chyba v zabezpečení 802.1x (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "není vybrán žádný soubor"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "blíže neurčená chyba při ověřování souboru s metodou eap"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr "Soukromé klíče DER, PEM, nebo PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Certifikáty DER nebo PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "schází soubor EAP-FAST PAC"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Vybrat soubor PAC"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "Soubory PAC (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonymní"
+
+#~ msgid "Authenticated"
+#~ msgstr "Totožnost ověřena"
+
+#~ msgid "Both"
+#~ msgstr "Obojí"
+
+#~ msgid "PAC _file"
+#~ msgstr "_Soubory PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Interní ověření totožnosti"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Umožnit automatické _zajišťování PAC"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "chybí uživatelské jméno pro EAP-LEAP"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "chybí heslo pro EAP-LEAP"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Zobrazit he_slo"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "neplatný certifikát EAP-PEAP certifikační autority: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr ""
+#~ "neplatný certifikát EAP-PEAP certifikační autority: žádný certifikát není "
+#~ "zadán"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Vybrat certifikát certifikační autority"
+
+#~ msgid "Version 0"
+#~ msgstr "Verze 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Verze 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "Certifikát C_A"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "_Certifikát CA není požadován"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Verze PEAP"
+
+#~ msgid "missing EAP username"
+#~ msgstr "chybí uživatelské jméno pro EAP"
+
+#~ msgid "missing EAP password"
+#~ msgstr "chybí heslo pro EAP"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "chybí identita pro EAP-TLS"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "neplatný certifikát EAP-TLS certifikační autority: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr ""
+#~ "neplatný certifikát EAP-TLS certifikační autority: žádný certifikát není "
+#~ "zadán"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "neplatné heslo pro EAP-TLS: není zadáno"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "neplatný soukromý klíč pro EAP-TLS: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "neplatný uživatelský certifikát pro EAP-TLS: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Nešifrované soukromé klíče nejsou bezpečné"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Vypadá to, že vybraný soukromý klíč není chráněný heslem.  To může "
+#~ "způsobit, že vaše bezpečnostní údaje budou kompromitovány. Vyberte prosím "
+#~ "soukromý klíč chráněný heslem.\n"
+#~ "\n"
+#~ "(Soukromý klíč můžete zabezpečit heslem pomocí openssl)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Vyberte svůj osobní certifikát"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Vyberte svůj soukromý klíč"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentita"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Uživatelský certifikát"
+
+#~ msgid "Private _key"
+#~ msgstr "Soukromý _klíč"
+
+#~ msgid "_Private key password"
+#~ msgstr "Heslo k _soukromému klíči"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "neplatný certifikát EAP-TTLS certifikační autority: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr ""
+#~ "neplatný certifikát EAP-TTLS certifikační autority: žádný certifikát není "
+#~ "zadán"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Neznámá chyba při ověřování zabezpečení 802.1x"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Tunelované TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Chráněné EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "_Ověření totožnosti"
+
+#~ msgid "missing leap-username"
+#~ msgstr "chybí uživatelské jméno pro LEAP"
+
+#~ msgid "missing leap-password"
+#~ msgstr "chybí heslo pro LEAP"
+
+#~ msgid "missing wep-key"
+#~ msgstr "chybí klíč WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "neplatný klíč WEP: klíč s délkou %zu musí obsahovat jen šestnáctkové "
+#~ "číslice"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "neplatný klíč WEP: klíč s délkou %zu musí obsahovat jen znaky sady ASCII"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "neplatný klíč WEP: nesprávná délka klíče %zu. Klíč musí mít délku 5/13 "
+#~ "(ASCII) nebo 10/26 (HEX)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "neplatný klíč WEP: heslová fráze nesmí být prázdná"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr "neplatný klíč WEP: heslová fráze musí být kratší než 64 znaků"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (výchozí)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Otevřený systém"
+
+#~ msgid "Shared Key"
+#~ msgstr "Sdílený klíč"
+
+#~ msgid "_Key"
+#~ msgstr "_Klíč"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Z_obrazit klíč"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "Inde_x WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "neplatný osobní klíč WPA: neplatná délka klíče %zu. Musí být [8,63] bajtů "
+#~ "nebo 64 šestnáctkový číslic"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "neplatný osobní klíč WPA: nelze zpracovat klíč s 64 bajty jako "
+#~ "šestnáctkový"
+
+#~ msgid "_Type"
+#~ msgstr "_Typ"
+
+#~ msgid "On"
+#~ msgstr "Zapnuto"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Upozornění"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "Zvuková _upozornění"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "Upozornění v _cedulích"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Zobrazovat o_bsah zpráv ve vyskakovacích cedulích"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Upozornění na za_mykací obrazovce"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Zobrazovat _obsah zpráv na zamykací obrazovce"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Upozornění"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Spravovat to, jak jsou upozornění zobrazována a co ukazují"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr ""
+#~ "upozornění;proužek;zpráva;oblast;pruh;cedule;baner;banner;vyskakovací;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Upozornění v _cedulích"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Upozornění na za_mykací obrazovce"
+
+#~ msgid "Applications"
+#~ msgstr "Aplikace"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Jiný"
+
+#~ msgid "Add Account"
+#~ msgstr "Přidání účtu"
+
+#~ msgid "Mail"
+#~ msgstr "Pošta"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalendář"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakty"
+
+#~ msgid "Chat"
+#~ msgstr "Diskuze"
+
+#~ msgid "Resources"
+#~ msgstr "Prostředky"
+
+#~ msgid "Error creating account"
+#~ msgstr "Chyba při vytváření účtu"
+
+#~ msgid "Error removing account"
+#~ msgstr "Chyba při odebírání účtu"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Opravdu chcete odebrat tento účet?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Tímto se neodstraní účet na serveru."
+
+#~ msgid "_Remove"
+#~ msgstr "Odeb_rat"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Účty on-line"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Přihlaste se k účtům on-line a rozhodněte se, k čemu je používat"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;web;on-line;diskuze;chat;kalendář;e-mail;"
+#~ "mail;email;pošta;kontakt;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Nejsou nastavené žádné účty on-line"
+
+#~ msgid "Add an online account"
+#~ msgstr "Přidat účet on-line"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Přidání účtu umožní aplikacím přistupovat v něm k dokumentům, poště, "
+#~ "kontaktům, kalendáři, diskuzím a dalším."
+
+#~ msgid "Unknown time"
+#~ msgstr "Neznámý čas"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minuta"
+#~ msgstr[1] "%i minuty"
+#~ msgstr[2] "%i minut"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i hodina"
+#~ msgstr[1] "%i hodiny"
+#~ msgstr[2] "%i hodin"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "hodina"
+#~ msgstr[1] "hodiny"
+#~ msgstr[2] "hodin"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minuta"
+#~ msgstr[1] "minuty"
+#~ msgstr[2] "minut"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s do plného nabití"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Pozor, zbývá %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "Zbývá %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Plně nabito"
+
+#~ msgid "Empty"
+#~ msgstr "Vybitá"
+
+#~ msgid "Charging"
+#~ msgstr "Nabíjí se"
+
+#~ msgid "Discharging"
+#~ msgstr "Vybíjí se"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Hlavní"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Přídavná"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Bezdrátová myš"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Bezdrátová klávesnice"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Záložní zdroj napájení"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Osobní digitální asistent (PDA)"
+
+#~ msgid "Cellphone"
+#~ msgstr "Mobilní telefon"
+
+#~ msgid "Media player"
+#~ msgstr "Multimediální přehrávač"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Počítač"
+
+#~ msgid "Battery"
+#~ msgstr "Baterie"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Nabíjí se"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Pozor"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Nízká"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Dobrá"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Plně nabitá"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Vybitá"
+
+#~ msgid "Batteries"
+#~ msgstr "Baterie"
+
+#~ msgid "When _idle"
+#~ msgstr "Při _nečinnosti"
+
+#~ msgid "Power Saving"
+#~ msgstr "Šetření energií"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Jas obrazovky"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Automatický jas"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "_Jas klávesnice"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Ztlumit jas obrazovky při neaktivitě"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Vypnout obrazovku"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Vypnout Wi-Fi, aby se šetřila energie."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobilní připojení"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Vypnout mobilní širokopásmová zařízení (3G, 4G, LTE atd.), aby se šetřila "
+#~ "energie."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Při napájení z baterie"
+
+#~ msgid "When plugged in"
+#~ msgstr "Při napájení ze sítě"
+
+#~ msgid "Suspend"
+#~ msgstr "Uspat do paměti"
+
+#~ msgid "Hibernate"
+#~ msgstr "Uspat na disk"
+
+#~ msgid "Nothing"
+#~ msgstr "Nic nedělat"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Uspávání a vypínací tlačítko"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Automaticky uspat"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Automaticky uspat"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Když je zmáčknuto vypínací tlačítko"
+
+#~ msgid "Devices"
+#~ msgstr "Zařízení"
+
+#~ msgid "Po­wer"
+#~ msgstr "Napájení"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Zobrazit stav baterie a změnit nastavení šetření energií"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "napájení;uspání;uspání do paměti;uspání na disk;baterie;jas;ztlumit;"
+#~ "monitor;DPMS;neaktivní;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minut"
+
+#~ msgid "1 hour"
+#~ msgstr "1 hodiny"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minut"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minut"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minut"
+
+#~ msgid "2 hours"
+#~ msgstr "2 hodin"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minuty"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minut"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minut"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minut"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minut"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minut"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minut"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minut"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Automatické uspání"
+
+#~ msgid "_Plugged In"
+#~ msgstr "Při _napájení ze sítě"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "_Při napájení z baterie"
+
+#~ msgid "Delay"
+#~ msgstr "Po uplynutí"
+
+#~ msgid "Authenticate"
+#~ msgstr "Ověření totožnosti"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Požadováno ověření totožnosti"
+
+#~ msgid "Low on toner"
+#~ msgstr "Dochází toner"
+
+#~ msgid "Out of toner"
+#~ msgstr "Došel toner"
+
+#~ msgid "Low on developer"
+#~ msgstr "Životnost vývojové jednotka se blíží ke konci"
+
+#~ msgid "Out of developer"
+#~ msgstr "Opotřebená vývojová jednotka"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Životnost zásobníku se blíží ke konci"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Opotřebený zásobník"
+
+#~ msgid "Open cover"
+#~ msgstr "Otevřen kryt"
+
+#~ msgid "Open door"
+#~ msgstr "Otevřena dvířka"
+
+#~ msgid "Low on paper"
+#~ msgstr "Dochází papír"
+
+#~ msgid "Out of paper"
+#~ msgstr "Došel papír"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Off-line"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Zastaveno"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Odpadní nádobka je téměř plná"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Odpadní nádobka je plná"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Životnost optického válce se blíží ke konci"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Optický válec není nadále funkční"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Nastavování"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Připraveno"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Nepřijímá úlohy"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Zpracovává se"
+
+#~ msgid "Toner Level"
+#~ msgstr "Stav množství toneru"
+
+#~ msgid "Ink Level"
+#~ msgstr "Stav množství inkoustu"
+
+#~ msgid "Supply Level"
+#~ msgstr "Stav spotřebního materiálu"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Instalace"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktivní"
+#~ msgstr[1] "%u aktivní"
+#~ msgstr[2] "%u aktivních"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Selhalo přidání nové tiskárny."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Vyberte soubor PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "Soubory popisu tiskárny PostScript (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Nenalezen vyhovující ovladač"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Vyhledávají se upřednostňované ovladače…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Vyberte z databáze…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Poskytněte soubor PPD…"
+
+#~ msgid "Test page"
+#~ msgstr "Zkušební stránka"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Nelze načíst uživatelské rozhraní: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Tiskárny"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Přidejte tiskárny, prohlédněte si tiskové úlohy a rozhodněte, jak chcete "
+#~ "tisknout"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "tiskárna;fronta;tisk;papír;inkoust;toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Vymazat vše"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Nejsou žádné aktivní tiskové úlohy"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Přidat novou tiskárnu"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "Ověřit _totožnost"
+
+#~ msgid "No printers detected."
+#~ msgstr "Nenalezeny žádné tiskárny"
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Zadejte síťovou adresu tiskárny nebo ji vyhledejte"
+
+#~ msgid "Loading options…"
+#~ msgstr "Načítají se nastavení…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Vyberte ovladač tiskárny"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Načítá se databáze ovladačů…"
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "Tiskárna JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "Tiskárna LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "Jednostranně"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Delší okraj (standardní)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Kratší okraj (obráceno)"
+
+#~ msgid "Portrait"
+#~ msgstr "Na výšku"
+
+#~ msgid "Landscape"
+#~ msgstr "Na šířku"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Obráceně na šířku"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Obráceně na výšku"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Čeká"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Pozastaveno"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Zpracovává se"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Zastaveno"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Zrušeno"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Přerušeno"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Dokončeno"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s – aktivní úlohy"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Sériový port"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Paralelní port"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Umístění: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Adresa: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Server požaduje ověření totožnosti"
+
+#~ msgid "Two Sided"
+#~ msgstr "Oboustranně"
+
+#~ msgid "Paper Type"
+#~ msgstr "Typ papíru"
+
+#~ msgid "Paper Source"
+#~ msgstr "Zdroj papíru"
+
+#~ msgid "Output Tray"
+#~ msgstr "Výstupní zásobník"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Předfiltrování GhostScript"
+
+#~ msgid "Pages per side"
+#~ msgstr "Stránek na stranu papíru"
+
+#~ msgid "Two-sided"
+#~ msgstr "Oboustrannost"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientace"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Vzhled strany"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Instalovatelné volby"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Úloha"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Kvalita obrazu"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Barevnost"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Dokončení"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Pokročilé"
+
+#~ msgid "Auto Select"
+#~ msgstr "Vybrat automaticky"
+
+#~ msgid "Printer Default"
+#~ msgstr "Výchozí nastavení tiskárny"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Zahrnout pouze písma GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Převést na PostScript úrovně 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Převést na PostScript úrovně 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Bez předfiltrování"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Výrobce"
+
+#~ msgid "Driver"
+#~ msgstr "Ovladač"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Chcete-li vidět tiskárny dostupné na %s, zadejte uživatelské jméno a "
+#~ "heslo."
+
+#~ msgid "Add Printer"
+#~ msgstr "Přidat tiskárnu"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Odebrat tiskárnu"
+
+#~ msgid "Supply"
+#~ msgstr "Spotřební materiál"
+
+#~ msgid "Location"
+#~ msgstr "Umístění"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Výchozí tiskárna"
+
+#~ msgid "Jobs"
+#~ msgstr "Úlohy"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Zobrazit ú_lohy"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "label"
+#~ msgstr "popisek"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Nastavuje se nový ovladač…"
+
+#~ msgid "page 3"
+#~ msgstr "strana 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Vy_tisknout zkušební stránku"
+
+#~ msgid "_Options"
+#~ msgstr "V_olby"
+
+#~ msgid "No printers"
+#~ msgstr "Žádné tiskárny"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Přidat tiskárnu"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Bohužel to vypadá, že systémová\n"
+#~ "služba tisku není dostupná."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Zamykání obrazovky"
+
+#~ msgid "In use"
+#~ msgstr "Používá se"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Zapnuto"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Vypnuto"
+
+#~ msgid "Location Services"
+#~ msgstr "Služby určování polohy"
+
+#~ msgid "Usage & History"
+#~ msgstr "Použití a historie"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Vysypat všechny položky z koše?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Všechny položky v koši budou trvale smazány."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Vyprázdnit koš"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Odstranit dočasné soubory?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Všechny dočasné soubory budou trvale smazány."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "Odstranit dočasné soubor_y"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Čištění koše a dočasných souborů"
+
+#~ msgid "Software Usage"
+#~ msgstr "Využití softwaru"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Hlášení problémů"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Díky odesílání hlášení o technických problémech se může %s vylepšovat. "
+#~ "Hlášení jsou odesílána anonymně a jsou z nich odstraněny osobní údaje."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Zásady soukromí"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Soukromí"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "Chraňte své osobní informace a určete, co mohou ostatní vidět"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "obrazovka;zamknout;zámek;diagnostika;pád;zhroucení;soukromý;osobní;"
+#~ "nedávný;dočasný;tmp;index;jméno;síť;identita;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "vypnutí obrazovky"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 sekundách"
+
+#~ msgid "1 day"
+#~ msgstr "1 dni"
+
+#~ msgid "2 days"
+#~ msgstr "2 dnech"
+
+#~ msgid "3 days"
+#~ msgstr "3 dnech"
+
+#~ msgid "4 days"
+#~ msgstr "3 dnech"
+
+#~ msgid "5 days"
+#~ msgstr "5 dnech"
+
+#~ msgid "6 days"
+#~ msgstr "6 dnech"
+
+#~ msgid "7 days"
+#~ msgstr "7 dnech"
+
+#~ msgid "14 days"
+#~ msgstr "14 dnech"
+
+#~ msgid "30 days"
+#~ msgstr "30 dnech"
+
+#~ msgid "Forever"
+#~ msgstr "Napořád"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Zapamatování historie usnadňuje situace, kdy chcete něco znovu najít. "
+#~ "Tyto položky nejsou nikdy sdíleny po síti."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Nedávno použité"
+
+#~ msgid "Retain _History"
+#~ msgstr "Zachovat _historii"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "V_yčistit nedávnou historii"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Zamknutí obrazovky ochraňuje vaše soukromí, když jste pryč."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Automatické zamknutí _obrazovky"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Z_amknout obrazovku po ztmavnutí a po"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Zobrazovat _upozornění"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Automaticky vyčistit koš a dočasné soubory, aby v počítači zbytečně "
+#~ "nezůstávaly citlivé informace."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Automaticky vyprázdnit _koš"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Automaticky odstranit dočasné _soubory"
+
+#~ msgid "Purge _After"
+#~ msgstr "Vyčistit _po"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Posíláním informací o tom, který software je pro vás užitečný, nám umožní "
+#~ "poskytovat vám přesnější doporučení a zaměřit se na zdokonalování tohoto "
+#~ "softwaru.\n"
+#~ "\n"
+#~ "Všechny sbírané informace jsou anonymní a data nejsou za žádných "
+#~ "okolností poskytována třetím stranám."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Po_sílat statistiky o využití softwaru"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Díky službám určování polohy mohou aplikace znát vaši zeměpisnou polohu. "
+#~ "Přesnost se zlepší zapnutím Wi-Fi a mobilního připojení."
+
+#~ msgid "_Location Services"
+#~ msgstr "S_lužby určování pozice"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Automatické hlášení problémů"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Imperiální"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrické"
+
+#~ msgid "No regions found"
+#~ msgstr "Žádné regiony nebyly nenalezeny"
+
+#~ msgid "No input sources found"
+#~ msgstr "Žádné vstupní zdroje nenalezeny"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Další"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Aby se změny projevily, musí být sezení restartováno"
+
+#~ msgid "Restart Now"
+#~ msgstr "Restartovat nyní"
+
+#~ msgid "No input source selected"
+#~ msgstr "Není vybrán žádný vstupní zdroj"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Při_hlašovací obrazovka"
+
+#~ msgid "Formats"
+#~ msgstr "Formáty"
+
+#~ msgid "Preview"
+#~ msgstr "Náhled"
+
+#~ msgid "Dates"
+#~ msgstr "Datum"
+
+#~ msgid "Times"
+#~ msgstr "Čas"
+
+#~ msgid "Numbers"
+#~ msgstr "Čísla"
+
+#~ msgid "Measurement"
+#~ msgstr "Měrné jednotky"
+
+#~ msgid "Paper"
+#~ msgstr "Papír"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Region a jazyk"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr "Vyberte jazyk, formáty, rozložení klávesnice a vstupní zdroje"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "jazyk;rozložení;klávesnice;vstup;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Přidat vstupní zdroj"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Vstupní metody nemohou být použity na přihlašovací obrazovce"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Nastavení vstupního zdroje"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Použít _stejný zdroj pro všechna okna"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Umožnit _různé zdroje pro jednotlivá okna"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Klávesové zkratky"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Přepnout na předchozí zdroj"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Mezerník"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Přepnout na další zdroj"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+mezerník"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Tyto klávesové zkratky můžete změnit v nastaveních klávesnice"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Alternativní přepnutí na další zdroj"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Levý+pravý Alt"
+
+#~ msgid "_Language"
+#~ msgstr "Jazy_k"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Angličtina (Spojené království)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formáty"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Spojené království"
+
+#~ msgid "Input Sources"
+#~ msgstr "Vstupní zdroje"
+
+#~ msgid "Add input source"
+#~ msgstr "Přidat vstupní zdroj"
+
+#~ msgid "Remove input source"
+#~ msgstr "Odebrat vstupní zdroj"
+
+#~ msgid "Move input source up"
+#~ msgstr "Přesunout vstupní zdroj výš"
+
+#~ msgid "Move input source down"
+#~ msgstr "Přesunout vstupní zdroj níž"
+
+#~ msgid "Configure input source"
+#~ msgstr "Nastavit vstupní zdroj"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Zobrazit rozvržení klávesnice vstupního zdroje"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Nastavení přihlášení jsou používány všemi uživateli při přihlašování do "
+#~ "systému"
+
+#~ msgid "Select Location"
+#~ msgstr "Vyberte umístění"
+
+#~ msgid "_OK"
+#~ msgstr "_Budiž"
+
+#~ msgid "No applications found"
+#~ msgstr "Žádné aplikace nenalezeny"
+
+#~ msgid "Search"
+#~ msgstr "Hledání"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Ovládejte, které aplikace mohou zobrazovat výsledky hledání v přehledu "
+#~ "Činnosti"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "hledání;hledat;najít;index;skrýt;soukromí;privátní;výsledky;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Prohledávaná umístění"
+
+#~ msgid "Places"
+#~ msgstr "Místa"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Záložky"
+
+#~ msgid "Other"
+#~ msgstr "Ostatní"
+
+#~ msgid "Move Up"
+#~ msgstr "Posunout výš"
+
+#~ msgid "Move Down"
+#~ msgstr "Posunout níž"
+
+#~ msgid "Preferences"
+#~ msgstr "Předvolby"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Nebyly zvoleny žádné sítě pro sdílení"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Zapnuto"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Vypnuto"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Zapnuto"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktivní"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Výběr složky"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Sdílení osobních souborů vám umožňuje sdílet složku Veřejné s ostatními v "
+#~ "aktuální síti pomocí: <a href=\"dav://%s\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Když je vzdálené přihlašování povolené, mohou se vzdálení uživatelé "
+#~ "připojit příkazem Secure Shell:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Sdílení obrazovky umožňuje vzdáleným uživatelům, aby viděli nebo ovládali "
+#~ "vaši obrazovku připojením k <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Kopírovat"
+
+#~ msgid "Sharing"
+#~ msgstr "Sdílení"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Sdílení"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Určete, co chcete sdílet s ostatními"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "sdílet;sdílení;ssh;hostitel;název;vzdálený;obrazovka;desktop;pracovní "
+#~ "plocha;multimédia;zvuk;video;obraz;obrázky;fotografie;filmy;server;"
+#~ "vykreslování;renderer;"
+
+#~ msgid "Networks"
+#~ msgstr "Sítě"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Povolit nebo zakázat vzdálené přihlášení"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Pro povolení nebo zakázání vzdáleného přihlášení je vyžadováno ověření "
+#~ "totožnosti"
+
+#~ msgid "_Computer Name"
+#~ msgstr "Název _počítače"
+
+#~ msgid "_File Sharing"
+#~ msgstr "S_dílení souborů"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Sdílení o_brazovky"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Sdílení _multimédií"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Vzdálené přihlášení"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Některé služby jsou zakázány kvůli tomu, že není přístup k síti."
+
+#~ msgid "File Sharing"
+#~ msgstr "Sdílení souborů"
+
+#~ msgid "_Require Password"
+#~ msgstr "V_yžadovat heslo"
+
+#~ msgid "Remote Login"
+#~ msgstr "Vzdálené přihlášení"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Sdílení obrazovky"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "Umožnit připojení pro ovládání obr_azovky"
+
+#~ msgid "_Password:"
+#~ msgstr "_Heslo:"
+
+#~ msgid "_Show Password"
+#~ msgstr "_Zobrazit heslo"
+
+#~ msgid "Access Options"
+#~ msgstr "Volby přístupu"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "_Nové připojení se musí dotázat o svolení"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Vyžadovat heslo"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Sdílení multimédií"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Sdílet hudbu, fotografie a videa po síti."
+
+#~ msgid "Folders"
+#~ msgstr "Složky"
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Změnit hlasitost zvuku, vstupy, výstupy a upozornění"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "karta;mikrofon;hlasitost;prolínání;vyvážení;bluetooth;náhlavní souprava;"
+#~ "audio;"
+
+#~ msgid "Bark"
+#~ msgstr "Štěknutí"
+
+#~ msgid "Drip"
+#~ msgstr "Žbluňkutí"
+
+#~ msgid "Glass"
+#~ msgstr "Cinknutí"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Levý"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Pravý"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Zadní"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Přední"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimum"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Vyvážení:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Prolínání:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Subwoofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Nezesíleno"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u výstup"
+#~ msgstr[1] "%u výstupy"
+#~ msgstr[2] "%u výstupů"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u vstup"
+#~ msgstr[1] "%u vstupy"
+#~ msgstr[2] "%u vstupů"
+
+#~ msgid "System Sounds"
+#~ msgstr "Systémové zvuky"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "O_testovat reproduktory"
+
+#~ msgid "Peak detect"
+#~ msgstr "Rozpoznávání špiček"
+
+#~ msgid "Device"
+#~ msgstr "Zařízení"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Test reproduktorů pro %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Výst_upní hlasitost:"
+
+#~ msgid "Output"
+#~ msgstr "Výstup"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "Zvo_lte zařízení pro zvukový výstup:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Nastavení pro vybrané zařízení:"
+
+#~ msgid "Input"
+#~ msgstr "Vstup"
+
+#~ msgid "_Input volume:"
+#~ msgstr "_Vstupní hlasitost:"
+
+#~ msgid "Input level:"
+#~ msgstr "Vstupní úroveň:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "Zvo_lte zařízení pro zvukový vstup:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Zvukové efekty"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Hl_asitost upozornění:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Žádná aplikace právě nepřehrává ani nezaznamenává zvuk."
+
+#~ msgid "Built-in"
+#~ msgstr "Zabudovaný"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Předvolby zvuku"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Testování zvukové události"
+
+#~ msgid "Default"
+#~ msgstr "Výchozí"
+
+#~ msgid "From theme"
+#~ msgstr "Z motivu"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "Zvo_lte zvuk upozornění:"
+
+#~ msgid "Stop"
+#~ msgstr "Zastavit"
+
+#~ msgid "Test"
+#~ msgstr "Testovat"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Vlastní"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Univerzální přístup"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Zjednodušit vidění, poslech, psaní a klikání"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "klávesnice;myš;a11y;přístupnost;kontrast;přiblížení;zvětšení;čtečka "
+#~ "obrazovky;čtení obrazovky;text;písmo;font;velikost;přístup;kombinace "
+#~ "kláves jedním prstem;pomalé klávesy;vícenásobná zmáčknutí kláves;"
+#~ "klávesnice myší;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "Vždy zobr_azovat nabídku univerzálního přístupu"
+
+#~ msgid "Seeing"
+#~ msgstr "Zrak"
+
+#~ msgid "_High Contrast"
+#~ msgstr "V_ysoký kontrast"
+
+#~ msgid "_Large Text"
+#~ msgstr "Ve_lký text"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Přiblížení"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "Čtečka ob_razovky"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "Ozvučení kláve_s"
+
+#~ msgid "Hearing"
+#~ msgstr "Sluch"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Vizuální upozornění"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Klávesnice na obrazovce"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Op_akování kláves"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_Blikání kurzoru"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "Pomáha_t s psaním"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Ukazování a klikání"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Myš z klávesnice"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Pomá_hat s klikáním"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Spoždění _dvojitého kliknutí"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Spoždění dvojitého kliknutí"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Čtečka obrazovky"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Čtečka obrazovky čte zobrazený text postupně, jak text získává zaměření."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Čtečk_a obrazovky"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Ozvučení kláves"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Pípnout při zapnutí nebo vypnutí klávesy Num Lock nebo Caps Lock."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Vizuální upozornění"
+
+#~ msgid "_Test flash"
+#~ msgstr "O_testovat blikání"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Použít vizuální signalizaci, když se objeví zvukové upozornění."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Bliknout záhlavím _okna"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Bliknout _celou obrazovkou"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Opakování kláves"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Opakovat zmáčknutí klávesy, když držíte klávesu zmáčknutou."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Prodleva před opakováním kláves"
+
+#~ msgid "Speed"
+#~ msgstr "Rychlost"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Rychlost opakování kláves"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Blikání kurzoru"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Kurzor v textových polích bliká."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Rychlost blikání kurzoru"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Pomoc s psaním"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "Kombinace kláves jedním pr_stem"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Sekvenci modifikačních kláves považovat za kombinaci těchto kláves"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "Vypnout při souběžném zmáčknutí _dvou kláves"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Zvukové znamení při zmáčknutí _modifikační klávesy"
+
+#~ msgid "S_low Keys"
+#~ msgstr "Poma_lé klávesy"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr ""
+#~ "Zadejte jaké má být zpoždění, než je klávesa přijata po té, co je "
+#~ "zmáčknuta"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Zpož_dění přijetí:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Krátké"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Prodleva při psaní pomalými klávesami"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Dlouhé"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Zvukové znam_ení při zmáčknutí klávesy"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Zvukové zn_amení při příjmutí klávesy"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Zvukové znamení při _odmítnutí klávesy"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Vícenáso_bná zmáčknutí kláves"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignorovat rychle opakované zmáčknutí klávesy"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Krátké"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Prodleva při psaní s vícenásobným zmáčknutím kláves"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Dlouhé"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Zapnout z kláv_esnice"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Zapínat funkce zpřístupnění pomocí klávesnice"
+
+#~ msgid "Click Assist"
+#~ msgstr "Pomoc s klikáním"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Simulované druhé kliknutí"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Zahájit druhé kliknutí podržením hlavního tlačítka"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Krátké"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Zpoždění druhého kliknutí"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Dlouhé"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Kl_iknutí posečkáním"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Zahájit kliknutí při zastavení pohybu ukazatele"
+
+#~ msgid "D_elay:"
+#~ msgstr "Zpož_dění:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Krátké"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Dlouhé"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Práh poh_ybu:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Nízký"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Vysoký"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Krátká"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ obrazovky"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ obrazovky"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ obrazovky"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Dlouhá"
+
+#~ msgid "Full Screen"
+#~ msgstr "Celá obrazovka"
+
+#~ msgid "Top Half"
+#~ msgstr "Horní polovina"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Dolní polovina"
+
+#~ msgid "Left Half"
+#~ msgstr "Levá polovina"
+
+#~ msgid "Right Half"
+#~ msgstr "Pravá polovina"
+
+#~ msgid "_Magnification:"
+#~ msgstr "Zvětšení _lupou:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Následovat ukazatel myši"
+
+#~ msgid "_Screen part:"
+#~ msgstr "Část o_brazovky:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "Lupa se rozšiřuj_e mimo obrazovku"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "Udržovat u_kazatel lupy na středu"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Ukazatel lu_py odsouvá okolní obsah"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Ukazatel lupy se přesouvá s o_bsahem"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Poloha lupy:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Lupa"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Tloušťka:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Tenký"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Tlustý"
+
+#~ msgid "_Length:"
+#~ msgstr "Dé_lka:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "_Barva:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "Zaměřovací _kříž:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "Překrývat ukazat_el myši"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Zaměřovací kříž"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Bílá na černém:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Jas:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Kontrast:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "_Barva"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Plná"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Nízký"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Vysoký"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Nízký"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Vysoký"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Ovlivnění barev:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Ovlivnění barev"
+
+#~ msgid "You are Offline"
+#~ msgstr "Jste odpojeni"
+
+#~ msgid "_Enroll"
+#~ msgstr "R_egistrovat"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Správa uživatelských účtů"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Ke změně uživatelských dat je požadováno ověření"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Mapování tlačítek"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Mapování tlačítek na funkce"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Zkratku upravíte tak, že zvolíte „Vyvolat klávesovou zkratku“, zmáčknete "
+#~ "na klávesnici zkratkové tlačítko a držíte zmáčknuté nové klávesy, "
+#~ "případně je pomocí Backspace smažete."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Klepněte prosím na terčíky, které se objevily na obrazovce a tím "
+#~ "zkalibrujete tablet."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Zjištěno chybějící kliknutí, začíná se znovu…"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Nahoru"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Dolů"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Žádná"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Vyvolat klávesovou zkratku"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Přepnout obrazovku"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Zobrazit nápovědu na obrazovce"
+
+#~ msgid "Output:"
+#~ msgstr "Výstup:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Zachovat poměr stran (omezit oblast):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Mapovat na jedinou obrazovku"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d z %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Mapování zobrazení"
+
+#~ msgid "Button"
+#~ msgstr "Tlačítko"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Tablet Wacom"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Nastavit mapování tlačítek a přizpůsobit citlivost grafických tabletů"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "tablet;Wacom;stalus;pero;eraser;guma;myš;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Jako tablet (absolutně)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Jako touchpad (relativně)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Předvolby tabletu"
+
+#~ msgid "_Help"
+#~ msgstr "_Nápověda"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Nenalezen žádný tablet"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Připojte a/nebo zapněte svůj tablet Wacom"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Nastavení Bluetooth"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Tablet Wacom"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Mapování na obrazovku…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Mapování tlačítek…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibrovat…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Přizpůsobit rozlišení displeje"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Přizpůsobit nastavení myši"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Režim sledování stopy"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Orientace pro leváky"
+
+#~ msgid "Left Ring"
+#~ msgstr "Levý prstenec"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Režim levého prstence č. %d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Pravý prstenec"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Režim pravého prstence č. %d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Levý dotykový pruh"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Režim levého dotykového pruhu č. %d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Pravý dotykový pruh"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Režim pravého dotykového pruhu č. %d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Přepínač režimů levého dotykového prstence"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Přepínač režimů pravého dotykového prstence"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Přepínač režimů levého dotykového pruhu"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Přepínač režimů pravého dotykového pruhu"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Přepínač režimů č. %d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Levé tlačítko č. %d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Pravé tlačítko č. %d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Horní tlačítko č. %d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Dolní tlačítko č. %d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Nová klávesová zkratka…"
+
+#~ msgid "No Action"
+#~ msgstr "Žádná činnost"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Kliknutí levým tlačítkem myši"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Kliknutí prostředním tlačítkem myši"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Kliknutí pravým tlačítkem myši"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Posunování nahoru"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Posunování dolů"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Posunování vlevo"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Posunování vpravo"
+
+#~ msgid "Back"
+#~ msgstr "Zpět"
+
+#~ msgid "Forward"
+#~ msgstr "Vpřed"
+
+#~ msgid "Stylus"
+#~ msgstr "Pero"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Pocit z přítlaku gumy"
+
+#~ msgid "Soft"
+#~ msgstr "Měkký"
+
+#~ msgid "Firm"
+#~ msgstr "Tvrdý"
+
+#~ msgid "Top Button"
+#~ msgstr "Horní tlačítko"
+
+#~ msgid "Lower Button"
+#~ msgstr "Dolní tlačítko"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Pocit z přítlaku hrotu"
+
+#~ msgid "All Settings"
+#~ msgstr "Všechna nastavení"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Ovládací centrum GNOME"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Nástroje pro nastavení pracovního prostředí GNOME"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Ovládací centrum je hlavní rozhraní GNOME pro nastavení různých aspektů "
+#~ "vašeho pracovního prostředí."
+
+#~ msgid "Display version number"
+#~ msgstr "Zobrazit číslo verze"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Zapnout podrobný režim"
+
+#~ msgid "Show the overview"
+#~ msgstr "Zobrazit přehled"
+
+#~ msgid "Search for the string"
+#~ msgstr "Hledat řetězec"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Vypsat všechny možné názvy panelů a skončit"
+
+#~ msgid "Panel to display"
+#~ msgstr "Panel, který se má zobrazit"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Dostupné panely:"
+
+#~ msgid "Help"
+#~ msgstr "Nápověda"
+
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Osobní"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Systém"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "předvolby;nastavení;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Obecné"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Ukončit"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Hledání"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Panely"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Vrátit se zpět na přehled"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Zrušit vyhledávání"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Přístupový bod"
+
+#~ msgid "No results found"
+#~ msgstr "Nebyly nalezeny žádné výsledky"

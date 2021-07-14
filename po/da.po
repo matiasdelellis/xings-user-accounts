@@ -1,0 +1,5556 @@
+# Danish translation of the Gnome Control Center.
+# Copyright (C) 1998-2016
+# This file is distributed under the same license as the gnome-control-center package.
+# Kenneth Christiansen <kenneth@ripen.dk>, 1998-2000.
+# Birger Langkjer <birger.langkjer@image.dk>
+# Keld Simonsen <keld@dkuug.dk>, 2000.
+# Ole Laursen <olau@hardworking.dk>, 2001, 02, 03, 04, 06.
+# Martin Willemoes Hansen <mwh@sysrq.dk>, 2004, 05.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
+# flemming christensen <fc@stromata.dk>, 2011.
+# Kris Thomsen <mail@kristhomsen.dk> 2014.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09, 10, 11, 12, 13, 14, 15, 16.
+# scootergrisen, 2015, 2016.
+# Konventioner:
+# detach -> frigøre
+# display -> skærm (fysisk)
+# -> skærmvisning (logisk, når der skal skelnes; ellers skærm)
+# extension -> endelse (det refererer nemlig som regel til f.eks. '.html')
+# GL -> 3d
+# help browser -> hjælpefremviser
+# properties -> indstillinger
+# torn off -> frigøre
+# typing break -> tastepause
+# toggle key -> skiftetast
+# modifier key -> modifikationstast
+# universal access -> tilgængelighed (med mindre nogen kan finde grund til at der bør skelnes)
+# Vær opmærksom på at ordet key bruges både i betydningen nøgle og (genvejs)tast
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-09-16 02:15+0200\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Brugernavn"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Fulde navn"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Standard"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "Konto_type"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Adgangskode"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Tillad bruger at angive en adgangskode ved næste _login"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Angiv en adgangskode _nu"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Adgangskode"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Bekræft"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Enterprise-logind tillader at der bruges en eksisterende, centralt håndteret "
+"brugerkonto på denne enhed. Du kan også bruge denne konto til at tilgå "
+"firmaressourcer på internettet."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Domæne"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Du skal være på nettet for at kunne tilføje enterprise-brugere."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Enterprise-login"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Tilføj bruger"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Login for domæneadministrator"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"For at kunne bruge enterprise-logins, skal denne computer\n"
+"være med i domænet. Få venligst din netværksadministrator\n"
+"til at skrive vedkommendes adgangskode her."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "_Navn på administrator"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Adgangskode for administrator"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Venstre tommelfinger"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Venstre langfinger"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Venstre ringfinger"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Venstre lillefinger"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Højre tommelfinger"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Højre langfinger"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Højre ringfinger"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Højre lillefinger"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Aktivér login med fingeraftryk"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Højre pegefinger"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Venstre pegefinger"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_En anden finger:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Dit fingeraftryk blev gemt. Du bør nu kunne logge ind ved brug af din "
+"fingeraftryksaflæser."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Brugere"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Tilføj eller fjern brugere og skift din adgangskode"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Login;Navn;Fingeraftryk;Profilbillede;Logo;Ansigt;Adgangskode;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Skift adgangskode"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Annullér"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_Skift"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Ny adgangskode"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Ny adgangskode"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Nuværende _adgangskode"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Tillad bruger at vælge adgangskode når der logges ind næste gang"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Angiv en adgangskode nu"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Tilføj bruger…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Indstillinger for login"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "A_utomatisk login"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Login med _fingeraftryk"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Brugerikon"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Sidste login"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Fjern konto"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Andre konti"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Kunne ikke slette bruger"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Kunne ikke tilbagekalde fjernhåndteret bruger"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Du kan ikke slette din egen konto."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s er stadig logget ind"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Sletning af en bruger, mens denne stadig er logget ind, kan bringe systemet "
+"i en inkonsistent tilstand."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Vil du beholde %ss filer?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Det er muligt at beholde hjemmemappen, postarkivet samt midlertidige filer, "
+"når en brugerkonto slettes."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Slet filer"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Behold filer"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+"Er du sikker på, at du vil tilbagekalde den fjernhåndterede konto tilhørende "
+"%s?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Slet"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Konto deaktiveret"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Vælges ved næste login"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Intet"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Logget ind"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Kunne ikke kontakte kontotjenesten"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Kontrollér venligst at AccountService er installeret og aktiveret."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Klik først på *-ikonet\n"
+"for at lave ændringer"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Opret ny brugerkonto"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Klik først *-ikonet\n"
+"for at oprette en brugerkonto"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Slet den valgte brugerkonto"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Klik først *-ikonet\n"
+"for at slette den valgte brugerkonto"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Min konto"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Den nye adgangskode skal være forskellig fra den gamle."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Prøv at ændre nogle bogstaver og tal."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Prøv at ændre adgangskoden lidt mere."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "En adgangskode uden dit brugernavn ville være stærkere."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Prøv at undgå at bruge dit navn i adgangskoden."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Prøv at undgå nogle af ordene i adgangskoden."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Prøv at undgå almindelige ord."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Prøv at undgå at omarrangere eksisterende ord."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Prøv at bruge flere tal."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Prøv at bruge flere store bogstaver."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Prøv at bruge flere små bogstaver."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Prøv at bruge flere specialtegn, f.eks. tegnsætning."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Prøv at bruge en blanding af bogstaver, tal og tegnsætning."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Prøv at undgå at gentage samme tegn."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Prøv at undgå at gentage samme type tegn: Du skal blande bogstaver, tal og "
+"tegnsætning."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Prøv at undgå følger som 1234 eller abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Prøv at bruge en blanding af bogstaver, tal og tegnsætning."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Bland store og små bogstaver, og brug et par tal."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"God adgangskode! Tilføjelse af flere bogstaver, tal og tegn vil gøre det "
+"stærkere."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Godkendelse mislykkedes"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Den nye adgangskode er for kort"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Den nye adgangskode er for simpel"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Der er for stor lighed mellem gammel og ny adgangskode"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Den nye adgangskode er allerede blevet brugt for nylig."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Den nye adgangskode skal indeholde tal eller specialtegn"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Gammel og ny adgangskode er ens"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Din adgangskode er ændret, siden du først godkendte!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Den nye adgangskode indeholder ikke nok forskellige tegn"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Ukendt fejl"
+
+# Ved ikke hvad en login provider er, nøjagtigt
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Bør svare til webadressen for din logind-udbyder."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Kunne ikke tilføje konto"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Adgangskoderne stemmer ikke overens."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Kunne ikke registrere konto"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Ingen understøttet måde at godkende med dette domæne"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Kunne ikke slutte til domænet"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Det loginnavn virkede ikke.\n"
+"Prøv venligst igen."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Adgangskoden for login virkede ikke.\n"
+"Prøv venligst igen."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Kunne ikke logge ind på domænet"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Kan ikke finde domænet. Måske stavede du det forkert?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Annullér"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Tilføj"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standard"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Du har ikke tilladelse til at tilgå enheden. Kontakt din systemadministrator."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Enheden er allerede i brug."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Der opstod en intern fejl."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Aktiveret"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Slet registrerede fingeraftryk?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Slet fingeraftryk"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Ønsker du at slette dine registrerede fingeraftryk, så login med "
+"fingeraftryk er deaktiveret?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Gjort!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Kunne ikke tilgå \"%s\"-enheden"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Kunne ikke påbegynde fingermåling på \"%s\"-enheden"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Kunne ikke tilgå nogen fingeraftryksaflæsere"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Kontakt venligst din systemadministrator for hjælp."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"For at aktivere login med fingeraftryk, skal du gemme et af dine "
+"fingeraftryk ved brug af \"%s\"-enheden."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Vælg finger"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Optager fingeraftryk"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Sammenfatning"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Denne uge"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Sidste uge"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e. %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e. %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Session afsluttet"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Session påbegyndt"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Kontoaktivitet"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Vælg venligst en anden adgangskode."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Indtast venligst din nuværende adgangskode igen."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Adgangskoden kunne ikke ændres"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Vælg"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Gennemse flere billeder"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Åbn"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Deaktivér billede"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Tag et billede…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Gennemse flere billeder…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Bruges af %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Kan ikke automatisk tilslutte denne type domæne"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Intet sådant domæne eller realm fundet"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Kan ikke logge ind som %s på domænet %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Ugyldig adgangskode; prøv venligst igen"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Kunne ikke forbinde til domænet %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Beklager, men det brugernavn er ikke tilgængeligt. Prøv et andet."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Brugernavnet er for langt."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Brugernavnet kan ikke begynde med \"-\"."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Brugernavnet kan kun bestå af små og store bogstaver fra a til z, tal og "
+"følgende tegn: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Dette vil blive brugt til at navngive din hjemmemappe og kan ikke ændres."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "I dag"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "I går"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e. %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e. %b, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Bekræft ny adgangskode"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Prøv at tilføje flere bogstaver, tal eller symboler."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Styrke: svag"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Styrke: lav"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Styrke: middel"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Styrke: god"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Styrke: høj"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Adgangskoderne stemmer ikke."
+
+#~ msgid "_Background"
+#~ msgstr "_Baggrund"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Ændrer sig i løbet af dagen"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Lås skærm"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Fliser"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Centrér"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Skalér"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Udfyld"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Udspænd"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Baggrundstapeter"
+
+#~ msgid "Colors"
+#~ msgstr "Farver"
+
+#~ msgid "Select Background"
+#~ msgstr "Vælg baggrund"
+
+#~ msgid "Pictures"
+#~ msgstr "Billeder"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Ingen billeder fundet"
+
+#~ msgid "Home"
+#~ msgstr "Hjem"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "Du kan tilføje billeder til din %s-mappe, og de vil blive vist her"
+
+#~ msgid "_Select"
+#~ msgstr "_Vælg"
+
+#~ msgid "multiple sizes"
+#~ msgstr "flere størrelser"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Ingen skrivebordsbaggrund"
+
+#~ msgid "Current background"
+#~ msgstr "Nuværende baggrund"
+
+#~ msgid "Back­ground"
+#~ msgstr "Bag­grund"
+
+# gider ikke den ekstra ikke-information
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Skift dit baggrundsbillede til et tapet eller billede"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Tapet;Baggrund;Skærm;Skrivebord;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Deaktivér flytilstand"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Ingen Bluetooth fundet"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Indsæt en dongle for at bruge Bluetooth."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth er slukket"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Tænd for at tilslutte enheder og modtage filoverførsler."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Flytilstand er aktiv"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Bluetooth er deaktiveret når flytilstand er aktiv."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Hardwareflytilstand er aktiv"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Sluk for kontakten Flytilstand for at aktivere Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Blue­tooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Slå Bluetooth til eller fra og tilslut dine enheder"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "del;deling;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "Placér din kalibreringsenhed over firkanten og tryk \"Start\""
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Flyt din kalibreringsenhed til kalibreringspositionen og tryk \"Fortsæt\""
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Flyt din kalibreringsenhed til overfladepositionen og tryk \"Fortsæt\""
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Luk computerens låg"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Der opstod en intern fejl uden mulighed for genoprettelse."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Visse værktøjer er nødvendige for kalibrering men ikke installeret."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Profilen kunne ikke genereres."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Målhvidpunktet kunne ikke opnås."
+
+#~ msgid "Complete!"
+#~ msgstr "Fuldført!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Kalibrering mislykkedes!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Du kan fjerne kalibreringsenheden."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Rør ikke kalibreringsenheden når den er i gang"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Skærm for bærbar computer"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Indbygget webkamera"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s-skærm"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s-skanner"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s-kamera"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s-printer"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s-webkamera"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Aktivér farvehåndtering for %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Vis farveprofiler for %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Ikke kalibreret"
+
+#~ msgid "Default: "
+#~ msgstr "Forvalg: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Farverum: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Testprofil: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Vælg fil med ICC-profil"
+
+#~ msgid "_Import"
+#~ msgstr "_Importér"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Understøttede ICC-profiler"
+
+#~ msgid "All files"
+#~ msgstr "Alle filer"
+
+#~ msgid "Screen"
+#~ msgstr "Skærm"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Kunne ikke sende fil: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profilen er blevet uploadet til:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Skriv denne adresse ned."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Genstart denne computer og start dit normale operativsystem."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Skriv adressen ind i din webbrowser for at hente og installere profilen."
+
+#~ msgid "Save Profile"
+#~ msgstr "Gem profil"
+
+#~ msgid "_Save"
+#~ msgstr "_Gem"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Opret en farveprofil for den valgte enhed"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Måleinstrumentet ikke fundet. Undersøg venligst om det er tændt og "
+#~ "korrekt tilsluttet."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Måleinstrumentet understøtter ikke profilering af printeren."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Enhedstypen er ikke er understøttet for øjeblikket."
+
+#~ msgid "Standard Space"
+#~ msgstr "Standardfarverum"
+
+#~ msgid "Test Profile"
+#~ msgstr "Testprofil"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Lav kvalitet"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Middelkvalitet"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Høj kvalitet"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Standard-RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Standard-CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Standard-grå"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Fabrikskalibreringsdata fra forhandler"
+
+# "display" må være implicit
+# scootergrisen: kunne måske også være "Skærmkorrektion er ikke mulig i fuldskærm..."
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Skærmskorrektion er ikke mulig i fuldskærm med denne profil"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Denne profil er måske ikke længere nøjagtig"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Skærmenhedskalibrering"
+
+#~ msgid "_Start"
+#~ msgstr "_Start"
+
+#~ msgid "_Resume"
+#~ msgstr "_Genoptag"
+
+#~ msgid "_Done"
+#~ msgstr "_Færdig"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Skærmkalibrering"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Kalibrering vil give en profil, du kan bruge til farvehåndtering for din "
+#~ "skærm. Jo længere du kalibrerer, jo bedre bliver farveprofilen."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Du vil ikke kunne bruge din computer mens kalibreringen finder sted."
+
+#~ msgid "Quality"
+#~ msgstr "Kvalitet"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Anslået tidsforbrug"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kalibreringskvalitet"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Vælg den sensorenhed, du vil bruge til kalibreringen."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Kalibreringsenhed"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Vælg typen af skærmenhed, der er tilsluttet."
+
+#~ msgid "Display Type"
+#~ msgstr "Type af skærmenhed"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Vælg et målhvidpunkt for skærmenheden. De fleste enheder bør kalibreres "
+#~ "til en D65-illuminant."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Hvidpunkt for profil"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Sæt venligst skærmenheden til en lysstyrke, der er typisk for dig. "
+#~ "Farvehåndteringen vil være mest nøjagtig ved dette lysniveau."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Alternativt kan du bruge lysstyrkeniveauet fra en af de andre profiler "
+#~ "med denne enhed."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Skærmlysstyrke"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Du kan bruge en farveprofil på forskellige computere, eller endda oprette "
+#~ "profiler for forskellige lysbetingelser."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Profilnavn:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Profilnavn"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Profilen blev oprettet!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Kopiér profil"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Kræver skrivbart medie"
+
+#~ msgid "Upload profile"
+#~ msgstr "Upload profil"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Kræver internetforbindelse"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Du vil måske finde instruktionerne om brug af profilen på systemerne <a "
+#~ "href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> samt <a href="
+#~ "\"windows\">Microsoft Windows</a> nyttige."
+
+#~ msgid "Add profile"
+#~ msgstr "Tilføj profil"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Importér fil…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Der er blevet fundet problemer. Profilen vil måske ikke fungere korrekt. "
+#~ "<a href=\"\">Vis detaljer.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "For at farvehåndteres skal hver enhed have en ajourført farveprofil."
+
+#~ msgid "Learn more"
+#~ msgstr "Få mere at vide"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Få mere at vide om farvehåndtering"
+
+#~ msgid "_Set for all users"
+#~ msgstr "_Indstil for alle brugere"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Brug denne profil for alle brugere på denne computer"
+
+#~ msgid "_Enable"
+#~ msgstr "_Aktivér"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Tilføj profil"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibrér…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Kalibrér enheden"
+
+#~ msgid "_Remove profile"
+#~ msgstr "_Fjern profil"
+
+#~ msgid "_View details"
+#~ msgstr "_Vis detaljer"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr ""
+#~ "Kan ikke finde nogen enheder, hvortil der kan bruges farvehåndtering"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektor"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL-bagbelysning)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED-bagbelysning)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (hvid LED-bagbelysning)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Bred-gamut-LCD (CCFL-bagbelysning)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Bred-gamut-LCD (RGB LED-bagbelysning)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Høj"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minutter"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Middel"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minutter"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Lav"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minutter"
+
+# ???
+#~ msgid "Native to display"
+#~ msgstr "\"Native\" der skal vises"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (udskrift og publikation)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (fotografi og grafik)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Far­ve"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Kalibrér farver til dine enheder, såsom skærme, kameraer eller printere"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Farve;ICC;Profil;Kalibrer;Printer;Skærm;"
+
+#~ msgid "Other…"
+#~ msgstr "Anden…"
+
+#~ msgid "More…"
+#~ msgstr "Flere…"
+
+#~ msgid "No languages found"
+#~ msgstr "Ingen sprog fundet"
+
+#~ msgid "Language"
+#~ msgstr "Sprog"
+
+#~ msgid "Day"
+#~ msgstr "Dag"
+
+#~ msgid "Month"
+#~ msgstr "Måned"
+
+#~ msgid "Year"
+#~ msgstr "År"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e. %B %Y, %l:%M"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e. %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Januar"
+
+#~ msgid "February"
+#~ msgstr "Februar"
+
+#~ msgid "March"
+#~ msgstr "Marts"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "Maj"
+
+#~ msgid "June"
+#~ msgstr "Juni"
+
+#~ msgid "July"
+#~ msgstr "Juli"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#~ msgid "October"
+#~ msgstr "Oktober"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Date & Time"
+#~ msgstr "Dato & klokkeslæt"
+
+#~ msgid "Hour"
+#~ msgstr "Time"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Minut"
+
+#~ msgid "Time Zone"
+#~ msgstr "Tidszone"
+
+#~ msgid "Search for a city"
+#~ msgstr "Søg efter en by"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Automatisk _Dato & klokkeslæt"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Kræver internetadgang"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Automatisk tids_zone"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Dato & _klokkeslæt"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Tidsz_one"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Format for klokkeslæt"
+
+#~ msgid "24-hour"
+#~ msgstr "24-timers"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Skift dato og klokkeslæt inklusive tidszone"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Ur;Tidszone;Sted;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Skift systemindstillinger for tidspunkt og dato"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Du skal godkende for at kunne ændre indstillinger for tid og dato."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Låg lukket"
+
+#~ msgid "Mirrored"
+#~ msgstr "Klonede"
+
+#~ msgid "Primary"
+#~ msgstr "Primær"
+
+#~ msgid "Off"
+#~ msgstr "Slået fra"
+
+#~ msgid "Secondary"
+#~ msgstr "Sekundær"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Arrangér kombinerede skærme"
+
+#~ msgid "_Apply"
+#~ msgstr "_Anvend"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Træk visninger for at flytte dem"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Rotér 90° mod uret"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Rotér 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Rotér 90° med uret"
+
+#~ msgid "Size"
+#~ msgstr "Størrelse"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Højde-/breddeforhold"
+
+#~ msgid "Resolution"
+#~ msgstr "Opløsning"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Tilpas tv"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Opdateringsfrekvens"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Vis topbjælken og aktivitetsoversigten i denne visning"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Sekundær skærm"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Slå denne skærm sammen med en anden for at oprette et ekstra arbejdsområde"
+
+#~ msgid "Presentation"
+#~ msgstr "Præsentation"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Vis kun diasshow og medier"
+
+#~ msgid "Mirror"
+#~ msgstr "Klon"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Brug din eksisterende konfiguration på begge skærme"
+
+#~ msgid "Turn Off"
+#~ msgstr "Sluk"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Brug ikke denne skærm"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Kunne ikke finde skærminformation"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Arrangér kombinerede skærme"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Skær­me"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Vælg hvordan forbundne skærme og projektorer skal bruges"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Panel;Projektor;xrandr;Skærm;Opløsning;Opdatering;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (Build-id: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (Build-id: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Spørg hvad der skal gøres"
+
+#~ msgid "Do nothing"
+#~ msgstr "Gør intet"
+
+#~ msgid "Open folder"
+#~ msgstr "Åbn mappe"
+
+#~ msgid "Other Media"
+#~ msgstr "Andet medie"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Vælg et program til lyd-cd'er"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Vælg et program til video-dvd'er"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Vælg et program der skal køres, når der tilsluttes en musikafspiller"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Vælg et program der skal køres, når der tilsluttes et kamera"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Vælg et program til software-cd'er"
+
+#~ msgid "audio DVD"
+#~ msgstr "lyd-dvd"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "blank Blu-ray-disk"
+
+#~ msgid "blank CD disc"
+#~ msgstr "blank cd-disk"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "blank dvd-disk"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "blank HD DVD-disk"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray-videodisk"
+
+#~ msgid "e-book reader"
+#~ msgstr "e-bogslæser"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD-videodisk"
+
+#~ msgid "Picture CD"
+#~ msgstr "Billed-cd"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Supervideo-cd"
+
+#~ msgid "Video CD"
+#~ msgstr "Video-cd"
+
+#~ msgid "Windows software"
+#~ msgstr "Windowsprogrammer"
+
+#~ msgid "Section"
+#~ msgstr "Afsnit"
+
+#~ msgid "Overview"
+#~ msgstr "Oversigt"
+
+#~ msgid "Default Applications"
+#~ msgstr "Standardprogrammer"
+
+#~ msgid "Removable Media"
+#~ msgstr "Flytbare medier"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Version %s"
+
+#~ msgid "De­tails"
+#~ msgstr "De­tal­jer"
+
+#~ msgid "View information about your system"
+#~ msgstr "Vis information om systemet"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "enhed;system;information;hukommelse;processor;version;standard;program;"
+#~ "foretrukken;cd;dvd;usb;lyd;video;disk;flytbar;medie;autokørsel;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Vælg hvordan andre medier skal håndteres"
+
+#~ msgid "_Action:"
+#~ msgstr "_Handling:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Type:"
+
+#~ msgid "Device name"
+#~ msgstr "Enhedsnavn"
+
+#~ msgid "Memory"
+#~ msgstr "Hukommelse"
+
+#~ msgid "Processor"
+#~ msgstr "Processor"
+
+#~ msgid "Base system"
+#~ msgstr "Basissystem"
+
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Calculating…"
+#~ msgstr "Beregner…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafik"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualisering"
+
+#~ msgid "Check for updates"
+#~ msgstr "Søg efter opdateringer"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "_Post"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Kalender"
+
+#~ msgid "M_usic"
+#~ msgstr "M_usik"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Billeder"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Vælg hvordan medier skal håndteres"
+
+#~ msgid "CD _audio"
+#~ msgstr "Cd-_lyd"
+
+#~ msgid "_DVD video"
+#~ msgstr "_Dvd-video"
+
+#~ msgid "_Music player"
+#~ msgstr "_Musikafspiller"
+
+#~ msgid "_Software"
+#~ msgstr "_Programmer"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Andet medie…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Spørg aldrig, og start aldrig programmer, når der indsættes medier"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Lyd og medie"
+
+#~ msgid "Volume mute"
+#~ msgstr "Slå lyden fra"
+
+#~ msgid "Volume down"
+#~ msgstr "Dæmpning af lydstyrken"
+
+#~ msgid "Volume up"
+#~ msgstr "Forøg lydstyrken"
+
+#~ msgid "Launch media player"
+#~ msgstr "Start medieafspiller"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Afspil (eller afspil/pause)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Afspilning på pause"
+
+#~ msgid "Stop playback"
+#~ msgstr "Stop afspilning"
+
+#~ msgid "Previous track"
+#~ msgstr "Forrige spor"
+
+#~ msgid "Next track"
+#~ msgstr "Næste spor"
+
+#~ msgid "Eject"
+#~ msgstr "Skub ud"
+
+#~ msgid "Typing"
+#~ msgstr "Indtastning"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Skift til næste inputkilde"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Skift til forrige inputkilde"
+
+#~ msgid "Launchers"
+#~ msgstr "Programstartere"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Start hjælpefremviser"
+
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Start lommeregner"
+
+#~ msgid "Launch email client"
+#~ msgstr "Start e-mail-program"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Start webbrowser"
+
+#~ msgid "Home folder"
+#~ msgstr "Hjemmemappe"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgid "Screenshots"
+#~ msgstr "Skærmbilleder"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Gem et skærmbillede i $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Gem et skærmbillede af et vindue i $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Gem et skærmbillede af et område i $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Kopiér et skærmbillede til udklipsholderen"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Kopiér et skærmbillede af et vindue til udklipsholderen"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Kopiér et skærmbillede af et område til udklipsholderen"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Optag en kort skærmvideo"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Log out"
+#~ msgstr "Log ud"
+
+#~ msgid "Lock screen"
+#~ msgstr "Lås skærm"
+
+# scootergrisen: måske oversæt "Universal Access" til "Adgang for alle" her og andre steder
+# scootergrisen: "Tilgængelighed" kan også fint bruges men passer måske bedre til "Accessibility"
+#~ msgid "Universal Access"
+#~ msgstr "Tilgængelighed"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Slå zoom til eller fra"
+
+#~ msgid "Zoom in"
+#~ msgstr "Zoom ind"
+
+#~ msgid "Zoom out"
+#~ msgstr "Zoom ud"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Slå skærmoplæser til eller fra"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Slå skærmtastatur til eller fra"
+
+#~ msgid "Increase text size"
+#~ msgstr "Forøg tekststørrelse"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Formindsk tekststørrelse"
+
+# scootergrisen: måske "Stor kontrast"
+#~ msgid "High contrast on or off"
+#~ msgstr "Høj kontrast til eller fra"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Brugertilpassede genveje"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Tast for alternative tegn"
+
+#~ msgid "Compose Key"
+#~ msgstr "Komponér-tast"
+
+# ??????
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Skift til næste kilde med kun modifikatorer"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Nulstil genvejen til dens standardværdi"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s bruges allerede som <b>%s</b>. Hvis du erstatter den, vil %s blive "
+#~ "slået fra"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Angiv brugertilpasset genvej"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Angiv genvej"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Indtast ny genvejstast for at ændre <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Tilføj brugertilpasset genvej"
+
+#~ msgid "Key­board"
+#~ msgstr "Ta­sta­tur"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "Vis og skift tastaturgenveje, og indstil dine tasteindstillinger"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Genvej;Gentagelse;Blink;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Ingen tastaturgenvej fundet"
+
+#~ msgid "Try a different search"
+#~ msgstr "Prøv en anden søgning"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Tryk Esc for at annullere."
+
+#~ msgid "Name"
+#~ msgstr "Navn"
+
+#~ msgid "Command"
+#~ msgstr "Kommando"
+
+#~ msgid "Shortcut"
+#~ msgstr "Genvej"
+
+#~ msgid "Edit"
+#~ msgstr "Redigér"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Remove"
+#~ msgstr "Fjern"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Indtast den nye genvej"
+
+#~ msgid "Add"
+#~ msgstr "Tilføj"
+
+#~ msgid "Replace"
+#~ msgstr "Erstat"
+
+#~ msgid "Set"
+#~ msgstr "Angiv"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Afprøv dine indstillinger"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Mus & pege­plade"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Skift følsomhed for din mus eller pegeplade og vælg højre- eller "
+#~ "venstrehåndstilstand"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "Pegeplade;Markør;Klik;Prik;Dobbelt;Knap;Trackball;Rul;Rulning;"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Primary Button"
+#~ msgstr "Primær knap"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Indstiller rækkefølgen for fysiske knapper på mus og pegeplader."
+
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#~ msgid "Right"
+#~ msgstr "Højre"
+
+#~ msgid "Mouse"
+#~ msgstr "Mus"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Musens hastighed"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Dobbeltklik-tid"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Naturlig rulning"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Rulning flytter indholdet, ikke visningen."
+
+#~ msgid "Touchpad"
+#~ msgstr "Pegeplade"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Pegepladens hastighed"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Tryk for at klikke"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Tofingerrulning"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Kantrulning"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Prøv at klikke, dobbeltklikke og at rulle"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Fem klik: GEGL-tid!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Dobbeltklik, primær knap"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Enkeltklik, primær knap"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Dobbeltklik, midterknap"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Enkeltklik, midterknap"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Dobbeltklik, sekundær knap"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Enkeltklik, sekundær knap"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "_Flytilstand"
+
+#~ msgid "Network proxy"
+#~ msgstr "Netværksproxy"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Ups, der er gået noget galt. Kontakt venligst din softwareforhandler."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "Netværkshåndtering skal køre."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x-_sikkerhed"
+
+#~ msgid "page 1"
+#~ msgstr "side 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "A_nonym identitet"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Indre _godkendelse"
+
+#~ msgid "page 2"
+#~ msgstr "side 2"
+
+#~ msgid "Security"
+#~ msgstr "Sikkerhed"
+
+#~ msgid "automatic"
+#~ msgstr "automatisk"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profil %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+# ?
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Never"
+#~ msgstr "Aldrig"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i dag siden"
+#~ msgstr[1] "%i dage siden"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Svag"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "God"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Fremragende"
+
+#~ msgid "Details"
+#~ msgstr "Detaljer"
+
+#~ msgid "Identity"
+#~ msgstr "Identitet"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Netmask"
+#~ msgstr "Netmaske"
+
+# i mangel af at "(wireless) access point" også kaldes adgangspunkt, så bør vi nok have en anden oversættelse af gateway
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Delete Address"
+#~ msgstr "Slet adresse"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Slet DNS-server"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrik"
+
+#~ msgid "Delete Route"
+#~ msgstr "Slet rute"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatisk (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Manuel"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Kun link-lokal"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Præfiks"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatisk, kun DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Nulstil"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-bit-nøgle (Hex eller ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-bit-adgangskode"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Dynamisk WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Signalstyrke"
+
+#~ msgid "Link speed"
+#~ msgstr "Forbindelseshastighed"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4-adresse"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6-adresse"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Hardwareadresse"
+
+#~ msgid "Default Route"
+#~ msgstr "Standardrute"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Sidst brugt"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Parsnoet kabel (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Tilslutningsenhedsgrænseflade (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Medieuafhængig grænseflade (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Navn"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC-adresse"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Klonet adresse"
+
+#~ msgid "bytes"
+#~ msgstr "byte"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Gør tilgængelig for andre _brugere"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Forbind _automatisk"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "Firewall-_zone"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Forvalg"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Zonen definerer forbindelsens betroethed"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Adresser"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Automatisk DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Ruter"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Automatiske ruter"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Brug _kun denne forbindelse til ressourcer på dens netværk"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Kan ikke åbne forbindelsesredigering"
+
+#~ msgid "New Profile"
+#~ msgstr "Ny profil"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Importér fra fil…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Tilføj VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Nulstil"
+
+#~ msgid "_Forget"
+#~ msgstr "_Glem"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Nulstil indstillinger for dette netværk inklusive adgangskoder, men husk "
+#~ "det som et foretrukkent netværk"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Fjern alle detaljer vedrørende dette netværk, og prøv ikke automatisk at "
+#~ "forbinde"
+
+#~ msgid "S_ecurity"
+#~ msgstr "S_ikkerhed"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Kan ikke importere VPN-forbindelse"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Filen \"%s\" kunne ikke læses, eller indeholder ikke genkendelige "
+#~ "oplysninger om VPN-forbindelse\n"
+#~ "\n"
+#~ "Fejl: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Vælg fil at importere"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Der findes allerede en fil med navnet \"%s\"."
+
+#~ msgid "_Replace"
+#~ msgstr "_Erstat"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Vil du erstatte %s med den VPN-forbindelse, du er ved at gemme?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Kan ikke eksportere VPN-forbindelse"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN-forbindelsen \"%s\" kunne ikke eksporteres til %s.\n"
+#~ "\n"
+#~ "Fejl: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Eksportér VPN-forbindelse"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Fejl: kan ikke indlæse VPN-forbindelsesredigering)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Mit hjemmenetværk"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Gør tilgængelig for _andre brugere"
+
+#~ msgid "Net­work"
+#~ msgstr "Net­værk"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Angiv hvordan du forbinder til internettet"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Netværk;Trådløs;Wi-fi;Wifi;IP;LAN;Proxy:WAN;Bredbånd;Modem;Bluetooth;vpn;"
+#~ "DNS;"
+
+#~ msgid "never"
+#~ msgstr "aldrig"
+
+#~ msgid "today"
+#~ msgstr "i dag"
+
+#~ msgid "yesterday"
+#~ msgstr "i går"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-adresse"
+
+#~ msgid "Last used"
+#~ msgstr "Sidst brugt"
+
+#~ msgid "Wired"
+#~ msgstr "Kabel"
+
+#~ msgid "Options…"
+#~ msgstr "Indstillinger…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Tilføj ny forbindelse"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Hvis du har en internetforbindelse som ikke er trådløs, kan du indstille "
+#~ "et trådløst hotspot til at dele forbindelsen med andre."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Hvis du tænder for det trådløse hotspot, vil du blive frakoblet <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Det er ikke muligt at tilgå internettet gennem din trådløse forbindelse, "
+#~ "mens hotspottet er aktivt."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Stop hotspot og afkobl eventuelle brugere?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Stop hotspot"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Systempolitikken forbyder brug som hotspot"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Trådløs enhed understøtter ikke hotspot-tilstand"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Netværksdetaljer for de valgte netværk inklusive adgangskoder og "
+#~ "eventuelt brugertilpasset konfiguration vil gå tabt."
+
+#~ msgid "History"
+#~ msgstr "Historik"
+
+#~ msgid "_Close"
+#~ msgstr "_Luk"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Glem"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Der bruges autofinding af web-proxyer, når der ikke er givet en "
+#~ "konfigurationsadresse."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Dette anbefales ikke for ubetroede offentlige netværk."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Tilføj profil…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Leverandør"
+
+#~ msgid "Network"
+#~ msgstr "Netværk"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Manuel"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "_Method"
+#~ msgstr "_Metode"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_Konfigurationsadresse"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP-proxy"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS-proxy"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP-proxy"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Socks-vært"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Ignorerede værter"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Port for HTTP-proxy"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Port for HTTPS-proxy"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Port for FTP-proxy"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Port for socks-proxy"
+
+#~ msgid "Turn device off"
+#~ msgstr "Slå enhed fra"
+
+#~ msgid "Add Device"
+#~ msgstr "Tilføj enhed"
+
+#~ msgid "Remove Device"
+#~ msgstr "Fjern enhed"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN-type"
+
+#~ msgid "Group Name"
+#~ msgstr "Gruppenavn"
+
+#~ msgid "Group Password"
+#~ msgstr "Gruppeadgangskode"
+
+#~ msgid "Username"
+#~ msgstr "Brugernavn"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Slå VPN-forbindelse fra"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "_Forbind automatisk"
+
+#~ msgid "details"
+#~ msgstr "detaljer"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Vis _adgangskode"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Gør tilgængelig for andre brugere"
+
+#~ msgid "identity"
+#~ msgstr "identitet"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Kun automatiske adresser (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Kun link-lokal"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Delt med andre computere"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Ignorér automatisk fundne ruter"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Klonet MAC-adresse"
+
+#~ msgid "hardware"
+#~ msgstr "hardware"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Nulstil indstillingerne for denne forbindelse, men husk som foretrukken "
+#~ "forbindelse."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Fjern alle detaljer vedrørende dette netværk, og prøv ikke automatisk at "
+#~ "forbinde til det."
+
+#~ msgid "reset"
+#~ msgstr "nulstil"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wi-fi-hotspot"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Tænd"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Sluk wi-fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Brug som hotspot…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Forbind til skjult netværk…"
+
+#~ msgid "_History"
+#~ msgstr "_Historik"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Slå fra for at forbinde til et wi-fi-netværk"
+
+#~ msgid "Network Name"
+#~ msgstr "Netværksnavn"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Forbundne enheder"
+
+#~ msgid "Security type"
+#~ msgstr "Sikkerhedstype"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastruktur"
+
+#~ msgid "Status unknown"
+#~ msgstr "Status ukendt"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Uhåndteret"
+
+#~ msgid "Unavailable"
+#~ msgstr "Utilgængelig"
+
+#~ msgid "Connecting"
+#~ msgstr "Forbinder"
+
+#~ msgid "Authentication required"
+#~ msgstr "Godkendelse påkrævet"
+
+#~ msgid "Connected"
+#~ msgstr "Tilsluttet"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Afbryder forbindelse"
+
+#~ msgid "Connection failed"
+#~ msgstr "Forbindelse mislykkedes"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Status ukendt (mangler)"
+
+#~ msgid "Not connected"
+#~ msgstr "Ikke tilsluttet"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Konfiguration mislykkedes"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP-konfiguration mislykkedes"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP-konfigurationen udløb"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Hemmeligheder blev påkrævet men ikke givet"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x-supplikant frakoblede"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Konfiguration af 802.1x-supplikant mislykkedes"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x-supplikant fejlede"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x-supplikant brugte for lang tid på at godkende"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP-tjenesten kunne ikke starte"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP-tjeneste frakoblede"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP fejlede"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP-klient kunne ikke starte"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP-klientfejl"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP-klient fejlede"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Tjenesten for delt forbindelse kunne ikke starte"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Tjenesten til delt forbindelse fejlede"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP-tjeneste kunne ikke starte"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP-tjenestefejl"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP-tjeneste fejlede"
+
+#~ msgid "Line busy"
+#~ msgstr "Linjen er optaget"
+
+#~ msgid "No dial tone"
+#~ msgstr "Ingen ringetone"
+
+# ?
+#~ msgid "No carrier could be established"
+#~ msgstr "Ingen opkobling kunne etableres"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Tidsudløb for opringningsforsøg"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Opringningsforsøg mislykkedes"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Initialisering af modem mislykkedes"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Kunne ikke vælge den angivne APN"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Søger ikke efter netværk"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Netværksregistrering nægtet"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Tidsudløb ved netværksregistrering"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Kunne ikke registrere hos det forespurgte netværk"
+
+#~ msgid "PIN check failed"
+#~ msgstr "PIN-kontrol mislykkedes"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Firmware for enheden mangler måske"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Forbindelse forsvandt"
+
+# ?
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Eksisterende forbindelse blev antaget"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem ikke fundet"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Bluetooth-forbindelse mislykkedes"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM-kort ikke indsat"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM-pin påkrævet"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM-puk påkrævet"
+
+#~ msgid "SIM wrong"
+#~ msgstr "SIM forkert"
+
+# ???
+#~ msgid "Connection dependency failed"
+#~ msgstr "Forbindelsesforudsætning mislykkedes"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Firmware mangler"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kabel ikke tilsluttet"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "udefineret fejl i 802.1x-sikkerhed (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "ingen fil valgt"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "uspecificeret fejl ved kontrol af eap-metodefil"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr ""
+#~ "Private DER-, PEM- eller PKCS#12-nøgler (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER- eller PEM-certifikater (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "mangler EAP-FAST PAC-fil"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Vælg en PAC-fil"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC-filer (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonym"
+
+#~ msgid "Authenticated"
+#~ msgstr "Godkendt"
+
+#~ msgid "Both"
+#~ msgstr "Begge"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC-_fil"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Indre godkendelse"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Tillad automatisk PAC-pro_visionering"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "mangler EAP-LEAP-brugernavn"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "mangler EAP-LEAP-adgangskode"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Vi_s adgangskode"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "ugyldigt CA-certifikat til EAP-PEAP: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "ugyldigt CA-certifikat til EAP-PEAP: intet certifikat angivet"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Vælg certifikat fra certifikatautoritet"
+
+#~ msgid "Version 0"
+#~ msgstr "Version 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Version 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "C_A-certifikat"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "Intet CA-certifikat _påkrævet"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP-_version"
+
+#~ msgid "missing EAP username"
+#~ msgstr "mangler EAP-brugernavn"
+
+#~ msgid "missing EAP password"
+#~ msgstr "mangler EAP-adgangskode"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "mangler EAP-TLS-identitet"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "ugyldigt CA-certifikat til EAP-TLS: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "ugyldigt CA-certifikat til EAP-TLS: intet certifikat angivet"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "ugyldig adgangskode til EAP-TLS: mangler"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "ugyldig privat nøgle til EAP-TLS: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "ugyldigt brugercertifikat til EAP-TLS: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Ukrypterede private nøgler er usikre"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Den valgte private nøgle lader ikke til at være adgangskodebeskyttet.  "
+#~ "Dette kan føre til at dine sikkerhedsakkreditiver kompromitteres.  Vælg "
+#~ "venligst en adgangskodebeskyttet privat nøgle.\n"
+#~ "\n"
+#~ "(Du kan adgangskodebeskytte din private nøgle med openssl)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Vælg dit personlige certifikat"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Vælg din private nøgle"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentitet"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Brugercertifikat"
+
+#~ msgid "Private _key"
+#~ msgstr "Privat _nøgle"
+
+#~ msgid "_Private key password"
+#~ msgstr "Adgangskode for _privat nøgle"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "ugyldigt CA-certifikat til EAP-TTLS: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "ugyldigt CA-certifikat til EAP-TTLS: intet certifikat angivet"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Ukendt fejl ved validering af 802.1x-sikkerhed"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "TLS gennem tunnel"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Beskyttet EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "_Godkendelse"
+
+#~ msgid "missing leap-username"
+#~ msgstr "mangler leap-brugernavn"
+
+#~ msgid "missing leap-password"
+#~ msgstr "mangler leap-adgangskode"
+
+#~ msgid "missing wep-key"
+#~ msgstr "mangler web-nøgle"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr "ugyldig wep-nøgle: nøgle med længde %zu må kun indeholde hex-cifre"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr "ugyldig web-nøgle: nøgle med længde %zu må kun indeholde ascii-tegn"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "ugyldig wep-nøgle: forkert nøglelængde %zu. En nøgle skal have længde "
+#~ "5/13 (ascii) eller 10/26 (hex)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "ugyldig wep-nøgle: adgangsfrase må ikke være tom"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr "ugyldig wep-nøgle: adgangsfrase skal være kortere end 64 tegn"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (forvalg)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Åbent system"
+
+#~ msgid "Shared Key"
+#~ msgstr "Delt nøgle"
+
+#~ msgid "_Key"
+#~ msgstr "_Nøgle"
+
+#~ msgid "Sho_w key"
+#~ msgstr "_Vis nøgle"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP-inde_ks"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "ugyldig wpa-psk: ugyldig nøglelængde %zu. Skal være [8, 63] byte eller 64 "
+#~ "hex-cifre"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr "ugyldig wpa-psk: kan ikke fortolke nøgle med 64 byte som hex"
+
+#~ msgid "_Type"
+#~ msgstr "_Type"
+
+#~ msgid "On"
+#~ msgstr "Slået til"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Påmindelser"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "_Påmindelseslyde"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "_Påmindelsesbannere"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Vis _indhold af meddelelser i bannere"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Påmindelser for _låst skærm"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Vis i_ndhold af meddelelser ved låst skærm"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "På­min­del­ser"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Tilpas hvilke påmindelser der vises, og hvad de viser"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Påmindelser;Banner;Besked;Meddelelse;Statusfelt;Status;Pop;Pop-op;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Påmindelses_bannere"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Påmindelser ved _låst skærm"
+
+#~ msgid "Applications"
+#~ msgstr "Programmer"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Anden"
+
+#~ msgid "Add Account"
+#~ msgstr "Tilføj konto"
+
+#~ msgid "Mail"
+#~ msgstr "Post"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalender"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakter"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Resources"
+#~ msgstr "Ressourcer"
+
+#~ msgid "Error creating account"
+#~ msgstr "Fejl ved oprettelse af konto"
+
+#~ msgid "Error removing account"
+#~ msgstr "Fejl ved sletning af konto"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Er du sikker på, at du vil slette kontoen?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Dette vil ikke slette kontoen på serveren."
+
+#~ msgid "_Remove"
+#~ msgstr "_Fjern"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Online­konti"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "Forbind til dine onlinekonti og beslut dig for hvad du vil bruge dem til"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Internet;Web;Online;Chat;Kalender;Post;E-"
+#~ "post;Mail;Email;E-mail;Kontaktpersoner;ownCloud;Kerberos;IMAP;SMTP;Pocket;"
+#~ "ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Ingen onlinekonti konfigureret"
+
+#~ msgid "Add an online account"
+#~ msgstr "Tilføj en onlinekonto"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Tilføjelse af en konto tillader dine programmer at tilgå den for "
+#~ "dokumenter, e-mail, kontakter, kalender, chat med mere."
+
+#~ msgid "Unknown time"
+#~ msgstr "Ukendt tid"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minut"
+#~ msgstr[1] "%i minutter"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i time"
+#~ msgstr[1] "%i timer"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "time"
+#~ msgstr[1] "timer"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minut"
+#~ msgstr[1] "minutter"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s indtil fuldt opladet"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Bemærk: %s tilbage"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s tilbage"
+
+#~ msgid "Fully charged"
+#~ msgstr "Fuldt opladet"
+
+#~ msgid "Empty"
+#~ msgstr "Tomt"
+
+#~ msgid "Charging"
+#~ msgstr "Oplader"
+
+#~ msgid "Discharging"
+#~ msgstr "På batteri"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Hovedbatteri"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Ekstra"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Trådløs mus"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Trådløst tastatur"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Uafbrydelig strømforsyning"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Personlig digital assistent"
+
+#~ msgid "Cellphone"
+#~ msgstr "Mobiltelefon"
+
+#~ msgid "Media player"
+#~ msgstr "Medieafspiller"
+
+#~ msgid "Tablet"
+#~ msgstr "Tavle-pc"
+
+#~ msgid "Computer"
+#~ msgstr "Computer"
+
+#~ msgid "Battery"
+#~ msgstr "Batteri"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Oplader"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Forsigtig"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Lav"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "God"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Fuldt opladet"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Tomt"
+
+#~ msgid "Batteries"
+#~ msgstr "Batterier"
+
+#~ msgid "When _idle"
+#~ msgstr "Ved _tomgang"
+
+#~ msgid "Power Saving"
+#~ msgstr "Strømbesparelse"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Skærmlysstyrke"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Automatisk lysstyrke"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "_Tastaturlysstyrke"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Dæmp skærmen ved inaktivitet"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Sort skærm"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Sluk wi-fi for at spare strøm."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobilt bredbånd"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr "Sluk mobilt bredbånd (3G, 4G, LTE osv.) for at spare strøm."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Ved batteridrift"
+
+#~ msgid "When plugged in"
+#~ msgstr "Ved ekstern strøm"
+
+#~ msgid "Suspend"
+#~ msgstr "Hvile"
+
+#~ msgid "Hibernate"
+#~ msgstr "Dvale"
+
+#~ msgid "Nothing"
+#~ msgstr "Intet"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Hvile- og tænd/sluk-knap"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Automatisk hvile"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Automatisk hvile"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Når der trykkes på tænd-/sluk-knappen"
+
+#~ msgid "Devices"
+#~ msgstr "Enheder"
+
+# Fejlen er kun vigtig for længere strenge.  Tak til Kris for oprindeligt at have rapporteret denne!!
+#~ msgid "Po­wer"
+#~ msgstr "Strøm"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Vis din batteristatus og skift indstillinger for strømstyring"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Strøm;Sove;Hvile;Dvale;Batteri;Lysstyrke;Dæmp;Dæmpning;Blank;Sort;Skærm;"
+#~ "DPMS;Tomgang;Inaktiv;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minutter"
+
+#~ msgid "1 hour"
+#~ msgstr "1 time"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minutter"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minutter"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minutter"
+
+#~ msgid "2 hours"
+#~ msgstr "2 timer"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minut"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minutter"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minutter"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minutter"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minutter"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minutter"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minutter"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minutter"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Automatisk hvile"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Ekstern strøm"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "På _batteri"
+
+#~ msgid "Delay"
+#~ msgstr "Ventetid"
+
+#~ msgid "Authenticate"
+#~ msgstr "Godkend"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Godkendelse påkrævet"
+
+#~ msgid "Low on toner"
+#~ msgstr "Lavt tonerniveau"
+
+#~ msgid "Out of toner"
+#~ msgstr "Løbet tør for toner"
+
+#~ msgid "Low on developer"
+#~ msgstr "Lavt niveau af fremkaldervæske"
+
+#~ msgid "Out of developer"
+#~ msgstr "Løbet tør for fremkaldervæske"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Markerfarveforsyning lav"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Løbet tør for markerfarve"
+
+#~ msgid "Open cover"
+#~ msgstr "Kabinet åbent"
+
+#~ msgid "Open door"
+#~ msgstr "Låge åben"
+
+#~ msgid "Low on paper"
+#~ msgstr "Lavt papirniveau"
+
+#~ msgid "Out of paper"
+#~ msgstr "Løbet tør for papir"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Ikke tilsluttet"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Standset"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Affaldsbeholderen er næsten fuld"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Affaldsbeholderen er fuld"
+
+# optical photo conductor == lys-lys-leder.  Det er vist lidt dobbeltkonfekt. Den kan vi nok tillade os at skrive ordentligt
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Lyslederen fungerer snart ikke længere"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Lyslederen fungerer ikke længere"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Konfigurerer"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Klar"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Accepterer ikke job"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Behandler"
+
+#~ msgid "Toner Level"
+#~ msgstr "Tonerniveau"
+
+#~ msgid "Ink Level"
+#~ msgstr "Blækniveau"
+
+#~ msgid "Supply Level"
+#~ msgstr "Forsyningsniveau"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Installerer"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktiv"
+#~ msgstr[1] "%u aktive"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Kunne ikke tilføje den nye printer."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Vælg PPD-fil"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript-printerbeskrivelsesfiler (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Ingen passende driver fundet"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Søger efter foretrukne drivere…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Vælg fra database…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Angiv PPD-fil…"
+
+#~ msgid "Test page"
+#~ msgstr "Testside"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Kunne ikke indlæse brugerfladen: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Prin­tere"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr "Tilføj printere, vis printerjob og bestem hvordan du vil udskrive"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Printer;Kø;Print;Papir;Blæk;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Ryd alle"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Ingen aktive printerjobs"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Tilføj en ny printer"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "_Godkend"
+
+#~ msgid "No printers detected."
+#~ msgstr "Ingen printere valgt."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Indtast en netværksadresse eller søg efter en printer"
+
+#~ msgid "Loading options…"
+#~ msgstr "Indlæser indstillinger…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Vælg printerdriver"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Indlæser driverdatabase..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect-printer"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD-printer"
+
+#~ msgid "One Sided"
+#~ msgstr "Enkeltsidet"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Lang kant (standard)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Kort kant (vendt)"
+
+#~ msgid "Portrait"
+#~ msgstr "Portræt"
+
+#~ msgid "Landscape"
+#~ msgstr "Landskab"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Omvendt landskab"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Omvendt portræt"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "I kø"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Pause"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "I gang"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Standset"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Annulleret"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Afbrudt"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Fuldført"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - aktive jobs"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Serielport"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Parallelport"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Placering: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Adresse: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Serveren kræver godkendelse"
+
+#~ msgid "Two Sided"
+#~ msgstr "Dobbeltsidet"
+
+#~ msgid "Paper Type"
+#~ msgstr "Papirtype"
+
+#~ msgid "Paper Source"
+#~ msgstr "Papirkilde"
+
+#~ msgid "Output Tray"
+#~ msgstr "Udskriftsbakke"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript-præfiltrering"
+
+#~ msgid "Pages per side"
+#~ msgstr "Sider pr. ark"
+
+#~ msgid "Two-sided"
+#~ msgstr "Dobbeltsidet"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientering"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Sideopsætning"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Indstillinger for installerbare enheder"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Job"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Billedkvalitet"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Farver"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Færdigbehandling"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Avanceret"
+
+#~ msgid "Auto Select"
+#~ msgstr "Vælg automatisk"
+
+#~ msgid "Printer Default"
+#~ msgstr "Printers standardindstilling"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Indlejr kun GhostScript-skrifttyper"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Konvertér til PS niveau 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Konvertér til PS niveau 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Ingen præfiltrering"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Producent"
+
+#~ msgid "Driver"
+#~ msgstr "Driver"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Indtast dit brugernavn samt adgangskode for at se tilgængelige printere "
+#~ "på %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Tilføj printer"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Fjern printer"
+
+#~ msgid "Supply"
+#~ msgstr "Forsyning"
+
+#~ msgid "Location"
+#~ msgstr "Placering"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Standardprinter"
+
+#~ msgid "Jobs"
+#~ msgstr "Job"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Vis _job"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "label"
+#~ msgstr "etiket"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Angiver ny driver…"
+
+#~ msgid "page 3"
+#~ msgstr "side 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Udskriv _testside"
+
+#~ msgid "_Options"
+#~ msgstr "_Indstillinger"
+
+#~ msgid "No printers"
+#~ msgstr "Ingen printere"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Tilføj en printer"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Beklager! Systemets udskriftstjeneste\n"
+#~ "synes at være utilgængelig."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Skærmlåsning"
+
+#~ msgid "In use"
+#~ msgstr "I brug"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Slået til"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Slået fra"
+
+#~ msgid "Location Services"
+#~ msgstr "Placeringstjenester"
+
+#~ msgid "Usage & History"
+#~ msgstr "Brug & historik"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Tøm papirkurven for alle elementer?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Alle elementer i papirkurven vil blive slettet permanent."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Tøm papirkurv"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Slet alle de midlertidige filer?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Alle de midlertidige filer vil blive slettet permanent."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Slet midlertidige filer"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Tøm papirkurv & midlertidige filer"
+
+#~ msgid "Software Usage"
+#~ msgstr "Programforbrug"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Problemrapportering"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Afsendelse af rapporter om tekniske problemer hjælper os med at forbedre "
+#~ "%s. Rapporterne sendes anonymt og renses for personlige data."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Privatlivspolitik"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Pri­vat­liv"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "Beskyt dine personlige oplysninger og bestem hvad andre kan se"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "skærm;lås;diagnostik;baglås;nedbrud;privat;seneste;midlertidig;tmp;indeks;"
+#~ "navn;netværk;identitet;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Skærmen slukkes"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 sekunder"
+
+#~ msgid "1 day"
+#~ msgstr "1 dag"
+
+#~ msgid "2 days"
+#~ msgstr "2 dage"
+
+#~ msgid "3 days"
+#~ msgstr "3 dage"
+
+#~ msgid "4 days"
+#~ msgstr "4 dage"
+
+#~ msgid "5 days"
+#~ msgstr "5 dage"
+
+#~ msgid "6 days"
+#~ msgstr "6 dage"
+
+#~ msgid "7 days"
+#~ msgstr "7 dage"
+
+#~ msgid "14 days"
+#~ msgstr "14 dage"
+
+#~ msgid "30 days"
+#~ msgstr "30 dage"
+
+#~ msgid "Forever"
+#~ msgstr "Altid"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Ting bliver nemmere at finde igen hvis din historik huskes. Disse ting "
+#~ "deles aldrig over netværket."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Seneste"
+
+#~ msgid "Retain _History"
+#~ msgstr "Gem _historik"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "_Ryd seneste historik"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Skærmlåsningen beskytter dit privatliv når du er væk."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Automatisk skærm_låsning"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Lås skærmen _efter sort skærm i"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Vis _påmindelser"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Tøm automatisk papirkurven og slet midlertidige filer for at holde din "
+#~ "computer fri for unødvendige private oplysninger."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Tøm automatisk _papirkurv"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Slet automatisk midlertidige _filer"
+
+#~ msgid "Purge _After"
+#~ msgstr "Ryd _efter"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Hvis du sender os informationer om hvilke programmer du bruger, hjælper "
+#~ "du os med at give dig mere nøjagtige anbefalinger. Det hjælper os også "
+#~ "med at forbedre vores programmer.\n"
+#~ "\n"
+#~ "Alle oplysningerne, vi samler sammen, gøres anonym og vi vil aldrig dele "
+#~ "dine data med nogen tredjepart."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "_Send statistik om softwarebrug"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Placeringstjenester lader programmer vide hvor du er. Brug af wi-fi og "
+#~ "mobilt bredbånd forøger præcisionen."
+
+#~ msgid "_Location Services"
+#~ msgstr "_Placeringstjenester"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Automatisk problemrapportering"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Britisk"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrisk"
+
+#~ msgid "No regions found"
+#~ msgstr "Ingen regioner fundet"
+
+#~ msgid "No input sources found"
+#~ msgstr "Ingen inputkilder fundet"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Anden"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Dine sessioner skal genstartes for at ændringerne træder i kraft"
+
+#~ msgid "Restart Now"
+#~ msgstr "Genstart nu"
+
+#~ msgid "No input source selected"
+#~ msgstr "Ingen inputkilder valgt"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Login_skærm"
+
+#~ msgid "Formats"
+#~ msgstr "Formater"
+
+#~ msgid "Preview"
+#~ msgstr "Forhåndsvisning"
+
+#~ msgid "Dates"
+#~ msgstr "Datoer"
+
+#~ msgid "Times"
+#~ msgstr "Tider"
+
+#~ msgid "Numbers"
+#~ msgstr "Tal"
+
+#~ msgid "Measurement"
+#~ msgstr "Mål"
+
+#~ msgid "Paper"
+#~ msgstr "Papir"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Re­gion & sprog"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr "Vælg sprog, formater, tastaturlayout samt inputkilder"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Sprog;Layout;Tastatur;Input;Inddata;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Tilføj en inputkilde"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Indtastningsmetoder kan ikke bruges i loginskærmen"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Indstillinger for inputkilde"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Brug _samme kilde i alle vinduer"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Tillad _forskellige kilder i hvert vindue"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Tastaturgenveje"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Skift til forrige kilde"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Skift+Mellemrum"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Skift til næste kilde"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Mellemrum"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Du kan ændre disse genvejstaster i tastaturindstillingerne"
+
+# ???
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Alternativt skift til næste kilde"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Venstre+højre Alt"
+
+#~ msgid "_Language"
+#~ msgstr "_Sprog"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Engelsk (Storbritannien)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formater"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Storbritannien"
+
+#~ msgid "Input Sources"
+#~ msgstr "Inputkilder"
+
+#~ msgid "Add input source"
+#~ msgstr "Tilføj inputkilde"
+
+#~ msgid "Remove input source"
+#~ msgstr "Fjern inputkilde"
+
+#~ msgid "Move input source up"
+#~ msgstr "Flyt inputkilde opad"
+
+#~ msgid "Move input source down"
+#~ msgstr "Flyt inputkilde ned"
+
+#~ msgid "Configure input source"
+#~ msgstr "Konfigurér inputkilde"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Vis tastaturlayout for inputkilde"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Indstillinger for login gælder for alle brugere når de logger ind på "
+#~ "systemet"
+
+#~ msgid "Select Location"
+#~ msgstr "Vælg sted"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "No applications found"
+#~ msgstr "Ingen programmer fundet"
+
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Bestem hvilke programmer, der viser søgeresultater i aktivitetsoversigten"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Søg;Find;Indeks;Skjul;Privatliv;Resultater;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Søgesteder"
+
+#~ msgid "Places"
+#~ msgstr "Steder"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Bogmærker"
+
+# andet end bogmærker, steder
+#~ msgid "Other"
+#~ msgstr "Andet"
+
+#~ msgid "Move Up"
+#~ msgstr "Flyt op"
+
+#~ msgid "Move Down"
+#~ msgstr "Flyt ned"
+
+#~ msgid "Preferences"
+#~ msgstr "Indstillinger"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Ingen netværk valgt til deling"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Slået til"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Slået fra"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Aktiveret"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktiv"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Vælg en mappe"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Personlig fildeling lader dig dele mappen Offentligt med andre på dit "
+#~ "nuværende netværk gennem: <a href=\"dav://%s\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Når fjernlogind er slået til, kan fjernbrugere forbinde via ssh-"
+#~ "kommandoen (Secure Shell):\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Skærmdeling lader fjernbrugere se eller styre din skærm ved at forbinde "
+#~ "til <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiér"
+
+#~ msgid "Sharing"
+#~ msgstr "Deling"
+
+#~ msgid "Sha­ring"
+#~ msgstr "De­ling"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Bestem hvad du vil dele med andre"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "del;deling;ssh;vært;navn;fjern;skrivebord;medie;lyd;video;billeder;fotos;"
+#~ "film;videoer;server;rendering;"
+
+#~ msgid "Networks"
+#~ msgstr "Netværk"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Slå fjernlogin til eller fra"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Der kræves godkendelse for at kunne aktivere eller deaktivere fjernlogin"
+
+#~ msgid "_Computer Name"
+#~ msgstr "_Computernavn"
+
+#~ msgid "_File Sharing"
+#~ msgstr "_Fildeling"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "_Skærmdeling"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "_Mediedeling"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Fjernlogin"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Visse tjenester er deaktiveret fordi der ikke er netværksadgang."
+
+#~ msgid "File Sharing"
+#~ msgstr "Fildeling"
+
+#~ msgid "_Require Password"
+#~ msgstr "_Kræv adgangskode"
+
+#~ msgid "Remote Login"
+#~ msgstr "Fjernlogin"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Skærmdeling"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "_Tillad at forbindelser styrer skærmen"
+
+#~ msgid "_Password:"
+#~ msgstr "_Adgangskode:"
+
+#~ msgid "_Show Password"
+#~ msgstr "_Vis adgangskode"
+
+#~ msgid "Access Options"
+#~ msgstr "Adgangsindstillinger"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "_Nye forbindelser skal bede om adgang"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Kræv en adgangskode"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Mediedeling"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Del musik, billeder og videoer over netværket."
+
+#~ msgid "Folders"
+#~ msgstr "Mapper"
+
+#~ msgid "Sound"
+#~ msgstr "Lyd"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Skift lydstyrke, input, output samt påmindelseslyde"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Kort;Mikrofon;Volumen;Lydstyrke;Fade;Udtoning;Balance;Bluetooth;"
+#~ "Hovedtelefoner;Lyd;Audio;"
+
+#~ msgid "Bark"
+#~ msgstr "Gø"
+
+#~ msgid "Drip"
+#~ msgstr "Dryp"
+
+#~ msgid "Glass"
+#~ msgstr "Glas"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Højre"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Bag"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "For"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimum"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maksimum"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Balance:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Udtoning:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Subwoofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Uforstærket"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u output"
+#~ msgstr[1] "%u outputs"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u input"
+#~ msgstr[1] "%u inputs"
+
+#~ msgid "System Sounds"
+#~ msgstr "Systemlyde"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Afprøv højttalere"
+
+#~ msgid "Peak detect"
+#~ msgstr "Top-bestemmelse"
+
+#~ msgid "Device"
+#~ msgstr "Enhed"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Tester højttaler for %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Lydstyrke for _afspilning:"
+
+#~ msgid "Output"
+#~ msgstr "Afspilning"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Vælg en enhed til lydafspilning:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Indstillinger for den valgte enhed:"
+
+#~ msgid "Input"
+#~ msgstr "Optagelse"
+
+#~ msgid "_Input volume:"
+#~ msgstr "_Optagelydstyrke:"
+
+#~ msgid "Input level:"
+#~ msgstr "Optageniveau:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Vælg en enhed til lydoptagelse:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Lydeffekter"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "_Påmindelseslydstyrke:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Intet program afspiller eller optager lyd lige nu."
+
+#~ msgid "Built-in"
+#~ msgstr "Indbygget"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Lydindstillinger"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Tester begivenhedslyd"
+
+#~ msgid "Default"
+#~ msgstr "Forvalg"
+
+#~ msgid "From theme"
+#~ msgstr "Fra tema"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Vælg en påmindelseslyd:"
+
+#~ msgid "Stop"
+#~ msgstr "Stop"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Tilpasset"
+
+# scootergrisen: måske oversæt "Universal Access" til "Adgang for alle" her og andre steder
+# scootergrisen: "Tilgængelighed" kan også fint bruges men passer måske bedre til "Accessibility"
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Til­gæn­ge­lig­hed"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Gør det nemmere at se, høre, skrive, pege og klikke"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Tastatur;Mus;a11y;Tilgængelighed;Kontrast;Zoom;Skærm;Skærmoplæser;Oplæser;"
+#~ "tekst;skrifttype;størrelse;AccessX;Klæbetaster;Langsomme taster;"
+#~ "Rystetaster;Musetaster;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Vis altid tilgængelighedsmenu"
+
+#~ msgid "Seeing"
+#~ msgstr "Syn"
+
+# scootergrisen: måske "Stor kontrast"
+#~ msgid "_High Contrast"
+#~ msgstr "_Høj kontrast"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Stor tekst"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Zoom"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "Skærmop_læser"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Lydtaster"
+
+#~ msgid "Hearing"
+#~ msgstr "Hørelse"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Visuelle påmindelser"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Skærm_tastatur"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "_Gentagende taster"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_Markørblink"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Skrivehjælp (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Pege og klikke"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Musetaster"
+
+#~ msgid "_Click Assist"
+#~ msgstr "_Klikhjælp"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Ventetid for _dobbeltklik"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Ventetid for dobbeltklik"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Skærmoplæser"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Skærmlæseren læser den viste tekst, efterhånden som du flytter fokus."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Skærmoplæser"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Lydtaster"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Bip når Num Lock og Caps Lock slås til eller fra."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Visuelle påmindelser"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Test blink"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Brug et visuelt signal når der gives en lydpåmindelse."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Blink med vinduets _titellinje"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Blink med hele _skærmen"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Gentagende taster"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Gentag tastetryk når en tast holdes nede."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Ventetid for gentagende taster"
+
+#~ msgid "Speed"
+#~ msgstr "Hastighed"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Taste-gentagelseshastighed"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Markørblink"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Markør blinker i tekstfelter."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Markørblinkehastighed"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Skrivehjælp"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Klæbetaster"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Behandler en sekvens af modifikationstaster som en tastekombination"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Deaktivér hvis to taster holdes nede samtidig"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Bip når der trykkes på en _modifikationstast"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Langsomme taster"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Indsætter ventetid mellem at en tast trykkes, og at den accepteres"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Ventetid for _accept:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Ventetid for langsomme taster"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Bip når der try_kkes på en tast"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Bip når en tast _accepteres"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Bip når en tast _afvises"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Rystetaster"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignorerer hurtige dobbelte tastetryk"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Ventetid for rystetaster"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Slå til med tastatur"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Slå tilgængelighedsfaciliteter til og fra ved hjælp af tastaturet"
+
+#~ msgid "Click Assist"
+#~ msgstr "Klikhjælp"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Simuleret sekundært klik"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Udløs et sekundært klik ved at holde den primære tast nede"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Ventetid ved sekundært klik"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "_Hover Click"
+#~ msgstr "_Svæveklik"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Udløs et klik når markøren svæver"
+
+#~ msgid "D_elay:"
+#~ msgstr "V_entetid:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "_Bevægelsestærskel:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Lille"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ skærm"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ skærm"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ skærm"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~ msgid "Full Screen"
+#~ msgstr "Fuldskærm"
+
+#~ msgid "Top Half"
+#~ msgstr "Øverste halvdel"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Nederste halvdel"
+
+#~ msgid "Left Half"
+#~ msgstr "Venstre halvdel"
+
+#~ msgid "Right Half"
+#~ msgstr "Højre halvdel"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Indstillinger for zoom"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Forstørrelse:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Følg musemarkør"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Skærmdel:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "_Forstørrelsen går ud over skærmkanten"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "_Behold forstørrelsesmarkøren centreret"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Forstørrelsesmarkøren _skubber indholdet omkring"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Forstørrelsesmarkøren flytter med _indholdet"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Position af forstørrelsesglas:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Forstørrelsesglas"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Tykkelse:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Tynd"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Tyk"
+
+#~ msgid "_Length:"
+#~ msgstr "_Længde:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "_Farve:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "_Sigtekorn:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "_Overlapper musemarkør"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Sigtekorn"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Hvid på sort:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Lysstyrke:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Kontrast:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "_Farve"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Fuld"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Lav"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Høj"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Lav"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Høj"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Farveeffekter:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Farveeffekter"
+
+#~ msgid "You are Offline"
+#~ msgstr "Du er ikke tilsluttet"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Tilknyt"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Håndtér brugerkonti"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Godkendelse påkrævet for at kunne ændre brugerdata"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Tildel knapper"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Tildel funktioner til knapper"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Redigér en genvej ved at vælge handlingen \"Send tastetryk\", klik på "
+#~ "tastaturgenvejstasten og hold de nye taster nede. Brug slet tilbage-"
+#~ "tasten for at rydde."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Rør ved målmarkørerne efterhånden som de vises på skærmen for at "
+#~ "kalibrere tavle-pc'en."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Fejlklik detekteret, genstarter..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Op"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Ned"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Send tastetryk"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Skift skærm"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Vis hjælp på skærmen"
+
+#~ msgid "Output:"
+#~ msgstr "Output:"
+
+# "letterbox" er når man beskærer så der kommer en sort rand som på film når fjernsyns- og biografformater ikke passer.  http://en.wikipedia.org/wiki/Letterbox
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Behold højde-/breddeforhold (beskær):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Afbild til enkelt skærm"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d af %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Skærmafbildning"
+
+#~ msgid "Button"
+#~ msgstr "Knap"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wa­com-tegne­plade"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Angiv tasteafbildninger og justér følsomhed for digital pen til grafik-"
+#~ "tavle-pc'er"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tegneplade;Wacom;Pen;Viskelæder;Mus;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tegneplade (absolut)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Touchpad (relativ)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Indstillinger for tegneplade"
+
+#~ msgid "_Help"
+#~ msgstr "_Hjælp"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Ingen tegneplade fundet"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Vær venlig at tilslutte eller tænde din Wacon-tegneplade"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth-indstillinger"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom-tegneplade"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Tildel skærm…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Tildel knapper…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibrer…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Justér skærmopløsning"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Justér museindstillinger"
+
+# Aner ikke hvad de snakker om!
+#~ msgid "Tracking Mode"
+#~ msgstr "Sporingstilstand"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Venstrehånds-museorientering"
+
+#~ msgid "Left Ring"
+#~ msgstr "Venstre ring"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Venstre ringtilstand #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Højre ring"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Højre ringtilstand #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Venstre berøringsstribe"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Venstre berøringsstribetilstand #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Højre berøringsstribe"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Højre berøringsstribetilstand #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Tilstandsskift for venstre berøringsring"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Tilstandsskift for højre berøringsring"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Tilstandsskift for venstre berøringsstribe"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Tilstandsskift for højre berøringsstribe"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Tilstandsskift #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Venstre knap #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Højre knap #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Øverste knap #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Nederste knap #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Ny genvej…"
+
+#~ msgid "No Action"
+#~ msgstr "Ingen handling"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Venstre museklik"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Midterklik på musen"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Klik på højre museknap"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Rul opad"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Rul nedad"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Rul til venstre"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Rul til højre"
+
+#~ msgid "Back"
+#~ msgstr "Tilbage"
+
+#~ msgid "Forward"
+#~ msgstr "Fremad"
+
+#~ msgid "Stylus"
+#~ msgstr "Pen"
+
+# Måske?
+# scootergrisen: "pressure fell" kunne måske oversættes til "trykfølsomhed"
+# scootergrisen: måske "Viskelæderets trykfølsomhed"
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Følelsen af pres med viskelæder"
+
+#~ msgid "Soft"
+#~ msgstr "Blødt"
+
+#~ msgid "Firm"
+#~ msgstr "Fast"
+
+#~ msgid "Top Button"
+#~ msgstr "Øverste knap"
+
+#~ msgid "Lower Button"
+#~ msgstr "Underste knap"
+
+# scootergrisen: "pressure fell" kunne måske oversættes til "trykfølsomhed"
+# scootergrisen: måske "Spidsens trykfølsomhed"
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Følelsen af pres med spidsen"
+
+#~ msgid "All Settings"
+#~ msgstr "Alle indstillinger"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "GNOME Kontrolcenter"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Redskaber til at konfigurere GNOMEs skrivebord"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Kontrolcenteret er GNOMEs hovedgrænseflade til konfiguration af "
+#~ "forskellige aspekter af dit skrivebord."
+
+#~ msgid "Display version number"
+#~ msgstr "Vis versionsnummer"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Brug uddybende tilstand"
+
+#~ msgid "Show the overview"
+#~ msgstr "Vis oversigten"
+
+#~ msgid "Search for the string"
+#~ msgstr "Søg efter strengen"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Vis mulige panelnavne og afslut"
+
+#~ msgid "Panel to display"
+#~ msgstr "Panel der skal vises"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Tilgængelige paneler:"
+
+#~ msgid "Help"
+#~ msgstr "Hjælp"
+
+#~ msgid "Quit"
+#~ msgstr "Afslut"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Personligt"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Indstillinger;Opsætning;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Afslut"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Søg"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Paneler"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Gå tilbage til oversigten"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Afbryd søgning"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~ msgid "Keyboard shortcut for <b>%s</b>. Enter new shortcut to change."
+#~ msgstr "Tastaturgenvej for <b>%s</b>. Indtast ny genvej for at ændre."
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "En genvejstast ændres ved at klikke på rækken og trykke på den nye tast, "
+#~ "eller trykke tilbagetast for at rydde."
+
+#~ msgid "Color"
+#~ msgstr "Farver"
+
+#~ msgid "_Name:"
+#~ msgstr "_Navn:"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Fjern genvej"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<ukendt handling>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Genvejen \"%s\" kan ikke bruges da det derved vil være umuligt at skrive "
+#~ "med denne tast.\n"
+#~ "Prøv venligst med f.eks. Ctrl-, Alt- eller Skift-tasten på samme tid."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Genvejen \"%s\" bliver allerede benyttet til\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Hvis du laver genvejen til \"%s\" om, vil \"%s\"-genvejen blive "
+#~ "deaktiveret."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Omtildel"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "Genvejen \"%s\" er associeret med \"%s\"-genvejen. Ønsker du at sætte den "
+#~ "til \"%s\" automatisk?"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" er i øjeblikket associeret med \"%s\", denne genvej blive "
+#~ "deaktiveret hvis du vælger at fortsætte."
+
+#~ msgid "_Assign"
+#~ msgstr "_Tildel"
+
+#~ msgid "Bond"
+#~ msgstr "Binding"
+
+#~ msgid "Team"
+#~ msgstr "Hold"
+
+#~ msgid "Bridge"
+#~ msgstr "Bro"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Kunne ikke indlæse VPN-udvidelsesmoduler"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Tilføj netværksforbindelse"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Bindingsslaver"
+
+#~ msgid "(none)"
+#~ msgstr "(intet)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Bro-slaver"
+
+#~ msgid "Team slaves"
+#~ msgstr "Holdslaver"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "InfiniBand-enhed understøtter ikke forbundet tilstand"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Intet certifikat fra certifikatautoritet valgt"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Hvis man ikke bruger et certifikat fra en certifikatautoritet (CA), kan "
+#~ "man komme til at forbinde til usikre, fjendtligtsindede netværk.  Vil du "
+#~ "vælge et certifikat fra en certifikatautoritet?"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignorér"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Vælg CA-certifikat"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "Sp_ørg efter denne adgangskode hver gang"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "_Advar mig ikke igen"
+
+#~ msgid "No"
+#~ msgstr "Nej"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Fejl ved log ind til kontoen"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Akkreditiver udløbet."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Log ind for at aktivere denne konto."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Log ind"
+
+#~ msgid "Power"
+#~ msgstr "Strøm"
+
+#~ msgid "Privacy"
+#~ msgstr "Privatliv"
+
+# Flertal med vilje
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Andre"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Personlig fildeling"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "_Tillad fjernstyring"
+
+#~ msgid "_Verify"
+#~ msgstr "_Verificér"
+
+#~ msgid "Login History"
+#~ msgstr "Loginhistorik"
+
+#~ msgid "Add User Account"
+#~ msgstr "Tilføj brugerkonti"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Fjern brugerkonti"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Der findes allerede en bruger med brugernavnet \"%s\"."
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Bruges til at bestemme din geografiske placering"

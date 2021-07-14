@@ -1,0 +1,1862 @@
+# Burmese Translations of gnome-control-center
+# Copyright (C) 2011 Myanmar L10n Team
+# This file is distributed under the same license as the above package.
+# ye`monkyaw <yemonkyaw007@gmail.com>, 2011.
+# Thura Hlaing <trhura@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2011-10-14 00:28+0630\n"
+"Last-Translator: Thura Hlaing <trhura@gmail.com>\n"
+"Language-Team: Burmese <my-l10n-team@googlegroups.com>\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Burmese\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: MYANMAR\n"
+"X-Generator: Narro 0.9.4 on http://translate.libreworks.info\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "_S အသုံးပြုအမည်"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "အမည်အပြည့်အစုံ"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "အချက်ပေးအမျိုးအစား"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_P စကားဝှက်"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_N စကားဝှက်အသစ်"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_P စကားဝှက်"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+#, fuzzy
+msgid "_Enterprise Login"
+msgstr "လက်ဗွေမှတ်စနစ်ဖြင့်ဝင်ရောက်ခြင်းကိုအသုံးပြုပါ"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "ညာလက်မ"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "ညာလက်ခလယ်"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "ညာလက်သူကြွယ်"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "ညာလက်သန်း"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "လက်ဗွေမှတ်စနစ်ဖြင့်ဝင်ရောက်ခြင်းကိုအသုံးပြုပါ"
+
+#: ../data/account-fingerprint.ui.h:10
+#, fuzzy
+msgid "_Right index finger"
+msgstr "ညာလက်ညှိုး"
+
+#: ../data/account-fingerprint.ui.h:11
+#, fuzzy
+msgid "_Left index finger"
+msgstr "ညာလက်ညှိုး"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "စကားဝှက်ပြောင်းပါ"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_N စကားဝှက်အသစ်"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_N စကားဝှက်အသစ်"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "လက်ရှိစကားဝှက်"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_N စကားဝှက်အသစ်"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "_Fingerprint Login"
+msgstr "လက်ဗွေမှတ်စနစ်ဖြင့်ဝင်ရောက်ခြင်းကိုအသုံးပြုပါ"
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "အသုံးပြုမည့်အမည်"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr ""
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "_D လက်ဗွေမှတ်စနစ်ကိုဖျက်သိမ်း"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "ဖိုင်အားလုံး"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "\"%s\" ကိုဖျက်ပစ်တော့မှာလား"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "ဖျက်ပစ်ပါ"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "မသတ်မှတ်ထား"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+#, fuzzy
+msgid "Create a user account"
+msgstr "နေရာအသစ်ထည့်"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+#, fuzzy
+msgid "My Account"
+msgstr "_C နိုင်ငံအရ"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "စကားဝှက်မှားနေသည်"
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "အသိအမှတ်ပြုသည်"
+
+#: ../src/run-passwd.c:493
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "စကားဝှက်တိုလွန်းသည်"
+
+#: ../src/run-passwd.c:501
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "စကားဝှက်ကအရမ်းလွယ်လွန်းသည်"
+
+#: ../src/run-passwd.c:509
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "စကားဝှက်အဟောင်းနှင့်အသစ်ပေးတဲ့စကားဝှက်တူနေသည်"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "စကားဝှက်အသစ်က လက်တလောအသုံးပြုထားပြီးဖြစ်သည်"
+
+#: ../src/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "စကားဝှက်မှာ ဂဏန်းများနှင့် အထူးပြုအက္ခရာများပါဝင်ရမည်"
+
+#: ../src/run-passwd.c:525
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "စကားဝှက်အဟောင်းနှင် အသစ်တူညီနေသည်"
+
+#: ../src/run-passwd.c:530
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "စကားဝှက်ပထမအကြီမ်အသိအမှတ်ပြုစဉ်ကတည်းကပြောင်းသွားပြီ ပြန်အသိအမှတ်ပြုခြင်းလုပ်ဆောင်ပါ"
+
+#: ../src/run-passwd.c:535
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "စကားဝှက်မှာ ဂဏန်းများနှင့် အထူးပြုအက္ခရာများပါဝင်ရမည်"
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "အမည်မဲ့"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "စကားဝှက်တိုလွန်းသည်"
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "_A ထည့်ရန်"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr ""
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "ဒရိုက်ဗ်သို့ဝင်ရောက်ခွင့်မရှိပါ စနစ်ပိုင်းခန့်ခွဲသူကိုဆက်သွယ်ပါ"
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "ဤဒရိုက်ဗ်ကိုအသုံးပြုထားသည်"
+
+#: ../src/um-fingerprint-dialog.c:143
+#, fuzzy
+msgid "An internal error occurred."
+msgstr "စနစ်ပိုင်းဆိုင်ရာအမှားဖြစ်ပွားသည်"
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "_D အသုံးမပြု"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "မှတ်ပုံတင်ထားသည့်လက်ဗွေမှတ်စနစ်ကိုဖျက်သိမ်း"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_D လက်ဗွေမှတ်စနစ်ကိုဖျက်သိမ်း"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr "အသုံးပြုရန်မှတ်ပုံတင်ထားသည့် လက်ဗွေကိုဖျက်ပစ်မလား ဖျက်မယ်ဆိုရင် လက်ဗွေစနစ်ဖြင်မဝင်ရောက်နိုင်တော့ပါ"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "ပြီးဆုံး"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "ဒရိုက်ဗ် '%s' ကိုဝင်လို့မရပါ"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "ဒရိုက်ဗ် '%s'မှာလက်ဗွေမှတ်ခြင်းကိုမလုပ်ဆောင်နိုင်ပါ"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "လက်ဗွေမှတ်ကရိယာကိုအသုံးမပြုနိုင်ပါ"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "အကူအညီအတွက် စနစ်ပိုင်းဆိုင်ရာခန့်ခဲ့သူနဲ့ဆက်သွယ်ပါ"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "လက်ချောင်းရွေးပါ"
+
+#: ../src/um-fingerprint-dialog.c:736
+#, fuzzy
+msgid "Enrolling fingerprints"
+msgstr "_D လက်ဗွေမှတ်စနစ်ကိုဖျက်သိမ်း"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+#, fuzzy
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b %d %Y"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+#, fuzzy
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%b %d %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "<b>စကားဝှက်အသစ်</b> ရိုက်ရန်နေရာတွင် စကားဝှက်ကိုရိုက်ထည့်ပေးပါ "
+
+#: ../src/um-password-dialog.c:166
+#, fuzzy
+msgid "Password could not be changed"
+msgstr "စကားဝှက်ကိုပြောင်းပြီးပြီ"
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_S ရွေးချယ်ပါ"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "_D အသုံးမပြု"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "စကားဝှက်တိုလွန်းသည်"
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+#, fuzzy
+msgid "Yesterday"
+msgstr "မနေ့က  %l:%M %p"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+#, fuzzy
+msgid "%b %e"
+msgstr "%b %d %Y"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+#, fuzzy
+msgid "%b %e, %Y"
+msgstr "%b %d %Y"
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_N စကားဝှက်အသစ်"
+
+#~ msgid "Current network location"
+#~ msgstr "လက်ရှိကွန်ရက်တည်နေရာ"
+
+#~ msgid "The type of alert"
+#~ msgstr "အချက်ပေးပုံစံ"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "အချက်ပေးခလုတ်များ"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "အချက်ပေးဖောင်တွင်ပြမည့်ခလုတ်များ"
+
+#~ msgid "Show more _details"
+#~ msgstr "အသေးစိတ်ကြည့်ရန်"
+
+#~ msgid "Select Image"
+#~ msgstr "ပုံရွေးပါ"
+
+#~ msgid "No Image"
+#~ msgstr "ပုံမရှိပါ"
+
+#~ msgid "Images"
+#~ msgstr "ပုံများ"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "လိပ်စာစာရင်းကိုဖွင့်၍မရပါ"
+
+#, c-format
+#~ msgid "About %s"
+#~ msgstr "%s အကြောင်း"
+
+#~ msgid "A_ddress:"
+#~ msgstr "လိပ်စာ"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "လက်ထောက်"
+
+#~ msgid "About Me"
+#~ msgstr "ကျွန်တော့်အကြောင်း"
+
+#~ msgid "Address"
+#~ msgstr "နေရပ်လိပ်စာ"
+
+#~ msgid "C_ity:"
+#~ msgstr "မြို့"
+
+#~ msgid "C_ompany:"
+#~ msgstr "ကုမ္မဏီ"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "စကားဝှက်ပြောင်းရန်"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "_T မြို့"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_U နိုင်ငံ"
+
+#~ msgid "Contact"
+#~ msgstr "ဆက်သွယ်ရန်"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_N  နိုင်ငံ"
+
+#~ msgid "Disable _Fingerprint Login..."
+#~ msgstr "_F လက်ဗွေစနစ်ဖြင့်ဝင်ရောက်မှုကိုပယ်ဖျက်"
+
+#~ msgid "Email"
+#~ msgstr "အီးမေးလ်"
+
+#~ msgid "Enable _Fingerprint Login..."
+#~ msgstr "လက်ဗွေစနစ်ဖြင့်ဝင်ရောက်မှုကိုအသုံးပြု"
+
+#~ msgid "Hom_e:"
+#~ msgstr "_E အိမ်ဖုန်း"
+
+#~ msgid "Home"
+#~ msgstr "အိမ်လိပ်စာ"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "အင်တာနက်ဆက်သွယ်မှု"
+
+#~ msgid "Job"
+#~ msgstr "အလုပ်အကိုင်"
+
+#~ msgid "Personal Info"
+#~ msgstr "ကိုယ်ရေးရာဇဝင်"
+
+#~ msgid "Select your photo"
+#~ msgstr "ဓာတ်ပုံရွေးပါ"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "_V ပြည်နယ်/စီရင်စု"
+
+#~ msgid "Telephone"
+#~ msgstr "တယ်လီဖုန်းနံပါတ်"
+
+#~ msgid "Web"
+#~ msgstr "ဝဘ်"
+
+#~ msgid "Web _log:"
+#~ msgstr "_L ဝဘ်မှတ်သားချက်"
+
+#~ msgid "Wor_k:"
+#~ msgstr "_K အလုပ်ဖုန်း"
+
+#~ msgid "Work"
+#~ msgstr "အလုပ်အကိုင်"
+
+#~ msgid "Work _fax:"
+#~ msgstr "ရုံး၏ ဖက်(စ်)"
+
+#~ msgid "_Address:"
+#~ msgstr "_A လိပ်စာ"
+
+#~ msgid "_Department:"
+#~ msgstr "_D ဌာန"
+
+#~ msgid "_Home page:"
+#~ msgstr "_H အင်တာနက်စာမျက်နှာ"
+
+#~ msgid "_Manager:"
+#~ msgstr "_M မန်နေဂျာ"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_M မိုဘိုင်းဖုန်း"
+
+#~ msgid "_Profession:"
+#~ msgstr "_P ကျွမ်းကျင်မှု/စိတ်ဝင်စားမှု"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_S ပြည်နယ်/စီရင်စု"
+
+#~ msgid "_Title:"
+#~ msgstr "_T ခေါင်းစဉ်"
+
+#~ msgid "_Work:"
+#~ msgstr "_W အလုပ်"
+
+#~ msgid "Set your personal information"
+#~ msgstr "ကိုယ်ရေးအချက်အလက်များကိုသတ်မှတ်ပါ"
+
+#, c-format
+#~ msgid "System error: %s."
+#~ msgstr "စနစ်ပိုင်းဆိုင်ရာအမှား : %s."
+
+#, c-format
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr " %s: %s ကိုဖွင့်မရဘူး"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "စနစ်ပိုင်းဆိုင်ရာအမှားဖြစ်သွားသည်"
+
+#~ msgid "Checking password..."
+#~ msgstr "စကားဝှက်ကို စစ်နေသည်"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "စကားဝှက်အသစ်ပြောင်းရန်  <b>စကားဝှက်ပြောင်း</b>ကိုနှိပ်ပါ"
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr "<b>စကားဝှက်ပြန်ရိုက်ရန်</b>နေရာတွင် စကားဝှက်ကိုပြန်ရိုက်ထည့်ပေးပါ"
+
+#~ msgid "The two passwords are not equal."
+#~ msgstr "စကားဝှက်နှစ်လုံးတူညီမှုမရှိပါ"
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "_S စကားဝှက်ကိုပြောင်း"
+
+#~ msgid "Change your password"
+#~ msgstr "စကားဝှက်ပြောင်းခြင်း"
+
+#~ msgid ""
+#~ "To change your password, enter your current password in the field below "
+#~ "and click <b>Authenticate</b>.\n"
+#~ "After you have authenticated, enter your new password, retype it for "
+#~ "verification and click <b>Change password</b>."
+#~ msgstr ""
+#~ "စကားဝှက်ကိုပြောင်းရန် စကားဝှက်ကို အောက်တွင်မြင်ရသည့် စကားဝှက်များရိုက်ရန် နေရာတွင်ရိုက်၍ <b>အသိအမှတ်ပြု</"
+#~ "b>  ဆိုသည့်ခလုတ်ကိုနှိပ်ပါ"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_A အသိအမှတ်ပြု"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_R စကားဝှက်ကိုပြန်ရိုက်ရန်"
+
+#~ msgid "Preferences"
+#~ msgstr "လိုလားချက်"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_P ပိုကြိုက်အပ္ပလီကေးရှင်း"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "နောက်ခံပုံထည့်"
+
+#~ msgid "All files"
+#~ msgstr "ဖိုင်အားလုံး"
+
+#~ msgid "Font may be too large"
+#~ msgstr "ဖောင့်အရွယ်အစားကြီးလွန်းသည်"
+
+#~ msgid "Use previous font"
+#~ msgstr "အရင်ဖောင့်ပြန်သုံး"
+
+#~ msgid "Use selected font"
+#~ msgstr "ရွေးထားသည့်ဖောင့်ကိုသုံးမည်"
+
+#~ msgid "filename"
+#~ msgstr "ဖိုင်အမည်"
+
+#~ msgid "Apply Background"
+#~ msgstr "နောက်ခံပုံသတ်မှတ်"
+
+#~ msgid "Apply Font"
+#~ msgstr "ဖောင့်ကိုသုံးပါ"
+
+#~ msgid "Custom"
+#~ msgstr "စိတ်ကြိုက်"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "ပုံပန်းသွင်ပြင် လိုလားချက်"
+
+#~ msgid "Background"
+#~ msgstr "နောက်ခံပုံ"
+
+#~ msgid "C_olors:"
+#~ msgstr "_O အရောင်"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "_U စိတ်ကြိုက်"
+
+#~ msgid "Center"
+#~ msgstr "ဗဟို"
+
+#~ msgid "Colors"
+#~ msgstr "အရောင်"
+
+#~ msgid "Customize Theme"
+#~ msgstr "စိတ်ကြိုက် အမြင်အဆင်"
+
+#~ msgid "D_etails..."
+#~ msgstr "_E အသေးစိတ်"
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "_K အလုပ်ခုံဖောင့်"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "ဖောင့် အသေးစိတ်ပုံဖော်မှု"
+
+#~ msgid "Fonts"
+#~ msgstr "စာလုံးပုံစံများ"
+
+#~ msgid "Get more backgrounds online"
+#~ msgstr "အင်တာနက်မှ နောက်ခံများကိုဆွဲယူ"
+
+#~ msgid "Get more themes online"
+#~ msgstr "အင်တာနက်မှ အမြင်အဆင်များကိုဆွဲယူ"
+
+#~ msgid "Icons"
+#~ msgstr "ပုံသကင်္တများ"
+
+#~ msgid "Icons only"
+#~ msgstr "ပုံသကင်္တများသာ"
+
+#~ msgid "Pointer"
+#~ msgstr "ပွိုင့်တာ"
+
+#~ msgid "Rendering"
+#~ msgstr "ပုံဖော်ခြင်း"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "အမြင်အဆင် ပြောင်းသိမ်းရန်"
+
+#~ msgid "Save _As..."
+#~ msgstr "_A ပြောင်းသိမ်းရန်..."
+
+#~ msgid "Save _background image"
+#~ msgstr "_B နောက်ခံပုံအားသိမ်းရန်"
+
+#~ msgid "Scale"
+#~ msgstr "စကေး"
+
+#~ msgid "Text"
+#~ msgstr "စာသား"
+
+#~ msgid "Text only"
+#~ msgstr "စာသားသာ"
+
+#~ msgid "Theme"
+#~ msgstr "အမြင်အဆင်"
+
+#~ msgid "_Application font:"
+#~ msgstr "_A အပ္ပလီကေးရှင်းဖောင့်"
+
+#~ msgid "_Description:"
+#~ msgstr "_D အကြောင်းအရာများ"
+
+#~ msgid "_Document font:"
+#~ msgstr "_D စာတမ်းဖောင့်"
+
+#~ msgid "_Install..."
+#~ msgstr "_I သွင်းရန်"
+
+#~ msgid "_Name:"
+#~ msgstr "_N အမည်"
+
+#~ msgid "_None"
+#~ msgstr "_N မသတ်မှတ်ထား"
+
+#~ msgid "_Size:"
+#~ msgstr "_S အရွယ်အစား"
+
+#~ msgid "_Style:"
+#~ msgstr "_S ပုံစံ"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_W ဝင်ဒိုးခေါင်းစဉ်စာသား"
+
+#~ msgid "_Windows:"
+#~ msgstr "_W ဝင်ဒိုး"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "အလုပ်ခုံမြင်ကွင်းကိုစိတ်ကြိုက်သတ်မှတ်"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "အလုပ်ခုံ အစိတ်အပိုင်းများအတွက် အမြင်အဆင်ပက်ကေ့များကိုသွင်းပါ"
+
+#~ msgid "Theme Installer"
+#~ msgstr "အမြင်အဆင်သွင်းယူရန်"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome အမြင်အဆင်ပက်ကေ့"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "အလုပ်ခုံနောက်ခံမရှိပါ"
+
+#, c-format
+#~ msgid "%d %s by %d %s"
+#~ msgstr "%d %s အရ %d %s"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "ပစ်ဇယ်"
+
+#, c-format
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "ဖိုင်တွဲ: %s"
+
+#, c-format
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "ဖိုင်တွဲ: %s"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "အမြင်အဆင်ကိုသွင်းမရပါ"
+
+#~ msgid "There was a problem while extracting the theme."
+#~ msgstr "အမြင်အဆင်ကိုဖြည်ချနေစဉ်အမှားဖြစ်သွားသည်"
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "ရွေးထားသည့်ဖိုင်ကိုသွင်းနေစဉ်အမှားဖြစ်သွားသည်"
+
+#, c-format
+#~ msgid "\"%s\" does not appear to be a valid theme."
+#~ msgstr "\"%s\" ကမှန်ကန်တဲ့အမြင်အဆင်မဟုတ်လောက်ဘူး"
+
+#, c-format
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "အမြင်အဆင်  \"%s\" ကိုသွင်းယူခြင်းမပြီးမြောက်ပါ"
+
+#, c-format
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "အမြင်အဆင်  \"%s\" ကိုသွင်းယူခြင်းပြီးဆုံးပြီ"
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "အမြင်အဆင်အသစ်ကိုသုံးမလား(သို့)အခုအမြင်အဆင်ပဲဆက်သုံးမလား"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "လက်ရှိအမြင်အဆင်ကိုသိမ်းထား"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "အမြင်အဆင်အသစ်ကို အသုံးချ"
+
+#, c-format
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME အမြင်အဆင် %s  ကို မှန်ကန်စွာသွင်းပြီးပြီ"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "ယာယီဖိုင်လမ်းညွှန်တည်ဆောက်၍မရပါ"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "အမြင်အဆင်အသစ်ကို မှန်ကန်စွာသွင်းပြီးပြီ "
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "သွင်းယူရန်သတ်မှတ်ပေးသောလမ်းကြောင်းတွင် အမြင်အဆင်ဖိုင်များကိုမတွေ့ပါ"
+
+#~ msgid "Select Theme"
+#~ msgstr "အမြင်အဆင်ကိုရွေးပါ"
+
+#~ msgid "Theme Packages"
+#~ msgstr "အမြင်အဆင်ပက်ကေ့များ"
+
+#, c-format
+#~ msgid "Theme name must be present"
+#~ msgstr "အမြင်အဆင်အမည် ပေးရမည်"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "အမြင်အဆင်က ရှိပြီးသားဖြစ်သည် အစားထိုးပြီးအသုံးပြုမလား"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_O ထပ်ရေးသည်"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "အခုအမြင်အဆင်ကိုဖျက်ပစ်တော့မည်လား"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "အမြင်အဆင်ကိုဖျက်လို့မရပါ"
+
+#, c-format
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr " %s အကူအညီကိုဖော်ပြစဉ်အမှားဖြစ်ပွားသည်"
+
+#, c-format
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "ဖိုင်ကူးယူခြင်း  %u ၏ %u"
+
+#, c-format
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' ကိုကူးယူခြင်း"
+
+#~ msgid "Copying files"
+#~ msgstr "ဖိုင်များကိုကူးယူခြင်း"
+
+#~ msgid "From URI"
+#~ msgstr "URI မှတဆင့်"
+
+#~ msgid "To URI"
+#~ msgstr "URI သို့"
+
+#~ msgid "Current URI index"
+#~ msgstr "လက်ရှိ URI အမှတ်"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "လက်ရှိ URI အမှတ် - ၁ မှ အစပြုသည်"
+
+#~ msgid "Total URIs"
+#~ msgstr "URIs စုစုပေါင်း"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "URIs အာလုံးပေါင်းအရေအတွက်"
+
+#, c-format
+#~ msgid "File '%s' already exists. Do you want to overwrite it?"
+#~ msgstr "ဖိုင် '%s' ကရှိပြီးသားဖြစ်သည် အစားထိုးယူမလား"
+
+#~ msgid "_Skip"
+#~ msgstr "_S ကျော်ပါ"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "_A အားလုံးအစားထိုးပါ"
+
+#~ msgid "Please select an image."
+#~ msgstr "ပုံကိုရွေးချယ်ပေးပါ"
+
+#~ msgid "Default Pointer - Current"
+#~ msgstr "မူလညွှန်ပြသကေင်္တ - လက်ရှီ"
+
+#~ msgid "White Pointer"
+#~ msgstr "အဖြူရောင် ညွှန်ပြသကေင်္တ"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "အဖြူရောင်ညွှန်ပြသကေင်္တ - လက်ရှီ"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "ပိုကြိုက်ဆော့ဝဲများ"
+
+#~ msgid "Select your default applications"
+#~ msgstr "ပုံသေသုံးအပ္ပလီကေးရှင်းများရွေးပါ"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_O ကွန်မန်း"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "_M ကွန်မန်း"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "စကားပြောပရိုဂရမ်"
+
+#~ msgid "Internet"
+#~ msgstr "အင်တာနက်"
+
+#~ msgid "Multimedia"
+#~ msgstr "မာတီမီဒီယာ"
+
+#~ msgid "Run at st_art"
+#~ msgstr "_A အစပြုပြုချင်း ဖွင့်ပါ"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "_E တာမီနယ်တွင်ဖွင့်ပါ"
+
+#~ msgid "System"
+#~ msgstr "စနစ်ဆိုင်ရာ"
+
+#~ msgid "Video Player"
+#~ msgstr "ရုပ်ရှင်ဖွင့်စက်"
+
+#~ msgid "Visual"
+#~ msgstr "ပုံသွင်ပြင်"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr " Rhythmbox သီချင်းဖွင့်စက်"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey အီးမေးလ်"
+
+#~ msgid "Left"
+#~ msgstr "ဘယ်ဘက်"
+
+#~ msgid "Make Default"
+#~ msgstr "မူလတိုင်းသတ်မှတ်"
+
+#~ msgid "Monitor"
+#~ msgstr "မော်နီတာ"
+
+#~ msgid "Monitor Preferences"
+#~ msgstr "မော်နီတာဆိုင်ရာလိုလားချက်"
+
+#~ msgid "Normal"
+#~ msgstr "ပုံမှန်"
+
+#~ msgid "Off"
+#~ msgstr "ပိတ်"
+
+#~ msgid "On"
+#~ msgstr "ဖွင့်"
+
+#~ msgid "Panel icon"
+#~ msgstr "ဘားတန်းပုံသကင်္တ"
+
+#~ msgid "Right"
+#~ msgstr "ညာဘက်"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_D မော်နီတာကိုမှတ်ယူ"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_S မော်နီတာကိုဘာတန်းတွင်ဖော်ပြပါ"
+
+#~ msgid "Monitors"
+#~ msgstr "မော်နီတာ"
+
+#, c-format
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s  သည်ဖိုင်လမ်းညွှန်ဖြစ်နိုင်သည်\n"
+
+#, c-format
+#~ msgid "Could not open %s/%s: %s\n"
+#~ msgstr "%s/%s: %s ကိုဖွင့်မရပါ\n"
+
+#, c-format
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "%s to %s: %s အမည်ပြောင်းမရပါ\n"
+
+#~ msgid "Sound"
+#~ msgstr "အသံ"
+
+#~ msgid "Desktop"
+#~ msgstr "အလုပ်ခုံ"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<အမည်မသိလုပ်ဆောင်ချက်>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "စိတ်ကြိုက အမြန်ခလုတ်"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "စိတ်ကြိုက်အမြန်ခလုတ်များ များလွန်းသည်"
+
+#~ msgid "Action"
+#~ msgstr "လုပ်ဆောင်ချက်"
+
+#~ msgid "Shortcut"
+#~ msgstr "အမြန်ခလုတ်"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "စိတ်ကြိုက်အမြန်ခလုတ်"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "ကီးဘုတ် အမြန်ခလုတ်"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "ကွန်မန်းသို့အမြန်ခလုတ်များကို ထည့်သွင်းပါ"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "GNOME ကီးဘုတ်လိုလားချက်များ"
+
+#~ msgid "General"
+#~ msgstr "အထွေထွေရေးရာ"
+
+#~ msgid "D_elay:"
+#~ msgstr "_E ကြာချိန်"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "ကီးဘုတ်လိုလားချက်"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "ကီးဘုတ်အမျိုးအစား"
+
+#~ msgid "Layouts"
+#~ msgstr "လက်ကွက်"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "အသုံးပြုရန်အတွက် ကီးဘုတ်လက်ကွက်စာရင်း"
+
+#~ msgid "Move _Down"
+#~ msgstr "_D အောက်"
+
+#~ msgid "Move _Up"
+#~ msgstr "_U အပေါ်"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "စာရင်းထဲမှ ကီးဘုတ်ပုံစံကို အောက်သို့ချပါ"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "စာရင်းထဲမှ ကီးဘုတ်ပုံစံကို အပေါ်သို့တင်ပါ"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "ရွေးချယ်သည့် ကီးဘုတ်လက်ကွက်ပုံစံကို ပုံနှိပ်ပါ"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "ရွေးချယ်လိုက်သည့် ကီးဘုတ်လက်ကွက်ကိုစာရင်းမှဖယ်ထုတ်ပါ"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "_F မူလတိုင်းပြန်သတ်မှတ်"
+
+#~ msgid "S_peed:"
+#~ msgstr "_P အမြန်နှုန်း"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "စာရင်းထဲသို့ထည့်ရန် ကီးဘုတ်လက်ကွက်ကိုရွေးပါ"
+
+#~ msgid "_Options..."
+#~ msgstr "_O ရွေးချယ်စရာများ"
+
+#~ msgid "_Speed:"
+#~ msgstr "_S အမြန်နှုန်း"
+
+#~ msgid "minutes"
+#~ msgstr "မိနစ်"
+
+#~ msgid "By _language"
+#~ msgstr "_L ဘာသာစကားအရ"
+
+#~ msgid "Preview:"
+#~ msgstr "နမူနာ"
+
+#~ msgid "_Country:"
+#~ msgstr "_C နိုင်ငံ"
+
+#~ msgid "_Language:"
+#~ msgstr "_L ဘာသာစကား"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "ကီးဘုတ်အမျိုးအစားရွေးပါ"
+
+#~ msgid "_Models:"
+#~ msgstr "_M အမျိုးအစား"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_V ထုတ်လုပ်သူ"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "ကီးဘုတ်လက်ကွက်ရွေးချယ်ရန်"
+
+#~ msgid "Vendors"
+#~ msgstr "ထုတ်လုပ်သူ"
+
+#~ msgid "Models"
+#~ msgstr "အမျိုးအစားများ"
+
+#~ msgid "Default"
+#~ msgstr "မူလပုံစံ"
+
+#~ msgid "Keyboard"
+#~ msgstr "ကီးဘုတ်"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "ကီးဘုတ်အစီအမံများကိုသတ်မှတ်"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "_O နှစ်ချက်နှိပ်"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "မောက်(စ်)လိုလားချက်"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "ပွိုင့်တာ အမြန်နှုန်း"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "_N "
+
+#~ msgid "_Single click:"
+#~ msgstr "_S တစ်ချက်နှိပ်"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_T ကြာချိန်"
+
+#~ msgid "Mouse"
+#~ msgstr "မောက်(စ်)"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "မောက်(စ်)လိုလားချက်များကို သတ်မှတ်ပါ"
+
+#~ msgid "New Location..."
+#~ msgstr "တည်နေရာအသစ်"
+
+#~ msgid "Location already exists"
+#~ msgstr "တည်နေရာသတ်မှတ်ထားပြီး"
+
+#~ msgid "Network Proxy"
+#~ msgstr "ကွန်ရက် ကြားခံ"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "ကွန်ရက် ကြားခံလိုလားချက်ကိုသတ်မှတ်"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>_R အင်တာနက်ကိုတိုက်ရိုက်ချိတ်ခြင်း</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_A ကြားခံကိုအလိုအလျောက်သတ်မှတ်ခြင်း</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "_M စိတ်ကြိုက်ကြားခံသတ်မှတ်ခြင်း"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_U အသိအမှတ်ပြုခြင်း</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_U အလိုအလျောက် URL သတ်မှတ်ခြင်း"
+
+#~ msgid "C_reate"
+#~ msgstr "_R ထည့်သွင်း"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP ကြားခံအသေးစိတ်"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "_T HTTP ကြားခံ"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "အသုံးမပြုသည့် အခြေစိုက်စာရင်း"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "အသုံးမပြုသည့် အခြေစိုက်များ"
+
+#~ msgid "Location:"
+#~ msgstr "တည်နေရာ"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "နက်ဝက် ကြားခံလိုလားချက် သတ်မှတ်ရန်"
+
+#~ msgid "Port:"
+#~ msgstr "ဆက်သွယ်ပေါက်"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "ကြားခံ သတ်မှတ်ခြင်း"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "_O Socks အခြေစိုက်ရာ"
+
+#~ msgid "The location already exists."
+#~ msgstr "တည်နေရာကိုထည့်သွင်းပြီသားဖြစ်သည်"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_D တည်နေရာကိုဖျက်"
+
+#~ msgid "_Details"
+#~ msgstr "_D အသေးစိတ်"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP ကြားခံ"
+
+#~ msgid "_Location name:"
+#~ msgstr "_L တည်နေရာ"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_S HTTPs ကြားခံ"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_U ပရိုတိုကောအားလုံးအတွက် ကြားခံ တစ်မျိုးသာသုံးမည်"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "ခေါင်းစီးဘားတန်းလုပ်ဆောင်မှု"
+
+#~ msgid "Window Preferences"
+#~ msgstr "ဝင်ဒိုးလိုလားချက်များ"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_D အခုလုပ်ဆောင်မှုကိုပြုလုပ်ရန် ခေါင်းစဉ်ဘားတန်းကို နှစ်ချက်နှိပ်ပါ"
+
+#~ msgid "seconds"
+#~ msgstr "စက္ကန့်"
+
+#~ msgid "Set your window properties"
+#~ msgstr "ဝင်းဒိုးဆိုင်ရာ ဂုဏ်သတ္တိများသတ်မှတ်ပါ"
+
+#~ msgid "Windows"
+#~ msgstr "ဝင်းဒိုး"
+
+#~ msgid "Maximize"
+#~ msgstr "အကျယ်ချဲ့"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "ဒေါင်လိုက်အကျယ်ချဲ့"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "အလျားလိုက်အကျယ်ချဲ့"
+
+#~ msgid "Minimize"
+#~ msgstr "ဖျောက်ထား"
+
+#~ msgid "Filter"
+#~ msgstr "စစ်ထုတ်ရန်"
+
+#~ msgid "Control Center"
+#~ msgstr "ထိန်းချုပ်ခန်း"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr " GNOME ခန့်ခွဲမှုကရိယာ"
+
+#~ msgid "_Postpone Break"
+#~ msgstr "_P ရွှေ့ဆိုင်း"
+
+#~ msgid "translator-credits"
+#~ msgstr "လိုကယ်လိုက်ဇေးရှင်း ဂုဏ်ပြုလွှာ"
+
+#~ msgid "Name:"
+#~ msgstr "အမည်"
+
+#~ msgid "Style:"
+#~ msgstr "ပုံစံ"
+
+#~ msgid "Type:"
+#~ msgstr "အမျိုးအစား"
+
+#~ msgid "Size:"
+#~ msgstr "အရွယ်အစား"
+
+#~ msgid "Version:"
+#~ msgstr "ဗာရှင်း"
+
+#~ msgid "Copyright:"
+#~ msgstr "မူပိုင်ခွင့်"
+
+#~ msgid "Description:"
+#~ msgstr "အကြောင်းအရာ"
+
+#~ msgid "Installed"
+#~ msgstr "သွင်းယူမှုပြီးဆုံးပြီ"
+
+#~ msgid "Install Failed"
+#~ msgstr "သွင်းယူခြင်းမပြီးဆုံးပါ"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "_N ဖောင့်သွင်းရန်"
+
+#~ msgid "Font Viewer"
+#~ msgstr "ဖောင့်ကြည့်ရန်"
+
+#~ msgid "Preview fonts"
+#~ msgstr "ဖောင့်နမူနာကြည့်"
+
+#~ msgid "TEXT"
+#~ msgstr "စာသား"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "ဖောင့်အရွယ်အစား (ပုံသေ ၆၄)"
+
+#~ msgid "SIZE"
+#~ msgstr "အရွယ်အစား"
+
+#~ msgid "No matches found."
+#~ msgstr "တူညီသည့်အရာမတွေ့ပါ"
+
+#~ msgid "Other"
+#~ msgstr "အခြား"
+
+#~ msgid "Help"
+#~ msgstr "အကူအညီ"
+
+#~ msgid "Upgrade"
+#~ msgstr "မွမ်းမံ/အဆင်မြှင့်"
+
+#~ msgid "Uninstall"
+#~ msgstr "ဖယ်ထုတ်"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "နှစ်သက်မှုအဖြစ်မှပယ်ဖျက်ပါ"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "နှစ်သက်မှုအဖြစ်ထည့်ပါ"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "ကနဉီးအပ္ပလီကေးရှင်းမှဖယ်ထုတ်ပါ"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "ကနဉီးအပ္ပလီကေးရှင်းသို့ထည့်ပါ"
+
+#~ msgid "New Document"
+#~ msgstr "စာတမ်းအသစ်ယူ"
+
+#~ msgid "Documents"
+#~ msgstr "စာတမ်းများ"
+
+#~ msgid "File System"
+#~ msgstr "ဖိုင်စနစ်"
+
+#~ msgid "Network Servers"
+#~ msgstr "ကွန်ရက်ဆာဗာများ"
+
+#~ msgid "Search"
+#~ msgstr "ရှာဖွေရန်"
+
+#, c-format
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>ဖွင့်ရန်</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "အမည်ပြောင်းရန်"
+
+#~ msgid "Send To..."
+#~ msgstr "ပို့ရန်"
+
+#~ msgid "Move to Trash"
+#~ msgstr "အမှိုက်ပုံးထဲထည့်ပါ"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "ဖျက်မယ်ဆိုရင် ပြန်မရနိုင်တော့ဘူးနော်"
+
+#, c-format
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" နှင့်ဖွင့်ရန်"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "မူရင်းအပ္ပလီကေးရှင်းနှင့်ဖွင့်ရန်"
+
+#~ msgid "Remove from recent menu"
+#~ msgstr "လက်တလောမီနူးမှဖယ်ထုတ်ပါ"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "ယနေ့ %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "Find Now"
+#~ msgstr "ရှာဖွေပါ"
+
+#, c-format
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s ကိုဖွင့်ရန်</b>"
+
+#, c-format
+#~ msgid "Remove from System Items"
+#~ msgstr "စနစ်ပိုင်းဆိုင်ရာမှ ဖယ်ထုတ်ပါ"

@@ -1,0 +1,2759 @@
+# translation of nn.po to Norwegian Nynorsk
+# Norwegian (nynorsk) translation of gnome-control-center.
+# Copyright (C) 1999-2008 Free Software Foundation, Inc.
+# Copyright (C) Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Eskild Hustvedt <eskildh@gnome.org> 2008
+# Roy-Magne Mo <rmo@sunnmore.net>, 2001.
+# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2003-2008.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
+# Andreas Nesdal <gedemiti@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: nn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2012-05-02 08:48+0000\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
+"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Language: nn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "_Namn:"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Standard"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Kontotype:"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Vis passord:"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr "Vel passord under neste innlogging"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "Set passord no"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+#, fuzzy
+msgid "_Enterprise Login"
+msgstr "Slå på innlogging via fingeravtrykk"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+#, fuzzy
+msgid "Domain Administrator Login"
+msgstr "Administrator"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+#, fuzzy
+msgid "Administrator _Name"
+msgstr "Administrator"
+
+#: ../data/account-dialog.ui.h:22
+#, fuzzy
+msgid "Administrator Password"
+msgstr "Administrator"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Venstre tommel"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Venstre langfinger"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Venstre ringfinger"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Venstre litlefinger"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Høgre tommel"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Høgre langfinger"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Høgre ringfinger"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Høgre litlefinger"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Slå på innlogging via fingeravtrykk"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Fingeravtrykket ditt vart lagra. Du skal no kunne logga inn ved hjelp av "
+"fingeravtrykklesaren din."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+#, fuzzy
+msgid "Add or remove users and change your password"
+msgstr "Legg til eller fjern brukarar"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Innlogging;Namn;Fingeravtrykk;Personbilete;Logo;Fjes;Passord;"
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Svakt passord"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_Endra"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Vis passord:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Vis passord:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Svakt passord"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr "Vel passord under neste innlogging"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Set passord no"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Innloggingsinnstillingar"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Andre kontoar"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Sletting av brukar feila"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "Laging av ny brukar feila"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Du kan ikkje sletta din eigen konto"
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s er fortset logga inn"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Sletting av brukar medan dei er logga inn kan etterlata systemet i ein "
+"inkonsekvent tilstand."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Vil du behalda filene til «%s»?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Det er mogleg å behalda heimemappa, e-postkøa og mellombels filer etter "
+"sletting av brukarkonto."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Slett filer"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Behald filer"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Vil du fjerna denne kontoen?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "_Slett filer"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Deaktivert konto"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Å verta sette under neste innlogging"
+
+#
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Ingen"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Å få kontakt med kontotenesta feila"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Kontroller at kontotenesta er installert og slått på."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"For å gjera endringar,\n"
+"trykk på *-ikonet først"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Min konto"
+
+#: ../src/pw-utils.c:81
+#, fuzzy
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Det nye passordet inneheld ikkje mange nok forskjellege teikn."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Autentisering feila"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Det nye passordet er for kort"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Det nye passordet er for enkelt"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Gammalt og nytt passord er for like"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Det nye passordet har nyleg vore brukt."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Det nye passordet må innehalda tal eller spesialteikn."
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Gammalt og nytt passord er det same."
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Passordet ditt har vorte endra sidan du autentiserte første gong. Du må "
+"autentisera deg på nytt."
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Det nye passordet inneheld ikkje mange nok forskjellege teikn."
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Ukjend feil"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+#, fuzzy
+msgid "Failed to add account"
+msgstr "Vel ein konto"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "Passorda er ikkje like"
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+#, fuzzy
+msgid "Failed to register account"
+msgstr "Laging av ny brukar feila"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Legg til"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standard"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "Du har ikkje løyve til å opna eininga. Kontakt systemadministratoren."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Eininga er alt i bruk."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Ein intern feil har oppstått."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Av"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "På"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Slett registrerte fingeravtrykk?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Slett fingeravtrykk"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Vil du sletta registrerte fingeravtrykk slik at innlogging via fingeravtrykk "
+"vert avslått?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Ferdig!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Klarte ikkje opna eininga «%s»"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Klarte ikkje starta innlesing av fingeravtrykk på eining «%s»"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Klarte ikkje opna fingeravtrykklesar"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Kontakt systemadministratoren for å få hjelp."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"For å slå på innlogging via fingeravtrykk må du lagra eitt fingeravtrykk ved "
+"å bruka eininga «%s»"
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Vel eit anna passord."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Skriv inn gjeldande passord omatt."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Passordet kunne ikkje endrast"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Vel"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Bla gjennom for fleire bilete"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Slå av bilete"
+
+#: ../src/um-photo-dialog.c:963
+#, fuzzy
+msgid "Take a photo…"
+msgstr "Ta bilete …"
+
+#: ../src/um-photo-dialog.c:981
+#, fuzzy
+msgid "Browse for more pictures…"
+msgstr "Bla gjennom for fleire bilete"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Brukt av %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "Brukarnamnet er for langt"
+
+#: ../src/um-utils.c:569
+#, fuzzy
+msgid "The username cannot start with a '-'."
+msgstr "Brukarnamnet kan ikkje starta med «-»"
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Passwords do not match."
+#~ msgstr "Passord er ikkje like"
+
+#~| msgid "_Title:"
+#~ msgid "Tile"
+#~ msgstr "Tittel"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~| msgid "Pointer"
+#~ msgid "Center"
+#~ msgstr "Midten"
+
+#~| msgid "Small"
+#~ msgid "Scale"
+#~ msgstr "Skaler"
+
+#~| msgid "_Full"
+#~ msgid "Fill"
+#~ msgstr "Fyll"
+
+#~ msgid "Span"
+#~ msgstr "Spennvidd"
+
+#~ msgid "<b>Background</b>"
+#~ msgstr "<b>Bakgrunn</b>"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Vert endra heile dagen"
+
+#~ msgid "Add wallpaper"
+#~ msgstr "Legg til bakgrunn"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "Fjern bakgrunn"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>Tema</b>"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Vassrett fargeovergang"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Loddrett fargeovergang"
+
+#~ msgid "Solid Color"
+#~ msgstr "Einsfarga"
+
+#~ msgid "multiple sizes"
+#~ msgstr "fleire storleikar"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~| msgid "Apply Background"
+#~ msgid "No Desktop Background"
+#~ msgstr "Ingen skrivebordsbakgrunn"
+
+#~ msgid "Current background"
+#~ msgstr "Noverande bakgrunn"
+
+#~| msgid "Add Wallpaper"
+#~ msgid "Wallpapers"
+#~ msgstr "Bakgrunnsbilete"
+
+#~ msgid "Pictures Folder"
+#~ msgstr "Biletmappe"
+
+#~ msgid "Colors & Gradients"
+#~ msgstr "Fargar og fargeovergangar"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Appearance"
+#~ msgstr "Utsjånad"
+
+#~ msgid "Change the background and theme"
+#~ msgstr "Endra bakgrunnen og temaet"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#
+#~ msgid "All files"
+#~ msgstr "Alle filer"
+
+#~ msgid "Device"
+#~ msgstr "Eining"
+
+#~ msgid "United States"
+#~ msgstr "USA"
+
+#~ msgid "Germany"
+#~ msgstr "Tyskland"
+
+#~ msgid "France"
+#~ msgstr "Frankrike"
+
+#~ msgid "Spain"
+#~ msgstr "Spania"
+
+#~ msgid "China"
+#~ msgstr "Kina"
+
+#~ msgid "Select a region"
+#~ msgstr "Vel ein region"
+
+#~ msgid "Unspecified"
+#~ msgstr "Uspesifisert"
+
+#~ msgid "Select a language"
+#~ msgstr "Vel eit språk"
+
+#~ msgid "_Select"
+#~ msgstr "_Vel"
+
+#~ msgid "_Region:"
+#~ msgstr "_Region:"
+
+#~ msgid "_City:"
+#~ msgstr "_By:"
+
+#~ msgid "_Network Time"
+#~ msgstr "_Nettverkstid"
+
+#~ msgid ":"
+#~ msgstr "."
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "Still klokka ein time fram."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "Still klokka ein time tilbake."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "Still klokka eitt minutt fram."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "Still klokka eitt minutt tilbake."
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "Byt mellom a.m. og p.m."
+
+#~ msgid "Month"
+#~ msgstr "Månad"
+
+#~ msgid "Day"
+#~ msgstr "Dag"
+
+#~ msgid "Year"
+#~ msgstr "År"
+
+#~ msgid "24-hour"
+#~ msgstr "24-timar"
+
+#~ msgid "AM/PM"
+#~ msgstr "a.m./p.m."
+
+#~ msgid "January"
+#~ msgstr "Januar"
+
+#~ msgid "February"
+#~ msgstr "Februar"
+
+#~| msgid "Search"
+#~ msgid "March"
+#~ msgstr "Mars"
+
+#~| msgid "pixel"
+#~| msgid_plural "pixels"
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Juni"
+
+#~ msgid "July"
+#~ msgstr "Juli"
+
+#~ msgid "August"
+#~ msgstr "August"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#
+#~| msgid "Other"
+#~ msgid "October"
+#~ msgstr "Oktober"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "Desember"
+
+#~ msgid "Date and Time"
+#~ msgstr "Dato og tid"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Panel for innstillingar til dato og tid"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Klokke;Tidssone;Stad;"
+
+#~ msgid "Mirror Displays"
+#~ msgstr "Like skjermar"
+
+#~| msgid "Typing Monitor"
+#~ msgid "Monitor"
+#~ msgstr "Skjerm"
+
+#, c-format
+#~| msgid "%d x %d"
+#~ msgid "%d x %d (%s)"
+#~ msgstr "%d × %d (%s)"
+
+#, c-format
+#~ msgid "%d x %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "Dra for å endra primærskjerm"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr "Vel skjermen du vil endra. Drag den for å endra plasseringa."
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H.%M"
+
+#~| msgid "Could not load the main interface"
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Klarte ikkje lagra skjerminnstillingane"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Klarte ikkje oppdaga skjermar"
+
+#~| msgid "Change screen resolution"
+#~ msgid "Could not get screen information"
+#~ msgstr "Klarte ikkje få informasjon om skjermen"
+
+#~ msgid "_Resolution"
+#~ msgstr "_Oppløysing"
+
+#~ msgid "R_otation"
+#~ msgstr "R_otering"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "_Like skjermar"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "Merk: kan avgrensa innstillingane for oppløysing"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "_Finn skjermar"
+
+#~ msgid "Displays"
+#~ msgstr "Skjermar"
+
+#~| msgid "Change resolution and position of monitors"
+#~ msgid "Change resolution and position of monitors and projectors"
+#~ msgstr "Endra oppløysing og posisjonen til skjermar og prosjektørar"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+#~ msgstr "Panel;Prosjektør;xrandr;Skjerm;Oppløysing;Oppfrisking;"
+
+#, c-format
+#~ msgid "VESA: %s"
+#~ msgstr "VESA: %s"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjend"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Unknown model"
+#~ msgstr "Ukjend modell"
+
+#~ msgid "The next login will attempt to use the standard experience."
+#~ msgstr "Neste innlogging vil prøva å bruka standard brukaroppleving."
+
+#~ msgid ""
+#~ "The next login will use the fallback mode intended for unsupported "
+#~ "graphics hardware."
+#~ msgstr ""
+#~ "Neste innlogging vil bruka reserveløysing for grafikkort som ikkje er "
+#~ "støtta."
+
+#~ msgctxt "Experience"
+#~ msgid "Fallback"
+#~ msgstr "Reserveløysing"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Spør etter kva som skal gjerast"
+
+#~ msgid "Do nothing"
+#~ msgstr "Ikkje gjer noko"
+
+#~ msgid "Open folder"
+#~ msgstr "Opna mappe"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Vel eit program for lyd-CD-ar"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Vel eit program for video-DVD-ar"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "Vel programmet som skal køyrast når ein musikkspelar vert kopla til"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Vel programmet som skal køyrast når eit kamera vert kopla til"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Vel eit program for CD-ar med programvare"
+
+#~ msgid "audio DVD"
+#~ msgstr "lyd-DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Tom Blu-ray-plate"
+
+#~ msgid "blank CD disc"
+#~ msgstr "tom CD-plate"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "tom DVD-plate"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "tom HD-DVD-plate"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-Ray-videoplate"
+
+#~ msgid "e-book reader"
+#~ msgstr "E-boklesar"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD-DVD-videodisk"
+
+#~ msgid "Picture CD"
+#~ msgstr "Bilet-CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video-CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video-CD"
+
+#~ msgid "Overview"
+#~ msgstr "Oversikt"
+
+#~ msgid "Default Applications"
+#~ msgstr "Standardprogram"
+
+#~ msgid "Removable Media"
+#~ msgstr "Flyttbart medium"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafikk"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Versjon %s"
+
+#~ msgid "Install Updates"
+#~ msgstr "Installer oppdateringar"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "Systemet er oppdatert"
+
+#~ msgid "Checking for Updates"
+#~ msgstr "Ser etter oppdateringar"
+
+#~ msgid "System Information"
+#~ msgstr "Systeminformasjon"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Vel korleis andre medium skal handsamast"
+
+#~| msgid "Action"
+#~ msgid "Acti_on:"
+#~ msgstr "_Handling:"
+
+#~| msgid "Type:"
+#~ msgid "_Type:"
+#~ msgstr "_Type:"
+
+#~ msgid "Device name"
+#~ msgstr "Einingsnamn"
+
+#~ msgid "Memory"
+#~ msgstr "Minne"
+
+#~ msgid "Processor"
+#~ msgstr "Prosessor"
+
+#~ msgid "OS type"
+#~ msgstr "Type operativsystem"
+
+#~ msgid "Disk"
+#~ msgstr "Lagringseining"
+
+#~ msgid "Calculating..."
+#~ msgstr "Reknar ut …"
+
+#~ msgid "_Web"
+#~ msgstr "_Nett"
+
+#~ msgid "_Mail"
+#~ msgstr "_E-post"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Kalender"
+
+#~ msgid "M_usic"
+#~ msgstr "M_usikk"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Bilete"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Vel korleis medium skal handsamast"
+
+#~ msgid "_Other Media..."
+#~ msgstr "_Andre medium …"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr ""
+#~ "_Aldri start eller spør kva for program skal starta når medium vert "
+#~ "innsete"
+
+#~ msgid "Driver"
+#~ msgstr "Drivar"
+
+#~ msgid "Experience"
+#~ msgstr "Brukaroppleving"
+
+#~ msgid "Forced _Fallback Mode"
+#~ msgstr "Tvungen _reserveløysing"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Lyd og media"
+
+#~ msgid "Volume mute"
+#~ msgstr "Slå av lyd"
+
+#~ msgid "Volume down"
+#~ msgstr "Lågare lydstyrke"
+
+#~ msgid "Volume up"
+#~ msgstr "Høgare lydstyrke"
+
+#~ msgid "Launch media player"
+#~ msgstr "Start mediaspelar"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Spel av (eller spel av / pause)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Set avspeling på pause"
+
+#~ msgid "Stop playback"
+#~ msgstr "Stopp avspeling"
+
+#~ msgid "Previous track"
+#~ msgstr "Førre spor"
+
+#~ msgid "Next track"
+#~ msgstr "Neste spor"
+
+#~ msgid "Eject"
+#~ msgstr "Løys ut"
+
+#~ msgid "Launchers"
+#~ msgstr "Oppstartarar"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Start hjelplesar"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Start kalkulator"
+
+#~ msgid "Launch email client"
+#~ msgstr "Start e-postprogram"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Start nettlesar"
+
+#~ msgid "Home folder"
+#~ msgstr "Heimemappe"
+
+#~ msgid "Search"
+#~ msgstr "Søk"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Log out"
+#~ msgstr "Logg ut"
+
+#~ msgid "Lock screen"
+#~ msgstr "Lås skjermen"
+
+#~ msgid "Universal Access"
+#~ msgstr "Tilgjenge"
+
+#~ msgid "Increase text size"
+#~ msgstr "Større tekststorleik"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Mindre tekststorleik"
+
+#~ msgid "Keyboard"
+#~ msgstr "Tastatur"
+
+#~ msgid "Change keyboard settings"
+#~ msgstr "Endra tastaturinnstillingar"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Snøggtast;Repeter;Blink;"
+
+#~| msgid "Shortcut"
+#~ msgid "Custom Shortcut"
+#~ msgstr "Eigendefinert snøggtast"
+
+#
+#~ msgid "C_ommand:"
+#~ msgstr "K_ommando:"
+
+#~| msgid "<b>Repeat Keys</b>"
+#~ msgid "Repeat Keys"
+#~ msgstr "Repeterande tastar"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Tastetrykk vert _repeterte når tasten vert halden nede"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Pause:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Fart:"
+
+#~| msgid "Shortcut"
+#~ msgid "Short"
+#~ msgstr "Kort"
+
+#~ msgid "Slow"
+#~ msgstr "Treg"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Tasterepetisjonsrate"
+
+#~| msgid "Login"
+#~ msgid "Long"
+#~ msgstr "Lang"
+
+#~| msgid "_Paste"
+#~ msgid "Fast"
+#~ msgstr "Snøgg"
+
+#~| msgid "<b>Cursor Blinking</b>"
+#~ msgid "Cursor Blinking"
+#~ msgstr "Blinkande skrivemerke"
+
+#
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Skrivemerket _blinkar i tekstfelt"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Fart:"
+
+#~ msgid "Layout Settings"
+#~ msgstr "Utformingsinnstillingar"
+
+#~| msgid "Typing Break"
+#~ msgid "Typing"
+#~ msgstr "Skriving"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "For å endra ein snarveg, trykk på den tilhøyrande rada og hald nede "
+#~ "tastekombinasjonen, eller trykk slettetasten for å fjerna den."
+
+#~| msgid "Shortcut"
+#~ msgid "Shortcuts"
+#~ msgstr "Snøggtastar"
+
+#~| msgid "Shortcut"
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Eigendefinerte snøggtastar"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Ukjend handling>"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Klarte ikkje lagra den nye snøggtasten"
+
+#, c-format
+#~| msgid ""
+#~| "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~| "type using this key.\n"
+#~| "Please try with a key such as Control, Alt or Shift at the same time.\n"
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Snarvegen «%s» kan ikkje brukast fordi det vil verta umogleg å skriva med "
+#~ "denne tasten.\n"
+#~ "Prøv igjen med ein tastekombinasjon som inneheld Ctrl, Alt eller Shift."
+
+#, c-format
+#~| msgid ""
+#~| "The shortcut \"%s\" is already used for:\n"
+#~| " \"%s\"\n"
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Snøggtasten «%s» er alt i bruk av:\n"
+#~ " «%s»"
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Om du endrar snøggtasten til «%s» vil snøggtasten «%s» verta avslått."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Tildel på nytt"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "For mange eigendefinerte snøggtastar"
+
+#~ msgid "Action"
+#~ msgstr "Handling"
+
+#~ msgid "Shortcut"
+#~ msgstr "Snøggtast"
+
+#~| msgid "Touchpad"
+#~ msgid "Mouse and Touchpad"
+#~ msgstr "Mus og styreplate"
+
+#~| msgid "Set your mouse preferences"
+#~ msgid "Set your mouse and touchpad preferences"
+#~ msgstr "Set opp innstillingane for mus og styreplate"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Eigenskapar for mus"
+
+#
+#~ msgid "General"
+#~ msgstr "Allmennt"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Høgrehendt"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Venstrehendt"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Vi_s kor peikaren er når Ctrl-tasten vert trykt ned"
+
+#~| msgid "<b>Pointer Speed</b>"
+#~ msgid "Pointer Speed"
+#~ msgstr "Peikarfart"
+
+#
+#~ msgid "A_cceleration:"
+#~ msgstr "A_ksellerasjon:"
+
+# TRN: Finn betre ord!
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Sensitivitet:"
+
+#~ msgid "Low"
+#~ msgstr "Låg"
+
+#~| msgid "Right"
+#~ msgid "High"
+#~ msgstr "Høg"
+
+#~| msgid "<b>Drag and Drop</b>"
+#~ msgid "Drag and Drop"
+#~ msgstr "Dra og slepp"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Grense:"
+
+#~ msgid "Small"
+#~ msgstr "Liten"
+
+#~ msgid "Large"
+#~ msgstr "Stor"
+
+#~| msgid "<b>Double-Click Timeout</b>"
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Tidsgrense for dobbeltklikk"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Tidsgrense:"
+
+#~| msgid ""
+#~| "To test your double-click settings, try to double-click on the light "
+#~| "bulb."
+#~ msgid "To test your settings, try to double-click on the face."
+#~ msgstr "Dobbeltklikk på fjeset for å testa innstillingane dine."
+
+#~ msgid "Mouse"
+#~ msgstr "Mus"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Slå av _styreplata under skriving"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Slå på museklikk med styreplata"
+
+#~ msgid "Scrolling"
+#~ msgstr "Rulling"
+
+#~| msgid "Disabled"
+#~ msgid "_Disabled"
+#~ msgstr "_Av"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Kantrulling"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Rulling med to _fingrar"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Slå på _vassrett rulling"
+
+#~ msgid "Touchpad"
+#~ msgstr "Styreplate"
+
+#
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-adresse"
+
+#
+#~ msgid "Interface"
+#~ msgstr "Grensesnitt"
+
+#~| msgid "Options"
+#~ msgid "_Options..."
+#~ msgstr "_Innstillingar …"
+
+#~ msgid "Not connected"
+#~ msgstr "Ikkje tilkopla"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Klarte ikkje logga inn på kontoen"
+
+#~ msgid "Expired credentials. Please log in again."
+#~ msgstr "Påloggingsinformasjonen er utgått. Prøv å logga inn på nytt."
+
+#~ msgid "_Log In"
+#~ msgstr "_Logg inn"
+
+#~ msgid "To add a new account, first select the account type"
+#~ msgstr "Vel kontotype før du legg til ny konto"
+
+#~ msgid "_Add..."
+#~ msgstr "_Legg til …"
+
+#~ msgid "Error creating account"
+#~ msgstr "Klarte ikkje laga konto"
+
+#~ msgid "Error removing account"
+#~ msgstr "Klarte ikkje fjerna konto"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Dette vil ikkje fjerna kontoen på tenaren."
+
+#~ msgid "_Remove"
+#~ msgstr "_Fjern"
+
+#~ msgid "Online Accounts"
+#~ msgstr "Nettkontoar"
+
+#~ msgid "Manage online accounts"
+#~ msgstr "Administrer nettkontoar"
+
+#~ msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Nett;Web;Chat;Nettprat;Kalender;E-post;"
+#~ "Kontakt;"
+
+#~| msgid "Unknown"
+#~ msgid "Unknown time"
+#~ msgstr "Ukjend tid"
+
+#, c-format
+#~| msgid "minutes"
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minutt"
+#~ msgstr[1] "%i minutt"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i time"
+#~ msgstr[1] "%i timar"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~| msgid "Short"
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "time"
+#~ msgstr[1] "timar"
+
+#~| msgid "minutes"
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minutt"
+#~ msgstr[1] "minutt"
+
+#
+#~| msgid "Pointer"
+#~ msgid "Power"
+#~ msgstr "Straum"
+
+#~ msgid "Power management settings"
+#~ msgstr "Innstillingar for straumhandtering"
+
+#~ msgid "Never"
+#~ msgstr "Aldri"
+
+#~ msgid "Low on toner"
+#~ msgstr "Lite tonar att"
+
+#~ msgid "Out of toner"
+#~ msgstr "Tom for tonar"
+
+#~ msgid "Low on developer"
+#~ msgstr "Lite framkallingsvæske"
+
+#~ msgid "Out of developer"
+#~ msgstr "Tom for framkallingsvæske"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Lite farge att"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Tom for ein farge"
+
+#~ msgid "Open cover"
+#~ msgstr "Loket er ope"
+
+#~ msgid "Open door"
+#~ msgstr "Loket er ope"
+
+#~ msgid "Low on paper"
+#~ msgstr "Lite papir att"
+
+#~ msgid "Out of paper"
+#~ msgstr "Tom for papir"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Fråkopla"
+
+#~ msgctxt "printer state"
+#~ msgid "Paused"
+#~ msgstr "Sett på pause"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Bosmottaket er nesten fullt"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Bosmottaket er fullt"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Bilettrommelen er snart oppbrukt"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Bilettrommelen fungerer ikkje lengre"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Klar"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "I arbeid"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Stoppa"
+
+#~ msgid "Toner Level"
+#~ msgstr "Tonarnivå"
+
+#~ msgid "Ink Level"
+#~ msgstr "Blekknivå"
+
+#~ msgid "Supply Level"
+#~ msgstr "Tilførslenivå"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktiv"
+#~ msgstr[1] "%u aktive"
+
+#~ msgid "No printers available"
+#~ msgstr "Ingen skrivar tilgjengeleg"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Ventar"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Halden att"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "I arbeid"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Stoppa"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Avbrote"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Avbrote av feil"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Fullført"
+
+#~ msgid "Job Title"
+#~ msgstr "Oppgåvenamn"
+
+#~ msgid "Job State"
+#~ msgstr "Oppgåvestatus"
+
+#~ msgid "Time"
+#~ msgstr "Tidspunkt"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Klarte ikkje leggja til den nye skrivaren."
+
+#~ msgid "Test page"
+#~ msgstr "Testside"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Klarte ikkje lasta grensesnitt: %s"
+
+#~ msgid "Printers"
+#~ msgstr "Skrivarar"
+
+#~ msgid "Change printer settings"
+#~ msgstr "Endra skrivarinnstillingar"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Skrivar;Kø;Utskrift;Papir;Blekk;Tonar;"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Legg til ny skrivar"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_dresse:"
+
+#~ msgid "_Search by Address"
+#~ msgstr "_Søk etter adresse"
+
+#~ msgid "Getting devices..."
+#~ msgstr "Hentar einingar …"
+
+#~ msgid ""
+#~ "FirewallD is not running. Network printer detection needs services mdns, "
+#~ "ipp, ipp-client and samba-client enabled on firewall."
+#~ msgstr ""
+#~ "FirewallD køyrer ikkje. For å kunna oppdaga nettverksskrivarar må "
+#~ "tenestene mdns, ipp, ipp-client og samba-client vere slått på i "
+#~ "brannmuren."
+
+#~ msgid "Devices"
+#~ msgstr "Einingar"
+
+#~ msgctxt "printer type"
+#~ msgid "Local"
+#~ msgstr "Lokal"
+
+#~ msgctxt "printer type"
+#~ msgid "Network"
+#~ msgstr "Nettverk"
+
+#~ msgid "Device types"
+#~ msgstr "Einingstype"
+
+#~ msgid "Automatic configuration"
+#~ msgstr "Automatisk oppsett"
+
+#~ msgid "Opening firewall for mDNS connections"
+#~ msgstr "Opnar brannmur for mDNS-tilkoplingar"
+
+#~ msgid "Opening firewall for Samba connections"
+#~ msgstr "Opnar brannmur for Samba-tilkoplingar"
+
+#~ msgid "Opening firewall for IPP connections"
+#~ msgstr "Opnar brannmur for IPP-tilkoplingar"
+
+#~ msgid "Supply"
+#~ msgstr "Tilførsle"
+
+#~ msgid "Location"
+#~ msgstr "Plassering"
+
+#~ msgid "_Default"
+#~ msgstr "_Standard"
+
+#~ msgid "Jobs"
+#~ msgstr "Oppgåver"
+
+#~ msgid "_Show"
+#~ msgstr "_Vis"
+
+#~ msgid "Model"
+#~ msgstr "Modell"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Skriv ut _testside"
+
+#~ msgid "_Options"
+#~ msgstr "Innstillingar"
+
+#~ msgid "_Back"
+#~ msgstr "Til_bake"
+
+#~ msgid "Active Print Jobs"
+#~ msgstr "Aktive utskriftsoppgåver"
+
+#~ msgid "Printer Options"
+#~ msgstr "Skrivarinnstillingar"
+
+#~ msgid "Allowed users"
+#~ msgstr "Brukarar med tilgang"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Legg til ny skrivar"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Utskriftstenesta er ikkje\n"
+#~ "tilgjengeleg."
+
+#~ msgid "Change your region and language settings"
+#~ msgstr "Endra region- og språkinnstillingane dine"
+
+#~ msgid "Metric"
+#~ msgstr "Metrisk"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Vel utforming"
+
+#~ msgid "Preview"
+#~ msgstr "Førehandsvis"
+
+#~ msgid "Select an input source to add"
+#~ msgstr "Vel inndatakjelda som skal leggjast til"
+
+#
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Alternativ for tastaturutforming"
+
+#~ msgid "Region and Language"
+#~ msgstr "Region og språk"
+
+#~ msgid "Dates"
+#~ msgstr "Datoar"
+
+#~ msgid "Currency"
+#~ msgstr "Valutainnstillingar"
+
+#~ msgid "Allow different layouts for individual windows"
+#~ msgstr "Tillat ulike utformingar for kvart vindauge"
+
+#
+#~| msgid "Keyboard Layout Options"
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Vis og endra tastaturutformingsinnstillingar"
+
+#
+#~ msgid "Reset to De_faults"
+#~ msgstr "Set til _standard"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Byt ut gjeldande tastaturutformingsinnstillingar med "
+#~ "standardinnstillingane"
+
+#~ msgid "Layouts"
+#~ msgstr "Utformingar"
+
+#~ msgid "Layout"
+#~ msgstr "Formgjeving"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Screen brightness and lock settings"
+#~ msgstr "Innstillingar for lysstyrke på skjerm og låsing"
+
+#~ msgid "Lock"
+#~ msgstr "Lås"
+
+#
+#~ msgid "Enable debugging code"
+#~ msgstr "Aktiver feilsøkingsmodus"
+
+#
+#~| msgid "Open with Default Application"
+#~ msgid "Version of this application"
+#~ msgstr "Versjon av dette programmet"
+
+#~ msgid " — GNOME Volume Control Applet"
+#~ msgstr " – GNOME panelprogram for volumkontroll"
+
+#~| msgid "UI Control"
+#~ msgid "Volume Control"
+#~ msgstr "Volumkontroll"
+
+#~ msgid "Show desktop volume control"
+#~ msgstr "Vis volumkontroll for skrivebord"
+
+#~ msgid "Sound"
+#~ msgstr "Lyd"
+
+#~ msgid "Change sound volume and sound events"
+#~ msgstr "Endra lydvolum og -hendingar"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;"
+#~ msgstr ""
+#~ "Kort;Mikrofon;Volum;Feiding;Fading;Fade;Balanse;Blåtann;Bluetooth;Headset;"
+#~ "Hovudsett;Hovudtelefonar;"
+
+#~ msgid "Bark"
+#~ msgstr "Bjeff"
+
+#~ msgid "Drip"
+#~ msgstr "Drypp"
+
+#~ msgid "Glass"
+#~ msgstr "Glass"
+
+#~| msgid "Sound"
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~| msgid "Mutt"
+#~ msgid "Output"
+#~ msgstr "Utdata"
+
+#~ msgid "Sound Output Volume"
+#~ msgstr "Volum for lydutdata"
+
+#~ msgid "Input"
+#~ msgstr "Inndata"
+
+#~ msgid "Microphone Volume"
+#~ msgstr "Mikrofonvolum"
+
+#
+#~| msgid "Left"
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Venstre"
+
+#
+#~| msgid "Right"
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Høgre"
+
+#~| msgid "Search"
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Bak"
+
+#
+#~| msgid "Fonts"
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Framme"
+
+#
+#~| msgid "Minimize"
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimum"
+
+#~| msgid "Maximize"
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maksimum"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Balanse:"
+
+#~| msgid "_Name:"
+#~ msgid "_Fade:"
+#~ msgstr "_Feiding:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Basselement"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100 %"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Uforsterka"
+
+#~| msgid "_Mobile:"
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u utgang"
+#~ msgstr[1] "%u utgangar"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u inngang"
+#~ msgstr[1] "%u inngangar"
+
+#~| msgid "System"
+#~ msgid "System Sounds"
+#~ msgstr "Systemlydar"
+
+#~ msgid "Peak detect"
+#~ msgstr "Oppdag topp"
+
+#~| msgid "Name:"
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Høgtalartesting for %s"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Vel eining som lydutgang:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Innstillingar for den valde eininga:"
+
+#
+#~| msgid "_Input boxes:"
+#~ msgid "Input level:"
+#~ msgstr "Nivå for innlyd:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Vel eining som lydinngang:"
+
+#~ msgid "Hardware"
+#~ msgstr "Maskinvare"
+
+#~ msgid "C_hoose a device to configure:"
+#~ msgstr "_Vel eining å setja opp:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Lydeffektar"
+
+#~| msgid "_Application font:"
+#~ msgid "Applications"
+#~ msgstr "Program"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Ingen program spelar eller tek opp lyd."
+
+#~ msgid "Built-in"
+#~ msgstr "Innebygd"
+
+#~| msgid "Mouse Preferences"
+#~ msgid "Sound Preferences"
+#~ msgstr "Lydinnstillingar"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Testar hendingslyd"
+
+#~ msgid "From theme"
+#~ msgstr "Frå tema"
+
+#~| msgid "Choose a Layout"
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Vel varsellyd:"
+
+#~ msgid "Stop"
+#~ msgstr "Stopp"
+
+#
+#~| msgid "Text"
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#, c-format
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "Starting av lydval feila: %s"
+
+#~| msgid "Mutt"
+#~ msgid "_Mute"
+#~ msgstr "_Demp"
+
+#~| msgid "Mouse Preferences"
+#~ msgid "_Sound Preferences"
+#~ msgstr "_Lydinnstillingar"
+
+#~| msgid "Multimedia"
+#~ msgid "Muted"
+#~ msgstr "Dempa"
+
+#~ msgid "Custom"
+#~ msgstr "Sjølvvald"
+
+#
+#~| msgid "Appearance Preferences"
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Innstillingar for tilgjenge"
+
+#
+#~| msgid "GNOME OnScreen Keyboard"
+#~ msgid "On screen keyboard"
+#~ msgstr "Tastatur på skjermen"
+
+#
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Caribou"
+#~ msgstr "Reinsdyr"
+
+#, no-c-format
+#~ msgid "100%"
+#~ msgstr "100 %"
+
+#, no-c-format
+#~ msgid "125%"
+#~ msgstr "125 %"
+
+#, no-c-format
+#~ msgid "150%"
+#~ msgstr "150 %"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Increase size:"
+#~ msgstr "Auk storleik:"
+
+#~ msgid "Decrease size:"
+#~ msgstr "Minsk storleik:"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Slå på eller av:"
+
+#~| msgid "Zoom"
+#~ msgid "Zoom in:"
+#~ msgstr "Forstørr:"
+
+#~| msgid "Zoom"
+#~ msgid "Zoom out:"
+#~ msgstr "Forminsk:"
+
+#~| msgid "_Options..."
+#~ msgid "Options..."
+#~ msgstr "Innstillingar …"
+
+#
+#~| msgid "Linux Screen Reader"
+#~ msgid "Screen Reader"
+#~ msgstr "Skjermlesar"
+
+#
+#~| msgid "Beep when a key is pr_essed"
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Pip når Caps Lock og Num Lock vert brukt"
+
+#~ msgid "Seeing"
+#~ msgstr "Syn"
+
+#~ msgid "Use a visual indication when an alert sound occurs"
+#~ msgstr "Bruk visuell indikasjon når varsellydar vert avspela"
+
+#~| msgid "Flash _window titlebar"
+#~ msgid "Flash the window title"
+#~ msgstr "Blink tittellinja på vindauget"
+
+#~| msgid "Flash entire _screen"
+#~ msgid "Flash the entire screen"
+#~ msgstr "Lat heile skjermen blinke"
+
+#~| msgid "Visual"
+#~ msgid "Visual Alerts"
+#~ msgstr "Visuelle varslar"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "Vis tekstskildring av tale og lydar."
+
+#~ msgid "Closed Captioning"
+#~ msgstr "Undertekst"
+
+#~ msgid "Hearing"
+#~ msgstr "Høyrsel"
+
+#~| msgid "A_ssistant:"
+#~ msgid "Typing Assistant"
+#~ msgstr "Skriveassistent"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Ser på rekkjefølgjer av valtastar som tastekombinasjonar"
+
+#~| msgid "<b>Sticky Keys</b>"
+#~ msgid "Sticky Keys"
+#~ msgstr "Seige tastar"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Set eit opphald mellom tastetrykk og når trykket vert godteke"
+
+#
+#~| msgid "Beep when a key is pr_essed"
+#~ msgid "Beep when a key is"
+#~ msgstr "Pip når tast vert"
+
+#~ msgid "pressed"
+#~ msgstr "trykt"
+
+#~ msgid "accepted"
+#~ msgstr "godkjent"
+
+#~ msgid "rejected"
+#~ msgstr "avvist"
+
+#~| msgid "<b>Slow Keys</b>"
+#~ msgid "Slow Keys"
+#~ msgstr "Trege tastar"
+
+#
+#~| msgid "_Ignore fast duplicate keypresses"
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Overser snøgge duplikate tastetrykk"
+
+#~| msgid "Mouse Keys"
+#~ msgid "Bounce Keys"
+#~ msgstr "Sprettetastar"
+
+#~| msgid "_Type to test settings:"
+#~ msgid "Type here to test settings"
+#~ msgstr "Skriv for å testa innstillingane"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Musetastar"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Styr musepeikaren med videokameraet."
+
+#~| msgid "Mouse"
+#~ msgid "Video Mouse"
+#~ msgstr "Videomus"
+
+#~| msgid "<b>Simulated Secondary Click</b>"
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Simulert høgreklikk"
+
+#
+#~ msgid "D_elay:"
+#~ msgstr "Paus_e:"
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "Peik og klikk"
+
+#~| msgid "Create New Location"
+#~ msgid "Create new account"
+#~ msgstr "Lag ny konto"
+
+#~| msgid "C_reate"
+#~ msgid "Cr_eate"
+#~ msgstr "_Lag"
+
+#~| msgid "seconds"
+#~ msgid "User Accounts"
+#~ msgstr "Brukarkontoar"
+
+#~ msgid "Log in without a password"
+#~ msgstr "Logg inn utan passord"
+
+#~ msgid "Disable this account"
+#~ msgstr "Slå av denne kontoen"
+
+#~ msgid "Enable this account"
+#~ msgstr "Slå på denne kontoen"
+
+#~| msgid "Change password"
+#~ msgid "Choose a generated password"
+#~ msgstr "Vel frambringa passord"
+
+#
+#~| msgid "Filter"
+#~ msgid "Fair"
+#~ msgstr "Rimeleg"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "Korleis velja eit sterkt passord"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "Endrar bilete til:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "Vel bilete som vil visast på innloggingskjermen for denne kontoen."
+
+#~| msgid "Galeon"
+#~ msgid "Gallery"
+#~ msgstr "Galleri"
+
+#~| msgid "Take a break!"
+#~ msgid "Take a photograph"
+#~ msgstr "Ta fotografi"
+
+#~| msgid "Web Browser"
+#~ msgid "Browse"
+#~ msgstr "Bla gjennom"
+
+#~ msgid "Photograph"
+#~ msgstr "Fotograf"
+
+#~ msgid "Account Information"
+#~ msgstr "Kontoinformasjon"
+
+#~ msgid "More choices..."
+#~ msgstr "Fleire val …"
+
+#~| msgid "_Retype new password:"
+#~ msgid "You need to enter a new password"
+#~ msgstr "Du må skriva inn eit nytt passord"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "Du må bekrefta passordet"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "Du må skriva inn ditt gjeldande passord"
+
+#~| msgid "That password was incorrect."
+#~ msgid "The current password is not correct"
+#~ msgstr "Det gjeldande passordet er ikkje riktig"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "For kort"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "Svakt"
+
+#
+#~| msgid "Filter"
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "Greitt"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "Godt"
+
+#~| msgid "Scrolling"
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "Sterkt"
+
+#~ msgid "Browse for more pictures..."
+#~ msgstr "Bla gjennom for fleire bilete …"
+
+#, c-format
+#~| msgid "The location already exists."
+#~ msgid "A user with name '%s' already exists."
+#~ msgstr "Brukar med namnet «%s» finst alt."
+
+#~ msgid "This user does not exist."
+#~ msgstr "Denne brukaren finst ikkje."
+
+#, c-format
+#~ msgid "A user with the username '%s' already exists"
+#~ msgstr "Brukar med brukarnamnet «%s» finst alt"
+
+#~ msgid "Show help options"
+#~ msgstr "Vis hjelpeval"
+
+#
+#~ msgid "Control Center"
+#~ msgstr "Kontrollsenter"
+
+#~ msgid "System Settings"
+#~ msgstr "Systeminnstillingar"
+
+#~| msgid "Mutt"
+#~ msgid "Mute"
+#~ msgstr "Demp"
+
+#
+#~ msgid "Test Sound"
+#~ msgstr "Testlyd"
+
+#~ msgid "Key"
+#~ msgstr "Nøkkel"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf-nøkkel som denne eigenskapsredigeraren brukar"
+
+#~ msgid "Callback"
+#~ msgstr "Tilbakekall"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Send dette tilbakekallet når verdien knytta til nøkkelen vert endra"
+
+#~ msgid "Change set"
+#~ msgstr "Mengd av endringar"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Endringsmengda til GConf inneheld data som skal sendast vidare til gconf-"
+#~ "klienten når endringane vert gjord verksame"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Konvertering til tilbakekall av skjermelement"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når data skal konverterast frå GConf til "
+#~ "skjermelementet"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Konvertering frå tilbakekall av skjermelement"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når data skal konverterast til GConf frå "
+#~ "skjermelementet"
+
+#~ msgid "UI Control"
+#~ msgstr "UI-kontroll"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objekt som kontrollerer eigenskapen (normalt eit skjermelement)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Objektdata for redigering av eigenskapar"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Eigendefinerte data som trengst til eigenskapredigeringsprogrammet"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Tilbakekall som frigjer data frå eigenskapredigeringsprogrammet"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Tilbakekall som skal sendast når eigenskapsredigeringsprogrammet skal "
+#~ "frigjera objektdata"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Klarte ikkje finna fila «%s»\n"
+#~ "\n"
+#~ "Kontroller at fila finst og prøv på nytt, eller vel eit anna "
+#~ "bakgrunnsbilete."
+
+#, c-format
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Veit ikkje korleis fila «%s» skal opnast.\n"
+#~ "Kanskje det er ein biletetype som ikkje er støtta.\n"
+#~ "\n"
+#~ "Vel eit anna bilete i staden."
+
+#~ msgid "Please select an image."
+#~ msgstr "Vel eit bilete."
+
+#~ msgid "_All Settings"
+#~ msgstr "_Alle innstillingar"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Kor fort skrivemerket blinkar"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Snarvegtastmodus"
+
+#
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Oppløysing:"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otering:"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr ""
+#~ "Klarte ikkje finna øktbussen under aktivering av skjerminnstillingar"
+
+#~| msgid "Shortcut"
+#~ msgid "New shortcut..."
+#~ msgstr "Ny snøggtast …"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Snarvegstast"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Endringstastar for snarvegar"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Tastekodar for snarvegar"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Typen snarveg."
+
+#~ msgid "CD _audio:"
+#~ msgstr "CD-_lyd:"
+
+#~ msgid "Media and Autorun"
+#~ msgstr "Medium og autokjør"
+
+#~ msgid "_DVD video:"
+#~ msgstr "_DVD-video:"
+
+#
+#~| msgid "Muine Music Player"
+#~ msgid "_Music player:"
+#~ msgstr "_Musikkspelar:"
+
+#~| msgid "_Yahoo:"
+#~ msgid "_Photos:"
+#~ msgstr "_Bilete:"
+
+#~ msgid "_Software:"
+#~ msgstr "_Programvare:"
+
+#~ msgid "Configure media and autorun preferences"
+#~ msgstr "Set opp medium- og autostart-innstillingar"
+
+#~| msgid "Mirror Screens"
+#~ msgid "Screen"
+#~ msgstr "Skjerm"
+
+#~ msgid "Battery charging"
+#~ msgstr "Batteriet vert lada"
+
+#~ msgid "Battery discharging"
+#~ msgstr "Batteriet vert tømt"
+
+#~ msgid "UPS charging"
+#~ msgstr "UPS vert lada"
+
+#~ msgid "UPS discharging"
+#~ msgstr "UPS vert tømt"
+
+#, c-format
+#~ msgid "%s until charged (%.0lf%%)"
+#~ msgstr "%s til fullada (%.0lf%%)"
+
+#, c-format
+#~ msgid "%s until empty (%.0lf%%)"
+#~ msgstr "%s til utlada (%.0lf%%)"
+
+#, c-format
+#~ msgid "%.0lf%% charged"
+#~ msgstr "%.0lf%% lada"
+
+#~ msgid "Unlock"
+#~ msgstr "Lås opp"
+
+#~| msgid "C_reate"
+#~ msgid "Create a user"
+#~ msgstr "Lag brukar"
+
+#~ msgid ""
+#~ "To create a user,\n"
+#~ "click the * icon first"
+#~ msgstr ""
+#~ "For å laga brukar,\n"
+#~ "trykk på *-ikonet først"
+
+#~ msgid "Delete the selected user"
+#~ msgstr "Slett den valde brukaren"
+
+#~ msgid ""
+#~ "To delete the selected user,\n"
+#~ "click the * icon first"
+#~ msgstr ""
+#~ "For å sletta den valde brukaren,\n"
+#~ "trykk på *-ikonet først"
+
+#~ msgid "Wallpaper;Screen;Desktop;Theme;"
+#~ msgstr "Skrivebordsbakgrunn;Skjerm;Skrivebord;Tema"
+
+#~ msgid "Theme to be used for the UI"
+#~ msgstr "Tema brukt i grensesnittet"
+
+#~ msgid "180 Degrees"
+#~ msgstr "180 grader"
+
+#~ msgid "Clockwise"
+#~ msgstr "Med klokka"
+
+#~ msgid "Counterclockwise"
+#~ msgstr "Mot klokka"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "fallback;preferred;"
+#~ msgstr ""
+#~ "eining;system;informasjon;minne;prosessor;versjon;standard;program;"
+#~ "reserveløysing;føretrekt;"
+
+#~ msgid "System Info"
+#~ msgstr "Systeminformasjon"
+
+#~ msgid "Toggle contrast"
+#~ msgstr "Slå av/på kontrast"
+
+#~ msgid "Magnifier zoom out"
+#~ msgstr "Gjer mindre"
+
+#~ msgid "Toggle on-screen keyboard"
+#~ msgstr "Slå av/på skjermtastatur"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "Slå av/på forstørring"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "Slå av/på skjermlesar"
+
+#~ msgid "Magnifier zoom in"
+#~ msgstr "Gjer større"
+
+#~ msgid "cd;dvd;usb;audio;video;disc;"
+#~ msgstr "cd;dvd;usb;lyd;video;plate;"

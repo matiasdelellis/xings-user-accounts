@@ -1,0 +1,3257 @@
+# Northern Sotho translation of gnome-control-center.
+# Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Zuza Software Foundation <info@translate.org.za>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2004-11-27 17:02+0200\n"
+"Last-Translator: Zuza Software Foundation <info@translate.org.za>\n"
+"Language-Team: Northern Sotho <translate-discuss-nso@lists.sourceforge.net>\n"
+"Language: nso\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "L_eina la modiriši:"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "_Tletšego"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Kgokagano ya Dithapo ya X ya Motheo"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Oketša Mohuta wa Faele"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Fetola peakanyo"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+#, fuzzy
+msgid "Ch_ange"
+msgstr "Fetola peakanyo"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Fetola peakanyo"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_Lentšuphetišo:"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Dikgetho tša go Bea"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "L_eina la modiriši:"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+#, fuzzy
+msgid "Other Accounts"
+msgstr "Tše dingwe"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, fuzzy, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Na o nyaka go boloka setlamo se?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "Phumola"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "Faele e Mpsha"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Phumola"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "_Ga e gona"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Go Tsenywa ga Sehlogo"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Leswao le Bontšhago mo o lego le sa Tsebjwego"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "Oketša..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Kgokagano ya Dithapo ya X ya Motheo"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+#, fuzzy
+msgid "The device is already in use."
+msgstr "Go Kopanya ga Senotlelo ga (%s) go šetše go dirišwa\n"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Paledišitšwe"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Paledišitšwe"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "_Kgetha"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+#, fuzzy
+msgid "Please choose another password."
+msgstr "_Lentšuphetišo:"
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "_Lentšuphetišo:"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_Kgetha"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Bula"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Paledišitšwe"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Lentšuphetišo:"
+
+#, fuzzy
+#~ msgid "The type of alert"
+#~ msgstr "Mohuta wa seakgofiši."
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr "Dikonope"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr "Dintlha tša _Sehlogo"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr "_Ka ga"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr "Tshedimošo ya mohuta wa MIME"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr "Diswantšho"
+
+#, fuzzy, c-format
+#~ msgid "About %s"
+#~ msgstr "_Ka ga"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Nyenyane</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Lebelo</b>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Go Fana ka Fonto</b>"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Thekgo</b>"
+
+#, fuzzy
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Dinotlelo tša go Thumaša le go Tima</b>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Lebelo</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Thekgo</b>"
+
+#, fuzzy
+#~ msgid "A_ddress:"
+#~ msgstr "_Oketša:"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "_gateletšwe"
+
+#, fuzzy
+#~ msgid "C_ity:"
+#~ msgstr "_Setaele:"
+
+#, fuzzy
+#~ msgid "C_ompany:"
+#~ msgstr "Ta_elo:"
+
+#, fuzzy
+#~ msgid "Cale_ndar:"
+#~ msgstr "Lego_ro:"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Fetola peakanyo"
+
+#, fuzzy
+#~ msgid "Ci_ty:"
+#~ msgstr "_Setaele:"
+
+#, fuzzy
+#~ msgid "Co_untry:"
+#~ msgstr "Taolo"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "_Dikagare"
+
+#, fuzzy
+#~ msgid "Cou_ntry:"
+#~ msgstr "Taolo"
+
+#, fuzzy
+#~ msgid "Hom_e:"
+#~ msgstr "_Leina:"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Lentšuphetišo:"
+
+#, fuzzy
+#~ msgid "Personal Info"
+#~ msgstr "_Fonto ya kgokagano ya dithapo:"
+
+#, fuzzy
+#~ msgid "_Address:"
+#~ msgstr "_Oketša:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr "_Leina la sehlogo:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "_Leina:"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr "_Segodiši"
+
+#, fuzzy
+#~ msgid "_Mobile:"
+#~ msgstr "_Faele"
+
+#, fuzzy
+#~ msgid "_Profession:"
+#~ msgstr "Kgatišo:"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr "_Lentšuphetišo:"
+
+#, fuzzy
+#~ msgid "_Title:"
+#~ msgstr "_Setaele:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>Ditirišo</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Thekgo</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<small><i><b>Ela hloko:</b> Diphetogo tšeo di dirwago peakanyong ye di ka "
+#~ "se šome go fihlela ge o tsena gape nakong e latelago.</i></small>"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Tše Ratwago tša Thekinolotši tše Thušago"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Tswalela gomme o _Tšwe"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Thoma dithekinolotši tše tše thušago nako le nako ge o tsena:"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Kgontšha dithekinolotši tše thušago"
+
+#~ msgid "_Magnifier"
+#~ msgstr "_Segodiši"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "_Boroto ya dinotlelo e lego Sekirining"
+
+#~ msgid "_Screenreader"
+#~ msgstr "_Sebadi sa sekirini"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Thekgo ya Thekinolotši e Thušago"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "Kgontšha thekgo bakeng sa dithekinolotši tše thušago tša GNOME go tseneng"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Ga go na Thekinolotši e Thušago yeo e lego tshepedišong ya gago.  Ngatana "
+#~ "ya 'gok' e swanetše go tsenywa gore go hwetšwe thekgo ya boroto ya "
+#~ "dinotlelo ya sekirining, le ngatana ya 'gnopernicus' e swanetše go "
+#~ "tsenywa bakegn sa go bala ga sekirini le bokgoni bja go godiša."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Ga se thekinolotši ka moka tše thušago tšeo di tsentšhitšwego "
+#~ "tshepedišong ya gago. Ngatana ya 'gok' e swanetše go tsenywa gore go "
+#~ "hwetšwe thekgo ya boroto ya dinotlelo ya sekirining."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gnopernicus' package must be installed for screenreading and "
+#~ "magnifying capabilities."
+#~ msgstr ""
+#~ "Ga se dithekinolotši ka moka tše thušago tšeo di tsentšhitšwego "
+#~ "tshepedišong ya gago. Ngatana ya 'gnopernicus' e swanetše go tsentšhwa "
+#~ "bakeng sa bokgoni bja go bala sekirini le go godiša."
+
+#, c-format
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr ""
+#~ "Go bile le phošo ya go tsebagatša poledišano ya tše ratwago tša "
+#~ "legotlwana: %s"
+
+#, c-format
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr ""
+#~ "Ga e kgone go amogela dipeakanyo tša go Tsena tša X go tšwa faeleng ya "
+#~ "'%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Amogela Faele ya Dipeakanyo tša Sebopego"
+
+#~ msgid "_Import"
+#~ msgstr "_Amogela"
+
+#~ msgid "Keyboard"
+#~ msgstr "Boroto ya dinotlelo"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Beakanya tše di ratwago tša go tsenega ga boroto ya dinotlelo"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Tshepedišo ye ga e bonagale e na le koketšo ya XKB.  Dibopego tša go "
+#~ "tsenega ga boroto ya dinotlelo di ka se šome ka ntle le yona."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Kgontšha Dino_tlelo tša go Tlola</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Kgontšha Dino_tlelo tše Nanyago</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Kgontšha _Dinotlelo tša Legotlwana</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Kgontšha _Dinotlelo tša go Bušeletša</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Kgontšha _Dinotlelo tše Kgomarelago</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Dibopego</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Dinotlelo tša go Thumaša le go Tima</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Motheo"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Dira modumo ge senotlelo se ga_nwa"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr ""
+#~ "Dira modumo _ge dibopego di thumašwa goba di tingwa borotong ya dinotlelo"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Dira modumo _ge sempshafatši se gateletšwe"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "Dira modumo ge LED e thumašitšwe le medumo e mebedi ge e timilwe."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Dira modumo ge senotlelo se:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Die_giša:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr ""
+#~ "Diegiša magareng ga go gatelelwa ga senotlelo le go šu_tha ga selaetši:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Pale_diša ge dinotlelo tše pedi di gateletšwe mmogo"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "K_gontšha Dinotlelo tša go Thumaša le go Tima"
+
+#~ msgid "Filters"
+#~ msgstr "Dikgethi"
+
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr ""
+#~ "H_lokomologa go gatelelwa ga senotlelo mo go lego gabedi ka gare ga:"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Hlokomologa go gatelela ka moka mo go hlatlamanago ga senotlelo se "
+#~ "SWANAGO ge eba go direga nakong e kgethilwego ya modiriši."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Tše Ratwago tša go Tsenega ga Boroto ya Dinotlelo (Go Tsena ga X)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Le_belo le legolo la selaetši:"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Dinotlelo tša Legotlwana"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "Tše Ratwago _tša Legotlwana..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Amogela dinotlelo feela ka morago ga ge di gateletšwe le go swara tekanyo "
+#~ "ya nako e ka lokišwago ya modiriši."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Dira mediro ya go gatelela senotlelo e mentši ya samma-le-tee ka go "
+#~ "kgotla dinotlelo tša mpshafatšo ka tatelano."
+
+#~ msgid "S_peed:"
+#~ msgstr "L_ebelo:"
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Nako ya go akgo_fiša go fihla go lebelo le legolo:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr ""
+#~ "Fetola mosemo wa dinotlelo wa dinomoro gore e ba moseme wa taolo ya "
+#~ "legotlwana."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "_Palediša ge eba e sa dirišwe bakeng sa:"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "_Kgontšha dibopego tša go tsenega ga boroto ya dinotlelo"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Amogela Peakanyo ya Sebopego..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "_Amogela feela dinotlelo tše swaretšwego:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tlanya go leka dipeakanyo:"
+
+#~ msgid "_accepted"
+#~ msgstr "_amogetšwe"
+
+#~ msgid "_pressed"
+#~ msgstr "_gateletšwe"
+
+#~ msgid "_rejected"
+#~ msgstr "_gannwe"
+
+#~ msgid "characters/second"
+#~ msgstr "ditlhaka/motsotswana"
+
+#~ msgid "milliseconds"
+#~ msgstr "seripa sa metsotswana"
+
+#~ msgid "pixels/second"
+#~ msgstr "dikarolwana tše bopago seswantšho/motsotswana"
+
+#~ msgid "seconds"
+#~ msgstr "metsotswana"
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Fetola Dipeakanyo tša Bokamorago bja Teseke ya Gago"
+
+#~ msgid "Desktop Background"
+#~ msgstr "Bokamorago bja Teseke"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>Pampiri ya leboteng ya _Teseke</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>_Mebala ya Teseke</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Tše Ratwago tša Bokamorago bja Teseke"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Oketša Pampiri ya leboteng"
+
+#~ msgid "_Style:"
+#~ msgstr "_Setaele:"
+
+#, c-format
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Go bile le phošo ya go bontšha thušo: %s"
+
+#~ msgid "Centered"
+#~ msgstr "E beilwe magareng"
+
+#~ msgid "Fill Screen"
+#~ msgstr "Tlatša Sekirini"
+
+#~ msgid "Scaled"
+#~ msgstr "Lekanyeditšwe"
+
+#~ msgid "Tiled"
+#~ msgstr "E dirilwe thaele"
+
+#~ msgid "Solid Color"
+#~ msgstr "Mmala o Tiilego"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Go Sekama go Rapamego"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Go Sekama go Tsepamego"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Oketša Pampiri ya leboteng"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Ga go na Pampiri ya leboteng"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Ga e kgone go thoma molaodi wa dipeakanyo 'daemon ya dipeakanyo tša "
+#~ "gnome'.\n"
+#~ "Ka ntle le go šoma ga molaodi wa dipeakanyo tša GNOME, tše dingwe tše "
+#~ "ratwago di ka no se šome. Se se ka laetša bothata le Bonobo, goba molaodi "
+#~ "wa dipeakanyo yo e sego wa GNOME (ka mohlala, KDE) a ka ba a šetše a šoma "
+#~ "e bile a lwantšhana le molaodi wa peakanyo wa GNOME."
+
+#, c-format
+#~ msgid "Unable to load capplet stock icon '%s'\n"
+#~ msgstr "Ga e kgone go laiša leswao la setoko la khapolete ya '%s'\n"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Diriša feela dipeakanyo gomme o tlogele"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Buša morago gomme go boloka dipeakanyo tše molaong"
+
+#~ msgid "From URI"
+#~ msgstr "Go tšwa go URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI gona bjale e fetišetša go tšwa go"
+
+#~ msgid "To URI"
+#~ msgstr "Go ya go URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI yeo gona bjale e fetišetšago go"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Seabelo se feditšwego"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Seabelo sa phetišetšo yeo gona bjale e feditšwego"
+
+#~ msgid "Current URI index"
+#~ msgstr "Tlhatlamano ya gona bjale ya URI"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Tlhatlamano ya gona bjale ya URI - e thoma go 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Palomoka ya di-URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Palo moka ya di-URI"
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "Go tšwa go: %s"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Go ya go: %s"
+
+#~ msgid "Connecting..."
+#~ msgstr "Go kgokaganya..."
+
+#~ msgid "Key"
+#~ msgstr "Senotlelo"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Senotlelo sa GConf seo morulaganyi wa thoto a kgokagantšwego"
+
+#~ msgid "Callback"
+#~ msgstr "Letša gape"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Ntšha go letša gape ge boleng bjo tswalanego le senotlelo bo fetolwa"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf e fetola peakanyo yeo e nago le tsebišo yeo e swanetšego go "
+#~ "fetišetšwa go modirelwa wa gconf tirišong"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Go fetolwa ga go letša gape ga sedirišwa"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Go letša gape mo go swanetšego go ntšhwa ge tsebišo e fetoletšwe go tloga "
+#~ "go GConf go ya go sedirišwa"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Go fetolelwa go tšwa go go letša gape ga sedirišwa"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Go letša gape mo go swanetšego go ntšhwa ge tsebišo e swanetše go "
+#~ "fetolelwa go GConf go tšwa go sedirišwa"
+
+#~ msgid "UI Control"
+#~ msgstr "Taolo ya UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Sedirišwa seo se laolago thoto (ka mo go tlwaelegilego sedirišwa)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Tsebišo ya sedirišwa ya morulaganyi wa thoto"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Tsebišo ya tlwaelo e nyakwago ke morulaganyi yo a itšego wa thoto"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Tsebišo ya morulaganyi wa thoto yeo e lokollago go letša gape"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Go letša gape mo go swanetšego go ntšhwa ge tsebišo ya sedirišwa sa "
+#~ "morulaganyi wa thoto e swanetše go lokollwa"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Ga e kgone go hwetša faele '%s'.\n"
+#~ "\n"
+#~ "Hle kgonthišetša gore e gona gomme o leke gape, goba o kgethe seswantšho "
+#~ "se bonagalago ka morago se fapanego."
+
+#, c-format
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Ga ke tsebe kamoo nka bulago faele ya '%s'.\n"
+#~ "Mohlomongwe ke mohuta wa seswantšho seo sešogo sa thekgwa.\n"
+#~ "\n"
+#~ "Hle kgetha seswantšho se fapanego legatong la se."
+
+#~ msgid "Please select an image."
+#~ msgstr "Hle kgetha seswantšho."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Ditirišo tše Ratwago"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Kgetha ditirišo tša gago tša tlhaelelo"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Sefetleki sa Wepe sa Tlhaelelo"
+
+#~ msgid "Epiphany"
+#~ msgstr "Epiphany"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Encompass"
+#~ msgstr "Fihlelela"
+
+#, fuzzy
+#~ msgid "Firebird"
+#~ msgstr "Firebird/FireFox"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#, fuzzy
+#~ msgid "Mozilla"
+#~ msgstr "Poso ya Mozilla"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Seboledi sa Netscape"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "Sefetleki sa Sengwalwa sa W3M"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Sefetleki sa Sengwalwa sa Lynx"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "E Kgokaganya Sefetleki sa Sengwalwa"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Sebadi sa Poso sa Phutollo"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "KMail"
+#~ msgstr "Poso ya K"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Poso ya Mozilla"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Kgokagano ya Dithapo ya Tlhaelelo"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr "Kgokagano ya dithapo"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Hle laetša leina le taelo ya morulaganyi yo."
+
+#~ msgid "Add..."
+#~ msgstr "Oketša..."
+
+#~ msgid "C_ustom"
+#~ msgstr "_Tlwaelo"
+
+#~ msgid "C_ustom:"
+#~ msgstr "_Tlwaelo:"
+
+#, fuzzy
+#~ msgid "Can open multiple _files"
+#~ msgstr "Tirišo ye e ka bula difaele _tše dintši"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Ta_elo:"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Dipharologantšho tša Morulaganyi wa Tlwaelo"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Mmadi wa Poso wa Tlhaelelo"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Kgokagano ya Dithapo ya Tlhaelelo"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Morulaganyi wa Sengwalwa wa Tlhaelelo"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Sefetleki sa Wepe sa Tlhaelelo"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "Molaodi wa Lefesetere wa Tlhaelelo"
+
+#~ msgid "E_xec Flag:"
+#~ msgstr "P_hethagatša Folaga:"
+
+#~ msgid "Edit..."
+#~ msgstr "Lokiša..."
+
+#~ msgid "Mail Reader"
+#~ msgstr "Sebadi sa Poso"
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "Diriša ka _Kgokagano ya Dithapo"
+
+#, fuzzy
+#~ msgid "Run in a t_erminal"
+#~ msgstr "Diriša ka _Kgokagano ya Dithapo"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Kgetha molaodi wa lefesetere yo o mo nyakago.  Go tla nyakega gore o "
+#~ "kgotle diriša, o phagamiše seatla, gomme o bine motantsho wa mohlolo gore "
+#~ "e šome."
+
+#~ msgid "Terminal"
+#~ msgstr "Kgokagano ya dithapo"
+
+#~ msgid "Text Editor"
+#~ msgstr "Morulaganyi wa Sengwalwa"
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "E Kwešiša _Taolo ya Kgole ya Netscape"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr ""
+#~ "Diriša morulaganyi _yo go bula difaele tša sengwala molaoding wa faele"
+
+#~ msgid "Web Browser"
+#~ msgstr "Sefetleki sa Wepe"
+
+#~ msgid "Window Manager"
+#~ msgstr "Molaodi wa Lefesetere"
+
+#~ msgid "_Command:"
+#~ msgstr "Ta_elo:"
+
+#~ msgid "_Name:"
+#~ msgstr "_Leina:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Dipharologantšho..."
+
+#~ msgid "_Select:"
+#~ msgstr "_Kgetha:"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Fetola setlamo sa sekirini"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Setlamo sa Sekirini"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Setlamo:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Di_ra tekanyo gape:"
+
+#~ msgid "Default Settings"
+#~ msgstr "Dipeakanyo tša Tlhaelelo"
+
+#, c-format
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Dipeakanyo tša Sekirini sa %d\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Tše Ratwago tša Setlamo sa Sekirini"
+
+#, c-format
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "_Dira tlhaelelo bakeng sa khomphuthara ye ya (%s) feela"
+
+#~ msgid "Options"
+#~ msgstr "Dikgetho"
+
+#, c-format
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Go leka dipeakanyo tše mpsha. Ge o sa arabele ka metsotswana e %d go tla "
+#~ "bolokwa peakanyo ya nakong e fetilego."
+#~ msgstr[1] ""
+#~ "Go leka dipeakanyo tše mpsha. Ge eba o sa arabele ka metsotswana e %d go "
+#~ "tla bolokwa peakanyo ya nakong e fetilego."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Boloka Setlamo"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "Diriša _setlamo sa nakong e fetilego"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Boloka setlamo"
+
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Seabi sa X ga se thekge koketšo ya XRandR.  Setlamo sa nako ya go šoma se "
+#~ "fetogelago go bogolo bja go bontšha ga di gona."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Kgatišo ya koketšo ya XRandR yeo e sa kwanego le lenaneo le. Diphetogo "
+#~ "tša go šoma go bogolo bja go bontšha ga di gona."
+
+#~ msgid "Font"
+#~ msgstr "Fonto"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Kgetha difonto tša teseke"
+
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "<b>Go Fana ka Fonto</b>"
+
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "<b>Go Eletša</b>:"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>Go Dira Boreledi</b>:"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>Tatelano ya dika-dikarolwana tše bopago seswantšho</b>:"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Dibopego _tše di phalago ka moka"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Go fapana go e ph_alago ka moka"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_intlha..."
+
+#~ msgid "Font Preferences"
+#~ msgstr "Tše Ratwago tša Fonto"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Dintlha tša go Fana ka Fonto"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "Eya _sephutheding sa fonto"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Teka_nyo e tshetla"
+
+#~ msgid "N_one"
+#~ msgstr "G_a e gona"
+
+#~ msgid "R_esolution:"
+#~ msgstr "S_etlamo:"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Dikarolwana_tše nyenyane tše bopago diswantšho (di-LCD)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr ""
+#~ "Go dira gore dikarolwana_tše nyenyane tše bopago seswantšho di be "
+#~ "boreledi (di-LCD)"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Fonto ya tirišo:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "_Fonto ya teseke:"
+
+#~ msgid "_Medium"
+#~ msgstr "_Magareng"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Mmala o tee wa boso le bošweu"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Slight"
+#~ msgstr "_Ganyenyane"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "_Fonto ya kgokagano ya dithapo:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Fonto ya sehlogo sa lefesetere:"
+
+#~ msgid "dots per inch"
+#~ msgstr "dintlha go ya ka noko"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Fonto e ka ba e le e kgolo kudu"
+
+#, c-format
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Fonto e kgethilwego e bogolo bja ntlha bja %d , e bile e ka dira gore go "
+#~ "be thata go diriša khomphuthara ka mo go šomago. Go eletšwa gore o kgethe "
+#~ "bogolo bjo bo lego bjo bonyenyane go %d."
+#~ msgstr[1] ""
+#~ "Fonto e kgethilwego e bogolo bja dintlha bja %d , e bile e ka dira gore "
+#~ "go be thata go diriša khomphuthara ka mo go šomago. Go eletšwa gore o "
+#~ "kgethe bogolo bjo bo lego bjo bonyenyane go %d."
+
+#, c-format
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Fonto e kgethilwego e bogolo bja ntlha bja %d, e bile e ka dira gore go "
+#~ "be thata go diriša khomphuthara ka mo go šomago. Go eletšwa gore o kgethe "
+#~ "fonto ya bogolo bjo bonyenyane."
+#~ msgstr[1] ""
+#~ "Fonto e kgethilwego e bogolo bja dintlha bja %d, e bile e ka dira gore go "
+#~ "be thata go diriša khomphuthara ka mo go šomago. Go eletšwa gore o kgethe "
+#~ "fonto ya bogolo bjo bonyenyane."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Seakgofiši se seswa..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Senotlelo sa seakgofiši"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Dimpshafatši tša seakgofiši"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Khoutu ya senotlelo ya seakgofiši"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Mokgwa wa Seakgofiši"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Mohuta wa seakgofiši."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Mogato o sa Tsebjwego>"
+
+#~ msgid "Desktop"
+#~ msgstr "Teseke"
+
+#~ msgid "Sound"
+#~ msgstr "Modumo"
+
+#~ msgid "Window Management"
+#~ msgstr "Taolo ya Lefesetere"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "Kgaoletšo ya \"%s\" e šetše e dirišeditšwe:\n"
+#~ " \"%s\"\n"
+
+#, c-format
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Phošo ya go beakanya seakgofiši se seswa datapeising ya go fetola "
+#~ "sebopego: %s\n"
+
+#, c-format
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr ""
+#~ "Phošo ya go beakanyolla seakgofiši datapeising ya go fetola sebopego: %s\n"
+
+#~ msgid "Action"
+#~ msgstr "Mogato"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kgaoletšo"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Dikgaoletšo tša Boroto ya Dinotlelo"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "Go lokiša senotlelo sa kgaoletšo, kgotla mothalong o sepelelanago gomme o "
+#~ "tlanye seakgofiši se seswa, goba o gatelele backspace gore o phumole."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Abela dinotlelo tša kgaoletšo go ditaelo"
+
+#~ msgid "Unknown"
+#~ msgstr "Tše sa Tsebjwego"
+
+#~ msgid "Layout"
+#~ msgstr "Bea"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Leswao le Bontšhago mo o lego la Tlhaelelo"
+
+#~ msgid "Models"
+#~ msgstr "Mehlala"
+
+#, c-format
+#~ msgid "There was an error launching the keyboard capplet : %s"
+#~ msgstr ""
+#~ "Go bile le phošo ya go tsebagatša khapolete ya boroto ya dinotlelo : %s"
+
+#~ msgid "_Accessibility"
+#~ msgstr "_Go tsenega"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Diriša feela dipeakanyo gomme o tlogele (go sepelelana feela; mo gona "
+#~ "bjale go swarwago ke daemon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Thoma letlakala dipeakanyo tša go khutša ga go tlanya di bonagala"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Go Ponya ga Leswao le Bontšhago mo o lego</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>Dinotlelo tša go Bušeletša</b>"
+
+#~ msgid "<b>_Lock screen to enforce typing break</b>"
+#~ msgstr "<b>_Notlela sekirini go gapeletša go khutša ga go tlanya</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Lebelo</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Telele</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Kopana</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Nanyago</i></small>"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "G_o bea mo go lego gona:"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Dume_elela go šuthišwa ga go khutša"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Lekola ge eba go khutša go dumeletšwe gore go šuthišwe"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "Kgetha mohlala wa boroto ya dinotlelo"
+
+#, fuzzy
+#~ msgid "Choose A Layout"
+#~ msgstr "Tswalela gomme o _Tšwe"
+
+#~ msgid "Cursor _blinks in text boxes and fields"
+#~ msgstr ""
+#~ "Leswao le bontšhago mo o lego _le ponya-ponya mapokising a sengwalwa le "
+#~ "mapatlelong"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Botelele bja go khutša ge o tlanya ga bo a dumelelwa"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Botelele bja mošomo pele ga go gapeletša go khutša"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Senotlelo se gatelela _bušeletša ge senotlelo se gateletšwe fase"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Tše Ratwago tša Boroto ya Dinotlelo"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Mohlala wa _boroto ya dinotlelo:"
+
+#~ msgid "Layouts"
+#~ msgstr "Go bea"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Notlela sekirini ka morago ga botelele bjo itšego go thibela dikgobalo "
+#~ "tša go diriša boroto ya dinotlelo ka mo go bušeleditšwego"
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Boroto ya Dinotlelo ya Tlhago ya Microsoft"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "_Ponelopele"
+
+#, fuzzy
+#~ msgid "Reset To De_faults"
+#~ msgstr "Beakanya di_tlhaelelo ka leswa"
+
+#~ msgid "Typing Break"
+#~ msgstr "Go Khutša ga go Tlanya"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "_Go tsenega..."
+
+#~ msgid "_Break interval lasts:"
+#~ msgstr "_Sekgoba sa go khutša se tšea:"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Diegiša:"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr "_Mehlala"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Go bea mo go kgethilwego:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Lebelo:"
+
+#~ msgid "_Work interval lasts:"
+#~ msgstr "_Sekgoba sa go šoma se tšea:"
+
+#~ msgid "minutes"
+#~ msgstr "metsotso"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Beakanya tše ratwago tša gago tša boroto ya dinotlelo"
+
+#~ msgid "Default Cursor"
+#~ msgstr "Leswao le Bontšhago mo o lego la Tlhaelelo"
+
+#~ msgid "Default Cursor - Current"
+#~ msgstr "Leswao le Bontšhago mo o lego la Tlhaelelo - Gona bjale"
+
+#~ msgid "The default cursor that ships with X"
+#~ msgstr "Leswao le bontšhago mo o lego la tlhaelelo le le sesago le X"
+
+#~ msgid "White Cursor"
+#~ msgstr "Leswao le Bontšhago mo o lego le Lešweu"
+
+#~ msgid "White Cursor - Current"
+#~ msgstr "Leswao le Bontšhago mo o lego le Lešweu - Gona bjale"
+
+#~ msgid "The default cursor inverted"
+#~ msgstr "Leswao le bontšhago mo o lego la tlhaelelo le hlanotšwego"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Leswao le Bontšhago mo o lego le Legolo"
+
+#~ msgid "Large Cursor - Current"
+#~ msgstr "Leswao le Bontšhago mo o lego le Legolo - Gona bjale"
+
+#~ msgid "Large version of normal cursor"
+#~ msgstr "Kgatišo e kgolo ya leswao le bontšhago mo o lego le tlwaelegilego"
+
+#~ msgid "Large White Cursor - Current"
+#~ msgstr "Leswao le Bontšhago mo o lego le Legolo le Lešweu - Gona bjale"
+
+#~ msgid "Large White Cursor"
+#~ msgstr "Leswao le Bontšhago mo o lego le Legolo le Lešweu"
+
+#~ msgid "Large version of white cursor"
+#~ msgstr "Kgatišo e kgolo ya leswao le bontšhago mo o lego le lešweu"
+
+#~ msgid "Cursor Theme"
+#~ msgstr "Sehlogo sa Leswao le Bontšhago mo o lego"
+
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr "<b>Kgotla go Fela ga Nako Gabedi </b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Goga o Lahlele</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Hwetša Selaetši</b>"
+
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>Thulaganyo ya Legotlwana </b>"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Lebelo</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Lebelo</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Godimo</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Kgolo</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Tlase</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Nanya</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Nyenyane</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Dikonope"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "Bogolo bja Leswao le Bontšhago mo o lego"
+
+#~ msgid "Cursors"
+#~ msgstr "Maswao a Bontšhago mo o lego"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Bonagatša selaetši _ge o gatelela Ctrl"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "_Kgolo"
+
+#, fuzzy
+#~ msgid "Medium"
+#~ msgstr "_Magareng"
+
+#~ msgid "Motion"
+#~ msgstr "Tšhišinyo"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Tše Ratwago tša Legotlwana"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "_Nyenyane"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Go Akgofiša:"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "_Legotlwana la seatla sa lanngele"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Go nyaka go swarwa ka bohlale:"
+
+#~ msgid "_Threshold:"
+#~ msgstr "_Mojako:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Nako e fedile:"
+
+#~ msgid "Mouse"
+#~ msgstr "Legotlwana"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Beakanya tše ratwago tša legotlwana"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Kemedi ya Neteweke"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Tše ratwago tša kemedi ya neteweke"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>D_irect internet connection</b>"
+#~ msgstr "<b>_Kgokagano ya inthanete e lebanyago</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Go fetola sebopego ga kemedi mo go itiragalelago</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Go fetola sebopego ga kemedi ya maitirelo</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Diriša tiišetšo</b>"
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "Go fetola sebopego mo go itiragalelago ga _STS:"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Go fetola sebopego mo go itiragalelago ga _STS:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Dintlha tša Kemedi tša PFSK"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "K_emedi ya PFSK:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Tše ratwago tša kemedi ya neteweke"
+
+#~ msgid "Port:"
+#~ msgstr "Lefelo:"
+
+#, fuzzy
+#~ msgid "Proxy Configuration"
+#~ msgstr "Go Fetola Sebopego ga Kemedi ya Neteweke"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "M_oswari wa disokisi:"
+
+#~ msgid "_Details"
+#~ msgstr "_Dintlha"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_Kemedi ya PFF:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Š_ireletša kemedi ya PFSK:"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Kgontšha modumo e bile o tswalanye medimo le ditiragalo"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Tše Ratwago tša Modumo"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "K_gontšha go thoma ga seabi sa modumo"
+
+#~ msgid "Flash _entire screen"
+#~ msgstr "Phadimiša _sekirini ka moka"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Phadimiša _bara ya sehlogo ya lefesetere"
+
+#~ msgid "General"
+#~ msgstr "Kakaretšo"
+
+#~ msgid "Sound Events"
+#~ msgstr "Ditiragalo tša Modumo"
+
+#~ msgid "System Bell"
+#~ msgstr "Tšhipi ya Tshepedišo"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "_Letša tšhipi e dumago"
+
+#~ msgid "_Sounds for events"
+#~ msgstr "_Medumo ya ditiragalo"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "_Karabelo ya pono:"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Ga go na dihlogo tšeo di hweditšwego tshepedišong ya gago.  Se "
+#~ "mohlomongwe se ra gore poledišano ya gago ya \"Tše Ratwago tša Sehlogo\" "
+#~ "ga se tša tsenywa ka tshwanelo, goba ga se wa tsenya ngatana ya \"dihlogo "
+#~ "tša gnome\"."
+
+#, fuzzy
+#~ msgid "The file format is invalid"
+#~ msgstr "Faele ya %s ga se faele ya kgonthe ya wav"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Ga go na lefelo la faele ya sehlogo le laeditšwego go tsenywa"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Lefelo la faele la sehlogo le laetšwego go tsenywa ga se la kgonthe"
+
+#, fuzzy
+#~ msgid "The file format is invalid."
+#~ msgstr "Faele ya %s ga se faele ya kgonthe ya wav"
+
+#, c-format
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s ke tsejana yeo go yona difaele tša sehlogo di tla tsenywago. Se se ka "
+#~ "se kgethwe bjalo ka lefelo la mothopo"
+
+#~ msgid "Custom theme"
+#~ msgstr "Sehlogo sa tlwaelo"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "O ka boloka sehlogo se ka go kgotla konope ya Boloka Sehlogo."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Sekema sa sehlogo sa tlhaelelo ga se sa hwetšwa tshepedišong ya gago. Se "
+#~ "se bolela gore mohlomongwe o tsentšitše metacity, goba gore gconf ya gago "
+#~ "e fetotšwe sebopego ka mo go fošagetšego."
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Leina la sehlogo le swanetše go ba gona"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Sehlogo se šetše se le gona. Na o nyaka se tšeelwe legato?"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Kgetha dihlogo bakeng sa dikarolo tše fapa-fapanego tša teseke"
+
+#~ msgid "Theme"
+#~ msgstr "Sehlogo"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Tsenya sehlogo</span>"
+
+#~ msgid "Theme Installation"
+#~ msgstr "Go Tsenywa ga Sehlogo"
+
+#~ msgid "_Install"
+#~ msgstr "_Tsenya"
+
+#~ msgid "_Location:"
+#~ msgstr "_Lefelo:"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Boloka Sehlogo Tisiking</span>"
+
+#~ msgid "Apply _Background"
+#~ msgstr "Diriša _Bokamorago"
+
+#~ msgid "Apply _Font"
+#~ msgstr "Diriša _Fonto"
+
+#~ msgid "Controls"
+#~ msgstr "Ditaolo"
+
+#~ msgid "Icons"
+#~ msgstr "Maswao"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Dihlogo tše diswa di ka tsenywa gape ka go di gogela lefesetereng."
+
+#~ msgid "Save Theme"
+#~ msgstr "Boloka Sehlogo"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Kgetha sehlogo sa teseke"
+
+#~ msgid "Short _description:"
+#~ msgstr "Tlhaloso e _kopana:"
+
+#~ msgid "Theme Details"
+#~ msgstr "Dintlha tša Sehlogo"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "Tše Ratwago tša Sehlogo"
+
+#~ msgid "Theme _Details"
+#~ msgstr "Dintlha tša _Sehlogo"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr ""
+#~ "Sehlogo se ga se šišinye fonto e itšego le ge ele efe goba bokamorago."
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Sehlogo se se šišinya bokamorago:"
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Sehlogo se se šišinya fonto le bokamorago:"
+
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Sehlogo se se šišinya fonto:"
+
+#~ msgid "Window Border"
+#~ msgstr "Mollwane wa Lefesetere"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Eya Sephutheding sa Sehlogo"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Tsenya Sehlogo..."
+
+#~ msgid "_Revert"
+#~ msgstr "_Boela"
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_Boloka Sehlogo..."
+
+#~ msgid "_Theme name:"
+#~ msgstr "_Leina la sehlogo:"
+
+#~ msgid "theme selection tree"
+#~ msgstr "mohlare wa kgetho ya sehlogo"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr ""
+#~ "Tlwaelanya ponagalo ya bara ya didirišwa le bara ya lelokelelo la "
+#~ "dikagare ditirišong"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Malokelelo a Dikagare & Bara ya Didirišwa"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Boitshwaro le Ponagalo</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Ponelopele</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "R_ipa"
+
+#~ msgid "Icons only"
+#~ msgstr "Maswao feela"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Lelokelelo la dikagare le Tše Ratwago tša Bara ya Sedirišwa"
+
+#~ msgid "Open File"
+#~ msgstr "Bula Faele"
+
+#~ msgid "Save File"
+#~ msgstr "Boloka Faele"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Bontšha _maswao malokelelong a dikagare"
+
+#~ msgid "Text below icons"
+#~ msgstr "Sengwalwa ka tlase ga maswao"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Sengwalwa se bapelanego le maswao"
+
+#~ msgid "Text only"
+#~ msgstr "Sengwalwa feela"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Maswao _a konope ya bara ya sedirišwa: "
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiša"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Dibara tša sedirišwa tšeo di ka kgokaganyollwago"
+
+#~ msgid "_Edit"
+#~ msgstr "_Lokiša"
+
+#~ msgid "_File"
+#~ msgstr "_Faele"
+
+#~ msgid "_New"
+#~ msgstr "_Mpsha"
+
+#~ msgid "_Paste"
+#~ msgstr "_Kgomaretša"
+
+#~ msgid "_Print"
+#~ msgstr "_Gatiša"
+
+#~ msgid "_Quit"
+#~ msgstr "_Tlogela"
+
+#~ msgid "_Save"
+#~ msgstr "_Boloka"
+
+#, c-format
+#~ msgid ""
+#~ "<b>Cannot start the preferences application for your window manager</b>\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "<b>E ka se thome tirišo ya tše ratwago bakeng sa molaodi wa gago wa "
+#~ "lefesetere</b>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Control"
+#~ msgstr "Taolo"
+
+#~ msgid "Alt"
+#~ msgstr "Tšh"
+
+#~ msgid "Hyper"
+#~ msgstr "Kgahlišago"
+
+#~ msgid "Super (or \"Windows logo\")"
+#~ msgstr "Godimo (goba \"Leswao la Windows\")"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Senotlelo sa go šutha</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Mogato wa Bara ya Sehlogo</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Kgetho ya Lefesetere</b>"
+
+#~ msgid "To _move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Go šu_thiša lefesetere, gatelela o sware senotlelo se ke moka o sware "
+#~ "lefesetere:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Tše Ratwago tša Lefesetere"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Kgotla bara ya sehlogo gabedi go tšea mogato wo:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Sebaka pele ga go godiša:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Godiša mafesetere a kgethilwego ka morago ga sebakal"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Kgetha mafesetere ge legotlwana le sepela ka godimo ga wona"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "Dipharologantšho tša Lefesetere"
+
+#~ msgid "Windows"
+#~ msgstr "Mafesetere"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "Tše Ratwago tša Bokamorago bja Teseke"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Lefelo la Taolo ya GNOME"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Sedirišwa sa go fetola sebopego sa GNOME"
+
+#~ msgid "Volume"
+#~ msgstr "Bolumo"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "E ka se kgone go thomološa Bonobo"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Temošo ya Dinotlelo tše Nanyago"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "O sa tšwa go gatelela senotlelo sa Shift metsotswana e 8.  Ye ke "
+#~ "kgaoletšo ya sebopego sa Dinotlelo tše Nanyago, yeo e amago tsela yeo "
+#~ "boroto ya gago ya dinotlelo e šomago ka yona."
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Na o nyaka go diragatša Dinotlelo tše Nanyago?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Na o nyaka go diragatšolla Dinotlelo tše Nanyago?"
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Temošo ya Dinotlelo tše Kgomarelago"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "O sa tšwa go kgotla senotlelo sa Shift makga a 5 ka tatelano.  Ye ke "
+#~ "kgaoletšo ya sebopego sa Dinotlelo tše Kgomarelago, yeo e amago tsela yeo "
+#~ "ka yona boroto ya gago ya dinotlelo e šomago ka yona."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "O sa tšwa go gatelela dinotlelo tše pedi ka nako e tee, goba o gateletše "
+#~ "senotlelo sa Shift makga a 5 ka tatelano.  Se se tima sebopego sa "
+#~ "Dinotlelo tše Kgomarelago, seo se amago tsela yeo ka yona boroto ya gago "
+#~ "ya dinotlelo e šomago ka yona."
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Na o nyaka go diragatša Dinotlelo tše Kgomarelago?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Na o nyaka go diragatšolla Dinotlelo tše Kgomarelago?"
+
+#, c-format
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "E ka se kgone go hlama tšhupetšo ya \"%s\".\n"
+#~ "Se se a nyakega go dumelela go fetola leswao le bontšhago mo o lego."
+
+#, c-format
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr ""
+#~ "Go Kopanya ga Senotlelo ga (%s) go na le mogato o hlaloswago e le makga a "
+#~ "mantši\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr ""
+#~ "Go Kopanya ga Senotlelo ga (%s) go na le go kopanya mo go hlaloswago e le "
+#~ "makga a mantši\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Go Kopanya ga Senotlelo ga (%s) ga go a felela\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Go Kopanya ga Senotlelo ga (%s) ga se ga kgonthe\n"
+
+#, c-format
+#~ msgid "It seems that another application already has access to key '%d'."
+#~ msgstr ""
+#~ "Go bonagala gore tirišo e nngwe e šetše e kgona go tsena senotlelong sa "
+#~ "'%d'."
+
+#, c-format
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Phošo ya ge go lekwa go dirišwa (%s)\n"
+#~ "yeo e kgokagantšwego le senotlelo sa (%s)"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Phošo ya go diragatša go fetola sebopego ga XKB.\n"
+#~ "Mohlomongwe ke bothata bja ka gare bja seabi sa X.\n"
+#~ "\n"
+#~ "Tsebišo ya kgatišo ya seabi sa X:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Ge eba o bega boemo bjo bjalo ka twatši, hle akaretša:\n"
+#~ "- Dipoelo tša <b>xprop -root | grep XKB</b>\n"
+#~ "- Dipoelo tša <b>gconftool-2 -R i/desktop/gnome/peripherals/keyboard/xkb</"
+#~ "b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "O diriša XFree 4.3.0.\n"
+#~ "Go na le mathata a tsebjwago ka go fetola sebopego mo go raraganego ga "
+#~ "XKB.\n"
+#~ "Leka go diriša go fetola sebopego go bonolo goba go tšea kgatišo e "
+#~ "foreshe ya software ya XFree."
+
+#, fuzzy
+#~ msgid "Do _not show this warning again"
+#~ msgstr "_O seke wa bontšha molaetša wo gape"
+
+#~ msgid ""
+#~ "The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.  Which set would you like to use?"
+#~ msgstr ""
+#~ "Dipeakanyo tša boroto ya dinotlelo tša tshepedišo ya X di fapana le "
+#~ "dipeakanyo tša gago tša gona bjale tša boroto ya dinotlelo tša GNOME.  Ke "
+#~ "peakanyo efe yeo o ka ratago go e diriša?"
+
+#~ msgid "Use X settings"
+#~ msgstr "Diriša dipeakanyo tša X"
+
+#~ msgid "Use GNOME settings"
+#~ msgstr "Diriša dipeakanyo tša GNOME"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this command exists."
+#~ msgstr ""
+#~ "E ka se kgone go phethagatša taelo: %s\n"
+#~ "Tiišetša gore taelo ye e gona."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "E ka se kgone go robatša motšhene.\n"
+#~ "Tiišetša gore motšhene o fetotšwe sebopego ka mo go nepagetšego."
+
+#, c-format
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Ditumelelo tša faele ya %s di senyegile\n"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "E ka se kgone go laiša faele ya Sekgoba.\n"
+#~ "Kgonthišetša gore daemon ye e tsentšhitšwe ka tshwanelo."
+
+#, c-format
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Go bile le phošo ya go thoma seboloki sa sekirini:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Go šoma ga seboloki sa sekirini go ka se šome lenaneong le."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_O seke wa bontšha molaetša wo gape"
+
+#, c-format
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "E ka se kgone go laiša faele ya modumo ya %s bjalo ka mohlala %s"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "E ka se lemoge tšhupetšo ya gae ya modiriši"
+
+#, c-format
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Senotlelo sa GConf sa %s se beakantšwe go mohuta wa %s eupša mohuta wa "
+#~ "sona o letetšwego e be e le %s\n"
+
+#, fuzzy
+#~ msgid "A_vailable files:"
+#~ msgstr "G_o bea mo go lego gona:"
+
+#, fuzzy
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_O seke wa bontšha molaetša wo gape"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "_Mehlala"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Phošo ya go hlama phaephe ya leswao."
+
+#~ msgid "Type"
+#~ msgstr "Mohuta"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Mohuta wa bg_applier: BG_APPLIER_ROOT bakeng sa lefesete la modu goba "
+#~ "BG_APPLIER_PREVIEW bakeng sa ponelopele"
+
+#~ msgid "Preview Width"
+#~ msgstr "Bophara bja Ponelopele"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Bophara ge eba sediriši e le ponelopele: Ditlhaelelo go ya go 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Bophagamo bja Ponelopele"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Bophagamo ge eba sediriši e le ponelopele: Ditlhaelelo go ya go 48."
+
+#~ msgid "Screen"
+#~ msgstr "Sekirini"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Sekirini seo go sona BGApplier e swanetšego go thala go sona"
+
+#, fuzzy, c-format
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Go bile le phošo ya go bontšha thušo: %s"
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Faele ya modumo ya tiragalo ye ga e gona."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package\n"
+#~ "for a set of default sounds."
+#~ msgstr ""
+#~ "Faele ya modumo ya tiragalo ye ga e gona.\n"
+#~ "O ka nyaka go tsenya sephuthelwana sa gnome-audio\n"
+#~ "bakeng sa peakanyo ya medumo ya tlhaelelo."
+
+#, c-format
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Faele ya %s ga se faele ya kgonthe ya wav"
+
+#~ msgid "Event"
+#~ msgstr "Tiragalo"
+
+#~ msgid "Sound File"
+#~ msgstr "Faele ya Modumo"
+
+#~ msgid "_Sounds:"
+#~ msgstr "_Medumo:"
+
+#~ msgid "Sound _file:"
+#~ msgstr "Faele ya _modumo:"
+
+#~ msgid "Select Sound File"
+#~ msgstr "Kgetha Faele ya Modumo"
+
+#~ msgid "_Play"
+#~ msgstr "_Bapala"
+
+#~ msgid "_Remove"
+#~ msgstr "_Tloša"
+
+#, c-format
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Molaodi wa lefesetere wa \"%s\" ga se a ngwadiša sedirišwa sa go fetola "
+#~ "sebopego\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Godiša"
+
+#~ msgid "Roll up"
+#~ msgstr "Phutha"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "Ge eba e le therešo, baswari ba mime bakeng sa text/plain (sengwalwa/se "
+#~ "se nago selo) le text/* (sengwalwa) di tla bolokwa di rulagantšwe"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr ""
+#~ "text/plain (sengwalwa/se se nago selo) e rulagantšwego le baswari ba text/"
+#~ "* (sengwalwa)"
+
+#~ msgid "Brightness down"
+#~ msgstr "Go taga go tlase"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Kgaoletšo ya go taga go tlase."
+
+#~ msgid "Brightness up"
+#~ msgstr "Go taga go godimo"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Kgaoletšo ya go taga go godimo."
+
+#~ msgid "E-mail"
+#~ msgstr "Poso ya elektronike"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Kgaoletšo ya poso ya elektronike."
+
+#~ msgid "Eject"
+#~ msgstr "Ntšha"
+
+#~ msgid "Eject's shortcut."
+#~ msgstr "Kgaoletšo ya go tšwa."
+
+#~ msgid "Home folder"
+#~ msgstr "Sephuthedi sa gae"
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Kgaoletšo ya sephuthedi sa gae."
+
+#~ msgid "Launch help browser"
+#~ msgstr "Tsebagatša sefetleki sa thušo"
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Tsebagatša kgaoletšo ya sefetleki sa thušo."
+
+#~ msgid "Launch web browser"
+#~ msgstr "Tsebagatša sefetleki sa wepe"
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Tsebagatša kgaoletšo ya sefetleki sa wepe."
+
+#~ msgid "Lock screen"
+#~ msgstr "Notlela sekirini"
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Notlela kgaoletšo ya sekirini."
+
+#~ msgid "Log out"
+#~ msgstr "E-tšwa"
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Kgaoletšo ya go tšwa."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Kgaoletšo ya senotlelo ya koša e latelago."
+
+#~ msgid "Pause"
+#~ msgstr "Emiša nakwana"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Emiša kgaoletšo ya senotlelo nakwana."
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Bapala (goba bapala/emiša nakwana)"
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Bapala (goba bapala/emiša nakwana) kgaoletšo ya senotlelo."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Kgaoletšo ya senotlelo ya kotša e fetilego."
+
+#~ msgid "Search"
+#~ msgstr "Nyakišiša"
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Nyakišiša kgaoletšo."
+
+#~ msgid "Skip to next track"
+#~ msgstr "Tabogela go koša e latelago"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "Tabogela go koša e fetilego"
+
+#~ msgid "Sleep"
+#~ msgstr "Robala"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Kgaoletšo ya go robala."
+
+#~ msgid "Stop playback key"
+#~ msgstr "Emiša senotlelo sa bapala o boele morago"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Emiša kgaoletšo ya senotlelo sa balapa o boele morago."
+
+#~ msgid "Volume down"
+#~ msgstr "Bolumo e tlase"
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Kgaoletšo ya bolumo e tlase."
+
+#~ msgid "Volume mute"
+#~ msgstr "Go nolofatšwa ga bolumo"
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Kgaoletšo ya go nolofatšwa ga bolumo"
+
+#~ msgid "Volume step"
+#~ msgstr "Peakanyo ya bolumo"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Peakanyo ya bolumo go ya ka phesente ya bolumo."
+
+#~ msgid "Volume up"
+#~ msgstr "Bolumo e godimo"
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Kgaoletšo ya bolumo e godimo."
+
+#, fuzzy
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr ""
+#~ "Bontšha poledišano ge go na le diphošo tša go diriša Seboloki sa Sekirini "
+#~ "sa X"
+
+#, fuzzy
+#~ msgid "Run screensaver at login"
+#~ msgstr "Diriša Seboloki sa Sekirini sa X ge o tsena"
+
+#~ msgid "Show Startup Errors"
+#~ msgstr "Bontšha Diphošo tša go Thoma"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Thoma Seboloki sa Sekirini sa X"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Mohlala wa _boroto ya dinotlelo:"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "Go bea ga boroto ya dinotlelo ya XKB"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "Mohlala wa _boroto ya dinotlelo:"
+
+#, fuzzy
+#~ msgid "Keyboard options"
+#~ msgstr "Dikgaoletšo tša Boroto ya Dinotlelo"
+
+#, fuzzy
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ "Dipeakanyo tša XKB go gconf di tla beelwa ka thoko tshepedišong ya ASAP"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "Go bea ga boroto ya dinotlelo ya XKB"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "Mohlala wa boroto ya dinotlelo ya XKB"
+
+#~ msgid "_Postpone break"
+#~ msgstr "Šu_thiša go khutša"
+
+#~ msgid "Take a break!"
+#~ msgstr "Ikhutše!"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Tše ratwago"
+
+#~ msgid "/_About"
+#~ msgstr "/_Ka ga"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Ikhutše"
+
+#, c-format
+#~ msgid "%d minute until the next break"
+#~ msgid_plural "%d minutes until the next break"
+#~ msgstr[0] "metsotso e %d pele ga go khutša mo go latelago"
+#~ msgstr[1] "metsotso e %d go fihlela go khutšeng mo go latelago"
+
+#~ msgid "Less than one minute until the next break"
+#~ msgstr "Ka tlase ga motsotso o tee go fihlela go khutšeng mo go latelago"
+
+#, c-format
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Ga e kgone go tswalanya poledišano ya dipharologantšho tša go khutša le "
+#~ "phošo e latelago: %s"
+
+#~ msgid "About GNOME Typing Monitor"
+#~ msgstr "Ka ga Lepokisana la Sekirini la go Tlanya la GNOME"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Kgopotšo ya go khutša ga khomphuthara."
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "E ngwadilwe ke Richard Hult &lt;richard@imendio.com&gt;"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Lelekere la leihlo le okeditšwe ke Anders Carlsson"
+
+#~ msgid "Break reminder"
+#~ msgstr "Kgopotšo ya go khutša"
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Lepokisana la sekirini la go tlanya le šetše le šoma."
+
+#, fuzzy
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Lepokisana la sekirini la go tlanya le diriša lefelo la go lemoša bakeng "
+#~ "sa go bonagatša tshedimošo. O bonagala o se na lefelo la temošo paneleng "
+#~ "ya gago. O ka le oketša ka go kgotla go lagoja paneleng ya gago gomme o "
+#~ "kgethe 'Oketša paneleng -> Dithušo -> lefelo la Temošo'."
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Phukubjwe e tsotho ya lebelo e fofela mpsha e tšwafago. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "Leina:"
+
+#~ msgid "Style:"
+#~ msgstr "Setaele:"
+
+#~ msgid "Type:"
+#~ msgstr "Mohuta:"
+
+#~ msgid "Size:"
+#~ msgstr "Boglo:"
+
+#~ msgid "Version:"
+#~ msgstr "Kgatišo:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Tokelo ya ngwalollo:"
+
+#~ msgid "Description:"
+#~ msgstr "Tlhaloso:"
+
+#, c-format
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "tirišo: %s faele ya fonto\n"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Beakanya Bjalo ka Fonto ya Tirišo"
+
+#, fuzzy
+#~ msgid "Sets the default application font"
+#~ msgstr "Kgetha ditirišo tša gago tša tlhaelelo"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta o "
+#~ "Bulegilego di tla khutsofatšwa."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe e le therešo, gona difonto tša PCF di tla "
+#~ "khutsofatšwa."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta wa Therešo "
+#~ "di tla khutsofatšwa."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe gore e be therešo, gona difonto tša Mohuta wa 1 di "
+#~ "tla khutsofatšwa."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "tša difonto tša Mohuta o Bulegilego."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "tša difonto tša PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "tša difonto tša Mohuta wa Therešo."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "tša difonto tša Mohuta wa 1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa difonto tša Mohuta o Bulegilego"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa difonto tša PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa difonto tša Mohuta wa Therešo"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa difonto tša Mohuta wa 1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Ge eba go swanetše go khutsofatšwe difonto tša Mohuta o Bulegilego"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Ge eba go swanetše go khutsofatšwe difonto tša PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Ge eba go swanetše go khutsofatšwe difonto tša Mohuta wa Therešo"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Ge eba go swanetše go khutsofatšwe difonto tša Mohuta wa 1"
+
+#, fuzzy
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "Lefelo la Taolo ya GNOME"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Diriša fonto e mpsha?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "O se _ke wa diriša fonto"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Sehlogo seo o se kgethilego se šišinya fonto e mpsha. Ponelopele ya fonto "
+#~ "e bontšhitšwe ka mo tlase."
+
+#~ msgid "_Apply font"
+#~ msgstr "_Diriša fonto"
+
+#~ msgid "Themes"
+#~ msgstr "Dihlogo"
+
+#~ msgid "Description"
+#~ msgstr "Tlhaloso"
+
+#~ msgid "Control theme"
+#~ msgstr "Laola sehlogo"
+
+#~ msgid "Window border theme"
+#~ msgstr "Sehlogo sa mollwane wa lefesetere"
+
+#~ msgid "Icon theme"
+#~ msgstr "Sehlogo sa leswao"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDEFG"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr "_Diriša fonto"
+
+#, fuzzy
+#~ msgid "Sets the default theme"
+#~ msgstr "Beakanya di_tlhaelelo ka leswa"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe gore e be therešo, gona dihlogo tše tsentšhitšwego e "
+#~ "tla khutsofatšwa."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr ""
+#~ "Ge eba e beakantšwe gore e be therešo, gona dihlogo di tla khutsofatšwa."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Beakanya senotlelo se go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "bakeng sa dihlogo tše tsentšhitšwego."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Beakanya senotlelo go taelo e dirišeditšwego go hlama dikhutsofatšo "
+#~ "bakeng sa dihlogo."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa dihlogo tše tsentšhitšwego"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Taelo ya khutsofatšo bakeng sa dihlogo"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Ge eba khutsofatšo e tsentšhitše dihlogo"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Ge eba go swanetše go khutsofatšwe dihlogo"

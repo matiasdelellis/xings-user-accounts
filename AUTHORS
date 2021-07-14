@@ -1,0 +1,11 @@
+gnome-control-center: user-accounts panel
+* Red Hat, Inc,
+* Bastien Nocera <hadess@hadess.net>
+* Diego Gonzalez <diego@pemas.net>
+* Johannes H. Jensen
+* Matthias Clasen <mclasen@redhat.com>
+* Milan Bouchet-Valat
+* Ondrej Holy <oholy@redhat.com>
+* Stef Walter <stefw@gnome.org>
+
+Extracted from the source code. Many thanks to all maintainers

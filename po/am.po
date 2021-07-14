@@ -1,0 +1,1782 @@
+# Translations into the Amharic Language.
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the GNOME Control Center package.
+# Ge'ez Frontier Foundation <locales@geez.org>, 2002.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2003-02-03 10:16+EDT\n"
+"Last-Translator: Ge'ez Frontier Foundation <locales@geez.org>\n"
+"Language-Team: Amharic <locales@geez.org>\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "የተጠቃሚ _ስም፦"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "ሙሉ (_F)"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "በተርሚናል ውስጥ ጀምር (_E)"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "የፋይል ዓይነት ጨምር"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "የሥዕል ምርጫዎችን፦"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "የተጠቃሚ _ስም፦"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+#, fuzzy
+msgid "Other Accounts"
+msgstr "አጣራዎች"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "አጥፉ"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "አዲስ ፋይል"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "አጥፉ"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "_ምንም"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr ""
+"<b>ያልታወቀ ጠቋሚ</b>\n"
+"%s"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "ጨምር..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "በተርሚናል ውስጥ ጀምር (_E)"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "የተበላሸ"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "የተበላሸ"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "አጥፉ"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+#, fuzzy
+msgid "Please choose another password."
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "ሚስጢራዊ _ቃል፦"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "አጥፉ"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_ክፈት"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "የተበላሸ"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "ሚስጢራዊ _ቃል፦"
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr "ቁልፎች"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr "የጭብት ዝርዝሮች"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr "ስለ... (_A)"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr "ምስሎች"
+
+#, fuzzy, c-format
+#~ msgid "About %s"
+#~ msgstr "ስለ... (_A)"
+
+#, fuzzy
+#~ msgid "    "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "የተለመደው ጭብጥ\n"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "A_ddress:"
+#~ msgstr "ጨምር፦ (_A)"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "ጨምር፦ (_A)"
+
+#, fuzzy
+#~ msgid "C_ity:"
+#~ msgstr "ዓይነት፦"
+
+#, fuzzy
+#~ msgid "C_ompany:"
+#~ msgstr "_ትእዛዝ፦"
+
+#, fuzzy
+#~ msgid "Cale_ndar:"
+#~ msgstr "ምድብ፦ (_G)"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "ሚስጢራዊ _ቃል፦"
+
+#, fuzzy
+#~ msgid "Ci_ty:"
+#~ msgstr "ዓይነት፦"
+
+#, fuzzy
+#~ msgid "Co_untry:"
+#~ msgstr "Control"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "ይዞታዎች... (_C)"
+
+#, fuzzy
+#~ msgid "Cou_ntry:"
+#~ msgstr "Control"
+
+#, fuzzy
+#~ msgid "Hom_e:"
+#~ msgstr "ስም፦ (_N)"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "ሚስጢራዊ _ቃል፦"
+
+#, fuzzy
+#~ msgid "Personal Info"
+#~ msgstr "የተርሚናል የፊደል ቅርጽ፦ (_T)"
+
+#, fuzzy
+#~ msgid "Wor_k:"
+#~ msgstr "_ቀለም፦"
+
+#, fuzzy
+#~ msgid "Work _fax:"
+#~ msgstr "_ቀለም፦"
+
+#, fuzzy
+#~ msgid "_Address:"
+#~ msgstr "ጨምር፦ (_A)"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr "የ_ጭብጥ ስም፦"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "ስም፦ (_N)"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr "መስኮቱን መቆጣጠሪያ፦"
+
+#, fuzzy
+#~ msgid "_Mobile:"
+#~ msgstr "_ፋይል"
+
+#, fuzzy
+#~ msgid "_Profession:"
+#~ msgstr "_መግለጫ፦"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr "ሚስጢራዊ _ቃል፦"
+
+#, fuzzy
+#~ msgid "_Title:"
+#~ msgstr "_ፋይል"
+
+#, fuzzy
+#~ msgid "_Work:"
+#~ msgstr "_ቀለም፦"
+
+#, fuzzy
+#~ msgid "<b>Support</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "የመስኮት ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_Screenreader"
+#~ msgstr "እስክሪን"
+
+#~ msgid "Keyboard"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid "<b>Features</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#~ msgid "Basic"
+#~ msgstr "ቀላል"
+
+#~ msgid "Filters"
+#~ msgstr "አጣራዎች"
+
+#~ msgid "S_peed:"
+#~ msgstr "_ፍጥነት፦"
+
+#~ msgid "milliseconds"
+#~ msgstr "ሚሊሴኮንዶች"
+
+#~ msgid "seconds"
+#~ msgstr "ሴኮንዶች"
+
+#, fuzzy
+#~ msgid "Desktop Background"
+#~ msgstr "መደብ"
+
+#, fuzzy
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "ሜኑና ቱልባር ምርጫዎች"
+
+#, fuzzy
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "ሜኑና ቱልባር ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "የመደቡ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "_Style:"
+#~ msgstr "ዓይነት፦"
+
+#, fuzzy
+#~ msgid "Centered"
+#~ msgstr "_መሀከል"
+
+#, fuzzy
+#~ msgid "Fill Screen"
+#~ msgstr "እስክሪን"
+
+#, fuzzy
+#~ msgid "Scaled"
+#~ msgstr "_የተመዘነ"
+
+#, fuzzy
+#~ msgid "Tiled"
+#~ msgstr "_ፋይል"
+
+#, fuzzy
+#~ msgid "Solid Color"
+#~ msgstr "ቀጣይ ቀለም"
+
+#~ msgid "From URI"
+#~ msgstr "ከ URI"
+
+#~ msgid "To URI"
+#~ msgstr "ወደ URI"
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "ከ፦ %s"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "ሁለት"
+
+#~ msgid "Key"
+#~ msgstr "ቁልፍ"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "የነበረው የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "W3M Text Browser"
+#~ msgstr "የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Lynx Text Browser"
+#~ msgstr "የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Links Text Browser"
+#~ msgstr "የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "የተለመደው የመረጃ መቃኛ፦ (_U)"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "የነበረው ተርሚናል"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr "ተርሚናል"
+
+#, fuzzy
+#~ msgid "aterm"
+#~ msgstr "ምድብ"
+
+#, fuzzy
+#~ msgid "ETerm"
+#~ msgstr "ተርሚናል"
+
+#~ msgid "Add..."
+#~ msgstr "ጨምር..."
+
+#, fuzzy
+#~ msgid "C_ustom"
+#~ msgstr "_የተለየ፦"
+
+#~ msgid "C_ustom:"
+#~ msgstr "_የተለየ፦"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "_ትእዛዝ፦"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "የተለመደው የጽሑፍ ማቀናጃ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Default Mail Reader"
+#~ msgstr "የነበረው መስኮቱን መቆጣጠሪያ"
+
+#~ msgid "Default Terminal"
+#~ msgstr "የነበረው ተርሚናል"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "የነበረው የጽሑፍ ማቀናጃ"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "የነበረው የዌብ መቃኛ"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "የነበረው መስኮቱን መቆጣጠሪያ"
+
+#~ msgid "Edit..."
+#~ msgstr "አስተካክል..."
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "በተርሚናሉ ውስጥ አስኪድ (_T)"
+
+#, fuzzy
+#~ msgid "Run in a t_erminal"
+#~ msgstr "በተርሚናሉ ውስጥ አስኪድ (_T)"
+
+#~ msgid "Terminal"
+#~ msgstr "ተርሚናል"
+
+#~ msgid "Text Editor"
+#~ msgstr "የጽሑፍ ማቀናጃ"
+
+#~ msgid "Web Browser"
+#~ msgstr "የዌብ መቃኛ"
+
+#~ msgid "Window Manager"
+#~ msgstr "መስኮቱን መቆጣጠሪያ"
+
+#, fuzzy
+#~ msgid "_Command:"
+#~ msgstr "_ትእዛዝ፦"
+
+#~ msgid "_Name:"
+#~ msgstr "ስም፦ (_N)"
+
+#~ msgid "_Properties..."
+#~ msgstr "ምርጫዎች... (_P)"
+
+#, fuzzy
+#~ msgid "_Select:"
+#~ msgstr "አጥፉ"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr "_መግለጫ፦"
+
+#, fuzzy
+#~ msgid "Default Settings"
+#~ msgstr "የነበረው ተርሚናል"
+
+#, fuzzy, c-format
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "ጠለቅ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "የድምፅ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "ትግባሮች"
+
+#, fuzzy
+#~ msgid "Keep Resolution"
+#~ msgstr "_መግለጫ፦"
+
+#~ msgid "Font"
+#~ msgstr "የፊደል ቅርጽ"
+
+#, fuzzy
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "የተለመደው ጭብጥ\n"
+
+#, fuzzy
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "D_etails..."
+#~ msgstr "_ዝርዝሮች..."
+
+#~ msgid "Font Preferences"
+#~ msgstr "የፊደል ቅርጽ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Go _to font folder"
+#~ msgstr "ወደ የጭብጥ ዶሴ _ሂድ"
+
+#, fuzzy
+#~ msgid "Gra_yscale"
+#~ msgstr "ግራጫማ (_R)"
+
+#~ msgid "N_one"
+#~ msgstr "(ም_ንም)"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr "_መግለጫ፦"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_Application font:"
+#~ msgstr "_የመጠቀሚያ ፕሮግራሞች የፊደል ቅርጽ፦"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "_ሠሌዳ የፊደል ቅርጽ፦"
+
+#~ msgid "_Medium"
+#~ msgstr "መሀከለኛ (_M)"
+
+#~ msgid "_RGB"
+#~ msgstr "RGB"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "የተርሚናል የፊደል ቅርጽ፦ (_T)"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "የመስኮት አርእስት የፊደል ቅርጽ፦ (_W)"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<ያልታወቀ ትግባር>"
+
+#~ msgid "Desktop"
+#~ msgstr "ሠሌዳ"
+
+#~ msgid "Sound"
+#~ msgstr "ድምፅ"
+
+#~ msgid "Window Management"
+#~ msgstr "የመስኮት ጉባኤ"
+
+#~ msgid "Action"
+#~ msgstr "ትግባር"
+
+#~ msgid "Shortcut"
+#~ msgstr "አቋራጭ"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "የፊደል ሠሌዳው አቋራጭ"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "<b>ያልታወቀ ጠቋሚ</b>\n"
+#~ "%s"
+
+#~ msgid "Layout"
+#~ msgstr "እቅድ"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "የነበረው የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr "ሞዴል"
+
+#, fuzzy
+#~ msgid "..."
+#~ msgstr "ጨምር..."
+
+#, fuzzy
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "የተለመደው ጭብጥ\n"
+
+#, fuzzy
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>ቶሎ</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>ረጅም</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>አጭር</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>ዝግታ</i></small>"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "Keyboard _model:"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "Layouts"
+#~ msgstr "እቅድ"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "ቅድመ ዕይታ"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr "ሞዴል"
+
+#~ msgid "_Speed:"
+#~ msgstr "_ፍጥነት፦"
+
+#, fuzzy
+#~ msgid "Default Cursor"
+#~ msgstr "የነበረው የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Cursor Theme"
+#~ msgstr "የተለመደው ጭብጥ"
+
+#, fuzzy
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>ከፍ ያለ</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>ትልቅ</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>ዝቅ ያለ</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>ዝግታ</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>ትንሽ</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "ቁልፎች"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "የተለመደው ጭብጥ"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "የመመሪያ ገጾች"
+
+#, fuzzy
+#~ msgid "Medium"
+#~ msgstr "መሀከለኛ (_M)"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "_የተመዘነ"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "ሜኑና ቱልባር ምርጫዎች"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "ጠለቅ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "የመደቡ ምርጫዎች"
+
+#~ msgid "Port:"
+#~ msgstr "ፖርት፦"
+
+#~ msgid "_Details"
+#~ msgstr "_ዝርዝሮች"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "የድምፅ ምርጫዎች"
+
+#~ msgid "General"
+#~ msgstr "አጠቃላይ"
+
+#~ msgid "Custom theme"
+#~ msgstr "የተለመደው ጭብጥ"
+
+#~ msgid "Theme"
+#~ msgstr "ጭብጥ"
+
+#~ msgid "_Install"
+#~ msgstr "_አስገባ"
+
+#~ msgid "_Location:"
+#~ msgstr "_ቦታ፦"
+
+#~ msgid "Icons"
+#~ msgstr "ምልክቶች"
+
+#, fuzzy
+#~ msgid "Save Theme"
+#~ msgstr "ጭብጥን _አስቀምጥ"
+
+#, fuzzy
+#~ msgid "Short _description:"
+#~ msgstr "የአጭር _መግለጫ"
+
+#~ msgid "Theme Details"
+#~ msgstr "የጭብት ዝርዝሮች"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "የጭብት ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Theme _Details"
+#~ msgstr "የጭብት ዝርዝሮች"
+
+#~ msgid "Window Border"
+#~ msgstr "የመስኮት ወሰን"
+
+#, fuzzy
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "ወደ የጭብጥ ዶሴ _ሂድ"
+
+#, fuzzy
+#~ msgid "_Install Theme..."
+#~ msgstr "ጭብጥን _አስገባ..."
+
+#, fuzzy
+#~ msgid "_Revert"
+#~ msgstr "አስወግድ (_R)"
+
+#, fuzzy
+#~ msgid "_Save Theme..."
+#~ msgstr "ጭብጥን _አስቀምጥ"
+
+#~ msgid "_Theme name:"
+#~ msgstr "የ_ጭብጥ ስም፦"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "ሜኑዎች እና ቱልባሮች"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#~ msgid "C_ut"
+#~ msgstr "_ቁረጥ"
+
+#, fuzzy
+#~ msgid "Icons only"
+#~ msgstr "ምልክቶችን ብቻ"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "ሜኑና ቱልባር ምርጫዎች"
+
+#~ msgid "Open File"
+#~ msgstr "ፋይል ክፈት"
+
+#~ msgid "Save File"
+#~ msgstr "ፋይልን አስቀምጥ"
+
+#, fuzzy
+#~ msgid "Text below icons"
+#~ msgstr "ጽሑፍ ከምልክቶቹ ስር"
+
+#, fuzzy
+#~ msgid "Text beside icons"
+#~ msgstr "ጽሑፍ ከምልክቶቹ ጐን"
+
+#, fuzzy
+#~ msgid "Text only"
+#~ msgstr "ጽሑፉን ብቻ"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "የቁልፍ መለያዎች፦"
+
+#~ msgid "_Copy"
+#~ msgstr "_ቅጂ"
+
+#~ msgid "_Edit"
+#~ msgstr "_አስተካክል"
+
+#~ msgid "_File"
+#~ msgstr "_ፋይል"
+
+#~ msgid "_New"
+#~ msgstr "_አዲስ"
+
+#~ msgid "_Paste"
+#~ msgstr "_ለጥፍ"
+
+#~ msgid "_Print"
+#~ msgstr "አትም"
+
+#~ msgid "_Quit"
+#~ msgstr "_ውጣ"
+
+#~ msgid "_Save"
+#~ msgstr "_አስቀምጥ"
+
+#~ msgid "Control"
+#~ msgstr "Control"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#, fuzzy
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<i>ቶሎ</i>"
+
+#, fuzzy
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "የተለመደው ጭብጥ\n"
+
+#~ msgid "Window Preferences"
+#~ msgstr "የመስኮት ምርጫዎች"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "የመስኮት ምርጫዎች"
+
+#~ msgid "Windows"
+#~ msgstr "መስኮቶች"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "ሜኑና ቱልባር ምርጫዎች"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "bonobo ማስጀመር አልቻልኩም!"
+
+#, fuzzy
+#~ msgid "Use X settings"
+#~ msgstr "ጠለቅ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "A_vailable files:"
+#~ msgstr "የሥዕል ምርጫዎችን፦"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "ሞዴል"
+
+#~ msgid "Type"
+#~ msgstr "ዓይነት"
+
+#~ msgid "Screen"
+#~ msgstr "እስክሪን"
+
+#, fuzzy
+#~ msgid "Sound File"
+#~ msgstr "ድምፅ"
+
+#, fuzzy
+#~ msgid "_Sounds:"
+#~ msgstr "ድምፆች (_S)"
+
+#~ msgid "_Play"
+#~ msgstr "አጫውት (_P)"
+
+#~ msgid "_Remove"
+#~ msgstr "አስወግድ (_R)"
+
+#~ msgid "Maximize"
+#~ msgstr "መተልቅ"
+
+#~ msgid "Roll up"
+#~ msgstr "ማውጣት"
+
+#, fuzzy
+#~ msgid "Eject's shortcut."
+#~ msgstr "የሠሌዳው አቋራጭ፦ (_D)"
+
+#, fuzzy
+#~ msgid "Home folder"
+#~ msgstr "ወደ የጭብጥ ዶሴ _ሂድ"
+
+#, fuzzy
+#~ msgid "Home folder's shortcut."
+#~ msgstr "አቋራጭ"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr "የመረጃ መቃኛ"
+
+#, fuzzy
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "የመረጃ መቃኛ"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr "የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "የዌብ መቃኛ"
+
+#, fuzzy
+#~ msgid "Lock screen"
+#~ msgstr "እስክሪን"
+
+#, fuzzy
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "አቋራጭ"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr "እቅድ"
+
+#, fuzzy
+#~ msgid "Log out's shortcut."
+#~ msgstr "የሠሌዳው አቋራጭ፦ (_D)"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr "_ለጥፍ"
+
+#, fuzzy
+#~ msgid "Search's shortcut."
+#~ msgstr "አቋራጭ"
+
+#, fuzzy
+#~ msgid "Sleep"
+#~ msgstr "ፍጥነት"
+
+#, fuzzy
+#~ msgid "Sleep's shortcut."
+#~ msgstr "አቋራጭ"
+
+#, fuzzy
+#~ msgid "Volume up"
+#~ msgstr "ማውጣት"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "እስክሪን"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "የፊደል ሠሌዳው አቋራጭ"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "Keyboard options"
+#~ msgstr "የፊደል ሠሌዳው አቋራጭ"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "የፊደል ሠሌዳው አቋራጭ"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "የፊደል ሠሌዳ"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "የፊደል ቅርጽ ምርጫዎች"
+
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr "ስለ... (_A)"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "The quick brown fox jumps over the lazy dog. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "ስም፦"
+
+#~ msgid "Style:"
+#~ msgstr "ዓይነት፦"
+
+#~ msgid "Type:"
+#~ msgstr "ዓይነት፦"
+
+#~ msgid "Size:"
+#~ msgstr "መጠን፦"
+
+#~ msgid "Version:"
+#~ msgstr "ዝርያ፦"
+
+#~ msgid "Copyright:"
+#~ msgstr "የቅጂው መብት፦"
+
+#~ msgid "Description:"
+#~ msgstr "መግለጫ፦"
+
+#, fuzzy
+#~ msgid "_Apply font"
+#~ msgstr "_የመጠቀሚያ ፕሮግራሞች የፊደል ቅርጽ፦"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "ጭብጥ"
+
+#~ msgid "Description"
+#~ msgstr "መግለጫ"
+
+#, fuzzy
+#~ msgid "Control theme"
+#~ msgstr "የተለመደው ጭብጥ"
+
+#, fuzzy
+#~ msgid "Window border theme"
+#~ msgstr "የመስኮት ወሰን"
+
+#, fuzzy
+#~ msgid "Icon theme"
+#~ msgstr "የተለመደው ጭብጥ"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr "ጭብጥን _አስገባ..."

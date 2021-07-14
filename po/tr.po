@@ -1,0 +1,5738 @@
+# Turkish translation of gnome-control-center.
+# Copyright (C) 2000-2003, 2004, 2005, 2008, 2009, 2011 Free Software Foundation, Inc.
+#
+# Nilgün Belma Bugüner <nilgun@fide.org>, 2001.
+# Fatih Demir <kabalak@gtranslator.org>, 2000.
+# Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2008, 2009.
+# Erçin EKER <ercin@linux.org.tr>, 2011.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2013.
+# ztugcesirin <ztugcesirin@gmail.com>, 2014.
+# sabri ünal <yakushabb@gmail.com>, 2014.
+# Muhammet Kara <muhammetk@gmail.com>, 2011, 2012, 2013, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-10-23 22:54+0300\n"
+"Last-Translator: Muhammet Kara <muhammetk@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "K_ullanıcı adı"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Tam İsim"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Standart"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "Hesap _Türü"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Parola"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Sonraki girişte kullanıcının bir parola belirlemesine o_lanak tanı"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Şi_mdi parola belirle"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Parola"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Doğrula"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Kurumsal giriş, merkezi olarak yönetilen mevcut bir kullanıcı hesabının bu "
+"cihazda kullanılmasına olanak tanır. Ayrıca bu hesabı internet üzerindeki "
+"şirkey kaynaklarına erişmek için de kullanabilirsiniz."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Etki Alanı"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Kurumsal kullanıcıları eklemek için çevrimiçi olmalısınız."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Kurumsal Giriş"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Kullanıcı Ekle"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Etki Alanı Yöneticisi Girişi"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Kurumsal girişleri kullanmak için bu bilgisayarın etki alanına\n"
+"kayıtlı olması gerekiyor. Lütfen ağ yöneticinizin etki alanı\n"
+"parolasını buraya girmesini sağlayın."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Yö_netici Adı"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Yönetici Parolası"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Sol başparmak"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Sol orta parmak"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Sol yüzük parmağı"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Sol serçe parmağı"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Sağ başparmak"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Sağ orta parmağı"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Sağ yüzük parmağı"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Sağ serçe parmağı"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Parmak İzi Girişi Etkinleştir"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Sağ işaret pa_rmağı"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "So_l işaret parmağı"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Diğer parmak:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Parmak iziniz başarıyla kaydedildi. Artık parmak izi okuyucusunu kullanarak "
+"giriş yapabilirsiniz."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Kullanıcılar"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Kullanıcı ekleyip kaldırın veya parolanızı değiştirin"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Giriş;İsim;Parmak izi;Kullanıcı simgesi;Logo;Yüz;Parola;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Parola Değiştir"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_İptal"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "D_eğiştir"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Ye_ni Parola"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "Ye_ni Parola"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Mevcut _Parola"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Sonraki girişte kullanıcının parolasını değiştirmesine olanak tanı"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Şimdi parola belirle"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "Kullanıcı _Ekle…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Giriş Seçenekleri"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Ot_omatik Giriş"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Parmak İziyle Giriş"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Kullanıcı Simgesi"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Son Giriş"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Hesabı Kaldır"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Diğer Hesaplar"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Kullanıcı silinemedi"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Uzaktan yönetilen kullanıcı iptal edilemedi"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Kendi hesabınızı silemezsiniz."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s halen sisteme giriş yapmış durumda"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Giriş yapmış bir kullanıcıyı silmek sistemi tutarsız bir duruma sokabilir."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "%s' in dosyalarını bırakmak ister misiniz?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Kullanıcı silerken ev klasörünü, postalarını ve geçici dosyalarını bırakmak "
+"mümkün."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Dosyaları Sil"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "Dosyaları _Tut"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+"Uzaktan yönetilen %s kullanıcısının hesabını iptal etmek istediğinizden emin "
+"misiniz?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Sil"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Hesap devre dışı"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Bir sonraki girişte ayarlanacak"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Oturum açık"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Hesap hizmetiyle bağlantı kurulamadı"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Lütfen AccountService' in kurulu ve etkin olduğundan emin olun."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Değişiklik yapmak için,\n"
+"önce * simgesine tıklayın"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Kullanıcı hesabı oluştur"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Kullanıcı hesabı oluşturmak için,\n"
+"önce * simgesine tıklayın"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Seçilen kullanıcı hesabını sil"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Seçilen kullanıcı hesabını silmek için,\n"
+"önce * simgesine tıklayın"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Hesabım"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Yeni parolanın, eskisinden farklı olması gerekir."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Bazı harf ve rakamları değiştirmeyi deneyin."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Parolayı biraz daha değiştirmeyi deneyin."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Kullanıcı adınızı içermeyen bir parola daha güçlü olacaktır."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "İsminizi içermeyen bir parola deneyin."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Paroladaki bazı kelimelerden kaçınmayı deneyin."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Yaygın kelimeler olmadan deneyin."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Aynı kelimeleri kullanmadan deneyin."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Daha fazla sayı kullanmayı deneyin."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Daha fazla büyük harf kullanmayı deneyin."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Daha fazla küçük harf kullanmayı deneyin."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Noktalama işaretleri gibi daha fazla özel karakter kullanmayı deneyin."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Harf, sayı ve noktalama işareti karışımları kullanmayı deneyin."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Aynı karakterleri tekrar etmeden deneyin."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Aynı cinsteki karakterleri tekrar etmeden deneyin: harfleri, sayıları ve "
+"noktalama işaretlerini karıştırmalısınız."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "1234 veya abcd gibi sıralamalardan kaçınarak deneyin."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Harf, sayı ve noktalama işareti karışımları kullanmayı deneyin."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Büyük, küçük karakter karıştırın ve bir iki de sayı kullanın."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"İyi parola! Daha fazla harf, sayı ve noktalama işareti kullanmak şifrenizi "
+"daha güçlü yapacaktır."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Kimlik doğrulama başarısız"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Yeni parola çok kısa"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Yeni parola çok basit"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Eski ve yeni parolalar birbirine çok benziyor"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Yeni parola yakın zamanda zaten kullanılmış."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Yeni parola rakam ya da özel karakterler içermeli"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Eski ve yeni parolalar birbirinin aynısı"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Parolanız önceki kimlik doğrulamasından sonra değiştirildi!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Yeni parola yeterli sayıda farklı karakterler içermiyor"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Bilinmeyen hata"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Hesap sağlayıcınızın web adresi ile aynı olmalıdır."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Hesap eklenemedi"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Parolalar eşleşmiyor."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Hesap kaydedilemedi"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Bu alan adıyla kimlik doğrulama yapılamaz"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Etki alanına katılma başarısız"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Giriş adı işe yaramadı.\n"
+"Lütfen tekrar deneyin."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Giriş parolası işe yaramadı.\n"
+"Lütfen tekrar deneyin."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Etki alanına girilemedi"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Etki alanı bulunamadı. Belki yanlış yazmışsınızdır?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "İptal"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Ekle"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standart"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Yönetici"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Aygıta erişiminize izin verilmedi. Sistem yöneticinizle bağlantıya geçin."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Aygıt zaten kullanımda."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Dahili hata oluştu."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Etkin"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Kayıtlı parmak izleri silinsin mi?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "Parmak İzlerini _Sil"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Kayıtlı parmak izlerini silerek parmak izi girişini kapatmak ister misiniz?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Tamamlandı!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "'%s' aygıtına erişilemedi"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "'%s' aygıtı üzerinde parmak yakalama başlatılamadı"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Hiçbir parmak izi okuyucusuna erişilemedi"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Lütfen yardım için sistem yöneticinizle bağlantıya geçin."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Parmak izi girişin etkinleşebilmesi için parmak izlerinizden bir tanesini "
+"'%s' aygıtını kullanarak kaydetmelisiniz."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Parmak seçiliyor"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Parmak izleri kaydediliyor"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Özet"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Bu Hafta"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Geçen Hafta"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Oturum Sonlandı"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Oturum Başladı"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Hesap Etkinliği"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Lütfen farklı bir parola seçin"
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Lütfen parolanızı tekrar girin."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Parolanız değiştirilemedi"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Seç"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Daha fazla resim için göz at"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Aç"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Resmi etkisizleştir"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Fotoğraf çek..."
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Daha fazla resim için göz at..."
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "%s tarafından kullanılıyor"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Bu tür bir etki alanına otomatik olarak girilemiyor"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Böyle bir etki alanı veya alan (realm) yok"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "%2$s etki alanına %1$s olarak giriş yapılamıyor"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Yanlış parola, lütfen tekrar deneyin"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "%s alan adına bağlanılamadı: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+"Üzgünüm, bu kullanıcı adı kullanılabilir değil. Lütfen başka bir tane "
+"deneyin."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Kullanıcı adı fazlasıyla uzun."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Kullanıcı adı '-' ile başlayamaz."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Kullanıcı adı sadece a'dan z'ye küçük ya da büyük harfler, rakamlar ve şu "
+"karakterlerin herhangi birinden oluşmalıdır: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Başlangıç klasörünüzün adlandırılmasında kullanılacaktır ve sonradan "
+"değiştirilemez."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Bugün"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Dün"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "Yeni Parolayı _Doğrula"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Daha fazla harf, sayı ve simge ekleyerek deneyin."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Zorluk: Zayıf"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Zorluk: Düşük"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Zorluk: Orta"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Zorluk: İyi"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Zorluk: Yüksek"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Parolalar uyuşmuyor"
+
+#~ msgid "_Background"
+#~ msgstr "_Arka Plan"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Gün içinde değiştir"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "Ki_lit Ekranı"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Döşe"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Yaklaştır"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Ortala"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Ölçekle"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Doldur"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Yay"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Duvar Kağıtları"
+
+#~ msgid "Colors"
+#~ msgstr "Renkler"
+
+#~ msgid "Select Background"
+#~ msgstr "Arkaplan Seç"
+
+#~ msgid "Pictures"
+#~ msgstr "Resimler"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Hiç Resim Bulunamadı"
+
+#~ msgid "Home"
+#~ msgstr "Ev"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Resimlerinizi %s klasörüne ekleyebilirsiniz. Eklenen resimler burada "
+#~ "gözükecektir"
+
+#~ msgid "_Select"
+#~ msgstr "_Seç"
+
+#~ msgid "multiple sizes"
+#~ msgstr "birden çok boyut"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Masaüstü Arkaplanı Yok"
+
+#~ msgid "Current background"
+#~ msgstr "Geçerli arkaplan"
+
+#~ msgid "Back­ground"
+#~ msgstr "Arkaplan"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Arkaplan resminizi duvar kağıdıyla veya fotoğrafla değiştirin"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Duvar kağıdı;Ekran;Masaüstü;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Uçak Kipini Kapat"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Bluetooth Bulunamadı"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Bluetooth özelliğini kullanmak için harici cihaz takmalısınız."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth Kapatıldı"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Cihazlara bağlanmak ve dosya aktarımlarını kabul etmek için açın."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Uçak Kipi açık"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Uçak kipi açıldığında bluetooth devre dışı kalır."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Donanım Uçak Kipi açık"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Bluetooth'u etkinleştirmek için Uçak kipini kapatın."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Bluetooth'u açıp kapatın ve aygıtlarınızı bağlayın"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "paylaş;paylaşım;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Kalibrasyon aygıtınızı karenin üzerine yerleştirin ve 'Başlat' düğmesine "
+#~ "basın"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Kalibrasyon aygıtınızı kalibrasyon konumuna getirip 'Devam Et' düğmesine "
+#~ "basın"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Kalibrasyon aygıtınızı yüzey konumuna getirip 'Devam Et' düğmesine basın"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Dizüstü bilgisayarın kapağını kapat"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Telafi edilemeyecek bir iç hata oluştu."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Kalibrasyon için gerekli araçlar kurulu değil."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Profil üretilemedi."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Hedef beyaznokta elde edilebilir değildi."
+
+#~ msgid "Complete!"
+#~ msgstr "Tamamlandı!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Kalibrasyon başarısız!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Kalibrasyon aygıtını çıkartabilirsiniz."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Kalibrasyon esnasında kalibrasyon aygıtıyla oynamayın"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Dizüstü Ekranı"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Dahili Webcam"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s Monitör"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s Tarayıcı"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s Kamera"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s Yazıcı"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s Webcam"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "%s için renk yönetimini etkinleştir"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "%s için renk profillerini göster"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Kalibrasyon yok"
+
+#~ msgid "Default: "
+#~ msgstr "Öntanımlı: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Colorspace: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Sınama profili: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "ICC Profil Dosyasını Seç"
+
+#~ msgid "_Import"
+#~ msgstr "_İçe Aktar"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Desteklenen ICC profilleri"
+
+#~ msgid "All files"
+#~ msgstr "Tüm dosyalar"
+
+#~ msgid "Screen"
+#~ msgstr "Ekran"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Dosya yüklenmesi başarısız: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profil şuraya yüklendi:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Bu URL'yi not edin."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Bu bilgisayarı yeniden başlatın ve olağan işletim sisteminizi başlatın."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Profili indirmek ve yüklemek için adresi tarayıcınıza yazın."
+
+#~ msgid "Save Profile"
+#~ msgstr "Profili Kaydet"
+
+#~ msgid "_Save"
+#~ msgstr "_Kaydet"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Seçilen aygıt için bir renk profili oluştur"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Ölçüm cihazı algılanamadı. Lütfen açık durumda olduğundan ve doğru "
+#~ "bağlandığından emin olunuz."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Ölçüm cihazı yazıcı profillemeyi desteklemiyor."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Aygıt türü şu anda desteklenmiyor."
+
+#~ msgid "Standard Space"
+#~ msgstr "Standart Uzaylar"
+
+#~ msgid "Test Profile"
+#~ msgstr "Test Profili"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Otomatik"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Düşük Kalite"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Orta Kalite"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Yüksek Kalite"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Öntanımlı RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Öntanımlı CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Öntanımlı Gri"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Üretici tarafından sağlanan fabrika kalibrasyon verisi"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Bu profil ile tam-ekran görüntü düzeltme mümkün değil"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Bu profil artık doğru olmayabilir"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Ekran Kalibrasyonu"
+
+#~ msgid "_Start"
+#~ msgstr "_Başlat"
+
+#~ msgid "_Resume"
+#~ msgstr "_Sürdür"
+
+#~ msgid "_Done"
+#~ msgstr "_Tamam"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Ekran Kalibrasyonu"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Kalibrasyon ekran renk ayarlarınızı yönetebileceğiniz bir profil "
+#~ "üretecektir. Kalibrasyon için ne kadar vakit harcarsanız, renk profiliniz "
+#~ "o kadar kaliteli olacaktır."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Kalibrasyon esnasında bilgisayarınızı kullanamayacaksınız."
+
+#~ msgid "Quality"
+#~ msgstr "Kalite"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Yaklaşık Süre"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kalibrasyon Kalitesi"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Kalibrasyon için kullanılacak algılayıcı aygıtını seçin."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Kalibrasyon Aygıtı"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Bağlı olan ekran türünü seçin."
+
+#~ msgid "Display Type"
+#~ msgstr "Ekran Türü"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Ekran için bir hedef beyaz nokta seçin. Çoğu ekran D65 parlaklığına "
+#~ "ayarlanmalıdır."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profil Beyaznoktası"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Lütfen ekran parlaklığını kişisel tercihinize göre ayarlayın. Renk "
+#~ "yönetimi ayarladığınız seviyede en doğru olacaktır."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Alternatif olarak, bu aygıt için diğer profillerde kullanılan parlaklık "
+#~ "seviyesini kullanabilirsiniz."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Ekran Parlaklığı"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Bir renk profilini farklı bilgisayarlarda kullanabilir ya da farklı "
+#~ "ışıklandırma koşulları için bile profiller oluşturabilirsiniz."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Profil Adı:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Profil Adı"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Profil başarıyla yaratıldı!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Profil kopyala"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Yazılabilir ortam gerekir"
+
+#~ msgid "Upload profile"
+#~ msgstr "Profil ekle"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "İnternet bağlantısı gerektirir"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Profili <a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> "
+#~ "ve <a href=\"windows\">Microsoft Windows</a> sistemleri üzerinde nasıl "
+#~ "kullanacağınıza dair bu yönergeleri faydalı bulabilirsiniz."
+
+#~ msgid "Add profile"
+#~ msgstr "Profil ekle"
+
+#~ msgid "_Import File…"
+#~ msgstr "Dosyayı _İçe Aktar…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Bazı sorunlar tespit edildi. Bu profil düzgün çalışmayabilir. <a href="
+#~ "\"\">Ayrıntıları göster.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Her aygıt, renk yönetimleri için güncel bir renk profiline gereksinim "
+#~ "duyar."
+
+#~ msgid "Learn more"
+#~ msgstr "Daha fazlasını öğren"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Renk yönetimi hakkında daha fazla bilgi edinin"
+
+#~ msgid "_Set for all users"
+#~ msgstr "Tüm kullanıcılar için _ayarla"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Bu profili bilgisayardaki tüm kullanıcılar için geçerli yap"
+
+#~ msgid "_Enable"
+#~ msgstr "_Etkinleştir"
+
+#~ msgid "_Add profile"
+#~ msgstr "Profil _ekle"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibrasyon…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Aygıtı kalibre et"
+
+#~ msgid "_Remove profile"
+#~ msgstr "Profili kaldı_r"
+
+#~ msgid "_View details"
+#~ msgstr "Ayrıntıları _görüntüle"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Renk yönetimi yapılabilecek bir aygıt algılanamadı"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektör"
+
+#~ msgid "Plasma"
+#~ msgstr "Plazma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL aydınlatma)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED aydınlatma)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (beyaz LED aydınlatma)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Geniş renk yelpazeli LCD (CCFL aydınlatma)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Geniş renk yelpazeli LCD (RGB LED aydınlatma)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Yüksek"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 dakika"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Orta"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 dakika"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Düşük"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 dakika"
+
+#~ msgid "Native to display"
+#~ msgstr "Ekrana özgü"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (Baskı ve yayınlama)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Fotoğraf ve grafik)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Renk"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Ekran, kamera veya yazıcı gibi aygıtlarınızın renk kalibrasyonunu yapın."
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Renk;ICC;Profil;Ayar;Yazıcı;Görünüm;"
+
+#~ msgid "Other…"
+#~ msgstr "Diğer..."
+
+#~ msgid "More…"
+#~ msgstr "Daha fazla..."
+
+#~ msgid "No languages found"
+#~ msgstr "Dil bulunamadı"
+
+#~ msgid "Language"
+#~ msgstr "Dil"
+
+#~ msgid "Day"
+#~ msgstr "Gün"
+
+#~ msgid "Month"
+#~ msgstr "Ay"
+
+#~ msgid "Year"
+#~ msgstr "Yıl"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::2"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Ocak"
+
+#~ msgid "February"
+#~ msgstr "Şubat"
+
+#~ msgid "March"
+#~ msgstr "Mart"
+
+#~ msgid "April"
+#~ msgstr "Nisan"
+
+#~ msgid "May"
+#~ msgstr "Mayıs"
+
+#~ msgid "June"
+#~ msgstr "Haziran"
+
+#~ msgid "July"
+#~ msgstr "Temmuz"
+
+#~ msgid "August"
+#~ msgstr "Ağustos"
+
+#~ msgid "September"
+#~ msgstr "Eylül"
+
+#~ msgid "October"
+#~ msgstr "Ekim"
+
+#~ msgid "November"
+#~ msgstr "Kasım"
+
+#~ msgid "December"
+#~ msgstr "Aralık"
+
+#~ msgid "Date & Time"
+#~ msgstr "Tarih & Saat"
+
+#~ msgid "Hour"
+#~ msgstr "Saat"
+
+#~ msgid "∶"
+#~ msgstr ":"
+
+#~ msgid "Minute"
+#~ msgstr "Dakika"
+
+#~ msgid "Time Zone"
+#~ msgstr "Saat Dilimi"
+
+#~ msgid "Search for a city"
+#~ msgstr "Bir şehir arayın"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Otomatik _Tarih & Saat"
+
+#~ msgid "Requires internet access"
+#~ msgstr "İnternet erişimi gerektirir"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Otomatik Saat _Dilimi"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Tarih & _Saat"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Saat _Dilimi"
+
+#~ msgid "Time _Format"
+#~ msgstr "Saat _Biçimi"
+
+#~ msgid "24-hour"
+#~ msgstr "24-saat"
+
+#~ msgid "AM / PM"
+#~ msgstr "ÖÖ / ÖS"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Tarihi, saati ve saat dilimini değiştirin"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Saat;Saat Dilimi;Yer;Konum;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Sistem saatini ve tarihini değiştirin"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr ""
+#~ "Saat ya da tarih ayarlarını değiştirmek için kimliğinizi doğrulamanız "
+#~ "gerekiyor."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Kapat Kapatıldı"
+
+#~ msgid "Mirrored"
+#~ msgstr "Aynalandı"
+
+#~ msgid "Primary"
+#~ msgstr "Birincil"
+
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "Secondary"
+#~ msgstr "İkincil"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Birleştirilmiş Ekranları Düzenle"
+
+#~ msgid "_Apply"
+#~ msgstr "Uygul_a"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Düzenlemek için ekranları sürükleyin"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Saat yönünün tersine 90° döndür"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "180° döndür"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Saat yönünde 90° döndür"
+
+#~ msgid "Size"
+#~ msgstr "Boyut"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "En-Boy Oranı"
+
+#~ msgid "Resolution"
+#~ msgstr "Çözünürlük"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "TV için Ayarla"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Tazeleme Hızı"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Üst çubuğu ve Etkinlikler Genel Görünümünü bu ekranda göster"
+
+#~ msgid "Secondary Display"
+#~ msgstr "İkincil Ekran"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "Ek çalışma alanı oluşturmak için bu ekranla başka birini birleştir"
+
+#~ msgid "Presentation"
+#~ msgstr "Sunum"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Sadece slayt gösterilerini ve ortamı göster"
+
+#~ msgid "Mirror"
+#~ msgstr "Aynala"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Varolan görüntünüzü her iki ekranda gösterin"
+
+#~ msgid "Turn Off"
+#~ msgstr "Kapat"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Bu ekranı kullanma"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Ekran bilgisi alınamadı"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "Birleştirilmiş Ekranları _Düzenle"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Ekranlar"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr ""
+#~ "Bağlanan ekranların ya da projektörlerin nasıl kullanılacağını seçin"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr ""
+#~ "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Projektör;Ekran;"
+#~ "Çözünürlük;Tazele;Yenile;Monitör;"
+
+#~ msgid "Unknown"
+#~ msgstr "Bilinmeyen"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (İnşa Kimliği: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (İnşa Kimliği: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Yapılacak şeyi sor"
+
+#~ msgid "Do nothing"
+#~ msgstr "Hiçbir şey yapma"
+
+#~ msgid "Open folder"
+#~ msgstr "Klasör aç"
+
+#~ msgid "Other Media"
+#~ msgstr "Diğer Ortamlar"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Ses CD'leri için bir uygulama seçin"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Video DVD'leri için bir uygulama seçin"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "Müzik çalar bağlandığında çalıştırılacak uygulamayı seçin"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Kamera bağlandığında çalıştırılacak uygulamayı seçin"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Yazılım CD'leri için bir uygulama seçin"
+
+#~ msgid "audio DVD"
+#~ msgstr "ses DVD'si"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "boş Blu-ray diski"
+
+#~ msgid "blank CD disc"
+#~ msgstr "boş CD diski"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "boş DVD diski"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "boş HD DVD diski"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray video diski"
+
+#~ msgid "e-book reader"
+#~ msgstr "e-kitap okuyucu"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD video diski"
+
+#~ msgid "Picture CD"
+#~ msgstr "Resim CD'si"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Süper Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows yazılımı"
+
+#~ msgid "Section"
+#~ msgstr "Bölüm"
+
+#~ msgid "Overview"
+#~ msgstr "Genel Görünüm"
+
+#~ msgid "Default Applications"
+#~ msgstr "Öntanımlı Uygulamalar"
+
+#~ msgid "Removable Media"
+#~ msgstr "Çıkarılabilir Ortam"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Sürüm %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Ayrıntılar"
+
+#~ msgid "View information about your system"
+#~ msgstr "Sisteminiz hakkında bilgi edinin"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "aygıt;sistem;bilgi;bellek;işlemci;sürüm;öntanımlı;uygulama; korumalı;"
+#~ "tercihedilen;cd;dvd;usb;ses;video;disk;çıkarılabilir;ortam;"
+#~ "otomatikçalıştır;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Diğer ortamların nasıl kullanılacağını seçin"
+
+#~ msgid "_Action:"
+#~ msgstr "_Eylem:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Tür:"
+
+#~ msgid "Device name"
+#~ msgstr "Aygıt adı"
+
+#~ msgid "Memory"
+#~ msgstr "Bellek"
+
+#~ msgid "Processor"
+#~ msgstr "İşlemci"
+
+#~ msgid "Base system"
+#~ msgstr "Temel sistem"
+
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Calculating…"
+#~ msgstr "Hesaplanıyor..."
+
+#~ msgid "Graphics"
+#~ msgstr "Grafik"
+
+#~ msgid "Virtualization"
+#~ msgstr "Sanallaştırma"
+
+#~ msgid "Check for updates"
+#~ msgstr "Güncellemeleri denetle"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "_Posta"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Takvim"
+
+#~ msgid "M_usic"
+#~ msgstr "M_üzik"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fotoğraflar"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Ortamın nasıl kullanılacağını seçin"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD _sesi"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD videosu"
+
+#~ msgid "_Music player"
+#~ msgstr "_Müzik çalar"
+
+#~ msgid "_Software"
+#~ msgstr "_Yazılım"
+
+#~ msgid "_Other Media…"
+#~ msgstr "Diğer _Ortam..."
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Ortam takıldığında asla program başlatma ve sorma"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Ses ve Ortam"
+
+#~ msgid "Volume mute"
+#~ msgstr "Ses kapat"
+
+#~ msgid "Volume down"
+#~ msgstr "Ses kıs"
+
+#~ msgid "Volume up"
+#~ msgstr "Ses Aç"
+
+#~ msgid "Launch media player"
+#~ msgstr "Ortam oynatıcısını çalıştır"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Oynat (ya da oynat/beklet)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Oynatmayı beklet"
+
+#~ msgid "Stop playback"
+#~ msgstr "Oynatmayı durdur"
+
+#~ msgid "Previous track"
+#~ msgstr "Önceki parça"
+
+#~ msgid "Next track"
+#~ msgstr "Sonraki parça"
+
+#~ msgid "Eject"
+#~ msgstr "Çıkar"
+
+#~ msgid "Typing"
+#~ msgstr "Yazma"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Diğer giriş kaynağına geç"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Önceki girdi kaynağına geç"
+
+#~ msgid "Launchers"
+#~ msgstr "Başlatıcılar"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Yardım tarayıcısını çalıştır"
+
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Hesap makinesini çalıştır"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-posta istemcisini çalıştır"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Web tarayıcısını çalıştır"
+
+#~ msgid "Home folder"
+#~ msgstr "Ev Klasörü"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Arama"
+
+#~ msgid "Screenshots"
+#~ msgstr "Ekran Görüntüleri"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Ekran görüntüsünü $PICTURES klasörüne kaydet"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Bir pencerenin ekran görüntüsünü $PICTURES klasörüne kaydet"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Bir alanın ekran görüntüsünü $PICTURES klasörüne kaydet"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Bir ekran görüntüsünü panoya kopyala"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Bir pencerenin ekran görüntüsünü panoya kopyala"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Bir alanın ekran görüntüsünü panoya kopyala"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Kısa bir ekran kaydı yap"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Log out"
+#~ msgstr "Çıkış"
+
+#~ msgid "Lock screen"
+#~ msgstr "Ekranları kilitle"
+
+#~ msgid "Universal Access"
+#~ msgstr "Evrensel Erişim"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Yakınlaştırmayı aç ya da kapat"
+
+#~ msgid "Zoom in"
+#~ msgstr "Yakınlaştır"
+
+#~ msgid "Zoom out"
+#~ msgstr "Uzaklaştır"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Ekran okuyucuyu aç ya da kapat"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Ekran klavyesini aç ya da kapat"
+
+#~ msgid "Increase text size"
+#~ msgstr "Yazıyı büyüt"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Yazıyı küçült"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Yüksek karşıtlık açık ya da kapalı"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Özel Kısayollar"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Alternatif Harfler Tuşu"
+
+#~ msgid "Compose Key"
+#~ msgstr "Birleştirme Tuşu"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Sonraki kaynağa sadece değiştirgelerle geçiş"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Kısayolu öntanımlı değerine sıfırla"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s zaten <b>%s</b> için kullanılıyor. Eğer yerine başka bir şey "
+#~ "koyarsanız, %s devre dışı bırakılacak"
+
+#~| msgid "Custom Shortcuts"
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Özel Kısayol Belirle"
+
+#~| msgid "Shortcut"
+#~ msgid "Set Shortcut"
+#~ msgstr "Kısayol Belirle"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Değiştirmek için yeni kısayolu girin: <b>%s</b>"
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Özel Kısayol Ekle"
+
+#~ msgid "Key­board"
+#~ msgstr "Klavye"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Klavye kısayollarını görün ve değiştirin ayrıca yazım tercihlerinizi "
+#~ "belirleyin"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Kısayol;Tekrar;Kırpma;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Klavye kısayolu bulunamadı"
+
+#~ msgid "Try a different search"
+#~ msgstr "Farklı bir arama deneyin"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Vazgeçmek için ESC'ye basın."
+
+#~ msgid "Name"
+#~ msgstr "İsim"
+
+#~ msgid "Command"
+#~ msgstr "Komut"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kısayol"
+
+#~ msgid "Edit"
+#~ msgstr "Düzenle"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "Remove"
+#~ msgstr "Kaldır"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Yeni kısayolu girin"
+
+#~ msgid "Add"
+#~ msgstr "Ekle"
+
+#~ msgid "Replace"
+#~ msgstr "Yerine Koy"
+
+#~| msgid "Select"
+#~ msgid "Set"
+#~ msgstr "Belirle"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Ayarlarınızı Sınayın"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Fare ve Dokunmatik Yüzey"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Farenizin veya dokunmatik yüzeyin duyarlılığını değiştirin ve sağ veya "
+#~ "sol elle kullanımı ayarlayın"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "Trackpad;İşaretçi;Tıklama;Vurma;Çift;Düğme;Trackball;Kaydırma;"
+
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgid "Primary Button"
+#~ msgstr "Birincil Düğme"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr ""
+#~ "Fare ve dokunmatik yüzeyler üzerindeki fiziksel tuşların sırasını ayarlar."
+
+#~ msgid "Left"
+#~ msgstr "Sol"
+
+#~ msgid "Right"
+#~ msgstr "Sağ"
+
+#~ msgid "Mouse"
+#~ msgstr "Fare"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Fare Hızı"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Çift tıklama zaman aşımı"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Doğal Kaydırma"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Kaydırma, görünümü değil içeriği hareket ettirir."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Dokunmatik Yüzey Hızı"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Tıklamak için Dokun"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "İki Parmak Kaydırma"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Kenar Kaydırma"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Tek tıklamayı, çift tıklamayı ve kaydırmayı test edin"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Five clicks, GEGL time!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Çift tıklama, birincil düğme"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Tek tıklama, birincil düğme"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Çift tıklama, orta düğme"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Tek tıklama, orta düğme"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Çift tıklama, ikincil düğme"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Tek tıklama, ikincil düğme"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Uçak Ki_pi"
+
+#~ msgid "Network proxy"
+#~ msgstr "Ağ Vekili"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr "Aahh, birşeyler ters gitti. Lütfen yazılım satıcınıza başvurun."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "NetworkManager'ın çalışıyor olması gerekir."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x _Güvenliği"
+
+#~ msgid "page 1"
+#~ msgstr "sayfa 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Anoni_m kimlik"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Dahili _kimlik denetimi"
+
+#~ msgid "page 2"
+#~ msgstr "sayfa 2"
+
+#~ msgid "Security"
+#~ msgstr "Güvenlik"
+
+#~ msgid "automatic"
+#~ msgstr "otomatik"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profil %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Kurumsal"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "Never"
+#~ msgstr "Asla"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i gün önce"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/sn"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Yok"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Zayıf"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "İyi"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "İyi"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Mükemmel"
+
+#~ msgid "Details"
+#~ msgstr "Ayrıntılar"
+
+#~ msgid "Identity"
+#~ msgstr "Kimlik"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Netmask"
+#~ msgstr "Ağ maskesi"
+
+#~ msgid "Gateway"
+#~ msgstr "Geçit"
+
+#~ msgid "Delete Address"
+#~ msgstr "Adresi Sil"
+
+#~ msgid "Server"
+#~ msgstr "Sunucu"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "DNS Sunucuyu Sil"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrik"
+
+#~ msgid "Delete Route"
+#~ msgstr "Rotayı Sil"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Otomatik (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Elle"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Sadece Yerel Bağlantı"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Ön ek"
+
+#~ msgid "Automatic"
+#~ msgstr "Otomatik"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Otomatik, sadece DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Sıfırla"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-bit Anahtar (Onaltılık veya ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-bit Parola"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Dinamik WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Kişisel"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Kurumsal"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Sinyal Gücü"
+
+#~ msgid "Link speed"
+#~ msgstr "Hat hızı"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 Adresi"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 Adresi"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Donanım Adresi"
+
+#~ msgid "Default Route"
+#~ msgstr "Öntanımlı Geçit"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Son Kullanım"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Bükülü Tel Çifti (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Eklenti Birimi Arayüzü (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Ortam Bağımsız Arayüz (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "%d Mb/sn"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "%d Mb/sn"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Ad"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC Adresi"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Klonlanmış Adres"
+
+#~ msgid "bytes"
+#~ msgstr "bayt"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Diğer k_ullanıcılar için de kullanılabilir kıl"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Otom_atik  bağlan"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "Güvenlik Duvarı _Bölgesi"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Öntanımlı"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Bölge; bağlantının güvenilirlik düzeyini tanımlar"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Adresler"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Otomatik DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Rotalar"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Otomatik Rota"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Bu bağlantıyı _sadece kendi ağı üzerindeki kaynaklar için kullan"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Bağlantı düzenleyicisi açılamadı"
+
+#~ msgid "New Profile"
+#~ msgstr "Yeni Profil"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Dosyadan içe aktar..."
+
+#~ msgid "Add VPN"
+#~ msgstr "VPN Ekle"
+
+#~ msgid "_Reset"
+#~ msgstr "Sıfı_rla"
+
+#~ msgid "_Forget"
+#~ msgstr "_Unut"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Bu ağ için ayarları sıfırla, parolalar dahil. Bunun tercih edilen bir ağ "
+#~ "olduğunu unutmayın."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr "Bu ağ için tüm detayları sil ve otomatik olarak bağlanmayı deneme"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Güv_enlik"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "VPN bağlantısı içe aktarılamıyor"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "'%s' dosyası okunamıyor ya da herhangi bir VPN bağlantı bilgisi "
+#~ "içermiyor\n"
+#~ "\n"
+#~ "Hata: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "İçe aktarılacak dosyayı seçin"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" adında bir dosya zaten mevcut."
+
+#~ msgid "_Replace"
+#~ msgstr "Değişti_r"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr ""
+#~ "%s bağlantısını kaydetmek istediğiniz VPN bağlantısıyla değiştirmek "
+#~ "istiyor musunuz?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "VPN bağlantısı dışa aktarılamıyor"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "'%s' VPN bağlantısı %s'a aktarılamıyor.\n"
+#~ "\n"
+#~ "Hata: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "VPN bağlantısını dışa aktar"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Hata: VPN bağlantı düzenleyicisi yüklenemedi)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Ev Ağı"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Diğer k_ullanıcılar için de kullanılabilir kıl"
+
+#~ msgid "Net­work"
+#~ msgstr "Ağ"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "İnternete nasıl bağlandığınızı denetleyin"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Ağ;Wireless;Wi-Fi;Wifi;Kablosuz;IP;LAN;Yerel Ağ;Proxy;Vekil Sunucu;WAN;"
+#~ "Broadband;Genişbant;Modem;Bluetooth;vpn;DNS;"
+
+#~ msgid "never"
+#~ msgstr "asla"
+
+#~ msgid "today"
+#~ msgstr "bugün"
+
+#~ msgid "yesterday"
+#~ msgstr "dün"
+
+#~ msgid "IP Address"
+#~ msgstr "İP Adresi"
+
+#~ msgid "Last used"
+#~ msgstr "Son kullanım"
+
+#~ msgid "Wired"
+#~ msgstr "Kablolu"
+
+#~ msgid "Options…"
+#~ msgstr "Seçenekler..."
+
+#~ msgid "Add new connection"
+#~ msgstr "Yeni bağlantı ekle"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Eğer kablosuzdan başka bir İnternet bağlantısına sahipseniz, kablosuz "
+#~ "bağlantı noktası kurarak bağlantınızı diğerleriyle paylaşabilirsiniz."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "Kablosuz Hotspot'u açmak sizi <b>%s</b> bağlantısından koparacak."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Kablosuz aygıtınız Hotspot olarak etkinleştirilmiş ise İnternete erişmek "
+#~ "mümkün olmaz."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Etkin nokta durdurulup tüm kullanıcıların bağlantısı kesilsin mi?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "Etkin Noktayı _Durdur"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Sistem politikası Hotspot olarak kullanmayı yasaklıyor"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Kablosuz aygıtı Hotspot kipini desteklememektedir"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Seçilen ağlar için ağ detayları, parolalar ve her türlü özel "
+#~ "yapılandırmalar kaybolacak."
+
+#~ msgid "History"
+#~ msgstr "Geçmiş"
+
+#~ msgid "_Close"
+#~ msgstr "_Kapat"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Unut"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Yapılandırma URL'si verilmediğinde vekil sunucu otomatik bulma kullanılır."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Bu güvenli olmayan açık ağlarda önerilmez."
+
+#~ msgid "Proxy"
+#~ msgstr "Vekil"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "Profil _Ekle…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Sağlayıcı"
+
+#~ msgid "Network"
+#~ msgstr "Ağ"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "El ile"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Otomatik"
+
+#~ msgid "_Method"
+#~ msgstr "Yönte_m"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_Yapılandırma URL'si"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP Vekili"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS Vekili"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP Vekili"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Socks Makinesi"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "Ana Bilgisayarları _Yoksay"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP vekil portu"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS vekil portu"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP vekil portu"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Socks vekil portu"
+
+#~ msgid "Turn device off"
+#~ msgstr "Aygıtı kapat"
+
+#~ msgid "Add Device"
+#~ msgstr "Aygıt Ekle"
+
+#~ msgid "Remove Device"
+#~ msgstr "Aygıtı Kaldır"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN Türü"
+
+#~ msgid "Group Name"
+#~ msgstr "Grup İsmi"
+
+#~ msgid "Group Password"
+#~ msgstr "Grup Parolası"
+
+#~ msgid "Username"
+#~ msgstr "Kullanıcı Adı"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "VPN bağlantısını kapat"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Otomatik _Bağlan"
+
+#~ msgid "details"
+#~ msgstr "ayrıntılar"
+
+#~ msgid "Show P_assword"
+#~ msgstr "P_arolayı Göster"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Diğer kullanıcılar için de kullanılabilir kıl"
+
+#~ msgid "identity"
+#~ msgstr "kimlik"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Sadece otomatik (DHCP) adresleri"
+
+#~ msgid "Link-local only"
+#~ msgstr "Sadece yerel bağlantı"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Diğer bilgisayarlarla paylaşılmış"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "Otomatik olarak eklenenleri _yoksay"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "Klonlanmış MA_C Adresi"
+
+#~ msgid "hardware"
+#~ msgstr "donanım"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Bağlantıyı varsayılan ayarlara sıfırlayın, fakat bunun tercih edilen bir "
+#~ "bağlantı olduğunu unutmayın."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Bu ağ ile ilgili tüm detayları sil ve tekrar otomatik olarak bağlanmayı "
+#~ "deneme."
+
+#~ msgid "reset"
+#~ msgstr "sıfırla"
+
+#~ msgid "Hardware"
+#~ msgstr "Donanım"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Kablosuz Erişim Noktası"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Aç"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Kablosuz"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Kablosuzu Kapat"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "Hotspot olarak k_ullan"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "Gizli Ağa _Bağlan…"
+
+#~ msgid "_History"
+#~ msgstr "_Geçmiş"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Wi-Fi ağına bağlanmak için kapat"
+
+#~ msgid "Network Name"
+#~ msgstr "Ağ Adı"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Bağlı Aygıtlar"
+
+#~ msgid "Security type"
+#~ msgstr "Güvenlik türü"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Altyapı"
+
+#~ msgid "Status unknown"
+#~ msgstr "Durum bilinmiyor"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Yönetilmeyen"
+
+#~ msgid "Unavailable"
+#~ msgstr "Kullanılamıyor"
+
+#~ msgid "Connecting"
+#~ msgstr "Bağlanıyor"
+
+#~ msgid "Authentication required"
+#~ msgstr "Kimlik doğrulası gerekli"
+
+#~ msgid "Connected"
+#~ msgstr "Bağlı"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Bağlantı kesiliyor"
+
+#~ msgid "Connection failed"
+#~ msgstr "Bağlantı başarısız"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Durum bilinmiyor (kayıp)"
+
+#~ msgid "Not connected"
+#~ msgstr "Bağlı değil"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Yapılandırma başarısız"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP yapılandırması başarısız"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP yapılandırmasının süresi dolmuş"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Özel bilgiler gerekli, fakat size sunulmamış"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x istekçisinin bağlantısı kesildi"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x istekçi yapılandırması başarısız oldu"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x istekçisi başarısız oldu"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x istekçisinin kimlik doğrulaması çok uzun sürdü"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP hizmeti başlatılamadı"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP hizmetinin bağlantısı kesildi"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP başarısız"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP istemci başlatılamadı"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP istemci hatası"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP istemcisi başarısız"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Paylaşımlı bağlantı hizmeti başlatılamadı"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Paylaşılmış bağlantı hizmeti başarısız oldu"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP hizmeti başlatılamadı"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP hizmet hatası"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP hizmeti başarısız oldu"
+
+#~ msgid "Line busy"
+#~ msgstr "Hat meşgul"
+
+#~ msgid "No dial tone"
+#~ msgstr "Çevir sesi yok"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Hiçbir taşıyıcı (carrier) elde edilemedi"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Çevirme isteği zaman aşımına uğradı"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Çevirme denemesi başarısız"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Modem başlatma başarısız oldu"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Belirtilen APN seçilemedi"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Ağlar için arama yapılmıyor"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Ağ kaydı reddedildi"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Ağ kaydı zaman aşımına uğradı"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "İstenilen ağa kaydolunamadı"
+
+#~ msgid "PIN check failed"
+#~ msgstr "PIN doğrulanamadı"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Aygıt için bellenim dosyası (firmware) eksik olabilir"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Bağlantı kayboldu"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Mevcut bağlantı olduğu varsayıldı"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem bulunamadı"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Bluetooth bağlantı başarısız"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM Kart takılı değil"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM Pin gerekli"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM Puk gerekli"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Yanlış SIM"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Bağlantı bağımlılığı başarısız"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Firmware kayıp"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kablo takılı değil"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "802.1x güvenliğinde (wpa-eap) tanımlanmamış hata"
+
+#~ msgid "no file selected"
+#~ msgstr "hiçbir dosya seçilmedi"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "eap-method dosyası doğrulamada belirtilmemiş hata"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr ""
+#~ "DER, PEM, veya PKCS#12 özel anahtarları (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER veya PEM sertifikaları (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "EAP-FAST PAC dosyası eksik"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "PAC dosyası seçin"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC dosyaları (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonim"
+
+#~ msgid "Authenticated"
+#~ msgstr "Kimlik doğrulama başarılı"
+
+#~ msgid "Both"
+#~ msgstr "İkisi birden"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC _dosyası"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "Dahil_i kimlik denetimi"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Otomatik PAC ön _hazırlığına izin ver"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "EAP-LEAP kullanıcı adı eksik"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "EAP-LEAP parolası eksik"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Parolayı g_öster"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "geçersiz EAP-PEAP CA sertifikası: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "geçersiz EAP-PEAP CA sertifikası: sertifika belirtilmedi"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Sertifika Yetkilisi (CA) sertifikası seçin"
+
+#~ msgid "Version 0"
+#~ msgstr "Sürüm 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Sürüm 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "C_A sertifikası"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "CA sertifikası ge_rekli değildir"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP _sürümü"
+
+#~ msgid "missing EAP username"
+#~ msgstr "eksik EAP kullanıcı adı"
+
+#~ msgid "missing EAP password"
+#~ msgstr "eksik EAP parolası"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "eksik EAP-TLS kimliği"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "geçersiz EAP-TLS CA sertifikası: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "geçersiz EAP-TLS CA sertifikası: sertifika belirtilmedi"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "geçersiz EAP-TLS parolası: eksik"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "geçersiz EAP-TLS gizli-anahtarı: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "geçersiz EAP-TLS kullanıcı-sertifikası: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Şifrelenmemiş özel anahtarlar güvensizdir"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Seçilen özel anahtar bir parolayla korunmuyor. Bu sizin güvenliğinizi "
+#~ "tehlikeye atabilir. Lütfen parola ile korunan bir özel anahtar seçin.\n"
+#~ "\n"
+#~ "(OpenSSL ile özel anahtarınızı şifreleyebilirsiniz)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Kişisel sertifikanızı seçin"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Özel anahtarınızı seçin"
+
+#~ msgid "I_dentity"
+#~ msgstr "K_imlik"
+
+#~ msgid "_User certificate"
+#~ msgstr "K_ullanıcı sertifikası"
+
+#~ msgid "Private _key"
+#~ msgstr "Özel _anahtar"
+
+#~ msgid "_Private key password"
+#~ msgstr "Özel anahtar _parolası"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "geçersiz EAP-TTLS CA sertifikası: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "geçersiz EAP-TTLS CA sertifikası: sertifika belirtilmedi"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "802.1x güvenliğini doğrulamada bilinmeyen hata"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Tünellenmiş TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Korumalı EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Kimlik dene_timi"
+
+#~ msgid "missing leap-username"
+#~ msgstr "leap-kullanıcı adı eksik"
+
+#~ msgid "missing leap-password"
+#~ msgstr "leap-parolası eksik"
+
+#~ msgid "missing wep-key"
+#~ msgstr "wep-anahtarı eksik"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "geçersiz wep-anahtarı: %zu uzunluğundaki bir anahtar yalnızca onaltılı "
+#~ "(hex) rakamlardan oluşmalı"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "geçersiz wep-anahtarı: %zu uzunluğundaki bir anahtar yalnızca ascii "
+#~ "karakterler içermelidir"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "geçersiz wep-anahtarı: geçersiz anahtar uzunluğu %zu. Bir anahtar ya 5/13 "
+#~ "(ascii) ya da 10/26 (onaltılık) uzunluğunda olmalıdır"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "geçersiz wep-anahtarı: parola boş olmamalıdır"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr "geçersiz wep-anahtarı: parola 64 karakterden kısa olmalıdır"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Öntanımlı)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Açık Sistem"
+
+#~ msgid "Shared Key"
+#~ msgstr "Paylaşımlı Anahtar"
+
+#~ msgid "_Key"
+#~ msgstr "_Anahtar"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Anahtarı g_öster"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP ende_ksi"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "geçersiz wpa-psk: geçersiz anahtar uzunluğu %zu. [8,63] bayt ya da 64 "
+#~ "onaltılık rakam olmalıdır"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "geçersiz wpa-psk: 64 baytlık anahtar onaltılık olarak yorumlanamıyor"
+
+#~ msgid "_Type"
+#~ msgstr "_Tür"
+
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Bildirimler"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "Sesli Uy_arılar"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "_Bildirim Pencerecikleri"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Bildirim Pencereciklerinde İleti İ_çeriğini Göster"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Ki_lit Ekranı Bildirimleri"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Kilit Ekranında İleti İ_çeriğini Göster"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Bildirimler"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr ""
+#~ "Hangi bildirimlerin gösterileceğini ve ne göstereceklerini ayarlayın"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Bildirimler;Mesaj;Tepsi;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "_Bildirim Pencerecikleri"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Ki_lit Ekranı Bildirimleri"
+
+#~ msgid "Applications"
+#~ msgstr "Uygulamalar"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "Add Account"
+#~ msgstr "Hesap Ekle"
+
+#~ msgid "Mail"
+#~ msgstr "E-Posta"
+
+#~ msgid "Calendar"
+#~ msgstr "Takvim"
+
+#~ msgid "Contacts"
+#~ msgstr "Kişiler"
+
+#~ msgid "Chat"
+#~ msgstr "Sohbet"
+
+#~ msgid "Resources"
+#~ msgstr "Özkaynaklar"
+
+#~ msgid "Error creating account"
+#~ msgstr "Hesap oluşturulurken hata meydana geldi"
+
+#~ msgid "Error removing account"
+#~ msgstr "Hesap silinirken hata oluştu"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Hesabı silmek istediğinizden emin misiniz?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Bu işlem, sunucudaki hesabı silmeyecektir."
+
+#~ msgid "_Remove"
+#~ msgstr "_Sil"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Çevrimiçi Hesaplar"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "Çevrimiçi hesaplarınıza bağlanın ve ne için kullanacağınızı belirleyin"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;Çevrimiçi;Sohbet;Takvim;"
+#~ "Mektup;Posta;Bağlantı;Kişi;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Yapılandırılmış çevrimiçi hesap yok"
+
+#~ msgid "Add an online account"
+#~ msgstr "Çevrimiçi hesap ekle"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Bir hesap eklemek uygulamaların dökümanlarınıza, postanıza, kişilerinize, "
+#~ "takvime, sohbet gibi içeriklere ulaşmasını sağlar"
+
+#~ msgid "Unknown time"
+#~ msgstr "Bilinmeyen süre"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i dakika"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i saat"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "saat"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "dakika"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "Tam dolana kadar %s"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Dikkat: %s kaldı"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s kaldı"
+
+#~ msgid "Fully charged"
+#~ msgstr "Tamamen dolu"
+
+#~ msgid "Empty"
+#~ msgstr "Boş"
+
+#~ msgid "Charging"
+#~ msgstr "Şarj oluyor"
+
+#~ msgid "Discharging"
+#~ msgstr "Boşalıyor"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Birincil"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Ek"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Kablosuz fare"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Kablosuz klavye"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Kesintisiz güç kaynağı"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Kişisel Sayısal Yardımcı (PDA)"
+
+#~ msgid "Cellphone"
+#~ msgstr "Cep telefonu"
+
+#~ msgid "Media player"
+#~ msgstr "Ortam oynatıcısı"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Bilgisayar"
+
+#~ msgid "Battery"
+#~ msgstr "Pil"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Doluyor"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Dikkat"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Düşük"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "İyi"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Tamamen dolu"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Boş"
+
+#~ msgid "Batteries"
+#~ msgstr "Piller"
+
+#~ msgid "When _idle"
+#~ msgstr "Bo_şta olduğunda"
+
+#~ msgid "Power Saving"
+#~ msgstr "Güç Tasarrufu"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Ekran parlaklığı"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Otomatik parlaklık"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "_Klavye parlaklığı"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "Etkin olunma_dığında ekranı karart"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Boş Ekran"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Enerji tasarrufu için Kablosuz Ağı kapatın."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobil Genişbant"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr "Enerji tasarrufu için mobil genişbantı (3G, 4G, LTE, vb.) kapat."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Pille çalışırken"
+
+#~ msgid "When plugged in"
+#~ msgstr "Fişe takıldığında"
+
+#~ msgid "Suspend"
+#~ msgstr "Askıya Al"
+
+#~ msgid "Hibernate"
+#~ msgstr "Derin Uyku"
+
+#~ msgid "Nothing"
+#~ msgstr "Hiçbir Şey"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Askıya Alma & Güç Düğmesi"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "Otomatik olarak _askıya al"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Otomatik askıya alma"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "Gü_ç Düğmesine Basıldığında"
+
+#~ msgid "Devices"
+#~ msgstr "Aygıtlar"
+
+#~ msgid "Po­wer"
+#~ msgstr "Güç"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Pil durumunuzu görüntüleyin ve güç koruma ayarlarını değiştirin"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Güç;Uyku;Bekleme;Derin Uyku;Pil;Parlaklık;Karartma;Monitör;DPMS;Boşta;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 dakika"
+
+#~ msgid "1 hour"
+#~ msgstr "1 saat"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minutes"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 dakika"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 dakika"
+
+#~ msgid "2 hours"
+#~ msgstr "2 saat"
+
+#~ msgid "1 minute"
+#~ msgstr "1 dakika"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 dakika"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 dakika"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 dakika"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 dakika"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 dakika"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 dakika"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 dakika"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Otomatik olarak Askıya Al"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Fişe Takılıyken"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "_Pil ile Çalışırken"
+
+#~ msgid "Delay"
+#~ msgstr "Gecikme"
+
+#~ msgid "Authenticate"
+#~ msgstr "Kimlik doğrulama"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Kimlik doğrulaması gerekli"
+
+#~ msgid "Low on toner"
+#~ msgstr "Toner düşük seviyede"
+
+#~ msgid "Out of toner"
+#~ msgstr "Toner tükendi"
+
+#~ msgid "Low on developer"
+#~ msgstr "Film banyo kimyasalı az"
+
+#~ msgid "Out of developer"
+#~ msgstr "Film banyo kimyasalı tükendi"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Renk kartuşu az"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Renk kartuşu tükendi"
+
+#~ msgid "Open cover"
+#~ msgstr "Kapak açık"
+
+#~ msgid "Open door"
+#~ msgstr "Kapı açık"
+
+#~ msgid "Low on paper"
+#~ msgstr "Kağıt az"
+
+#~ msgid "Out of paper"
+#~ msgstr "Kağıt tükendi"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Kapalı"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Durduruldu"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Atık kutusu neredeyse dolu"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Atık kutusu dolu"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Baskı silindiri ömrünü doldurmak üzere"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Baskı silindiri artık çalışmıyor"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Yapılandırılıyor"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Hazır"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Görev kabul etmiyor"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "İşleniyor"
+
+#~ msgid "Toner Level"
+#~ msgstr "Toner Seviyesi"
+
+#~ msgid "Ink Level"
+#~ msgstr "Mürekkep Seviyesi"
+
+#~ msgid "Supply Level"
+#~ msgstr "Malzeme Seviyesi"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Kuruluyor"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u etkin"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Yeni yazıcı eklenemedi."
+
+#~ msgid "Select PPD File"
+#~ msgstr "PPD Dosyası Seç"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript Yazıcı Tanımlama dosyaları (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, "
+#~ "*.PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Uygun sürücü bulunamadı"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Tercih edilen sürücüler aranıyor..."
+
+#~ msgid "Select from database…"
+#~ msgstr "Veritabanından seç..."
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "PPD Dosyası Verin..."
+
+#~ msgid "Test page"
+#~ msgstr "Deneme sayfası"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Arayüz yüklenemedi: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Yazıcılar"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Yazıcı ekleyin, yazıcı görevlerini görüntüleyin ve nasıl çıktı "
+#~ "alacağınıza karar verin"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Yazıcı;Kuyruk;Yazdur;Kâğıt;Mürekkep;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Tümünü Temizle"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Etkin Yazıcı Görevi Yok"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Yeni Yazıcı Ekle"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "Kimlik doğrul_ama"
+
+#~ msgid "No printers detected."
+#~ msgstr "Yazıcı algılanamadı."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Bir ağ adresi girin ya da yazıcı arayın"
+
+#~ msgid "Loading options…"
+#~ msgstr "Seçenekler yükleniyor..."
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Yazıcı Sürücüsü Seçin"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Sürücü veritabanı yükleniyor..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect Yazıcı"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD Yazıcı"
+
+#~ msgid "One Sided"
+#~ msgstr "Tek Taraflı"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Uzun Kenar (Standart)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Kısa Kenar (Çevrilmiş)"
+
+#~ msgid "Portrait"
+#~ msgstr "Dikey"
+
+#~ msgid "Landscape"
+#~ msgstr "Yatay"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Ters yatay"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Ters dikey"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Beklemede"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Duraklatıldı"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "İşleniyor"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Durduruldu"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "İptal edildi"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Hata nedeniyle iptal edildi"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Tamamlandı"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Etkin Görevler"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Seri Bağlantı Noktası"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Paralel Bağlantı Noktası"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Konum: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Adres: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Sunucu kimlik doğrulaması gerektiriyor"
+
+#~ msgid "Two Sided"
+#~ msgstr "Çift Taraflı"
+
+#~ msgid "Paper Type"
+#~ msgstr "Kağıt Türü"
+
+#~ msgid "Paper Source"
+#~ msgstr "Kağıt Kaynağı"
+
+#~ msgid "Output Tray"
+#~ msgstr "Çıkış Tepsisi"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript ön-süzgeçleme"
+
+#~ msgid "Pages per side"
+#~ msgstr "GhostScript ön-süzgeçleme"
+
+#~ msgid "Two-sided"
+#~ msgstr "Çift-taraflı"
+
+#~ msgid "Orientation"
+#~ msgstr "Yönelim"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Sayfa Ayarları"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Kurulabilir Seçenekler"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Görev"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Resim Kalitesi"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Tamamlama"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
+
+#~ msgid "Auto Select"
+#~ msgstr "Otomatik Seç"
+
+#~ msgid "Printer Default"
+#~ msgstr "Yazıcı Varsayılanı"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Sadece GhostScript yazıtiplerini göm"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "PS seviye 1'e dönüştür"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "PS seviye 2'ye dönüştür"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Ön-süzgeçleme yok"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Üretici"
+
+#~ msgid "Driver"
+#~ msgstr "Sürücü"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "%s üzerindeki mevcut yazıcıları görmek için kullanıcı adınızı ve "
+#~ "parolanızı girin."
+
+#~ msgid "Add Printer"
+#~ msgstr "Yazıcı Ekle"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Yazıcıyı Kaldır"
+
+#~ msgid "Supply"
+#~ msgstr "Malzeme"
+
+#~ msgid "Location"
+#~ msgstr "Konum"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Öntanımlı yazıcı"
+
+#~ msgid "Jobs"
+#~ msgstr "İşler"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "_İşleri Göster"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "label"
+#~ msgstr "etiket"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Yeni sürücü ayarlanıyor..."
+
+#~ msgid "page 3"
+#~ msgstr "page 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "_Sınama Sayfası Yazdır"
+
+#~ msgid "_Options"
+#~ msgstr "_Seçenekler"
+
+#~ msgid "No printers"
+#~ msgstr "Yazıcı yok"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Yazıcı Ekle"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Üzgünüm! Sistemin yazdırma hizmeti\n"
+#~ "kullanılamıyor."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Ekran Kilidi"
+
+#~ msgid "In use"
+#~ msgstr "Kullanımda"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgid "Location Services"
+#~ msgstr "Konum Hizmetleri"
+
+#~ msgid "Usage & History"
+#~ msgstr "Kullanım & Geçmiş"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Çöpteki tüm ögeler boşaltılsın mı?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Çöpteki tüm ögeler kalıcı olarak silinecek."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Çöpü _Boşalt"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Tüm geçici dosyalar silinsin mi?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Tüm geçici dosyalar kalıcı olarak silinecek."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "Geçici Dosyaları _Sil"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Çöpü ve geçici dosyaları temizle"
+
+#~ msgid "Software Usage"
+#~ msgstr "Yazılım Kullanımı"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Sorun Bildirimi"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Teknik sorunları bize bildirmeniz, %s'i geliştirmemize yardımcı "
+#~ "olmaktadır. Bu bildirimler, anonim olarak gönderilir ve kişisel "
+#~ "verilerden arındırılmıştır."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Gizlilik İlkesi"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Gizlilik"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Kişisel bilgilerinizi koruyun ve başkalarının ne görebileceğini denetleyin"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "ekran;kilit;tanılama;kırılma;özel;son;geçici;tmp;isim;ağ;kimlik;screen;"
+#~ "lock;diagnostics;crash;private;recent;temporary;tmp;index;name;network;"
+#~ "identity;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Ekran Kapanıyor"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 saniye"
+
+#~ msgid "1 day"
+#~ msgstr "1 gün"
+
+#~ msgid "2 days"
+#~ msgstr "2 gün"
+
+#~ msgid "3 days"
+#~ msgstr "3 gün"
+
+#~ msgid "4 days"
+#~ msgstr "4 gün"
+
+#~ msgid "5 days"
+#~ msgstr "5 gün"
+
+#~ msgid "6 days"
+#~ msgstr "6 gün"
+
+#~ msgid "7 days"
+#~ msgstr "7 gün"
+
+#~ msgid "14 days"
+#~ msgstr "14 gün"
+
+#~ msgid "30 days"
+#~ msgstr "30 gün"
+
+#~ msgid "Forever"
+#~ msgstr "Daima"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Unutmayın ki geçmişiniz tekrar arayacaklarınızı kolay bulmanızı sağlar. "
+#~ "Bu içerikler hiç bir zaman ağ üzerinde paylaşılmamaktadır."
+
+#~ msgid "_Recently Used"
+#~ msgstr "Son Kullanılanla_r"
+
+#~ msgid "Retain _History"
+#~ msgstr "_Geçmişi Tut"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "Son Kullanılanları T_emizle"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Ekran Kilidi, siz uzaktayken gizliliğinizi korur."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Otomatik Ekran Ki_lidi"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Şu süre geçince ekr_anı kilitle:"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "_Bildirimleri Göster"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Çöp ve geçici dosyaların otomatik temizlenmesi bilgisayarınızın gereksiz "
+#~ "hassas bilgilerden arınmasına yardımcı olur."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Çöpü otomatik _temizle"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Geçici _Dosyaları otomatik olarak temizle"
+
+#~ msgid "Purge _After"
+#~ msgstr "Sonr_a Temizle"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Hangi yazılımları kullandığınızla ilgili bilgileri bize göndermek, size "
+#~ "daha isabetli tavsiyelerde bulunmamızda bize yardımcı olur. Ayrıca "
+#~ "yazılımımızı geliştirmemize de yardım eder.\n"
+#~ "\n"
+#~ "Topladığımız tüm bilgiler anonim hale getirilmektedir ve verilerinizi "
+#~ "asla üçüncü kişilerle paylaşmayacağız."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Yazılım kullanım istatistiklerini _gönder"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Konum hizmetleri, uygulamaların konumunuzu bilmesine olanak tanır. Wi-Fi "
+#~ "ve mobil genişbant kullanmak hassasiyeti artırır."
+
+#~ msgid "_Location Services"
+#~ msgstr "_Konum Hizmetleri"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Otomatik Sorun Bildirimi"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "İngiliz standartları"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrik"
+
+#~ msgid "No regions found"
+#~ msgstr "Bölge bulunamadı"
+
+#~ msgid "No input sources found"
+#~ msgstr "Girdi kaynağı bulunamadı"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr ""
+#~ "Değişikliklerin etkin olması için oturumunuzu yeniden başlatmanız "
+#~ "gerekiyor"
+
+#~ msgid "Restart Now"
+#~ msgstr "Yeniden Başlat"
+
+#~ msgid "No input source selected"
+#~ msgstr "Girdi kaynağı seçilmedi"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Oturum A_çma Ekranı"
+
+#~ msgid "Formats"
+#~ msgstr "Biçimler"
+
+#~ msgid "Preview"
+#~ msgstr "Önizleme"
+
+#~ msgid "Dates"
+#~ msgstr "Tarihler"
+
+#~ msgid "Times"
+#~ msgstr "Defa"
+
+#~ msgid "Numbers"
+#~ msgstr "Sayılar"
+
+#~ msgid "Measurement"
+#~ msgstr "Ölçüm"
+
+#~ msgid "Paper"
+#~ msgstr "Kağıt"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Bölge ve Dil"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Görüntüleme dilinizi, biçimlerinizi, klavye düzenlerinizi ve girdi "
+#~ "kaynaklarınızı ayarlayın"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Dil;Yerleşim;Klavye;Giriş;Language;Layout;Keyboard;Input;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Girdi Kaynağı ekleyin"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Girdi yöntemleri giriş ekranında kullanılamaz"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Girdi Kaynağı Seçenekleri"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Tüm pencereler için _aynı kaynağı kullan"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Her pencere için _farklı kaynağa izin ver"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Klavye Kısayolları"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Önceki kaynağa geç"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Boşluk"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Sonraki kaynağa geç"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Boşluk"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Bu kısayolları klavye ayarlarından değiştirebilirsiniz"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Sonraki kaynağa geçiş alternatifi"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Sol+Sağ Alt"
+
+#~ msgid "_Language"
+#~ msgstr "Di_l"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "İngilizce (Birleşik Krallık)"
+
+#~ msgid "_Formats"
+#~ msgstr "Bi_çimler"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Birleşik Krallık"
+
+#~ msgid "Input Sources"
+#~ msgstr "Girdi Kaynakları"
+
+#~ msgid "Add input source"
+#~ msgstr "Giriş kaynağı ekle"
+
+#~ msgid "Remove input source"
+#~ msgstr "Giriş kaynağını kaldır"
+
+#~ msgid "Move input source up"
+#~ msgstr "Giriş kaynağını yukarı taşı"
+
+#~ msgid "Move input source down"
+#~ msgstr "Giriş kaynağını aşağı taşı"
+
+#~ msgid "Configure input source"
+#~ msgstr "Giriş kaynağını yapılandır"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Giriş kaynağı klavye düzenini göster"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Giriş ayarları sisteme giriş esnasında tüm kullanıcılar tarafından "
+#~ "kullanılır"
+
+#~ msgid "Select Location"
+#~ msgstr "Konum Seçin"
+
+#~ msgid "_OK"
+#~ msgstr "_Tamam"
+
+#~ msgid "No applications found"
+#~ msgstr "Uygulama bulunamadı"
+
+#~ msgid "Search"
+#~ msgstr "Arama"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Hangi uygulamaların arama sonuçlarını Etkinlikler Genel Görünümünde "
+#~ "göstereceğini belirleyin"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Ara;Bul;Endeks;Gizle;Gizlilik;Sonuçlar;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Arama Konumları"
+
+#~ msgid "Places"
+#~ msgstr "Yerler"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Yerimleri"
+
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "Move Up"
+#~ msgstr "Yukarı Taşı"
+
+#~ msgid "Move Down"
+#~ msgstr "Aşağı Taşı"
+
+#~ msgid "Preferences"
+#~ msgstr "Tercihler"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Paylaşımı için ağ seçilmedi"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Açık"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Kapalı"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Etkin"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktif"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Klasör Seç"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Kişisel Dosya Paylaşımı şuanki ağınızdaki diğer kişilerle Ortak "
+#~ "dizininizi <a href=\"dav://%s\">dav://%s</a> adresini kullanarak "
+#~ "paylaşmanızı sağlar."
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Uzaktan oturum açma etkinleştirildiğinde, uzak kullanıcılar Güvenli Kabuk "
+#~ "(Secure Shell) komutunu kullanarak bağlanabilirler:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Ekran paylaşımı, uzak kullanıcıların <a href=\"vnc://%s\">vnc://%s</a> "
+#~ "adresine bağlanarak ekranınızı izlemesine veya denetlemesine izin verir."
+
+#~ msgid "Copy"
+#~ msgstr "Kopyala"
+
+#~ msgid "Sharing"
+#~ msgstr "Paylaşım"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Paylaşım"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Diğerleri ile ne paylaşacağınızı denetleyin"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "paylaş;paylaşım;ssh;makine;host;isim;uzak;masaüstü;ortam;ses;video;"
+#~ "görüntü;resimler;fotoğraflar;filmler;sunucu;renderer;yorumlayıcı;"
+
+#~ msgid "Networks"
+#~ msgstr "Ağlar"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Uzaktan bağlanmayı aç"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Uzaktan bağlantıyı açmak veya kapamak için kimlik doğrulaması gerekiyor"
+
+#~ msgid "_Computer Name"
+#~ msgstr "_Bilgisayar Adı"
+
+#~ msgid "_File Sharing"
+#~ msgstr "Dosya _Paylaşımı"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Ekran Payla_şımı"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Orta_m Paylaşımı"
+
+#~ msgid "_Remote Login"
+#~ msgstr "Uzaktan Otu_rum Açma"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Ağ erişimi olmadığından bazı hizmetler devredışı bırakıldı."
+
+#~ msgid "File Sharing"
+#~ msgstr "Dosya Paylaşımı"
+
+#~ msgid "_Require Password"
+#~ msgstr "Parola Gerekti_r"
+
+#~ msgid "Remote Login"
+#~ msgstr "Uzaktan Bağlantı"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Ekran Paylaşımı"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "Ekranı kontrol etmek için bağlantıya _izin ver"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parola:"
+
+#~ msgid "_Show Password"
+#~ msgstr "Parolayı Gö_ster"
+
+#~ msgid "Access Options"
+#~ msgstr "Erişim Seçenekleri"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Ye_ni bağlantıların erişim için izin istemesi gerekir"
+
+#~ msgid "_Require a password"
+#~ msgstr "Pa_rola iste"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Ortam Paylaşımı"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Müzikleri, fotoğrafları ve videoları ağ üzerinde paylaşın."
+
+#~ msgid "Folders"
+#~ msgstr "Klasörler"
+
+#~ msgid "Sound"
+#~ msgstr "Ses"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Ses seviyelerini, girişleri, çıkışları ve uyarı seslerini değiştir"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Kart;Mikrofon;Ses;Kaybolma;Denge;Bluetooth;Kulaklık Seti;Card;Microphone;"
+#~ "Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+
+#~ msgid "Bark"
+#~ msgstr "Havlama"
+
+#~ msgid "Drip"
+#~ msgstr "Damlama"
+
+#~ msgid "Glass"
+#~ msgstr "Cam"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Sol"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Sağ"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Arka"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Ön"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "En Az"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "En Çok"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Denge:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Kaybolma:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Subwoofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "%100"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Yükseltilmemiş"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Çıkış"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Giriş"
+
+#~ msgid "System Sounds"
+#~ msgstr "Sistem Sesleri"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "Hoparlörleri _Sına"
+
+#~ msgid "Peak detect"
+#~ msgstr "Tepe algılama"
+
+#~ msgid "Device"
+#~ msgstr "Aygıt"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "%s için Hoparlör Sınaması"
+
+#~ msgid "_Output volume:"
+#~ msgstr "_Çıkış ses düzeyi:"
+
+#~ msgid "Output"
+#~ msgstr "Çıktı"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "Ses çıkışı için aygıt _seçin:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Seçili aygıt ayarları:"
+
+#~ msgid "Input"
+#~ msgstr "Giriş"
+
+#~ msgid "_Input volume:"
+#~ msgstr "G_iriş ses düzeyi:"
+
+#~ msgid "Input level:"
+#~ msgstr "Giriş seviyesi:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "Ses girişi için aygıt se_çin:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Ses Efektleri"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Uy_arı ses düzeyi: "
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Herhangi bir uygulama ses kaydı ya da yürütmesi yapmıyor."
+
+#~ msgid "Built-in"
+#~ msgstr "Dahili"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Ses Tercihleri"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Olay sesi deneniyor"
+
+#~ msgid "Default"
+#~ msgstr "Öntanımlı"
+
+#~ msgid "From theme"
+#~ msgstr "Temadan"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "Uyarı sesi se_çin:"
+
+#~ msgid "Stop"
+#~ msgstr "Dur"
+
+#~ msgid "Test"
+#~ msgstr "Dene"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Özel"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Evrensel Erişim"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Görme, duyma, yazma, işaretleme ve tıklamayı kolaylaştır."
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Klavye;Fare;a11y;e13k;Erişilebilirlik;Karşıtlık;Yakınlaştırma;Ekran;"
+#~ "Okuyucusu;metin;yazı tipi;boyut;AccessX;Yapışkan;Tuşlar;Yavaş;Seken;Fare;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Her Zaman Evrensel Erişim Menüsünü Göster"
+
+#~ msgid "Seeing"
+#~ msgstr "Görme"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Yüksek Karşıtlık"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Büyük Metin"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Yaklaştır"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "Ekran _Okuyucu"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Ses Tuşları"
+
+#~ msgid "Hearing"
+#~ msgstr "İşitme"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Görsel Uyarılar"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Ekran _Klavyesi"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Tuşları Tek_rarla"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_İmleç Yanıp Sönmesi"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Yazım Yardımı (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "İşaretleme ve Tıklama"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Fare Tuşları"
+
+#~ msgid "_Click Assist"
+#~ msgstr "_Tıklama Yardımı"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "_Çift Tıklama Gecikmesi"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Çift Tıklama Gecikmesi"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Ekran Okuyucu"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Ekran okuyucu, siz odağı hareket ettirdikçe görüntülenen metni okur."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Ekran Okuyucu"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Ses Tuşları"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr ""
+#~ "Num Lock ya da Caps Lock açıldığında ya da kapandığında sesli uyarı ver."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Görsel Uyarılar"
+
+#~ msgid "_Test flash"
+#~ msgstr "Flaşı _sına"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Uyarı sesi çalındığında görsel uyarı kullan."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "_Pencere başlığı yanıp sönsün"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Tüm _ekran yanıp sönsün"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Tekrarlama Tuşları"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Tuş basılı tutulduğunda tuş basımları tekrarlanır."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Tuşları tekrarlama gecikmesi"
+
+#~ msgid "Speed"
+#~ msgstr "Hız"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Terkrar tuş hızı"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "İmleç Yanıp Sönmesi"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Metin alanlarında imleç yanıp söner."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "İmleç yanıp sönme hızı"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Yazım Yardımı"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Yapışkan Tuşlar"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Bir dizi değiştirici tuşu kombinasyon olarak kabul eder"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "İki tuşa birden basıldığında _devre dışı bırak"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "_Değiştirici tuşa basıldığında biple"
+
+#~ msgid "S_low Keys"
+#~ msgstr "Yavaş Tuş_lar"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Bir tuşa basılmasıyla kabulü arasına gecikme koyar"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Kabul ge_cikmesi:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Yavaş tuşlar yazım gecikmesi"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Bir _tuşa basıldığında uyar"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Bir tuş k_abul edildiğinde uyar"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Bir tuş _reddedildiğinde biple"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Zıplayan Tuşlar"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Kısa aralıklı tuş tekrarlarını yok sayar"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Seken tuşlar yazma gecikmesi"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Klavyeden _etkinleştir"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Erişilebilirlik özelliklerini klavyeden aç/kapa"
+
+#~ msgid "Click Assist"
+#~ msgstr "Tıklama Yardımı"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Sahte İkincil Tıklama"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "İlk düğme basılı tutulduğunda ikincil tıklama tetikle"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "İkinci tıklama gecikmesi"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "_Hover Click"
+#~ msgstr "_Üzerindeyken Tıklama"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Belirteç nesne üstüne geldiğinde tıklama yap"
+
+#~ msgid "D_elay:"
+#~ msgstr "G_ecikme:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Hareke_t eşiği:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Küçük"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Büyük"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ Ekran"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ Ekran"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ Ekran"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgid "Full Screen"
+#~ msgstr "Tam Ekran"
+
+#~ msgid "Top Half"
+#~ msgstr "Üst Yarı"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Alt Yarı"
+
+#~ msgid "Left Half"
+#~ msgstr "Sol Yarı"
+
+#~ msgid "Right Half"
+#~ msgstr "Sağ Yarı"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Yakınlaştırma Seçenekleri"
+
+#~ msgid "_Magnification:"
+#~ msgstr "Büyüt_me:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Fare imlecini takip et"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Ekrandan bölüm:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "Büyüt_eç ekranın dışına taşar"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "B_üyüteç imlecini ortalı tut"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Büyüteç imleci çevresindeki içeriği _iter"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Büyüteç imleci i_çerik ile birlikte hareket eder"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Büyüteç Konumu:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Büyüteç"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Kalınlık:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "İnce"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Kalın"
+
+#~ msgid "_Length:"
+#~ msgstr "Uzun_luk:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "Re_nk:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "_Referans Noktaları:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "Fare imleci ile _örtüşür"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Çarpılar"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Siyah üzerine beyaz:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Parlaklık:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Karşıtlık:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "R_enk"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Tam"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Düşük"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Yüksek"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Düşük"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Yüksek"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Renk Efektleri:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Renk Efektleri"
+
+#~ msgid "You are Offline"
+#~ msgstr "Çevrimdışısınız"
+
+#~ msgid "_Enroll"
+#~ msgstr "Kayd_et"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Kullanıcı hesaplarını yönet"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Kullanıcı verisini değiştirmek için kimlik doğrulama gerekiyor"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Düğmeleri Eşleştir"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Düğmeleri işlevlerle eşleştir"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Bir kısayolu düzenlemek için, \"Tuş Vuruşu Gönder\" eylemini seçin, "
+#~ "klavye kısayol tuşuna ve yeni tuşlara basılı tutun ya da temizlemek için "
+#~ "Silme tuşuna basın."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Tabletinizi kalibre etmek için lütfen hedef işaretçilerine ekranda "
+#~ "göründükçe dokunun."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Yanlış tıklama tespit edildi, yeniden başlatılıyor..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Yukarı"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Aşağı"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Tuş Vuruşu Gönder"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Monitörü Değiştir"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Ekran Yardımını Görüntüle"
+
+#~ msgid "Output:"
+#~ msgstr "Çıktı:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "En boy oranını koru (sinemaskop):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Tek monitörle eşle"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d / %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Eşlemeyi Göster"
+
+#~ msgid "Button"
+#~ msgstr "Düğme"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wacom Tablet"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Düğme eşlemelerini ve grafik tabletler için kalem hassasiyetini ayarlayın"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Wacom;Kalem;Silgi;Fare;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tablet (mutlak)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Dokunmatik Yüzey (Touchpad) (göreceli)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Tablet Tercihleri"
+
+#~ msgid "_Help"
+#~ msgstr "_Yardım"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Tablet bulunamadı"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Lütfen Wacom tabletinizi açın veya bağlayın"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth Ayarları"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom Tablet"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Monitörle Eşle..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Düğmeleri Eşle..."
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibrasyon..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Görüntü çözünürlüğünü ayarla"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Fare ayarları"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "İzleme Kipi"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Sol Elle Kullanım Yerleşimi"
+
+#~ msgid "Left Ring"
+#~ msgstr "Sol Yüzük Parmağı"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Sol Yüzük Parmağı Kipi #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Sağ Yüzük Parmağı"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Sağ Yüzük Parmağı Kipi #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Sol Birleştirme"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Sol Birleştirme Kipi #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Sağ Birleştirme"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Sağ Birleştirme Kipi #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Sol Dokunmatik Halka Kipi Anahtarı"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Sağ Dokunmatik Halka Kipi Anahtarı"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Sol Birleştirme Kipi Anahtarı"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Sağ Birleştirme Kipi Anahtarı"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Kip Anahtarı #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Sol Düğme #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Sağ Düğme #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Üst Düğme #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Alt Düğme #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Yeni kısayol…"
+
+#~ msgid "No Action"
+#~ msgstr "Eylem Yok"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Sol Fare Düğmesi Tıklaması"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Orta Fare Düğmesi Tıklaması"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Sağ Fare Düğmesi Tıklaması"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Yukarı Kaydır"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Aşağı Kaydır"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Sola Kaydır"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Sağa Kaydır"
+
+#~ msgid "Back"
+#~ msgstr "Geri"
+
+#~ msgid "Forward"
+#~ msgstr "İleri"
+
+#~ msgid "Stylus"
+#~ msgstr "Tablet Kalemi (Stylus)"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Silgi Basınç Hissi"
+
+#~ msgid "Soft"
+#~ msgstr "Yumuşak"
+
+#~ msgid "Firm"
+#~ msgstr "Sıkı"
+
+#~ msgid "Top Button"
+#~ msgstr "Üst Düğme"
+
+#~ msgid "Lower Button"
+#~ msgstr "Aşağı Tuşu"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Parmak Ucu Basınç Hissi"
+
+#~ msgid "All Settings"
+#~ msgstr "Tüm Ayarlar"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "GNOME Denetim Merkezi"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "GNOME masaüstünü yapılandırma araçları"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Denetim merkezi, masaüstünüzün çeşitli yönlerini yapılandırmak için "
+#~ "GNOME'un temel arabirimidir."
+
+#~ msgid "Display version number"
+#~ msgstr "Sürüm numarasını göster"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Detay kipini etkinleştir"
+
+#~ msgid "Show the overview"
+#~ msgstr "Genel görünümü göster"
+
+#~ msgid "Search for the string"
+#~ msgstr "Dizgeyi ara"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Olası panel adlarını listele ve çık"
+
+#~ msgid "Panel to display"
+#~ msgstr "Gösterilecek panel"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [BAĞIMSIZ DEĞİŞKEN...]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Kullanılabilir Paneller:"
+
+#~ msgid "Help"
+#~ msgstr "Yardım"
+
+#~ msgid "Quit"
+#~ msgstr "Çıkış"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Kişisel"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Donanım"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Tercihler;Ayarlar;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Çıkış"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Ara"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Paneller"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Genel görünüme geri dön"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Aramayı iptal et"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Etkin Nokta"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Keyboard shortcut for <b>%s</b>. Enter new shortcut to change."
+#~ msgstr ""
+#~ "<b>%s</b> için klavye kısayolu. Değiştirmek için yeni kısayol girin."
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Bir kısayolu düzenlemek için, ilgili satıra tıklayın ve tuşlara ya da "
+#~ "temizlemek için Backspace tuşuna basın."
+
+#~ msgid "_Name:"
+#~ msgstr "_İsim:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Kısayol Ekle"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Kısayolu Kaldır"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Bilinmeyen Eylem>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Kısayol tuşu \"%s\" kullanılamıyor çünkü kullanımı halinde bu tuş "
+#~ "kullanılarak yazmak mümkün olmayacak.\n"
+#~ "Lütfen Control, Alt ya da Shift gibi tuşlar ile aynı anda deneyin."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" kısayolu zaten kullanılıyor:\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Eğer kısayolu \"%s\" olarak tekrar atarsanız, \"%s\" kısayolu "
+#~ "etkinsizleştirilecek."
+
+#~ msgid "_Reassign"
+#~ msgstr "Tek_rar ata"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "\"%s\" kısayoluyla ilişkili bir \"%s\" kısayolu var. Otomatik olarak \"%s"
+#~ "\"e ayarlamak ister misiniz?"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" şu anda \"%s\" ile ilişkilendirilmiş; eğer devam ederseniz, bu "
+#~ "kısayol devre dışı bırakılacak."
+
+#~ msgid "_Assign"
+#~ msgstr "_Ata"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Hesaba giriş yapılırken hata oluştu"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Kimlik bilgilerinin süresi dolmuş."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Bu hesabı etkinleştirmek için giriş yap."
+
+#~ msgid "_Sign In"
+#~ msgstr "Giri_ş Yap"
+
+#~ msgid "Login History"
+#~ msgstr "Giriş Geçmişi"
+
+#~ msgid "Add User Account"
+#~ msgstr "Kullanıcı Hesabı Ekle"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Kullanıcı Hesabını Kaldır"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Ağ Bağlantısı Ekle"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Kişisel Dosya Paylaşımı"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "Uz_aktan Denetime İzin Ver"
+
+#~| msgid "GNOME Control Center"
+#~ msgid "Welcome to the Control Center"
+#~ msgstr "Denetim Merkezine Hoş Geldiniz"
+
+#~ msgid "Select a panel in the sidelist to see the available options"
+#~ msgstr ""
+#~ "Kullanılabilir seçenekleri görmek için yandaki listeden bir panel seçin"
+
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgid "Bond"
+#~ msgstr "Bağla"
+
+#~ msgid "Team"
+#~ msgstr "Takım"
+
+#~ msgid "Bridge"
+#~ msgstr "Köprü"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "VPN eklentileri yüklenemedi"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Yamakları bağla"
+
+#~ msgid "(none)"
+#~ msgstr "(yok)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Yamakları köprüle"
+
+#~ msgid "Team slaves"
+#~ msgstr "Yamaklardan takım oluştur"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "InfiniBand aygıtı bağlantılı kipi desteklemiyor"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Sertifika Yetkilisi (CA) sertifikası seçilmedi"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Sertifika Yetkilisi (CA) tarafından onaylanmış bir sertifika kullanmamak; "
+#~ "güvensiz, kötü niyetli Wi-Fi ağlarına bağlanmanıza neden olabilir. "
+#~ "Sertfika Yetkilisi tarafından onaylanmış bir sertifika seçmek ister "
+#~ "misiniz?"
+
+#~ msgid "Ignore"
+#~ msgstr "Yoksay"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "CA Sertifikası seçin"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "Parolayı her seferinde so_r"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "Beni tekrar _uyarma"
+
+#~ msgid "No"
+#~ msgstr "Hayır"
+
+#~ msgid "Yes"
+#~ msgstr "Evet"
+
+#~ msgid "Power"
+#~ msgstr "Güç"
+
+#~ msgid "Privacy"
+#~ msgstr "Gizlilik"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "_Verify"
+#~ msgstr "_Doğrula"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "'%s' adlı bir kullanıcı zaten var."
+
+#~ msgid "Done"
+#~ msgstr "Tamamlandı!"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Saat _Dilimi"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Etkin Görevler"
+
+#~ msgid "Close"
+#~ msgstr "Kapat"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Yazdırmayı Devam Ettir"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Yazdırmayı Duraklat"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Yazdırma İşini İptal Et"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Bekliyor"
+
+#~ msgid "Job Title"
+#~ msgstr "İş Adı"
+
+#~ msgid "Job State"
+#~ msgstr "İş Durumu"
+
+#~ msgid "Time"
+#~ msgstr "Zaman"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Coğrafi konumunuzu belirlemek için kullanılır"
+
+#~ msgid "Options"
+#~ msgstr "Seçenekler"
+
+#~ msgid "Password:"
+#~ msgstr "Parola:"
+
+#~| msgid "Repeat Keys"
+#~ msgid "_Repeat Keys"
+#~ msgstr "Tuşları Tek_rarla"
+
+#~| msgid "Cursor Blinking"
+#~ msgid "_Cursor Blinking"
+#~ msgstr "_İmleç Yanıp Sönmesi"
+
+#~ msgid "Zoom"
+#~ msgstr "Yakınlaş"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Renk"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Gecikme:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Kısa"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Uzun"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Hız:"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Ayarlarınızı Sınayın"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "So_l"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Sağ"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "_İmleç hızı"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Yavaş"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Hızlı"
+
+#~ msgid "No printers available"
+#~ msgstr "Mevcut yazıcı bulunmuyor"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Yeni Yazıcı Ekle"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth devre dışı"
+
+#~ msgid "Security key"
+#~ msgstr "Güvenlik anahtarı"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "Kablosuz aygıtlar ek güç gerektirir"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "Bluetooth Paylaşımı diğer Bluetooth aygıtları ile dosya paylaşmanızı "
+#~ "sağlar"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Sadece Güvenilen Aygıtlardan Dosya Al"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Alınan Dosyaları İndirilenler Klasörüne Kaydet"
+
+#~ msgid "Show help options"
+#~ msgstr "Yardım seçeneklerini göster"
+
+#~ msgid "- Settings"
+#~ msgstr "- Ayarlar"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Kullanılabilir komut satırı seçeneklerini görmek için '%s --help' "
+#~ "komutunu çalıştırın.\n"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "Pil gücü _kritik olduğunda"
+
+#~ msgid "Power Off"
+#~ msgstr "Kapat"
+
+#~ msgid "Power off"
+#~ msgstr "Kapat"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "_Yazarken devre dışı bırak"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "Sistem ağ hizmetleri bu sürümle uyumlu değil."
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Açılır Bildirimleri Göster"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Kilit Ekranında göster"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "Açılır Bildirimleri Göster"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Kilit Ekranında göster"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "Kablosuz aygıtları kapatır"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "Sonuçları süzmek için yazıcı adresi ya da metin girin"
+
+#~ msgid "Sorry"
+#~ msgstr "Üzgünüm"

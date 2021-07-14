@@ -1,0 +1,2069 @@
+# Traduction into the walloon language.
+#
+# Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
+# ôtes libes programes) sicrijhoz mu a l' adresse emile
+# <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
+#
+# Copyright (C) 1999 Free Software Foundation, Inc.
+# Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002
+# Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000
+# Lucyin Mahin <lucyin@walon.org>, 2000
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center 1.5.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2003-01-02 12:26+0100\n"
+"Last-Translator: Pablo Saratxaga <pablo@mandrakesoft.com>\n"
+"Language-Team: Walon <linux-wa@chanae.alphanet.ch>\n"
+"Language: wa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "No d' _uzeu:"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "_No:"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Enonder dins on t_erminå"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Radjouter sôre di fitchî"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Sicrete:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_Sicrete:"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Sicrete:"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "_Sicrete:"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Sicrete:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Sicrete:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "_Sicrete:"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_Sicrete:"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Tchuzes po les imådjes:"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "No d' _uzeu:"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+#, fuzzy
+msgid "Other Accounts"
+msgstr "Passetes"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "Disfacer"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "Novea fitchî"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Disfacer"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "_Nouk"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr ""
+"<b>Cursoe nén cnoxhou</b>\n"
+"%s"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "Radjouter..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Enonder dins on t_erminå"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Dismetou"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Dismetou"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "Disfacer"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+#, fuzzy
+msgid "Please choose another password."
+msgstr "_Sicrete:"
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "_Sicrete:"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "Disfacer"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Drovi"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Dismetou"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr "Botons"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr "_Detays"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr "Å _dfait"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr "Imådjes"
+
+#, fuzzy, c-format
+#~ msgid "About %s"
+#~ msgstr "Å _dfait"
+
+#, fuzzy
+#~ msgid "    "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "A_ddress:"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "C_ity:"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "C_ompany:"
+#~ msgstr "Co_mande:"
+
+#, fuzzy
+#~ msgid "Cale_ndar:"
+#~ msgstr "Cate_goreye:"
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Ci_ty:"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "Co_untry:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "Å d_vins"
+
+#, fuzzy
+#~ msgid "Cou_ntry:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Hom_e:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "Personal Info"
+#~ msgstr "Fonte po les _terminås:"
+
+#, fuzzy
+#~ msgid "Wor_k:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "Work _fax:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "_Address:"
+#~ msgstr "_Radjouter:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr "No d' _uzeu:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr "Manaedjeu di purneas"
+
+#, fuzzy
+#~ msgid "_Mobile:"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "_Profession:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr "_Sicrete:"
+
+#, fuzzy
+#~ msgid "_Title:"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "_Work:"
+#~ msgstr "C_oleur:"
+
+#, fuzzy
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Support</b>"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Preferinces pol purnea"
+
+#, fuzzy
+#~ msgid "_Screenreader"
+#~ msgstr "Waitroûle"
+
+#~ msgid "Keyboard"
+#~ msgstr "Taprece"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#, fuzzy
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#, fuzzy
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "Mete en alaedje les _londjinnès tapes"
+
+#, fuzzy
+#~ msgid "<b>Features</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "Basic"
+#~ msgstr "Di båze"
+
+#~ msgid "Del_ay:"
+#~ msgstr "_Tårdjaedje:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Tårdjaedje inte les tapes eyet pol mo_vmint do cursoe:"
+
+#~ msgid "Filters"
+#~ msgstr "Passetes"
+
+#, fuzzy
+#~ msgid "Mouse Keys"
+#~ msgstr "Sori"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Preferinces pol sori..."
+
+#~ msgid "S_peed:"
+#~ msgstr "_Roedeu:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Tapez po sayî l' apontiaedje:"
+
+#~ msgid "characters/second"
+#~ msgstr "caracteres/segonde"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisegondes"
+
+#~ msgid "pixels/second"
+#~ msgstr "picsels/segonde"
+
+#~ msgid "seconds"
+#~ msgstr "segondes"
+
+#, fuzzy
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "Desktop Background"
+#~ msgstr "Fond"
+
+#, fuzzy
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Preferinces pol fond"
+
+#, fuzzy
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "Centered"
+#~ msgstr "Å _mitan"
+
+#, fuzzy
+#~ msgid "Fill Screen"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Scaled"
+#~ msgstr "Al _schåle"
+
+#, fuzzy
+#~ msgid "Tiled"
+#~ msgstr "_Fitchî"
+
+#, fuzzy
+#~ msgid "Solid Color"
+#~ msgstr "Coleur solide"
+
+#, fuzzy
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Degradé di coûtchî"
+
+#, fuzzy
+#~ msgid "Vertical Gradient"
+#~ msgstr "Degradé d' astampé"
+
+#, fuzzy
+#~ msgid "Add Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "No Wallpaper"
+#~ msgstr "_Tapisreye"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Deus"
+
+#~ msgid "Key"
+#~ msgstr "Clé"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Dji n' a savou trover l' fitchî «%s».\n"
+#~ "\n"
+#~ "Acertinez vs s' i vs plait k' il egzistêye bén, eyet rssayîz oudonbén "
+#~ "tchoezixhoz ene imådje di fond diferinne."
+
+#~ msgid "Please select an image."
+#~ msgstr "Tchoezixhoz ene imådje s' i vs plait."
+
+#~ msgid "Select your default applications"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "W3M Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Links Text Browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Foyteuse di l' aidance da _vosse"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Prémetou terminå"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminå"
+
+#, fuzzy
+#~ msgid "aterm"
+#~ msgstr "Categoreye"
+
+#, fuzzy
+#~ msgid "ETerm"
+#~ msgstr "Terminå"
+
+#~ msgid "Add..."
+#~ msgstr "Radjouter..."
+
+#, fuzzy
+#~ msgid "C_ustom"
+#~ msgstr "A _vosse môde:"
+
+#~ msgid "C_ustom:"
+#~ msgstr "A _vosse môde:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Co_mande:"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Prôpietés di l' aspougneu di tecse da vosse"
+
+#, fuzzy
+#~ msgid "Default Mail Reader"
+#~ msgstr "Prémetou manaedjeu di purneas"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Prémetou terminå"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Prémetou aspougneu di tecse"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Prémetou betchteu waibe"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "Prémetou manaedjeu di purneas"
+
+#~ msgid "Edit..."
+#~ msgstr "Candjî..."
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "Enonder dins on _terminå"
+
+#, fuzzy
+#~ msgid "Run in a t_erminal"
+#~ msgstr "Enonder dins on _terminå"
+
+#~ msgid "Terminal"
+#~ msgstr "Terminå"
+
+#~ msgid "Text Editor"
+#~ msgstr "Aspougneu di tecse"
+
+#~ msgid "Web Browser"
+#~ msgstr "Betchteu waibe"
+
+#~ msgid "Window Manager"
+#~ msgstr "Manaedjeu di purneas"
+
+#, fuzzy
+#~ msgid "_Command:"
+#~ msgstr "Co_mande:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Prôpietés..."
+
+#, fuzzy
+#~ msgid "_Select:"
+#~ msgstr "Disfacer"
+
+#, fuzzy
+#~ msgid "_Resolution:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Default Settings"
+#~ msgstr "Prémetou terminå"
+
+#, fuzzy, c-format
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#, fuzzy
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Preferinces pol son"
+
+#, fuzzy
+#~ msgid "Options"
+#~ msgstr "Accions"
+
+#, fuzzy
+#~ msgid "Keep Resolution"
+#~ msgstr "_Discrijhaedje:"
+
+#~ msgid "Font"
+#~ msgstr "Fonte"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Tchoezi les fontes pol sicribanne"
+
+#, fuzzy
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "Rindou del fonte"
+
+#, fuzzy
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<i>Roed</i>"
+
+#, fuzzy
+#~ msgid "D_etails..."
+#~ msgstr "De_tays..."
+
+#~ msgid "Font Preferences"
+#~ msgstr "Preferinces pol fonte"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Detays do rindou del fonte"
+
+#, fuzzy
+#~ msgid "Go _to font folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "Gra_yscale"
+#~ msgstr "Schåle di _gris"
+
+#~ msgid "N_one"
+#~ msgstr "N_ole"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr "_Discrijhaedje:"
+
+#~ msgid "_Application font:"
+#~ msgstr "Fonte po les _programes:"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "Fonte pol _sicribanne:"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "Fonte po les _terminås:"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Fonte pol tite des _purneas:"
+
+#, fuzzy
+#~ msgid "dots per inch"
+#~ msgstr "Finté (_ponts par pôce):"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Accion nén cnoxhowe>"
+
+#~ msgid "Desktop"
+#~ msgstr "Sicribanne"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Window Management"
+#~ msgstr "Manaedjmint des purneas"
+
+#~ msgid "Action"
+#~ msgstr "Accion"
+
+#~ msgid "Shortcut"
+#~ msgstr "Rascourti"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "Unknown"
+#~ msgstr ""
+#~ "<b>Cursoe nén cnoxhou</b>\n"
+#~ "%s"
+
+#~ msgid "Layout"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "Models"
+#~ msgstr "Modele"
+
+#, fuzzy
+#~ msgid "..."
+#~ msgstr "Radjouter..."
+
+#, fuzzy
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Roed</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Long</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Court</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Londjin</i></small>"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "Xhuflet del taprece"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Preferinces del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard _model:"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Layouts"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "Vey divant"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Tårdjaedje:"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr "Modele"
+
+#, fuzzy
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Tchoezi on aspougneu di tecse:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Roedeu:"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Defini vos preferinces pol taprece"
+
+#, fuzzy
+#~ msgid "Default Cursor"
+#~ msgstr "Prémetou betchteu waibe"
+
+#, fuzzy
+#~ msgid "The default cursor that ships with X"
+#~ msgstr ""
+#~ "<b>Prémetou cursoe</b>\n"
+#~ "Li prémetou cursoe ki vént avou X11"
+
+#, fuzzy
+#~ msgid "White Cursor"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "The default cursor inverted"
+#~ msgstr ""
+#~ "<b>Blanc cursoe</b>\n"
+#~ "Li prémetou cursoe, avou les coleurs å rvier"
+
+#, fuzzy
+#~ msgid "Large Cursor"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "Large version of normal cursor"
+#~ msgstr ""
+#~ "<b>Lådje cursoe</b>\n"
+#~ "Modêye lådje do cursoe normå"
+
+#, fuzzy
+#~ msgid "Large White Cursor - Current"
+#~ msgstr ""
+#~ "<b>Lådje blanc cursoe - cursoe do moumint</b>\n"
+#~ "Modêye lådje do blanc cursoe"
+
+#, fuzzy
+#~ msgid "Large version of white cursor"
+#~ msgstr ""
+#~ "<b>Lådje blanc cursoe</b>\n"
+#~ "Modêye lådje do blanc cursoe"
+
+#, fuzzy
+#~ msgid "Cursor Theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Hôt</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Lådje</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Bas</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Londjin</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Pitit</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Botons"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "Cursoes"
+
+#~ msgid "Cursors"
+#~ msgstr "Cursoes"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "Pådjes di manuel"
+
+#~ msgid "Motion"
+#~ msgstr "Movmint"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Preferinces pol sori"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "Al _schåle"
+
+#~ msgid "Mouse"
+#~ msgstr "Sori"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Defini vos preferinces pol sori"
+
+#, fuzzy
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy pol rantoele"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Preferinces pol proxy del rantoele"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>D_irect internet connection</b>"
+#~ msgstr "<b>Raloyaedje _direk al daegntoele</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Apontiaedje _otomatike do proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Apontiaedje al _mwin do proxy</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "_Hårdêye po l' apontiaedje otomatike:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Detays do proxy HTTP"
+
+#, fuzzy
+#~ msgid "H_TTP proxy:"
+#~ msgstr "Proxy _HTTP:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Preferinces pol proxy del rantoele"
+
+#~ msgid "Port:"
+#~ msgstr "Pôrt:"
+
+#, fuzzy
+#~ msgid "Proxy Configuration"
+#~ msgstr "Apontiaedje do proxy pol rantoele"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Lodjoe S_OCKS:"
+
+#~ msgid "_Details"
+#~ msgstr "_Detays"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "Proxy _FTP:"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Mete en alaedje les sons eyet ls assocyî avou des evenmints"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferinces pol son"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "Mete en _ouve li sierveu di sons a l' enondaedje"
+
+#~ msgid "General"
+#~ msgstr "Djenerå"
+
+#~ msgid "Sound Events"
+#~ msgstr "Sons po ls evenmints"
+
+#~ msgid "_Sounds for events"
+#~ msgstr "_Sons po ls evenmints"
+
+#, fuzzy
+#~ msgid "Custom theme"
+#~ msgstr "Tinme do cursoe"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Tchoezi les tinmes po sacwantès pårteyes do scribanne"
+
+#~ msgid "Theme"
+#~ msgstr "Tinme"
+
+#, fuzzy
+#~ msgid "_Location:"
+#~ msgstr "Accion"
+
+#, fuzzy
+#~ msgid "Apply _Background"
+#~ msgstr "Fond"
+
+#~ msgid "Icons"
+#~ msgstr "Imådjetes"
+
+#, fuzzy
+#~ msgid "Save Theme"
+#~ msgstr "_Schaper tinme"
+
+#, fuzzy
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Tchoezi les fontes pol sicribanne"
+
+#, fuzzy
+#~ msgid "Short _description:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Theme Details"
+#~ msgstr "_Detays"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "Preferinces pol tinme"
+
+#, fuzzy
+#~ msgid "Theme _Details"
+#~ msgstr "_Detays"
+
+#, fuzzy
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#, fuzzy
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Apontiaedje da vosse do fond do scribanne"
+
+#~ msgid "Window Border"
+#~ msgstr "Boird do purnea"
+
+#, fuzzy
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "_Install Theme..."
+#~ msgstr "_Astaler novea tinme..."
+
+#, fuzzy
+#~ msgid "_Revert"
+#~ msgstr "_Bodjî"
+
+#, fuzzy
+#~ msgid "_Save Theme..."
+#~ msgstr "_Schaper tinme"
+
+#, fuzzy
+#~ msgid "_Theme name:"
+#~ msgstr "No d' _uzeu:"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Menus & Bårs ås usteyes"
+
+#, fuzzy
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<i>Roed</i>"
+
+#~ msgid "C_ut"
+#~ msgstr "Cô_per"
+
+#, fuzzy
+#~ msgid "Icons only"
+#~ msgstr "Rén k' les imådjetes"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Preferinces pol menu eyet l' bår ås usteyes"
+
+#~ msgid "Open File"
+#~ msgstr "Drovi on fitchî"
+
+#~ msgid "Save File"
+#~ msgstr "Schaper fitchî"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Håyner les _imådjetes dins les menus"
+
+#, fuzzy
+#~ msgid "Text below icons"
+#~ msgstr "Tecse pa dzo les imådjetes"
+
+#, fuzzy
+#~ msgid "Text beside icons"
+#~ msgstr "Tecse a costé des imådjetes"
+
+#, fuzzy
+#~ msgid "Text only"
+#~ msgstr "Rén kel tecse"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Etiketes des _botons:"
+
+#~ msgid "_Copy"
+#~ msgstr "_Copyî"
+
+#~ msgid "_Edit"
+#~ msgstr "_Candjî"
+
+#~ msgid "_File"
+#~ msgstr "_Fitchî"
+
+#~ msgid "_New"
+#~ msgstr "_Novea"
+
+#~ msgid "_Paste"
+#~ msgstr "C_laper"
+
+#~ msgid "_Print"
+#~ msgstr "_Eprimî"
+
+#~ msgid "_Quit"
+#~ msgstr "Moussî _foû"
+
+#~ msgid "_Save"
+#~ msgstr "_Schaper"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#, fuzzy
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "_Ripeter les tapes:"
+
+#, fuzzy
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>_Eployî l' otintifiaedje</b>"
+
+#, fuzzy
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "Rindou del fonte"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Preferinces pol purnea"
+
+#, fuzzy
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dobe-clitchî sol tite des purneas po:"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Tchoezi les purneas cwand l' sori passe å dzeur"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "Propietés pol purnea"
+
+#~ msgid "Windows"
+#~ msgstr "Purneas"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "Preferinces del taprece"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Cinte di Contrôle di GNOME"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "L' usteye d' apontiaedje di GNOME"
+
+#, fuzzy
+#~ msgid "Volume"
+#~ msgstr "_Volume:"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Dji n' a savou inicyî Bonobo"
+
+#, c-format
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Dji n' a savou ahiver l' ridant «%s».\n"
+#~ "I gn a mezåjhe del fé po permete li candjmint des cursoes."
+
+#, fuzzy
+#~ msgid "Use X settings"
+#~ msgstr "Sipepieus apontiaedjes"
+
+#, fuzzy
+#~ msgid "A_vailable files:"
+#~ msgstr "Tchuzes po les imådjes:"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "Modele"
+
+#~ msgid "Type"
+#~ msgstr "Sôre"
+
+#~ msgid "Screen"
+#~ msgstr "Waitroûle"
+
+#~ msgid "Event"
+#~ msgstr "Evenmint"
+
+#, fuzzy
+#~ msgid "Sound File"
+#~ msgstr "Son"
+
+#, fuzzy
+#~ msgid "_Sounds:"
+#~ msgstr "_Sons"
+
+#, fuzzy
+#~ msgid "Sound _file:"
+#~ msgstr "Tchoezi on fitchî di son"
+
+#, fuzzy
+#~ msgid "Select Sound File"
+#~ msgstr "Tchoezi on fitchî di son"
+
+#~ msgid "_Play"
+#~ msgstr "_Djower"
+
+#~ msgid "_Remove"
+#~ msgstr "_Bodjî"
+
+#, c-format
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Li manaedjeu di purneas «%s» n' a nén redjistré ene usteye "
+#~ "d' apontiaedje\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Å pus grand"
+
+#~ msgid "Roll up"
+#~ msgstr "Erôler"
+
+#, fuzzy
+#~ msgid "Eject"
+#~ msgstr "Evenmint"
+
+#, fuzzy
+#~ msgid "Eject's shortcut."
+#~ msgstr "Rascourtis do _scribanne:"
+
+#, fuzzy
+#~ msgid "Home folder"
+#~ msgstr "_Potchî å ridant des tinmes"
+
+#, fuzzy
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr "Foyteuse di l' aidance"
+
+#, fuzzy
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Foyteuse di l' aidance"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Betchteu waibe"
+
+#, fuzzy
+#~ msgid "Lock screen"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr "Adjinçmint"
+
+#, fuzzy
+#~ msgid "Log out's shortcut."
+#~ msgstr "Rascourtis do _scribanne:"
+
+#, fuzzy
+#~ msgid "Pause"
+#~ msgstr "C_laper"
+
+#, fuzzy
+#~ msgid "Search's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Sleep"
+#~ msgstr "Roedeu"
+
+#, fuzzy
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Rascourti"
+
+#, fuzzy
+#~ msgid "Volume down"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume mute"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume step"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Volume up"
+#~ msgstr "_Volume:"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Waitroûle"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "Keyboard options"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "Rascourtis del taprece"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "Xhuflet del taprece"
+
+#, fuzzy
+#~ msgid "/_Preferences"
+#~ msgstr "Preferinces pol fonte"
+
+#, fuzzy
+#~ msgid "/_About"
+#~ msgstr "Å _dfait"
+
+#, fuzzy
+#~ msgid "Name:"
+#~ msgstr "_No:"
+
+#, fuzzy
+#~ msgid "Type:"
+#~ msgstr "Sôre"
+
+#, fuzzy
+#~ msgid "Description:"
+#~ msgstr "_Discrijhaedje:"
+
+#, fuzzy
+#~ msgid "Set as Application Font"
+#~ msgstr "Fonte po les _programes:"
+
+#, fuzzy
+#~ msgid "Sets the default application font"
+#~ msgstr "Tchoezixhoz vos prémetous programes"
+
+#, fuzzy
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "Cinte di Contrôle di GNOME"
+
+#, fuzzy
+#~ msgid "_Apply font"
+#~ msgstr "Fonte po les _programes:"
+
+#, fuzzy
+#~ msgid "Themes"
+#~ msgstr "Tinme"
+
+#~ msgid "Description"
+#~ msgstr "Discrijhaedje"
+
+#, fuzzy
+#~ msgid "Control theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "Window border theme"
+#~ msgstr "Boird do purnea"
+
+#, fuzzy
+#~ msgid "Icon theme"
+#~ msgstr "Tinme do cursoe"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr "_Astaler novea tinme..."

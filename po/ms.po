@@ -1,0 +1,6123 @@
+# Gnome-control-center v2.0 Bahasa Melayu (ms)
+# 1. Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
+# 2. Khairulanuar Abd Majid (khai) <khairul@ikhlas.com>, 2002
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2015-04-12 02:15+0730\n"
+"Last-Translator: Umarzuki Bin Mochlis Moktar <umar@umarzuki.org>\n"
+"Language-Team: GNOME Malaysia <gnome-ms@googlegroups.com>\n"
+"Language: ms\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "Namapengguna"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "Nama _Penuh"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Standard"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Pengurus"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Jenis Akaun "
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "Katalaluan:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "Tetapkan katalaluan "
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "Katalaluan:"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "Konfigurasi Proksi"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "Log Masuk _Enterprise"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Tambah Pengguna"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Login Pengurus Domain"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Nama Pengu_rus"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Katalaluan Pengurus"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Ibu jari kiri"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Jari tengah kiri"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Jari manis kiri"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Jari anak kiri"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Ibu jari kanan"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Jari tengah kanan"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Jari manis kanan"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Jari anak"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Bolehkan Log Masuk Cap Jari"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Jari tengah _kanan"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Jari tengah k_iri"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "Jari _lain:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Perlu Katalaluan"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#, fuzzy
+msgid "_Cancel"
+msgstr "Batal carian"
+
+#: ../data/password-dialog.ui.h:3
+#, fuzzy
+msgid "Ch_ange"
+msgstr "Tukar set"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Perlu Katalaluan"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "Perlu Katalaluan"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Perlu Katalaluan"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Tetapkan katalaluan "
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "Tambah Pengguna"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Pilihan Capaian"
+
+#: ../data/user-accounts-dialog.ui.h:8
+#, fuzzy
+msgid "A_utomatic Login"
+msgstr "Skrin Log Masuk"
+
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "_Fingerprint Login"
+msgstr "Skrin Log Masuk"
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "Cipta satu akaun pengguna"
+
+#: ../data/user-accounts-dialog.ui.h:11
+#, fuzzy
+msgid "Last Login"
+msgstr "Skrin Log Masuk"
+
+#: ../data/user-accounts-dialog.ui.h:12
+#, fuzzy
+msgid "Remove Account"
+msgstr "Akaun dilumpuhkan"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Lain-lain Akaun"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Gagal memadam pengguna"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "Gagal memadam pengguna"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s belum log keluar"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Adakah anda mahu mengekalkan fail %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "Pa_dam fail"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Kekalkan Fail"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Adakah anda pasti untuk padam secara kekal \"%s\"?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Pa_dam fail"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Akaun dilumpuhkan"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Tiada"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Telah log masuk"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Cipta satu akaun pengguna"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Padam akaun pengguna dipilih"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Akaun Saya"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Katalaluan tersebut tidak betul."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Gagal untuk menambah akaun"
+
+#: ../src/run-passwd.c:493
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Katalaluan terlalu pendek"
+
+#: ../src/run-passwd.c:501
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Katalaluan terlalu mudah"
+
+#: ../src/run-passwd.c:509
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Katalaluan lama dan baru hampir sama"
+
+#: ../src/run-passwd.c:514
+#, fuzzy, c-format
+msgid "The new password has already been used recently."
+msgstr "Kedua-dua katalaluan tidak sama"
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Katalaluan lama dan baru sama"
+
+#: ../src/run-passwd.c:530
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Katalaluan anda telah ditukar"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Ralat tidak diketahui"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Gagal untuk menambah akaun"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Katalaluan tidak padan."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Gagal untuk mendaftarkan akaun"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Gagal untuk menyertai domain"
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr "Katalaluan tidak sah. Cuba semula."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+#, fuzzy
+msgid "Cancel"
+msgstr "Batal carian"
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "_Tambah..."
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standard"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Pengurus"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Tidak tidak dibenarkan akses pada peranti. Hubungi sistem pentadbir anda."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Peranti tersebut sedang digunakan"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Satu ralat dalaman telah terjadi."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Dimatikan"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Bolehkan"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Padam cap jari didaftarkan?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Padam Cap Jari"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Selesai!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Tidak dapat akses peranti '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Pilih jari"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Mendaftarkan cap jari"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Rumusan"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Minggu Ini"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Minggu Lepas"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Sesi Tamat"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Sesi Bermula."
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Pilih katalaluan yang lain."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Taipkan kata laluan anda sekali lagi."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Katalaluan tidak dapat ditukar"
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "Select Location"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Lumpuhkan imej"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Ambil gambar..."
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Digunakan oleh %s "
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, fuzzy, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Tidak dapat menyambung ke domain %s: %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Katalaluan tidak sah. Cuba semula."
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Tidak dapat menyambung ke domain %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Nama pengguna telalu panjang."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+#, fuzzy
+msgid "Yesterday"
+msgstr "Semalam %l:%M %p"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b "
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "Pilih katalaluan yang lain."
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Kualiti Rendah"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Kualiti Tinggi"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Katalaluan tidak padan."
+
+#~ msgid "Background"
+#~ msgstr "Latar Belakang"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Perubahan sepanjang hari"
+
+#, fuzzy
+#~ msgid "Lock Screen"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "_Fail"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Zum"
+
+#, fuzzy
+#~| msgid "Center"
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Tengah"
+
+#, fuzzy
+#~| msgid "Scale"
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Skala"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Penuh"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Jangkau"
+
+#, fuzzy
+#~| msgid "No Wallpaper"
+#~ msgid "Wallpapers"
+#~ msgstr "Tiada Kertas Dinding"
+
+#~ msgid "Colors"
+#~ msgstr "Warna"
+
+#, fuzzy
+#~| msgid "Background"
+#~ msgid "Select Background"
+#~ msgstr "Select Location"
+
+#~ msgid "Pictures"
+#~ msgstr "Gambar"
+
+#, fuzzy
+#~| msgid "No matches found."
+#~ msgid "No Pictures Found"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#~ msgid "Home"
+#~ msgstr "Rumah"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Anda boleh tambahkan imej ke folder %s dan imej tersebut akan muncul "
+#~ "disini"
+
+#~ msgid "multiple sizes"
+#~ msgstr "pelbagai saiz"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#, fuzzy
+#~| msgid "More backgrounds URL"
+#~ msgid "Current background"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Tukar imej latar dengan gambar dinding atau foto"
+
+#, fuzzy
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#, fuzzy
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Nama pengguna telalu panjang."
+
+#, fuzzy
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "Bluetooth dilumpuhkan melalui suis"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Hidupkan Bluetooth dan matikan, kemudian sambung peranti anda"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "Letakkan peranti penentukuran anda pada segiempat dan tekan 'Mula'"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Pindah peranti penentukuran anda ke posisi tentukur dan tekan 'Sambung'"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Pindah peranti pentukuran anda ke posisi permukaan dan tekan 'Sambung'"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Tutup monitor laptop"
+
+#, fuzzy
+#~| msgid "An internal error occured"
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Ralat dalaman telah berlaku"
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Radas diperlukan untuk menentukuran tidak dipasang."
+
+#, fuzzy
+#~| msgid "Theme cannot be deleted"
+#~ msgid "The profile could not be generated."
+#~ msgstr "Katalaluan tidak dapat ditukar"
+
+#~ msgid "Complete!"
+#~ msgstr "Siap!"
+
+#, fuzzy
+#~ msgid "Calibration failed!"
+#~ msgstr "Kualiti Penentukuran"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Peranti penentukuran anda sudah boleh dikeluarkan"
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Jangan ganggu peranti semasa penentukuran berlansung"
+
+#, fuzzy
+#~ msgid "Laptop Screen"
+#~ msgstr "Skrin Log Masuk"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Kamera web bina dalam"
+
+#, fuzzy, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Tukar Monitor"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s Pengimbas"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s Kamera"
+
+#, fuzzy, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s Pencetak"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s Kamera web"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Benarkan pengurusan warna untuk %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Tunjuk profail warna untuk %s"
+
+#, fuzzy
+#~ msgid "Not calibrated"
+#~ msgstr "Katalaluan tidak padan."
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "Default: "
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "C_olors:"
+#~ msgid "Colorspace: "
+#~ msgstr "W_arna:"
+
+#~ msgid "Test profile: "
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~| msgid "Select Sound File"
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Pilih Fail Bunyi"
+
+#~ msgid "_Import"
+#~ msgstr "_Import"
+
+#, fuzzy
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Tunjuk profail warna untuk %s"
+
+#~ msgid "All files"
+#~ msgstr "Semua Fail"
+
+#~ msgid "Screen"
+#~ msgstr "Skrin"
+
+#, fuzzy, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profail telah dimuatnaik ke:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Catatkan URL ini."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Mulakan semula komputer dan but sistem pengoperasian anda."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Taip URL pada browser untuk memuaturun dan memasang profail."
+
+#, fuzzy
+#~| msgid "Save File"
+#~ msgid "Save Profile"
+#~ msgstr "Profail ujian:"
+
+#~ msgid "_Save"
+#~ msgstr "_Simpan"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Cipta profail warna untuk peranti yang dipilih."
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Alat pengukur tidak dapat dikesan. Periksa sama ada telah dihidupkan dan "
+#~ "tersambung. "
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Alat pengukur tidak menyokong pemprofailan pencetak."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Jenis peranti ini tidak disokong buat masa ini."
+
+#, fuzzy
+#~| msgid "Standard XTerminal"
+#~ msgid "Standard Space"
+#~ msgstr "XTerminal Piawai"
+
+#~ msgid "Test Profile"
+#~ msgstr "Uji Profail"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatik"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Kualiti Rendah"
+
+#, fuzzy
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Kualiti Rendah"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Kualiti Tinggi"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Default"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Data penetukuran dari pembekal perkakasan."
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr ""
+#~ "Pembetulan paparan skrin penuh tidak dapat dilakukan dengan profail ini. "
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Profail ini mungkin tidak lagi tepat."
+
+#, fuzzy
+#~ msgid "Display Calibration"
+#~ msgstr "Kualiti Penentukuran"
+
+#, fuzzy
+#~| msgid "Start %s"
+#~ msgid "Start"
+#~ msgstr "Mula %s"
+
+#~ msgid "Resume"
+#~ msgstr "Sambung"
+
+#, fuzzy
+#~| msgid "Done!"
+#~ msgid "Done"
+#~ msgstr "Selesai!"
+
+#, fuzzy
+#~| msgid "Screen Resolution"
+#~ msgid "Screen Calibration"
+#~ msgstr "Kualiti Penentukuran"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Penetukuran akanmenghasilkan profile untuk menguruskan warna skin. "
+#~ "Kualiti profail warna yang lebih baik berdasarkan masa yang lebih panjang "
+#~ "digunakan untuk penetukuran."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Anda tidak akan dapat menggunakan komputer semasa penentukuran "
+#~ "berlangsung."
+
+#~ msgid "Quality"
+#~ msgstr "Kualiti"
+
+#, fuzzy
+#~ msgid "Approximate Time"
+#~ msgstr "Masa berbaki: %s"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kualiti Penentukuran"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Pilih peranti pengesan yang anda hendak guna untuk penentukuran."
+
+#, fuzzy
+#~ msgid "Calibration Device"
+#~ msgstr "Kualiti Penentukuran"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Pilih jenis paparan yang tersambung."
+
+#, fuzzy
+#~ msgid "Display Type"
+#~ msgstr "Pemetaan Paparan"
+
+#, fuzzy
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~| msgid "Brightness up"
+#~ msgid "Display Brightness"
+#~ msgstr "Pemetaan Paparan"
+
+#, fuzzy
+#~| msgid "filename"
+#~ msgid "Profile Name:"
+#~ msgstr "Nama Komputer"
+
+#, fuzzy
+#~| msgid "filename"
+#~ msgid "Profile Name"
+#~ msgstr "Nama Komputer"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Berjaya mencipta profail."
+
+#, fuzzy
+#~| msgid "Copying files"
+#~ msgid "Copy profile"
+#~ msgstr "Profail ujian:"
+
+#~ msgid "Upload profile"
+#~ msgstr "Muatnaik profail"
+
+#, fuzzy
+#~| msgid "<b>Di_rect internet connection</b>"
+#~ msgid "Requires Internet connection"
+#~ msgstr "<b>Sa_mbungan internet langsung</b>"
+
+#~ msgid "Import File…"
+#~ msgstr "Import Fail..."
+
+#, fuzzy
+#~ msgid "Learn more"
+#~ msgstr "Lebih perincian"
+
+#~ msgid "Set for all users"
+#~ msgstr "Tetapkan untuk semua pengguna"
+
+#~ msgid "Enable"
+#~ msgstr "Benarkan"
+
+#, fuzzy
+#~| msgid "All files"
+#~ msgid "Add profile"
+#~ msgstr "Profail ujian:"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Tentukur..."
+
+#, fuzzy
+#~ msgid "Calibrate the device"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~| msgid "Remove from Favorites"
+#~ msgid "Remove profile"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~| msgid "Theme Details"
+#~ msgid "View details"
+#~ msgstr "Lebih perincian"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektor"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#, fuzzy
+#~| msgid "High"
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Kualiti Tinggi"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "40 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "_Medium"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "30 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "Low"
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Kualiti Rendah"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "15 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~ msgid "Native to display"
+#~ msgstr "Panel hendak dipaparkan"
+
+#, fuzzy
+#~| msgid "Colors"
+#~ msgid "Color"
+#~ msgstr "Warna"
+
+#~ msgid "United States"
+#~ msgstr "Amerika Syarikat"
+
+#~ msgid "Germany"
+#~ msgstr "Jerman"
+
+#, fuzzy
+#~| msgid "Appearance"
+#~ msgid "France"
+#~ msgstr "Penampilan"
+
+#~ msgid "Spain"
+#~ msgstr "Sepanyol"
+
+#~ msgid "China"
+#~ msgstr "China"
+
+#, fuzzy
+#~| msgid "Other"
+#~ msgid "Other…"
+#~ msgstr "Lain-lain"
+
+#~ msgid "More…"
+#~ msgstr "Lagi..."
+
+#, fuzzy
+#~| msgid "No matches found."
+#~ msgid "No languages found"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#, fuzzy
+#~| msgid "_Language:"
+#~ msgid "Language"
+#~ msgstr "_Bahasa:"
+
+#, fuzzy
+#~| msgid "Done!"
+#~ msgid "_Done"
+#~ msgstr "Selesai!"
+
+#, fuzzy
+#~| msgid "%b %d %l:%M %p"
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Januari"
+
+#~ msgid "February"
+#~ msgstr "Februari"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgid "March"
+#~ msgstr "Cari"
+
+#~ msgid "April"
+#~ msgstr "April"
+
+#~ msgid "May"
+#~ msgstr "Mei"
+
+#~ msgid "June"
+#~ msgstr "Jun"
+
+#~ msgid "July"
+#~ msgstr "Julai"
+
+#~ msgid "August"
+#~ msgstr "Ogos"
+
+#~ msgid "September"
+#~ msgstr "September"
+
+#, fuzzy
+#~ msgid "Date & Time"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~ msgid "Hour"
+#~ msgstr "jam"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "Minute"
+#~ msgstr "%i minit"
+
+#, fuzzy
+#~| msgid "D_elay:"
+#~ msgid "Day"
+#~ msgstr "Perubahan sepanjang hari"
+
+#, fuzzy
+#~ msgid "Time Zone"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~| msgid "Search's shortcut."
+#~ msgid "Search for a city"
+#~ msgstr "Cari rentetan"
+
+#, fuzzy
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Keluar selepas seketika untuk menyahpepijat"
+
+#, fuzzy
+#~ msgid "Requires internet access"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Keluar selepas seketika untuk menyahpepijat"
+
+#, fuzzy
+#~ msgid "Date & _Time"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~ msgid "Time _Zone"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~ msgid "Time _Format"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~| msgid "Change your Desktop Background settings"
+#~ msgid "Change system time and date settings"
+#~ msgstr "Tukar tetapan latar belakang desktop anda"
+
+#, fuzzy
+#~ msgid "Lid Closed"
+#~ msgstr "Tutup monitor laptop"
+
+#, fuzzy
+#~ msgid "Mirrored"
+#~ msgstr "Penuhkan Skrin"
+
+#~ msgid "Off"
+#~ msgstr "Tutup"
+
+#, fuzzy
+#~| msgid "seconds"
+#~ msgid "Secondary"
+#~ msgstr "saat"
+
+#, fuzzy
+#~| msgid "_Apply font"
+#~ msgid "_Apply"
+#~ msgstr "Ter_apkan font"
+
+#, fuzzy
+#~| msgid "Size:"
+#~ msgid "Size"
+#~ msgstr "Saiz"
+
+#, fuzzy
+#~| msgid "_Resolution:"
+#~ msgid "Resolution"
+#~ msgstr "Betulkan resolusi paparan"
+
+#, fuzzy
+#~ msgid "Secondary Display"
+#~ msgstr "Pemetaan Paparan"
+
+#, fuzzy
+#~ msgid "Presentation"
+#~ msgstr "<b>Orientasi Tetikus</b>"
+
+#, fuzzy
+#~ msgid "Mirror"
+#~ msgstr "Penuhkan Skrin"
+
+#, fuzzy
+#~ msgid "Could not get screen information"
+#~ msgstr "Tidak dapat senarai kemaskini distribusi"
+
+#~ msgid "Unknown"
+#~ msgstr "Tidak diketahui"
+
+#, fuzzy
+#~ msgid "Ask what to do"
+#~ msgstr "Adakah anda mahu mengekalkan fail %s?"
+
+#, fuzzy
+#~| msgid "Smoothing"
+#~ msgid "Do nothing"
+#~ msgstr "Katalaluan tidak padan."
+
+#, fuzzy
+#~ msgid "Open folder"
+#~ msgstr "Pilih Folder"
+
+#, fuzzy
+#~| msgid "Other"
+#~ msgid "Other Media"
+#~ msgstr "Lain-lain Akaun"
+
+#, fuzzy
+#~| msgid "Select your default applications"
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Pilih aplikasi default anda"
+
+#, fuzzy
+#~| msgid "Select your default applications"
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Pilih aplikasi default anda"
+
+#, fuzzy
+#~| msgid "Set as Application Font"
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Tetapkan sebagai Font Aplikasi"
+
+#, fuzzy
+#~ msgid "audio DVD"
+#~ msgstr "CD Audio"
+
+#, fuzzy
+#~ msgid "Picture CD"
+#~ msgstr "CD Audio"
+
+#, fuzzy
+#~| msgid "Video Player"
+#~ msgid "Video CD"
+#~ msgstr "CD Video"
+
+#, fuzzy
+#~| msgid "Window Border"
+#~ msgid "Windows software"
+#~ msgstr "Pasang Perisian"
+
+#, fuzzy
+#~| msgid "Action"
+#~ msgid "Section"
+#~ msgstr "Aksi"
+
+#, fuzzy
+#~| msgid "Preview:"
+#~ msgid "Overview"
+#~ msgstr "Tunjuk gambaran keseluruhan"
+
+#, fuzzy
+#~| msgid "- GNOME Default Applications"
+#~ msgid "Default Applications"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#, fuzzy, c-format
+#~| msgid "Version:"
+#~ msgid "Version %s"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~| msgid "_Details"
+#~ msgid "Details"
+#~ msgstr "Keterangan"
+
+#, fuzzy
+#~| msgid "Action"
+#~ msgid "_Action:"
+#~ msgstr "<Aksi Tidak diketahui>"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgid "_Type:"
+#~ msgstr "Jenis:"
+
+#, fuzzy
+#~| msgid "filename"
+#~ msgid "Device name"
+#~ msgstr "Nama Komputer"
+
+#, fuzzy
+#~| msgid "File System"
+#~ msgid "Base system"
+#~ msgstr "Bunyi Sistem"
+
+#, fuzzy
+#~ msgid "Check for updates"
+#~ msgstr "Cari rentetan"
+
+#, fuzzy
+#~| msgid "KMail"
+#~ msgid "_Mail"
+#~ msgstr "KMail"
+
+#, fuzzy
+#~| msgid "Cale_ndar:"
+#~ msgid "_Calendar"
+#~ msgstr "Kale_ndar"
+
+#, fuzzy
+#~ msgid "_Video"
+#~ msgstr "CD Video"
+
+#, fuzzy
+#~ msgid "CD _audio"
+#~ msgstr "CD Audio"
+
+#, fuzzy
+#~ msgid "_DVD video"
+#~ msgstr "CD Video"
+
+#, fuzzy
+#~| msgid "Muine Music Player"
+#~ msgid "_Music player"
+#~ msgstr "Pemain Muzik Muine"
+
+#, fuzzy
+#~ msgid "_Software"
+#~ msgstr "Pasang Perisian"
+
+#, fuzzy
+#~ msgid "_Other Media…"
+#~ msgstr "Lain-lain Akaun"
+
+#, fuzzy
+#~ msgid "Sound and Media"
+#~ msgstr "Pengurusan dan penggubahan tetingkap"
+
+#~ msgid "Volume mute"
+#~ msgstr "Volum bisu"
+
+#~ msgid "Volume down"
+#~ msgstr "Volum turun"
+
+#~ msgid "Volume up"
+#~ msgstr "Volum naik"
+
+#, fuzzy
+#~| msgid "Multimedia Player"
+#~ msgid "Launch media player"
+#~ msgstr "Pemain Multimedia"
+
+#, fuzzy
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Memboleh atau melumpuhkan log masuk dari jauh"
+
+#, fuzzy
+#~| msgid "Stop playback key"
+#~ msgid "Stop playback"
+#~ msgstr "Kekunci henti bermain"
+
+#, fuzzy
+#~ msgid "Previous track"
+#~ msgstr "Tukar ke sumber sebelumnya"
+
+#, fuzzy
+#~ msgid "Next track"
+#~ msgstr "Tukar ke sumber seterusnya"
+
+#~ msgid "Eject"
+#~ msgstr "Lenting"
+
+#, fuzzy
+#~| msgid "Typing Break"
+#~ msgid "Typing"
+#~ msgstr "Hentian Menaip"
+
+#, fuzzy
+#~ msgid "Switch to next input source"
+#~ msgstr "Langkah ke trek Berikutnya"
+
+#, fuzzy
+#~ msgid "Switch to previous input source"
+#~ msgstr "Langkah ke trek Terdahulu"
+
+#, fuzzy
+#~ msgid "Launchers"
+#~ msgstr "Lancar Pelungsur Web"
+
+#, fuzzy
+#~ msgid "Launch help browser"
+#~ msgstr "Tunjuk pilihan bantuan"
+
+#, fuzzy
+#~| msgid "Default Settings"
+#~ msgid "Settings"
+#~ msgstr "- Tetapan"
+
+#, fuzzy
+#~ msgid "Launch web browser"
+#~ msgstr "Lancar Pelungsur Web"
+
+#, fuzzy
+#~ msgid "Home folder"
+#~ msgstr "Pilih Folder"
+
+#, fuzzy
+#~| msgid "Search"
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Cari"
+
+#, fuzzy
+#~| msgid "Screen"
+#~ msgid "Screenshots"
+#~ msgstr "Skrin"
+
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#, fuzzy
+#~ msgid "Log out"
+#~ msgstr "Log Keluar"
+
+#, fuzzy
+#~ msgid "Lock screen"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgid "Universal Access"
+#~ msgstr "Pilihan Capaian"
+
+#, fuzzy
+#~ msgid "Zoom in"
+#~ msgstr "Kamera web bina dalam"
+
+#, fuzzy
+#~ msgid "Zoom out"
+#~ msgstr "Log Keluar"
+
+#, fuzzy
+#~ msgid "Increase text size"
+#~ msgstr "Mesej panji-panji teks"
+
+#, fuzzy
+#~ msgid "Decrease text size"
+#~ msgstr "Mesej panji-panji teks"
+
+#, fuzzy
+#~| msgid "Mouse Keys"
+#~ msgid "Compose Key"
+#~ msgstr "kekunci Tetikus"
+
+#~ msgid "Keyboard"
+#~ msgstr "Papan Kekunci"
+
+#, fuzzy
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Ulangan kelajuan kekunci"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Pintasan Penyesuaian"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nama:"
+
+#~ msgid "C_ommand:"
+#~ msgstr "A_rahan:"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Tekanan kekunci ber_ulang apabila kekunci ditekan"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Lengahan:"
+
+#~ msgid "_Speed:"
+#~ msgstr "Ke_lajuan:"
+
+#, fuzzy
+#~| msgid "Short"
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Ulangan kelajuan kekunci"
+
+#, fuzzy
+#~| msgid "Long"
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#, fuzzy
+#~| msgid "Fast"
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Laju"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Kerdipan Kursor"
+
+#, fuzzy
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Kerdipan kursor pada kekotak dan medan teks"
+
+#~ msgid "S_peed:"
+#~ msgstr "Ke_lajuan:"
+
+#, fuzzy
+#~ msgid "Cursor blink speed"
+#~ msgstr "Ulangan kelajuan kekunci"
+
+#, fuzzy
+#~ msgid "Input Sources"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#, fuzzy
+#~| msgid "Shortcut"
+#~ msgid "Add Shortcut"
+#~ msgstr "Pintasan Penyesuaian"
+
+#, fuzzy
+#~| msgid "Shortcut"
+#~ msgid "Remove Shortcut"
+#~ msgstr "Pintasan Penyesuaian"
+
+#, fuzzy
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr "Taip pemecut baru, atau tekan Backspace untuk terangkan"
+
+#, fuzzy
+#~| msgid "Shortcut"
+#~ msgid "Shortcuts"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#, fuzzy
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Aksi Tidak diketahui>"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Pintasan  \"%s\" telah digunakan oleh:\n"
+#~ "\"%s\"\n"
+
+#, fuzzy
+#~| msgid "Default Settings"
+#~ msgid "Test Your _Settings"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#, fuzzy
+#~| msgid "Default Settings"
+#~ msgid "Test Your Settings"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#, fuzzy
+#~| msgid "Touchpad"
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#~ msgid "General"
+#~ msgstr "Am"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#, fuzzy
+#~ msgid "Double-click timeout"
+#~ msgstr "<b>Hadmasa Dwi-Klik </b>"
+
+#, fuzzy
+#~| msgid "Fast"
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Laju"
+
+#, fuzzy
+#~ msgid "_Double-click"
+#~ msgstr "<b>Hadmasa Dwi-Klik </b>"
+
+#, fuzzy
+#~ msgid "Primary _button"
+#~ msgstr "Butang Kiri  #%d"
+
+#, fuzzy
+#~| msgid "Left"
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "Kiri"
+
+#, fuzzy
+#~| msgid "Right"
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "Kanan"
+
+#~ msgid "Mouse"
+#~ msgstr "Tetikus"
+
+#, fuzzy
+#~ msgid "_Pointer speed"
+#~ msgstr "Ulangan kelajuan kekunci"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#, fuzzy
+#~| msgid "Fast"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Laju"
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#, fuzzy
+#~| msgid "Slow"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lambat"
+
+#, fuzzy
+#~| msgid "Fast"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Laju"
+
+#, fuzzy
+#~ msgid "Disable while _typing"
+#~ msgstr "Memboleh atau melumpuhkan log masuk dari jauh"
+
+#, fuzzy
+#~ msgid "Tap to _click"
+#~ msgstr "Peta untuk Dipantau"
+
+#, fuzzy
+#~ msgid "Two _finger scroll"
+#~ msgstr "Jari tengah kiri"
+
+#, fuzzy
+#~ msgid "Double click, primary button"
+#~ msgstr "<b>Hadmasa Dwi-Klik </b>"
+
+#, fuzzy
+#~ msgid "Double click, middle button"
+#~ msgstr "<b>Hadmasa Dwi-Klik </b>"
+
+#, fuzzy
+#~ msgid "Double click, secondary button"
+#~ msgstr "<b>Hadmasa Dwi-Klik </b>"
+
+#, fuzzy
+#~ msgid "Air_plane Mode"
+#~ msgstr "Benarkan mod panjang lebar"
+
+#, fuzzy
+#~| msgid "Network Proxy"
+#~ msgid "Network proxy"
+#~ msgstr "Proksi Rangkaian"
+
+#, fuzzy
+#~ msgid "802.1x _Security"
+#~ msgstr "Pilih "
+
+#, fuzzy
+#~| msgid "page"
+#~ msgid "page 1"
+#~ msgstr "laman"
+
+#, fuzzy
+#~| msgid "<b>_Use authentication</b>"
+#~ msgid "Inner _authentication"
+#~ msgstr "Had dibenarkan untuk kegagalan pengesahan"
+
+#, fuzzy
+#~| msgid "page"
+#~ msgid "page 2"
+#~ msgstr "laman"
+
+#, fuzzy
+#~ msgid "Security"
+#~ msgstr "Keselamatan"
+
+#, fuzzy
+#~ msgid "automatic"
+#~ msgstr "Automatik"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#, fuzzy, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "Perubahan sepanjang hari"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#~ msgid "Address"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "Delete Address"
+#~ msgstr "_Padam Cap Jari"
+
+#, fuzzy
+#~| msgid "Add..."
+#~ msgid "Add"
+#~ msgstr "Tambah..."
+
+#, fuzzy
+#~ msgid "Delete DNS Server"
+#~ msgstr "Padam cap jari didaftarkan?"
+
+#, fuzzy
+#~| msgid "Delete"
+#~ msgid "Delete Route"
+#~ msgstr "_Padam Cap Jari"
+
+#, fuzzy
+#~ msgid "Link-Local Only"
+#~ msgstr "Hanya arahan VERSION yang disokong"
+
+#, fuzzy
+#~ msgid "Automatic"
+#~ msgstr "Automatik"
+
+#, fuzzy
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Hanya arahan VERSION yang disokong"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#, fuzzy
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#, fuzzy
+#~ msgid "Link speed"
+#~ msgstr "Ulangan kelajuan kekunci"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "IPv4 Address"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "IPv6 Address"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "Hardware Address"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~ msgid "Default Route"
+#~ msgstr "Kursor Default"
+
+#, fuzzy
+#~ msgid "Last Used"
+#~ msgstr "Digunakan oleh %s "
+
+#, fuzzy
+#~| msgid "_Name:"
+#~ msgid "_Name"
+#~ msgstr "_Nama:"
+
+#, fuzzy
+#~| msgid "_Address:"
+#~ msgid "_MAC Address"
+#~ msgstr "_Alamat"
+
+#, fuzzy
+#~| msgid "_Address:"
+#~ msgid "_Cloned Address"
+#~ msgstr "_Alamat"
+
+#, fuzzy
+#~ msgid "Connect _automatically"
+#~ msgstr "Tidak dapat menyambung ke domain %s: %s"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "_Address:"
+#~ msgid "_Addresses"
+#~ msgstr "_Alamat"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "Routes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "Unable to open address book"
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Tidak dapat membuka buku alamat"
+
+#, fuzzy
+#~| msgid "New File"
+#~ msgid "New Profile"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~| msgid "Current network location"
+#~ msgid "Add Network Connection"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Select finger"
+#~ msgid "Select file to import"
+#~ msgstr "Pilih jari"
+
+#, fuzzy, c-format
+#~| msgid "The location already exists."
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Lokasi tersebut sudah wujud."
+
+#, fuzzy
+#~| msgid "Network Proxy"
+#~ msgid "Network"
+#~ msgstr "Rangkaian"
+
+#, fuzzy
+#~ msgid "(none)"
+#~ msgstr "Tiada"
+
+#, fuzzy
+#~| msgid "Address"
+#~ msgid "IP Address"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~ msgid "Last used"
+#~ msgstr "Digunakan oleh %s "
+
+#, fuzzy
+#~| msgid "_Options..."
+#~ msgid "Options…"
+#~ msgstr "_Opsyen..."
+
+#, fuzzy, c-format
+#~ msgid "Profile %d"
+#~ msgstr "_Profail:"
+
+#, fuzzy
+#~ msgid "Add new connection"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "_FTP proxy:"
+#~ msgid "Proxy"
+#~ msgstr "Proksi _FTP:"
+
+#, fuzzy
+#~ msgid "_Add Profile…"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "None"
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#, fuzzy
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatik"
+
+#, fuzzy
+#~| msgid "_Meta"
+#~ msgid "_Method"
+#~ msgstr "_Meta"
+
+#, fuzzy
+#~| msgid "Autoconfiguration _URL:"
+#~ msgid "_Configuration URL"
+#~ msgstr "Catatkan URL ini."
+
+#, fuzzy
+#~| msgid "H_TTP proxy:"
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Proksi H_TTP:"
+
+#, fuzzy
+#~| msgid "H_TTP proxy:"
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Proksi H_TTP:"
+
+#, fuzzy
+#~| msgid "_FTP proxy:"
+#~ msgid "_FTP Proxy"
+#~ msgstr "Proksi _FTP:"
+
+#, fuzzy
+#~| msgid "S_ocks host:"
+#~ msgid "_Socks Host"
+#~ msgstr "_Hos soket:"
+
+#, fuzzy
+#~| msgid "Ignored Hosts"
+#~ msgid "_Ignore Hosts"
+#~ msgstr "Abaikan kemaskini ini"
+
+#, fuzzy
+#~| msgid "H_TTP proxy:"
+#~ msgid "HTTP proxy port"
+#~ msgstr "Proksi H_TTP:"
+
+#, fuzzy
+#~| msgid "H_TTP proxy:"
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Proksi H_TTP:"
+
+#, fuzzy
+#~| msgid "_FTP proxy:"
+#~ msgid "FTP proxy port"
+#~ msgstr "Proksi _FTP:"
+
+#, fuzzy
+#~ msgid "Turn device off"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~ msgid "Add Device"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~| msgid "_Remove"
+#~ msgid "Remove Device"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "VPN Type"
+#~ msgstr "Jenis"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgid "Group Name"
+#~ msgstr "Nama Komputer"
+
+#, fuzzy
+#~| msgid "_Password:"
+#~ msgid "Group Password"
+#~ msgstr "Perlu Katalaluan"
+
+#, fuzzy
+#~| msgid "U_sername:"
+#~ msgid "Username"
+#~ msgstr "Namapengguna"
+
+#, fuzzy
+#~ msgid "Automatic _Connect"
+#~ msgstr "Tidak dapat menyambung ke domain %s: %s"
+
+#, fuzzy
+#~| msgid "_Details"
+#~ msgid "details"
+#~ msgstr "Keterangan"
+
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#, fuzzy
+#~| msgid "_Password:"
+#~ msgid "Show P_assword"
+#~ msgstr "Tunjuk katalaluan"
+
+#, fuzzy
+#~ msgid "Link-local only"
+#~ msgstr "Hanya arahan VERSION yang disokong"
+
+#, fuzzy
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "XDMCP: Tidak dapat menghurai alamat"
+
+#, fuzzy
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "Peranti tersebut sedang digunakan"
+
+#, fuzzy
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "Tidak dapat menyambung ke domain %s: %s"
+
+#, fuzzy
+#~| msgid "Network Servers"
+#~ msgid "Network Name"
+#~ msgstr "Nama Komputer"
+
+#, fuzzy
+#~ msgid "Security type"
+#~ msgstr "Kemaskini keselamatan"
+
+#, fuzzy
+#~ msgid "Security key"
+#~ msgstr "Kemaskini keselamatan"
+
+#, fuzzy
+#~ msgid "Status unknown"
+#~ msgstr "<Aksi Tidak diketahui>"
+
+#, fuzzy
+#~| msgid "Connecting..."
+#~ msgid "Connecting"
+#~ msgstr "Menyambung..."
+
+#, fuzzy
+#~ msgid "Authentication required"
+#~ msgstr "Pakej-pakej Diperlukan"
+
+#, fuzzy
+#~| msgid "Connecting..."
+#~ msgid "Connected"
+#~ msgstr "Menyambung..."
+
+#, fuzzy
+#~| msgid "Connecting..."
+#~ msgid "Disconnecting"
+#~ msgstr "Menyambung..."
+
+#, fuzzy
+#~| msgid "Connecting..."
+#~ msgid "Connection failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "Not connected"
+#~ msgstr "Katalaluan tidak padan."
+
+#, fuzzy
+#~| msgid "Proxy Configuration"
+#~ msgid "Configuration failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Proxy Configuration"
+#~ msgid "IP configuration failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Proxy Configuration"
+#~ msgid "IP configuration expired"
+#~ msgstr "Konfigurasi Proksi"
+
+#, fuzzy
+#~ msgid "PPP service disconnected"
+#~ msgstr "Mencari service: %s"
+
+#, fuzzy
+#~ msgid "PPP failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "DHCP client error"
+#~ msgstr "Satu ralat dalaman telah terjadi."
+
+#, fuzzy
+#~ msgid "DHCP client failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "AutoIP service error"
+#~ msgstr "Satu ralat dalaman telah terjadi."
+
+#, fuzzy
+#~ msgid "AutoIP service failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "No dial tone"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#, fuzzy
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "Modem initialization failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "PIN check failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "key not found [%s]\n"
+#~ msgid "Modem not found"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#, fuzzy
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "SIM Pin required"
+#~ msgstr "Perjanjian Lesen Diperlukan"
+
+#, fuzzy
+#~ msgid "SIM Puk required"
+#~ msgstr "Perjanjian Lesen Diperlukan"
+
+#, fuzzy
+#~ msgid "Connection dependency failed"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Image missing"
+#~ msgid "Firmware missing"
+#~ msgstr "Imej hilang"
+
+#, fuzzy
+#~| msgid "Ignored Hosts"
+#~ msgid "Ignore"
+#~ msgstr "Abaikan kemaskini ini"
+
+#, fuzzy
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Pilih katalaluan yang lain."
+
+#, fuzzy
+#~ msgid "Choose a PAC file"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#, fuzzy
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "Semua Fail"
+
+#, fuzzy
+#~| msgid "All files"
+#~ msgid "PAC _file"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#, fuzzy
+#~| msgid "<b>_Use authentication</b>"
+#~ msgid "_Inner authentication"
+#~ msgstr "Had dibenarkan untuk kegagalan pengesahan"
+
+#~ msgid " "
+#~ msgstr " "
+
+#, fuzzy
+#~| msgid "_New password:"
+#~ msgid "Sho_w password"
+#~ msgstr "Perlu Katalaluan"
+
+#, fuzzy
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Pilih katalaluan yang lain."
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid "Version 0"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~| msgid "Version:"
+#~ msgid "Version 1"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~ msgid "PEAP _version"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~| msgid "Set your personal information"
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Tetapkan maklumat peribadi anda"
+
+#, fuzzy
+#~ msgid "_User certificate"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#, fuzzy
+#~| msgid "_Retype new password:"
+#~ msgid "_Private key password"
+#~ msgstr "Pilih katalaluan yang lain."
+
+#, fuzzy
+#~| msgid "None"
+#~ msgid "No"
+#~ msgstr "Tiada Tindakan"
+
+#, fuzzy
+#~| msgid "<b>_Use authentication</b>"
+#~ msgid "Au_thentication"
+#~ msgstr "<b>_Guna authentikasi</b>"
+
+#, fuzzy
+#~| msgid "Default"
+#~ msgid "1 (Default)"
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "File System"
+#~ msgid "Open System"
+#~ msgstr "Bunyi Sistem"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgid "_Type"
+#~ msgstr "Jenis"
+
+#, fuzzy
+#~| msgid "Location:"
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "Lokasi:"
+
+#, fuzzy
+#~| msgid "Sound Events"
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "Keutamaan Bunyi"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Tunjuk pilihan bantuan"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Banners"
+#~ msgstr "Papar _ikon pada menu"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Kunci Skrin"
+
+#~ msgid "On"
+#~ msgstr "Buka"
+
+#, fuzzy
+#~| msgid "Location:"
+#~ msgid "Notifications"
+#~ msgstr "Lokasi:"
+
+#, fuzzy
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Kunci Skrin"
+
+#, fuzzy
+#~| msgid "Other"
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Lain-lain"
+
+#, fuzzy
+#~ msgid "Add Account"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "KMail"
+#~ msgid "Mail"
+#~ msgstr "KMail"
+
+#, fuzzy
+#~| msgid "Contact"
+#~ msgid "Contacts"
+#~ msgstr "Hubungi"
+
+#, fuzzy
+#~ msgid "_Sign In"
+#~ msgstr "Kamera web bina dalam"
+
+#, fuzzy
+#~| msgid "Error creating signal pipe."
+#~ msgid "Error creating account"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#, fuzzy
+#~| msgid "Error parsing arguments: %s\n"
+#~ msgid "Error removing account"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#~ msgid "_Remove"
+#~ msgstr "_Buang"
+
+#, fuzzy
+#~ msgid "Online Accounts"
+#~ msgstr "Lain-lain Akaun"
+
+#, fuzzy
+#~ msgid "Add an online account"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgid "Unknown time"
+#~ msgstr "<Aksi Tidak diketahui>"
+
+#, fuzzy, c-format
+#~| msgid "minutes"
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minit"
+
+# msgstr[1] "minit"
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i jam"
+
+# msgstr[1] "%i jam"
+#, fuzzy, c-format
+#~| msgid "%d %s by %d %s"
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "jam"
+
+# msgstr[1] "jam"
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minit"
+
+#, fuzzy, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy, c-format
+#~ msgid "%s remaining"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgid "Fully charged"
+#~ msgstr "Nama Penuh"
+
+#, fuzzy
+#~ msgid "Wireless mouse"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#, fuzzy
+#~ msgid "Wireless keyboard"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#, fuzzy
+#~ msgid "Personal digital assistant"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#, fuzzy
+#~| msgid "Telephone"
+#~ msgid "Cellphone"
+#~ msgstr "Telefon"
+
+#, fuzzy
+#~| msgid "Multimedia Player"
+#~ msgid "Media player"
+#~ msgstr "Pemain Multimedia"
+
+#, fuzzy
+#~ msgid "Tablet"
+#~ msgstr "Keutamaan Tablet"
+
+#, fuzzy
+#~ msgid "Computer"
+#~ msgstr "Nama Komputer"
+
+#, fuzzy
+#~| msgid "Location:"
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Lokasi:"
+
+#, fuzzy
+#~| msgid "Low"
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Kualiti Rendah"
+
+#, fuzzy
+#~| msgid "Full Name"
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Nama Penuh"
+
+#, fuzzy
+#~ msgid "Power Saving"
+#~ msgstr "Pengurusan kuasa"
+
+#, fuzzy
+#~ msgid "_Screen brightness"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~| msgid "Keyboard Preferences"
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#, fuzzy
+#~ msgid "_Blank screen"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgid "_Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, fuzzy
+#~ msgid "When plugged in"
+#~ msgstr "Kamera web bina dalam"
+
+#, fuzzy
+#~ msgid "Power Off"
+#~ msgstr "Pengurusan kuasa"
+
+#, fuzzy
+#~ msgid "Power"
+#~ msgstr "Pengurusan kuasa"
+
+#, fuzzy
+#~ msgid "Power off"
+#~ msgstr "Pengurusan kuasa"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "45 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~ msgid "1 hour"
+#~ msgstr "jam"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "80 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "90 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "100 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "1 minute"
+#~ msgstr "%i minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "2 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "3 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "4 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "5 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "8 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "10 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~| msgid "minutes"
+#~ msgid "12 minutes"
+#~ msgstr "minit"
+
+#, fuzzy
+#~ msgid "_Plugged In"
+#~ msgstr "Kamera web bina dalam"
+
+#, fuzzy
+#~| msgid "_Delay:"
+#~ msgid "Delay"
+#~ msgstr "_Lengahan:"
+
+#, fuzzy
+#~ msgid "Authentication Required"
+#~ msgstr "Pakej-pakej Diperlukan"
+
+#, fuzzy
+#~ msgid "Out of toner"
+#~ msgstr "Log Keluar"
+
+#, fuzzy
+#~ msgid "Out of developer"
+#~ msgstr "Log Keluar"
+
+#, fuzzy
+#~ msgid "Out of paper"
+#~ msgstr "Log Keluar"
+
+#, fuzzy
+#~| msgid "_Profession:"
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "_Profession:"
+
+#, fuzzy
+#~| msgid "Install"
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Pasang"
+
+#, fuzzy
+#~ msgid "No printers available"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#, fuzzy, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "Aktif"
+
+#, fuzzy
+#~| msgid "Select Sound File"
+#~ msgid "Select PPD File"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#, fuzzy
+#~ msgid "No suitable driver found"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#, fuzzy
+#~ msgid "Select from database…"
+#~ msgstr "Pilih "
+
+#, fuzzy
+#~| msgid "page"
+#~ msgid "Test page"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Tidak dapat akses peranti '%s'"
+
+#, fuzzy
+#~ msgid "Printers"
+#~ msgstr "_Cetak"
+
+#, fuzzy
+#~ msgid "Pause Printing"
+#~ msgstr "<b>Orientasi Tetikus</b>"
+
+#, fuzzy
+#~ msgid "Cancel Print Job"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~ msgid "Add a New Printer"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "No printers detected."
+#~ msgstr "Tiada tablet dikesan"
+
+#, fuzzy
+#~| msgid "Select finger"
+#~ msgid "Select Printer Driver"
+#~ msgstr "Pilih "
+
+#, fuzzy
+#~ msgid "JetDirect Printer"
+#~ msgstr "Kursor Default"
+
+#, fuzzy
+#~ msgid "LPD Printer"
+#~ msgstr "_Cetak"
+
+#, fuzzy
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Nama pengguna telalu panjang."
+
+#, fuzzy
+#~| msgid "Port:"
+#~ msgid "Portrait"
+#~ msgstr "Liang:"
+
+#, fuzzy
+#~| msgid "_Profession:"
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "_Profession:"
+
+#, fuzzy
+#~| msgid "_Title:"
+#~ msgid "Job Title"
+#~ msgstr "_Tajuk:"
+
+#, fuzzy
+#~| msgid "_Timeout:"
+#~ msgid "Time"
+#~ msgstr "Masa berbaki: %s"
+
+#, fuzzy, c-format
+#~| msgid "Location:"
+#~ msgid "Location: %s"
+#~ msgstr "Select Location"
+
+#, fuzzy, c-format
+#~| msgid "_Address:"
+#~ msgid "Address: %s"
+#~ msgstr "Alamat"
+
+#, fuzzy
+#~ msgid "Server requires authentication"
+#~ msgstr "Had dibenarkan untuk kegagalan pengesahan"
+
+#, fuzzy
+#~| msgid "Alert Type"
+#~ msgid "Paper Type"
+#~ msgstr "Jenis Waspada"
+
+#, fuzzy
+#~ msgid "Paper Source"
+#~ msgstr "Tukar ke sumber sebelumnya"
+
+#, fuzzy
+#~ msgid "Output Tray"
+#~ msgstr "Volum _output:"
+
+#, fuzzy
+#~ msgid "Orientation"
+#~ msgstr "Orientasi Kidal"
+
+#, fuzzy
+#~| msgid "General"
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Am"
+
+#, fuzzy
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Pilihan Capaian"
+
+#, fuzzy
+#~| msgid "Job"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Pekerjaan"
+
+#, fuzzy
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Kualiti Rendah"
+
+#, fuzzy
+#~| msgid "Colors"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Warna"
+
+#, fuzzy
+#~| msgid "_Select"
+#~ msgid "Auto Select"
+#~ msgstr "Select Location"
+
+#, fuzzy
+#~| msgid "Make Default"
+#~ msgid "Printer Default"
+#~ msgstr "Jadikan Default"
+
+#, fuzzy
+#~ msgid "No pre-filtering"
+#~ msgstr "Tiada Latar Belakang Desktop"
+
+#, fuzzy
+#~ msgid "Add Printer"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~ msgid "Remove Printer"
+#~ msgstr "Buang Pakej"
+
+#, fuzzy
+#~| msgid "Location:"
+#~ msgid "Location"
+#~ msgstr "Select Location"
+
+#, fuzzy
+#~ msgid "_Default printer"
+#~ msgstr "Kursor Default"
+
+#, fuzzy
+#~ msgid "Show _Jobs"
+#~ msgstr "Tunjuk katalaluan"
+
+#, fuzzy
+#~| msgid "Models"
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#, fuzzy
+#~ msgid "Setting new driver…"
+#~ msgstr "- Login GDM baharu"
+
+#, fuzzy
+#~| msgid "page"
+#~ msgid "page 3"
+#~ msgstr "laman"
+
+#, fuzzy
+#~ msgid "Print _Test Page"
+#~ msgstr "Cetak versi GDM"
+
+#, fuzzy
+#~| msgid "_Options..."
+#~ msgid "_Options"
+#~ msgstr "Pilihan"
+
+#, fuzzy
+#~ msgid "Add New Printer"
+#~ msgstr "Gagal untuk menambah akaun"
+
+#, fuzzy
+#~| msgid "Screen"
+#~ msgid "Screen Lock"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgid "Software Usage"
+#~ msgstr "Pasang Perisian"
+
+#, fuzzy
+#~ msgid "Screen Turns Off"
+#~ msgstr "Ambil gambar skrin"
+
+#, fuzzy
+#~| msgid "seconds"
+#~ msgid "30 seconds"
+#~ msgstr "saat"
+
+#, fuzzy
+#~ msgid "1 day"
+#~ msgstr "Perubahan sepanjang hari"
+
+#, fuzzy
+#~ msgid "_Recently Used"
+#~ msgstr "Digunakan oleh %s "
+
+#, fuzzy
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Ambil gambar skrin"
+
+#, fuzzy
+#~ msgid "Show _Notifications"
+#~ msgstr "Tunjuk katalaluan"
+
+#, fuzzy
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "%s: Arahan pelayan kosong bagi paparan %s"
+
+#, fuzzy
+#~| msgid "_Location name:"
+#~ msgid "_Location Services"
+#~ msgstr "Select Location"
+
+#, fuzzy
+#~| msgid "No matches found."
+#~ msgid "No regions found"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#~ msgid "No input sources found"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Lain-lain"
+
+#~ msgid "Restart Now"
+#~ msgstr "Mulakan Semula Sekarang"
+
+#, fuzzy
+#~ msgid "No input source selected"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#~ msgid "Login Screen"
+#~ msgstr "Skrin Log Masuk"
+
+#~ msgid "Formats"
+#~ msgstr "Format"
+
+#~ msgid "Preview"
+#~ msgstr "Pretonton"
+
+#~ msgid "Measurement"
+#~ msgstr "Ukuran"
+
+#, fuzzy
+#~ msgid "Add an Input Source"
+#~ msgstr "Tukar ke sumber sebelumnya"
+
+#, fuzzy
+#~ msgid "Input Source Options"
+#~ msgstr "Tunjuk pilihan bantuan"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Tukar ke sumber sebelumnya"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Tukar ke sumber seterusnya"
+
+#, fuzzy
+#~ msgid "Left+Right Alt"
+#~ msgstr "Jari tengah kanan"
+
+#~ msgid "Options"
+#~ msgstr "Pilihan"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Lain-lain"
+
+#~ msgid "Select Location"
+#~ msgstr "Select Location"
+
+#~ msgid "No applications found"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#~ msgid "Search"
+#~ msgstr "Cari"
+
+#~ msgid "Search Locations"
+#~ msgstr "Lokasi Carian"
+
+#~ msgid "Move Up"
+#~ msgstr "Bergerak ke Atas"
+
+#~ msgid "Move Down"
+#~ msgstr "Bergerak ke Bawah"
+
+#~ msgid "Preferences"
+#~ msgstr "Keutamaan"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Buka"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Tutup"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Dibolehkan"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktif"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Pilih Folder"
+
+#~ msgid "Copy"
+#~ msgstr "Salin"
+
+#, fuzzy
+#~ msgid "Sharing"
+#~ msgstr "Perkongsian Skrin"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Memboleh atau melumpuhkan log masuk dari jauh"
+
+#~ msgid "Networks"
+#~ msgstr "Rangkaian"
+
+#, fuzzy
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "Perkongsian Skrin"
+
+#~ msgid "Computer Name"
+#~ msgstr "Nama Komputer"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Perkongsian Fail Peribadi"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Perkongsian Skrin"
+
+#, fuzzy
+#~ msgid "Media Sharing"
+#~ msgstr "Perkongsian Skrin"
+
+#~ msgid "Remote Login"
+#~ msgstr "Log Masuk Dari Jauh"
+
+#~ msgid "Require Password"
+#~ msgstr "Perlu Katalaluan"
+
+#, fuzzy
+#~ msgid "Allow Remote Control"
+#~ msgstr "Memboleh atau melumpuhkan log masuk dari jauh"
+
+#~ msgid "Password:"
+#~ msgstr "Katalaluan:"
+
+#~ msgid "Show Password"
+#~ msgstr "Tunjuk katalaluan"
+
+#~ msgid "Access Options"
+#~ msgstr "Pilihan Capaian"
+
+#~ msgid "Require a password"
+#~ msgstr "Memerlukan katalaluan"
+
+#~ msgid "Sound"
+#~ msgstr "Bunyi"
+
+#~ msgid "Bark"
+#~ msgstr "Nyalakan"
+
+#~ msgid "Drip"
+#~ msgstr "Titisan"
+
+#~ msgid "Glass"
+#~ msgstr "Gelas"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Kiri"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Kanan"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Belakang"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Depan"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Mengecilkan"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maksimum"
+
+#~ msgid "_Balance:"
+#~ msgstr "Seim_bang:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Bunyi biasa"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profail:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Output"
+
+# msgstr[1] "%u Output"
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Input"
+
+# msgstr[1] ""
+#~ msgid "System Sounds"
+#~ msgstr "Bunyi Sistem"
+
+#, fuzzy
+#~ msgid "_Test Speakers"
+#~ msgstr "Profail ujian:"
+
+#~ msgid "Peak detect"
+#~ msgstr "Kesan Puncak"
+
+#~ msgid "Name"
+#~ msgstr "Nama"
+
+#~ msgid "Device"
+#~ msgstr "Peranti"
+
+#, fuzzy, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Cari rentetan"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Volum _output:"
+
+#, fuzzy
+#~ msgid "Output"
+#~ msgstr "%u Output"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Pilih peranti untuk output bunyi:"
+
+#, fuzzy
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Cipta profail warna untuk peranti yang dipilih."
+
+#~ msgid "Input"
+#~ msgstr "Input"
+
+#, fuzzy
+#~ msgid "_Input volume:"
+#~ msgstr "Volume mute"
+
+#, fuzzy
+#~ msgid "Input level:"
+#~ msgstr "Tiada sumber input dijumpai"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Pilih peranti untuk input bunyi:"
+
+#, fuzzy
+#~| msgid "Sound Events"
+#~ msgid "Sound Effects"
+#~ msgstr "Keutamaan Bunyi"
+
+#, fuzzy
+#~ msgid "_Alert volume:"
+#~ msgstr "Volume mute"
+
+#, fuzzy
+#~| msgid "<b>Applications</b>"
+#~ msgid "Applications"
+#~ msgstr "Tiada aplikasi dijumpai"
+
+#, fuzzy
+#~ msgid "Built-in"
+#~ msgstr "Kamera web bina dalam"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Keutamaan Bunyi"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#, fuzzy
+#~| msgid "Icon theme"
+#~ msgid "From theme"
+#~ msgstr "Tema ikon"
+
+#, fuzzy
+#~| msgid "Choose a Layout"
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "Pilih Susunan"
+
+#, fuzzy
+#~ msgid "Test"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~ msgid "Custom"
+#~ msgstr "Pintasan Penyesuaian"
+
+#, fuzzy
+#~ msgid "_High Contrast"
+#~ msgstr "Kualiti Tinggi"
+
+#, fuzzy
+#~| msgid "Large"
+#~ msgid "_Large Text"
+#~ msgstr "Mesej panji-panji teks"
+
+#, fuzzy
+#~ msgid "_Zoom"
+#~ msgstr "Zum"
+
+#, fuzzy
+#~| msgid "Linux Screen Reader"
+#~ msgid "Screen _Reader"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~| msgid "_Sounds:"
+#~ msgid "_Sound Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~ msgid "Hearing"
+#~ msgstr "<b>Rendering Font</b>"
+
+#, fuzzy
+#~| msgid "Visual"
+#~ msgid "_Visual Alerts"
+#~ msgstr "Visual"
+
+#, fuzzy
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Pintasan Papan Kekunci"
+
+#, fuzzy
+#~| msgid "Mouse Keys"
+#~ msgid "_Mouse Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~| msgid "Linux Screen Reader"
+#~ msgid "Screen Reader"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~| msgid "Linux Screen Reader"
+#~ msgid "_Screen Reader"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgid "Sound Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~| msgid "Visual"
+#~ msgid "Visual Alerts"
+#~ msgstr "Visual"
+
+#, fuzzy
+#~ msgid "_Test flash"
+#~ msgstr "Profail ujian:"
+
+#, fuzzy
+#~| msgid "Flash _window titlebar"
+#~ msgid "Flash the _window title"
+#~ msgstr "Pengurusan dan penggubahan tetingkap"
+
+#, fuzzy
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Ambil gambar skrin"
+
+#, fuzzy
+#~ msgid "Typing Assist"
+#~ msgstr "Perihal Monitor Menaip GNOME"
+
+#, fuzzy
+#~| msgid "Sticky Keys"
+#~ msgid "_Sticky Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~ msgid "Beep when a _modifer key is pressed"
+#~ msgstr "Beep bila _modifier ditekan"
+
+#, fuzzy
+#~| msgid "Slow Keys"
+#~ msgid "S_low Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~| msgid "Short"
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#, fuzzy
+#~| msgid "Long"
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#, fuzzy
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Beep bila _modifier ditekan"
+
+#, fuzzy
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Tekanan kekunci ber_ulang apabila kekunci ditekan"
+
+#, fuzzy
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Tekanan kekunci ber_ulang apabila kekunci ditekan"
+
+#, fuzzy
+#~ msgid "_Bounce Keys"
+#~ msgstr "Kekunci Ulangan"
+
+#, fuzzy
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "_Abaikan gandaan tekanan kekunci dalam tempoh:"
+
+#, fuzzy
+#~| msgid "Short"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#, fuzzy
+#~| msgid "Long"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#, fuzzy
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Benarkan mod panjang lebar"
+
+#, fuzzy
+#~| msgid "Short"
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#, fuzzy
+#~| msgid "Long"
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#~ msgid "D_elay:"
+#~ msgstr "P_enangguhan:"
+
+#, fuzzy
+#~| msgid "Short"
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#, fuzzy
+#~| msgid "Long"
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#, fuzzy
+#~ msgid "Motion _threshold:"
+#~ msgstr "_Treshold:"
+
+#~| msgid "Small"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Kecil"
+
+#~| msgid "Large"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Besar"
+
+#~| msgid "Short"
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Pendek"
+
+#~| msgid "Screen"
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼  Skrin"
+
+#~| msgid "Screen"
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ Skrin"
+
+#~| msgid "Screen"
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ Skrin"
+
+#~| msgid "Long"
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Panjang"
+
+#~| msgid "Screen"
+#~ msgid "Full Screen"
+#~ msgstr "Skrin Penuh"
+
+#~ msgid "Top Half"
+#~ msgstr "Separuh Keatas"
+
+#~| msgid "Left"
+#~ msgid "Left Half"
+#~ msgstr "Separuh Kekiri"
+
+#~| msgid "Right"
+#~ msgid "Right Half"
+#~ msgstr "Separuh Kekanan"
+
+#~| msgid "Layout Options"
+#~ msgid "Zoom Options"
+#~ msgstr "Pilihan Zum"
+
+#~ msgid "Zoom"
+#~ msgstr "Zum"
+
+#~| msgid "Location:"
+#~ msgid "Magnification:"
+#~ msgstr "Pembesaran:"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "Ikut penanda tetikus"
+
+#~| msgid "Screen"
+#~ msgid "Screen part:"
+#~ msgstr "Bahagian skrin: "
+
+#~| msgid "Orca with Magnifier"
+#~ msgid "Magnifier"
+#~ msgstr "Kaca Pembesar"
+
+#~| msgid "C_olors:"
+#~ msgid "Color:"
+#~ msgstr "Warna:"
+
+#, fuzzy
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#~| msgid "Brightness up"
+#~ msgid "Brightness:"
+#~ msgstr "Kecerahan:"
+
+#~| msgid "Contact"
+#~ msgid "Contrast:"
+#~ msgstr "Kontras:"
+
+#~| msgid "Colors"
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Warna"
+
+#~| msgid "None"
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#~| msgid "_Full"
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Penuh"
+
+#~| msgid "Low"
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Rendah"
+
+#~| msgid "High"
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Tinggi"
+
+#~| msgid "Low"
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Rendah"
+
+#~| msgid "High"
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Tinggi"
+
+#~| msgid "C_olors:"
+#~ msgid "Color Effects:"
+#~ msgstr "Kesan Warna:"
+
+#~| msgid "Colors"
+#~ msgid "Color Effects"
+#~ msgstr "Kesan Warna"
+
+#, fuzzy
+#~ msgid "Login History"
+#~ msgstr "Skrin Log Masuk"
+
+#, fuzzy
+#~ msgid "Add User Account"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#, fuzzy
+#~ msgid "Remove User Account"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#, fuzzy
+#~| msgid "_Language:"
+#~ msgid "_Language"
+#~ msgstr "_Bahasa:"
+
+#, fuzzy
+#~ msgid "Manage user accounts"
+#~ msgstr "Cipta satu akaun pengguna"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Petakan Butang"
+
+#, fuzzy
+#~ msgid "Map buttons to functions"
+#~ msgstr "Petakan ke monitor tunggal"
+
+#, fuzzy
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr "Taip pemecut baru, atau tekan Backspace untuk terangkan"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Keatas"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Kebawah"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Tiada"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Tukar Monitor"
+
+#~ msgid "Output:"
+#~ msgstr "Output:"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Petakan ke monitor tunggal"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Pemetaan Paparan"
+
+#~ msgid "Button"
+#~ msgstr "Butang"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Tablet Wacom"
+
+#, fuzzy
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Keutamaan Tablet"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Keutamaan Tablet"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Tiada tablet dikesan"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Tetapan Bluetooth"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Peta untuk Dipantau"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Butang Peta..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Betulkan resolusi paparan"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Betulkan tetapan tetikus"
+
+#, fuzzy
+#~ msgid "Tracking Mode"
+#~ msgstr "Benarkan mod panjang lebar"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Orientasi Kidal"
+
+#~ msgid "Left Ring"
+#~ msgstr "Cincin Kiri"
+
+#, fuzzy, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Mod Cincin Kanan #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Cincin Kanan"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Mod Cincin Kanan #%d"
+
+#, fuzzy
+#~ msgid "Left Touchstrip"
+#~ msgstr "Ibu jari kiri"
+
+#, fuzzy, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Benarkan mod panjang lebar"
+
+#, fuzzy
+#~ msgid "Right Touchstrip"
+#~ msgstr "Ibu jari kanan"
+
+#, fuzzy, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Mod Cincin Kanan #%d"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Tukar Mod #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Butang Kiri  #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Butang Kanan  #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Butang Atas #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Butang Bawah  #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Pintasan baharu..."
+
+#~ msgid "No Action"
+#~ msgstr "Tiada Tindakan"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Skrol ke atas"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Skrol Ke Bawah"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Skrol Ke Kiri"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Skrol Ke Kanan"
+
+#~ msgid "Stylus"
+#~ msgstr "Stilus"
+
+#~ msgid "Top Button"
+#~ msgstr "Butang Atas"
+
+#~ msgid "Lower Button"
+#~ msgstr "Butang Bawah"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Benarkan mod panjang lebar"
+
+#~ msgid "Show the overview"
+#~ msgstr "Tunjuk gambaran keseluruhan"
+
+#~ msgid "Search for the string"
+#~ msgstr "Cari rentetan"
+
+#~ msgid "Show help options"
+#~ msgstr "Tunjuk pilihan bantuan"
+
+#~ msgid "Panel to display"
+#~ msgstr "Panel hendak dipaparkan"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "- Settings"
+#~ msgstr "- Tetapan"
+
+#~ msgid "Available panels:"
+#~ msgstr "Panel tersedia:"
+
+#~ msgid "Help"
+#~ msgstr "Bantuan"
+
+#~ msgid "Quit"
+#~ msgstr "Henti"
+
+#~ msgid "All Settings"
+#~ msgstr "Semua Tetapan"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Peribadi"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Sistem"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Keutamaan;Tetapan;"
+
+#~ msgid "More themes URL"
+#~ msgstr "Lagi URL tema"
+
+#~ msgid "Image/label border"
+#~ msgstr "Imej/label batasan"
+
+#, fuzzy
+#~ msgid "The type of alert"
+#~ msgstr "Jenis pemecut ."
+
+#~ msgid "Show more _details"
+#~ msgstr "Tunjuk perincian butiran"
+
+#~ msgid "Place your left thumb on %s"
+#~ msgstr "Letakkan ibu jari kiri pada %s"
+
+#~ msgid "Place your left index finger on %s"
+#~ msgstr "Letakkan jari telunjuk kiri anda pada %s"
+
+#~ msgid "Place your left middle finger on %s"
+#~ msgstr "Letakkan jari tengah kiri pada %s"
+
+#~ msgid "Place your left ring finger on %s"
+#~ msgstr "Letakkan jari manis kiri anda pada %s"
+
+#~ msgid "Place your left little finger on %s"
+#~ msgstr "Letakkan jari anak kiri anda pada %s"
+
+#~ msgid "Place your right thumb on %s"
+#~ msgstr "Letakkan jari ibu kanan anda pada %s"
+
+#~ msgid "Place your right index finger on %s"
+#~ msgstr "Letakkan jari tengah kanan anda pada %s"
+
+#~ msgid "Place your right middle finger on %s"
+#~ msgstr "Letakkan jari tengah kanan anda pada %s"
+
+#~ msgid "Place your right ring finger on %s"
+#~ msgstr "Letakkan jari manis kanan anda pada %s"
+
+#~ msgid "Place your right little finger on %s"
+#~ msgstr "Letakkan jari anak kanan anda pada %s"
+
+#~ msgid "Place your finger on the reader again"
+#~ msgstr "Letakkan jari anda pada pemgimbas sekali lagi"
+
+#~ msgid "Your finger was not centered, try swiping your finger again"
+#~ msgstr "Jari anda tidak ditengahkan, sila lalukan sekali lagi jari anda"
+
+#~ msgid "Select Image"
+#~ msgstr "Pilih Imej"
+
+#~ msgid "No Image"
+#~ msgstr "Tiada Imej"
+
+#~ msgid "Images"
+#~ msgstr "Imej"
+
+#~ msgid "All Files"
+#~ msgstr "Semua Fail"
+
+#~ msgid "About %s"
+#~ msgstr "Perihal %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "A_lamat:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "P_embantu"
+
+#~ msgid "About Me"
+#~ msgstr "Perihal Saya"
+
+#~ msgid "C_ity:"
+#~ msgstr "B_andar:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "S_yarikat:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Tukar Katalal_uan..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Ban_dar:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Ne_gara:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Neg_ara:"
+
+#~ msgid "Email"
+#~ msgstr "Emel"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Rum_ah:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Mesej Instan"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "P.O. _box:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P._O. box:"
+
+#~ msgid "Select your photo"
+#~ msgstr "Pilih gambar anda"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Negeri/Wilayah:"
+
+#~ msgid "Web"
+#~ msgstr "Laman Sesawang"
+
+#~ msgid "Web _log:"
+#~ msgstr "Log _Laman Sesawang:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Ker_ja"
+
+#~ msgid "Work"
+#~ msgstr "Kerja"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Faks _kerja:"
+
+#~ msgid "ZIP/_Postal code:"
+#~ msgstr "ZIP/_Poskod:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Laman Sesawang Rumah"
+
+#~ msgid "_Home:"
+#~ msgstr "_Rumah:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Pengurus:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Negeri/Wilayah:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Kerja:"
+
+#~ msgid "_XMPP:"
+#~ msgstr "_XMPP:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_ZIP/Postal code:"
+#~ msgstr "_ZIP/Poskod:"
+
+#~ msgid "Place finger on reader"
+#~ msgstr "Letakkan jari pada pembaca"
+
+#~ msgid "System error: %s."
+#~ msgstr "Ralat sistem: %s."
+
+#~ msgid "Unable to launch %s: %s"
+#~ msgstr "Tidak dapat lancarkan %s: %s"
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Ralat sistem telah berlaku"
+
+#~ msgid "Checking password..."
+#~ msgstr "Menyemak katalaluan"
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr "Kilik <b>Tukar katalaluan</b> untuk menukar katalaluan anda"
+
+#~ msgid "Please type your password in the <b>New password</b> field."
+#~ msgstr "Sila taip katalaluan dalam <b>Katalaluan baru</b> ruang."
+
+#~ msgid ""
+#~ "Please type your password again in the <b>Retype new password</b> field."
+#~ msgstr ""
+#~ "Sila taip katalaluan sekali lagi dalam <b>Taip semula katalaluan</b> "
+#~ "ruang."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Tukar ka_talaluan"
+
+#~ msgid "Change your password"
+#~ msgstr "Tukar katalaluan anda"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Kebolehcapaikan Lo_g masuk"
+
+#~ msgid "Assistive Technologies"
+#~ msgstr "Aplikasi Teknologi Penolong"
+
+#, fuzzy
+#~ msgid "Assistive Technologies Preferences"
+#~ msgstr "Keutamaan Aplikasi Teknologi Penolong"
+
+#, fuzzy
+#~ msgid ""
+#~ "Changes to enable assistive technologies will not take effect until your "
+#~ "next log in."
+#~ msgstr ""
+#~ "<small><i><b>Nota:</b> Perubahan kepada tetapan ini tak akan "
+#~ "bertindakbalas sehingga anda log masuk kelak.</i></small>"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Tutup dan _Log Keluar"
+
+#, fuzzy
+#~ msgid "Jump to Preferred Applications dialog"
+#~ msgstr "Aplikasi Digemari"
+
+#, fuzzy
+#~ msgid "Jump to the Keyboard Accessibility dialog"
+#~ msgstr "_Hidupkan ciri-ciri kebolehcapaian Papan Kekunci"
+
+#~ msgid "Jump to the Mouse Accessibility dialog"
+#~ msgstr "Lompat ke dialog Aksesibiliti Tetikus"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Hidupkan teknologi pertolongan"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Kebolehcapaikan Papankekunci"
+
+#, fuzzy
+#~ msgid "_Mouse Accessibility"
+#~ msgstr "Keboleh_capaikan"
+
+#~ msgid "_Preferred Applications"
+#~ msgstr "_Aplikasi Digemari"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Tambah Kertas Dinding"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Font mungkin terlalu besar"
+
+#~ msgid "Use previous font"
+#~ msgstr "Guna fon terdahulu"
+
+#~ msgid "Use selected font"
+#~ msgstr "Guna fon dipilih"
+
+#, fuzzy
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Tiada lokasi fail tema dinyatakan untuk dipasang"
+
+#~ msgid "Apply Background"
+#~ msgstr "Terapkan Latar Belakang"
+
+#~ msgid "Apply Font"
+#~ msgstr "Terapkan Fon"
+
+#~ msgid "Revert Font"
+#~ msgstr "Kembalikan Fon"
+
+#, fuzzy
+#~ msgid "The current theme suggests a background and a font."
+#~ msgstr "Tema ini mencadangkan latarbelakang:"
+
+#, fuzzy
+#~ msgid "The current theme suggests a background."
+#~ msgstr "Tema ini mencadangkan latarbelakang:"
+
+#, fuzzy
+#~ msgid "The current theme suggests a font."
+#~ msgstr "Tema ini mencadangkanfont:"
+
+#, fuzzy
+#~ msgid "Appearance Preferences"
+#~ msgstr "Keutamaan Tema"
+
+#~ msgid "Best _shapes"
+#~ msgstr "_Bentuk terbaik"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "_Kontras terbaik"
+
+#, fuzzy
+#~ msgid "C_ustomize..."
+#~ msgstr "Tersendiri"
+
+#~ msgid "Controls"
+#~ msgstr "Kawalan"
+
+#, fuzzy
+#~ msgid "Customize Theme"
+#~ msgstr "Tema tersendiri"
+
+#~ msgid "D_etails..."
+#~ msgstr "P_erincian..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Fon _desktop:"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Perincian Rendering Font"
+
+#~ msgid "Fonts"
+#~ msgstr "Fon"
+
+#~ msgid "Get more themes online"
+#~ msgstr "Dapatkan lagi tema secara online"
+
+#, fuzzy
+#~ msgid "Gra_yscale"
+#~ msgstr "Skala _kelabu"
+
+#~ msgid "Hinting"
+#~ msgstr "Bayangang"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Gradien mengufuk"
+
+#~ msgid "Icons"
+#~ msgstr "Ikon"
+
+#~ msgid "Icons only"
+#~ msgstr "Ikon sahaja"
+
+#~ msgid "N_one"
+#~ msgstr "_Tiada"
+
+#, fuzzy
+#~ msgid "R_esolution:"
+#~ msgstr "_Resolusi:"
+
+#, fuzzy
+#~ msgid "Save Theme As..."
+#~ msgstr "_Simpan Tema..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Simpan _Sebagai..."
+
+#~ msgid "Solid color"
+#~ msgstr "Warna tegar"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Sub_piksel (LCD)"
+
+#~ msgid "Subpixel Order"
+#~ msgstr "Turutan subpiksel"
+
+#~ msgid "Text"
+#~ msgstr "Teks"
+
+#~ msgid "Text below items"
+#~ msgstr "Teks dibawah item"
+
+#~ msgid "Text beside items"
+#~ msgstr "Teks di sebelah item"
+
+#~ msgid "Text only"
+#~ msgstr "Teks sahaja"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Gradien menegak"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "_Keterangan:"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Fon desktop:"
+
+#, fuzzy
+#~ msgid "_Fixed width font:"
+#~ msgstr "Font tajuk _tetingkap:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Pasang..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Medium"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Monokrom"
+
+#~ msgid "_None"
+#~ msgstr "_Tiada"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#, fuzzy
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Ulangtetap ke de_fault"
+
+#, fuzzy
+#~ msgid "_Selected items:"
+#~ msgstr "_Susunatur dipilih:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Saiz:"
+
+#~ msgid "_Style:"
+#~ msgstr "_Gaya:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "Font tajuk _tetingkap:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Tetingkap:"
+
+#~ msgid "dots per inch"
+#~ msgstr "dot per inci"
+
+#, fuzzy
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Pilih tema bagi desktop"
+
+#~ msgid "Installs themes packages for various parts of the desktop"
+#~ msgstr "Pilih pakej tema bagi pelbagai bahagian pada dekstop"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Pemasang Tema"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Pakej Tema GNOME"
+
+#~ msgid "Image"
+#~ msgstr "Imej"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %s\n"
+#~ "Folder: %s"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s\n"
+#~ "Folder: %s"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Tidak dapat pasang tema"
+
+#~ msgid "The %s utility is not installed."
+#~ msgstr "Utiliti %s tidak dipasang."
+
+#~ msgid "There was an error installing the selected file"
+#~ msgstr "Terdapat ralat pasang fail dipilih"
+
+#~ msgid "Installation for theme \"%s\" failed."
+#~ msgstr "Pemasangan tema \"%s\" gagal."
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Kekal Tema Terkini"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Terapkan Tema Baru"
+
+#~ msgid "New themes have been successfully installed."
+#~ msgstr "Tema baru berjaya dipasang"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Tiada lokasi fail tema dinyatakan untuk dipasang"
+
+#~ msgid "Select Theme"
+#~ msgstr "Pilih Tema"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Tema Pakej"
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Nama tema mesti ada"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Adakah anda ingin memadam tema ini?"
+
+#~ msgid "Could not install theme engine"
+#~ msgstr "Tidak dapat pasang enjin tema"
+
+# lom
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with DBus, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Gagal memulakan pengurus tetapan 'gnome-setting-daemon'.\n"
+#~ "Tanpa pengurus tetapan GNOME terlaksana, setengah keutamaan tidakk dapat "
+#~ "bertindak. Ini menunjukkan masalah dengan DBus, atau pengurus tetapan "
+#~ "bukan-GNOME (ie. KDE) sudah tersedia aktif dan konflik dengan pengurus "
+#~ "tetapan GNOME."
+
+#, fuzzy
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Tak dapat memuatkan ikon stkl caplet '%s'\n"
+
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Terdapat ralat memapar bantuan: %s"
+
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Menyalin fail: %u of %u"
+
+#~ msgid "Copying '%s'"
+#~ msgstr "Penyalinan '%s'"
+
+#~ msgid "Parent Window"
+#~ msgstr "Tetingkap Utama"
+
+#~ msgid "From URI"
+#~ msgstr "Dari URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI sedang dipindahkan dari"
+
+#~ msgid "To URI"
+#~ msgstr "Ke URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI sedang dipindahkan ke"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Pecahan selesai"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Pecahan pemindahan kini selesai"
+
+#~ msgid "Current URI index"
+#~ msgstr "Indeks URI semasa"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Indeks URI semasa - bermula dari 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "Jumlah URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Bilangan Jumlah URI"
+
+#~ msgid "_Skip"
+#~ msgstr "_Langkau"
+
+#~ msgid "Key"
+#~ msgstr "Kekunci"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Kekunci GConf yang ciri-ciri editor ini disisipkan"
+
+#~ msgid "Callback"
+#~ msgstr "Panggilbalik"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Panggilbalik bila nilai yang diasiosasikan dengan kekunci bertukar"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "GConf tukar set yang mengandungi data untuk diforwardkan ke klient gconf "
+#~ "pada terapan"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Penukaran widget panggilbalik"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Panggilbalik akan disisukan bila data hendak ditukarkan daripada GConf ke "
+#~ "widget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Penukaran daripada panggilbalik wigdet"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Panggilbalik akan diisukan apabila data yang akan ditukarkan kepada GConf "
+#~ "daripada widget"
+
+#~ msgid "UI Control"
+#~ msgstr "Kawalan UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Objek yang mengawal ciri-ciri (biasanya widget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Tetapan data objek editor"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Data custom diperlukan bagi sesetengah editor tetapan"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Data property editor melepaskan panggilbalik"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Panggilbalik yang akan diisukan apabila data property editor yang "
+#~ "dikosongkan"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Tak menjumpai fail  '%s'.\n"
+#~ "\n"
+#~ "Pastikan ianya wujud dan cuba lagi, atau pilih gambar latar belakang yang "
+#~ "lain."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Saya tidak tau bagaimana untuk membuka fail  '%s'.\n"
+#~ "Mungkin ianya jenis gambar yang belum disokong lagi.\n"
+#~ "\n"
+#~ "Sebaliknya, sila pilih gambar lain."
+
+#~ msgid "Please select an image."
+#~ msgstr "Sila pilih satu imej."
+
+#, fuzzy
+#~ msgid "Default Pointer - Current"
+#~ msgstr "Kursor Default - Semasa"
+
+#, fuzzy
+#~ msgid "White Pointer"
+#~ msgstr "Kursor Putih"
+
+#, fuzzy
+#~ msgid "White Pointer - Current"
+#~ msgstr "Kursor Putih - Semasa"
+
+#, fuzzy
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Kursor Besar - Semasa"
+
+#, fuzzy
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Kursor Putih Besar - Semasa"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Aplikasi Digemari"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Pembantu Visual"
+
+#, fuzzy
+#~ msgid "Error saving configuration: %s"
+#~ msgstr ""
+#~ "Ralat membuang tetapan pemecut  pada pangkalandata konfigurasi: %s\n"
+
+#~ msgid "Accessibility"
+#~ msgstr "Kebolehcapaikan"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "_Arahan:"
+
+#, fuzzy
+#~ msgid "E_xecute flag:"
+#~ msgstr "Flag _Larian:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Penonton Imej"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Mesej Instan"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Pembaca Mel"
+
+#~ msgid "Mobility"
+#~ msgstr "Mobiliti"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Buka pautan pada _tab baru"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Buka pautan pada tetingkap baru"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Laksana di t_erminal"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminal Emulator"
+
+#~ msgid "Text Editor"
+#~ msgstr "Editor Teks"
+
+#~ msgid "Web Browser"
+#~ msgstr "Pelayar Web"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Pemain Muzik Banshee"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Mel Claws"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Pelayar Web Derfault"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Terminal Debian Emulator"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Pelayar Web Epiphany"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Pembaca Emel Evolution"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "Terminal GNOME"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus dengan Kanta Pembesar"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Mail Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Listen"
+#~ msgstr "Dengar"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mel Mozilla"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Pemain Muzik Rhythmbox"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "Mail SeaMonkey"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Pemain Wayang Totem"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Termasuk _panel"
+
+#, fuzzy
+#~ msgid "Monitor Preferences"
+#~ msgstr "Keutamaan Font"
+
+#~ msgid "Panel icon"
+#~ msgstr "Ikon Panel"
+
+#, fuzzy
+#~ msgid "R_otation:"
+#~ msgstr "_Lokasi:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Kadar ke_segaran:"
+
+#~ msgid "Upside-down"
+#~ msgstr "Terbalik"
+
+#, fuzzy
+#~ msgid "Monitors"
+#~ msgstr "Kawalan"
+
+#~ msgid "Upside Down"
+#~ msgstr "Upside Down"
+
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#, fuzzy
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Pilih aplikasi default anda"
+
+#~ msgid "Desktop"
+#~ msgstr "Desktop"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Kekunci pemecut"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Pengubahsuai pemecut"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Kod kekunci pemecut"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Mod Pemecut"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Jenis pemecut ."
+
+#, fuzzy
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr ""
+#~ "Ralat membuang tetapan pemecut  pada pangkalandata konfigurasi: %s\n"
+
+#, fuzzy
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Pintasan bagi volum naik"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Umpuk kekunci pintasan pada arahan"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr ""
+#~ "Hanya terapkan tetapan dan keluar (kompatibiliti sahaja; kini dikendali "
+#~ "oleh deamon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Mulakan halaman dengan tetapan hentian taip dipaparkan"
+
+#, fuzzy
+#~ msgid "Start the page with the accessibility settings showing"
+#~ msgstr "Mulakan halaman dengan tetapan hentian taip dipaparkan"
+
+#, fuzzy
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "Keutamaan Papan Kekunci"
+
+#, fuzzy
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Beep bila _modifier ditekan"
+
+#, fuzzy
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Beep jika kekunci di_lepas"
+
+#, fuzzy
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Keutamaan Kebolehcapaian Papan Kekunci (AccessX)"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "_Izinkan tangguhan bagi hentian"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Maklumbalas _Audio..."
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Semak jika hentian adalah diizinkan untuk ditangguh"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Tempoh bagi hentian bila menaip tak diizinkan"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Tempoh bagi kerja untuk memaksa hentian"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Model papan kekunci:"
+
+#~ msgid "Layouts"
+#~ msgstr "Susunatur"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Kunci skrin selepas tempoh tertentu untuk membantu mencegah kemalangan "
+#~ "papan kekunci berulang"
+
+#, fuzzy
+#~ msgid "Reset to De_faults"
+#~ msgstr "Ulangtetap ke de_fault"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Pemecutan:"
+
+#~ msgid "_Break interval lasts:"
+#~ msgstr "_Selangmasa rehat bertahan"
+
+#, fuzzy
+#~ msgid "_Lock screen to enforce typing break"
+#~ msgstr "<b>_Kunci skrin untuk menimplementasi hentian taip</b>"
+
+#, fuzzy
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Hanya terima tekanan kekunci bagi:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Taip untuk uji tetapan:"
+
+#~ msgid "_Work interval lasts:"
+#~ msgstr "_Selangmasa kerja bertahan"
+
+#~ msgid "By _language"
+#~ msgstr "Mengikut _bahasa"
+
+#~ msgid "_Country:"
+#~ msgstr "_Negara:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Variasi:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Pilih Model Papan Kekunci"
+
+#~ msgid "_Models:"
+#~ msgstr "_Model:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Susunan Opsyen Papan Kekunci"
+
+#~ msgid "Layout"
+#~ msgstr "Susunatur"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Tetapkan keutamaan papan kekunci"
+
+#, fuzzy
+#~ msgid "gesture|Disabled"
+#~ msgstr "Dimatikan"
+
+#, fuzzy
+#~ msgid "- GNOME Mouse Preferences"
+#~ msgstr "Keutamaan Tetikus"
+
+#, fuzzy
+#~ msgid "Drag and Drop"
+#~ msgstr "<b>Heret dan Jatuh</b>"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Keutamaan Tetikus"
+
+#, fuzzy
+#~ msgid "Thr_eshold:"
+#~ msgstr "_Treshold:"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Dimatikan"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Tetikus-kidal"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Tahap sensitif:"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Sekali klik:"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Tetapkan keutamaan tetikus"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Keutamaan proksi rangkaian"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Konfigurasi proksi _automatik</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Konfigurasi proksi _manual</b>"
+
+#~ msgid "C_reate"
+#~ msgstr "C_ipta"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Perincian Proksi HTTP"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Senarai Hos Abaian"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Keutamaan Proksi Rangkaian"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "Proksi HTTP _Selamat:"
+
+#, fuzzy
+#~ msgid "Cannot start the preferences application for your window manager"
+#~ msgstr ""
+#~ "<b>Tak dapat memulakan aplikasi keutamaan bagi pengurus tetingkap anda</"
+#~ "b>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_iper"
+
+#~ msgid "S_uper (or \"Windows logo\")"
+#~ msgstr "S_uper (atau \"Logo Windows\")"
+
+#~ msgid "Movement Key"
+#~ msgstr "Kekunci Pergerakan"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Aksi Bar Tajuk"
+
+#, fuzzy
+#~ msgid "To move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Untuk meng_alih tetingkap, tekan-dan-pegang kekunci dan genggam tetingkap:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Keutamaan Tetingkap"
+
+#~ msgid "Window Selection"
+#~ msgstr "Pemilihan Tertingkap"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Dwi-klik bar tajuk untuk melakukan aksi ini:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Selang masa sebelum angkat:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Angkat tetingkap dipilih selepas satu selangmasa"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Pilih tetingkap bila tetikus di atasnya"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "Ciri-ciri Tetingkap"
+
+#~ msgid "Windows"
+#~ msgstr "Tetingkap"
+
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr "Pengurus tetingkap \"%s\" tak mendaftarkan radas konfigurasi\n"
+
+#~ msgid "Maximize Vertically"
+#~ msgstr "Maksimalkan Menegak"
+
+#~ msgid "Maximize Horizontally"
+#~ msgstr "Maksimalkan Melintang"
+
+#~ msgid "Filter"
+#~ msgstr "Tapis"
+
+#~ msgid "Groups"
+#~ msgstr "Kumpulan"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Tugas Biasa"
+
+#~ msgid "Control Center"
+#~ msgstr "Pusat Kawalan"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Radas Konfigurasi GNOME"
+
+#~ msgid "_Postpone Break"
+#~ msgstr "_Tangguh Rehat"
+
+#~ msgid "Take a break!"
+#~ msgstr "Masa rehat!"
+
+#~ msgid "_Take a Break"
+#~ msgstr "_Rehat Sebentar"
+
+#, fuzzy
+#~ msgid "%d minute until the next break"
+#~ msgid_plural "%d minutes until the next break"
+#~ msgstr[0] "%d minit sampai rehat seterusnya"
+#~ msgstr[1] "%d minit sampai rehat seterusnya"
+
+#~ msgid "Less than one minute until the next break"
+#~ msgstr "Kurang drpd satu minit sehingga hentian berikutnya"
+
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Tak dapat membuka dialog ciri-ciri hentian menatip kerana ralat berikut: "
+#~ "%s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Ditulis oleh Richard Hult <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Eye candy ditambah oleh Anders Carlsson"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Pengingat hentian komputer."
+
+#~ msgid "translator-credits"
+#~ msgstr "kredit-penterjemah"
+
+#~ msgid "Copyright:"
+#~ msgstr "hakcipta:"
+
+#~ msgid "Description:"
+#~ msgstr "Keterangan:"
+
+#~ msgid "Installed"
+#~ msgstr "Terpasang"
+
+#~ msgid "Install Failed"
+#~ msgstr "Pemasangan Gagal"
+
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "penggunaan: %s fontfile\n"
+
+#, fuzzy
+#~ msgid "Font Viewer"
+#~ msgstr "Pusat Kawalan GNOME"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Fon Prebiu"
+
+#~ msgid "TEXT"
+#~ msgstr "TEKS"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Saiz fon (default:64)"
+
+#~ msgid "SIZE"
+#~ msgstr "SAIZ"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "Penapisan anda \"%s\" tidak sama mana-mana item."
+
+#~ msgid "Upgrade"
+#~ msgstr "Naiktaraf"
+
+#, fuzzy
+#~ msgid "Uninstall"
+#~ msgstr "_Pasang"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Tambah ke Kegemaran"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Buang dari Aplikasi Permulaan"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Tambah pada Program Permulaan"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Spreadsheet Baru"
+
+#~ msgid "New Document"
+#~ msgstr "Dokumen Baru"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumen"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Buka</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Namakan..."
+
+#~ msgid "Send To..."
+#~ msgstr "Hantar Kepada..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Pindah ke Tong Sampah"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Jika anda padam item, ia kekal hilang"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Buka dengan \"%s\""
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Buka dengan aplikasi default anda"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Bukan dalam Pengurus Fail"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Hari ini %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "Find Now"
+#~ msgstr "Cari Sekarang"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Buka %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Buangkan dari Item Sistem"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Kecil</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Kelajuan</b>"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Sokongan</b>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Kelajuan</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Sokongan</b>"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Katalaluan:"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Sokongan</b>"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Mulakan teknologi pertolongan ini setiap kali anda log masuk:"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Sokongan Teknologi Pertolongan"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "Hidupkan sokongan bagi teknologi pertolongan GNOME pasa logmasuk"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Tiada Teknologi Pertolongan pada sistem anda. Pakej 'gok' mesti dipasang "
+#~ "untuk mendapatkan sokongan papan kekunci pada skrin, dan pakej "
+#~ "'gnopernicus' mesti dipasang untuk membolehkan pembacaanskrin dan "
+#~ "pembesaran."
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Terdapat ralat melancarkan dialog keutamaan tetikus: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Tak dapat mengimport tetapan AccessX dari fail '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Import Fail Tetapan Keupayaan"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Tetapkan ciri-ciri Kebolehcapaian Papan Kekunci"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Sistem ini nampaknya tidak mempunyai sambungan XKB. Kebolehcapaian papan "
+#~ "kekunci tidak akan beroperasi dengannya."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Hidupkan Kekunci _Bounce</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Hidupkan Kekunci _Perlahan</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Hidupkan Kekunci _Tetikus</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Hidupkan Kekunci _Ulangan</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Hidupkan Kekunci _Melekat</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Keupayaan</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Togol Kekunci</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Asas"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "Beep bila LED dinyalana dan 2 beep bila salah satu dipadam."
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "Lengahan antara tekanan kekunci dengan per_gerakan penuding:"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Hidupkan Kekunci _Togol"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Abaikan semua turutan tekan bagi kekunci SAMA jika ianya berlaku dalam "
+#~ "tempoh yang boleh dipilih pengguna."
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "Ke_utamaan Tetikus..."
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Masa untuk meme_cut ke kelajuan maksimum:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Hidupkan pad kekunci numerik pada pad kawalan tetikus."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "_Dimatikan jika tidak digunakan selama:"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Import Tetapak Keupayaan..."
+
+#~ msgid "_accepted"
+#~ msgstr "dite_rima"
+
+#~ msgid "_pressed"
+#~ msgstr "dite_kan"
+
+#~ msgid "characters/second"
+#~ msgstr "aksara/saat"
+
+#~ msgid "milliseconds"
+#~ msgstr "milisaat"
+
+#~ msgid "pixels/second"
+#~ msgstr "piksel/saat"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>Kertas _Dinding Desktop</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>Warna _Desktop</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Keutamaan Latar Belakang"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Tambah Kertas Dinding"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Hanya terapkan tetapan dan keluar"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Terima dan simpan tetapan warisan"
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "Dari: %s"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Dua"
+
+#~ msgid "Epiphany"
+#~ msgstr "Epiphany"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "Pelungsur Teks W3M"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Pelungsur Teks Lynx"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Pelungsur Teks Links"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Sila nyatakan nama dan arahan bagi editor ini."
+
+#, fuzzy
+#~ msgid "C_ustom:"
+#~ msgstr "Tersendiri"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Ciri-ciri Editor Tersendiri"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Pembaca Emel Default"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Terminal Default"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Editor teks default"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Pelayar Web Derfault"
+
+#~ msgid "Edit..."
+#~ msgstr "Edit..."
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "Laksana di _Terminal"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Pilih pengurus tetingkap yang anda mahu.  Anda dikehendaki menekan apply, "
+#~ "goyangkan kayu silap mata, dan lakukan tarian silap mata untuk "
+#~ "menjayakannya"
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "Memahami Kawalan Remote _Netscape"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr "Guna _editor ini untuk membuka fail teks pada pengurus fail"
+
+#~ msgid "Window Manager"
+#~ msgstr "Pengurus Tetingkap"
+
+#, fuzzy
+#~ msgid "_Command:"
+#~ msgstr "_Arahan:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Ciri-ciri..."
+
+#, fuzzy
+#~ msgid "_Select:"
+#~ msgstr "di_lepaskan"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Keutamaan Resolusi Skrin"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "_Jadikan default bagi komputer (%s) ini sahaja"
+
+#, fuzzy
+#~ msgid "Keep Resolution"
+#~ msgstr "_Kekalkan resolusi"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Kekalkan resolusi"
+
+#, fuzzy
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Pelayan X tak menyokong sambungan XRandR. Perubahan resolusi serta merta "
+#~ "ke saiz paparan  adalah mustahil."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Versi sambungan XRandR tak serasi dengan program ini. Perubahan "
+#~ "sertamerta rke saiz paparan adalah mustahil."
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Pilih font bagi desktop"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "_Pergi ke folder font"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "Font _terminal"
+
+#~ msgid "Window Management"
+#~ msgstr "Pengurusan Tetingkap"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "Ralat menetapkan pemecut baru pada pangkalandata konfigurasi: %s\n"
+
+#~ msgid "There was an error launching the keyboard capplet : %s"
+#~ msgstr "Terdapat ralat melancarkan caplet papan kekunci: %s"
+
+#, fuzzy
+#~ msgid "..."
+#~ msgstr "Tambah..."
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Laju</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Panjang</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Pendek</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Perlahan</i></small>"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "Keboleh_capaian..."
+
+#~ msgid "The default cursor that ships with X"
+#~ msgstr "Kursor default yang datang dengan X"
+
+#~ msgid "The default cursor inverted"
+#~ msgstr "Kursor default disongsangkan"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Kursor Besar"
+
+#~ msgid "Large version of normal cursor"
+#~ msgstr "Versi besar bagi kursor normal"
+
+#~ msgid "Large version of white cursor"
+#~ msgstr "Versi besar bagi kursor putih"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Pantas</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Tinggi</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Besar</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Rendah</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Perlahan</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Kecil</i>"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "Saiz Kursor"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Serlahkan _penuding bila anda menekan Ctrl"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "_URL Autokonfigurasi:"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Hidupkan bunyi dan bunyi dikaitkan dengan acara"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "_Hidupkan pelayan bunyi permulaan"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "_Bunyikan locang boleh didengar"
+
+#~ msgid "_Sounds for events"
+#~ msgstr "_Bunyi bagi acara"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "Maklumbalas _visual:"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Tiada tema dijumpai pada sistem anda. Ini bermakna dialog \"Keutamaan Tema"
+#~ "\"  anda tak dipasang dengan betul. atau anda tak memasang pakej \"gnome-"
+#~ "themes\""
+
+#, fuzzy
+#~ msgid "The file format is invalid"
+#~ msgstr "Fail %s adalah fail wav yang tidak sah"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Lokasi fail tema yg dinyatakan untuk dipasang adalah tak sah"
+
+#, fuzzy
+#~ msgid "The file format is invalid."
+#~ msgstr "Fail %s adalah fail wav yang tidak sah"
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s adalah laluan dimana fail tema dipasang. Ini tak boleh dipilih sebagai "
+#~ "lokasi sumber"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr "Anda boleh menyimpan tema dengan menekan btang Simpan Tema."
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Pasang Tema</span>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Simpan Tema ke Cakera</span>"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Tema baru boleh juga dipasang dengan mengheret tema ke tetingkap."
+
+#~ msgid "Save Theme"
+#~ msgstr "Simpan Tema"
+
+#~ msgid "Short _description:"
+#~ msgstr "_Huraian pendek:"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Perincian Tema"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Tema ini mencadangkan font dan latarbelakang."
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Tema ini mencadangkan font dan latarbelakang:"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Pergi ke Folder Tema"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Pasang Tema..."
+
+#~ msgid "_Theme name:"
+#~ msgstr "Nama _Tema: "
+
+#~ msgid "theme selection tree"
+#~ msgstr "Pepohon pemilihan tema"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr "Personalisasi penampilan toolbar dan bar menu pada aplikasi"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Menu & Toolbar"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Penampilan dan Kelakuan</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Prebiu</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "_Potong"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Keutamaan Menu dan Toolbar"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Label _butang toolbar: "
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "Toolbar boleh _lerai"
+
+#~ msgid "_Edit"
+#~ msgstr "_Edit"
+
+#~ msgid "_File"
+#~ msgstr "_Fail"
+
+#~ msgid "_New"
+#~ msgstr "Ba_ru"
+
+#~ msgid "Control"
+#~ msgstr "Kawalan"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "Keutamaan Latar Belakang"
+
+#~ msgid "Volume"
+#~ msgstr "Volum"
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Adakah anda ingin mengaktifkan Kekunci Perlahan?"
+
+#, fuzzy
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Adakah anda ingin mengaktifkan Kekunci Perlahan?"
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Adakah anda akan mengaktifkan Kekunci Lekat?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Adakah anda ingin mempasifkan Kekunci Lekat?"
+
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Tak dapat mencipta direktori \"%s\".\n"
+#~ "Ini diperlukan untuk membolehkan penukaran kursor."
+
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr ""
+#~ "Ikatan Kekunci (%s) imempunyai aksi yang ditakrifkan beberapa kali\n"
+
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Ikatan Kekunci (%s) mempunyai ikatan ditakrifkan banyak kali\n"
+
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Ikatan kekunci (%s) tidak selesai\n"
+
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Ikatan Kekunci (%s) tidak sah\n"
+
+#~ msgid "It seems that another application already has access to key '%d'."
+#~ msgstr "Nampaknya aplikasi lain sudah mempunyai akses ke kekunci'%d'."
+
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Ralat bila cuba melaksanakan (%s)\n"
+#~ "dimana ianya dipautkan ke kekunci (%s)"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Anda menggunakan XFree 4.3.0.\n"
+#~ "Terdapat masalah dengan konfigurasi XKB yang kompleks.\n"
+#~ "Sila cuba menggunakan konfigurasi ringkas atau dapatkan versi terkini "
+#~ "perisian XFree."
+
+#, fuzzy
+#~ msgid "Do _not show this warning again"
+#~ msgstr "_Jangan papar mesej ini lagi"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this command exists."
+#~ msgstr ""
+#~ "Tak dapat melaksanakan arahan: %s\n"
+#~ "Sila tentusahkan bahawa arahan ini wujud."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Tak dapat meletakkan mesin kepada tidur.\n"
+#~ "Pastikan mesin dikonfigurasikan dengan betul."
+
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Keizinan bagi fail  %s adalah rosak\n"
+
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Terdapat ralat memulakan screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Fungsi screensaver tidak akan bekerja pada sessi ini."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Jangan papar mesej ini lagi"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Tak dapat menentukan direktori rumah pengguna"
+
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Kekunci GConf %s ditetapkan ke jenis %s tapi ia menjangkakan jenis %s\n"
+
+#, fuzzy
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Jangan papar mesej ini lagi"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "Model"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Jenis bg_applier: BG_APPLIER_ROOT pada tetingkap root atau "
+#~ "BG_APPLIER_PREVIEW untuk prebiu"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Lebar jika penerap adalah prebiu: Default ke 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Tinggi Prebiu"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Tinggi jika penerap adalah prebiu: Default ke 48."
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Skrin dimana BGAplier akan lukis"
+
+#, fuzzy
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Terdapat ralat memapar bantuan: %s"
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Fail bunyi untuk acara ini tidak wujud."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package\n"
+#~ "for a set of default sounds."
+#~ msgstr ""
+#~ "Fail bunyi untuk acara ini tidak wujud.\n"
+#~ "Anda juga boleh pasang pakej gnome-audio\n"
+#~ "untuk menetapkan bunyi default."
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Fail %s adalah fail wav yang tidak sah"
+
+#~ msgid "Event"
+#~ msgstr "Acara"
+
+#~ msgid "Sound File"
+#~ msgstr "Fail Bunyi"
+
+#~ msgid "Sound _file:"
+#~ msgstr "_Fail bunyi:"
+
+#~ msgid "_Play"
+#~ msgstr "_Main"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "Jika benar, pengendali mime bagi text/plain dan text/* akan kekal "
+#~ "disinkronisasikan"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Sinkronisasi pengendali text/plain and text/*"
+
+#~ msgid "Brightness down"
+#~ msgstr "Kecerahan turun"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Pintasan bagi kecerahan turun"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "PIntasan bagi kecerahan naik"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Pintasan bagi emel"
+
+#, fuzzy
+#~ msgid "Home folder's shortcut."
+#~ msgstr "PIntasan bagi Rumah Daku"
+
+#, fuzzy
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Pintasan bagi Melancarkan Pelungsur Bantuan"
+
+#, fuzzy
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Pintasan bagi Melancar Pelungsur Web"
+
+#, fuzzy
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "PIntasan bagi Kunci Skrin."
+
+#, fuzzy
+#~ msgid "Log out's shortcut."
+#~ msgstr "Pintasan bagi Log Keluar"
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Pintasan bagi trek berikutnya."
+
+#~ msgid "Pause"
+#~ msgstr "Kaku"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "PIntasan bagi kekunci kaku."
+
+#, fuzzy
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "PIntasan bagi Main (atau Main/Kaku)"
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Pintasan bagi trek terdahulu."
+
+#~ msgid "Sleep"
+#~ msgstr "Tidur"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Pintasan tidur"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "PIntasan bagi kekunci Henti bermain"
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Pintasan bagi volum mute"
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Pintasan bagi volum mute"
+
+#~ msgid "Volume step"
+#~ msgstr "Langkah volum"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Langkah volum sebagai peratusan volum."
+
+#, fuzzy
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr "Papar dialog bila ralat melaksanakan XScreenSaver"
+
+#, fuzzy
+#~ msgid "Run screensaver at login"
+#~ msgstr "Laksana Xcreensaver pada logmasuk"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Mula Xscreensaver"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "_Model papan kekunci:"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "Susunatur papan kekunci XKB"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "_Model papan kekunci:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr "Tetapan XKB pada gconf akan ditindih drpd sistem secepat mungkin"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "Susunatur papan kekunci XKB"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "Model papan kekunci XKB"
+
+#~ msgid "/_About"
+#~ msgstr "/_Perihal"
+
+#~ msgid "Break reminder"
+#~ msgstr "Pengingat hentian"
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Monitor menaip sudah dilaksanakan."
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Seekor arnab memakan kangkung bersama tiong. 0123456789"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Terapkan font baru?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Ja_ngan terapkan font"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Tema yang anda pilih mencadangkan font baru. Prebiu font dipaparkan "
+#~ "dibawah."
+
+#~ msgid "Themes"
+#~ msgstr "Tema"
+
+#~ msgid "Description"
+#~ msgstr "Huraian"
+
+#~ msgid "Window border theme"
+#~ msgstr "Tema sempadan tetingkap"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDEFG"
+
+#, fuzzy
+#~ msgid "Sets the default theme"
+#~ msgstr "Ulangtetap ke de_fault"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "Jika ditetapkan, tema dipasang akan di'thumbnail'kan."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Jika ditetapkan, tema akan di'thumbnail'kan."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Tetapkan kekunci ini dengan arahan digunakan untuk mencipta thumbnail "
+#~ "bagi tema dipasang."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "tetapkan kekunci ini dengan arahan digunakan untuk imencipta thumbnail "
+#~ "bagi tema"
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "arahan thumbnail bagi tema dipasang"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Arahan thumbnail bagi tema"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Samada untuk meng'thumbnail'kan tema dipasang"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Samada untuk meng'thumbnail'kan tema"

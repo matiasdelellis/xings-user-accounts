@@ -1,0 +1,5414 @@
+# Italian translation for gnome-control-center
+# Copyright (C) 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 Free Software Foundation, Inc.
+# Alcune traduzioni sono state riprese da gnome-media
+# This file is relased with the same licence of gnome-control-center-package
+# Christopher R. Gabriel, 2001, 2002.
+# Alessio Dessì <alkex@inwind.it>, 2003, 2004, 2005, 2006, 2007.
+# Milo Casagrande <milo@milo.name>, 2009, 2012, 2013, 2014, 2015, 2016.
+# Luca Ferretti <elle.uca@infinito.it>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
+# Gianvito Cavasoli <gianvito@gmx.it>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-11-02 11:47+0100\n"
+"Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
+"Language-Team: Italiano <gnome-it-list@gnome.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "Nome _utente"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "Nome _completo"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Normale"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Tipo di account"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Password"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "_Permettere all'utente di impostare una password al prossimo accesso"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Impostare una pass_word adesso"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "Pass_word"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "Confer_ma"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"L'accesso enterprise consente di usare su questo dispositivo un preesistente "
+"account utente gestito centralmente. È possibile utilizzare questo account "
+"per accedere alle risorse aziendali su Internet."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Dominio"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "È necessario essere online per aggiungere account enterprise."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "Account _enterprise"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Aggiungi utente"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Accesso amministratore dominio"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Per poter utilizzare gli accessi enterprise, il computer deve essere\n"
+"registrato nel dominio. Chiedere all'amministratore di rete\n"
+"di digitare la password per il dominio in questo campo."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "_Nome amministratore"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Password amministratore"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Pollice sinistro"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Medio sinistro"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Anulare sinistro"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Mignolo sinistro"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Pollice destro"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Medio destro"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Anulare destro"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Mignolo destro"
+
+# (ndt) titolo
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Abilita accesso con impronta"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Dito indice _destro"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Dito indice _sinistro"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Altro dito:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"L'impronta digitale è stata salvata con successo. È ora possibile eseguire "
+"l'accesso utilizzando il lettore di impronte."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Utenti"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Aggiunge o rimuove utenti e cambia la propria password"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Login;Accesso;Nome;Impronta;Avatar;Logo;Faccia;Password;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Cambia password"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "A_nnulla"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "C_ambia"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Nuova pass_word"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "Nuova pass_word"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "_Password attuale"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Permette all'utente di modificare la password al prossimo accesso"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Impostare una password adesso"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "A_ggiungi utente…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Opzioni di ingrandimento"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Accesso a_utomatico"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Accesso con i_mpronta"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Icona utente"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Ultimo accesso"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Rimuovi account"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Altri account"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Eliminazione dell'utente non riuscita"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Revoca dell'utente gestito da remoto non riuscita"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Non è concesso eliminare il proprio account."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s non ha ancora terminato la sessione"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Eliminare un utente mentre è ancora in corso la sua sessione può lasciare il "
+"sistema in uno stato incoerente."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Mantenere i file di %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"È possibile mantenere la directory home, gli spool di posta e i vari file "
+"temporanei quando si elimina un account utente."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Elimina file"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "Mantieni _file"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Revocare veramente l'account di %s gestito da remoto?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Elimina"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Account disabilitato"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Da impostare al prossimo accesso"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Nessuno"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Accesso eseguito"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%H:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+# Contatto mi pareva orrendo...
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Comunicazione con servizio account non riuscita"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Assicurarsi che AccountService sia installato e abilitato."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Per apportare cambiamenti,\n"
+"fare prima clic sull'icona *"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Crea un account utente"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Per creare un account utente,\n"
+"fare prima clic sull'icona *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Elimina l'account utente selezionato"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Per eliminare l'account utente selezionato,\n"
+"fare prima clic sull'icona *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Account personale"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "La nuova password deve essere diversa dalla precedente."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Provare a cambiare alcune lettere e numeri."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Provare a cambiare la password un po' di più."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Una password che non contiene il proprio nome utente è più robusta."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Provare a evitare l'uso del proprio nome nella password."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Provare a evitare alcune delle parole incluse nella password."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Provare a evitare parole comuni."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Provare a evitare di riordinare parole esistenti."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Provare a usare più numeri."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Provare a usare più lettere maiuscole."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Provare a usare più lettere minuscole."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Provare a usare più caratteri speciali, come quelli di punteggiatura."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+"Provare a usare una combinazione di lettere, numeri e segni di punteggiatura."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Provare a evitare la ripetizione dello stesso carattere."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Provare a evitare di ripetere lo stesso tipo di carattere: combinare "
+"lettere, numeri e segni di punteggiatura."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Provare a evitare sequenze come 1234 o abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+"Provare a usare una combinazione di lettere, numeri e segni di punteggiatura."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Combinare lettere maiuscole e minuscole e usare un numero o due."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Ottima password! Aggiungendo altre lettere, numeri e segni di punteggiatura "
+"la si renderà ancora più robusta."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Autenticazione non riuscita"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "La nuova password è troppo corta"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "La nuova password è troppo semplice"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "La nuova password è troppo simile alla vecchia"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "La nuova password è già stata usata di recente."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "La nuova password deve contenere caratteri numerici o speciali"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "La nuova password coincide con la vecchia"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"La propria password è cambiata da quando si è inizialmente effettuata "
+"l'autenticazione."
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "La nuova password non contiene abbastanza caratteri diversi"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Errore sconosciuto"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+"Dovrebbe corrispondere all'indirizzo web del proprio fornitore di accesso."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Aggiunta dell'account non riuscita"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Le password non corrispondono-"
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Registrazione dell'account non riuscita"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Nessun modo supportato per autenticarsi con questo dominio"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Join al dominio non riuscita"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Nome di accesso non valido.\n"
+"Provare di nuovo."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Password non valida.\n"
+"Provare di nuovo."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Accesso al dominio non riuscito"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Impossibile trovare il dominio. Forse è stato digitato in modo errato."
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "A_ggiungi"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Normale"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Amministratore"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"L'accesso al dispositivo non è consentito. Contattare l'amministratore di "
+"sistema."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Il dispositivo è già in uso."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Si è verificato un errore interno."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Eliminare le impronte digitali registrate?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Elimina impronte"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Eliminare le impronte digitali registrate così da disabilitare l'accesso "
+"tramite impronta?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Eseguito."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Impossibile accedere al dispositivo «%s»"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Impossibile avviare la cattura dell'impronta sul dispositivo «%s»"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Impossibile accedere ad alcun lettore di impronte digitali"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Contattare l'amministratore di sistema per ricevere aiuto."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Per abilitare l'accesso tramite impronta digitale è necessario salvare una "
+"delle proprie impronte digitali utilizzando il dispositivo «%s»."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Selezione dito"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Registrazione impronte digitali"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Riepilogo"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Questa settimana"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Ultima settimana"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Sessione terminata"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Sessione avviata"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Attività account"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Scegliere un'altra password."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Digitare nuovamente la propria password attuale."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Impossibile cambiare la password"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Seleziona"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Esplora altre immagini"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Apri"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Disabilita immagine"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Cattura una foto…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Esplora altre immagini…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Usato da %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Impossibile unirsi automaticamente a questo tipo di dominio"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Nessun dominio o realm trovati"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Impossibile eseguire l'accesso come %s al dominio %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Password non valida, provare di nuovo"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Impossibile connettersi al dominio %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Il nome utente non è disponibile, provare un altro."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Il nome utente è troppo lungo."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Il nome utente non può cominciare con un «-»."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Il nome utente deve essere formato da lettere maiuscole e minuscole (dalla A "
+"alla Z), numeri e dai seguenti caratteri: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Verrà usato per dare un nome alla propria cartella home e non potrà essere "
+"cambiato."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Oggi"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Ieri"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%d %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Verifica nuova password"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Provare a aggiungere altre lettere, numeri e simboli."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Robustezza: debole"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Robustezza: bassa"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Robustezza: media"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Robustezza: buona"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Robustezza: alta"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Le password non corrispondono."
+
+#~ msgid "_Background"
+#~ msgstr "_Sfondo"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Cambia durante il giorno"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Blocca schermo"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Mosaico"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Ingrandisci"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Centra"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Scala"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Riempi"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Estendi"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Rivestimenti"
+
+#~ msgid "Colors"
+#~ msgstr "Colori"
+
+#~ msgid "Select Background"
+#~ msgstr "Seleziona sfondo"
+
+#~ msgid "Pictures"
+#~ msgstr "Immagini"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Nessuna immagine trovata"
+
+#~ msgid "Home"
+#~ msgstr "Home"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "È possibile aggiungere immagini alla propria cartella %s, verranno "
+#~ "mostrate qui"
+
+#~ msgid "_Select"
+#~ msgstr "_Seleziona"
+
+#~ msgid "multiple sizes"
+#~ msgstr "dimensioni multiple"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Nessuno sfondo per la scrivania"
+
+#~ msgid "Current background"
+#~ msgstr "Sfondo attuale"
+
+#~ msgid "Back­ground"
+#~ msgstr "Sfondo"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Cambia l'immagine di sfondo con un rivestimento o una foto"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Rivestimento;Sfondo;Scrivania;Desktop;Wallpaper;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Disattiva modalità aereo"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Bluetooth non trovato"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Collegare un dispositivo per utilizzare Bluetooth."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth disattivato"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Attivare per collegare dispositivi e ricevere file."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Modalità aereo attiva"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "In modalità aereo il Bluetooth è disabilitato."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Modalità aereo via hardware attivata"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr ""
+#~ "Disattivare la modalità aereo via hardware per abilitare il Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Attiva e disattiva il Bluetooth e connette i propri dispositivi"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "condivisione;condividere;share;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Posizionare il dispositivo di calibrazione sul quadrato e premere «Avvia»"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Mettere il dispositivo di calibrazione nella posizione di calibrazione e "
+#~ "premere «Continua»"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Mettere il dispositivo di calibrazione nella posizione di superficie e "
+#~ "premere «Continua»"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Chiudere il coperchio del portatile"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Si è verificato un errore interno impossibile da correggere."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Gli strumenti necessari alla calibrazione non sono installati."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Non è possibile generare il profilo."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Non è stato possibile ottenere il punto bianco prefissato."
+
+#~ msgid "Complete!"
+#~ msgstr "Completata"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Calibrazione non riuscita"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "È ora possibile rimuovere il dispositivo di calibrazione."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr ""
+#~ "Non disturbare il dispositivo di calibrazione mentre il processo è in "
+#~ "corso"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Schermo del portatile"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Webcam integrata"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Monitor %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Scanner %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Fotocamera %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Stampante %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Webcam %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Abilita la gestione del colore per %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Mostra i profili di colore per %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Non calibrato"
+
+#~ msgid "Default: "
+#~ msgstr "Predefinito: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Spazio colore: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Profilo di test: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Selezionare file profilo ICC"
+
+#~ msgid "_Import"
+#~ msgstr "_Importa"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Profili ICC supportati"
+
+#~ msgid "All files"
+#~ msgstr "Tutti i file"
+
+#~ msgid "Screen"
+#~ msgstr "Schermo"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Caricamento del file non riuscito: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Il profilo è stato caricato su:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Annotare questo URL."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Riavviare il computer con l'abituale sistema operativo."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Digitare l'URL nel browser per scaricare e installare il profilo."
+
+#~ msgid "Save Profile"
+#~ msgstr "Salva profilo"
+
+#~ msgid "_Save"
+#~ msgstr "_Salva"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Crea un profilo di colore per il dispositivo selezionato"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Non è stato rilevato alcuno strumento di misura. Verificare che sia "
+#~ "acceso e connesso nel modo corretto."
+
+# profiling?
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr ""
+#~ "Lo strumento di misura non è in grado di creare un profilo della "
+#~ "stampante."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Il tipo di dispositivo non è al momento supportato."
+
+#~ msgid "Standard Space"
+#~ msgstr "Spazio standard"
+
+#~ msgid "Test Profile"
+#~ msgstr "Prova profilo"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatico"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Qualità bassa"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Qualità media"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Qualità alta"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "RGB predefinito"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "CMYK predefinito"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Grigio predefinito"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Dati di calibrazione di fabbrica forniti dal produttore"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr ""
+#~ "Con questo profilo non è possibile la correzione dello schermo a schermo "
+#~ "intero"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Questo profilo potrebbe non essere più accurato"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Calibrazione schermo"
+
+#~ msgid "_Start"
+#~ msgstr "_Avvia"
+
+#~ msgid "_Resume"
+#~ msgstr "_Riprendi"
+
+#~ msgid "_Done"
+#~ msgstr "_Fatto"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Calibrazione schermo"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "La calibrazione produrrà un profilo che potrà essere usato per gestione "
+#~ "del colore dello schermo. Più tempo si dedica alla calibrazione, migliore "
+#~ "sarà la qualità del profilo colore."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Non sarà possibile usare il computer mentre viene eseguita la "
+#~ "calibrazione."
+
+#~ msgid "Quality"
+#~ msgstr "Qualità"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Tempo stimato"
+
+# non messo l'articolo perché è titolo di uno step dell'assistente, meglio
+# tenerli corti
+#~ msgid "Calibration Quality"
+#~ msgstr "Qualità calibrazione"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr ""
+#~ "Selezionare il dispositivo sensore che si vuole usare per la calibrazione."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Dispositivo calibrazione"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Selezionare il tipo di schermo connesso."
+
+#~ msgid "Display Type"
+#~ msgstr "Tipo di schermo"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Selezionare un punto bianco prefissato per lo schermo. La maggior parte "
+#~ "degli schermi dovrebbe essere calibrata all'illuminante D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Punto bianco del profilo"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Regolare la luminosità dello schermo in modo che sia quella usata "
+#~ "abitualmente. La gestione del colore sarà più accurata a tale livello di "
+#~ "luminosità."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "In alternativa è possibile usare il livello di luminosità usato con uno "
+#~ "degli altri profili per questo dispositivo."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Luminosità schermo"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "È possibile usare un profilo colore su diversi computer, o anche creare "
+#~ "profili per diverse condizioni di illuminazione."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Nome del profilo:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Nome del profilo"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Creazione del profilo riuscita."
+
+#~ msgid "Copy profile"
+#~ msgstr "Copia profilo"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Richiede un supporto scrivibile"
+
+#~ msgid "Upload profile"
+#~ msgstr "Carica profilo"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Richiede una connessione a Internet"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Potrebbero risultare utili le istruzioni su come usare il profilo su <a "
+#~ "href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> e <a href="
+#~ "\"windows\">Microsoft Windows</a>."
+
+#~ msgid "Add profile"
+#~ msgstr "Aggiungi profilo"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Importa file…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Rilevato un problema. Il profilo potrebbe non funzionare correttamente. "
+#~ "<a href=\"\">Mostra dettagli.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Ciascun dispositivo necessita di un profilo di colore aggiornato per "
+#~ "poter gestire il colore."
+
+#~ msgid "Learn more"
+#~ msgstr "Maggiori informazioni"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Maggiori informazioni sulla gestione del colore"
+
+#~ msgid "_Set for all users"
+#~ msgstr "Imposta per _tutti gli utenti"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Imposta questo profilo per tutti gli utenti del computer"
+
+#~ msgid "_Enable"
+#~ msgstr "A_bilita"
+
+#~ msgid "_Add profile"
+#~ msgstr "Aggiungi _profilo"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Calibra…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Calibra il dispositivo"
+
+#~ msgid "_Remove profile"
+#~ msgstr "_Rimuovi profilo"
+
+#~ msgid "_View details"
+#~ msgstr "Visualizza _dettagli"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr ""
+#~ "Impossibile rilevare un dispositivo che supporti la gestione del colore"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Proiettore"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (retroilluminazione CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (retroilluminazione LED RGB)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (retroilluminazione LED bianco)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "LCD wide gamut (retroilluminazione CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "LCD wide gamut (retroilluminazione LED RGB)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Alta"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minuti"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Media"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuti"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Bassa"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minuti"
+
+#~ msgid "Native to display"
+#~ msgstr "Nativo allo schermo"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (stampa e pubblicazione)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (fotografia e grafica)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Colore"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Calibra il colore dei dispositivi, come schermi, fotocamere o stampanti"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Colore;ICC;Profilo;Calibrazione;Stampante;Display;Schermo;"
+
+#~ msgid "Other…"
+#~ msgstr "Altro…"
+
+#~ msgid "More…"
+#~ msgstr "Altro…"
+
+#~ msgid "No languages found"
+#~ msgstr "Nessuna lingua trovata"
+
+#~ msgid "Language"
+#~ msgstr "Lingua"
+
+#~ msgid "Day"
+#~ msgstr "Giorno"
+
+#~ msgid "Month"
+#~ msgstr "Mese"
+
+#~ msgid "Year"
+#~ msgstr "Anno"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %I:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %H:%M"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%I:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%H:%M"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Gennaio"
+
+#~ msgid "February"
+#~ msgstr "Febbraio"
+
+#~ msgid "March"
+#~ msgstr "Marzo"
+
+#~ msgid "April"
+#~ msgstr "Aprile"
+
+#~ msgid "May"
+#~ msgstr "Maggio"
+
+#~ msgid "June"
+#~ msgstr "Giugno"
+
+#~ msgid "July"
+#~ msgstr "Luglio"
+
+#~ msgid "August"
+#~ msgstr "Agosto"
+
+#~ msgid "September"
+#~ msgstr "Settembre"
+
+#~ msgid "October"
+#~ msgstr "Ottobre"
+
+#~ msgid "November"
+#~ msgstr "Novembre"
+
+#~ msgid "December"
+#~ msgstr "Dicembre"
+
+#~ msgid "Date & Time"
+#~ msgstr "Data e ora"
+
+#~ msgid "Hour"
+#~ msgstr "Ora"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Minuto"
+
+#~ msgid "Time Zone"
+#~ msgstr "Fuso orario"
+
+#~ msgid "Search for a city"
+#~ msgstr "Cerca una città"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_Data e ora automatiche"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Richiede accesso a Internet"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "_Fuso orario automatico"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Da_ta e ora"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Fus_o orario"
+
+#~ msgid "Time _Format"
+#~ msgstr "F_ormato ora"
+
+#~ msgid "24-hour"
+#~ msgstr "24 ore"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Cambia data e orario, così come fuso orario"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Orologio;Tempo;Data;Fuso;Posizione;Orario;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Cambia le impostazioni di sistema per l'ora e la data"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr ""
+#~ "Per cambiare le impostazioni dell'ora e della data è necessario "
+#~ "autenticarsi."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Coperchio chiuso"
+
+#~ msgid "Mirrored"
+#~ msgstr "Duplicati"
+
+#~ msgid "Primary"
+#~ msgstr "Primario"
+
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "Secondary"
+#~ msgstr "Secondario"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Disponi schermi combinati"
+
+#~ msgid "_Apply"
+#~ msgstr "_Applica"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Trascina gli schermi per ridisporli"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Ruota in senso antiorario di 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Ruota di 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Ruota in senso orario di 90°"
+
+#~ msgid "Size"
+#~ msgstr "Dimensione"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Rapporto"
+
+#~ msgid "Resolution"
+#~ msgstr "Risoluzione"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Regola per TV"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Frequenza aggiornamento"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr ""
+#~ "Mostra su questo schermo la barra superiore e la panoramica attività"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Schermo secondario"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Unisce questo schermo con l'altro per creare uno spazio di lavoro "
+#~ "aggiuntivo"
+
+#~ msgid "Presentation"
+#~ msgstr "Presentazione"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Mostra solo presentazioni ed elementi mutlimediali"
+
+#~ msgid "Mirror"
+#~ msgstr "Duplicato"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Mostra quanto già visibile su entrambi gli schermi"
+
+#~ msgid "Turn Off"
+#~ msgstr "Spegni"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Non usare questo schermo"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Impossibile ottenere informazioni sullo schermo"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Disponi schermi combinati"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Schermi"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Sceglie come usare i monitor e i proiettori connessi"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr ""
+#~ "Pannello;Proiettore;xrandr;Schermo;Risoluzione;Dimensioni;Refresh;Display;"
+#~ "Monitor;"
+
+#~ msgid "Unknown"
+#~ msgstr "Sconosciuto"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (ID build: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (ID build: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+# modificato un po' rispetto originale per mantere "azione"
+#~ msgid "Ask what to do"
+#~ msgstr "Chiedere l'azione da intraprendere"
+
+#~ msgid "Do nothing"
+#~ msgstr "Nessuna azione"
+
+#~ msgid "Open folder"
+#~ msgstr "Aprire la cartella"
+
+#~ msgid "Other Media"
+#~ msgstr "Altri supporti"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Selezionare un'applicazione per i CD audio"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Selezionare un'applicazione per i DVD video"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Selezionare un'applicazione da eseguire quando viene connesso un lettore "
+#~ "musicale"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr ""
+#~ "Selezionare un'applicazione da eseguire quando viene connessa una "
+#~ "fotocamera"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Selezionare un'applicazione per i CD di software"
+
+#~ msgid "audio DVD"
+#~ msgstr "DVD audio"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Disco vuoto Blu-ray"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Disco vuoto CD"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Disco vuoto DVD"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Disco vuoto HD DVD"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Disco video Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "Lettore e-book"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "Disco video HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Software Windows"
+
+#~ msgid "Section"
+#~ msgstr "Sezione"
+
+#~ msgid "Overview"
+#~ msgstr "Panoramica"
+
+#~ msgid "Default Applications"
+#~ msgstr "Applicazioni predefinite"
+
+#~ msgid "Removable Media"
+#~ msgstr "Dispositivi rimovibili"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Versione %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Dettagli"
+
+#~ msgid "View information about your system"
+#~ msgstr "Visualizza informazioni su questo sistema"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "dispositivo;sistema;informazioni;memoria;processore;versione;predefinito;"
+#~ "applicazione;preferite;cd;dvd;usb;audio;video;disc;rimovibile;media;"
+#~ "multimedia;esecuzione;autorun;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Selezionare come gestire altri supporti"
+
+#~ msgid "_Action:"
+#~ msgstr "_Azione:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Tipo:"
+
+#~ msgid "Device name"
+#~ msgstr "Nome dispositivo"
+
+#~ msgid "Memory"
+#~ msgstr "Memoria"
+
+#~ msgid "Processor"
+#~ msgstr "Processore"
+
+#~ msgid "Base system"
+#~ msgstr "Sistema base"
+
+#~ msgid "Disk"
+#~ msgstr "Disco"
+
+#~ msgid "Calculating…"
+#~ msgstr "Calcolo…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafica"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualizzazione"
+
+#~ msgid "Check for updates"
+#~ msgstr "Controlla aggiornamenti"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "E_mail"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Calendario"
+
+#~ msgid "M_usic"
+#~ msgstr "M_usica"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fotografie"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Selezionare come gestire i supporti"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD _audio"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD video"
+
+#~ msgid "_Music player"
+#~ msgstr "Lettore _musicale"
+
+#~ msgid "_Software"
+#~ msgstr "_Software"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Altri supporti…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Non chiedere o avviare programmi all'inserimento di supporti"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Audio e multimediali"
+
+#~ msgid "Volume mute"
+#~ msgstr "Azzera il volume"
+
+#~ msgid "Volume down"
+#~ msgstr "Abbassa volume"
+
+#~ msgid "Volume up"
+#~ msgstr "Alza il volume"
+
+#~ msgid "Launch media player"
+#~ msgstr "Lancia il lettore multimediale"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Riproduci (o riproduci/pausa)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pausa"
+
+#~ msgid "Stop playback"
+#~ msgstr "Ferma la riproduzione"
+
+#~ msgid "Previous track"
+#~ msgstr "Traccia precedente"
+
+#~ msgid "Next track"
+#~ msgstr "Traccia successiva"
+
+#~ msgid "Eject"
+#~ msgstr "Espelli"
+
+#~ msgid "Typing"
+#~ msgstr "Digitazione"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Passa a sorgente di input successiva"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Passa a sorgente di input precedente"
+
+#~ msgid "Launchers"
+#~ msgstr "Lanciatori"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Lancia il visualizzatore di manuali"
+
+#~ msgid "Settings"
+#~ msgstr "Impostazioni"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Lancia la calcolatrice"
+
+#~ msgid "Launch email client"
+#~ msgstr "Lancia il client email"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Lancia il browser web"
+
+#~ msgid "Home folder"
+#~ msgstr "Cartella home"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Cerca"
+
+#~ msgid "Screenshots"
+#~ msgstr "Schermate"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Salva una schermata in $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Salva una schermata di una finestra in $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Salva una schermata di un'area in $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Copia una schermata negli appunti"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Copia una schermata di una finestra negli appunti"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Copia una schermata di un'area negli appunti"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Registra un breve video dello schermo"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Log out"
+#~ msgstr "Termina la sessione"
+
+#~ msgid "Lock screen"
+#~ msgstr "Blocca lo schermo"
+
+#~ msgid "Universal Access"
+#~ msgstr "Accesso universale"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Attiva o disattiva l'ingrandimento"
+
+#~ msgid "Zoom in"
+#~ msgstr "Aumenta l'ingrandimento"
+
+#~ msgid "Zoom out"
+#~ msgstr "Riduci l'ingrandimento"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Attiva o disattiva il lettore di schermo"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Attiva o disattiva la tastiera a schermo"
+
+#~ msgid "Increase text size"
+#~ msgstr "Incrementa la dimensione del testo"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Diminuisci la dimensione del testo"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Attiva o disattiva il contrasto elevato"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Scorciatoie personalizzate"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Tasti carattere alternativi"
+
+#~ msgid "Compose Key"
+#~ msgstr "Tasto Compose"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Solo i modificatori passano a sorgente successiva"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Ripristina la scorciatoia al suo valore predefinito"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s è già in uso per <b>%s</b>: se viene sostituita, %s verrà disabilitata"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Imposta scorciatoia personalizzata"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Imposta scorciatoia"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Inserire la nuova scorciatoia per cambiare <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Aggiungi scorciatoia personalizzata"
+
+#~ msgid "Key­board"
+#~ msgstr "Tastiera"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Visualizza e modifica le scorciatoie da tastiera e imposta le preferenze "
+#~ "di digitazione"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Scorciatoie;Ripetizione;Lampeggiamento;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Nessuna scorciatoia trovata"
+
+#~ msgid "Try a different search"
+#~ msgstr "Provare un altro criterio di ricerca"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Premere Esc per annullare."
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Command"
+#~ msgstr "Comando"
+
+#~ msgid "Shortcut"
+#~ msgstr "Scorciatoia"
+
+#~ msgid "Edit"
+#~ msgstr "Modifica"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Inserire la nuova scorciatoia"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Replace"
+#~ msgstr "Sostituisci"
+
+#~ msgid "Set"
+#~ msgstr "Imposta"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "Test _impostazioni"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Mouse e touchpad"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Cambia la sensibilità di mouse e touchpad e seleziona se per mano destra "
+#~ "o sinistra"
+
+# NOTA: cursore non è corretto, ma gli utenti non lo sanno :(
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Trackpad;Puntatore;Click;Clic;Tap;Doppio;Pulsante;Trackball;Cursore;"
+#~ "Scroll;Scorrimento;"
+
+#~ msgid "General"
+#~ msgstr "Generali"
+
+#~ msgid "Primary Button"
+#~ msgstr "Pulsante primario"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Imposta l'ordine dei pulsanti fisici su mouse e touchpad."
+
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgid "Right"
+#~ msgstr "Destra"
+
+#~ msgid "Mouse"
+#~ msgstr "Mouse"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Velocità mouse"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Tempo disponibile per doppio-clic"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Scorrimento naturale"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Lo scorrimento sposta il contenuto non la vista."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Velocità touchpad"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Toccare per fare clic"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Scorrimento a due dita"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Scorrimento sul bordo"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Provare a fare clic, doppio-clic o scorrere"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Cinque clic, è ora di GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Doppio-clic, pulsante primario"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Clic singolo, pulsante primario"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Doppio-clic, pulsante centrale"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Clic singolo, pulsante centrale"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Doppio-clic, pulsante secondario"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Clic singolo, pulsante secondario"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Modalità ae_reo"
+
+#~ msgid "Network proxy"
+#~ msgstr "Proxy di rete"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "VPN %s"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Oops, sembra si sia verificato un problema: contattare il fornitore "
+#~ "software."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "NetworkManager deve essere in esecuzione."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Sicurezza 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "pagina 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Identità anoni_ma"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "_Autenticazione interna"
+
+#~ msgid "page 2"
+#~ msgstr "pagina 2"
+
+#~ msgid "Security"
+#~ msgstr "Sicurezza"
+
+#~ msgid "automatic"
+#~ msgstr "automatica"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profilo %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Nessuna"
+
+#~ msgid "Never"
+#~ msgstr "Mai"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i giorno fa"
+#~ msgstr[1] "%i giorni fa"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Nessuna"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Debole"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Buona"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Eccellente"
+
+#~ msgid "Details"
+#~ msgstr "Dettagli"
+
+#~ msgid "Identity"
+#~ msgstr "Identità"
+
+#~ msgid "Address"
+#~ msgstr "Indirizzo"
+
+#~ msgid "Netmask"
+#~ msgstr "Netmask"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Delete Address"
+#~ msgstr "Elimina indirizzo"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Elimina server DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metriche"
+
+#~ msgid "Delete Route"
+#~ msgstr "Elimina instradamento"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatico (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Manuale"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Solo link-local"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefisso"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatico"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatico, solo DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Azzera"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Nessuna"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "Chiave WEP 40/128-bit (Hex o ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "Passphrase WEP 128-bit"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "WEP dinamico (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Potenza segnale"
+
+#~ msgid "Link speed"
+#~ msgstr "Velocità collegamento"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Indirizzo IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Indirizzo IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Indirizzo hardware"
+
+#~ msgid "Default Route"
+#~ msgstr "Instradamento predefinito"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Ultimo uso"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Twisted Pair (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Nome"
+
+#~ msgid "_MAC Address"
+#~ msgstr "Indirizzo _MAC"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "Indirizzo _clonato"
+
+#~ msgid "bytes"
+#~ msgstr "byte"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Rendere disponibile agli altri _utenti"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Connettere _automaticamente"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Zona firewall"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Predefinita"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "La zona definisce il livello di fiducia della connessione"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Indirizzi"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "DNS automatico"
+
+#~ msgid "Routes"
+#~ msgstr "Instradamenti"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Instradamenti automatici"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Usare questa connessione s_olo per risorse nella sua rete"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Impossibile aprire l'editor di connessione"
+
+#~ msgid "New Profile"
+#~ msgstr "Nuovo profilo"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Importa da file…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Aggiungi VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "A_zzera"
+
+#~ msgid "_Forget"
+#~ msgstr "_Dimentica"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Azzera le impostazioni per questa rete, incluse le password, ma la "
+#~ "mantiene come una rete preferita"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Rimuove tutti i dettagli relativi a questa rete e non prova a connettersi "
+#~ "automaticamente"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Sicur_ezza"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Impossibile importare la connessione VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Non è possibile leggere il file «%s» oppure il file non contiene "
+#~ "informazioni di connessione VPN riconoscibili\n"
+#~ "\n"
+#~ "Errore: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Selezione file da importare"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Esiste già un file avente nome «%s»."
+
+#~ msgid "_Replace"
+#~ msgstr "_Sostituisci"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Sostituire %s con la connessione VPN che si sta salvando?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Impossibile esportare la connessione VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Non è possibile esportare su %2$s la connessione VPN «%1$s»,\n"
+#~ "\n"
+#~ "Errore: %3$s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Esporta connessione VPN"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Errore: impossibile caricare l'editor di connessioni VPN)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Mia rete personale"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Rendere disponibile agli altri _utenti"
+
+#~ msgid "Net­work"
+#~ msgstr "Rete"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Regola la connessione a Internet"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Rete;Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;"
+#~ "Bluetooth;vpn;DNS;"
+
+#~ msgid "never"
+#~ msgstr "mai"
+
+#~ msgid "today"
+#~ msgstr "oggi"
+
+#~ msgid "yesterday"
+#~ msgstr "ieri"
+
+#~ msgid "IP Address"
+#~ msgstr "Indirizzo IP"
+
+#~ msgid "Last used"
+#~ msgstr "Ultimo uso"
+
+#~ msgid "Wired"
+#~ msgstr "Cavo"
+
+#~ msgid "Options…"
+#~ msgstr "Opzioni…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Aggiungi nuova connessione"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Se è disponibile un'altra connessione a Internet oltre a quella Wi-Fi, è "
+#~ "possibile impostare un hotspot Wi-Fi per condividere con altri tale "
+#~ "connessione."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "L'attivazione dell'hotspot Wi-Fi terminerà la connessione a <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Non è possibile accedere a Internet tramite la connessione wireless "
+#~ "mentre l'hotspot è attivo."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Interrompere l'hotspot e disconnettere tutti gli utenti?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "Ferma _hotspot"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "La politica di sistema proibisce l'uso come Hotspot"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Il dispositivo wireless non supporta la modalità Hotspot"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Saranno persi i dettagli per le reti selezionate, inclusi la password e "
+#~ "ogni configurazione personalizzata."
+
+#~ msgid "History"
+#~ msgstr "Cronologia"
+
+#~ msgid "_Close"
+#~ msgstr "_Chiudi"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Dimentica"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "L'individuazione automatica del proxy web è usata quando non viene "
+#~ "fornito l'URL di configurazione."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Non è consigliato per reti pubbliche non fidate."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Aggiungi profilo…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Provider"
+
+#~ msgid "Network"
+#~ msgstr "Rete"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Manuale"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatico"
+
+#~ msgid "_Method"
+#~ msgstr "_Metodo"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "URL di _configurazione"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Proxy _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Proxy H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Proxy _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Host _SOCKS"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "Host da _ignorare"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Porta proxy HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Porta proxy HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Porta proxy FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Porta proxy SOCKS"
+
+#~ msgid "Turn device off"
+#~ msgstr "Spegne il dispositivo"
+
+#~ msgid "Add Device"
+#~ msgstr "Aggiungi dispositivo"
+
+#~ msgid "Remove Device"
+#~ msgstr "Rimuovi dispositivo"
+
+#~ msgid "VPN Type"
+#~ msgstr "Tipo di VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Nome gruppo"
+
+#~ msgid "Group Password"
+#~ msgstr "Password gruppo"
+
+#~ msgid "Username"
+#~ msgstr "Nome utente"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Spegne la connessione VPN"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Connessione a_utomatica"
+
+#~ msgid "details"
+#~ msgstr "dettagli"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Mostra pass_word"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Rendere disponibile agli altri utenti"
+
+#~ msgid "identity"
+#~ msgstr "identità"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Solo indirizzi automatici (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Solo link-local"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Condivisa con altri computer"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Ingorare gli instradamenti ottenuti automaticamente"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "Indirizzo MAC _clonato"
+
+#~ msgid "hardware"
+#~ msgstr "hardware"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Azzera le impostazioni per questa connessione ai valori predefiniti, ma "
+#~ "la ricorda come una connessione preferita."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Rimuove tutti i dettagli relativi a questa rete e non tenta di "
+#~ "connettersi automaticamente."
+
+#~ msgid "reset"
+#~ msgstr "azzera"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Hotspot Wi-Fi"
+
+#~ msgid "_Turn On"
+#~ msgstr "A_ttiva"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Spegne il Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "Usa come _hotspot…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Connetti a rete nascosta…"
+
+#~ msgid "_History"
+#~ msgstr "_Cronologia"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Spegnere per collegarsi a una rete Wi-Fi"
+
+#~ msgid "Network Name"
+#~ msgstr "Nome della rete"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Dispositivi connessi"
+
+#~ msgid "Security type"
+#~ msgstr "Tipo di sicurezza"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastructure"
+
+#~ msgid "Status unknown"
+#~ msgstr "Stato sconosciuto"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Non gestito"
+
+#~ msgid "Unavailable"
+#~ msgstr "Non disponibile"
+
+#~ msgid "Connecting"
+#~ msgstr "In connessione"
+
+#~ msgid "Authentication required"
+#~ msgstr "Richiesta autenticazione"
+
+#~ msgid "Connected"
+#~ msgstr "Connesso"
+
+#~ msgid "Disconnecting"
+#~ msgstr "In disconnessione"
+
+#~ msgid "Connection failed"
+#~ msgstr "Connessione non riuscita"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Stato sconosciuto (mancante)"
+
+#~ msgid "Not connected"
+#~ msgstr "Non connesso"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Configurazione non riuscita"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Configurazione IP non riuscita"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Configurazione IP scaduta"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Erano richiesti dei segreti, ma non ne sono stati forniti"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "Supplicant 802.1X scollegato"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Configurazione supplicant 802.1X non riuscita"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Supplicant 802.1X non riuscito"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "L'autenticazione del supplicant 802.1X ha impiegato troppo tempo"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Avvio del servizio PPP non riuscito"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "Servizio PPP disconnesso"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP non riuscito"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Avvio del client DHCP non riuscito"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Errore client DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Client DHCP non riuscito"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Avvio del servizio di connessione condivisa non riuscito"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Servizio connessione condivisa non riuscito"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Avvio del servizio AutoIP non riuscito"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Errore servizio AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Servizio AutoIP non riuscito"
+
+#~ msgid "Line busy"
+#~ msgstr "Linea occupata"
+
+#~ msgid "No dial tone"
+#~ msgstr "Nessun segnale di chiamata"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Impossibile stabilire alcuna portante"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "La richiesta di selezione è scaduta"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Il tentativo di selezione non è riuscito"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Inizializzazione modem non riuscita"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Selezione dell'APN specificato non riuscita"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Nessuna ricerca attiva di reti"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Registrazione rete negata"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Registrazione rete scaduta"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Registrazione sulla rete richiesta non riuscita"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Verifica PIN non riuscita"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Potrebe mancare il firmware per il dispositivo "
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Connessione scomparsa"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "È stata considerata la connessione esistente"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem non trovato"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Connessione Bluetooth non riuscita"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "Scheda SIM non inserita"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Richiesto codice PIN della SIM"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Richiesto codice PUK della SIM"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Scheda SIM errata"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Dipendenza della connessione non riuscita"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Firmware mancante"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Cavo scollegato"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "errore non definito nella sicurezza 802.1x (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "Nessun file selezionato"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "errore non specificato nel validare il file eap-method"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr "Chiavi private DER, PEM o PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Certificati DER o PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "File PAC EAP-FAST mancante"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Scegliere una file PAC"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "File PAC (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonimo"
+
+#~ msgid "Authenticated"
+#~ msgstr "Autenticazione"
+
+#~ msgid "Both"
+#~ msgstr "Entrambi"
+
+#~ msgid "PAC _file"
+#~ msgstr "_File PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "Autenticazione _interna"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Fornire a_utomaticamente PAC"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "manca il nome utente EAP-LEAP"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "manca la password EAP-LEAP"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Mostra la pass_word"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "certificato CA EAP-PEAP non valido: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "certificato CA EAP-PEAP non valido: nessun certificato specificato"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Scegliere un certificato di un'Autorità di Certificazione"
+
+#~ msgid "Version 0"
+#~ msgstr "Versione 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Versione 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "Certificato C_A"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "Nessun certificato CA _richiesto"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Versione PEAP"
+
+#~ msgid "missing EAP username"
+#~ msgstr "manca il nome utente EAP"
+
+#~ msgid "missing EAP password"
+#~ msgstr "manca la password EAP"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "manca l'identità EAP-TLS"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "certificato CA EAP-TLS non valido: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "certificato CA EAP-TLS non valido: nessun certificato specificato"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "password EAP-TLS non valida: manca la password"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "chiave privata EAP-TLS non valida: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "certificato utente EAP-TLS non valido: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Le chiavi private non cifrate non sono sicure"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "La chiave privata selezionata non sembra essere protetta da una password. "
+#~ "Ciò può compromettere le proprie credenziali di sicurezza. Selezionare "
+#~ "una chiave privata protetta da password.\n"
+#~ "\n"
+#~ "(È possibile proteggere le proprie chiavi private con «openssl».)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Scegliere il certificato personale"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Scegliere la chiave privata personale"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentità"
+
+#~ msgid "_User certificate"
+#~ msgstr "Certificato _utente"
+
+#~ msgid "Private _key"
+#~ msgstr "C_hiave privata"
+
+#~ msgid "_Private key password"
+#~ msgstr "Password chiave _privata"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "certificato CA EAP-TTLS non valido: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "certificato CA EAP-TTLS non valido: nessun certificato specificato"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Errore sconosciuto nel validare la sicurezza 802.1x"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "TLS con tunnel"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "PEAP (Protected EAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Au_tenticazione"
+
+#~ msgid "missing leap-username"
+#~ msgstr "manca leap-username"
+
+#~ msgid "missing leap-password"
+#~ msgstr "manca leap-password"
+
+#~ msgid "missing wep-key"
+#~ msgstr "manca wep-key"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "wpa-key non valida: una chiave di lunghezza %zu deve contenere solo cifre "
+#~ "esadecimali"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "wpa-key non valida: una chiave di lunghezza %zu deve contenere solo "
+#~ "caratteri ascii"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "wpa-key non valida: lunghezza chiave %zu non valida. Una chiave deve "
+#~ "essere di lunghezza 5/13 (ascii) o 10/26 (esadecimale)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "wpa-key non valida: la passphrase non può essere vuota"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "wpa-key non valida: la passphrase deve essere più corta di 64 caratteri"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (predefinito)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Open System"
+
+#~ msgid "Shared Key"
+#~ msgstr "Chiave condivisa"
+
+#~ msgid "_Key"
+#~ msgstr "C_hiave"
+
+#~ msgid "Sho_w key"
+#~ msgstr "M_ostra la chiave"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "Indi_ce WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "wpa-psk non valida: lunghezza chiave %zu non valida. Deve essere [8,63] "
+#~ "byte o 64 cifre esadecimali"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "wpa-psk non valida: impossibile interpretare chiave con 64 byte come "
+#~ "esadecimali"
+
+#~ msgid "_Type"
+#~ msgstr "_Tipo"
+
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Notifiche"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "A_vvisi audio"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "_Banner di notifica"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Mostrare _contenuto messaggi nei banner"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Notifiche sullo schermo bloccato"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Most_rare contenuto messaggi sullo schermo bloccato"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Notifiche"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Controlla quali notifiche visualizzare e cosa esse mostrano"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Notifiche;Banner;Messaggio;Tray;Popup;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "_Banner di notifica"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Notifiche _schermo bloccato"
+
+#~ msgid "Applications"
+#~ msgstr "Applicazioni"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Altro"
+
+#~ msgid "Add Account"
+#~ msgstr "Aggiungi account"
+
+#~ msgid "Mail"
+#~ msgstr "Email"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendario"
+
+#~ msgid "Contacts"
+#~ msgstr "Contatti"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Resources"
+#~ msgstr "Risorse"
+
+#~ msgid "Error creating account"
+#~ msgstr "Errore nel creare l'account"
+
+#~ msgid "Error removing account"
+#~ msgstr "Errore nel rimuovere l'account"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Rimuovere veramente l'account?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "In questo modo non verrà rimosso l'account sul server."
+
+#~ msgid "_Remove"
+#~ msgstr "_Rimuovi"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Account online"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Connette ai propri account online e decide per cosa usarli"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Conversazioni;Calendario;"
+#~ "Email;Posta;Contatto;Contatti;ownCloud;Kerberos;IMAP;SMTP;Pocket;"
+#~ "ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Nessun account online configurato"
+
+# (ndt) è un pulsante
+#~ msgid "Add an online account"
+#~ msgstr "Aggiungi account online"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Aggiungendo un account le applicazioni potranno accedere ai relativi "
+#~ "documenti, email, contatti, calendari, chat e altro."
+
+#~ msgid "Unknown time"
+#~ msgstr "Tempo sconosciuto"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minuto"
+#~ msgstr[1] "%i minuti"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ora"
+#~ msgstr[1] "%i ore"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s e %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ora"
+#~ msgstr[1] "ore"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minuto"
+#~ msgstr[1] "minuti"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s alla carica completa"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Attenzione: ancora %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "ancora %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Carica"
+
+#~ msgid "Empty"
+#~ msgstr "Scarica"
+
+#~ msgid "Charging"
+#~ msgstr "In carica"
+
+#~ msgid "Discharging"
+#~ msgstr "In scarica"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Principale"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Aggiuntiva"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Mouse wireless"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Tastiera wireless"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "UPS"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "PDA"
+
+#~ msgid "Cellphone"
+#~ msgstr "Cellulare"
+
+#~ msgid "Media player"
+#~ msgstr "Lettore multimediale"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Computer"
+
+#~ msgid "Battery"
+#~ msgstr "Batteria"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "In carica"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Attenzione"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Bassa"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Buona"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Carica"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Scarica"
+
+#~ msgid "Batteries"
+#~ msgstr "Batterie"
+
+#~ msgid "When _idle"
+#~ msgstr "Quando _inattivo"
+
+#~ msgid "Power Saving"
+#~ msgstr "Risparmio energetico"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "Luminosità dello _schermo"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Luminosità automatica"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Luminosità della _tastiera"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Oscurare lo schermo quando inattivo"
+
+#~ msgid "_Blank screen"
+#~ msgstr "Schermo _nero"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Spegnere il Wi-Fi per risparmiare energia."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "Banda larga _mobile"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Spegnere i dispositivi a banda larga mobile (3G, 4G, LTE, ecc.) per "
+#~ "risparmiare energia."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Quando a batteria"
+
+#~ msgid "When plugged in"
+#~ msgstr "Quando collegato"
+
+#~ msgid "Suspend"
+#~ msgstr "Sospendere"
+
+#~ msgid "Hibernate"
+#~ msgstr "Ibernare"
+
+#~ msgid "Nothing"
+#~ msgstr "Nessuna azione"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Sospensione e pulsante accensione"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Sospensione automatica"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Sospensione automatica"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Quando viene premuto il pulsante di accensione"
+
+#~ msgid "Devices"
+#~ msgstr "Dispositivi"
+
+#~ msgid "Po­wer"
+#~ msgstr "Energia"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr ""
+#~ "Visualizza lo stato della batteria e cambia le impostazioni di risparmio "
+#~ "energetico"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Alimentazione;Sleep;Sospensione;Ibernazione;Batteria;Luminosità;Monitor;"
+#~ "Dim;DPMS;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minuti"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ora"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minuti"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minuti"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minuti"
+
+#~ msgid "2 hours"
+#~ msgstr "2 ore"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minuto"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minuti"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minuti"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minuti"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minuti"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minuti"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minuti"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minuti"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Sospensione automatica"
+
+#~ msgid "_Plugged In"
+#~ msgstr "Quando _collegato"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Quando a _batteria"
+
+#~ msgid "Delay"
+#~ msgstr "Ritardo"
+
+#~ msgid "Authenticate"
+#~ msgstr "Autentica"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Richiesta autenticazione"
+
+# cfr traduzioni simili su gtk+
+#~ msgid "Low on toner"
+#~ msgstr "Toner in esaurimento"
+
+#~ msgid "Out of toner"
+#~ msgstr "Toner esaurito"
+
+#~ msgid "Low on developer"
+#~ msgstr "Developer in esaurimento"
+
+#~ msgid "Out of developer"
+#~ msgstr "Developer esaurito"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Disponibilità di un inchiostro in esaurimento"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Disponibilità di un inchiostro esaurita"
+
+#~ msgid "Open cover"
+#~ msgstr "Coperchio aperto"
+
+#~ msgid "Open door"
+#~ msgstr "Sportello aperto"
+
+#~ msgid "Low on paper"
+#~ msgstr "Carta in esaurimento"
+
+#~ msgid "Out of paper"
+#~ msgstr "Carta esaurita"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Fuori rete"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Ferma"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Contenitore rifiuti quasi pieno"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Contenitore rifiuti pieno"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr ""
+#~ "Il fotoconduttore ottico sta per terminare il suo periodo di operatività"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Il fotoconduttore ottico non è più funzionante"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Configurazione"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Pronta"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Non accetta lavori"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "In elaborazione"
+
+#~ msgid "Toner Level"
+#~ msgstr "Livello toner"
+
+#~ msgid "Ink Level"
+#~ msgstr "Livello inchiostro"
+
+# lett: materiali, forniture
+# visto che sono comunque "inchiostri" e che si consumano...
+#~ msgid "Supply Level"
+#~ msgstr "Livello consumabili"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Installazione"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u attivo"
+#~ msgstr[1] "%u attivi"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Aggiunta della nuova stampante non riuscita."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Selezionare file PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "File PostScript Printer Description (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Nessun driver adatto trovato"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Ricerca driver preferiti…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Seleziona dal database…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Fornisci file PPD…"
+
+#~ msgid "Test page"
+#~ msgstr "Pagina di test"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Impossibile caricare l'interfaccia: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Stampanti"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Aggiunge stampanti, visualizza lavori di stampa e decide come stampare"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Stampante;Coda;Stampa;Carta;Inchostro;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Pulisci tutto"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Nessun lavoro attivo"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Aggiunta nuova stampante"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "A_utentica"
+
+#~ msgid "No printers detected."
+#~ msgstr "Nessuna stampante rilevata."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Inserire un indirizzo di rete o cercare una stampante"
+
+#~ msgid "Loading options…"
+#~ msgstr "Caricamento opzioni…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Selezione driver stampante"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Caricamento database dei driver…"
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "Stampante JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "Stampante LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "Singola facciata"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Lato lungo (standard)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Lato corto (ribaltato)"
+
+#~ msgid "Portrait"
+#~ msgstr "Verticale"
+
+#~ msgid "Landscape"
+#~ msgstr "Orizzontale"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Orizzontale invertito"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Verticale invertito"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "In attesa"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "In pausa"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "In elaborazione"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Fermato"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Annullato"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Interrotto"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Completato"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Lavori attivi"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Porta seriale"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Porta parallela"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Collocazione: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Indirizzo: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Il server richiede autenticazione"
+
+#~ msgid "Two Sided"
+#~ msgstr "Fronte-retro"
+
+#~ msgid "Paper Type"
+#~ msgstr "Tipo di carta"
+
+#~ msgid "Paper Source"
+#~ msgstr "Sorgente carta"
+
+#~ msgid "Output Tray"
+#~ msgstr "Cassetto di uscita"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Pre-filtraggio GhostScript"
+
+#~ msgid "Pages per side"
+#~ msgstr "Pagine per foglio"
+
+#~ msgid "Two-sided"
+#~ msgstr "Fronte-retro"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientamento"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Impostazioni pagina"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Opzioni installabili"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Lavoro"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Qualità immagine"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Colore"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Finitura"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Avanzate"
+
+#~ msgid "Auto Select"
+#~ msgstr "Automatica"
+
+#~ msgid "Printer Default"
+#~ msgstr "Impostazioni predefinite stampante"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Includere solo i caratteri GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Convertire a PS livello 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Convertire a PS livello 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Nessun pre-filtraggio"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Produttore"
+
+#~ msgid "Driver"
+#~ msgstr "Driver"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Inserire il proprio nome utente e password per visualizzare le stampanti "
+#~ "disponibili su %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Aggiungi stampante"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Rimuovi stampante"
+
+#~ msgid "Supply"
+#~ msgstr "Livelli"
+
+#~ msgid "Location"
+#~ msgstr "Collocazione"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Stampante predefinita"
+
+#~ msgid "Jobs"
+#~ msgstr "Lavori"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Mostra _lavori"
+
+#~ msgid "Model"
+#~ msgstr "Modello"
+
+#~ msgid "label"
+#~ msgstr "etichetta"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Impostazione nuovo driver…"
+
+#~ msgid "page 3"
+#~ msgstr "pagina 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Stampa _pagina prova"
+
+#~ msgid "_Options"
+#~ msgstr "_Opzioni"
+
+#~ msgid "No printers"
+#~ msgstr "Nessuna stampante"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Aggiungi stampante"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Il servizio di sistema per la stampa\n"
+#~ "sembra non essere disponibile."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Blocco schermo"
+
+#~ msgid "In use"
+#~ msgstr "In uso"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "Location Services"
+#~ msgstr "Servizi di localizzazione"
+
+#~ msgid "Usage & History"
+#~ msgstr "Uso e cronologia"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Svuotare il cestino?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr ""
+#~ "Tutti gli oggetti nel cestino saranno rimossi in maniera definitiva."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "S_vuota cestino"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Eliminare tutti i file temporanei?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Tutti i file temporanei verranno rimossi im maniera definitiva."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Pulisci file temporanei"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Pulizia cestino e file temporanei"
+
+#~ msgid "Software Usage"
+#~ msgstr "Utilizzo software"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Segnalazione problemi"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "L'invio di segnalazioni consente di migliorare %s. Le segnalazioni "
+#~ "vengono inviate anonimamente e qualsiasi dato personale viene prima "
+#~ "eliminato."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Informativa sulla privacy"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Privacy"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Protegge le proprie informazioni personali e controlla cosa gli altri "
+#~ "possono vedere"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "schermo;blocco;diagnostica;crash;privato;recente;temporaneo;tmp;indice;"
+#~ "nome;rete;identità;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Sospensione dello schermo"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 secondi"
+
+#~ msgid "1 day"
+#~ msgstr "1 giorno"
+
+#~ msgid "2 days"
+#~ msgstr "2 giorni"
+
+#~ msgid "3 days"
+#~ msgstr "3 giorni"
+
+#~ msgid "4 days"
+#~ msgstr "4 giorni"
+
+#~ msgid "5 days"
+#~ msgstr "5 giorni"
+
+#~ msgid "6 days"
+#~ msgstr "6 giorni"
+
+#~ msgid "7 days"
+#~ msgstr "7 giorni"
+
+#~ msgid "14 days"
+#~ msgstr "14 giorni"
+
+#~ msgid "30 days"
+#~ msgstr "30 giorni"
+
+#~ msgid "Forever"
+#~ msgstr "Per sempre"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Mantenere una cronologia rende più semplice trovare ciò che si cerca. "
+#~ "Questi elementi non saranno mai condivisi sulla rete."
+
+#~ msgid "_Recently Used"
+#~ msgstr "Usati di recente"
+
+#~ msgid "Retain _History"
+#~ msgstr "_Mantenere la cronologia"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "_Pulisci cronologia recente"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Il blocco schermo protegge la propria privacy mentre si è assenti."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "B_locco schermo automatico"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "_Bloccare lo schermo se nero per"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Mostrare le _notifiche"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Pulisce automaticamente il cestino e i file temporanei così da tenere il "
+#~ "computer libero da informazioni sensibili non necessarie."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Sv_uotare automaticamente il cestino"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Pulire automaticamente i file _temporanei"
+
+#~ msgid "Purge _After"
+#~ msgstr "Pulire _dopo"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "L'invio di informazioni sul software utilizzato aiuta a fornire consigli "
+#~ "più accurati e a migliorare il software stesso.\n"
+#~ "\n"
+#~ "Tutte le informazioni sono raccolte in modo anonimo: tali dati non "
+#~ "verranno mai condivisi con terze parti."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Inviare _statistiche sull'uso del software"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "I servizi di localizzazione consentono alle applicazioni di conoscere la "
+#~ "propria posizione. L'uso di reti Wi-Fi o mobili a banda larga aumenta la "
+#~ "precisione."
+
+#~ msgid "_Location Services"
+#~ msgstr "Servizi di _localizzazione"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "Segnalazione _automatica problemi"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Imperiali"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metriche"
+
+#~ msgid "No regions found"
+#~ msgstr "Nessuna regione trovata"
+
+#~ msgid "No input sources found"
+#~ msgstr "Nessuna sorgente di input trovata"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Altro"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "È necessario riavviare la sessione per applicare le modifiche"
+
+#~ msgid "Restart Now"
+#~ msgstr "Riavvia adesso"
+
+#~ msgid "No input source selected"
+#~ msgstr "Nessuna sorgente di input selezionata"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Schermata di _accesso"
+
+#~ msgid "Formats"
+#~ msgstr "Formati"
+
+#~ msgid "Preview"
+#~ msgstr "Anteprima"
+
+#~ msgid "Dates"
+#~ msgstr "Date"
+
+#~ msgid "Times"
+#~ msgstr "Orari"
+
+#~ msgid "Numbers"
+#~ msgstr "Numeri"
+
+#~ msgid "Measurement"
+#~ msgstr "Unità di misura"
+
+#~ msgid "Paper"
+#~ msgstr "Carta"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Regione e lingua"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Seleziona la lingua utilizzata, i formati, le disposizioni di tastiera e "
+#~ "le sorgenti di input"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Lingua;Disposizione;Layout;Tastiera;Input;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Aggiungi una sorgente di input"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Non è possibile usare i metodi di input nella schermata di accesso"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Opzioni delle sorgenti di input"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Usare la _stessa sorgente per tutte le finestre"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Consentire sorgenti _differenti per ciascuna finestra"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Scorciatoie da tastiera"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Passa a sorgente precedente"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Maiusc+Spazio"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Passa a sorgente successiva"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Spazio"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr ""
+#~ "È possibile cambiare queste scorciatoie nelle impostazioni della tastiera"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Passa a sorgente successiva (alternativa)"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Alt destro e sinistro"
+
+#~ msgid "_Language"
+#~ msgstr "_Lingua"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Inglese (Regno Unito)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formati"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Regno Unito"
+
+#~ msgid "Input Sources"
+#~ msgstr "Sorgenti input"
+
+#~ msgid "Add input source"
+#~ msgstr "Aggiungi sorgente di input"
+
+#~ msgid "Remove input source"
+#~ msgstr "Rimuovi sorgente di input"
+
+#~ msgid "Move input source up"
+#~ msgstr "Sposta sorgente di input in su"
+
+#~ msgid "Move input source down"
+#~ msgstr "Sposta sorgente di input in giù"
+
+#~ msgid "Configure input source"
+#~ msgstr "Configura sorgente di input"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Mostra disposizione tastiera della sorgente di input"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Le impostazioni di accesso sono usate da tutti gli utenti quando eseguono "
+#~ "il login"
+
+#~ msgid "Select Location"
+#~ msgstr "Seleziona posizione"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "No applications found"
+#~ msgstr "Nessuna applicazione"
+
+#~ msgid "Search"
+#~ msgstr "Cerca"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Controlla quali applicazioni mostrano risultati di ricerca nella "
+#~ "panoramica attività"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Cerca;Trova;Indice;Nascondi;Privacy;Risultati;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Posizioni di ricerca"
+
+#~ msgid "Places"
+#~ msgstr "Risorse"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Segnalibri"
+
+#~ msgid "Other"
+#~ msgstr "Altro"
+
+#~ msgid "Move Up"
+#~ msgstr "Sposta su"
+
+#~ msgid "Move Down"
+#~ msgstr "Sposta giù"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferenze"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Nessuna rete selezionata per la condivisione"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Abilitato"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Attivo"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Scegliere una cartella"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "La condivisione di file personali permette di condividere con altri la "
+#~ "propria cartella Pubblici sulla rete attuale usando: <a href=\"dav://%s"
+#~ "\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Quanto l'accesso remoto è abilitato, consente a utenti remoti di "
+#~ "connettersi usando il comando Secure Shell:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "La condivisione dello schermo consente a utenti remoti di visualizzare o "
+#~ "controllare il proprio schermo connettendosi a <a href=\"vnc://%s\">vnc://"
+#~ "%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Copia"
+
+#~ msgid "Sharing"
+#~ msgstr "Condivisione"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Condivisione"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Controlla cosa si vuole condividere con altri"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "condivisione;share;ssh;host;nome;remoto;desktop;bluetooth;obex;media;"
+#~ "multimedia;audio;video;immagini;foto;film;server;"
+
+#~ msgid "Networks"
+#~ msgstr "Reti"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Abilita o disabilita l'accesso remoto"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "È necessario autenticarsi per abilitare o disabilitare l'accesso remoto"
+
+#~ msgid "_Computer Name"
+#~ msgstr "_Nome del computer"
+
+#~ msgid "_File Sharing"
+#~ msgstr "Condivisione _file"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Condivisione _schermo"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Condivisione _multimediale"
+
+#~ msgid "_Remote Login"
+#~ msgstr "Accesso _remoto"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Alcuni servizi sono disabilitati poiché non c'è accesso di rete."
+
+#~ msgid "File Sharing"
+#~ msgstr "Condivisione file"
+
+#~ msgid "_Require Password"
+#~ msgstr "Richiedere la pass_word"
+
+#~ msgid "Remote Login"
+#~ msgstr "Accesso remoto"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Condivisione schermo"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "Consentire _alle connessioni di controllare lo schermo"
+
+#~ msgid "_Password:"
+#~ msgstr "Pass_word:"
+
+#~ msgid "_Show Password"
+#~ msgstr "Mostra _password"
+
+#~ msgid "Access Options"
+#~ msgstr "Opzioni d'accesso"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Le _nuove connessioni devono richiedere l'accesso"
+
+#~ msgid "_Require a password"
+#~ msgstr "Ric_hiedere una password"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Condivisione multimediale"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Condivide musica, fotografie e video sulla rete."
+
+#~ msgid "Folders"
+#~ msgstr "Cartelle"
+
+#~ msgid "Sound"
+#~ msgstr "Audio"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr ""
+#~ "Regola i livelli dell'audio, gli ingressi, le uscite e i suoni d'allerta"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Scheda;Microfono;Volume;Fade;Dissolvenza;Bilanciamento;Bluetooth;"
+#~ "Auricolare;Cuffie;Suono;"
+
+#~ msgid "Bark"
+#~ msgstr "Latrato"
+
+#~ msgid "Drip"
+#~ msgstr "Goccia"
+
+#~ msgid "Glass"
+#~ msgstr "Vetro"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Sinistra"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Destra"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Retro"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Fronte"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimo"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Massimo"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Bilanciamento:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Dissolvenza:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "Sub_woofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Non amplificato"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profilo:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u uscita"
+#~ msgstr[1] "%u uscite"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ingresso"
+#~ msgstr[1] "%u ingressi"
+
+#~ msgid "System Sounds"
+#~ msgstr "Suoni di sistema"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "T_est altoparlanti"
+
+#~ msgid "Peak detect"
+#~ msgstr "Rilevamento picco"
+
+#~ msgid "Device"
+#~ msgstr "Dispositivo"
+
+# (ndt) quello pare essere il nome della scheda audio
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Test altoparlanti per %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "V_olume di uscita: "
+
+#~ msgid "Output"
+#~ msgstr "Uscita"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Scegliere un dispositivo per l'uscita audio:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Impostazioni per il dispositivo selezionato:"
+
+#~ msgid "Input"
+#~ msgstr "Ingresso"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Volume d'_ingresso: "
+
+#~ msgid "Input level:"
+#~ msgstr "Livello d'ingresso:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Scegliere un dispositivo per l'ingresso audio:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Effetti sonori"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Volume di _avviso: "
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Nessuna applicazione sta riproducendo o registrando dell'audio."
+
+#~ msgid "Built-in"
+#~ msgstr "Integrato"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferenze dell'audio"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Test evento sonoro"
+
+#~ msgid "Default"
+#~ msgstr "Predefinito"
+
+# (ndt) indica il tipo di effetto sonoro, da dove arriva
+#~ msgid "From theme"
+#~ msgstr "Dal tema"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Scegliere un suono di avviso:"
+
+#~ msgid "Stop"
+#~ msgstr "Ferma"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizzato"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Accesso universale"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Rende più semplice vedere, ascoltare, digitare e fare clic"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Tastiera;Mouse;a11y;Accessibilità;Contrasto;Ingrandimento;Zoom;Screen;"
+#~ "Reader;Lettore;schermo;testo;font;tipo di carattere;dimensione;AccessX;"
+#~ "Tasti;Singoli;Sticky;Lenti;Slow;Rimbalzati;Slow;Mouse;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Mostrare sempre il menù Accesso universale"
+
+#~ msgid "Seeing"
+#~ msgstr "Vista"
+
+#~ msgid "_High Contrast"
+#~ msgstr "Contrasto _elevato"
+
+#~ msgid "_Large Text"
+#~ msgstr "Testo _grande"
+
+#~ msgid "_Zoom"
+#~ msgstr "I_ngrandimento"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Lettore schermo"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Tasti udibili"
+
+#~ msgid "Hearing"
+#~ msgstr "Udito"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "Avvisi _visibili"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Tastiera a schermo"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Ripetizione dei _tasti"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "Intermitten_za del cursore"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Assistente digitazione (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Puntamento e clic"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Mouse da tastiera"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Assistente _clic"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Ritardo do_ppio clic"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Ritardo doppio clic"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Lettore schermo"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Il lettore di schermo legge il testo visualizzato allo spostamento del "
+#~ "focus."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Lettore _schermo"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Tasti udibili"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr ""
+#~ "Emette un suono quando BlocNum o BlocMaiusc vengono attivati o "
+#~ "disattivati."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Avvisi visibili"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Prova lampeggiamento"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Usa un'indicazione visiva in presenza di un avviso audio."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Illuminare il titolo della _finestra"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Illuminare l'intero _schermo"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Ripetizione dei tasti"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr ""
+#~ "La pressione dei tasti ripete il carattere finché il tasto è premuto."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Ritardo ripetizione tasti"
+
+#~ msgid "Speed"
+#~ msgstr "Velocità"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Velocità ripetizione tasti"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Intermittenza del cursore"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Il cursore è intermittente nei campi di testo"
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Velocità lampeggiamento cursore"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Assistente di digitazione"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "Tasti _singoli"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr ""
+#~ "Tratta una sequenza di tasti modificatori come una combinazione di tasti"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Disabilitare se due tasti sono premuti insieme"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Avviso sonoro quando viene premuto un tasto _modificatore"
+
+#~ msgid "S_low Keys"
+#~ msgstr "Tasti _lenti"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr ""
+#~ "Imposta un ritardo tra la pressione di un tasto e la sua accettazione"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Ritardo di a_ccettazione:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Breve"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Ritardo digitazione tasti lenti"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Lungo"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Avviso sonoro quando un tasto è _premuto"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Avviso sonoro quando un tasto è _accettato"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Avviso sonoro quando un tasto è _rifiutato"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Tasti rim_balzati"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignora veloci pressioni duplicate di tasti"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Breve"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Ritardo digitazione tasti rimbalzati"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Lungo"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Abilita da _tastiera"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Attiva e disattiva le funzioni di accessibilità usando la tastiera"
+
+#~ msgid "Click Assist"
+#~ msgstr "Assistente clic"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "Clic secondario _simulato"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Esegue un clic secondario tenendo premuto il pulsante primario"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Breve"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Ritardo clic secondario"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Lungo"
+
+# non corretto, ma era così in precedenza
+#~ msgid "_Hover Click"
+#~ msgstr "Clic a_utomatico"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Esegue automaticamente un clic quando si ferma il puntatore"
+
+#~ msgid "D_elay:"
+#~ msgstr "Ritar_do:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Breve"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Lungo"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "S_oglia di movimento:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Piccolo"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Breve"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ dello schermo"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ dello schermo"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ dello schermo"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Lunga"
+
+#~ msgid "Full Screen"
+#~ msgstr "Schermo intero"
+
+#~ msgid "Top Half"
+#~ msgstr "Metà superiore"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Metà inferiore"
+
+#~ msgid "Left Half"
+#~ msgstr "Metà sinistra"
+
+#~ msgid "Right Half"
+#~ msgstr "Metà destra"
+
+#~ msgid "_Magnification:"
+#~ msgstr "In_grandimento:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Segue il cursore del mouse"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Parte dello schermo:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "L'ingranditore si _estende all'esterno dello schermo"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "_Mantenere il cursore dell'ingranditore centrato"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Il cursore dell'ingranditore _spinge il contenuto"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Il curs_ore dell'ingranditore si sposta con il contenuto"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Posizione dell'ingranditore:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Ingranditore"
+
+#~ msgid "_Thickness:"
+#~ msgstr "S_pessore:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Sottile"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Spesso"
+
+#~ msgid "_Length:"
+#~ msgstr "Lung_hezza:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "C_olore:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "Mi_rino:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "So_vrapposto al cursore del mouse"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Mirini"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Bianco su nero:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "Lu_minosità:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "Contra_sto:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "Co_lore"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Pieno"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Bassa"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Alta"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Ridotto"
+
+# rotazione
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Elevato"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Effetti colore:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Effetti colore"
+
+#~ msgid "You are Offline"
+#~ msgstr "Fuori rete"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Registra"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Gestisce gli account online"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "È necessario autenticarsi per cambiare i dati utente"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Associa pulsanti"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Associa i pulsanti alle funzioni"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Per modificare una scorciatoia, scegliere l'azione \"Invia pressione tasti"
+#~ "\", premere il pulsante scorciatoia da tastiera e tenere premuti i nuovi "
+#~ "tasti, oppure premere Backspace per cancellarla."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Fare tap sui segnaposto quando appaiono sullo schermo per calibrare la "
+#~ "tavoletta grafica."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Rilevato clic errato, riavvio…"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Su"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Giù"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Invia pressione tasti"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Cambia monitor"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Mostra aiuto a schermo"
+
+#~ msgid "Output:"
+#~ msgstr "Uscita:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Mantenere il rapporto (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Mappa su singolo monitor"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d di %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Mappatura schermo"
+
+#~ msgid "Button"
+#~ msgstr "Pulsante"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Tavoletta Wacom"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Imposta la mappatura dei pulsanti e regola la sensibilità del pennino per "
+#~ "tavolette grafiche"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Wacom;Stylus;Eraser;Mouse;Tavoletta;Penna;Gomma;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tavoletta (assoluta)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Touchpad (relativa)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Preferenze della tavoletta"
+
+#~ msgid "_Help"
+#~ msgstr "A_iuto"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Nessuna tavoletta rilevata"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Collegare o accendere la tavoletta Wacom"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Impostazioni Bluetooth"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Tavoletta Wacom"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Mappa su monitor…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Associa pulsanti…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Calibra…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Regola la risoluzione dello schermo"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Regola le impostazioni del mouse"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Modalità tracciamento"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Orientamento per mancini"
+
+#~ msgid "Left Ring"
+#~ msgstr "Ring sinistro"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Modalità Ring sinistro #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Ring destro"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Modalità Ring destro #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Touchstrip sinistra"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Modalità Touchstrip sinistra #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Touchstrip destra"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Modalità Touchstrip destra #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Interruttore modalità Touchring sinistra"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Interruttore modalità Touchring destro"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Interruttore modalità Touchstrip sinistro"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Interruttore modalità Touchstrip destra"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Interruttore modalità #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Pulsante sinistro #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Pulsante destro #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Pulsante superiore #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Pulsante inferiore #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Nuova scorciatoia…"
+
+#~ msgid "No Action"
+#~ msgstr "Nessuna azione"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Clic pulsante sinistro del mouse"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Clic pulsante centrale del mouse"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Clic pulsante destro del mouse"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Scorri in alto"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Scorri in basso"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Scorri a sinistra"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Scorri a destra"
+
+#~ msgid "Back"
+#~ msgstr "Indietro"
+
+#~ msgid "Forward"
+#~ msgstr "Avanti"
+
+#~ msgid "Stylus"
+#~ msgstr "Penna"
+
+# è ciò che appare nel tool per windows, come mostrato nel PDF di documentazione delle tavolette Bamboo
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Sensibilità della gomma"
+
+#~ msgid "Soft"
+#~ msgstr "Leggera"
+
+#~ msgid "Firm"
+#~ msgstr "Pesante"
+
+#~ msgid "Top Button"
+#~ msgstr "Pulsante superiore"
+
+#~ msgid "Lower Button"
+#~ msgstr "Pulsante inferiore"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Sensibilità della punta"
+
+#~ msgid "All Settings"
+#~ msgstr "Tutte le impostazioni"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Centro di controllo GNOME"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Applicazioni per configurare l'ambiente grafico GNOME."
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Il Centro di controllo GNOME è l'interfaccia principale per la "
+#~ "configurazione dell'ambiente grafico."
+
+#~ msgid "Display version number"
+#~ msgstr "Visualizza numero di versione"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Abilita la modalità prolissa"
+
+#~ msgid "Show the overview"
+#~ msgstr "Mostra la panoramica"
+
+#~ msgid "Search for the string"
+#~ msgstr "Cerca la stringa"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Elenca i nomi dei pannelli disponibili ed esce"
+
+#~ msgid "Panel to display"
+#~ msgstr "Pannello da mostrare"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANNELLO] [ARGOMENTO..]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Pannelli disponibili:"
+
+#~ msgid "Help"
+#~ msgstr "Aiuto"
+
+#~ msgid "Quit"
+#~ msgstr "Esci"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Personale"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Preferenze;Impostazioni;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Esce"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Cerca"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Pannelli"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Torna alla panoramica"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Annulla la ricerca"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~| msgid "No regions found"
+#~ msgid "No results found"
+#~ msgstr "Nessun risultato trovato"

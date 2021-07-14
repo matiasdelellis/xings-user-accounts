@@ -1,0 +1,7285 @@
+# translation of gnome-control-center to Arabic
+# This file is under the same license as the gnome-control-center package.
+# Copyright (C) Listed translators
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Isam Bayazidi <bayazidi@arabeyes.org>, 2002.
+# Arafat Medini <lumina@silverpen.de>, 2003.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
+# Anas Husseini <linux.anas@gmail.com>, 2007.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016.
+# Abderrahim Kitouni <a.kitouni@gmail.com>, 2011, 2012.
+# Ibrahim Saed <ibraheem5000@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-09-21 14:40+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 1.0.0-beta1\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "ا_سم المستخدم"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "الاسم بال_كامل"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "عادي"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "إداري"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_نوع الحساب"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "كلمة السر"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "اسمح للمستخدم بوضع كلمة سر عند الولوج ال_تالي"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "_ضع كلمة سر الآن"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "كلمة ال_سر"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "أ_كّد"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"ولوج المؤسسات يسمح باستخدام حساب مستخدم مدار مركزيًا على هذا الجهاز. يمكنك "
+"أيضًا استخدام هذا الحساب للوصول إلى موارد الشركة على الإنترنت."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "الن_طاق"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "يجب أن تكون متصلا لإضافة حسابات ولوج مؤسسات."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "ولوج ال_مؤسسات"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "أضف مستخدما"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "ولوج مدير النطاق"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"تحتاج أن تكون مسجّلا في النطاق لاستخدام ولوج المؤسسات على هذا الحاسوب.\n"
+"من فضلك اطلب من مدير الشبكة أن يكتب كلمة سر النطاق هنا."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "ا_سم المدير"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "كلمة سر المدير"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "الإبهام الأيسر"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "الوسطى اليسرى"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "البنصر الأيسر"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "الخنصر الأيسر"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "الإبهام الأيمن"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "الوسطى اليمنى"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "البنصر الأيمن"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "الخنصر الأيمن"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "فعّل الولوج بالبصمة"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "السبابة الي_منى"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "السبابة الي_سرى"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "أصبع آخ_ر:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr "حُفظت بصمتك بنجاح. تستطيع الآن الولوج ببصمة أصبعك."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "المستخدمين"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "أضف أو احذف مستخدمين و غيّر كلمة السر"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "ولوج;اسم;بصمة;أيقونة;شعار;وجه;كلمة سر;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "غيّر كلمة السر"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "أ_لغِ"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_غيّر"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "أ_كّد كلمة السر الجديدة"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "ك_لمة السر الجديدة"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "كلمة السر ال_حالية"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "اسمح للمستخدم بتغيير كلمة السر عند الولوج التالي"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "ضع كلمة سر الآن"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "أ_ضف مستخدمًا…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "خيارات الولوج"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "الولوج الت_لقائي"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "الولوج بال_بصمة"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "أيقونة المستخدم"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "آخر ولوج"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "أزِل الحساب"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "الحسابات الأخرى"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "فشل حذف المستخدم"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "فشل إبطال المستخدم المتحكم فيه عن بعد"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "لا يمكنك حذف حسابك أنت."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "ما يزال %s والجا"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr "حذف مستخدم أثناء ولوجه قد يترك النظام في حالة غير مستقرة."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "أتريد إبقاء ملفات %s؟"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"من الممكن الإبقاء على مجلد المنزل وخزانة البريد والملفات المؤقتة عند حذف "
+"حساب مستخدم."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "ا_حذف الملفات"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "أ_بقِ الملفات"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "أمتأكد أنك تريد إبطال حساب %s المتحكم فيه عن بعد؟"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "ا_حذف"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "الحساب معطّل"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "لتوضع مع الولوج التالي"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "بدون"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "والِج"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s، %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "فشل الاتصال بخدمة الحسابات"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "رجاء تأكّد من أن AccountService مثبّتة ومفعّلة."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"انقر على أيقونة *\n"
+"لعمل أي تغييرات"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "أنشئ حساب مستخدِم"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"لإنشاء حساب مستخدِم،\n"
+"انقر أولًا على أيقونة *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "احذف حساب المستخدِم المختار"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"لحذف حساب المستخدم المختار،\n"
+"انقر أولًا على أيقونة *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "حسابي"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "لا تحتوي كلمة السر الجديدة على حروف مختلفة كفاية."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "حاول تغيير بعض الحروف و الأرقان."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "حاول تغيير كلمة السر أكثر قليلًا."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "كلمة السر أقوى بدون اسم المستخدم."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "حاول تفادي وضع اسم المستخدم في كلمة السر."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "حاول تفادي بعض الكلمات المستخدمة في كلمة السر."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "حاول تفادي الكلمات الشائعة."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "حاول تفادي تغيير ترتيب كلمات معروفة."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "حاول استخدام أرقام أكثر."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "حاول استخدام حروف كبيرة أكثر."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "حاول استخدام حروف صغيرة أكثر."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "حاول استخدام علامات خاصة أكثر، مثل علامات الترقيم."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "حاول استخدام خليط من الحروف و الأرقام و علامات الترقيم."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "حاول تفادي تكرار نفس الحرف."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"حاول تفادي تكرار نفس النوع من الحروف: عليك الخلط بين الحروف و الأرقام "
+"و علامات الترقيم."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "حاول تفادي تتابعات مثل 1234 أو abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "حاول استخدام خليط من الحروف و الأرقام و علامات الترقيم."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "اخلط الحروف الكبيرة مع الصغيرة و استخدم رقمًا أو اثنين."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"كلمة سر جيدة. إضافة المزيد من الحروف و الأرقام و علامات الترقيم ستجعلها أقوى."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "فشل الاستيثاق"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "كلمة السّر الجديدة قصيرة جدًا"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "كلمة السر الجديدة بسيطة جدا"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "كلمتا السر القديمة والجديدة متشابهتان جدا"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "كلمة السر الجديدة سبق استخدامها مؤخرا."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "يجب أن تحتوي كلمة السر الجديدة على محارف خاصة أو أرقام"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "كلمتا السر القديمة و الجديدة متطابقتان"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "تغيِّرت كلمة السر بعد الاستيثاق!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "لا تحتوي كلمة السر الجديدة على حروف مختلفة كفاية"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "عطل غير معروف"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "يجب أن تطابق عنوان الوب لمُزود الولوج."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "فشلت إضافة الحساب"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "لا تتطابق كلمتا السر."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "فشل تسجيل المستخدم"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "لا توجد طريقة مدعومة للاستيثاق مع هذا النطاق"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "فشل الانضمام إلى النطاق"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"اسم الولوج لم يعمل.\n"
+"من فضلك أعد المحاولة"
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"كلمة سر الولوج لم تعمل.\n"
+"من فضلك أعد المحاولة"
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "فشل الولوج إلى النطاق"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "تعذّر العثور على النطاق. هل أخطأت في كتابته؟"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "ألغِ"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "أ_ضف"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "عادي"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "إداري"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "لست مخولا بالوصول إلى الجهاز. تكلم مع مدير النظام."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "الجهاز مستخدم بالفعل."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "حصل عطل داخلي."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "معطّل"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "مفعّل"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "أأحذف البصمات المسجّلة؟"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "ا_حذف البصمات"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr "أتريد حذف بصماتك المسجلة بحيث يُعطل الولوج بالبصمة؟"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "تم!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "تعذر الوصول إلى الجهاز ‪'%s'‬"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "تعذّر بدء التقاط الأصابع على الجهاز ‪'%s'‬"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "تعذّر الوصول إلى أي قارئ بصمة"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "من فضلك راجع مدير النظام للمساعدة."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr "لتفعيل الولوج بالبصمة، ستحتاج لحفظ إحدى بصماتك باستخدام الجهاز ‪'%s'‬."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "اصبع الاختيار"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "يسجّل البصمات"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "ملخّص"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "هذا الأسبوع"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "الأسبوع الماضي"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %B"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %B، %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "انتهت الجلسة"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "بدأت الجلسة"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "‏%s – نشاط الحساب"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "رجاء اختر كلمة سر أخرى."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "رجاء أعد كتابة كلمة السر الحالية."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "تعذّر تغيير كلمة السر"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "اختر"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "تصفّح لمزيد من الصور"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "ا_فتح"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "عطّل الصورة"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "التقط صورة…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "تصفّح لمزيد من الصور…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "يستخدمها %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "لا يمكن الانضمام تلقائيا إلى هذا النوع من النطاقات"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "لم يعثر على هذا النطاق أو المجال"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "تعذّر الولوج باسم %s في النطاق %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "كلمة سر خطأ؛ من فضلك أعد المحاولة"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "تعذّر الاتصال بالنطاق %s:‏ %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "اسم المستخدم هذا غير متاح. جرب اسمًا آخر."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "اسم المستخدم طويل جدا."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "لا يمكن أن يبدأ اسم المستخدم بعلامة '-'."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"يجب أن لا يتعدى اسم المستخدم الحروف الإنجليزية الكبيرة و الصغيرة من a-z، "
+"و الأرقام و أي من الحروف '.' و '-' و '_'."
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr "سيُستخدم هذا لتسمية مجلد المنزل ولا يمكن تغييره."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "اليوم"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "الأمس"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %B"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %B، %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "أ_كّد كلمة السر الجديدة"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "حاول إضافة حروف و أرقام و رموز أكثر."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "القوّة: ضعيفة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "القوّة: منخفضة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "القوّة: متوسطة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "القوّة: جيدة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "القوّة: قوية"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "لا تتطابق كلمتا السر."
+
+#~ msgid "_Background"
+#~ msgstr "ال_خلفية"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "تتغير خلال اليوم"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "أو_صد الشاشة"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "مبلّطة"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "مُقرَّبة"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "موسَّطة"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "محجّمة"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "مملوءة"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "موسّعة"
+
+#~ msgid "Wallpapers"
+#~ msgstr "خلفيات"
+
+#~ msgid "Colors"
+#~ msgstr "ألوان"
+
+#~ msgid "Select Background"
+#~ msgstr "اختر خلفية"
+
+#~ msgid "Pictures"
+#~ msgstr "صور"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "لم يُعثر على أي صور"
+
+#~ msgid "Home"
+#~ msgstr "البداية"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "يمكنك إضافة الصور إلى مجلد %s و ستظهر هنا"
+
+#~ msgid "_Select"
+#~ msgstr "ا_ختر"
+
+#~ msgid "multiple sizes"
+#~ msgstr "مقاسات متعددة"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "لا خلفية لسطح المكتب"
+
+#~ msgid "Current background"
+#~ msgstr "الخلفية الحالية"
+
+#~| msgid "Background"
+#~ msgid "Back­ground"
+#~ msgstr "الخلفية"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "غيّر صورة الخلفية"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "خلفية;شاشة;سطح المكتب;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "أوقف وضع الطائرة"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "لم يعثر على بلوتوث"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "وصل جهاز بلوتوث خارجي لاستخدامه"
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "بلوتوث مغلق"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "شغله للاتصال بالأجهزة و استقبال الملفات."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "وضع ال_طائرة مفعّل"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "بلوتوث معطّل لأن وضع الطائرة مفعّل."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "وضع الطائرة مفعّل من العتاد"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "عطّل وضع الطائرة لتفعيل بلوتوث."
+
+#~| msgid "Bluetooth"
+#~ msgid "Blue­tooth"
+#~ msgstr "بلوتوث"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "شغّل أو أغلق بلوتوث لتوصيل جهازك بالأجهزة الأخرى"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "share;sharing;bluetooth;obex;مشاركة;شارك;بلوتوث;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "ضع جهاز المعايرة على المربع ثم اضغط ’ابدأ‘"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr "انقل جهاز المعايرة إلى موضع المعايرة ثم اضغط ’واصل‘"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr "انقل جهاز المعايرة إلى موضع السطح ثم اضغط ’واصل‘"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "أعلق غطاء الحاسوب"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "حصل عطل داخلي تعذّر التعافي منه."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "الأدوات المطلوبة للمعايرة غير مُثبّتة."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "تعذّر توليد الإعدادات."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "لا يمكن الحصول على النقطة البيضاء المحددة"
+
+#~ msgid "Complete!"
+#~ msgstr "تم"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "فشلت المعايرة"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "يمكنك رفع جهاز المعايرة"
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "لا تُقاطع جهاز المعايرة أثناء عمله"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "شاشة حاسوب محمول"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "كمرة وب مدمجة"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "شاشة %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "ماسحة %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "كمرة %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "طابعة %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "كمرة وب %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "فعّل إدارة ألوان %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "أظهر إعدادات ألوان %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "غير مُعايَر"
+
+#~ msgid "Default: "
+#~ msgstr "المبدئي: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "نطاق الألوان: "
+
+#~ msgid "Test profile: "
+#~ msgstr "ملف إعداد للاختبار: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "اختر ملف إعداد ICC"
+
+#~ msgid "_Import"
+#~ msgstr "ا_ستورد"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "إعدادات ICC المدعومة"
+
+#~ msgid "All files"
+#~ msgstr "كلّ الملفات"
+
+#~ msgid "Screen"
+#~ msgstr "شاشة"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "فشل رفع الملف: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "رُفع الإعداد إلى:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "اكتب هذا المسار في ورقة."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "أعد تشغيل الحاسوب و أقلع نظام التشغيل المعتاد."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "اكتب المسار في المتصفح و نزّل الإعداد."
+
+#~ msgid "Save Profile"
+#~ msgstr "احفظ الإعداد"
+
+#~ msgid "_Save"
+#~ msgstr "ا_حفظ"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "أنشئ إعداد لون للجهاز المختار"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr "لم تُكتشف أداة القياس. رجاءً تأكد من تشغيلها وتوصيلها بشكل صحيح."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "أداة القياس لا تدعم تشكيل الطابعة."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "نوع الجهاز غير مدعوم حاليًا."
+
+#~ msgid "Standard Space"
+#~ msgstr "النطاق المعياري"
+
+#~ msgid "Test Profile"
+#~ msgstr "اختبر الإعداد"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "تلقائي"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "جودة منخفضة"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "جودة متوسطة"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "جودة عالية"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "ح‌خ‌ز المبدئي"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "زق‌ص‌س المبدئي"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "الرمادي المبدئي"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "بيانات معايرة المصنع من منتج الجهاز"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "تصحيح عرض ملء الشاشة غير ممكن مع هذا الإعداد"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "هذا الإعداد ربما لم يعد دقيقا"
+
+#~ msgid "Display Calibration"
+#~ msgstr "معايرة جهاز العرض"
+
+#~ msgid "_Start"
+#~ msgstr "اب_دأ"
+
+#~ msgid "_Resume"
+#~ msgstr "اس_تئنف"
+
+#~ msgid "_Done"
+#~ msgstr "_تمّ"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "معايرة الشاشة"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "ستنتج المعايرة إعدادات يمكنك استخدامها للتحكم في ألوان شاشتك. كلما قضيت "
+#~ "وقتا أطول في المعايرة كلما كانت جودة الإعدادات الناتجة أفضل."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "لم تستطيع استخدام حاسوبك أثناء المعايرة."
+
+#~ msgid "Quality"
+#~ msgstr "الجودة"
+
+#~ msgid "Approximate Time"
+#~ msgstr "الوقت التقريبي"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "جودة المعايرة"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "اختر الجهاز المستشعر الذي تريد استخدامه في المعايرة."
+
+#~ msgid "Calibration Device"
+#~ msgstr "جهاز المعايرة"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "اختر نوع جهاز العرض المُوصّل."
+
+#~ msgid "Display Type"
+#~ msgstr "نوع جهاز العرض"
+
+#~ msgid "Display Brightness"
+#~ msgstr "سطوع جهاز العرض"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "يمكنك استخدام إعدادات ألوان مستقلة على الحواسيب المختلفة، أو حتى إعدادات "
+#~ "مستقلة لدرجات الإضاءة المختلفة."
+
+#~ msgid "Profile Name:"
+#~ msgstr "اسم الإعداد:"
+
+#~ msgid "Profile Name"
+#~ msgstr "اسم الإعداد"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "تم إنشاء الإعداد"
+
+#~ msgid "Copy profile"
+#~ msgstr "انسخ الإعداد"
+
+#~ msgid "Requires writable media"
+#~ msgstr "يحتاج وسائط قابلة للكتابة"
+
+#~ msgid "Upload profile"
+#~ msgstr "ارفع الإعداد"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "يحتاج اتصالًا بالإنترنت"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "قد ترغب بالاطلاع على تعليمات استخدام إعدادات الألوان على <a href=\"linux"
+#~ "\">جنوم\\لينكس</a> و <a href=\"osx\">أبل ماك</a> و <a href=\"windows"
+#~ "\">ميكروسوفت وندوز</a>."
+
+#~ msgid "Add profile"
+#~ msgstr "أضف إعدادًا"
+
+#~ msgid "_Import File…"
+#~ msgstr "ا_ستورد ملفًا…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "وجدت مشاكل ولن يعمل ملف الإعداد كما يجب. <a href=\"\">أظهر التفاصيل.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr "كل جهاز يحتاج إلى ملفات إعدادات ألوان مُحدّثة ليكون مُدار الألوان."
+
+#~ msgid "Learn more"
+#~ msgstr "اعرف المزيد"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "اعرف المزيد عن إدارة الألوان"
+
+#~ msgid "_Set for all users"
+#~ msgstr "ا_ضبط لجميع المستخدمين"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "اضبط هذا الإعداد لكل المستخدمين على هذا الحاسوب"
+
+#~ msgid "_Enable"
+#~ msgstr "_فعّل"
+
+#~ msgid "_Add profile"
+#~ msgstr "أ_ضف إعدادًا"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_عاير…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "عاير الجهاز"
+
+#~ msgid "_Remove profile"
+#~ msgstr "أزل الإع_داد"
+
+#~ msgid "_View details"
+#~ msgstr "اعرض ال_تفاصيل"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "تعذّر اكتشاف الأجهزة التي يمكن التحكم بألوانها"
+
+#~ msgid "LCD"
+#~ msgstr "شاشة كريستال سائل"
+
+#~ msgid "CRT"
+#~ msgstr "شاشة عادية"
+
+#~ msgid "Projector"
+#~ msgstr "جهاز عرض الشرائح"
+
+#~ msgid "Plasma"
+#~ msgstr "شاشة بلازما"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "عالية"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 دقيقة"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "متوسطة"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 دقيقة"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "منخفضة"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 دقيقة"
+
+#~ msgid "Native to display"
+#~ msgstr "الأصلي لجهاز العرض"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "‏D50 (الطباعة و النشر)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "‏D65 (التصوير و الرسوميات)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "الألوان"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "عاير ألوان أجهزتك، مثل أجهزة العرض و الكمرات و الطابعات"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "لون;ألوان;إعداد;تشكيل;معايرة;طابعة;شاشة;"
+
+#~ msgid "Other…"
+#~ msgstr "آخر…"
+
+#~ msgid "More…"
+#~ msgstr "المزيد…"
+
+#~ msgid "No languages found"
+#~ msgstr "لا يوجد أي لغات"
+
+#~ msgid "Language"
+#~ msgstr "اللغة"
+
+#~ msgid "Day"
+#~ msgstr "اليوم"
+
+#~ msgid "Month"
+#~ msgstr "الشهر"
+
+#~ msgid "Year"
+#~ msgstr "السنة"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y، %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y، %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s، %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "جرينتش%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "يناير"
+
+#~ msgid "February"
+#~ msgstr "فبراير"
+
+#~ msgid "March"
+#~ msgstr "مارس"
+
+#~ msgid "April"
+#~ msgstr "أبريل"
+
+#~ msgid "May"
+#~ msgstr "مايو"
+
+#~ msgid "June"
+#~ msgstr "يونيو"
+
+#~ msgid "July"
+#~ msgstr "يوليو"
+
+#~ msgid "August"
+#~ msgstr "أغسطس"
+
+#~ msgid "September"
+#~ msgstr "سبتمبر"
+
+#~ msgid "October"
+#~ msgstr "أكتوبر"
+
+#~ msgid "November"
+#~ msgstr "نوفمبر"
+
+#~ msgid "December"
+#~ msgstr "ديسمبر"
+
+#~ msgid "Date & Time"
+#~ msgstr "التاريخ والوقت"
+
+#~ msgid "Hour"
+#~ msgstr "ساعة"
+
+#~ msgid "∶"
+#~ msgstr ":"
+
+#~ msgid "Minute"
+#~ msgstr "دقيقة"
+
+#~ msgid "Time Zone"
+#~ msgstr "المنطقة الزمنية"
+
+#~ msgid "Search for a city"
+#~ msgstr "ابحث عن مدينة"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_تاريخ و وقت تلقائييْن"
+
+#~ msgid "Requires internet access"
+#~ msgstr "يتطلب اتصالًا بالإنترنت"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "من_طقة زمنية تلقائية"
+
+#~ msgid "Date & _Time"
+#~ msgstr "التاريخ و الو_قت"
+
+#~ msgid "Time Z_one"
+#~ msgstr "المن_طقة الزمنية"
+
+#~ msgid "Time _Format"
+#~ msgstr "تن_سيق الوقت"
+
+#~ msgid "24-hour"
+#~ msgstr "24-ساعة"
+
+#~ msgid "AM / PM"
+#~ msgstr "ص \\ م"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "غيّر الوقت والتاريخ، بما فيها المنطقة الزمنية"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "ساعة;توقيت;منطقة زمنية;منطقة;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "غيّر إعدادات الوقت والتاريخ للنظام"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "لتغيير إعدادات الوقت والتاريخ، تحتاج للاستيثاق."
+
+#~ msgid "Lid Closed"
+#~ msgstr "الغطاء مغلق"
+
+#~ msgid "Mirrored"
+#~ msgstr "متطابقة"
+
+#~ msgid "Primary"
+#~ msgstr "الأساسي"
+
+#~ msgid "Off"
+#~ msgstr "معطّل"
+
+#~ msgid "Secondary"
+#~ msgstr "الثانوي"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "رتب الشاشات المركبة"
+
+#~ msgid "_Apply"
+#~ msgstr "_طبّق"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "اسحب الشاشات لترتيبها"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d هرتز (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d هرتز"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "أدِر ٩٠° عكس عقارب الساعة"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "أدِر ١٨٠°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "أدِر ٩٠° باتجاه عقارب الساعة"
+
+#~ msgid "Size"
+#~ msgstr "الحجم"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "نسبة العرض"
+
+#~ msgid "Resolution"
+#~ msgstr "الميز"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "اضبط للتلفاز"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "تردد التحديث"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "اعرض الشريط العلوي و تجميعة الأنشطة على هذه الشاشة"
+
+#~ msgid "Secondary Display"
+#~ msgstr "شاشة ثانوية"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "ضم هذه الشاشة على شاشة أخرى لإنشاء مساحة عمل إضافية"
+
+#~ msgid "Presentation"
+#~ msgstr "العروض التقديمة"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "اعرض عروض الشرائح و الوسائط فقط"
+
+#~ msgid "Mirror"
+#~ msgstr "طابق"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "اعرض المنظور الخالي على الشاشتين"
+
+#~ msgid "Turn Off"
+#~ msgstr "أطفئ"
+
+#~ msgid "Don't use this display"
+#~ msgstr "لا تستخدم هذه الشاشة"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "تعذّرت معرفة معلومات الشاشة"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "ر_تب الشاشات المركبة"
+
+#~| msgid "Displays"
+#~ msgid "Dis­plays"
+#~ msgstr "الشاشات"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "اختر كيف تستخدم الشاشات و أجهزة عرض الشرائح"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "لوحة;عرض;شاشة;ميز;"
+
+#~ msgid "Wayland"
+#~ msgstr "وايلاند"
+
+#~ msgid "Unknown"
+#~ msgstr "غير معروف"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "‏%s ‏%d-بتة (معرف البناء: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "‏%d-بتة (معرف البناء: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "‏%s‏ %d بتة"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d بتة"
+
+#~ msgid "Ask what to do"
+#~ msgstr "اسأل ما الذي يجب فعله"
+
+#~ msgid "Do nothing"
+#~ msgstr "لا تفعل شيئا"
+
+#~ msgid "Open folder"
+#~ msgstr "افتح المجلّد"
+
+#~ msgid "Other Media"
+#~ msgstr "وسائط أخرى"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "اختر تطبيقا لاسطوانات الصوت"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "اختر تطبيقا لاسطوانات الفديو"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "اختر تطبيقا لتشغيله عند توصيل مشغّل موسيقى"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "اختر تطبيقا لتشغيله عند توصيل كمرة"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "اختر تطبيقا لاسطوانات البرامج"
+
+#~ msgid "audio DVD"
+#~ msgstr "دي‌ڤي‌دي صوتي"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "قرص Blu-Ray فارغ"
+
+#~ msgid "blank CD disc"
+#~ msgstr "اسطوانة فارغة"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "قرص دي‌ڤي‌دي فارغ"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "قرص دي‌ڤي‌دي إتش‌دي فارغ"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "قرص Blu-Ray فديو فارغ"
+
+#~ msgid "e-book reader"
+#~ msgstr "قارئ كتب إلكتروني"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "قرص دي‌ڤي‌دي إتش‌دي فديو فارغ"
+
+#~ msgid "Picture CD"
+#~ msgstr "اسطوانة صور"
+
+#~ msgid "Super Video CD"
+#~ msgstr "اسطوانة فديو فائقة"
+
+#~ msgid "Video CD"
+#~ msgstr "اسطوانة فديو"
+
+#~ msgid "Windows software"
+#~ msgstr "برمجيات وندوز"
+
+#~ msgid "Section"
+#~ msgstr "القسم"
+
+#~ msgid "Overview"
+#~ msgstr "عام"
+
+#~ msgid "Default Applications"
+#~ msgstr "التطبيقات المبدئية"
+
+#~ msgid "Removable Media"
+#~ msgstr "الوسائط المنفصلة"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "الإصدارة %s"
+
+#~| msgid "Details"
+#~ msgid "De­tails"
+#~ msgstr "التفاصيل"
+
+#~ msgid "View information about your system"
+#~ msgstr "اعرض معلومات عن نظامك"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "جهاز;نظام;معلومات;ذاكرة;معالج;إصدارة;تطبيق;مبدئي;مفضل;قرص مضغوط;دي في دي;"
+#~ "يو اس بي;صوت;فيديو;قرص;قابل للفصل;وسائط;تشغيل تلقائي;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "اختر كيفية التعامل مع الوسائط الأخرى"
+
+#~ msgid "_Action:"
+#~ msgstr "الإ_جراء:"
+
+#~ msgid "_Type:"
+#~ msgstr "ال_نوع:"
+
+#~ msgid "Device name"
+#~ msgstr "اسم الجهاز"
+
+#~ msgid "Memory"
+#~ msgstr "الذاكرة"
+
+#~ msgid "Processor"
+#~ msgstr "المعالج"
+
+#~ msgid "Base system"
+#~ msgstr "النظام الأساسي"
+
+#~ msgid "Disk"
+#~ msgstr "القرص"
+
+#~ msgid "Calculating…"
+#~ msgstr "يحسب…"
+
+#~ msgid "Graphics"
+#~ msgstr "الرسوميات"
+
+#~ msgid "Virtualization"
+#~ msgstr "المحاكاة"
+
+#~ msgid "Check for updates"
+#~ msgstr "التمس التحديثات"
+
+#~ msgid "_Web"
+#~ msgstr "ال_وب"
+
+#~ msgid "_Mail"
+#~ msgstr "ال_بريد"
+
+#~ msgid "_Calendar"
+#~ msgstr "الت_قويم"
+
+#~ msgid "M_usic"
+#~ msgstr "ال_صوتيات"
+
+#~ msgid "_Video"
+#~ msgstr "ال_فيديو"
+
+#~ msgid "_Photos"
+#~ msgstr "ال_صور"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "اختر كيفية التعامل مع الوسائط"
+
+#~ msgid "CD _audio"
+#~ msgstr "قرص _صوتي"
+
+#~ msgid "_DVD video"
+#~ msgstr "_دي‌ڤي‌دي فيديو"
+
+#~ msgid "_Music player"
+#~ msgstr "مشغّل _موسيقى"
+
+#~ msgid "_Software"
+#~ msgstr "بر_مجيات"
+
+#~ msgid "_Other Media…"
+#~ msgstr "و_سائط أخرى…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "لا _تسأل أو تبدأ البرامج عند إدخال الوسائط"
+
+#~ msgid "Sound and Media"
+#~ msgstr "الصوت والوسائط"
+
+#~ msgid "Volume mute"
+#~ msgstr "أصمِت الصوت"
+
+#~ msgid "Volume down"
+#~ msgstr "اخفض الصوت"
+
+#~ msgid "Volume up"
+#~ msgstr "ارفع الصوت"
+
+#~ msgid "Launch media player"
+#~ msgstr "ابدأ مشغل الوسائط"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "شغّل (أو شغّل\\ألبِث)"
+
+#~ msgid "Pause playback"
+#~ msgstr "ألبِث التشغيل"
+
+#~ msgid "Stop playback"
+#~ msgstr "أوقف التشغيل"
+
+#~ msgid "Previous track"
+#~ msgstr "المقطوعة السابقة"
+
+#~ msgid "Next track"
+#~ msgstr "المقطوعة التالية"
+
+#~ msgid "Eject"
+#~ msgstr "أخرِج"
+
+#~ msgid "Typing"
+#~ msgstr "الكتابة"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "تحول إلى مصدر الإدخال التالي"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "تحول إلى مصدر الإدخال السابق"
+
+#~ msgid "Launchers"
+#~ msgstr "مشغلات التطبيقات"
+
+#~ msgid "Launch help browser"
+#~ msgstr "شغّل متصفّح المساعدة"
+
+#~ msgid "Settings"
+#~ msgstr "الإعدادات"
+
+#~ msgid "Launch calculator"
+#~ msgstr "شغّل الحاسبة"
+
+#~ msgid "Launch email client"
+#~ msgstr "شغّل عميل البريد الإلكتروني"
+
+#~ msgid "Launch web browser"
+#~ msgstr "شغّل متصفّح الوِب"
+
+#~ msgid "Home folder"
+#~ msgstr "مجلّد المنزل"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "ابحث"
+
+#~ msgid "Screenshots"
+#~ msgstr "لقطات الشاشة"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "احفظ لقطة شاشة في مجلد $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "احفظ لقطة شاشة لنافذة في مجلد $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "احفظ لقطة شاشة لمنطقة في مجلد $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "انسخ اللقطة إلى الحافظة"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "انسخ لقطة النافذة إلى الحافظة"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "انسخ لقطة المنطقة المحددة إلى الحافظة"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "سجّل تسجيل شاشة قصير"
+
+#~ msgid "System"
+#~ msgstr "النظام"
+
+#~ msgid "Log out"
+#~ msgstr "اخرج"
+
+#~ msgid "Lock screen"
+#~ msgstr "أوصد الشاشة"
+
+#~ msgid "Universal Access"
+#~ msgstr "الإتاحة"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "شغِّل أو عطِّل التقريب"
+
+#~ msgid "Zoom in"
+#~ msgstr "قرّب"
+
+#~ msgid "Zoom out"
+#~ msgstr "بعّد"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "شغِّل أو عطِّل قارئ الشاشة"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "شغّل أو عطّل لوحة المفاتيح على الشاشة"
+
+#~ msgid "Increase text size"
+#~ msgstr "كبّر النص"
+
+#~ msgid "Decrease text size"
+#~ msgstr "صغّر النص"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "شغّل أو عطّل التباين العال"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "اختصارات مخصصة"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "مفتاح الحروف البديلة"
+
+#~ msgid "Compose Key"
+#~ msgstr "مفتاح التركيب"
+
+#, fuzzy
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "تحول إلى المصدر التالي"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "أعِد الاختصار إلى قيمته المبدئية"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr "الاختصار %s مستخدم حاليا من أجل <b>%s</b>. إذا استبدلته، فيُعطّل %s."
+
+#~| msgid "Custom Shortcut"
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "حدد اختصارًا مخصصًا"
+
+#~| msgid "Shortcut"
+#~ msgid "Set Shortcut"
+#~ msgstr "حدد اختصارًا"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "أدخل اختصارًا جديدًا لتغيير <b>%s</b>."
+
+#~| msgid "Custom Shortcut"
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "أضف اختصارًا مخصصًا"
+
+#~| msgid "Keyboard"
+#~ msgid "Key­board"
+#~ msgstr "لوحة المفاتيح"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "اعرض و غيّر اختصارات لوحة المفاتيح و اضبط خيارات الكتابة"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "اختصار;تكرار;وميض;"
+
+#~| msgid "Keyboard Shortcuts"
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "لم يُعثر على أي اختصارات للوحة المفاتيح"
+
+#~ msgid "Try a different search"
+#~ msgstr "جرب بحثًا آخر"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "اضغط Esc للإلغاء."
+
+#~ msgid "Name"
+#~ msgstr "الاسم"
+
+#~| msgid "C_ommand:"
+#~ msgid "Command"
+#~ msgstr "الأمر"
+
+#~ msgid "Shortcut"
+#~ msgstr "الاختصار"
+
+#~ msgid "Edit"
+#~ msgstr "حرِّر"
+
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~| msgid "_Remove"
+#~ msgid "Remove"
+#~ msgstr "أزل"
+
+#~| msgid "Error saving the new shortcut"
+#~ msgid "Enter the new shortcut"
+#~ msgstr "أدخِل اختصارًا جديدًا"
+
+#~ msgid "Add"
+#~ msgstr "أضف"
+
+#~| msgid "_Replace"
+#~ msgid "Replace"
+#~ msgstr "استبدل"
+
+#~| msgid "Select"
+#~ msgid "Set"
+#~ msgstr "حدد"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "اختبر إ_عداداتك"
+
+#~| msgid "Mouse & Touchpad"
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "الفأرة و لوحة اللمس"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr "غيّر حساسية الشاشة و لوح اللمس و اختر اليد اليمنى أم اليسرى"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "فأرة;مؤشر;نقر;مزدوج;زر;لمس;"
+
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgid "Primary Button"
+#~ msgstr "الزر الأساسي"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "حدد ترتيب الأزرار على الفأرة و لوحة اللمس."
+
+#~ msgid "Left"
+#~ msgstr "يسار"
+
+#~ msgid "Right"
+#~ msgstr "يمين"
+
+#~ msgid "Mouse"
+#~ msgstr "الفأرة"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "سرعة الفأرة"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "مهلة النقر المزدوج"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "تمرير طبيعي"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "التمرير يحرك المحتوى و ليس المنظور."
+
+#~ msgid "Touchpad"
+#~ msgstr "لوحة اللمس"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "سرعة لوحة اللمس"
+
+#~ msgid "Tap to Click"
+#~ msgstr "النقر بالإصبع"
+
+#~| msgid "Two _finger scroll"
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "اللف بأصبعين"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "التمرير عند الحافة"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "جرب النقر والنقر المزدوج والتمرير"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "نقرة مزدوجة، الزر الأساسي"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "نقرة مفردة، الزر الأساسي"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "نقرة مزدوجة، الزر الأوسط"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "نقرة مفردة، الزر الأوسط"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "نقرة مزدوجة، الزر الثانوي"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "نقرة مفردة، الزر الثانوي"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "وضع ال_طائرة"
+
+#~ msgid "Network proxy"
+#~ msgstr "وسيط الشبكة"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "ش‌خ‌ف %s"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr "نأسف، حدث عطل ما. من فضلك اتصل بالدعم الفني."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "يجب أن يكون NetworkManager شغّالًا."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "أ_من 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "صفحة 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "_هوية مجهولة"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "الاستيثاق ال_داخلي"
+
+#~ msgid "page 2"
+#~ msgstr "صفحة 2"
+
+#~ msgid "Security"
+#~ msgstr "الأمن"
+
+#~ msgid "automatic"
+#~ msgstr "تلقائي"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "إعداد %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "مؤسسة"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "بدون"
+
+#~ msgid "Never"
+#~ msgstr "أبدًا"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "منذ أقل من يوم"
+#~ msgstr[1] "منذ يوم واحد"
+#~ msgstr[2] "منذ يومين"
+#~ msgstr[3] "منذ %i أيام"
+#~ msgstr[4] "منذ %i يوما"
+#~ msgstr[5] "منذ %i يوم"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d م.بايت\\ث"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "لا إشارة"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "ضعيفة"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "معقولة"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "جيّدة"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "ممتازة"
+
+#~ msgid "Details"
+#~ msgstr "تفاصيل"
+
+#~ msgid "Identity"
+#~ msgstr "الهوية"
+
+#~ msgid "Address"
+#~ msgstr "العنوان"
+
+#~ msgid "Netmask"
+#~ msgstr "قناع الشّبكة"
+
+#~ msgid "Gateway"
+#~ msgstr "البوّابة"
+
+#~ msgid "Delete Address"
+#~ msgstr "احذف العنوان"
+
+#~ msgid "Server"
+#~ msgstr "الخادوم"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "احذف خادوك DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "المعيار"
+
+#~ msgid "Delete Route"
+#~ msgstr "احذق السبيل"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "تلقائي (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "يدوي"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "السابقة"
+
+#~ msgid "Automatic"
+#~ msgstr "تلقائي"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "تلقائي، DHCP فقط"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "صفّر"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "عبارة سر WEP‏ 128-بتة"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "‏WPA و WPA2 شخصي"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "‏WPA و WPA2 للمؤسسات"
+
+#~ msgid "Signal Strength"
+#~ msgstr "قوّة الإشارة"
+
+#~ msgid "Link speed"
+#~ msgstr "سرعة الوصلة"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "عنوان IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "عنوان IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "عنوان العتاد"
+
+#~ msgid "Default Route"
+#~ msgstr "السبيل المبدئي"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "آخر استخدام"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 م.بايت\\ث"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 م.بايت\\ث"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 ج.بايت/ث"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 ج.بايت/ث"
+
+#~ msgid "_Name"
+#~ msgstr "الا_سم"
+
+#~ msgid "_MAC Address"
+#~ msgstr "عنوان _MAC"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "عنوان IP"
+
+#~ msgid "bytes"
+#~ msgstr "بايت"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "اجعله م_تاحا للمستخدمين الآخرين"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "اتصل _تلقائيا"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_طبقة الجدار الناري"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "المبدئية"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "تحدد الطبقة مستوى الثقة في الاتصال"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "ال_عنوان"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "‏DNS تلقائي"
+
+#~ msgid "Routes"
+#~ msgstr "الطُرق"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "سُبُل تلقائية"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "استخدم هذا الاتصال _فقط إذا كان الهدف على شبكته"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "تعذّر فتح محرر الاتصالات"
+
+#~ msgid "New Profile"
+#~ msgstr "إعداد جديد"
+
+#~ msgid "VPN"
+#~ msgstr "ش‌خ‌ف"
+
+#~ msgid "Import from file…"
+#~ msgstr "استورد من ملف…"
+
+#~| msgid "%s VPN"
+#~ msgid "Add VPN"
+#~ msgstr "أضف ش‌خ‌ف (VPN)"
+
+#~ msgid "_Reset"
+#~ msgstr "_صفّر"
+
+#~ msgid "_Forget"
+#~ msgstr "ان_سَ"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "صفّر إعدادات هذه الشبكة بما فيها كلمات السر، لكن تذكر كونها الشبكة المُفضّلة"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "احذف كل التفاصيل المتعلقة بهذه الشبكة و لا تحاول الاتصال بها تلقائيا"
+
+#~ msgid "S_ecurity"
+#~ msgstr "الأ_من"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "تعذّر استيراد اتصال VPN"
+
+#~ msgid "Select file to import"
+#~ msgstr "اختر ملفا لاستيراده"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "يوجد فعلا ملف بالاسم \"%s\"."
+
+#~ msgid "_Replace"
+#~ msgstr "ا_ستبدل"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "هل تريد استبدال %s باتصال VPN الذي تحفظه؟"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "تعذّر تصدير اتصال VPN"
+
+#~ msgid "Export VPN connection"
+#~ msgstr "صدّر اتصال VPN"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(عطل: تعذّر تحميل محرر اتصالا VPN)"
+
+#~ msgid "My Home Network"
+#~ msgstr "شبكتي المنزلية"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "اجعله م_تاحا للمستخدمين الآخرين"
+
+#~| msgid "Network"
+#~ msgid "Net­work"
+#~ msgstr "الشبكة"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "تحكم في اتصالك بالإنترنت"
+
+#~| msgid ""
+#~| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~| "vpn;vlan;bridge;bond;DNS;"
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr "شبكة;لاسلكي;واي فاي;بلوتوث;محمول;وسيط;شبكة محلية;مودم;"
+
+#~ msgid "never"
+#~ msgstr "أبدًا"
+
+#~ msgid "today"
+#~ msgstr "اليوم"
+
+#~ msgid "yesterday"
+#~ msgstr "الأمس"
+
+#~ msgid "IP Address"
+#~ msgstr "عنوان IP"
+
+#~ msgid "Last used"
+#~ msgstr "آخر استخدام"
+
+#~ msgid "Wired"
+#~ msgstr "سلكية"
+
+#~ msgid "Options…"
+#~ msgstr "الخيارات…"
+
+#~ msgid "Add new connection"
+#~ msgstr "أضف اتصالًا جديدا"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "إذا كان لديك اتصال بالإنترنت غير الاتصال اللاسلكي فيمكنك إعداد نقطة بث "
+#~ "لمشاركة اتصالك بالإنترنت مع الآخرين."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "تشغيل نقطة بث اللاسلكي ستفصلك عن <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "لا يمكن استخدام الاتصال اللاسلكي للوصول إلى الإنترنت عند تفعيل نقطة البث."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "إيقاف نقطة البث وقطع الاتصال عن أي مستخدمين؟"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "أو_قف نقطة البث"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "تمنع سياسة النظام استخدامه نقطة بث"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "لا يدعم جهاز اللاسلكي وضع نقطة البث"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr "ستُفقد تفاصيل الشبكة، بما في ذلك كلمات السر وأي إعدادات مُخصصة."
+
+#~ msgid "History"
+#~ msgstr "التأريخ"
+
+#~ msgid "_Close"
+#~ msgstr "أ_غلق"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "إن_س"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr "يستخدم الاكتشاف التلقائي للوسيط في حال لم يُعطَ مسار للإعداد."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "لا يُنصَح بهذا مع الشبكات العامة غير الموثوقة."
+
+#~ msgid "Proxy"
+#~ msgstr "الوسيط"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "أضف إ_عدادًا…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "مقدم الخدمة"
+
+#~ msgid "Network"
+#~ msgstr "الشبكة"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "يدوي"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "تلقائي"
+
+#~ msgid "_Method"
+#~ msgstr "ال_طريقة"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "م_سار الإعداد"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "وسيط _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "وسيط H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "وسيط _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "مستضيف _Socks"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_تجاهل المستضيفين"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "منفذ وسيط HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "منفذ وسيط HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "منفذ وسيط FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "منفذ وسيط Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "أغلق الجهاز"
+
+#~ msgid "Add Device"
+#~ msgstr "أضف جهازًا"
+
+#~ msgid "Remove Device"
+#~ msgstr "أزِل الجهاز"
+
+#~ msgid "VPN Type"
+#~ msgstr "نوع VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "اسم المجموعة"
+
+#~ msgid "Group Password"
+#~ msgstr "كلمة سر المجموعة"
+
+#~ msgid "Username"
+#~ msgstr "اسم المستخدم"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "أوقف اتصال VPN"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "اتّ_صل تلقائيا"
+
+#~ msgid "details"
+#~ msgstr "التفاصيل"
+
+#~ msgid "Show P_assword"
+#~ msgstr "أ_ظهر كلمة السر"
+
+#~ msgid "Make available to other users"
+#~ msgstr "اجعله متاحا للمستخدمين الآخرين"
+
+#~ msgid "identity"
+#~ msgstr "الهوية"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "عناوين (DHCP) تلقائية فقط"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "مشتركة مع حواسيب أخرى"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_تجاهل السُبُل المُضافة آليًا"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "عنوان MAC _منسوخ"
+
+#~ msgid "hardware"
+#~ msgstr "العتاد"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "صفّر كل إعدادات هذا الاتصال لقيمها المبدئية و لكن تذكّر أنها الاتصال المُفضّل."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "احذف كل التفاصيل المتعلقة بهذه الشبكة و لا تحاول الاتصال بها تلقائيا."
+
+#~ msgid "reset"
+#~ msgstr "صفّر"
+
+#~ msgid "Hardware"
+#~ msgstr "العتاد"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "نقطة بث واي فاي"
+
+#~ msgid "_Turn On"
+#~ msgstr "_شغّل"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "واي فاي"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "أغلق واي فاي"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "ا_ستخدم كنقطة بث…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "اتّ_صل بشبكة مخفية…"
+
+#~ msgid "_History"
+#~ msgstr "ال_تأريخ"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "أطفئ للاتصال بشبكة واي فاي"
+
+#~ msgid "Network Name"
+#~ msgstr "اسم الشبكة"
+
+#~ msgid "Connected Devices"
+#~ msgstr "الأجهزة الموصّلة"
+
+#~ msgid "Security type"
+#~ msgstr "نوع الأمن"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "لا مركزية"
+
+#~ msgid "Infrastructure"
+#~ msgstr "مركزية"
+
+#~ msgid "Status unknown"
+#~ msgstr "الحالة غير معروفة"
+
+#~ msgid "Unmanaged"
+#~ msgstr "غير مُدار"
+
+#~ msgid "Unavailable"
+#~ msgstr "غير متاح"
+
+#~ msgid "Connecting"
+#~ msgstr "يتّصل"
+
+#~ msgid "Authentication required"
+#~ msgstr "الاستيثاق مطلوب"
+
+#~ msgid "Connected"
+#~ msgstr "متّصل"
+
+#~ msgid "Disconnecting"
+#~ msgstr "يقطع الاتصال"
+
+#~ msgid "Connection failed"
+#~ msgstr "فشل الاتصال"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "الحالة غير معروفة (مفقودة)"
+
+#~ msgid "Not connected"
+#~ msgstr "غير متّصِل"
+
+#~ msgid "Configuration failed"
+#~ msgstr "فشل الإعداد"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "فشل إعداد رقم الإنترنت (IP)"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "انتهت صلاحية إعداد رقم الإنترنت (IP)"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "الأسرار مطلوبة لكن لم تُعطَ"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "فشل بدء خدمة PPP"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "فصلت خدمة PPP"
+
+#~ msgid "PPP failed"
+#~ msgstr "فشل PPP"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "فشل بدء عميل DHCP"
+
+#~ msgid "DHCP client error"
+#~ msgstr "خطأ من عميل DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "فشل عميل DHCP"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "فشل بدء خدمة الاتصال المشترك"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "فشلت خدمة الاتصال المشترك"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "فشل بدء خدمة AutoIP"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "عطل في خدمة AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "فشلت خدمة AutoIP"
+
+#~ msgid "Line busy"
+#~ msgstr "الخط مشغول"
+
+#~ msgid "No dial tone"
+#~ msgstr "الخط مقطوع"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "انتهت مهلة الاتصال الهاتفي"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "فشل الاتصال الهاتفي"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "فشلت تهيئة المودم"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "تعذّر اختيار APN المحدد"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "لن يبحث عن شبكة"
+
+#~ msgid "Network registration denied"
+#~ msgstr "رُفض تسجيل الشبكة"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "انتهت مهلة تسجيل الشبكة"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "فشل تسجيل الشبكة المطلوبة"
+
+#~ msgid "PIN check failed"
+#~ msgstr "فضل فحص PIN"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "البرمجيات المضمنة التي يحتاجها الجهاز غير متاحة"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "اختفى الاتصال"
+
+#~ msgid "Modem not found"
+#~ msgstr "المودم غير موجود"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "فشل اتصال بلوتوث"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "لم تُدرج شريحة الهاتف"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "فشلت اعتمادية الاتصال"
+
+#~ msgid "Firmware missing"
+#~ msgstr "البرمجية المغروسة غير متاحة"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "الكبل مفصول"
+
+#~| msgid "No input source selected"
+#~ msgid "no file selected"
+#~ msgstr "لم تحدد أي ملف"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "اختر ملف PAC"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "ملفات PAC‏ (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "مجهول"
+
+#~ msgid "Authenticated"
+#~ msgstr "مستوثَق"
+
+#~ msgid "Both"
+#~ msgstr "كلاهما"
+
+#~ msgid "PAC _file"
+#~ msgstr "_ملفات PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "الاستيثاق ال_داخلي"
+
+#~ msgid "Sho_w password"
+#~ msgstr "أظهر _كلمة السر"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "اختر شهادة \"سلطة شهادات\""
+
+#~ msgid "Version 0"
+#~ msgstr "الإصدارة 0"
+
+#~ msgid "Version 1"
+#~ msgstr "الإصدارة 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "شهادة _سُلْطة استيثاق"
+
+#~ msgid "PEAP _version"
+#~ msgstr "إ_صدارة PEAP:"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "المفاتيح السرية غير المُعمّاة ليست آمنة"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "اختر شهادتك الشخصية"
+
+#~ msgid "Choose your private key"
+#~ msgstr "اختر مفتاحك السري"
+
+#~ msgid "I_dentity"
+#~ msgstr "ا_لهوية"
+
+#~ msgid "_User certificate"
+#~ msgstr "شهادة المست_خدم"
+
+#~ msgid "Private _key"
+#~ msgstr "المفتاح ال_سري"
+
+#~ msgid "_Private key password"
+#~ msgstr "كل_مة سر المفتاح السري"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "‏TLS عبر نفق"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "‏EAP ‏(PEAP) محمي"
+
+#~ msgid "Au_thentication"
+#~ msgstr "الا_ستيثاق"
+
+#~ msgid "1 (Default)"
+#~ msgstr "١ (المبدئي)"
+
+#~ msgid "2"
+#~ msgstr "٢"
+
+#~ msgid "3"
+#~ msgstr "٣"
+
+#~ msgid "4"
+#~ msgstr "٤"
+
+#~ msgid "Open System"
+#~ msgstr "نظام مفتوح"
+
+#~ msgid "Shared Key"
+#~ msgstr "مفتاح مشترك"
+
+#~ msgid "_Key"
+#~ msgstr "الم_فتاح"
+
+#~ msgid "Sho_w key"
+#~ msgstr "أظهر ال_مفتاح"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "_فهرس WEP"
+
+#~ msgid "_Type"
+#~ msgstr "ال_نوع"
+
+#~ msgid "On"
+#~ msgstr "مفعّل"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "ال_تنبيهات"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "التنبيهات ال_صوتية"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "أ_شرطة التنبيهات"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "أ_ظهر محتوى الرسائل في أشرطة"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "تنبيهات شاشة ال_قفل"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "أظهر محتوى الر_سالة في شاشة القفل"
+
+#~| msgid "Notifications"
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "التنبيهات"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "تحكم في أي التنبيهات تُعرض و ماذا تعرِض"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "تنبيهات;لوحة;رسالة;منبثق;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "أشر_طة التنبيهات"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "تنبيهات شاشة ال_قفل"
+
+#~ msgid "Applications"
+#~ msgstr "التطبيقات"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "أخرى"
+
+#~ msgid "Add Account"
+#~ msgstr "أضف حسابا"
+
+#~ msgid "Mail"
+#~ msgstr "البريد"
+
+#~| msgid "_Calendar"
+#~ msgid "Calendar"
+#~ msgstr "التقويم"
+
+#~ msgid "Contacts"
+#~ msgstr "المتراسلين"
+
+#~ msgid "Chat"
+#~ msgstr "الدردشة"
+
+#~ msgid "Resources"
+#~ msgstr "الموارد"
+
+#~ msgid "Error creating account"
+#~ msgstr "خطأ أثناء إنشاء الحساب"
+
+#~ msgid "Error removing account"
+#~ msgstr "خطأ أثناء إزالة الحساب"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "أمتأكد أنك تريد إزالة الحساب؟"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "هذا لن يزيل الحساب على الخادوم."
+
+#~ msgid "_Remove"
+#~ msgstr "أ_زل"
+
+#~| msgid "Online Accounts"
+#~ msgid "On­line Accounts"
+#~ msgstr "حسابات الإنترنت"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "اتصل بحساباتك على الإنترنت و اختر ما الذي تستخدمه منهم"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr "جوجل;جووجل;فيسبوك;تويتر;ياهو;وب;ويب;محادثة;تقويم;بريد;اتصال;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "لم تُعد أي حسابات إنترنت"
+
+#~ msgid "Add an online account"
+#~ msgstr "أضِف حساب إنترنت"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "إضافة حساب تتيح للتطبيقات استخدامه للوصول إلى المستندات، والبريد، "
+#~ "والمتراسلين، والتقويم، والدردشة، وغيرها."
+
+#~ msgid "Unknown time"
+#~ msgstr "وقت غير معروف"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "أقل من دقيقة"
+#~ msgstr[1] "دقيقة واحدة"
+#~ msgstr[2] "دقيقتين"
+#~ msgstr[3] "%i دقائق"
+#~ msgstr[4] "%i دقيقة"
+#~ msgstr[5] "%i دقيقة"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "أقل من ساعة"
+#~ msgstr[1] "ساعة واحدة"
+#~ msgstr[2] "ساعتين"
+#~ msgstr[3] "%i ساعات"
+#~ msgstr[4] "%i ساعة"
+#~ msgstr[5] "%i ساعة"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ساعة"
+#~ msgstr[1] "ساعة"
+#~ msgstr[2] "ساعتين"
+#~ msgstr[3] "ساعات"
+#~ msgstr[4] "ساعة"
+#~ msgstr[5] "ساعة"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "دقيقة"
+#~ msgstr[1] "دقيقة"
+#~ msgstr[2] "دقيقتين"
+#~ msgstr[3] "دقائق"
+#~ msgstr[4] "دقيقة"
+#~ msgstr[5] "دقيقة"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s حتى يكتمل الشحن"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "تحذير: بقي %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "بقي %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "مشحونة بالكامل"
+
+#~ msgid "Empty"
+#~ msgstr "فارغة"
+
+#~ msgid "Charging"
+#~ msgstr "يشحن"
+
+#~ msgid "Discharging"
+#~ msgstr "تُفرّغ"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "الأساسية"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "إضافية"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "فأرة لا سلكية"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "لوحة مفاتيح لا سلكية"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "مزود طاقة غير منقطعة"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "مساعد رقمي شخصي PDA"
+
+#~ msgid "Cellphone"
+#~ msgstr "هاتف خليوي"
+
+#~ msgid "Media player"
+#~ msgstr "مشغل وسائط"
+
+#~ msgid "Tablet"
+#~ msgstr "لوحي"
+
+#~ msgid "Computer"
+#~ msgstr "حاسوب"
+
+#~ msgid "Battery"
+#~ msgstr "بطارية"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "تشحن"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "إنتباه"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "منخفضة"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "جيّدة"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "مشحونة بالكامل"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "فارغة"
+
+#~ msgid "Batteries"
+#~ msgstr "البطاريات"
+
+#~ msgid "When _idle"
+#~ msgstr "عند عدم الا_ستخدام"
+
+#~ msgid "Power Saving"
+#~ msgstr "حفظ الطاقة"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "س_طوع الشاشة"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "سطوع تلقائي"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "سطوع _لوحة المفاتيح"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "أ_خفض ضوء الشاشة عند الخمول"
+
+#~ msgid "_Blank screen"
+#~ msgstr "شاشة _فارغة"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "واي فاي"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "عطل واي فاي لتوفير الطاقة"
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "شبكة هاتف م_حمول"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr "عطّل شبكات الهاتف المحمول (٣ج، ٤ج، واي‌ماك، إلخ.) لتوفير الطاقة."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "بلو_توث"
+
+#~ msgid "When on battery power"
+#~ msgstr "عندما تكون على طاقة البطارية"
+
+#~ msgid "When plugged in"
+#~ msgstr "عند توصيل الكبل"
+
+#~ msgid "Suspend"
+#~ msgstr "علِّق"
+
+#~ msgid "Hibernate"
+#~ msgstr "أسبِت"
+
+#~ msgid "Nothing"
+#~ msgstr "لا تفعل شيئا"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "التعليق و زر الطاقة"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "ت_عليق تلقائي"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "تعليق تلقائي"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "عند _ضغط زر الطاقة"
+
+#~ msgid "Devices"
+#~ msgstr "الأجهزة"
+
+#~ msgid "Po­wer"
+#~ msgstr "الطاقة"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "اعرض حالة البطارية و غيّر إعدادات توفير الطاقة"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr "طاقة;سبات;تعليق;بطارية;إضاءة;شاشة;إسبات;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 دقيقة"
+
+#~ msgid "1 hour"
+#~ msgstr "ساعة واحدة"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 دقيقة"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 دقيقة"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 دقيقة"
+
+#~ msgid "2 hours"
+#~ msgstr "ساعتين"
+
+#~ msgid "1 minute"
+#~ msgstr "دقيقة واحدة"
+
+#~ msgid "2 minutes"
+#~ msgstr "دقيقتين"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 دقائق"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 دقائق"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 دقائق"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 دقائق"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 دقائق"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 دقيقة"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "تعليق تلقائي"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_موصّل بمقبس الكهرباء"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "على _طاقة البطارية"
+
+#~ msgid "Delay"
+#~ msgstr "التأخير"
+
+#~ msgid "Authenticate"
+#~ msgstr "استوثق"
+
+#~ msgid "Authentication Required"
+#~ msgstr "الاستيثاق مطلوب"
+
+#~ msgid "Low on toner"
+#~ msgstr "الحبر قليل"
+
+#~ msgid "Out of toner"
+#~ msgstr "نفد الحبر"
+
+#~ msgid "Low on developer"
+#~ msgstr "المُحمِّض قليل"
+
+#~ msgid "Out of developer"
+#~ msgstr "نفد المُحمِّض"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "اللون قليل"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "نفد اللون"
+
+#~ msgid "Open cover"
+#~ msgstr "الغطاء مفتوح"
+
+#~ msgid "Open door"
+#~ msgstr "الباب مفنوح"
+
+#~ msgid "Low on paper"
+#~ msgstr "الورق قليل"
+
+#~ msgid "Out of paper"
+#~ msgstr "نفد الورق"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "غير متصلة"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "متوقفة"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "حاوية النفايات على وشك الامتلاء"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "حاوية النفايات ممتلئة"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "قاربت صلاحية المقاوم الضوئي على الانتهاء"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "لم يعد المقاوم الضوئي يعمل"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "تُضبط"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "جاهزة"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "لا تقبل المهام"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "تُعالِج"
+
+#~ msgid "Toner Level"
+#~ msgstr "مستوى الحبر"
+
+#~ msgid "Ink Level"
+#~ msgstr "مستوى الحبر"
+
+#~ msgid "Supply Level"
+#~ msgstr "مستوى المداد"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "تُثبّت"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "لا مهام نشطة"
+#~ msgstr[1] "%u نشطة"
+#~ msgstr[2] "%u نشطتين"
+#~ msgstr[3] "%u نشطة"
+#~ msgstr[4] "%u نشطة"
+#~ msgstr[5] "%u نشطة"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "تعذّر إضافة طابعة جديدة."
+
+#~ msgid "Select PPD File"
+#~ msgstr "اختر ملف PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "ملفت وصف طابعة بوست‌سكربت (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *.PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "لم يعثر على أي طابعة مناسبة"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "يبحث عن المُشغّلات المُفضّلة…"
+
+#~ msgid "Select from database…"
+#~ msgstr "اختر من قاعدة بيانات…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "وفر ملف PPD…"
+
+#~ msgid "Test page"
+#~ msgstr "صفحة اختبار"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "تعذّر تحميل الواجهة: %s"
+
+#~| msgid "Printers"
+#~ msgid "Prin­ters"
+#~ msgstr "الطابعات"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr "أضف الطابعات و اعرض مهام الطباعة و اختر ما الذي تطبعه"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "طابعة;طباعة;طبع;ورق;حبر;"
+
+#~ msgid "Clear All"
+#~ msgstr "امسح الكل"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "لا مهام طابعة نشطة"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "أضِف طابعة جديدة"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "اس_توثق"
+
+#~ msgid "No printers detected."
+#~ msgstr "لم تُكتشف أي طابعة."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "أدخل عنوان شبكة للبحث عن الطابعة"
+
+#~ msgid "Loading options…"
+#~ msgstr "يُحمّل الخيارات…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "اختر مُشغّل الطابعة"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "يُحمّل قاعدة بيانات المشغلات..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "طابعة JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "طابعة LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "على وجه واحد"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "الحافة الطويلة (قياسي)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "الحافة القصيرة (ملفوف)"
+
+#~ msgid "Portrait"
+#~ msgstr "طوليّ"
+
+#~ msgid "Landscape"
+#~ msgstr "عرضيّ"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "عرضيّ مقلوب"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "طوليّ مقلوب"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "منتظرة"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "مُلبثة"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "تُعالَج"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "متوقفة"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "ملغاة"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "مُجهضَة"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "مُنجزَة"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - المهام النشطة"
+
+#~ msgid "USB"
+#~ msgstr "يو‌إس‌بي"
+
+#~ msgid "Serial Port"
+#~ msgstr "منفذ تسلسلي"
+
+#~ msgid "Parallel Port"
+#~ msgstr "منفذ متواز"
+
+#~ msgid "Bluetooth"
+#~ msgstr "بلوتوث"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "المكان: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "العنوان: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "يتطلب الخادوم الاستيثاق"
+
+#~ msgid "Two Sided"
+#~ msgstr "على الوجهين"
+
+#~ msgid "Paper Type"
+#~ msgstr "نوع الورق"
+
+#~ msgid "Paper Source"
+#~ msgstr "مصدر الورق"
+
+#~ msgid "Output Tray"
+#~ msgstr "رف الخارج"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "ترشيح مسبق في غوست‌سكربت"
+
+#~ msgid "Pages per side"
+#~ msgstr "الصفحات في كل وجه"
+
+#~ msgid "Two-sided"
+#~ msgstr "على الوجهين"
+
+#~ msgid "Orientation"
+#~ msgstr "الاتجاه"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "إعداد الصفحة"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "الخيارات القابلة للتثبيت"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "المهام"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "جودة الصورة"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "الألوان"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "الإنهاء"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "متقدم"
+
+#~ msgid "Auto Select"
+#~ msgstr "اختيار تلقائي"
+
+#~ msgid "Printer Default"
+#~ msgstr "مبدئي الطابعة"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "ادمج خطوط غوست‌سكربت فقط"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "حوّل إلى بوست‌سكربت المستوى 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "حوّل إلى بوست‌سكربت المستوى 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "لا ترشيح مسبق"
+
+#~ msgid "Manufacturer"
+#~ msgstr "المُصنِّع"
+
+#~ msgid "Driver"
+#~ msgstr "المُشغّل"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr "أدخل اسم المستخدم و كلمة السر لعرض الطابعات المتوفرة على %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "أضِف طابعة"
+
+#~ msgid "Remove Printer"
+#~ msgstr "أزِل طابعة"
+
+#~ msgid "Supply"
+#~ msgstr "المداد"
+
+#~ msgid "Location"
+#~ msgstr "المكان"
+
+#~ msgid "_Default printer"
+#~ msgstr "ال_طابعة المبدئية"
+
+#~ msgid "Jobs"
+#~ msgstr "المهام"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "أظهر ال_مهام"
+
+#~ msgid "Model"
+#~ msgstr "الطراز"
+
+#~ msgid "label"
+#~ msgstr "العنوان"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "يُعدّ المُشغّل الجديد…"
+
+#~ msgid "page 3"
+#~ msgstr "صفحة 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "اطبع صفحة ا_ختبار"
+
+#~ msgid "_Options"
+#~ msgstr "ال_خيارات"
+
+#~ msgid "No printers"
+#~ msgstr "لا طابعات"
+
+#~ msgid "Add a Printer"
+#~ msgstr "أضِف طابعة"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "آسف، يبدو أن خدمة الطباعة\n"
+#~ "في النظام غير متاحة."
+
+#~ msgid "Screen Lock"
+#~ msgstr "قفل الشاشة"
+
+#~ msgid "In use"
+#~ msgstr "قيد الاستعمال"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "مشغلة"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "مغلقة"
+
+#~ msgid "Location Services"
+#~ msgstr "خدمات التموضع"
+
+#~ msgid "Usage & History"
+#~ msgstr "الاستخدام والتأريخ"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "أأحذف كل العناصر من المهملات؟"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "ستحذف نهائيا كل العناصر الموجودة في المهملات."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "أ_فرغ المهملات"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "أأحذف كل الملفات المؤقتة؟"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "ستُحذف كل الملفات المؤقتة نهائيًا."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "ت_خلّص من الملفات المؤقتة"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "أفرغ المهملات والملفات المؤقتة"
+
+#~ msgid "Software Usage"
+#~ msgstr "استخدام البرمجيات"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "الإبلاغ عن المشاكل"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "الإبلاغ عن المشاكل التقنية يساعدنا على تحسين %s. ترسل البلاغات مُجهّلة بدون "
+#~ "أي معلومات شخصية."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "سياسة الخصوصية"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "الخصوصية"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "احمِ بياناتك الشخصية و تحكم في ما يمكن للآخرين الاطلاع عليه منها"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr "شاشة;قفل;تشخيص;تحطم;خاص;حديث;مؤقت;شبكة;هوية;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "إطفاء الشاشة"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 ثانية"
+
+#~ msgid "1 day"
+#~ msgstr "يوم واحد"
+
+#~ msgid "2 days"
+#~ msgstr "يومين"
+
+#~ msgid "3 days"
+#~ msgstr "3 أيام"
+
+#~ msgid "4 days"
+#~ msgstr "4 أيام"
+
+#~ msgid "5 days"
+#~ msgstr "5 أيام"
+
+#~ msgid "6 days"
+#~ msgstr "6 أيام"
+
+#~ msgid "7 days"
+#~ msgstr "7 أيام"
+
+#~ msgid "14 days"
+#~ msgstr "14 يومًا"
+
+#~ msgid "30 days"
+#~ msgstr "30 يومًا"
+
+#~ msgid "Forever"
+#~ msgstr "إلى الأبد"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "تذكر التأريخ يسهل الوصول إلى الأشياء في ما بعد. لا تُشارك هذه العناصر أبدا "
+#~ "عبر الشبكة."
+
+#~ msgid "_Recently Used"
+#~ msgstr "مستخدمة مؤ_خرا"
+
+#~ msgid "Retain _History"
+#~ msgstr "احتف_ظ بالتأريخ"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "امسح التأريخ ال_حالي"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "قفل الشاشة يحفظ خصوصيتك حين تبتعد عن حاسوبك."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "إي_صاد تلقائي للشاشة"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "أ_وصِد الشاشة بعد إطفائها لمدة"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "أظهر ال_تنبيهات"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "تخلص من المهملات والملفات المؤقتة تلقائيا للمحافظة على خلو حاسوبك من "
+#~ "المعلومات الحساسة."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "أفرغ ال_مهملات تلقائيا"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "تخلّص من الملفات المؤ_قتة تلقائيا"
+
+#~ msgid "Purge _After"
+#~ msgstr "أفرف ب_عد"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "إرسال معلومات لنا عن البرمجيات التي تستخدمها يساعدنا على إمدادك بتوصيات "
+#~ "أدق، كما يساعدنا أيضًا على تسحين برمجياتنا.\n"
+#~ "\n"
+#~ "كل المعلومات التي نجمعها مُجهّلة و لن نشاركها أبدًا مع أي طرف ثالث."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "أر_سل إحصائيات استخدام البرمجيات"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "تسمح خدمات التموضع للتطبيقات بمعرفة مكانك. استخدام الشبكات اللاسلكية "
+#~ "و الهاتف المحمول يزيد من دقة هذه الخدمات."
+
+#~ msgid "_Location Services"
+#~ msgstr "خدمات ال_تموضع"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "الإبلاغ التل_قائي عن المشاكل"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "إمبراطوري"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "متري"
+
+#~ msgid "No regions found"
+#~ msgstr "لا يوجد أي مناطق"
+
+#~ msgid "No input sources found"
+#~ msgstr "لا يوجد أي مصادر إدخال"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "أخرى"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "يجب إعادة تشغيل الجلسة لتطبيق التغييرات"
+
+#~ msgid "Restart Now"
+#~ msgstr "أعِد التشغيل الآن"
+
+#~ msgid "No input source selected"
+#~ msgstr "لم تحدد أي مصادر إدخال"
+
+#~ msgid "Login _Screen"
+#~ msgstr "شاشة الو_لوج"
+
+#~ msgid "Formats"
+#~ msgstr "النُسق"
+
+#~ msgid "Preview"
+#~ msgstr "معاينة"
+
+#~ msgid "Dates"
+#~ msgstr "التّواريخ"
+
+#~ msgid "Times"
+#~ msgstr "الوقت"
+
+#~ msgid "Numbers"
+#~ msgstr "الأرقام"
+
+#~ msgid "Measurement"
+#~ msgstr "القياس"
+
+#~ msgid "Paper"
+#~ msgstr "الورق"
+
+#~| msgid "Region & Language"
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "المنطقة و اللغة"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr "اختر لغة العرض و التنسيق و تخطيط لوحة المفاتيح و مصادر الإدخال"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "اللغة;التخطيط;مفاتيح;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "أضف مصْدَر إدخال"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "لا يمكن استخدام مصادر الإدخال في شاشة الولوج"
+
+#~ msgid "Input Source Options"
+#~ msgstr "خيارات مصْدَر الإدخال"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "استخدم _نفس المصدر لكل النوافذ"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "ا_سمح بمصدر مختلف لكل نافذة"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "اختصارات لوحة المفاتيح"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "تحول إلى المصدر السابق"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "تحول إلى المصدر التالي"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "يمكنك تغيير هذه الاختصارات من إعدادات لوحة المفاتيح"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "تحول إلى المصدر التالي البديل"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Left+Right Alt"
+
+#~ msgid "_Language"
+#~ msgstr "الل_غة"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "إنجليزي (المملكة المتحدة)"
+
+#~ msgid "_Formats"
+#~ msgstr "ال_نُسق"
+
+#~ msgid "United Kingdom"
+#~ msgstr "المملكة المتحدة"
+
+#~ msgid "Input Sources"
+#~ msgstr "مصادر الإدخال"
+
+#~ msgid "Add input source"
+#~ msgstr "أضف مصْدَر إدخال"
+
+#~ msgid "Remove input source"
+#~ msgstr "احذف مصْدَر الإدخال"
+
+#~ msgid "Move input source up"
+#~ msgstr "انقل مصْدَر الإدخال لأعلى"
+
+#~ msgid "Move input source down"
+#~ msgstr "انقل مصْدَر الإدخال لأسفل"
+
+#~ msgid "Configure input source"
+#~ msgstr "اضبط مصْدَر الإدخال"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "أظهر تخطيط لوحة مفاتيح مصْدَر الإدخال"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr "يستخدم إعدادات الولوج كل المستخدمين أثناء الولوج إلى النظام"
+
+#~ msgid "Select Location"
+#~ msgstr "اختر مكانًا"
+
+#~ msgid "_OK"
+#~ msgstr "_نعم"
+
+#~ msgid "No applications found"
+#~ msgstr "لا يوجد أي تطبيقات"
+
+#~ msgid "Search"
+#~ msgstr "البحث"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr "تحكم في التطبيقات التي ستُعرض نتائج البحث منها في منظور الأنشطة"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "بحث;إخفاء;نتائج;خصوصية;"
+
+#~ msgid "Search Locations"
+#~ msgstr "أماكن البحث"
+
+#~| msgctxt "Search Location"
+#~| msgid "Places"
+#~ msgid "Places"
+#~ msgstr "الأماكن"
+
+#~| msgctxt "Search Location"
+#~| msgid "Bookmarks"
+#~ msgid "Bookmarks"
+#~ msgstr "العلامات"
+
+#~| msgctxt "Online Account"
+#~| msgid "Other"
+#~ msgid "Other"
+#~ msgstr "أخرى"
+
+#~ msgid "Move Up"
+#~ msgstr "انقل لأعلى"
+
+#~ msgid "Move Down"
+#~ msgstr "انقل لأسفل"
+
+#~ msgid "Preferences"
+#~ msgstr "التفضيلات"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "لم تختر أي شبكة لمشاركتها"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "مفعّل"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "معطّل"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "مفعّل"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "نشِط"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "اختر مجلّدًا"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "تتيح لك مشاركة الملفات الشخصية مشاركة المجلد العام مع الآخرين على الشبكة "
+#~ "الحالية باستخدام: <a href=\"dav://%s\">‪dav://%s‬</a>"
+
+#, c-format
+#~| msgid ""
+#~| "Allow remote users to connect using the Secure Shell command:\n"
+#~| "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "عند تفعيل بالولوج عن بعد، يمكن للمستخدمين الولوج عن بعد باستخدام أمر "
+#~ "الصدفة الآمنة:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~| msgid ""
+#~| "Allow remote users to view or control your screen by connecting to: <a "
+#~| "href=\"vnc://%s\">vnc://%s</a>"
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "مشاركة الشاشة تسمح للمستخدمين عن بعد بالتحكم في شاشتك باستخدام: <a href="
+#~ "\"vnc://%s\">‪vnc://%s‬</a>"
+
+#~ msgid "Copy"
+#~ msgstr "انسخ"
+
+#~ msgid "Sharing"
+#~ msgstr "المشاركة"
+
+#~| msgid "Sharing"
+#~ msgid "Sha­ring"
+#~ msgstr "المشاركة"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "تحكم في ما تريد مشاركته مع الآخرين"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr "مشاركة;شارك;اسم;مكتب;بعيد;بلوتوث;صوت;صورة;وسائط;"
+
+#~ msgid "Networks"
+#~ msgstr "الشبكات"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "فعّل أو عطّل الولوج عن بعد"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "الاستيثاق مطلوب لتفعيل أو تعطيل الولوج عن بعد"
+
+#~ msgid "_Computer Name"
+#~ msgstr "ا_سم الحاسوب"
+
+#~| msgid "_Personal File Sharing"
+#~ msgid "_File Sharing"
+#~ msgstr "م_شاركة الملفات"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "مشار_كة الشاشة"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "مشاركة الوسائ_ط"
+
+#~ msgid "_Remote Login"
+#~ msgstr "الولوج عن ب_عد"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "بعض الأجهزة معطل لتعذّر الوصول الشبكي."
+
+#~| msgid "Sharing"
+#~ msgid "File Sharing"
+#~ msgstr "مشاركة الملفات"
+
+#~ msgid "_Require Password"
+#~ msgstr "ا_طلب كلمة سر"
+
+#~ msgid "Remote Login"
+#~ msgstr "الولوج عن بعد"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "مشاركة الشاشة"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "ا_سمح للاتصالات بالتحكم في الشاشة"
+
+#~ msgid "_Password:"
+#~ msgstr "كلمة ال_سر:"
+
+#~ msgid "_Show Password"
+#~ msgstr "أ_ظهر كلمة السر"
+
+#~ msgid "Access Options"
+#~ msgstr "خيارات النفاذ"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "يجب على الاتصالات الجديدة أن ت_طلب النفاذ"
+
+#~ msgid "_Require a password"
+#~ msgstr "ا_طلب كلمة سر"
+
+#~ msgid "Media Sharing"
+#~ msgstr "مشاركة الوسائط"
+
+#~| msgid ""
+#~| "Media sharing allows you to share music, photos and videos over the "
+#~| "network."
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "شارك الموسيقى و الصور و الڤديو مع الآخرين على الشبكة."
+
+#~ msgid "Folders"
+#~ msgstr "المجلدات"
+
+#~ msgid "Sound"
+#~ msgstr "الصوت"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "غيّر شدة الصوت و أصوات التنبيهات"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr "بطاقة;ميكروفون;صوت;شدة;توازن;بلوتوث;"
+
+#~ msgid "Bark"
+#~ msgstr "نباح"
+
+#~ msgid "Drip"
+#~ msgstr "قطرات"
+
+#~ msgid "Glass"
+#~ msgstr "زجاج"
+
+#~ msgid "Sonar"
+#~ msgstr "سونار"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "يسار"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "يمين"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "خلفي"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "مقدمة"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "أدنى"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "أقصى"
+
+#~ msgid "_Balance:"
+#~ msgstr "ال_توازن:"
+
+#~ msgid "_Fade:"
+#~ msgstr "ال_تلاشي:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_سماعات كبيرة:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "غير مكبّر"
+
+#~ msgid "_Profile:"
+#~ msgstr "ال_طور:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "لا مَخْرَج"
+#~ msgstr[1] "مَخْرَج واحد"
+#~ msgstr[2] "مَخْرَجين"
+#~ msgstr[3] "%u مَخْارِج"
+#~ msgstr[4] "%u مَخْرَجًا"
+#~ msgstr[5] "%u مَخْرَج"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "لا مَدْخَل"
+#~ msgstr[1] "مَدْخَل واحد"
+#~ msgstr[2] "مَدْخَلين"
+#~ msgstr[3] "%u مَداخِل"
+#~ msgstr[4] "%u مَدْخَلًا"
+#~ msgstr[5] "%u مَدْخَل"
+
+#~ msgid "System Sounds"
+#~ msgstr "أصوات النظام"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "ا_ختبر السماعات"
+
+#~ msgid "Peak detect"
+#~ msgstr "التعرف على الذروة"
+
+#~ msgid "Device"
+#~ msgstr "الجهاز"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "اختبار سماعات %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "شدة صوت الم_خْرَج:"
+
+#~ msgid "Output"
+#~ msgstr "المَخْرَج"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "اخ_تر جهاز إخراج الصوت:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "إعدادات الجهاز المختار:"
+
+#~ msgid "Input"
+#~ msgstr "المَدخَل"
+
+#~ msgid "_Input volume:"
+#~ msgstr "شدة صوت المَ_دْخَل:"
+
+#~ msgid "Input level:"
+#~ msgstr "مستوى المَدْخَل:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "اخ_تر جهاز إدخال الصوت:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "المؤثرات الصوتية"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "شدة صوت التنبي_ه:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "لا تطبيقات تشغل أو تسجل صوتا حاليا."
+
+#~ msgid "Built-in"
+#~ msgstr "مدمج"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "تفضيلات الصوت"
+
+#~ msgid "Testing event sound"
+#~ msgstr "يختبر صوت الحدث"
+
+#~ msgid "Default"
+#~ msgstr "المبدئي"
+
+#~ msgid "From theme"
+#~ msgstr "من السمة"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "اختر صوت تنبي_ه:"
+
+#~ msgid "Stop"
+#~ msgstr "أوقِف"
+
+#~ msgid "Test"
+#~ msgstr "اختبِر"
+
+#~ msgid "Subwoofer"
+#~ msgstr "سماعات كبيرة"
+
+#~ msgid "Custom"
+#~ msgstr "مخصص"
+
+#~| msgid "Universal Access"
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "الإتاحة"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "اجعل الرؤية و السماع و الكتابة و المؤشر أسهل"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "لوحة المفاتيح;الفأرة;الإتاحة;التباين;التقريب;التكبير;قارئ الشاشة;النص;"
+#~ "الخط;الحجم;مفاتيح ملتصقة;مفاتيح بطيئة;مفاتيح قافزة;مفاتيح الفأرة;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "اعرض قائمة الإتاحة _دائمًا"
+
+#~ msgid "Seeing"
+#~ msgstr "النظر"
+
+#~ msgid "_High Contrast"
+#~ msgstr "تباين _عال"
+
+#~ msgid "_Large Text"
+#~ msgstr "نص _كبير"
+
+#~ msgid "_Zoom"
+#~ msgstr "ال_تقريب"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "قار_ئ الشاشة"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "مفاتيح الصو_ت"
+
+#~ msgid "Hearing"
+#~ msgstr "السمع"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "تنبيهات ب_صرية"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "لوحة م_فاتيح على الشاشة"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "_تكرار المفاتيح"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "وميض ال_مؤشر"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "م_ساعدة الكتابة"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "التأشير و النقر"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "مفاتيح ال_فأرة"
+
+#~ msgid "_Click Assist"
+#~ msgstr "مساعدة الن_قر"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "مهلة الن_قر المزدوج"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "مهلة النقر المزدوج"
+
+#~ msgid "Screen Reader"
+#~ msgstr "قارئ الشاشة"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr "يقرأ قارئ الشاشة النص أثناء تحريكك للبؤرة."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "قارئ ال_شاشة"
+
+#~ msgid "Sound Keys"
+#~ msgstr "مفاتيح الصوت"
+
+#~| msgid "Beep when Num Lock or Caps Lock are turned on."
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "أصدر صفيرًا عند تفعيل أو تعطيل قفل الأرقام أو الحروف الكبيرة."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "التنبيهات البصرية"
+
+#~ msgid "_Test flash"
+#~ msgstr "ا_ختبر الوميض"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "أظهر مؤشرًا بصريًا عند حدوث تنبيه صوتي."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "أومض _عنوان النافذة"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "أومض _كل الشاشة"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "تكرار المفاتيح"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "تكرار نقر المفتاح عند الضغط عليه."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "مهلة تكرار المفاتيح"
+
+#~ msgid "Speed"
+#~ msgstr "السرعة"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "سرعة تكرار المفاتيح"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "وميض المؤشر"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "ومضات المؤشر في حقول النصوص."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "سرعة ومضات المؤشر"
+
+#~ msgid "Typing Assist"
+#~ msgstr "مساعدة الكتابة"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "مفاتيح لا_صقة"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "تعتبر تتابعا من المفاتيح المُغيِّرة كما لو كان اختصارا"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_عطِّل إذا ضُغط مفتاحان في آن واحد"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "صفّر عند ضغط مفاتيح الم_غيّرات"
+
+#~ msgid "S_low Keys"
+#~ msgstr "مفاتيح ب_طيئة"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "تضع تأخيرا بين ضغط المفتاح وقبوله"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "تأخير ال_قبول:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "تأخير الكتابة للمفاتيح البطيئة"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "صفّر عند ض_غط مفتاح"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "صفّر عند _قُبول مفتاح"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "صفّر إذا _رُفض مفتاح"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "مفاتيح _قافزة"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "تجاهل الضغطات المكررة السريعة للمفاتيح"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "تأخير الكتابة للمفاتيح القافزة"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "فعّل من _لوحة المفاتيح"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "فعّل أو عطّل خصائص الإتاحة باستخدام لوحة المفاتيح"
+
+#~ msgid "Click Assist"
+#~ msgstr "مساعدة النقر"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "م_حاكاة النقر الثانوي"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "ابتدئ نقرة ثانوية عن طريق الاستمرار بضغط الزر الأولي"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "تأخير النقر الثانوي"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgid "_Hover Click"
+#~ msgstr "النقر ال_سلبي"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "ابتدئ نقرة عند حومان المؤشر"
+
+#~ msgid "D_elay:"
+#~ msgstr "ال_تأخير:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "عتبة الحر_كة:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "صغير"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "كبير"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "قصيرة"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ الشاشة"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ الشاشة"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ الشاشة"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "طويلة"
+
+#~ msgid "Full Screen"
+#~ msgstr "ملء الشاشة"
+
+#~ msgid "Top Half"
+#~ msgstr "النصف العلوي"
+
+#~ msgid "Bottom Half"
+#~ msgstr "النصف السفلي"
+
+#~ msgid "Left Half"
+#~ msgstr "النصف الأيسر"
+
+#~ msgid "Right Half"
+#~ msgstr "النصف الأيمن"
+
+#~ msgid "Zoom Options"
+#~ msgstr "خيارات التقريب"
+
+#~ msgid "_Magnification:"
+#~ msgstr "ال_تكبير:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "يتبع مؤشر ال_فأرة"
+
+#~ msgid "_Screen part:"
+#~ msgstr "جزء من ال_شاشة:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "المكبرة تمتد ل_خارج الشاشة"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "أبق مؤشر المكبرة متمركزًا"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "مؤشر المكبرة يحرك الم_حتوى"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "مؤشر المكبرة يتحرك مع المح_توى"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "موضع المُكبِّرة:"
+
+#~ msgid "Magnifier"
+#~ msgstr "المكبّرة"
+
+#~ msgid "_Thickness:"
+#~ msgstr "ال_سماكة:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "نحيف"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "سميك"
+
+#~ msgid "_Length:"
+#~ msgstr "ال_طول:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "اللو_ن:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "م_حاور الهدف:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "يغطي على مؤ_شر الفأرة"
+
+#~ msgid "Crosshairs"
+#~ msgstr "محاور الهدف"
+
+#~ msgid "_White on black:"
+#~ msgstr "أبيض على أ_سود:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "ال_سطوع:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "ال_تباين:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "اللو_ن"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "كامل"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "منخفض"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "عال"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "منخفض"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "عال"
+
+#~ msgid "Color Effects:"
+#~ msgstr "المؤثرات اللونية:"
+
+#~ msgid "Color Effects"
+#~ msgstr "المؤثرات اللونية"
+
+#~| msgctxt "printer state"
+#~| msgid "Offline"
+#~ msgid "You are Offline"
+#~ msgstr "لست متّصلا"
+
+#~ msgid "_Enroll"
+#~ msgstr "_سجّل"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "أدِر حسابات المستخدمين"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "الاستيثاق مطلوب لتغيير بيانات المستخدم"
+
+#~ msgid "Map Buttons"
+#~ msgstr "تعيين أزرار"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "تعيين وظائف للأزرار"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "لتعديل مفتاح اختصار، اختر \"أرسل ضغطة الزر\" ثم اضغط على الأزرار الجديدة "
+#~ "أو اضغط مفتاح التّراجع لمسحها."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr "رجاءً انقر علامات الهدف الظاهرة على الشاشة لمعايرة اللوح."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "اكتُشفت نقرة خاطئة، يعيد بدء العملية..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "أعلى"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "أسفل"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "أرسل ضغطة الزر"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "بدّل الشاشة"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "أظهر مساعدة على الشاشة"
+
+#~ msgid "Output:"
+#~ msgstr "المَخْرَج:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "حافظ على نسبة العرض:"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "عيّن في شاشة واحدة"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d من %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "اعرض المخطط"
+
+#~ msgid "Button"
+#~ msgstr "زر"
+
+#~| msgid "Wacom Tablet"
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "لوح واكوم"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr "اضبط استخدام أزرار و حساسية قلم ألواح الرسوميات"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "لوحة;واكوم;قلم;ممحاة;فأرة;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "لوح (مطلق)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "لوحة لمس (نسبي)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "تفضيلات اللوح"
+
+#~ msgid "_Help"
+#~ msgstr "م_ساعدة"
+
+#~ msgid "No tablet detected"
+#~ msgstr "لم يكتشف أي لوح"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "رجاءً وصّل أو شغّل لوح واكوم"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "إعدادات بلوتوث"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "لوح واكوم"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "تعيين شاشة عرض…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "تعيين أزرار…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "عاير…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "اضبط ميز الشاشة"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "اضبط إعدادات الفأرة"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "نمط التتبع"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "اتجاه لليد اليسرى"
+
+#~ msgid "Left Ring"
+#~ msgstr "البنصر الأيسر"
+
+#~ msgid "Right Ring"
+#~ msgstr "البنصر الأيمن"
+
+#~ msgid "New shortcut…"
+#~ msgstr "اختصار جديد…"
+
+#~ msgid "No Action"
+#~ msgstr "دون إجراء"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "نقرة بزر الفأرة الأيسر"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "نقرة بزر الفأرة الأوسط"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "نقرة بزر الفأرة الأيمن"
+
+#~ msgid "Scroll Up"
+#~ msgstr "تمرير للأعلى"
+
+#~ msgid "Scroll Down"
+#~ msgstr "تمرير للأسفل"
+
+#~ msgid "Scroll Left"
+#~ msgstr "تمرير لليسار"
+
+#~ msgid "Scroll Right"
+#~ msgstr "تمرير لليمين"
+
+#~ msgid "Back"
+#~ msgstr "إلى الخلف"
+
+#~ msgid "Forward"
+#~ msgstr "إلى الأمام"
+
+#~ msgid "Stylus"
+#~ msgstr "القلم"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "الشعور بضغط الممحاة"
+
+#~ msgid "Soft"
+#~ msgstr "ناعم"
+
+#~ msgid "Firm"
+#~ msgstr "قاس"
+
+#~ msgid "Top Button"
+#~ msgstr "الزر العلوي"
+
+#~ msgid "Lower Button"
+#~ msgstr "الزر السفلي"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "الشعور بضغط السن"
+
+#~ msgid "All Settings"
+#~ msgstr "كل الإعدادات"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "مركز تحكم جنوم"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "أدوات لضبط سطح مكتب جنوم"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr "مركز التحكم هو واجهة جنوم الرئيسة لضبط مختلف خصائص حاسوبك."
+
+#~ msgid "Display version number"
+#~ msgstr "اعرض الإصدارة"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "فعّل الطور المسهِب"
+
+#~ msgid "Show the overview"
+#~ msgstr "اعرض الملخص"
+
+#~ msgid "Search for the string"
+#~ msgstr "ابحث عن نصّ"
+
+#~ msgid "Panel to display"
+#~ msgstr "لوحة لعرضها"
+
+#~ msgid "Available panels:"
+#~ msgstr "اللوحات المتوفرة:"
+
+#~ msgid "Help"
+#~ msgstr "مساعدة"
+
+#~ msgid "Quit"
+#~ msgstr "أنهِ"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "شخصي"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "العتاد"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "النظام"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "تفضيلات;إعدادات;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "أنهِ"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "ابحث"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "اللوحات"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "ارجع للشاشة العامة"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "ألغِ البحث"
+
+#~| msgid "_Stop Hotspot"
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "نقطة بث"
+
+#~ msgid "Color"
+#~ msgstr "الألوان"
+
+#~ msgid "_Name:"
+#~ msgstr "الا_سم:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "أضف اختصارًا"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "أزِل اختصارًا"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "لتعديل مفتاح اختصار، انقر على السّطر ثم اضغط على الأزرار الجديدة أو اضغط "
+#~ "مفتاح التّراجع لمسحها."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<إجراء غير معروف>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "الاختصار \"%s\" لا يمكن استخدامه لأن الطباعة بهذا المفتاح ستصبح متعذرة.\n"
+#~ "حاول رجاءً استخدام مفتاح مع Ctrl أو Alt أو Shift في نفس الوقت."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "الاختصار \"%s\" مستخدم في:\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "إذا أعدت تعيين الاختصار \"%s\" فسيُعطّل الاختصار \"%s\"."
+
+#~ msgid "_Reassign"
+#~ msgstr "أعِد ال_تعيين"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "الاختصار \"%s\" مرتبط بالاختصار \"%s\". هل تريد ضبطه تلقائيا إلى \"%s\"؟"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "الاختصار \"%s\" مرتبط حاليًا بالاختصار \"%s\"، سيُعطّل الاختصار إذا أكملت."
+
+#~ msgid "_Assign"
+#~ msgstr "ا_ضبط"
+
+#~ msgid "Team"
+#~ msgstr "فريق"
+
+#~ msgid "Bridge"
+#~ msgstr "جسر"
+
+#~ msgid "VLAN"
+#~ msgstr "شبكة محلية ظاهرية"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "تعذّر تحميل ملحقات VPN"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "أضف اتصالًا شبكيّا"
+
+#~ msgid "Bond slaves"
+#~ msgstr "أجهزة تابعة للربط"
+
+#~ msgid "(none)"
+#~ msgstr "(لا شيء)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "تابعي الجسر"
+
+#~ msgid "Team slaves"
+#~ msgstr "تابعي الفريق"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "لم تُختر أي شهادة سُلْطة استيثاق"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "عدم استخدام شهادة أمنيّة من جهة معتمدة قد يتسبّب باتصالات لا سلكية غير آمنة "
+#~ "واحتيالية. هل تريد اختيار شهادة أمنية من جهة معتمدة؟"
+
+#~ msgid "Ignore"
+#~ msgstr "تجاهل"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "اختر شهادة سُلْطة استيثاق"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "ا_طلب كلمة السر هذه في كل مرة"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "لا _تنبهني ثانيةً"
+
+#~ msgid "No"
+#~ msgstr "لا"
+
+#~ msgid "Yes"
+#~ msgstr "نعم"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "خطأ عند الولوج إلى الحساب"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "انتهت صلاحية بيانات الاستيثاق."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "ادخل لتفعيل هذا الحساب."
+
+#~ msgid "_Sign In"
+#~ msgstr "اد_خل"
+
+#~ msgid "Power"
+#~ msgstr "الطاقة"
+
+#~ msgid "Privacy"
+#~ msgstr "الخصوصية"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "أخرى"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "مشاركة الملفات الشخصية"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "اسمح بالتحكم عن بع_د"
+
+#~ msgid "_Verify"
+#~ msgstr "أ_كّد"
+
+#~ msgid "Login History"
+#~ msgstr "تأريخ الولوج"
+
+#~ msgid "Add User Account"
+#~ msgstr "أضِف حساب مستخدِم"
+
+#~ msgid "Remove User Account"
+#~ msgstr "أزِل حساب مستخدِم"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "اسم المستخدم '%s' موجود بالفعل."
+
+#~ msgid "Done"
+#~ msgstr "تمّ"
+
+#~ msgid "Time _Zone"
+#~ msgstr "المن_طقة الزمنية"
+
+#~ msgid "_Delay:"
+#~ msgstr "ال_تأخير:"
+
+#~ msgid "_Speed:"
+#~ msgstr "ال_سرعة:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "بطيء"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "سريع"
+
+#~ msgid "S_peed:"
+#~ msgstr "ال_سرعة:"
+
+#~ msgid "Shortcuts"
+#~ msgstr "الاختصارات"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "اختبر إعداداتك"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "بطيء"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "سريع"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "الأي_سر"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "الأي_من"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "سرعة المؤ_شر"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "بطيء"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "سريع"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "بطيء"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "سريع"
+
+#~ msgid "No printers available"
+#~ msgstr "لا تتوفر أي طابعات"
+
+#~ msgid "Active Jobs"
+#~ msgstr "المهام النشطة"
+
+#~ msgid "Close"
+#~ msgstr "أغلق"
+
+#~ msgid "Resume Printing"
+#~ msgstr "تابع الطباعة"
+
+#~ msgid "Pause Printing"
+#~ msgstr "ألبِث الطباعة"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "ألغِ مهمة الطباعة"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "مُعلَّقة"
+
+#~ msgid "Job Title"
+#~ msgstr "عنوان المهمة"
+
+#~ msgid "Job State"
+#~ msgstr "حالة المهمة"
+
+#~ msgid "Time"
+#~ msgstr "الوقت"
+
+#~ msgid "Add New Printer"
+#~ msgstr "أضِف طابعة جديدة"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "تستخدم لتحديد موقعك الجغرافي"
+
+#~ msgid "Options"
+#~ msgstr "الخيارات"
+
+#~ msgid "Password:"
+#~ msgstr "كلمة السر:"
+
+#~ msgid "Zoom"
+#~ msgstr "التقريب"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "اللون"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "بلوتوث معطّل"
+
+#~ msgid "Security key"
+#~ msgstr "مفتاح الأمن"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "يحتاج الجهاز اللاسلكي طاقة إضافية"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "عندما تكون الطاقة من_خفضة جدا"
+
+#~ msgid "Power Off"
+#~ msgstr "أطفئ"
+
+#~ msgid "Power off"
+#~ msgstr "أطفئ التشغيل"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "تتيح لك مشاركة بلوتوث مشاركة الملفات مع الأجهزة الأخرى التي تحتوي على "
+#~ "بلوتوث"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "استلم من الأجهزة الموثوق بها فقط"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "احفظ الملفات المستلمة في مجلد التنزيلات"
+
+#~ msgid "Show help options"
+#~ msgstr "اعرض خيارات المساعدة"
+
+#~ msgid "- Settings"
+#~ msgstr "– الإعدادات"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "شغّل '%s --help' لترى قائمة كاملة بخيارات سطر الأوامر المتاحة.\n"
+
+#~ msgid "United States"
+#~ msgstr "الولايات المتّحدة"
+
+#~ msgid "Germany"
+#~ msgstr "ألمانيا"
+
+#~ msgid "France"
+#~ msgstr "فرنسا"
+
+#~ msgid "Spain"
+#~ msgstr "إسبانيا"
+
+#~ msgid "China"
+#~ msgstr "الصّين"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "_عطّل أثناء الكتابة"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "لا تتوافق خدمات الشبكة في النظام مع هذه الإصدارة."
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "أظهر لوحات منبثقة"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "أظهر في شاشة القفل"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "أظهر لوحات منبثقة"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "أظهر في شاشة القفل"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "أطفئ الأجهزة اللاسلكية"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "أدخل عنوان طابعًا أو نصًا لترشيح النتائج"
+
+#~ msgid "Immediately"
+#~ msgstr "حالًا"
+
+#~ msgid "Sorry"
+#~ msgstr "آسف"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "شارك الوسائط على هذه الشبكة"
+
+#~ msgid "Shared Folders"
+#~ msgstr "المجلدات المُشاركة"
+
+#~ msgid "column"
+#~ msgstr "عمود"
+
+#~ msgid "Remove Folder"
+#~ msgstr "أزِل المجلد"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "شارك المجلد العام على هذه الشبكة"
+
+#~ msgid "Flickr"
+#~ msgstr "فلِكَر"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "إعداد جهاز جديد"
+
+#~ msgid "Connection"
+#~ msgstr "الاتصال"
+
+#~ msgid "Paired"
+#~ msgstr "مقترن"
+
+#~ msgid "Type"
+#~ msgstr "النوع"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "إعدادات الفأرة ولوحة اللمس"
+
+#~ msgid "Sound Settings"
+#~ msgstr "إعدادات الصوت"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "إعدادات لوحة المفاتيح"
+
+#~ msgid "Send Files…"
+#~ msgstr "أرسل ملفات…"
+
+#~ msgid "Visibility"
+#~ msgstr "الظهور"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "ظهور ”%s“"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "أأزيل '%s' من قائمة الأجهزة؟"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr "إذا أزلت الجهاز، فستحتاج لإعداده مرة أخرى قبل استخدامه مجددا."
+
+#~ msgid "Install Updates"
+#~ msgstr "ثبّت التّحديثات"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "النظام مُحدّث"
+
+#~ msgid "Search for network printers or filter result"
+#~ msgstr "ابحث عن طابعات على الشبكة أو رشّح النتائج"
+
+#~ msgid "_Default"
+#~ msgstr "الم_بدئية"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "Share Public Folder"
+#~ msgstr "شارك المجلد العام"
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "شارك مع الأجهزة الموثوق بها فقط"
+
+#~ msgid "Remote View"
+#~ msgstr "العرض عن بعد"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "اسم بكل الاتصالات"
+
+#~ msgid "Device type:"
+#~ msgstr "نوع الجهاز:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "المُصنّع:"
+
+#~ msgid "Model:"
+#~ msgstr "الطراز:"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr "يمكن سحب ملفات الصور على هذه النافذة لإكمال الحقول أعلاه آليًا."
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "بدّل بين صباحا و مساءا."
+
+#~ msgid "Show your primary display on this screen also"
+#~ msgstr "اعرض المنظور الأساسي على هذه الشاشة أيضًا"
+
+#~ msgid "Combine"
+#~ msgstr "ركّب"
+
+#~ msgid "Join with the primary display to create an extra space"
+#~ msgstr "ضم على الشاشة الأساسية لإنشاء مساحة إضافية"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "تفضيلات الفأرة"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "اختر الواجهة التي ستُستخدم للخدمة الجديدة"
+
+#~ msgid "C_reate…"
+#~ msgstr "أن_شئ…"
+
+#~ msgid "_Interface"
+#~ msgstr "الوا_جهة"
+
+#~ msgid "Estimated battery capacity: %s"
+#~ msgstr "قدرة استيعاب البطارية المُقدّرة: %s"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "تغيير صورة:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "اختر صورة هذا الحساب في شاشة الولوج."
+
+#~ msgid "Gallery"
+#~ msgstr "المعرض"
+
+#~ msgid "Take a photograph"
+#~ msgstr "التقط صورة"
+
+#~ msgid "Browse"
+#~ msgstr "تصفّح"
+
+#~ msgid "Photograph"
+#~ msgstr "صورة"
+
+#~ msgid "Account Information"
+#~ msgstr "معلومات الحساب"
+
+#~ msgid "_Region:"
+#~ msgstr "الم_نطقة:"
+
+#~ msgid "_City:"
+#~ msgstr "الم_دينة:"
+
+#~ msgid "_Network Time"
+#~ msgstr "وقت ال_شبكة"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "قدّم الوقت ساعة واحدة."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "أخّر الوقت ساعة واحدة."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "قدّم الوقت دقيقة واحدة."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "أخّر الوقت دقيقة واحدة."
+
+#~ msgid "AM/PM"
+#~ msgstr "ص\\م"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "طبيعي"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "مع عقارب الساعة"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 درجة"
+
+#~ msgid "Monitor"
+#~ msgstr "الشاشة"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "اسحب لتغيير جهاز العرض المبدئي."
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr "اختر شاشة لتغيير خصائصها، واسحبها لتغيير ترتيبها."
+
+#~ msgid "%a %R"
+#~ msgstr "‏%a ‏%R"
+
+#~ msgid "Failed to apply configuration: %s"
+#~ msgstr "فشل تطبيق الإعداد: %s"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "تعذّر حفظ إعدادات الشاشة"
+
+#~ msgid "_Resolution"
+#~ msgstr "ال_ميز"
+
+#~ msgid "R_otation"
+#~ msgstr "ال_دوران"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "ا_نسخ الشاشات"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "ملاحظة: قد يقلل من خيارات الميز"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "اكتشف ال_شاشات"
+
+#~ msgid "Hidden"
+#~ msgstr "خفي"
+
+#~ msgid "Visible"
+#~ msgstr "مرئي"
+
+#~ msgid "Name & Visibility"
+#~ msgstr "الاسم والظهور"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr "تحكم في كيفية ظهورك على الشاشة والشبكة."
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "أظهر ا_سمك بالكامل في الشريط العلوي"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "أظهر اسمك بالكامل في شاشة ال_قفل"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "وضع الت_خفي"
+
+#~ msgid "_Confirm Password"
+#~ msgstr "أ_كّد كلمة السر"
+
+#~ msgid "_Login Name"
+#~ msgstr "اسم ال_ولوج"
+
+#~ msgid "Login _Password"
+#~ msgstr "كلمة _سر الولوج"
+
+#~ msgid "Passwords do not match"
+#~ msgstr "لا تتطابق كلمتا السر"
+
+#, fuzzy
+#~ msgid "Domain not found."
+#~ msgstr "المودم غير موجود"
+
+#~ msgid "Export"
+#~ msgstr "صدِّر"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Slow"
+#~ msgstr "بطيئة"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Fast"
+#~ msgstr "سريعة"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "يلت_صق المحتوى بالإصابع"
+
+#~ msgid "_Mobile Broadband"
+#~ msgstr "شبكة هاتف م_حمول"
+
+#~ msgctxt "Input source"
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "No shortcut set"
+#~ msgstr "لم يُحدد أي اختصار"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "عادي"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "عال\\معكوس"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "لوحة مفاتيح على الشاشة"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "عادي"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "أكبر"
+
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "صفّر عند ضغط مفتاح الحروف العالية وقفل الأرقام"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "شغِّل أو عطِّل:"
+
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "تكبير"
+
+#~ msgid "Zoom in:"
+#~ msgstr "قرّب:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "بعّد:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "كتابة الأصوات على الشاشة"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "اعرض وصفا نصيا للكلام والصوت"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "لوحة مفاتيح على الشاشة"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Short"
+#~ msgstr "قصير"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Long"
+#~ msgstr "طويل"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "صفّر إذا كان المفتاح"
+
+#~ msgid "pressed"
+#~ msgstr "ضُغِطَ"
+
+#~ msgid "accepted"
+#~ msgstr "قُبِلَ"
+
+#~ msgid "rejected"
+#~ msgstr "رُفِضَ"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "تأخير ال_قبول:"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "تحكم في المؤشر باستخدام لوحة المفاتيح"
+
+#~ msgid "Video Mouse"
+#~ msgstr "فأرة الفديو"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "تحكم في المؤشر باستخدام كمرة فديو."
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Small"
+#~ msgstr "صغير"
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Large"
+#~ msgstr "كبير"
+
+#~ msgid "Add account"
+#~ msgstr "أضف حسابا"
+
+#~ msgid "_Local Account"
+#~ msgstr "حساب _محلي"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "تلميحة: نطاق مؤسسة أو اسم مجال"
+
+#~ msgid "C_ontinue"
+#~ msgstr "_تابع"
+
+#~ msgid "Previous Week"
+#~ msgstr "الأسبوع الماضي"
+
+#~ msgid "Next Week"
+#~ msgstr "الأسبوع القادم"
+
+#~ msgid "Next week"
+#~ msgstr "الأسبوع القادم"
+
+#~ msgid "Log in without a password"
+#~ msgstr "لُج دون كلمة سر"
+
+#~ msgid "Disable this account"
+#~ msgstr "عطّل هذا الحساب"
+
+#~ msgid "Enable this account"
+#~ msgstr "فعّل هذا الحساب"
+
+#~ msgid "Generate a password"
+#~ msgstr "ولِّد كلمة سر"
+
+#~ msgid "_Action"
+#~ msgstr "الإ_جراء"
+
+#~ msgid "_Show password"
+#~ msgstr "أ_ظهر كلمة السر"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "كيف تضع كلمة سر قوية"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "قصيرة جدا"
+
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "ليست جيدة كفاية"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "ضعيفة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "معقولة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "جيّدة"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "قوية"
+
+#~ msgid "_Generate a password"
+#~ msgstr "ولِّد _كلمة سر"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "عليك إدخال كلمة سر جديدة"
+
+#~ msgid "The new password is not strong enough"
+#~ msgstr "كلمة السّر الجديدة ليست قوية كفاية"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "عليك تأكيد كلمة السر"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "عليك إدخال كلمة السر الحالية"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "كلمة السر الحالية خطأ"
+
+#~ msgid "Switch Modes"
+#~ msgstr "بدّل الأنماط"
+
+#~ msgid "Action"
+#~ msgstr "الإجراء"
+
+#~ msgid "Change the background"
+#~ msgstr "غيّر الخلفية"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "ضبط إعدادات بلوتوث"
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "بلوتوث"
+
+#~ msgid "Color management settings"
+#~ msgstr "إعدادات إدارة الألوان"
+
+#~ msgid "British English"
+#~ msgstr "الإنجليزية البريطانية"
+
+#~ msgid "Spanish"
+#~ msgstr "الإسبانية"
+
+#~ msgid "Chinese (simplified)"
+#~ msgstr "الصينية (المبسطة)"
+
+#~ msgid "Select a region"
+#~ msgstr "اختر منطقة"
+
+#~ msgid "Select a language"
+#~ msgstr "اختر لغة"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "لوحة تفضيلات التاريخ والوقت"
+
+#~ msgid "System Information"
+#~ msgstr "معلومات النظام"
+
+#~ msgid "Change keyboard settings"
+#~ msgstr "غيّر إعدادات لوحة المفاتيح"
+
+#~ msgid "Layout Settings"
+#~ msgstr "إعدادات التخطيط"
+
+#~ msgid "Set your mouse and touchpad preferences"
+#~ msgstr "اضبط تفضيلات الفأرة ولوحة اللمس"
+
+#~ msgid "Network settings"
+#~ msgstr "إعدادات الشّبكة"
+
+#~ msgid "_Options…"
+#~ msgstr "ال_خيارات…"
+
+#~ msgid "Manage notifications"
+#~ msgstr "أدِر التنبيهات"
+
+#~ msgid "Expired credentials. Please log in again."
+#~ msgstr "بيانات اعتماد مُنتهية. رجاءً لُج مجددا."
+
+#~ msgid "_Log In"
+#~ msgstr "لُ_ج"
+
+#~ msgid "Manage online accounts"
+#~ msgstr "أدِر حسابات الإنترنت"
+
+#~ msgid "_Mark As Inactive After"
+#~ msgstr "اعتبرها خاملة ب_عد"
+
+#~ msgid "Power management settings"
+#~ msgstr "إعدادات إدارة الطاقة"
+
+#~ msgid "Change printer settings"
+#~ msgstr "غيّر إعدادات الطابعة"
+
+#~ msgid "Manufacturers"
+#~ msgstr "المُصنّعين"
+
+#~ msgid "Drivers"
+#~ msgstr "المُشغّلات"
+
+#~ msgid "Privacy settings"
+#~ msgstr "إعدادات الخصوصية"
+
+#~ msgid "Don't retain history"
+#~ msgstr "لا تحتفظ بالتأريخ"
+
+#~ msgid "Lock Screen _After"
+#~ msgstr "أوصِد الشاشة ب_عد"
+
+#~ msgid "Change your region and language settings"
+#~ msgstr "غيّر إعدادات المنطقة واللغة"
+
+#~ msgid "Select an input source"
+#~ msgstr "اختر مصْدَر إدخال"
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings."
+#~ msgstr ""
+#~ "شاشة الولوج، وحسابات النظام، وحسابات المستخدمين الجُدد تستخدم إعدادات "
+#~ "مُستوى-النظام بالنسبة للمنطقة وإعدادات اللغة."
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings. You may change the system settings to "
+#~ "match yours."
+#~ msgstr ""
+#~ "شاشة الولوج، وحسابات النظام، وحسابات المستخدمين الجُدد تستخدم إعدادات "
+#~ "مُستوى-النظام بالنسبة للمنطقة وإعدادات اللغة. يمكنك تغيير إعدادات النظام "
+#~ "لتطابق إعداداتك."
+
+#~ msgid "Copy Settings"
+#~ msgstr "انسخ الإعدادات"
+
+#~ msgid "Copy Settings…"
+#~ msgstr "انسخ الإعدادات…"
+
+#~ msgid "Region and Language"
+#~ msgstr "المنطقة واللغة"
+
+#~ msgid "Select a display language"
+#~ msgstr "اختر لغة العرض"
+
+#~ msgid "Add Language"
+#~ msgstr "أضِف لغة"
+
+#~ msgid "Select a region (change will be applied the next time you log in)"
+#~ msgstr "اختر منطقة (ستُتطبّق التغييرات مع الولوج التالي)"
+
+#~ msgid "Add Region"
+#~ msgstr "أضِف منطقة"
+
+#~ msgid "Remove Region"
+#~ msgstr "أزِل منطقة"
+
+#~ msgid "Currency"
+#~ msgstr "العملة"
+
+#~ msgid "Examples"
+#~ msgstr "أمثلة"
+
+#~ msgid "Select keyboards or other input sources"
+#~ msgstr "اختر لوحة المفاتيح أو غيرها من مصادر الإدخال"
+
+#~ msgid "Ctrl+Alt+Space"
+#~ msgstr "Ctrl+Alt+Space"
+
+#~ msgid "Shortcut Settings"
+#~ msgstr "إعدادات الاختصار"
+
+#~ msgid "Display language:"
+#~ msgstr "لغة العرض:"
+
+#~ msgid "Input source:"
+#~ msgstr "مصدر الإدخال:"
+
+#~ msgid "Format:"
+#~ msgstr "النُسق:"
+
+#~ msgid "Your settings"
+#~ msgstr "إعداداتك"
+
+#~ msgid "System settings"
+#~ msgstr "إعدادات النظام"
+
+#~ msgid "Search settings"
+#~ msgstr "إعدادات البحث"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "تفضيلات الإتاحة"
+
+#~ msgid "_Hint"
+#~ msgstr "ال_تلميح"
+
+#~ msgid ""
+#~ "This hint may be displayed at the login screen.  It will be visible to "
+#~ "all users of this system.  Do <b>not</b> include the password here."
+#~ msgstr ""
+#~ "قد تُعرض هذه التلميحة في شاشة الولوج، وستظهر لكل مستخدمي النظام.  <b>لا</"
+#~ "b> تضع كلمة السر هنا."
+
+#~ msgid "Fair"
+#~ msgstr "معقولة"
+
+#~ msgid "Set your Wacom tablet preferences"
+#~ msgstr "إعداد تفضيلات لوح واكوم"
+
+#~ msgid "Create virtual device"
+#~ msgstr "أنشئ جهاز افتراضي"
+
+#~ msgid "%i year"
+#~ msgid_plural "%i years"
+#~ msgstr[0] "أقلّ من سنة"
+#~ msgstr[1] "سنة واحدة"
+#~ msgstr[2] "سنتين"
+#~ msgstr[3] "%i سنوات"
+#~ msgstr[4] "%i سنة"
+#~ msgstr[5] "%i سنة"
+
+#~ msgid "%i month"
+#~ msgid_plural "%i months"
+#~ msgstr[0] "أقلّ من شهر"
+#~ msgstr[1] "شهر واحد"
+#~ msgstr[2] "شهرين"
+#~ msgstr[3] "%i شهور"
+#~ msgstr[4] "%i شهرا"
+#~ msgstr[5] "%i شهر"
+
+#~ msgid "%i week"
+#~ msgid_plural "%i weeks"
+#~ msgstr[0] "أقلّ من أسبوع"
+#~ msgstr[1] "أسبوع واحد"
+#~ msgstr[2] "أسبوعين"
+#~ msgstr[3] "%i أسابيع"
+#~ msgstr[4] "%i أسبوعا"
+#~ msgstr[5] "%i أسبوع"
+
+#~ msgid "Less than 1 week"
+#~ msgstr "أقلّ من أسبوع"
+
+#~ msgid "This device is not color managed."
+#~ msgstr "الجهاز ليس مُدار الألوان."
+
+#~ msgid "This device is using manufacturing calibrated data."
+#~ msgstr "هذا الجهاز يستخدم بيانات التصنيع المعايرة."
+
+#~ msgid ""
+#~ "This device does not have a profile suitable for whole-screen color "
+#~ "correction."
+#~ msgstr "ليس لهذا الجهاز إعداد مناسب لتصحيح ألون كامل الشاشة."
+
+#~ msgid "Not specified"
+#~ msgstr "غير محدّد"
+
+#~ msgid "No devices supporting color management detected"
+#~ msgstr "لم يُعثر على جهاز يدعم إدارة الألوان"
+
+#~ msgid "Add device"
+#~ msgstr "أضف جهازًا"
+
+#~ msgid "Add a virtual device"
+#~ msgstr "اضف جهازًا افتراضيًا"
+
+#~ msgid "Remove a device"
+#~ msgstr "أزِل جهازا"
+
+#~ msgid "Unspecified"
+#~ msgstr "غير محدّد"
+
+#~ msgid "Out of range"
+#~ msgstr "خارج المدى"
+
+#~ msgid "_Disconnect"
+#~ msgstr "ا_قطع الاتصال"
+
+#~ msgid "_Connect"
+#~ msgstr "اتّ_صل"
+
+#~ msgid "_Settings…"
+#~ msgstr "الإ_عدادات…"
+
+#~ msgid "Disconnected"
+#~ msgstr "غير متّصل"
+
+#~ msgid "Caution low battery, %s remaining"
+#~ msgstr "تحذير انخفاض البطارية، تبقى %s"
+
+#~ msgid "Using battery power - %s remaining"
+#~ msgstr "استخدام طاقة البطارية - تبقى %s"
+
+#~ msgid "Using battery power"
+#~ msgstr "استخدام طاقة البطارية"
+
+#~ msgid "Charging - fully charged"
+#~ msgstr "يشحن - اكتمل الشحن"
+
+#~ msgid "Using UPS power - %s remaining"
+#~ msgstr "استخدام مزود الطاقة الغير منقطعة - تبقى %s"
+
+#~ msgid "Caution low UPS"
+#~ msgstr "تحذير انخفاض مزود الطاقة الغير منقطعة"
+
+#~ msgid "Using UPS power"
+#~ msgstr "استخدام طاقة مزود الطاقة الغير منقطعة"
+
+#~ msgid "Your secondary battery is fully charged"
+#~ msgstr "بطاريتك الثانوية مكتملة الشحن"
+
+#~ msgid "Your secondary battery is empty"
+#~ msgstr "بطاريتك الثانوية فارغة"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging - fully charged"
+#~ msgstr "تشحن - مكتملة الشحن"
+
+#~ msgid ""
+#~ "Tip: <a href=\"screen\">screen brightness</a> affects how much power is "
+#~ "used"
+#~ msgstr "فائدة: يؤثّر <a href=\"screen\">سطوع الشاشة</a> على استهلاك الطاقة"
+
+#~ msgid "Don't suspend"
+#~ msgstr "لا تعلِّق"
+
+#~ msgid "Suspend when inactive for"
+#~ msgstr "علِّق عند الخمول لـ"
+
+#~ msgid "Brightness & Lock"
+#~ msgstr "السطوع والقفل"
+
+#~ msgid "Screen brightness and lock settings"
+#~ msgstr "إعدادات سطوع وقفل الشاشة"
+
+#~ msgid "Brightness;Lock;Dim;Blank;Monitor;"
+#~ msgstr "سطوع;قفل;فارغ;شاشة;"
+
+#~ msgid "Screen turns off"
+#~ msgstr "إطفاء الشاشة"
+
+#~ msgid "_Dim screen to save power"
+#~ msgstr "أخفِت ضوء ال_شاشة لتوفير الطاقة"
+
+#~ msgid "Don't lock when at home"
+#~ msgstr "لا توصد عندما أكون في البيت"
+
+#~ msgid "Locations…"
+#~ msgstr "المكان…"
+
+#~ msgid "Show _notifications when locked"
+#~ msgstr "أظهر ال_تنبيهات عندما يكون موصدًا"
+
+#~ msgid "Lock"
+#~ msgstr "أوصِد"
+
+#~ msgid "No user with the name '%s' exists."
+#~ msgstr "اسم المستخدم '%s' موجود بالفعل."
+
+#~ msgid "This user does not exist."
+#~ msgstr "المستخدم غير موجود."
+
+#~ msgid "Browse Files..."
+#~ msgstr "تصفح الملفات..."
+
+#~ msgid "Available Profiles for Displays"
+#~ msgstr "التشكيلات المتوفرة لشاشات العرض"
+
+#~ msgid "Available Profiles for Scanners"
+#~ msgstr "التشكيلات المتوفرة للماسحات الضوئية"
+
+#~ msgid "Available Profiles for Printers"
+#~ msgstr "التشكيلات المتوفرة للطابعات"
+
+#~ msgid "Available Profiles for Cameras"
+#~ msgstr "التشكيلات المتوفرة للكاميرات"
+
+#~ msgid "Available Profiles for Webcams"
+#~ msgstr "التشكيلات المتوفرة لكاميرات الوِب"
+
+#~ msgid "English"
+#~ msgstr "الإنجليزية"
+
+#~ msgid "German"
+#~ msgstr "الألمانية"
+
+#~ msgid "French"
+#~ msgstr "الفرنسيّة"
+
+#~ msgid "Russian"
+#~ msgstr "الروسية"
+
+#~ msgid "Arabic"
+#~ msgstr "العربية"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "VESA: %s"
+#~ msgstr "VESA: %s"
+
+#~ msgid "Unknown model"
+#~ msgstr "طِراز غير معروف"
+
+#~ msgid "The next login will attempt to use the standard experience."
+#~ msgstr "الولوج التالي سيحاول استخدام الواجهة الاعتيادية."
+
+#~ msgid ""
+#~ "The next login will use the fallback mode intended for unsupported "
+#~ "graphics hardware."
+#~ msgstr ""
+#~ "الولوج التالي سيستخدم النمط الاحتياطي والذي سيستخدم الواجهة التقليدية "
+#~ "المخصصة لعتاد الرسوميات غير المدعوم."
+
+#~ msgctxt "Experience"
+#~ msgid "Fallback"
+#~ msgstr "احتياطية"
+
+#~ msgctxt "Experience"
+#~ msgid "Standard"
+#~ msgstr "اعتيادية"
+
+#~ msgid "OS type"
+#~ msgstr "نوع نظام التشغيل"
+
+#~ msgid "_Other Media..."
+#~ msgstr "وسائط أ_خرى..."
+
+#~ msgid "Experience"
+#~ msgstr "الواجهة"
+
+#~ msgid "Forced _Fallback Mode"
+#~ msgstr "أرغم النمط الا_حتياطي"
+
+#~ msgid "Network;Wireless;IP;LAN;Proxy;"
+#~ msgstr "الشبكة;لاسلكي;عنوان أي بي;بروتوكول الإنترنت;الشبكة المحلية;الوسيط"
+
+#~ msgid "_Options..."
+#~ msgstr "ال_خيارات..."
+
+#~ msgid "C_reate..."
+#~ msgstr "أ_نشئ..."
+
+#~ msgid "Wireless Hotspot"
+#~ msgstr "نقطة اتصال لا سلكية"
+
+#~ msgid "Wireless"
+#~ msgstr "لاسلكية"
+
+#~ msgid "Mesh"
+#~ msgstr "عُرَوِيّة"
+
+#~ msgid "_Show"
+#~ msgstr "أ_ظهر"
+
+#~ msgid "Copy Settings..."
+#~ msgstr "انسخ الإعدادات..."
+
+#~ msgid ""
+#~ "Select a display language (change will be applied next time you log in)"
+#~ msgstr "اختر لغة العرض (ستُتطبّق التغييرات مع الولوج التالي)"
+
+#~ msgid "Remove Language"
+#~ msgstr "أزِل لغة"
+
+#~ msgid "Install languages..."
+#~ msgstr "ثبّت اللغات..."
+
+#~ msgid "Locations..."
+#~ msgstr "الأماكن..."
+
+#~ msgid "Enable debugging code"
+#~ msgstr "فعلّ كود التنقيح"
+
+#~ msgid "Version of this application"
+#~ msgstr "إصدارة هذا التّطبيق"
+
+#~ msgid " — GNOME Volume Control Applet"
+#~ msgstr " — بريمج التحكم في شدة الصوت"
+
+#~ msgid "Show desktop volume control"
+#~ msgstr "اعرض التحكم في شدة الصوت"
+
+#~ msgid "Sound Output Volume"
+#~ msgstr "شدة مَخْرَج الصوت"
+
+#~ msgid "Microphone Volume"
+#~ msgstr "شدة صوت الميكروفون"
+
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "فشل بدء تفضيلات الصوت: %s"
+
+#~ msgid "_Mute"
+#~ msgstr "أص_مت"
+
+#~ msgid "_Sound Preferences"
+#~ msgstr "_تفضيلات الصوت"
+
+#~ msgid "Muted"
+#~ msgstr "مُصمَت"
+
+#~ msgid "Options..."
+#~ msgstr "الخيارات..."
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "Color"
+#~ msgstr "اللون"
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "None"
+#~ msgstr "بلا"
+
+#~ msgid "User Accounts"
+#~ msgstr "حسابات المستخدمين"
+
+#~ msgid "Browse for more pictures..."
+#~ msgstr "تصفّح لمزيد من الصور..."
+
+#~ msgid "Map Buttons..."
+#~ msgstr "تعيين أزرار..."
+
+#~ msgid "Calibrate..."
+#~ msgstr "عايِر..."
+
+#~ msgid "- System Settings"
+#~ msgstr "- إعدادات النظام"
+
+#~ msgid "System Settings"
+#~ msgstr "إعدادات النظام"
+
+#~ msgid "Security Key"
+#~ msgstr "مفتاح الأمن"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "قناع الشبكة الفرعية"
+
+#~ msgid "_Search by Address"
+#~ msgstr "ا_بحث حسب العنوان"
+
+#~ msgid "Getting devices..."
+#~ msgstr "يجلب الأجهزة..."
+
+#~ msgid ""
+#~ "FirewallD is not running. Network printer detection needs services mdns, "
+#~ "ipp, ipp-client and samba-client enabled on firewall."
+#~ msgstr ""
+#~ "لا يعمل FirewallD. يحتاج اكتشاف طابعة الشبكة إلى تفعيل خدمات mdns و ipp و "
+#~ "ipp-client و samba-client في الجدار الناري."
+
+#~ msgctxt "printer type"
+#~ msgid "Local"
+#~ msgstr "محلية"
+
+#~ msgctxt "printer type"
+#~ msgid "Network"
+#~ msgstr "على الشبكة"
+
+#~ msgid "Device types"
+#~ msgstr "أنواع الأجهزة"
+
+#~ msgid "Automatic configuration"
+#~ msgstr "إعداد تلقائي"
+
+#~ msgid "Opening firewall for mDNS connections"
+#~ msgstr "يفتح الجدار الناري لاتصالات mDNS"
+
+#~ msgid "Opening firewall for Samba connections"
+#~ msgstr "يفتح الجدار الناري لاتصالات Samba"
+
+#~ msgid "Opening firewall for IPP connections"
+#~ msgstr "يفتح الجدار الناري لاتصالات IPP"
+
+#~ msgid "To test your settings, try to double-click on the face."
+#~ msgstr "لاختبار إعدادات النقر المزدوج، جرّب النقر المزدوج على الوجه."
+
+#~ msgid "Dasher"
+#~ msgstr "داشر"
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "Caribou"
+#~ msgstr "كاريبو"
+
+#~ msgid "C_hoose a device to configure:"
+#~ msgstr "ا_ختر جهازا لإعداده:"
+
+#~ msgid "Add wallpaper"
+#~ msgstr "أضف خلفية"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "أزل الخلفية"
+
+#~ msgid "Swap colors"
+#~ msgstr "بدّل الألوان"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "تدرج أفقي"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "تدرج رأسي"
+
+#~ msgid "Solid Color"
+#~ msgstr "لون سادة"
+
+#~ msgid "Colors & Gradients"
+#~ msgstr "ألوان وتدرجات"
+
+#~ msgid "Take a screenshot"
+#~ msgstr "التقط صورة للشاشة"
+
+#~ msgid "_Right-handed"
+#~ msgstr "فأرة لليد الي_منى"
+
+#~ msgid "_Left-handed"
+#~ msgstr "فأرة لليد اليسر_ى"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "أ_ظهر موقع الفأرة عند ضغط مفتاح Ctrl"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "ال_تسارع:"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "الح_ساسية:"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "السحب والإفلات"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "ال_عتبة:"
+
+#~ msgid "Drag Threshold"
+#~ msgstr "اسحب العتبة"
+
+#~ msgid "_Timeout:"
+#~ msgstr "ا_لمهلة:"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "فعّل _نقرات الفأرة في لوحة اللمس"
+
+#~ msgid "_Disabled"
+#~ msgstr "مع_طّل"
+
+#~ msgid "Account _type"
+#~ msgstr "_نوع الحساب"
+
+#~ msgid "Acti_on:"
+#~ msgstr "الإ_جراء:"
+
+#~ msgctxt "Wireless access point"
+#~ msgid "Other..."
+#~ msgstr "أخرى..."
+
+#~ msgid "Create the hotspot anyway?"
+#~ msgstr "إنشاء نقطة اتصال على أي حال؟"
+
+#~ msgid "Disconnect from %s and create a new hotspot?"
+#~ msgstr "قطع الاتصال بـ %s وأنشئ نقطة اتصال جديدة؟"
+
+#~ msgid "This is your only connection to the internet."
+#~ msgstr "هذا اتصالك الوحيد بالإنترنت."
+
+#~ msgid "Create _Hotspot"
+#~ msgstr "أنشئ _نقطة اتصال"
+
+#~ msgid "_Network Name"
+#~ msgstr "اسم ال_شبكة"
+
+#~ msgid "_Stop Hotspot..."
+#~ msgstr "أو_قف نقطة الاتصال..."
+
+#~ msgid "_Back"
+#~ msgstr "ا_رجع"
+
+#~ msgid "Printer Options"
+#~ msgstr "خيارات الطابعة"
+
+#~ msgid "Allowed users"
+#~ msgstr "المستخدمين المسموح لهم"
+
+#~ msgid "Disable VPN"
+#~ msgstr "عطّل VPN"
+
+#~ msgid "HTTP Port"
+#~ msgstr "منفذ HTTP"
+
+#~ msgid "HTTPS Port"
+#~ msgstr "منفذ HTTPS"
+
+#~ msgid "FTP Port"
+#~ msgstr "منفذ FTP"
+
+#~ msgid "Select an account"
+#~ msgstr "اختر حسابًا"
+
+#~ msgid "To add a new account, first select the account type"
+#~ msgstr "لإضافة حساب جديد، اختر أولًا نوع الحساب"
+
+#~ msgid "_Add..."
+#~ msgstr "أ_ضِف…"
+
+#~ msgid "Tip:"
+#~ msgstr "تلميح:"
+
+#~ msgid "Brightness Settings"
+#~ msgstr "إعدادات السطوع"
+
+#~ msgid "affect how much power is used"
+#~ msgstr "تؤثر في كمية الطاقة المستهلكة"
+
+#~ msgid "Add Layout"
+#~ msgstr "أضِف تخطيطا"
+
+#~ msgid "Remove Layout"
+#~ msgstr "أزِل تخطيطا"
+
+#~ msgid "Preview Layout"
+#~ msgstr "معاينة التخطيط"
+
+#~ msgid "New windows use the default layout"
+#~ msgstr "النوافذ الجديدة تستخدم التخطيط المبدئي"
+
+#~ msgid "New windows use the previous window's layout"
+#~ msgstr "النوافذ الجديدة تستخدم تخطيط النافذة السابقة"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "اعرض وعدّل خيارات تخطيط لوحة المفاتيح"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "ا_ستعد المبدئيات"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "غيّر إعدادات لوحة المفاتيح الحالية إلى\n"
+#~ "الإعدادات المبدئية"
+
+#~ msgid "Layouts"
+#~ msgstr "التخطيطات"
+
+#~ msgid "Layout"
+#~ msgstr "التخطيط"
+
+#~ msgid "Change contrast:"
+#~ msgstr "غيّر التباين:"
+
+#~ msgid "_Text size:"
+#~ msgstr "حجم ال_نص:"
+
+#~ msgid "Increase size:"
+#~ msgstr "كبّر الحجم:"
+
+#~ msgid "Decrease size:"
+#~ msgstr "قلل الحجم:"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Display"
+#~ msgstr "الشاشة"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Zoom"
+#~ msgstr "التقريب"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "اكتب هنا لاختبار الإعدادات"
+
+#~ msgid "1/2 Screen"
+#~ msgstr "1/2 الشاشة"
+
+#~ msgid "3/4 Screen"
+#~ msgstr "3/4 الشاشة"
+
+#~ msgid "Create new account"
+#~ msgstr "أنشئ حسابا جديدا"
+
+#~ msgid "_Account Type"
+#~ msgstr "_نوع الحساب"
+
+#~ msgid "Cr_eate"
+#~ msgstr "أ_نشئ"
+
+#~ msgid "Choose a generated password"
+#~ msgstr "اختر كلمة سر مُوَلّدة"
+
+#~ msgid "More choices..."
+#~ msgstr "المزيد من الخيارات…"
+
+#~ msgid "Wacom Graphics Tablet"
+#~ msgstr "لوح رسوميات Wacom"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "تعذرت معرفة الجلسة أثناء تطبيق تضبيطات العرض"
+
+#~ msgid "System Info"
+#~ msgstr "معلومات النظام"
+
+#~ msgid "_Photos:"
+#~ msgstr "_صور:"
+
+#~ msgid "Toggle contrast"
+#~ msgstr "بدّل التباين"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "بدّل المكبرة"
+
+#~ msgid "Toggle screen reader"
+#~ msgstr "بدّل قارئ الشاشة"
+
+#~ msgid "Accelerator key"
+#~ msgstr "مفتاح اختصار"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "مُغيِّرات مفاتيح الاختصار"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "رمز مفتاح الاختصار"
+
+#~ msgid "Accel Mode"
+#~ msgstr "نسق الاختصار"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "نوع مفتاح الاختصار."
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "الكثير من الاختصارات المخصصة"
+
+#~ msgid "Unlock"
+#~ msgstr "افتح"
+
+#~ msgid "Battery charging"
+#~ msgstr "البطارية تُشحن"
+
+#~ msgid "Battery discharging"
+#~ msgstr "البطارية تُستخدم"
+
+#~ msgid "%s until charged (%.0lf%%)"
+#~ msgstr "%s حتى تُشحن (%.0lf%%)"
+
+#~ msgid "%s until empty (%.0lf%%)"
+#~ msgstr "%s حتى تفرغ (%.0lf%%)"
+
+#~ msgid "%.0lf%% charged"
+#~ msgstr "%.0lf%% مشحون"
+
+#~ msgid "Ask me"
+#~ msgstr "اسألني"
+
+#~ msgid "Shutdown"
+#~ msgstr "أطفئ"
+
+#~ msgid "Key"
+#~ msgstr "المفتاح"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "مفتاح GConf الذي يتبعه محرّر الخاصية هذا."
+
+#~ msgid "Callback"
+#~ msgstr "اتصال معاكس"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "فعّل هذا الاتصال المعاكس إثر تغيير قيمة بالمفتاح"
+
+#~ msgid "Change set"
+#~ msgstr "مجموعة التغييرات"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "مجموعة تغييرات GConf المحتوية على بيانات سترسل إلى عميل gconf عند التطبيق"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "تحويل إلى نداء معاكس للودجة"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "الاتصال المعاكس الذي يتم تفعيله لتحويل البيانات من GConf للودجة"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "تحويل من النداء المعاكس للودجة"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "الاتصال المعاكس الذي يتم تفعيله لتحويل البيانات من الودجة إلى GConf"
+
+#~ msgid "UI Control"
+#~ msgstr "كائن واجهة المستخدم"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "الكائن الذي يتحكم في الخاصية (عادة ودجة)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "بيانات كائن محرّر الخاصيات"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "البيانات المعرفة المطلوبة من محرّر الخاصية المحدّد"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "الاتصال المعاكس المفرغ لمحرر الخاصيات من بياناته"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "الاتصال المعاكس الذي يتم تفعيله عند تحرير بيانات جسم محرّر الخاصيات"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "تعذّر إيجاد الملف '%s'.\n"
+#~ "\n"
+#~ "رجاء تأكد من وجوده وأعد المحاولة مرّة اخرى، أو اختر صورةَ خلفية مغايرة."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "لا أعرف كيف أفتح الملف '%s'.\n"
+#~ "قد يكون نوع الصورة غير مدعوم الآن.\n"
+#~ "\n"
+#~ "رجاء اختر صورة أخرى."
+
+#~ msgid "Please select an image."
+#~ msgstr "رجاء اختر صورة."
+
+#, fuzzy
+#~ msgid "Centered"
+#~ msgstr "موسَّطة"
+
+#, fuzzy
+#~ msgid "Show"
+#~ msgstr "أ_ظهر"
+
+#~ msgid "Create a user"
+#~ msgstr "أنشئ مستخدما"
+
+#~ msgid "Media and Autorun"
+#~ msgstr "الوسائط والتشغيل التلقائي"
+
+#~ msgid "Configure media and autorun preferences"
+#~ msgstr "اضبط تفضيلات الوسائط والتشغيل التلقائي"
+
+#~ msgid "cd;dvd;usb;audio;video;disc;"
+#~ msgstr "اسطوانة;قرص;صوت;صورة;فديو;"
+
+#, fuzzy
+#~ msgid "_Turn off after:"
+#~ msgstr "أ_طفئ بعد:"
+
+#~ msgid "Mute"
+#~ msgstr "أصمِت"
+
+#~ msgid "Current network location"
+#~ msgstr "مكان الشبكة الحالي"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "مسار جلب المزيد من الخلفيات"
+
+#~ msgid "More themes URL"
+#~ msgstr "مسار جلب المزيد من السمات"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "يحدد هذا اسما لمكانك الحالي. يستخدم هذا لتحديد إعدادات وسيط الشبكة "
+#~ "المناسبة."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr "مسار لجلب المزيد من خلفيات سطح المكتب. إذا ترك فارغا لن يظهر."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr "مسار لجلب المزيد من سمات سطح المكتب. إذا ترك فارغا لن يظهر."
+
+#~ msgid "Locked"
+#~ msgstr "مُوصد"
+
+#~ msgid ""
+#~ "Dialog is unlocked.\n"
+#~ "Click to prevent further changes"
+#~ msgstr ""
+#~ "المربع الحواري غير مُوصَد.\n"
+#~ "انقر لمنع أي تغييرات"
+
+#~ msgid ""
+#~ "Dialog is locked.\n"
+#~ "Click to make changes"
+#~ msgstr ""
+#~ "المربع الحواري مُوصَد.\n"
+#~ "انقر للسماح بالتغييرات"
+
+#~ msgid ""
+#~ "System policy prevents changes.\n"
+#~ "Contact your system administrator"
+#~ msgstr ""
+#~ "تمنع سياسة النظام التعديلات.\n"
+#~ "راجع مدير النظام."
+
+#~ msgid "24-Hour Time"
+#~ msgstr "توقيت 24 ساعة"
+
+#~ msgid "Upside-down"
+#~ msgstr "رأسا على عقب"
+
+#~ msgid "%.1f KB"
+#~ msgstr "%.1f ك.بايت"
+
+#~ msgid "%.1f MB"
+#~ msgstr "%.1f م.بايت"
+
+#~ msgid "%.1f GB"
+#~ msgstr "%.1f ج.بايت"
+
+#~ msgid "%.1f TB"
+#~ msgstr "%.1f ت.بايت"
+
+#~ msgid "%.1f PB"
+#~ msgstr "%.1f ب.بايت"
+
+#~ msgid "%.1f EB"
+#~ msgstr "%.1f إ.بايت"
+
+#~ msgid "Photos"
+#~ msgstr "الصور"
+
+#~ msgid "Updates Available"
+#~ msgstr "يوجد تحديثات"
+
+#~ msgid "Web"
+#~ msgstr "الوب"
+
+#~ msgid "---"
+#~ msgstr "---"
+
+#~ msgid "Use default layout in new windows"
+#~ msgstr "استخدم التخطيط المبدئي في النوافذ الجديدة"
+
+#~ msgid "Use previous window's layout in new windows"
+#~ msgstr "استخدم تخطيط النافذة السابقة في النوافذ الجديدة"
+
+#~ msgid "On AC power:"
+#~ msgstr "على الطاقة الاعتيادية:"
+
+#~ msgid "Put the computer to sleep when inactive:"
+#~ msgstr "ضع الحاسوب لينام عندما لا يكون نشطا:"
+
+#~ msgid "When the sleep button is pressed:"
+#~ msgstr "عند ضغط زر الإسبات:"
+
+#~ msgid "Keyboard;Mouse;a11y;Accessibility;"
+#~ msgstr "لوحة;مفاتيح;فأرة;إتاحة;"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">عال\\معكوس</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">عال</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">منخفض</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">عادي</span>"
+
+#~ msgid "Clean print heads"
+#~ msgstr "نظف رؤوس الطباعة"
+
+#~ msgid "An error has occured during a maintenance command."
+#~ msgstr "حدث عطل أثناء تنفيذ أمر الصيانة."
+
+#~ msgid "DSL"
+#~ msgstr "DSL"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "حدد موقع المؤشر"
+
+#~ msgid "16"
+#~ msgstr "16"
+
+#~ msgid "2010"
+#~ msgstr "2010"
+
+#~ msgid "AM"
+#~ msgstr "ص"
+
+#~ msgid "Info"
+#~ msgstr "معلومات"
+
+#~ msgid "Set the system proxy settings"
+#~ msgstr "اضبط إعدادات وسيط الشبكة"
+
+#~ msgid "Virtual private network"
+#~ msgstr "شبكة خاصة افتراضية"
+
+#~ msgid "The running NetworkManager version is not compatible (too new)."
+#~ msgstr "نسخة NetworkManager التي تعمل غير متوافقة (حديثة جدا)"
+
+#~ msgid "The running NetworkManager version is not compatible (too old)."
+#~ msgstr "نسخة NetworkManager التي تعمل غير متوافقة (قديمة جدا)"
+
+#~ msgid "IP Address:"
+#~ msgstr "عنوان IP:"
+
+#~ msgid "Getting network address"
+#~ msgstr "يجلب عنوان الشبكة"
+
+#~ msgid "Preparing"
+#~ msgstr "يُجهّز"
+
+#~ msgctxt "Account type"
+#~ msgid "Supervised"
+#~ msgstr "تحت الإشراف"
+
+#~ msgid "Supervised"
+#~ msgstr "تحت الإشراف"
+
+#~ msgid "Secure HTTP Proxy:"
+#~ msgstr "وسيط HTTP الآمن:"
+
+#~ msgid "Chipset"
+#~ msgstr "البطاقة"
+
+#~ msgid "LowContrast"
+#~ msgstr "تباين منخفض"
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "استخدم صورة بديلة من الإدخال النصّي"
+
+#~ msgid "Language:"
+#~ msgstr "اللغة:"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "%i kb/s"
+#~ msgstr "%i ك.بايت\\ث"
+
+#~ msgid "Graphics:"
+#~ msgstr "الرسوميات:"
+
+#, fuzzy
+#~ msgid "Always use fallback:"
+#~ msgstr "استخدم الاحتياط دائما:"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "خطأ عند إلغاء ضبط مفتاح الاختصار في قاعدة بيانات الإعدادات: %s"
+
+#~ msgid "More Info"
+#~ msgstr "المزيد من المعلومات"
+
+#~ msgctxt "printer state"
+#~ msgid "Idle"
+#~ msgstr "ساكنة"
+
+#~ msgid "By _country"
+#~ msgstr "بالب_لد"
+
+#~ msgid "By _language"
+#~ msgstr "بالل_غة"
+
+#~ msgid "_Country:"
+#~ msgstr "الب_لد:"
+
+#~ msgid "_Variants:"
+#~ msgstr "ال_تنويعات:"
+
+#~ msgid "Upside Down"
+#~ msgstr "رأسا على عقب"
+
+#~ msgid "Clean Print Heads"
+#~ msgstr "نظف رؤوس الطابعة"
+
+#~ msgid "Description:"
+#~ msgstr "الوصف:"
+
+#~ msgid "Hold"
+#~ msgstr "علّق"
+
+#~ msgid "Queue"
+#~ msgstr "الطابور"
+
+#~ msgid "Release"
+#~ msgstr "أطلِق"
+
+#~ msgid "Show / hide printer's jobs"
+#~ msgstr "أظهر أو أخفِ مهام الطابعة"
+
+#~ msgid "Status:"
+#~ msgstr "الحالة:"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_طراز لوحة المفاتيح:"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr "انقل تخطيط لوحة المفاتيح المحدد إلى أسفل"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "انقل تخطيط لوحة المفاتيح المحدد إلى أعلى"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "اطبع رسما لتخطيط لوحة المفاتيح المحدد"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "احذف تخطيط لوحة المفاتيح المحدد من القائمة"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "اختر تخطيط لوحة مفاتيح ليُضاف إلى القائمة"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "اختر طراز لوحة المفاتيح"
+
+#~ msgid "_Models:"
+#~ msgstr "ال_طرُز:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "ال_مُنتِج:"
+
+#~ msgid "Vendors"
+#~ msgstr "المُنتِج"
+
+#~ msgid "Battery power and inactive for:"
+#~ msgstr "البطارية غير نشطة منذ:"
+
+#~ msgid "Put the computer to sleep when on:"
+#~ msgstr "ضع الحاسوب لينام عندما يعمل على:"
+
+#~ msgid "Restrictions:"
+#~ msgstr "القيود:"
+
+#~ msgid ""
+#~ "A guest account will allow anyone to temporarily log in to this computer "
+#~ "without a password.  For security, remote logins to this account are not "
+#~ "allowed.\n"
+#~ "\n"
+#~ "                    <b>When the guest user logs out, all files and data "
+#~ "associated with the account will be deleted.</b>"
+#~ msgstr ""
+#~ "سيتيح حساب الضيف لأي كان أن يلج مؤقتا إلى هذا الحاسوب بدون كلمة سر. "
+#~ "للأمان، سن يُسمح لهذا الحساب بالولوج عن بعد.\n"
+#~ "\n"
+#~ "                    <b>عندما يخرج المستخدم الضيف فستحذف كل الملفات "
+#~ "والبيانات المتعلقة بهذا الحساب.</b>"
+
+#~ msgid "Accounts"
+#~ msgstr "الحسابات"
+
+#~ msgid "Address Book Card:"
+#~ msgstr "بطاقة دفتر العناوين:"
+
+#~ msgid "Allow guests to log in to this computer"
+#~ msgstr "اسمح للضيوف بالولوج إلى هذا الحاسوب"
+
+#~ msgid "E-mail address:"
+#~ msgstr "عنوان البريد الإلكتروني:"
+
+#~ msgid "Show Shutdown, Suspend and Restart actions"
+#~ msgstr "أظهر إجراءات الإطفاء والتعليق وإعادة التشغيل"
+
+#~ msgid "Show list of users"
+#~ msgstr "أظهر قائمة المستخدمين"
+
+#~ msgid "Show password hints"
+#~ msgstr "أظهر تلميحات كلمات السر"
+
+#~ msgid "2 GB"
+#~ msgstr "2 ج.بايت"
+
+#~ msgid "32-bit"
+#~ msgstr "32 بتة"
+
+#~ msgid "80 GB (4 GB free)"
+#~ msgstr "80 ج.بايت (4 ج.بايت خالية)"
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "يمكن ال_تحكم في المؤشر باستخدام لوحة المفاتيح"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "ا_كتب لاختبار الإعدادات:"
+
+#~ msgid "Desktop"
+#~ msgstr "سطح المكتب"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "اختر نوع النقر م_سبقًا"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "اختر نو_ع النقر بحركات الفأرة"
+
+#~ msgid "D_rag click:"
+#~ msgstr "نقر ال_سحب:"
+
+#~ msgid "Dwell Click"
+#~ msgstr "النقر السلبي"
+
+#~ msgid "Show click type _window"
+#~ msgstr "أظ_هر نافذة نوع النقر"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr "يمكنك أيضًا استخدام بريمج النقر السلبي لاختيار نوع النقر."
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "ابتد_ئ بالنقر عند توقف حركة المؤشر"
+
+#~ msgid "_Single click:"
+#~ msgstr "نقرة م_فردة:"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "يسبب النقر ال_ثانوي عن طريق الاستمرار بضغط الزر الأولي"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "التطبيقات المفضّلة"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "ابدأ تقنية الإعانة المرئية المفضلة"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "الإعانة المرئية"
+
+#~ msgid "Error setting default browser: %s"
+#~ msgstr "عطل في تحديد المتصفح المبدئي: %s"
+
+#~ msgid "Error setting default mailer: %s"
+#~ msgstr "عطل في تحديد مُرسِل البريد المبدئي: %s"
+
+#~ msgid "Please make sure that the applet is properly installed"
+#~ msgstr "رجاء تأكّد من أن البريمج مثبت بدقة"
+
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "سيتم تبديل كل مصادفات %s بالرابط الحقيقي"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "الأ_مر:"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "شا_رة التنفيذ:"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "المرسال الفوري"
+
+#~ msgid "Mail Reader"
+#~ msgstr "قارئ البريد"
+
+#~ msgid "Mobility"
+#~ msgstr "الحركيّة"
+
+#~ msgid "Run at st_art"
+#~ msgstr "شغّ_ل عند البدء"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "شغّل في _طرفية"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "محاكي الطرفية"
+
+#~ msgid "Text Editor"
+#~ msgstr "محرّر النصوص"
+
+#~ msgid "Visual"
+#~ msgstr "مرئي"
+
+#~ msgid "Web Browser"
+#~ msgstr "متصفّح الوِب"
+
+#~ msgid "_Run at start"
+#~ msgstr "_شغل عند البدء"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "مشغل موسيقى بانشي"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "محاكي طرفية دبيان"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "مكبّر جنوم بدون قارئ الشاشة"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "لوحة مفاتيح جنوم على الشاشة"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "طرفية جنوم"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "جنوبرنيكوس"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "جنوبرنيكوس مع المكبّر"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "مكبّر كدي بدون قارئ الشاشة"
+
+#~ msgid "Konsole"
+#~ msgstr "كونسول"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "قارئ شاشة لينكس"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "قارئ شاشة لينكس مع المكبّر"
+
+#~ msgid "Listen"
+#~ msgstr "استمع"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "مشغل الموسيقى موين"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Orca"
+#~ msgstr "أوركا"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "أوركا مع المكبّر"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "مشغل الموسيقى أنغام"
+
+#~ msgid "Standard XTerminal"
+#~ msgstr "طرفيّة X القياسيّة"
+
+#~ msgid "Terminator"
+#~ msgstr "Terminator"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "مشغل الأفلام توتم"

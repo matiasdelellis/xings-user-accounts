@@ -1,0 +1,5734 @@
+# translation of gnome-control-center.master.kn.po to Kannada
+# translation of gnome-control-center.HEAD.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Shankar Prasad <svenkate@redhat.com>, 2008, 2009, 2010, 2011, 2012, 2013, 2014.
+# Shankar <svenkate@redhat.com>, 2013, 2014. #zanata.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2014-12-24 15:59+0530\n"
+"Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು (_U)"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "ಪೂರ್ಣ ಹೆಸರು (_F)"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "ಶಿಷ್ಟ"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "ವ್ಯವಸ್ಥಾಪಕ"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "ಖಾತೆಯ ಬಗೆ (_T):"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "ಗುಪ್ತಪದ"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr "ಬಳಕೆದಾರರು ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಲು ಅವಕಾಶ ನೀಡು"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "ಈಗಲೆ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಿ"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "ದಾಟುಪದ (_P)"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "ಸಂರಚಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"ಎಂಟರ್‌ಪ್ರೈಸ್‌ ಲಾಗಿನ್ ಈ ಸಾಧನದಲ್ಲಿ ಈಗಿರುವ ಕೇಂದ್ರೀಕೃತ ವ್ಯವಸ್ಥೆಯಲ್ಲಿ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು "
+"ನಿರ್ವಹಿಸಲು ಅವಕಾಶ ಒದಗಿಸುತ್ತದೆ."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "ಡೊಮೈನ್ (_D)"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"ಎಂಟರ್‌ಪ್ರೈಸ್ ಲಾಗಿನ್‌\n"
+"ಖಾತೆಗಳನ್ನು ಸೇರಿಸಲು ಆನ್‌ಲೈನ್‌ಗೆ ತೆರಳಿ."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "ಎಂಟರ್ಪ್ರೈಸ್ ಪ್ರವೇಶ (_E)"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸು"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "ಡೊಮೈನ್ ವ್ಯವಸ್ಥಾಪಕನ ಪ್ರವೇಶ"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"ಎಂಟರ್ಪ್ರೈಸ್ ಲಾಗಿನ್‌ಗಳನ್ನು ಬಳಸಲು, ಈ ಗಣಕವನ್ನು ಡೊಮೈನ್‌ನಲ್ಲಿ\n"
+"ನೋಂದಾಯಿಸಬೇಕಾಗುತ್ತದೆ. ನಿಮ್ಮ ಜಾಲಬಂಧ ವ್ಯವಸ್ಥಾಪಕರು ತಮ್ಮ\n"
+"ಡೊಮೈನ್ ಗುಪ್ತಪದವನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸಲು ಮನವಿ ಮಾಡಿ."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "ವ್ಯವಸ್ಥಾಪಕನ ಹೆಸರು (_N)"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "ವ್ಯವಸ್ಥಾಪಕ ಗುಪ್ತಪದ"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "ಎಡ ಹೆಬ್ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "ಎಡ ಮಧ್ಯ ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "ಎಡ ಉಂಗುರದ ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "ಎಡ ಕಿರು ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "ಬಲ ಹೆಬ್ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "ಬಲ ಮಧ್ಯ ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "ಬಲ ಉಂಗುರದ ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "ಬಲ ಕಿರು ಬೆರಳು"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "ಬೆರಳಗುರುತು ಪ್ರವೇಶವನ್ನು ಶಕ್ತಗೊಳಿಸಿ"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "ಬಲ ತೋರು ಬೆರಳು (_R)"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "ಎಡ ತೋರು ಬೆರಳು (_L)"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "ಇತರೆ ಬೆರಳು (_O): "
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"ನಿಮ್ಮ ಬೆರಳಗುರುತನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ. ಈಗ ನೀವು ನಿಮ್ಮ ಬೆರಳಗುರುತಿನ ಓದುಗನನ್ನು "
+"ಬಳಸಿಕೊಂಡು ಪ್ರವೇಶಿಸಬಹುದಾಗಿದೆ."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "ಬಳಕೆದಾರರು"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿ ಅಥವ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "ಪ್ರವೇಶ;ಹೆಸರು;ಬೆರಳಗುರುತ;ಅವತಾರ;ಲಾಂಛನ;ಮುಖ;ಗುಪ್ತಪದ;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "ರದ್ದು ಮಾಡು (_C)"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "ಬದಲಾಯಿಸಿ (_a)"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸಿ (_o)"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "ಹೊಸ ಗುಪ್ತಪದ (_N)"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "ಈಗಿನ ಗುಪ್ತಪದ (_P)"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr "ಬಳಕೆದಾರರು ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಲು ಅವಕಾಶ ನೀಡು"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "ಈಗಲೆ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಿ"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸು"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "ಪ್ರವೇಶದ ಆಯ್ಕೆಗಳು"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "ಸ್ವಯಂಚಾಲಿತ ಪ್ರವೇಶ (_u)"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "ಬೆರಳಗುರುತಿನೊಂದಿಗೆ ಪ್ರವೇಶ (_F)"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "ಬಳಕೆದಾರನ ಚಿಹ್ನೆ"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "ಕೊನೆಯ ಪ್ರವೇಶ"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕು"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "ಇತರೆ ಖಾತೆಗಳು"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "ಬಳಕೆದಾರನನ್ನು ಅಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "ದೂರದಿಂದ ನೋಡಿಕೊಳ್ಳಲಾಗುವ ಬಳಕೆದಾರನನ್ನು ರದ್ದುಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "ನೀವು ನಿಮ್ಮದೆ ಖಾತೆಯನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ"
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s ಇನ್ನೂ ಸಹ ಒಳಗಿದ್ದಾರೆ"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"ಬಳಕೆದಾರರು ಒಳಗೆ ಪ್ರವೇಶಿಸಿದಾಗ ಅವರನ್ನು ಅಳಿಸುವುದರಿಂದ ವ್ಯವಸ್ಥೆಯು ಒಂದು ಅಸ್ಥಿರ ಸ್ಥಿತಿಯಲ್ಲಿ "
+"ಇರಿಸುತ್ತದೆ."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "ನೀವು %s ರವರ ಕಡತಗಳನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು ಬಯಸುವಿರಾ?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"ಬಳಕೆದಾರರ ಖಾತೆಯನ್ನು ಅಳಿಸುವಾಗ ನೆಲೆ ಕೋಶವನ್ನು, ಅಂಚೆ ಸ್ಪೂಲ್ ಅನ್ನು ಮತ್ತು ತಾತ್ಕಾಲಿಕ "
+"ಕಡತಗಳನ್ನು ಹಾಗೆಯೆ ಇರಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿರುತ್ತದೆ."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "ಕಡತಗಳನ್ನು ಅಳಿಸು (_D)"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "ಕಡತಗಳನ್ನು ಇರಿಸಿಕೊ (_K)"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "ದೂರದಿಂದ ನೋಡಿಕೊಳ್ಳಲಾಗುವ %s ನ ಖಾತೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ನೀವು ಖಚಿತವೆ?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "ಅಳಿಸು (_D)"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "ಖಾತೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ ಹೊಂದಿಸಲಾಗುತ್ತದೆ"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "ಪ್ರವೇಶಿಸಲಾಗಿದೆ"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "ಖಾತೆಗಳ ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+"AccountService ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿದೆಯೆ ಮತ್ತು ಸಕ್ರಿಯಗೊಂಡಿದೆಯೆ ಎಂದು "
+"ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು,\n"
+"* ಚಿಹ್ನೆಯ ಮೇಲೆ ಮೊದಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "ಬಳಕೆದಾರನನ್ನು ರಚಿಸು"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ರಚಿಸಲು,\n"
+"ಮೊದಲು * ಚಿಹ್ನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "ಆಯ್ದ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಅಳಿಸಿ"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"ಆಯ್ದ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಅಳಿಸಲು,\n"
+"ಮೊದಲು * ಚಿಹ್ನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "ನನ್ನ ಖಾತೆ"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಹಳೆಯದಕ್ಕಿಂತ ಭಿನ್ನವಾಗಿರಬೇಕು."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "ಕೆಲವು ಅಕ್ಷರಗಳು ಮತ್ತು ಅಂಕಿಗಳನ್ನು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "ಗುಪ್ತಪದವನ್ನು ಇನ್ನಷ್ಟು ಬದಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "ನಿಮ್ಮ ಬಳಕೆದಾರ ಹೆಸರು ಇಲ್ಲದ ಗುಪ್ತಪದವು ಸದೃಢವಾಗಿರುತ್ತದೆ."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "ನಿಮ್ಮ ಹೆಸರನ್ನು ಗುಪ್ತಪದದಲ್ಲಿ ಬಳಸದೇ ಇರಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "ಗುಪ್ತಪದದಲ್ಲಿ ಕೆಲವು ಪದಗಳನ್ನು ಬಳಸದೆ ಇರಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "ಸಾಮಾನ್ಯವಾದ ಪದಗಳನ್ನು ಬಳಸಬೇಡಿ."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "ಈಗಿರುವ ಪದದ ಅಕ್ಷರಗಳನ್ನೆ ಅದಲು ಬದಲು ಮಾಡಿ ಬಳಸಬೇಡಿ."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "ಹೆಚ್ಚು ಸಂಖ್ಯೆಗಳನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "ಹೆಚ್ಚು ದೊಡ್ಡಕ್ಷರಗಳನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "ಹೆಚ್ಚು ಸಣ್ಣಕ್ಷರಗಳನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "ಹೆಚ್ಚು  ವಿರಾಮ ಚಿಹ್ನೆಗಳಂತಹ ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ವಿರಾಮಚಿಹ್ನೆಗಳ ಮಿಶ್ರಣವನ್ನು ಬಳಸಿ ನೋಡಿ."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "ಒಂದೇ ಅಕ್ಷರವನ್ನು ಪುನರಾವರ್ತಿಸುವುದನ್ನು ತಪ್ಪಿಸಿ."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"ಒಂದೇ ರೀತಿಯ ಚಿಹ್ನೆಯನ್ನು ಬಳಸುವುದನ್ನು ತಪ್ಪಿಸಲು ಪ್ರಯತ್ನಿಸಿ: ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು "
+"ವಿರಾಮಚಿಹ್ನೆಗಳ ಮಿಶ್ರಣವನ್ನು ಬಳಸಿ ನೋಡಿ."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "1234 ಅಥವ abcd ಯಂತಹ ಸರಣಿಯನ್ನು ಬಳಸಬೇಡಿ."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ವಿರಾಮಚಿಹ್ನೆಗಳ ಮಿಶ್ರಣವನ್ನು ಬಳಸಿ ನೋಡಿ."
+
+#: ../src/pw-utils.c:117
+#, fuzzy
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "ದೊಡ್ಡಕ್ಷರ ಮತ್ತು ಸಣ್ಣಕ್ಷರವನ್ನು ಜೊತೆಗೆ ಬಳಸಿ ಮತ್ತು ಒಂದು ಅಥವ ಎರಡು ಸಂಖ್ಯೆಯನ್ನು ಬಳಸಿ."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"ಉತ್ತಮವಾದ ಗುಪ್ತಪದ! ಹೆಚ್ಚಿನ ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ವಿರಾಮಚಿಹ್ನೆಗಳನ್ನು ಸೇರಿಸುವುದರಿಂದ "
+"ಇದು ಇನ್ನಷ್ಟು ಬಲಗೊಳ್ಳುತ್ತದೆ."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "ದೃಢೀಕರಣ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಬಹಳ ಚಿಕ್ಕದಾಗಿದೆ"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಬಹಳ ಸರಳವಾಗಿದೆ."
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದನ್ನೊಂದು ಬಹಳ ಹೋಲುತ್ತವೆ"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಈಗಾಗಲೆ ಇತ್ತೀಚೆಗೆ ಬಳಸಲಾಗಿದೆ."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಒಂದು ಅಂಕೆ ಅಥವ ವಿಶೇಷ ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿರಲೇಬೇಕು"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದೇ ಆಗಿವೆ"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನೀವು ಆರಂಭದಲ್ಲಿ ದೃಢೀಕರಿಸಿದ ನಂತರ ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆ!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಸಾಕಷ್ಟು ವಿಭಿನ್ನ ಅಕ್ಷರಗಳನ್ನು ಹೊಂದಿಲ್ಲ"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "ಗೊತ್ತಿಲ್ಲದ ದೋಷ"
+
+#: ../src/um-account-dialog.c:34
+#, fuzzy
+msgid "Should match the web address of your login provider."
+msgstr "ನಿಮ್ಮ ಖಾತೆ ಒದಗಿಸುವವರ ಜಾಲ ವಿಳಾಸಕ್ಕೆ ಹೊಂದಿಕೆಯಾಗಬೇಕು."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "ಖಾತೆಯನ್ನು ಸೇರಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "ಗುಪ್ತಪದಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "ಖಾತೆಯನ್ನು ನೋಂದಾಯಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "ಈ ಡೊಮೈನ್‌ನೊಂದಿಗೆ ದೃಢೀಕರಿಸಲು ಯಾವುದೆ ಮಾರ್ಗವಿಲ್ಲ"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "ಡೊಮೈನ್ ಅನ್ನು ಸೇರುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"ಆ ಲಾಗಿನ್ ಹೆಸರು ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ.\n"
+"ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"ಆ ಲಾಗಿನ್ ಗುಪ್ತಪದ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ.\n"
+"ದಯವಿಟ್ಟು ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "ಡೊಮೈನ್ ಅನ್ನು ಪ್ರವೇಶಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "ಡೊಮೇನ್‌ ಕಂಡುಬಂದಿಲ್ಲ. ಬಹುಷಃ ನೀವು ತಪ್ಪಾಗಿ ನಮೂದಿಸಿರಬೇಕು?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "ರದ್ದು ಮಾಡು"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "ಸೇರಿಸು (_A)"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "ಶಿಷ್ಟ"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "ವ್ಯವಸ್ಥಾಪಕ"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "ನೀವು ಈ ಸಾಧನವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳುವಂತಿಲ್ಲ. ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "ಸಾಧನವು ಈಗಾಗಲೆ ಬಳಕೆಯಲ್ಲಿದೆ."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "ಒಂದು ಆಂತರಿಕ ದೋಷ ಸಂಭವಿಸಿದೆ."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "ಅಶಕ್ತಗೊಂಡ"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "ಸಕ್ರಿಯಗೊಂಡ"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "ನೋಂದಾಯಿಸಲಾದ ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸು (_D)"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"ನೀವು ನೋಂದಾಯಿಸಲಾದ ಬೆರಳಗುರುತುಗಳನ್ನು ಅಳಿಸಿ ಆ ಮೂಲಕ ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು "
+"ಅಶಕ್ತಗೊಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "ಆಯಿತು!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "'%s' ಸಾಧನವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "'%s' ಸಾಧನದಲ್ಲಿ ಬೆರಳಿನ ಗುರುತನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದನ್ನು ಆರಂಭಿಸು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "ಯಾವುದೆ ಬೆರಳಗುರುತು ಓದುಗನನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "ನೆರವಿಗಾಗಿ ನಿಮ್ಮ ಗಣಕ ವ್ಯವಸ್ಥಾಪಕರನ್ನು ಕೇಳಿ."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"ಬೆರಳಗುರುತಿನ ಪ್ರವೇಶವನ್ನು ಶಕ್ತಗೊಳಿಸಲು, '%s' ಸಾಧನವನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ನಿಮ್ಮ "
+"ಬೆರಳಗುರುತುಗಳನ್ನು ಉಳಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "ಬೆರಳನ್ನು ಆರಿಸುವಿಕೆ"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "ಬೆರಳಗುರುತುಗಳನ್ನು ದಾಖಲಿಸುವಿಕೆ"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "ಸಾರಾಂಶ"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "ಈ ವಾರ"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "ಹಿಂದಿನ ವಾರ"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "ಅಧಿವೇಶನ ಕೊನೆಗೊಂಡಿದೆ"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "ಅಧಿವೇಶನ ಆರಂಭಗೊಂಡಿದೆ"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "ದಯವಿಟ್ಟು ಬೇರೊಂದು ಗುಪ್ತಪದವನ್ನು ಆರಿಸಿ."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಈಗಿನ ಗುಪ್ತಪದವನ್ನು ಇನ್ನೊಮ್ಮೆ ದಾಖಲಿಸಿ."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ."
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "ಆರಿಸು"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "ಹೆಚ್ಚಿನ ಚಿತ್ರಗಳಿಗಾಗಿ ನೋಡು"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "ತೆರೆ (_O)"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "ಚಿತ್ರವನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "ಒಂದು ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ..."
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "ಹೆಚ್ಚಿನ ಚಿತ್ರಗಳಿಗಾಗಿ ನೋಡು…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "%s ಇಂದ ಬಳಸಲಾಗಿದೆ"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "ಈ ಬಗೆಯ ಡೊಮೇನ್‌ ಅನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸೇರಿಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "ಯಾವುದೆ ಅಂತಹ ಡೊಮೈನ್ ಅಥವ ಕ್ಷೇತ್ರ ಕಂಡುಬಂದಿಲ್ಲ"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "%s ಎಂದು %s ಡೊಮೈನಿನಲ್ಲಿ ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "ಗುಪ್ತಪದ ತಪ್ಪಾಗಿದೆ; ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "%s ಡೊಮೈನ್‌ಗೆ ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾಗಿಲ್ಲ: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು ಬಹಳ ಉದ್ದವಾಗಿದೆ."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "ಬಳಕೆದಾರ ಹೆಸರು '-' ಇಂದ ಆರಂಭಗೊಳ್ಳುವಂತಿಲ್ಲ."
+
+#: ../src/um-utils.c:572
+#, fuzzy
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"ಬಳಕೆದಾರ ಹೆಸರು ಕೇವಲ a-z ವರೆಗಿನ ಅಕ್ಷರಗಳು, ಅಂಕಿಗಳು, ಮತ್ತು '.', '-' ಹಾಗು '_' ನಲ್ಲಿ "
+"ಒಂದಾದರೂ ಚಿಹ್ನೆಗಳನ್ನು ಮಾತ್ರ ಹೊಂದಿರಬೇಕು."
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"ಇದನ್ನು ನಿಮ್ಮ ನೆಲೆ ಕೋಶವನ್ನು ಹೆಸರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ ಮತ್ತು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "ಇಂದು"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "ನಿನ್ನೆ"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಪರಿಶೀಲಿಸು (_N)"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "ಹೆಚ್ಚು ಅಕ್ಷರಗಳು, ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಸಂಕೇತಗಳನ್ನು ಸೇರಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "ಬಲಿಷ್ಟತೆ: ದುರ್ಬಲ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "ಬಲಿಷ್ಟತೆ: ಕಡಿಮೆ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "ಬಲಿಷ್ಟತೆ: ಮಧ್ಯಮ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "ಬಲಿಷ್ಟತೆ: ಉತ್ತಮ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "ಬಲಿಷ್ಟತೆ: ಅತ್ಯುತ್ತಮ"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "ಗುಪ್ತಪದಗಳು ಒಂದೇ ಸಮನಾಗಿಲ್ಲ."
+
+#~ msgid "Background"
+#~ msgstr "ಹಿನ್ನಲೆ ಚಿತ್ರ"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "ದಿನಪೂರ್ತಿ ಬದಲಾಯಿಸುತ್ತದೆ"
+
+#~ msgid "Lock Screen"
+#~ msgstr "ಲಾಕ್ ತೆರೆ"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "ಚೌಕ"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "ಗಾತ್ರಬದಲಿಸು"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "ಮಧ್ಯಕ್ಕೆ"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "ಗಾತ್ರ ಬದಲಾವಣೆ"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "ತುಂಬಿಸು"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "ಹರಡು"
+
+#~ msgid "Wallpapers"
+#~ msgstr "ವಾಲ್‌ಪೇಪರುಗಳು"
+
+#~ msgid "Colors"
+#~ msgstr "ಬಣ್ಣಗಳು"
+
+#~ msgid "Select Background"
+#~ msgstr "ಹಿನ್ನಲೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡು"
+
+#~ msgid "Pictures"
+#~ msgstr "ಚಿತ್ರಗಳು"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "ಯಾವುದೆ ಚಿತ್ರಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "Home"
+#~ msgstr "ನೆಲೆ"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "ನೀವು ಚಿತ್ರಗಳನ್ನು ನಿಮ್ಮ %s ಕಡತಕೋಶಕ್ಕೆ ಸೇರಿಸಬಹುದು ಮತ್ತು ಅವುಗಳು ಇಲ್ಲಿ ಕಾಣಿಸುತ್ತವೆ"
+
+#~ msgid "multiple sizes"
+#~ msgstr "ಅನೇಕ ಗಾತ್ರಗಳು"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "ಯಾವುದೆ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ್ರವಿಲ್ಲ"
+
+#~ msgid "Current background"
+#~ msgstr "ಈಗಿನ ಹಿನ್ನಲೆ ಚಿತ್ರ"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "ನಿಮ್ಮ ಹಿನ್ನಲೆ ಚಿತ್ರವನ್ನು ಒಂದು ವಾಲ್‌ಪೇಪರ್ ಅಥವ ಫೋಟೊದಿಂದ ಬದಲಾಯಿಸಿ"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "ವಾಲ್‌ಪೇಪರ್;ತೆರೆ;ಗಣಕತೆರೆ;"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "ಯಾವುದೇ ಬ್ಲೂಟೂತ್ ಅಡಾಪ್ಟರುಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "ಯಂತ್ರಾಂಶ ಸ್ವಿಚ್‌ನಿಂದ ಬ್ಲೂಟೂತ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
+
+#~ msgid "Bluetooth"
+#~ msgstr "ಬ್ಲೂಟೂತ್"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಅನ್ನು ಆನ್ ಮತ್ತು ಆಫ್ ಮಾಡಿ ಹಾಗೂ ನಿಮ್ಮ ಸಾಧನಗಳೊಂದಿಗೆ ಸಂಪರ್ಕ ಸಾಧಿಸಿ"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "ನಿಮ್ಮ ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಸಾಧನವನ್ನು ಚೌಕದ ಮೇಲೆ ಇರಿಸಿ ಮತ್ತು 'ಪ್ರಾರಂಭಿಸು' ಅನ್ನು ಒತ್ತಿ"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಟ್ ಸ್ಥಾನಕ್ಕೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಜರುಗಿಸಿ ಮತ್ತು 'ಮುಂದುವರೆ' ಅನ್ನು ಒತ್ತಿ"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr "ಮೇಲ್ಮೈ ಸ್ಥಾನಕ್ಕೆ ನಿಮ್ಮ ಸಾಧನವನ್ನು ಜರುಗಿಸಿ ಮತ್ತು 'ಮುಂದುವರೆ' ಅನ್ನು ಒತ್ತಿ"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "ಲ್ಯಾಪ್‌ಟಾಪ್‌ನ ಮುಚ್ಚುಳವನ್ನು ಮುಚ್ಚು"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "ಚೇತರಿಸಕೊಳ್ಳಲಲು ಸಾಧ್ಯವಾಗದಂತಹ ಒಂದು ಆಂತರಿಕ ದೋಷ ಸಂಭವಿಸಿದೆ."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ಗಾಗಿ ಅಗತ್ಯವಿರುವ ತಂತ್ರಾಂಶವನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಉತ್ಪಾದಿಸಲಾಗಿಲ್ಲ."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "ಗುರಿಯ ಶ್ವೇತಬಿಂದುವನ್ನು ಪಡೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#~ msgid "Complete!"
+#~ msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್ ವಿಫಲಗೊಂಡಿದೆ!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "ನೀವು ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಸಾಧನವನ್ನು ತೆಗೆದುಹಾಕಬಹುದು."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಪ್ರಗತಿಯಲ್ಲಿರುವಾಗ ಸಾಧನವನ್ನು ಸ್ಥಳಾಂತರಿಸಬೇಡಿ"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "ಲ್ಯಾಪ್‌ಟಾಪ್ ತೆರೆ"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "ಒಳನಿರ್ಮಿತ ವೆಬ್‌-ಕ್ಯಾಮ್"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s ಪರದೆ"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s ಸ್ಕ್ಯಾನರ್"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s ಕ್ಯಾಮೆರಾ"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s ಮುದ್ರಕ"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s ವೆಬ್‌ಕ್ಯಾಮ್"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "%s ಗಾಗಿ ಬಣ್ಣದ ನಿರ್ವಹಣೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸು"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "%s ಗಾಗಿ ಬಣ್ಣದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ತೋರಿಸು"
+
+#~ msgid "Not calibrated"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡದಿರುವ"
+
+#~ msgid "Default: "
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "ವರ್ಣಸ್ಥಳ: "
+
+#~ msgid "Test profile: "
+#~ msgstr "ಪ್ರಾಯೋಗಿಕ ಪ್ರೊಫೈಲ್: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "ICC ಪ್ರೊಫೈಲ್ ಕಡತವನ್ನು ಆರಿಸು"
+
+#~ msgid "_Import"
+#~ msgstr "ಆಮದು ಮಾಡು (_I)"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "ಬೆಂಬಲಿಸಲಾಗುವ ICC ಪ್ರೊಫೈಲುಗಳು"
+
+#~ msgid "All files"
+#~ msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
+
+#~ msgid "Screen"
+#~ msgstr "ತೆರೆ"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "ಕಡತವನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ವಿಫಲತೆ: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಇಲ್ಲಿಗೆ ಅಪ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "ಈ URL ಅನ್ನು ಬರೆ."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "ಈ ಗಣಕವನ್ನು ಮರಳಿ ಆರಂಭಿಸು ಹಾಗು ನಿಮ್ಮ ಸಾಮಾನ್ಯ ಕಾರ್ಯಾಚರಣೆ ವ್ಯವಸ್ಥೆಯನ್ನು ಬೂಟ್ ಮಾಡಿ."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಮತ್ತು ಅನುಸ್ಥಾಪಿಸಲು ನಿಮ್ಮ ಜಾಲವೀಕ್ಷಕಕ್ಕೆ URL ಅನ್ನು "
+#~ "ನಮೂದಿಸಿ."
+
+#~ msgid "Save Profile"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ಉಳಿಸು"
+
+#~ msgid "_Save"
+#~ msgstr "ಉಳಿಸು (_S)"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನಕ್ಕಾಗಿ ಒಂದು ವರ್ಣ ಪ್ರೊಫೈಲನ್ನು ರಚಿಸು"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "ಅಳತೆ ಮಾಡುವ ಉಪಕರಣವನ್ನು ಪತ್ತೆ ಮಾಡಲಾಗಿಲ್ಲ. ದಯವಿಟ್ಟು ಅದನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ ಮತ್ತು "
+#~ "ಸರಿಯಾಗಿದೆಯೆ ಎಂದು ಪರೀಕ್ಷಿಸಿ."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "ಅಳೆಯುವ ಉಪಕರಣವು ಮುದ್ರಕ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "ಸಾಧನದ ಬಗೆಗೆ ಪ್ರಸಕ್ತ ಬೆಂಬಲವಿಲ್ಲ."
+
+#~ msgid "Standard Space"
+#~ msgstr "ಶಿಷ್ಟ ಅಂತರ"
+
+#~ msgid "Test Profile"
+#~ msgstr "ಪ್ರಾಯೋಗಿಕ ಪ್ರೊಫೈಲ್"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "ಕಳಪೆ ಗುಣಮಟ್ಟ"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "ಮಧ್ಯಮ ಗುಣಮಟ್ಟ"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "ಉತ್ತಮ ಗುಣಮಟ್ಟ"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಬೂದು"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "ಮಾರಾಟಗಾರನು ಫ್ಯಾಕ್ಟರಿ ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಡೇಟಾವನ್ನು ಒದಗಿಸಿದ್ದಾರೆ"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "ಈ ಪ್ರೊಫೈಲಿನಿಂದ ಪೂರ್ಣ-ತೆರೆ ಪ್ರದರ್ಶಕ ಸರಿಪಡಿಕೆಯು ಸಾಧ್ಯವಿಲ್ಲ"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "ಈ ಪ್ರೊಫೈಲ್ ಇನ್ನು ಮುಂದೆ ನಿಖರವಾಗಿರುವುದಿಲ್ಲ"
+
+#~ msgid "Display Calibration"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಅನ್ನು ತೋರಿಸು"
+
+#~ msgid "Start"
+#~ msgstr "ಆರಂಭ"
+
+#~ msgid "Resume"
+#~ msgstr "ಮರಳಿ ಆರಂಭಿಸು"
+
+#~ msgid "Done"
+#~ msgstr "ಆಯಿತು"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "ತೆರೆಯ ಕ್ಯಾಲಿಬ್ರೇಶನ್"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ನಿಂದಾಗಿ ನಿಮ್ಮ ತೆರೆಯ ಬಣ್ಣವನ್ನು ವ್ಯವಸ್ಥಾಪಿಸಲು ಅಗತ್ಯವಿರುವ ಪ್ರೊಫೈಲ್ ಒಂದು "
+#~ "ನಿಮಗೆ ದೊರೆಯುತ್ತದೆ. ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ಗಾಗಿ ಹೆಚ್ಚು ಹೊತ್ತು ವ್ಯಯಿಸಿದಷ್ಟೂ ಬಣ್ಣದ ಪ್ರೊಫೈಲ್‌ನ "
+#~ "ಗುಣಮಟ್ಟ ಉತ್ತಮಗೊಳ್ಳುತ್ತದೆ."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ ನಡೆಯುವಾಗ ನೀವು ನಿಮ್ಮ ಗಣಕವನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ."
+
+#~ msgid "Quality"
+#~ msgstr "ಗುಣಮಟ್ಟ"
+
+#~ msgid "Approximate Time"
+#~ msgstr "ಅಂದಾಜು ಸಮಯ"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಗುಣಮಟ್ಟ"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್‌ಗಾಗಿ ನೀವು ಬಳಸಲು ಬಯಸುವ ಸಂವೇದಿ (ಸೆನ್ಸರ್) ಸಾಧನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#~ msgid "Calibration Device"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಶನ್ ಸಾಧನ"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "ಸಂಪರ್ಕ ಜೋಡಿಸಲಾದ ಪ್ರದರ್ಶಕದ ಬಗೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#~ msgid "Display Type"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಬಗೆ"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "ಪ್ರದರ್ಶಕ ಗುರಿ ಶ್ವೇತ ಬಿಂದುವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ. ಹೆಚ್ಚಿನ ಪ್ರದರ್ಶಕಗಳನ್ನು ಒಂದು D65 "
+#~ "ಪ್ರಕಾಶತೆಗೆ ಸರಿಹೊಂದಿಸಬೇಕಾಗಿರುತ್ತದೆ."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "ಶ್ವೇತಬಿಂದು ಪ್ರೊಫೈಲ್"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "ಪ್ರದರ್ಶಕವನ್ನು ನಿಮಗೆ ಸಾಮಾನ್ಯವೆನಿಸುವ ಪ್ರಕಾಶತೆಗೆ ಹೊಂದಿಸಿ. ಈ ಪ್ರಕಾಶತೆಯ ಮಟ್ಟದಲ್ಲಿ ಬಣ್ಣ "
+#~ "ವ್ಯವಸ್ಥಾಪನೆಯು ಅತ್ಯಂತ ನಿಖರವಾಗಿರುತ್ತದೆ."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "ಪರ್ಯಾಯವಾಗಿ, ಈ ಸಾಧನಕ್ಕಾಗಿ ಬೇರೆ ಪ್ರೊಫೈಲ್‌ಗಳಲ್ಲಿ ಬಳಸಲಾದ ಪ್ರಕಾಶತೆಯ ಮಟ್ಟವನ್ನು ನೀವು "
+#~ "ಬಳಸಬಹುದು."
+
+#~ msgid "Display Brightness"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ಪ್ರಕಾಶತೆ"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "ನೀವು ಬಣ್ಣದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಬೇರೊಂದು ಗಣಕದಲ್ಲಿ, ಅಥವ ವಿವಿಧ ಬೆಳಕಿನ ಸ್ಥಿತಿಗಳಿಗಾಗಿನ "
+#~ "ಪ್ರೊಫೈಲ್ ಅನ್ನು ರಚಿಸಲು ಬಳಸಬಹುದು."
+
+#~ msgid "Profile Name:"
+#~ msgstr "ಪ್ರೊಫೈಲ್ ಹೆಸರು:"
+
+#~ msgid "Profile Name"
+#~ msgstr "ಪ್ರೊಫೈಲ್ ಹೆಸರು"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "ಪ್ರೊಫೈಲ್ ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ರಚಿಸಲಾಗಿದೆ!"
+
+#~ msgid "Copy profile"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ಪ್ರತಿ ಮಾಡು"
+
+#~ msgid "Requires writable media"
+#~ msgstr "ಬರೆಯಬಹುದಾದ ಮಾಧ್ಯಮದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "Upload profile"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡು"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "ಅಂತರಜಾಲ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "<a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a "
+#~ "href=\"windows\">Microsoft Windows</a> ವ್ಯವಸ್ಥೆಗಳಲ್ಲಿ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಹೇಗೆ "
+#~ "ಬಳಸುವುದು ಎಂದು ತಿಳಿಯಲು ಈ ವಿವರಗಳು ಉಪಯುಕ್ತವೆನಿಸುತ್ತದೆ."
+
+#~ msgid "Import File…"
+#~ msgstr "ಕಡತವನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಿ…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "ತೊಂದರೆಯು ಕಂಡುಬಂದಿದೆ. ಪ್ರೊಫೈಲ್ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ. <a href="
+#~ "\"\">ವಿವರಗಳನ್ನು ತೋರಿಸು.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "ಪ್ರತಿಯೊಂದು ಸಾಧನದಲ್ಲಿ ಬಣ್ಣವನ್ನು ನಿರ್ವಹಿಸಲು ಅದಕ್ಕೆ ಇತ್ತೀಚಿನ (ಅಪ್‌ ಟು ಡೇಟ್) ಬಣ್ಣ "
+#~ "ಪ್ರೊಫೈಲಿನ ಅಗತ್ಯವಿರುತ್ತದೆ."
+
+#~ msgid "Learn more"
+#~ msgstr "ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "ಬಣ್ಣದ ನಿರ್ವಹಣೆಯ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"
+
+#~ msgid "Set for all users"
+#~ msgstr "ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗೂ ಹೊಂದಿಸು"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "ಈ ಪ್ರೊಫೈಲನ್ನು ಈ ಗಣಕದಲ್ಲಿನ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಗಾಗಿ ಹೊಂದಿಸು"
+
+#~ msgid "Enable"
+#~ msgstr "ಸಕ್ರಿಯ"
+
+#~ msgid "Add profile"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Calibrate…"
+#~ msgstr "ಕ್ಯಾಲಿಬ್ರೇಟ್..."
+
+#~ msgid "Calibrate the device"
+#~ msgstr "ಸಾಧನವನ್ನು ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡು"
+
+#~ msgid "Remove profile"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ತೆಗೆದು ಹಾಕು"
+
+#~ msgid "View details"
+#~ msgstr "ವಿವರಗಳನ್ನು ನೋಡು"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "ಬಣ್ಣವನ್ನು ವ್ಯವಸ್ಥಾಪಿಸಲು ಯಾವುದೆ ಸಾಧನಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "ಪ್ರೊಜೆಕ್ಟರ್"
+
+#~ msgid "Plasma"
+#~ msgstr "ಪ್ಲಾಸ್ಮಾ"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL ಹಿಂಬೆಳಕು)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED ಹಿಂಬೆಳಕು)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (ಬಿಳಿಯ LED ಹಿಂಬೆಳಕು)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "ಅಗಲ ಗ್ಯಾಮುಟ್ LCD (CCFL ಹಿಂಬೆಳಕು)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "ಅಗಲ ಗ್ಯಾಮುಟ್ LCD (RGB LED ಹಿಂಬೆಳಕು)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 ನಿಮಿಷಗಳು"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "ಮಧ್ಯಮ"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 ನಿಮಿಷಗಳು"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "ಕೆಳ ಮಟ್ಟದ"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 ನಿಮಿಷಗಳು"
+
+#~ msgid "Native to display"
+#~ msgstr "ತೋರಿಸಬೇಕಿರುವ ನೇಟೀವ್"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (ಮುದ್ರಣ ಮತ್ತು ಪ್ರಕಟಣೆ)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (ಫೊಟೊಗ್ರಾಫಿ ಮತ್ತು ಗ್ರಾಫಿಕ್ಸ್)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Color"
+#~ msgstr "ಬಣ್ಣ"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಸಾಧನಗಳು, ಪ್ರದರ್ಶಕಗಳು, ಕ್ಯಾಮೆರಾಗಳು ಅಥವ ಮುದ್ರಕಗಳ ಬಣ್ನವನ್ನು ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡು"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "ಬಣ್ಣ;ICC;ಪ್ರೊಫೈಲ್;ಕ್ಯಾಲಿಬ್ರೇಟ್;ಮುದ್ರಕ;ಪ್ರದರ್ಶಕ;"
+
+#~ msgid "Other…"
+#~ msgstr "ಇತರೆ…"
+
+#~ msgid "More…"
+#~ msgstr "ಇನ್ನಷ್ಟು …"
+
+#~ msgid "No languages found"
+#~ msgstr "ಯಾವುದೆ ಭಾಷೆಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "Language"
+#~ msgstr "ಭಾಷೆ"
+
+#~ msgid "_Done"
+#~ msgstr "ಆಯಿತು (_D)"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "ಜನವರಿ"
+
+#~ msgid "February"
+#~ msgstr "ಫೆಬ್ರವರಿ"
+
+#~ msgid "March"
+#~ msgstr "ಮಾರ್ಚ್"
+
+#~ msgid "April"
+#~ msgstr "ಏಪ್ರಿಲ್"
+
+#~ msgid "May"
+#~ msgstr "ಮೇ"
+
+#~ msgid "June"
+#~ msgstr "ಜೂನ್"
+
+#~ msgid "July"
+#~ msgstr "ಜುಲೈ"
+
+#~ msgid "August"
+#~ msgstr "ಆಗಸ್ಟ್‍"
+
+#~ msgid "September"
+#~ msgstr "ಸಪ್ಟೆಂಬರ್"
+
+#~ msgid "October"
+#~ msgstr "ಅಕ್ಟೋಬರ್"
+
+#~ msgid "November"
+#~ msgstr "ನವೆಂಬರ್"
+
+#~ msgid "December"
+#~ msgstr "ಡಿಸೆಂಬರ್"
+
+#~ msgid "Date & Time"
+#~ msgstr "ದಿನಾಂಕ ಮತ್ತು ಸಮಯ"
+
+#~ msgid "Hour"
+#~ msgstr "ಗಂಟೆ"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "ನಿಮಿಷ"
+
+#~ msgid "Day"
+#~ msgstr "ದಿನ"
+
+#~ msgid "Month"
+#~ msgstr "ತಿಂಗಳು"
+
+#~ msgid "Year"
+#~ msgstr "ವರ್ಷ"
+
+#~ msgid "Time Zone"
+#~ msgstr "ಕಾಲ ವಲಯ"
+
+#~ msgid "Search for a city"
+#~ msgstr "ಊರಿಗಾಗಿ ಹುಡುಕು"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ದಿನಾಂಕ ಮತ್ತು ಸಮಯ (_D)"
+
+#~ msgid "Requires internet access"
+#~ msgstr "ಅಂತರಜಾಲ ನಿಲುಕಿನ ಅಗತ್ಯವಿರುತ್ತದೆ"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ಕಾಲ ವಲಯ (_Z)"
+
+#~ msgid "Date & _Time"
+#~ msgstr "ದಿನಾಂಕ ಮತ್ತು ಸಮಯ (_T)"
+
+#~ msgid "Time _Zone"
+#~ msgstr "ಕಾಲ ವಲಯ (_Z)"
+
+#~ msgid "Time _Format"
+#~ msgstr "ಸಮಯದ ಶೈಲಿಗಳು (_F)"
+
+#~ msgid "24-hour"
+#~ msgstr "24-ಗಂಟೆ"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "ಕಾಲವಲಯವೂ ಸೇರಿದಂತೆ ದಿನಾಂಕ ಮತ್ತು ಸಮಯವನ್ನು ಬದಲಾಯಿಸು"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "ಗಡಿಯಾರ;ಕಾಲವಲಯ;ಸ್ಥಳ;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "ನಿಮ್ಮ ಪ್ರದೇಶ ಹಾಗೆ ಭಾಷೆಯ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "ಸಮಯ ಅಥವ ದಿನಾಂಕದ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸಲು, ನೀವು ದೃಢೀಕರಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#~ msgid "Lid Closed"
+#~ msgstr "ಮುಚ್ಚುಳ ಮುಚ್ಚಿದೆ"
+
+#~ msgid "Mirrored"
+#~ msgstr "ಪ್ರತಿಬಿಂಬಿತ"
+
+#~ msgid "Primary"
+#~ msgstr "ಪ್ರಾಥಮಿಕ"
+
+#~ msgid "Off"
+#~ msgstr "ಆಫ್"
+
+#~ msgid "Secondary"
+#~ msgstr "ದ್ವಿತೀಯ"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "ಸಂಯೋಜಿತ ಪ್ರದರ್ಶಕಗಳನ್ನು ಜೋಡಿಸು"
+
+#~ msgid "_Apply"
+#~ msgstr "ಅನ್ವಯಿಸು (_A)"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "ಪ್ರದರ್ಶಕಗಳನ್ನು ಮರಳಿಹೊಂದಿಸಲು ಎಳೆದುಸೇರಿಸಿ"
+
+#~ msgid "Size"
+#~ msgstr "ಗಾತ್ರ"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "ಆಕಾರ ಅನುಪಾತ"
+
+#~ msgid "Resolution"
+#~ msgstr "ರೆಸಲ್ಯೂಶನ್"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "ಮೇಲಿನ ಪಟ್ಟಿ ಮತ್ತು ಚಟುವಟಿಕೆ ಅವಲೋಕಗಳನ್ನು ಈ ಪ್ರದರ್ಶಕದಲ್ಲಿ ತೋರಿಸು"
+
+#~ msgid "Secondary Display"
+#~ msgstr "ಎರಡನೆಯ ಪ್ರದರ್ಶಕ"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "ಒಂದು ಹೆಚ್ಚುವರಿ ಕಾರ್ಯಸ್ಥಳವನ್ನು ರಚಿಸಲು ಈ ಪ್ರದರ್ಶಕವನ್ನು ಇನ್ನೊಂದಕ್ಕೆ ಜೋಡಿಸು"
+
+#~ msgid "Presentation"
+#~ msgstr "ಪ್ರಸ್ತುತಿ"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "ಸ್ಲೈಡ್‌ಶೋಗಳನ್ನು ಮತ್ತು ಮಾಧ್ಯಮವನ್ನು ಮಾತ್ರ ತೋರಿಸು"
+
+#~ msgid "Mirror"
+#~ msgstr "ಬಿಂಬ"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "ಎರಡೂ ಪ್ರದರ್ಶಕಗಳಲ್ಲಿ ನಿಮ್ಮ ಈಗಿನ ನೋಟವನ್ನು ತೋರಿಸಿ"
+
+#~ msgid "Turn Off"
+#~ msgstr "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು"
+
+#~ msgid "Don't use this display"
+#~ msgstr "ಈ ಪ್ರದರ್ಶಕವನ್ನು ಬಳಸಬೇಡ"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "ಸಂಯೋಜಿತತ ಪ್ರದರ್ಶಕಗಳನ್ನು ಜೋಡಿಸು (_A)"
+
+#~ msgid "Displays"
+#~ msgstr "ಪ್ರದರ್ಶಕಗಳು"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr ""
+#~ "ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾದ ಮಾನಿಟರುಗಳ ಹಾಗು ಪ್ರೊಜೆಕ್ಟರುಗಳನ್ನು ಹೇಗೆ ಬಳಸಬೇಕು ಎನ್ನುವುದನ್ನು "
+#~ "ಆರಿಸಿ"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "ಪ್ಯಾನಲ್;ಪ್ರೊಜೆಕ್ಟರ್;xrandr;ತೆರೆ;ರೆಸಲ್ಯೂಶನ್;ಪುನಶ್ಚೇತನ;ಪರದೆ;"
+
+#~ msgid "Wayland"
+#~ msgstr "ವೇಲ್ಯಾಂಡ್"
+
+#~ msgid "Unknown"
+#~ msgstr "ಗೊತ್ತಿರದ"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-ಬಿಟ್"
+
+#~ msgid "Ask what to do"
+#~ msgstr "ಏನು ಮಾಡಬೇಕು ಎಂದು ಕೇಳು"
+
+#~ msgid "Do nothing"
+#~ msgstr "ಏನೂ ಮಾಡಬೇಡ"
+
+#~ msgid "Open folder"
+#~ msgstr "ಕಡತಕೋಶವನ್ನು ತೆರೆ"
+
+#~ msgid "Other Media"
+#~ msgstr "ಇತರೆ ಮಾಧ್ಯಮ"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "ಆಡಿಯೊ CD ಗಳಿಗಾಗಿ ಒಂದು ಅನ್ವಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "ವೀಡಿಯೊ DVD ಗಳಿಗಾಗಿ ಒಂದು ಅನ್ವಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "ಸಂಗೀತದ ಪ್ಲೇಯರನ್ನು ಜೋಡಿಸಿದಾಗ ಚಲಾಯಿಸಲು ಒಂದು ಅನ್ವಯವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "ಕ್ಯಾಮೆರವನ್ನು ಜೋಡಿಸಿದಾಗ ಚಲಾಯಿಸಲು ಒಂದು ಅನ್ವಯವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "ತಂತ್ರಾಂಶ CD ಗಳಿಗಾಗಿ ಒಂದು ಅನ್ವಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "audio DVD"
+#~ msgstr "audio DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "ಖಾಲಿ ಬ್ಲೂ-ರೇ ಡಿಸ್ಕ್"
+
+#~ msgid "blank CD disc"
+#~ msgstr "ಖಾಲಿ CD ಡಿಸ್ಕ್"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "ಖಾಲಿ DVD ಡಿಸ್ಕ್"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "ಖಾಲಿ HD DVD ಡಿಸ್ಕ್"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "ಬ್ಲೂ-ರೇ ವೀಡಿಯೊ ಡಿಸ್ಕ್"
+
+#~ msgid "e-book reader"
+#~ msgstr "ಇ-ಪುಸ್ತಕ ಓದುಗ"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD ವಿಡಿಯೋ ಡಿಸ್ಕ್ "
+
+#~ msgid "Picture CD"
+#~ msgstr "ಚಿತ್ರ CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "ಸೂಪರ ವೀಡಿಯೊ CD"
+
+#~ msgid "Video CD"
+#~ msgstr "ವೀಡಿಯೊ CD"
+
+#~ msgid "Windows software"
+#~ msgstr "ಕಿಟಕಿ ಅಂಚು"
+
+#~ msgid "Section"
+#~ msgstr "ವಿಭಾಗ"
+
+#~ msgid "Overview"
+#~ msgstr "ಅವಲೋಕನ"
+
+#~ msgid "Default Applications"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಅನ್ವಯಗಳು"
+
+#~ msgid "Removable Media"
+#~ msgstr "ತೆಗೆಯಬಹುದಾದ ಮಾಧ್ಯಮ"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "ಆವೃತ್ತಿ %s"
+
+#~ msgid "Details"
+#~ msgstr "ವಿವರಗಳು"
+
+#~ msgid "View information about your system"
+#~ msgstr "ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ನೋಡಿ"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "ಸಾಧನ;ವ್ಯವಸ್ಥೆ;ಮಾಹಿತಿ;ಮೆಮೊರಿ;ಸಂಸ್ಕಾರಕ;ಆವೃತ್ತಿ;ಪೂರ್ವನಿಯೋಜಿತ;ಅನ್ವಯ;ಇಚ್ಛೆಯ;cd;dvd;"
+#~ "usb;ಆಡಿಯೊ;ವೀಡಿಯೊ;ಡಿಸ್ಕ್‍;ತೆಗೆಯಬಹುದಾದ;ಮಾಧ್ಯಮ;ಸ್ವಯಂಚಾಲನೆ;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "ಬೇರೆ ಮಾಧ್ಯಮವನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "_Action:"
+#~ msgstr "ಕ್ರಿಯೆ (_A):"
+
+#~ msgid "_Type:"
+#~ msgstr "ಬಗೆ (_T):"
+
+#~ msgid "Device name"
+#~ msgstr "ಸಾಧನದ ಹೆಸರು"
+
+#~ msgid "Memory"
+#~ msgstr "ಮೆಮೊರಿ"
+
+#~ msgid "Processor"
+#~ msgstr "ಸಂಸ್ಕಾರಕ"
+
+#~ msgid "Base system"
+#~ msgstr "ಮೂಲ ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Disk"
+#~ msgstr "ಡಿಸ್ಕ್‍"
+
+#~ msgid "Calculating…"
+#~ msgstr "ಲೆಕ್ಕಹಾಕಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "Graphics"
+#~ msgstr "ಗ್ರಾಫಿಕ್ಸ್‍"
+
+#~ msgid "Virtualization"
+#~ msgstr "ವರ್ಚುವಲೈಸೇಶನ್"
+
+#~ msgid "Check for updates"
+#~ msgstr "ಅಪ್‌ಡೇಟ್‌ಗಳಿಗಾಗಿ ಪರೀಕ್ಷಿಸು"
+
+#~ msgid "_Web"
+#~ msgstr "ಜಾಲ (_W)"
+
+#~ msgid "_Mail"
+#~ msgstr "ಮೈಲ್ (_M)"
+
+#~ msgid "_Calendar"
+#~ msgstr "ಕ್ಯಾಲೆಂಡರ್ (_C)"
+
+#~ msgid "M_usic"
+#~ msgstr "ಸಂಗೀತ (_u)"
+
+#~ msgid "_Video"
+#~ msgstr "ವೀಡಿಯೊ (_V)"
+
+#~ msgid "_Photos"
+#~ msgstr "ಫೋಟೊಗಳು (_P)"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "ಮಾಧ್ಯಮವನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಬೇಕೆಂದು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD ಆಡಿಯೊ  (_a)"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD ವೀಡಿಯೊ"
+
+#~ msgid "_Music player"
+#~ msgstr "ಸಂಗೀತ ಚಾಲಕ (_M)"
+
+#~ msgid "_Software"
+#~ msgstr "ತಂತ್ರಾಂಶ (_S)"
+
+#~ msgid "_Other Media…"
+#~ msgstr "ಇತರೆ ಮಾಧ್ಯಮ (_O)…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "ಮಾಧ್ಯಮವನ್ನು ತೂರಿಸಿದಾಗ ಕೇಳಬೇಡ ಅಥವ ಪ್ರೊಗ್ರಾಮ್ ಅನ್ನು ಆರಂಭಿಸಬೇಡ (_N)"
+
+#~ msgid "Sound and Media"
+#~ msgstr "ಧ್ವನಿ ಹಾಗು ಮಾಧ್ಯಮ"
+
+#~ msgid "Volume mute"
+#~ msgstr "ಧ್ವನಿ ಮೂಕ"
+
+#~ msgid "Volume down"
+#~ msgstr "ಧ್ವನಿ ಕಡಿಮೆ"
+
+#~ msgid "Volume up"
+#~ msgstr "ಧ್ವನಿ ಹೆಚ್ಚು"
+
+#~ msgid "Launch media player"
+#~ msgstr "ಮೀಡಿಯಾ ಪ್ಲೇಯರ್ ಅನ್ನು ಆರಂಭಿಸು"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "ಚಲಾಯಿಸು (ಅಥವ ಚಲಾಯಿಸು/ವಿರಮಿಸು)"
+
+#~ msgid "Pause playback"
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕ್‌ ಅನ್ನು ವಿರಮಿಸು"
+
+#~ msgid "Stop playback"
+#~ msgstr "ಪ್ಲೇಬ್ಯಾಕ್‌ ಅನ್ನು ನಿಲ್ಲಿಸು"
+
+#~ msgid "Previous track"
+#~ msgstr "ಹಿಂದಿನ ಹಾಡು"
+
+#~ msgid "Next track"
+#~ msgstr "ಮುಂದಿನ ಹಾಡು"
+
+#~ msgid "Eject"
+#~ msgstr "ಹೊರತಳ್ಳು"
+
+#~ msgid "Typing"
+#~ msgstr "ಟೈಪಿಂಗ್"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "ಮುಂದಿನ ಇನ್‌ಪುಟ್ ಆಕರವನ್ನು ಬದಲಿಸು"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "ಹಿಂದಿನ ಇನ್‌ಪುಟ್ ಆಕರವನ್ನು ಬದಲಿಸು"
+
+#~ msgid "Launchers"
+#~ msgstr "ಆರಂಭಕಗಳು"
+
+#~ msgid "Launch help browser"
+#~ msgstr "ನೆರವಿನ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgid "Settings"
+#~ msgstr "ಸಿದ್ಧತೆಗಳು"
+
+#~ msgid "Launch calculator"
+#~ msgstr "ಕ್ಯಾಲ್ಕುಲೇಟರ್ ಅನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgid "Launch email client"
+#~ msgstr "ಇಮೈಲ್ ಕ್ಲೈಂಟ್ ಅನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgid "Launch web browser"
+#~ msgstr "ಜಾಲ ವೀಕ್ಷಕವನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgid "Home folder"
+#~ msgstr "ನೆಲೆ ಕಡತಕೋಶ"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "ಹುಡುಕು"
+
+#~ msgid "Screenshots"
+#~ msgstr "ತೆರೆಚಿತ್ರಗಳು"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "ಒಂದು ತೆರೆಚಿತ್ರವನ್ನು $PICTURES ಎಂಬಲ್ಲಿ ಉಳಿಸು"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "ಕಿಟಕಿಯ ತೆರೆಚಿತ್ರವನ್ನು  $PICTURES ಎಂಬಲ್ಲಿ ಉಳಿಸು"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "ಒಂದು ಸ್ಥಳದ ತೆರೆಚಿತ್ರವನ್ನು $PICTURES ಎಂಬಲ್ಲಿ ಉಳಿಸು"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "ತೆರೆಚಿತ್ರವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ಪ್ರತಿ ಮಾಡು"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "ಕಿಟಕಿಯ ತೆರೆಚಿತ್ರವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ಪ್ರತಿ ಮಾಡು"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "ಒಂದು ಜಾಗದ ತೆರೆಚಿತ್ರವನ್ನು ಕ್ಲಿಪ್‌ಬೋರ್ಡಿಗೆ ಪ್ರತಿ ಮಾಡು"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "ಒಂದು ಸಣ್ಣ ಸ್ಕ್ರೀನ್‌ಕ್ಯಾಸ್ಟ್‌ ಅನ್ನು ರೆಕಾರ್ಡ್ ಮಾಡು"
+
+#~ msgid "System"
+#~ msgstr "ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Log out"
+#~ msgstr "ಹೊರಗೆ ನಡೆ"
+
+#~ msgid "Lock screen"
+#~ msgstr "ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡಿ"
+
+#~ msgid "Universal Access"
+#~ msgstr "ಜಾಗತಿಕ ನಿಲುಕಣೆ"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "ಹಿಗ್ಗಿಸುವಿಕೆಯನ್ನು ಆನ್ ಅಥವ ಆಫ್ ಮಾಡು"
+
+#~ msgid "Zoom in"
+#~ msgstr "ಹಿಗ್ಗಿಸು"
+
+#~ msgid "Zoom out"
+#~ msgstr "ಕುಗ್ಗಿಸು"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "ತೆರೆಓದುಗನನ್ನು ಆನ್ ಅಥವ ಆಫ್ ಮಾಡಿ"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "ತೆರೆ ಕೀಲಿಮಣೆಯನ್ನು ಆನ್ ಅಥವ ಆಫ್ ಮಾಡಿ"
+
+#~ msgid "Increase text size"
+#~ msgstr "ಪಠ್ಯದ ಗಾತ್ರವನ್ನು ಹೆಚ್ಚಿಸು"
+
+#~ msgid "Decrease text size"
+#~ msgstr "ಪಠ್ಯದ ಗಾತ್ರವನ್ನು ಕುಗ್ಗಿಸು"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "ಅತ್ಯಂತ ವೈದೃಶ್ಯ ಆನ್ ಅಥವ ಆಫ್"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "ಪರ್ಯಾಯ ಅಕ್ಷರಗಳ ಕೀಲಿ"
+
+#~ msgid "Compose Key"
+#~ msgstr "ಕಂಪೋಸ್ ಕೀಲಿ"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "ಮಾರ್ಪಡಕ-ಕೇವಲ ಮುಂದಿನ ಆಕರಕ್ಕೆ ಬದಲಾಯಿಸು"
+
+#~ msgid "Keyboard"
+#~ msgstr "ಕೀಲಿಮಣೆ"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "ಕೀಲಿಮಣೆ ಸುಲಭಆಯ್ಕೆಗಳನ್ನು ನೋಡು ಹಾಗೂ ಬದಲಾಯಿಸು ಮತ್ತು ನಿಮ್ಮ ಟೈಪಿಂಗ್ ಆದ್ಯತೆಗಳನ್ನು "
+#~ "ಹೊಂದಿಸು"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "ಶಾರ್ಟ್-ಕಟ್;ಪುನರಾವರ್ತನೆ;ಮಿಟುಕಿಸು;"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್"
+
+#~ msgid "_Name:"
+#~ msgstr "ಹೆಸರು (_N):"
+
+#~ msgid "C_ommand:"
+#~ msgstr "ಆಜ್ಞೆ (_o):"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "ಪುನರಾವರ್ತನಾ ಕೀಲಿಗಳು"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "ಕೀಲಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿದಾಗ ಕೀಲಿಗಳ ಒತ್ತುವಿಕೆಯನ್ನು ಪುನರಾವರ್ತಿಸು (_r)"
+
+#~ msgid "_Delay:"
+#~ msgstr "ವಿಳಂಬ (_D):"
+
+#~ msgid "_Speed:"
+#~ msgstr "ವೇಗ (_S):"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "ಪುನರಾವರ್ತನೆಯ ಕೀಲಿಗಳ ವೇಗ"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವಿಕೆ"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "ತೆರೆಸೂಚಕವು ಪಠ್ಯ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮಿನುಗುತ್ತದೆ (_b)"
+
+#~ msgid "S_peed:"
+#~ msgstr "ವೇಗ (_p):"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವ ವೇಗ"
+
+#~ msgid "Input Sources"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಆಕರಗಳು"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "ಸುಲಭಆಯ್ಕೆಯನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "ಸುಲಭಆಯ್ಕೆಯನ್ನು ತೆಗೆದುಹಾಕು"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "ಒಂದು ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಯನ್ನು ಸಂಪಾದಿಸಲು, ಸಾಲಿನಲ್ಲಿ ಕ್ಲಿಕ್ಕಿಸಿ ಹಾಗು ಹೊಸ ಕೀಲಿಗಳನ್ನು "
+#~ "ಒತ್ತಿಹಿಡಿಯಿರಿ ಅಥವ ಅಳಿಸಲು ಬ್ಯಾಕ್‍ಸ್ಪೇಸನ್ನು ಒತ್ತಿ."
+
+#~ msgid "Shortcuts"
+#~ msgstr "ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<ಗೊತ್ತಿರದ ಕ್ರಿಯೆ>"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "ಶಾರ್ಟ್-ಕಟ್ \"%s\" ಅನ್ನು ಬಳಸಲಾಗುವುದಿಲ್ಲ ಏಕೆಂದರೆ ಈ ಕೀಲಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಇದನ್ನು ಟೈಪ್ "
+#~ "ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.\n"
+#~ "ದಯವಿಟ್ಟು ಒಂದೆ ಸಮಯದಲ್ಲಿ Control, Alt ಅಥವ Shift ನಂತಹ ಕೀಲಿಯನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" ಶಾರ್ಟ್-ಕಟ್ ಅನ್ನು ಇದಕ್ಕಾಗಿ ಈಗಾಗಲೆ ಬಳಸಲಾಗಿದೆ\n"
+#~ "\"%s\""
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "ಶಾರ್ಟ್-ಕಟ್‌ ಅನ್ನು \"%s\" ಗೆ ನಿಯೋಜಿಸಿದಲ್ಲಿ, \"%s\" ಶಾರ್ಟ್-ಕಟ್‌ ಅಶಕ್ತಗೊಳ್ಳುತ್ತದೆ."
+
+#~ msgid "_Reassign"
+#~ msgstr "ಮರಳಿ ನಿಯೋಜಿಸು (_R)"
+
+#, c-format
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "\"%s\" ಸಮೀಪಮಾರ್ಗವು ಒಂದು ಸಂಬಂಧಿಸಿದ \"%s\" ಸಮೀಪಮಾರ್ಗವನ್ನು ಹೊಂದಿದೆ. ನೀವು ಇದನ್ನು "
+#~ "\"%s\" ಗೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊಂದಿಸಲು ಬಯಸುವಿರಾ?"
+
+#, c-format
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" ಎನ್ನುವುದು ಪ್ರಸಕ್ತ \"%s\" ಎನ್ನುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದೆ, ನೀವು ಮುಂದಕ್ಕೆ ಹೋದಲ್ಲಿ ಈ "
+#~ "ಸಮೀಪಮಾರ್ಗವನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗುತ್ತದೆ."
+
+#~ msgid "_Assign"
+#~ msgstr "ನಿಯೋಜಿಸು (_A)"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "ನಿಮ್ಮ ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ (_S)"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "ನಿಮ್ಮ ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಿ"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "ಮೌಸ್‌ ಹಾಗು ಟಚ್‌ಪ್ಯಾಡ್"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಮೌಸ್‌ ಅಥವ ಟಚ್‌ಪ್ಯಾಡ್ ಸಂವೇದಶೀಲನೆ  ಅನ್ನು ಬದಲಾಯಿಸಿ ಮತ್ತು ಬಲ ಅಥವ ಎಡ-ಕೈ ಅನ್ನು ಆಯ್ಕೆ "
+#~ "ಮಾಡಿ"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "ಟ್ರ್ಯಾಕ್‌ಪ್ಯಾಡ್;ಸೂಚಕ;ಕ್ಲಿಕ್;ಟ್ಯಾಪ್;ಜೋಡಿ;ಗುಂಡಿ;ಟ್ರ್ಯಾಕ್‌ಬಾಲ್;ಸ್ಕ್ರಾಲ್;"
+
+#~ msgid "General"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "ಎರಡು-ಬಾರಿ ಕ್ಲಿಕ್ಕಿಸುವ ಕಾಲಾವಧಿ ಮೀರಿಕೆ"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "_Double-click"
+#~ msgstr "ಜೋಡಿ ಕ್ಲಿಕ್ (_D)"
+
+#~ msgid "Primary _button"
+#~ msgstr "ಪ್ರಾಥಮಿಕ ಗುಂಡಿ (_b)"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "ಎಡ (_L)"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "ಬಲ (_R)"
+
+#~ msgid "Mouse"
+#~ msgstr "ಮೌಸ್"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "ಸೂಚಕದ ವೇಗ (_P)"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "Touchpad"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡ್"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "ಟೈಪಿಸುವಾಗ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು (_t)"
+
+#~ msgid "Tap to _click"
+#~ msgstr "ಕ್ಲಿಕ್ ಮಾಡಲು ಟ್ಯಾಪ್ ಮಾಡಿ (_c)"
+
+#~ msgid "Two _finger scroll"
+#~ msgstr "ಎರಡು ಬೆರಳಿನ ಚಲನೆ (_f)"
+
+#~ msgid "_Natural scrolling"
+#~ msgstr "ಸಾಮಾನ್ಯವೇಗದ ಸ್ಕ್ರಾಲಿಂಗ್ (_N)"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "ಕ್ಲಿಕ್ ಮಾಡಲು, ಎರಡುಬಾರಿ ಕ್ಲಿಕ್ ಮಾಡಲು, ಚಲಾಯಿಸಲು ಪ್ರಯತ್ನಿಸಿ"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "ಐದು ಕ್ಲಿಕ್‌ಗಳು, GEGL ಸಮಯ!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "ಎರಡು-ಬಾರಿಯ ಕ್ಲಿಕ್, ಪ್ರಾಥಮಿಕ ಗುಂಡಿ"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "ಒಂದೇ ಕ್ಲಿಕ್, ಪ್ರಾಥಮಿಕ ಗುಂಡಿ"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "ಎರಡು-ಬಾರಿಯ ಕ್ಲಿಕ್, ಮಧ್ಯದ ಗುಂಡಿ"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "ಒಂದೇ ಕ್ಲಿಕ್, ಪ್ರಾಥಮಿಕ ಗುಂಡಿ"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "ಎರಡು-ಬಾರಿಯ ಕ್ಲಿಕ್, ಎರಡನೆಯ ಗುಂಡಿ"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "ಒಂದೇ ಕ್ಲಿಕ್, ಎರಡನೆಯ ಗುಂಡಿ"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "ವಿಮಾನದ ಸ್ಥಿತಿ (_p)"
+
+#~ msgid "Network proxy"
+#~ msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "ವ್ಯವಸ್ಥೆಯ ಜಾಲಬಂಧ ಸೇವೆಗಳು ಈ ಆವೃತ್ತಿಯೊಂದಿಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x ಸುರಕ್ಷತೆ (_S)"
+
+#~ msgid "page 1"
+#~ msgstr "ಪುಟ 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "ಅಜ್ಞಾತ ಗುರುತು (_m)"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "ಆಂತರಿಕ ದೃಢೀಕರಣ (_U)"
+
+#~ msgid "page 2"
+#~ msgstr "ಪುಟ 2"
+
+#~ msgid "Security"
+#~ msgstr "ಸುರಕ್ಷತೆ"
+
+#~ msgid "automatic"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "ಎಂಟರ್ಪ್ರೈಸ್"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgid "Never"
+#~ msgstr "ಎಂದೂ ಬೇಡ"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i ದಿನದ ಹಿಂದೆ"
+#~ msgstr[1] "%i ದಿನಗಳ ಹಿಂದೆ"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "ದುರ್ಬಲ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "ಸರಿ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "ಅತ್ಯುತ್ತಮ"
+
+#~ msgid "Identity"
+#~ msgstr "ಗುರುತು"
+
+#~ msgid "Address"
+#~ msgstr "ವಿಳಾಸ"
+
+#~ msgid "Netmask"
+#~ msgstr "ನೆಟ್‌ಮಾಸ್ಕ್‍"
+
+#~ msgid "Gateway"
+#~ msgstr "ಗೇಟ್‌ವೇ"
+
+#~ msgid "Delete Address"
+#~ msgstr "ವಿಳಾಸವನ್ನು ಅಳಿಸು"
+
+#~ msgid "Add"
+#~ msgstr "ಸೇರಿಸು"
+
+#~ msgid "Server"
+#~ msgstr "ಪೂರೈಕೆಗಣಕ"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "DNS ಸಾಧನವನ್ನು ಅಳಿಸು"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "ಮೆಟ್ರಿಕ್"
+
+#~ msgid "Delete Route"
+#~ msgstr "ರೌಟ್ ಅನ್ನು ಅಳಿಸು"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "ಕೈಯಾರೆ"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "ಸ್ಥಳೀಯ-ಕೊಂಡಿ ಮಾತ್ರ"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "ಪ್ರಿಫಿಕ್ಸ್‍"
+
+#~ msgid "Automatic"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ, DHCP ಮಾತ್ರ"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "ಮರುಹೊಂದಿಸು"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-ಬಿಟ್ ಕೀಲಿ (ಹೆಕ್ಸ್‍ ಅಥವ ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-ಬಿಟ್‌ ಗುಪ್ತವಾಕ್ಯಾಂಶ"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "ಡೈನಮಿಕ್ WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 ಪರ್ಸನಲ್"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 ಎಂಟರ್ಪ್ರೈಸ್"
+
+#~ msgid "Signal Strength"
+#~ msgstr "ಸಿಗ್ನಲ್‌ನ ಸಾಮರ್ಥ್ಯ"
+
+#~ msgid "Link speed"
+#~ msgstr "ಕೊಂಡಿಯ ವೇಗ"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 ವಿಳಾಸ"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 ವಿಳಾಸ"
+
+#~ msgid "Hardware Address"
+#~ msgstr "ಯಂತ್ರಾಂಶ ವಿಳಾಸ"
+
+#~ msgid "Default Route"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ರೌಟ್"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "ಕೊನೆಯ ಬಾರಿಗೆ ಬಳಸಿದ್ದು"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "ಟ್ವಿಸ್ಟೆಡ್ ಪೇರ್ (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "ಅಟ್ಯಾಚ್‌ಮೆಂಟ್ ಯುನಿಟ್ ಇಂಟರ್ಫೇಸ್ (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "ಮೀಡಿಯಾ ಇಂಡಿಪೆಂಡೆಂಟ್ ಇಂಟರ್ಫೇಸ್ (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "ಹೆಸರು (_N)"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC ವಿಳಾಸ"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "ತದ್ರೂಪುಗೊಳಿಸಿದ ವಿಳಾಸ (_C)"
+
+#~ msgid "bytes"
+#~ msgstr "ಬೈಟ್‌ಗಳು"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "ಇತರೆ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಮಾಡು (_u)"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕಸಾಧಿಸು (_a)"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "ಫೈರ್ವಾಲ್ ವಲಯ (_Z)"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "ವಲಯವು ಸಂಪರ್ಕದ ನಂಬಿಕೆಯ ಮಟ್ಟವನ್ನು ವಿವರಿಸುತ್ತದೆ"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "ವಿಳಾಸ (_A)"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ DNS"
+
+#~ msgid "Routes"
+#~ msgstr "ರೌಟ್‌ಗಳು"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ರೌಟ್‌ಗಳು"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "ಅದರ ಜಾಲಬಂಧದಲ್ಲಿರುವ ಸಂಪನ್ಮೂಲಗಳಿಗಾಗಿ ಮಾತ್ರ ಈ ಸಂಪರ್ಕವನ್ನು ಬಳಸು (_o)"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "ಸಂಪರ್ಕ ಸಂಪಾದಕವನ್ನು ತೆರೆಯಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "New Profile"
+#~ msgstr "ಹೊಸ ಪ್ರೊಫೈಲ್"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Bond"
+#~ msgstr "ಬಾಂಡ್"
+
+#~ msgid "Team"
+#~ msgstr "ಟೀಮ್"
+
+#~ msgid "Bridge"
+#~ msgstr "ಬ್ರಿಜ್"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "VPN ಪ್ಲಗ್‌ಇನ್‌ಗಳನ್ನು ಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ"
+
+#~ msgid "Import from file…"
+#~ msgstr "ಕಡತದಿಂದ ಆಮದು ಮಾಡು..."
+
+#~ msgid "Add Network Connection"
+#~ msgstr "ಜಾಲಬಂಧ ಸಂಪರ್ಕವನ್ನು ಸೇರಿಸು"
+
+#~ msgid "_Reset"
+#~ msgstr "ಮರಳಿ ಅಣಿಗೊಳಿಸು (_R)"
+
+#~ msgid "_Forget"
+#~ msgstr "ಮರೆತುಬಿಡು (_F)"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "ಈ ಜಾಲಬಂಧಕ್ಕಾಗಿನ ಗುಪ್ತಪದಗಳನ್ನೂ ಸೇರಿದಂತೆ ಸಿದ್ಧತೆಗಳನ್ನು ಮರುಹೊಂದಿಸು, ಆದರೆ ಇದನ್ನು "
+#~ "ಆದ್ಯತೆಯ ಜಾಲಬಂಧ ಎಂದು ನೆನಪಿಟ್ಟುಕೊ"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "ಈ ಜಾಲಬಂಧಕ್ಕೆ ಸಂಬಂಧಿಸದ ಎಲ್ಲಾ ವಿವರಗಳನ್ನು ತೆಗೆದುಹಾಕು ಮತ್ತು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕ "
+#~ "ಸಾಧಿಸಲು ಪ್ರಯತ್ನಿಸಬೇಡ"
+
+#~ msgid "S_ecurity"
+#~ msgstr "ಸುರಕ್ಷತೆ (_e)"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "VPN ಸಂಪರ್ಕವನ್ನು ಆಮದು ಮಾಡಲಾಗಿಲ್ಲ"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "'%s' ಕಡತವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ ಅಥವ ಗುರುತಿಸಲಾದ VPN ಸಂಪರ್ಕ ಮಾಹಿತಿಯನ್ನು ಹೊಂದಿಲ್ಲ\n"
+#~ "\n"
+#~ "ದೋಷ: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "ಆಮದು ಮಾಡಲು ಕಡತವನ್ನು ಆರಿಸಿ"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" ಎಂಬ ಹೆಸರಿನ ಕಡತವು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+
+#~ msgid "_Replace"
+#~ msgstr "ಬದಲಾಯಿಸು (_R)"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "%s ಅನ್ನು ನೀವು ಉಳಿಸುತ್ತಿರುವ VPN ಸಂಪರ್ಕದಿಂದ ಬದಲಾಯಿಸಲು ಬಯಸುವಿರಾ?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "VPN ಸಂಪರ್ಕವನ್ನು ರಫ್ತು ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "'%s' VPN ಸಂಪರ್ಕವನ್ನು %s ಎಂಬಲ್ಲಿಗೆ ರಫ್ತು ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ.\n"
+#~ "\n"
+#~ "ದೋಷ: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "VPN ಸಂಪರ್ಕವನ್ನು ರಫ್ತುಮಾಡು"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(ದೋಷ: VPN ಸಂಪರ್ಕ ಸಂಪಾದಕವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "ನನ್ನ ನೆಲೆ ಜಾಲಬಂಧ"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "ಇತರೆ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಮಾಡು (_o)"
+
+#~ msgid "Network"
+#~ msgstr "ಜಾಲಬಂಧ"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "ಅಂತರಜಾಲದೊಂದಿಗೆ ನೀವು ಹೇಗೆ ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತೀರಿ ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;DNS;"
+#~ msgstr ""
+#~ "ಜಾಲಬಂಧ;ವೈರ್ಲೆಸ್;ವೈ-ಫೈ;ವೈಫೈ;IP;LAN;ಪ್ರಾಕ್ಸಿ;WAN;ಬ್ರಾಡ್‌ಬ್ಯಾಂಡ್;ಮಾಡೆಮ್;ಬ್ಲೂಟೂತ್;vpn;"
+#~ "vlan;ಬ್ರಿಜ್;ಬಾಂಡ್;DNS;"
+
+#~ msgid "Bond slaves"
+#~ msgstr "ಬಾಂಡ್‌ ಸ್ಲೇವ್‌ಗಳು"
+
+#~ msgid "(none)"
+#~ msgstr "(ಯಾವುದೂ ಇಲ್ಲ)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "ಬ್ರಿಜ್‌ ಸ್ಲೇವ್‌ಗಳು"
+
+#~ msgid "never"
+#~ msgstr "ಎಂದಿಗೂ ಬೇಡ"
+
+#~ msgid "today"
+#~ msgstr "ಇಂದು"
+
+#~ msgid "yesterday"
+#~ msgstr "ನಿನ್ನೆ"
+
+#~ msgid "IP Address"
+#~ msgstr "IP ವಿಳಾಸ"
+
+#~ msgid "Last used"
+#~ msgstr "ಕೊನೆಯ ಬಾರಿಗೆ ಬಳಸಿದ್ದು"
+
+#~ msgid "Wired"
+#~ msgstr "ತಂತಿಯುಕ್ತ"
+
+#~ msgid "Options…"
+#~ msgstr "ಆಯ್ಕೆಗಳು…"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "ಪ್ರೊಫೈಲ್ %d"
+
+#~ msgid "Add new connection"
+#~ msgstr "ಹೊಸ ಸಂಪರ್ಕವನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Team slaves"
+#~ msgstr "ಟೀಮ್‌ ಸ್ಲೇವ್‌ಗಳು"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "ನೀವು ವೈರ್ಲೆಸ್ ಅನ್ನು ಹೊರತುಪಡಿಸಿ ಬೇರೇ ರೀತಿಯ ಅಂತರಜಾಲ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿದ್ದಲ್ಲಿ, ನಿಮ್ಮ "
+#~ "ಅಂತರಜಾಲ ಸಂಪರ್ಕವನ್ನು ಇತರರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ನೀವು ಒಂದು ವೈರ್ಲೆಸ್ ಬಹುದಾಗಿರುತ್ತದೆ."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "ವೈರ್ಲೆಸ್ ಹಾಟ್‌ಸ್ಪಾಟ್‌ಗೆ ಬದಲಾಯಿಸಿದಲ್ಲಿ <b>%s</b> ದೊಂದಿಗಿನ ನಿಮ್ಮ ಸಂಪರ್ಕವು "
+#~ "ಕಡಿದುಹೋಗುತ್ತದೆ."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "ಹಾಟ್‌ಸ್ಪಾಟ್ ಸಕ್ರಿಯವಾಗಿದ್ದಾಗ ನಿಮ್ಮ ವೈರ್ಲೆಸ್‌ ಮುಖಾಂತರ ಅಂತರಜಾಲದೊಂದಿಗೆ ಸಂಪರ್ಕ ಜೋಡಿಸುವುದು "
+#~ "ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "ಹಾಟ್‌ಸ್ಪಾಟ್‌ ಅನ್ನು ನಿಲ್ಲಿಸಲು ಮತ್ತು ಅದರ ಯಾವುದೆ ಬಳಕೆದಾರರನ್ನು ಸಂಪರ್ಕ ತಪ್ಪಿಸಬೇಕೆ?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "ಹಾಟ್‌ಸ್ಪಾಟ್ ಅನ್ನು ನಿಲ್ಲಿಸು (_S):"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "ಹಾಟ್‌ಸ್ಪಾಟ್ ಆಗಿ ಬಳಸುವುದಂತೆ ವ್ಯವಸ್ಥೆಯ ಪಾಲಿಯು ತಡೆಯುತ್ತಿದೆ"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "ವೈರ್ಲೆಸ್ ಸಾಧನವು ಹಾಟ್‌ಸ್ಪಾಟ್ ಕ್ರಮವನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "ಗುಪ್ತಪದಗಳು ಮತ್ತು ಯಾವುದೆ ಅಗತ್ಯಾನುಗುಣ ಸಂರಚನೆಯೂ ಸಹ ಸೇರಿದಂತೆ  ಆಯ್ಕೆ ಮಾಡಲಾದ "
+#~ "ಜಾಲಬಂಧಗಳಿಗಾಗಿ ಜಾಲಬಂಧ ವಿವರಗಳು ನಾಶಗೊಳ್ಳುತ್ತವೆ."
+
+#~ msgid "History"
+#~ msgstr "ಇತಿಹಾಸ"
+
+#~ msgid "_Close"
+#~ msgstr "ಮುಚ್ಚು (_C)"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "ಮರೆತುಬಿಡು (_F)"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "ಸಂರಚನಾ URL ಅನ್ನು ಒದಗಿಸದೇ ಇದ್ದಲ್ಲಿ ವೆಬ್ ಪ್ರಾಕ್ಸಿ ಆಟೋಡಿಸ್ಕವರಿಯನ್ನು ಬಳಸಲಾಗುತ್ತದೆ."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "ಇದನ್ನು ನಂಬಿಕೆಗೆ ಅನರ್ಹವಾದ ಸಾರ್ವಜನಿಕ ಜಾಲಬಂಧಗಳಲ್ಲಿ ಇದು ಒಳ್ಳೆಯದಲ್ಲ"
+
+#~ msgid "Proxy"
+#~ msgstr "ಪ್ರಾಕ್ಸಿ"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "ಪ್ರೊಫೈಲನ್ನು ಸೇರಿಸು (_A)..."
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "ಒದಗಿಸುವವರು"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "ಕೈಯಾರೆ"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ"
+
+#~ msgid "_Method"
+#~ msgstr "ವಿಧಾನ (_M)"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "ಸ್ವಯಂಸಂರಚನಾ URL (_C)"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP ಪ್ರಾಕ್ಸಿ"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS ಪ್ರಾಕ್ಸಿ"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP ಪ್ರಾಕ್ಸಿ"
+
+#~ msgid "_Socks Host"
+#~ msgstr "ಸಾಕ್ಸ್‌ ಅತಿಥೇಯ (_S):"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "ಕಡೆಗಣಿಸಲಾದ ಆತಿಥೇಯಗಳು (_I)"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Socks ಪ್ರಾಕ್ಸಿ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#~ msgid "Turn device off"
+#~ msgstr "ಸಾಧನವನ್ನು ಆಫ್‌ ಮಾಡು"
+
+#~ msgid "Add Device"
+#~ msgstr "ಸಾಧನವನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Remove Device"
+#~ msgstr "ಸಾಧನವನ್ನು ತೆಗೆದುಹಾಕು"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN ಬಗೆ"
+
+#~ msgid "Group Name"
+#~ msgstr "ಗುಂಪಿನ ಹೆಸರು"
+
+#~ msgid "Group Password"
+#~ msgstr "ಗುಂಪನ ಗುಪ್ತಪದ"
+
+#~ msgid "Username"
+#~ msgstr "ಬಳಕೆದಾರಹೆಸರು"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "VPN ಸಂಪರ್ಕವನ್ನು ಆಫ್ ಮಾಡು"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ಸಂಪರ್ಕ (_C)"
+
+#~ msgid "details"
+#~ msgstr "ವಿವರಗಳು"
+
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgid "Show P_assword"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ತೋರಿಸು (_a)"
+
+#~ msgid "Make available to other users"
+#~ msgstr "ಇತರೆ ಬಳಕೆದಾರರಿಗೆ ಲಭ್ಯವಾಗುವಂತೆ ಮಾಡು"
+
+#~ msgid "identity"
+#~ msgstr "ಗುರುತು"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ (DHCP) ವಿಳಾಸಗಳು ಮಾತ್ರ"
+
+#~ msgid "Link-local only"
+#~ msgstr "ಸ್ಥಳೀಯ-ಕೊಂಡಿ ಮಾತ್ರ"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "ಇತರೆ ಗಣಕಗಳೊಡನೆ ಹಂಚಿಕೊಳ್ಳಲಾದ"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಪಡೆಯಲಾದ ರೌಟ್‌ಗಳನ್ನು ಕಡೆಗಣಿಸು (_I)"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "ತದ್ರೂಪುಗೊಳಿಸಲಾದ MA_C ವಿಳಾಸ"
+
+#~ msgid "hardware"
+#~ msgstr "ಯಂತ್ರಾಂಶ"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "ಈ ಸಂಪರ್ಕಕ್ಕಾಗಿನ ಸಿದ್ಧತೆಗಳನ್ನು ಅವುಗಳ ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರುಹೊಂದಿಸು, ಆದರೆ ಆದ್ಯತೆಯ "
+#~ "ಸಂಪರ್ಕ ಎಂದು ನೆನಪಿಡು."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "ಈ ಜಾಲಬಂಧಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಎಲ್ಲಾ ವಿವರಗಳನ್ನು ತೆಗೆದುಹಾಕು ಮತ್ತು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕ "
+#~ "ಸಾಧಿಸಲು ಪ್ರಯತ್ನಿಸಬೇಡ."
+
+#~ msgid "reset"
+#~ msgstr "ಮರುಹೊಂದಿಸು"
+
+#~ msgid "Hardware"
+#~ msgstr "ಯಂತ್ರಾಂಶ"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "ವೈ-ಫೈ ಹಾಟ್‌ಸ್ಪಾಟ್"
+
+#~ msgid "_Turn On"
+#~ msgstr "ಚಾಲನೆಗೊಳಿಸು (_T)"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "ವೈ-ಫೈ"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "ವೈ-ಫೈ ಅನ್ನು ಆಫ್ ಮಾಡಿ"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "ಹಾಟ್‌ಸ್ಪಾಟ್ ಅನ್ನು ಬಳಸು (_U)..."
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "ಅಡಗಿಸಲಾದ ಜಾಲಬಂಧದೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸು (_C)..."
+
+#~ msgid "_History"
+#~ msgstr "ಇತಿಹಾಸ (_H)"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "ವೈ-ಫೈ ಜಾಲಬಂಧದೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಲು ಸ್ವಿಚ್ ಅನ್ನು ಆಫ್ ಮಾಡು"
+
+#~ msgid "Network Name"
+#~ msgstr "ಜಾಲಬಂಧ ಹೆಸರು"
+
+#~ msgid "Connected Devices"
+#~ msgstr "ಸಂಪರ್ಕಗೊಂಡಿರುವ ಸಾಧನ"
+
+#~ msgid "Security type"
+#~ msgstr "ಸುರಕ್ಷತೆಯ ಬಗೆ"
+
+#~ msgid "Security key"
+#~ msgstr "ಸುರಕ್ಷತೆಯ ಕೀಲಿ"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "ತಾತ್ಕಾಲಿಕ"
+
+#~ msgid "Infrastructure"
+#~ msgstr "ಮೂಲಭೂತ ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Status unknown"
+#~ msgstr "ಗೊತ್ತಿರದ ಸ್ಥಿತಿ"
+
+#~ msgid "Unmanaged"
+#~ msgstr "ನಿರ್ವಹಿಸದೆ ಇರುವ"
+
+#~ msgid "Unavailable"
+#~ msgstr "ಲಭ್ಯವಿಲ್ಲ"
+
+#~ msgid "Connecting"
+#~ msgstr "ಸಂಪರ್ಕ ಕಲ್ಪಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Authentication required"
+#~ msgstr "ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "Connected"
+#~ msgstr "ಸಂಪರ್ಕಗೊಂಡಿದೆ"
+
+#~ msgid "Disconnecting"
+#~ msgstr "ಸಂಪರ್ಕ ಕಡಿದುಹಾಕಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Connection failed"
+#~ msgstr "ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "ಗೊತ್ತಿರದ ಸ್ಥಿತಿ (ಕಾಣೆಯಾಗಿದೆ)"
+
+#~ msgid "Not connected"
+#~ msgstr "ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"
+
+#~ msgid "Configuration failed"
+#~ msgstr "ಸಂರಚನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP ಸಂರಚನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP ಸಂರಚನೆಯ ವಾಯಿದೆ ತೀರಿದೆ"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "ರಹಸ್ಯಗಳ ಅಗತ್ಯವಿದೆ, ಆದರೆ ಅದನ್ನು ಒದಗಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x ಸಪ್ಲಿಕ್ಯಾಂಟ್‌ನಿಂದ ಸಂಪರ್ಕ ಕಡಿದಿದೆ"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x ಸಪ್ಲಿಕೆಂಟ್ ಸಂರಚನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x ಸಪ್ಲಿಕೆಂಟ್ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x ಸಪ್ಲಿಕೆಂಟ್ ದೃಢೀಕರಿಸಲು ಬಹಳ ಹೊತ್ತು ತೆಗೆದುಕೊಂಡಿದೆ"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP ಸೇವೆಯನ್ನು ಆರಂಭಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP ಸಂಪರ್ಕವನ್ನು ಕಡಿದು ಹಾಕಲಾಗಿದೆ"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP ಕ್ಲೈಂಟ್ ಆರಂಭಗೊಳ್ಳಲು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP ಕ್ಲೈಂಟ್‌ ದೋಷ"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP ಕ್ಲೈಂಟ್ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "ಹಂಚಲಾದ ಸಂಪರ್ಕ ಸೇವೆಯು ಆರಂಭಗೊಳ್ಳುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "ಹಂಚಲಾದ ಸಂಪರ್ಕ ಸೇವೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP ಸೇವೆಯು ಆರಂಭಗೊಳ್ಳುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP ಸೇವೆಯ ದೋಷ"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP ಸೇವೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Line busy"
+#~ msgstr "ಮಾರ್ಗವು ಕಾರ್ಯನಿರತವಾಗಿದೆ"
+
+#~ msgid "No dial tone"
+#~ msgstr "ಯಾವುದೆ ಡಯಲ್ ಟೋನ್ ಇಲ್ಲ"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "ಯಾವುದೆ ವಾಹಕವನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "ಡಯಲ್ ಮಾಡುವ ಮನವಿಯ ಸಮಯ ಮೀರಿದೆ"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "ಡಯಲ್ ಮಾಡುವ ಪ್ರಯತ್ನವು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "ಮಾಡೆಮ್ ಆರಂಭಗೊಳ್ಳುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "ನಿಶ್ಚಿತ APN ಅನ್ನು ಆರಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "ಜಾಲಬಂಧಗಳಿಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿಲ್ಲ"
+
+#~ msgid "Network registration denied"
+#~ msgstr "ಜಾಲಬಂಧ ನೋಂದಣಿಯನ್ನು ನಿರಾಕರಿಸಲಾಗಿದೆ"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "ಜಾಲಬಂಧ ನೋಂದಣಿಯ ಸಮಯ ಮೀರಿದೆ"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "ಮನವಿ ಮಾಡಲಾದ ಜಾಲಬಂಧದೊಂದಿಗೆ ನೋಂದಾಯಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "PIN check failed"
+#~ msgstr "PIN ಪರಿಶೀಲನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "ಸಾಧನದ ಫರ್ಮವೇರ್ ಕಾಣಿಸುತ್ತಿಲ್ಲ"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "ಸಂಪರ್ಕವು ಕಾಣೆಯಾಗಿದೆ"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "ಈಗಿರುವ ಸಂಪರ್ಕವನ್ನು ಊಹಿಸಲಾಗಿದೆ"
+
+#~ msgid "Modem not found"
+#~ msgstr "ಮಾಡೆಮ್ ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಸಂಪರ್ಕವು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "ಸಿಮ್ ಕಾರ್ಡನ್ನು ಹಾಕಲಾಗಿಲ್ಲ"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "ಸಿಮ್‌ ಪಿನ್ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "ಸಿಮ್‌ Puk ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "SIM wrong"
+#~ msgstr "ಸಿಮ್‌ ತಪ್ಪಾಗಿದೆ"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "ಸಂಪರ್ಕಿತಗೊಂಡ ಕ್ರಮದಲ್ಲಿ InfiniBand ಸಾಧನಕ್ಕೆ ಬೆಂಬಲವಿರುವುದಿಲ್ಲ"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "ಸಂಪರ್ಕದ ಅವಲಂಬನೆಯು ವಿಫಲಗೊಂಡಿದೆ"
+
+#~ msgid "Firmware missing"
+#~ msgstr "ಫರ್ಮ್-ವೇರ್ ಕಾಣಿಸುತ್ತಿಲ್ಲ"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "ಕೇಬಲ್‌ ಅನ್ನು ತೆಗೆಯಲಾಗಿದೆ"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "ಯಾವುದೆ ಸರ್ಟಿಫಿಕೇಟ್ ಅಥಾರಿಟಿ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "ಸರ್ಟಿಫಿಕೇಟ್ ಅತಾರಿಟಿ (CA) ಪ್ರಮಾಣಪತ್ರವನ್ನು ಬಳಸದೆ ಇದ್ದಲ್ಲಿ ಸಂಪರ್ಕಗಳು ಅಸುರಕ್ಷಿತ, ದುಷ್ಟ "
+#~ "Wi-Fi ಜಾಲಬಂಧಗಳಾಗಲು ಕಾರಣವಾಗಬಹುದು. ನೀವು ಸರ್ಟಿಫಿಕೇಟ್ ಅತಾರಿಟಿ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಆಯ್ಕೆ "
+#~ "ಮಾಡಲು ಬಯಸುವಿರಾ?"
+
+#~ msgid "Ignore"
+#~ msgstr "ಕಡೆಗಣಿಸು"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "CA ಪ್ರಮಾಣಪತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡು"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+#~ msgstr "DER, PEM, ಅಥವ PKCS#12 ಖಾಸಗಿ ಕೀಲಿಗಳು (*.der, *.pem, *.p12)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER ಅಥವ PEM ಪ್ರಮಾಣಪತ್ರಗಳು (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "ಒಂದು PAC ಕಡತವನ್ನು ಆರಿಸು"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC ಕಡತಗಳು (*.pac)"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC ಕಡತಗಳು (_f)"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "ಒಳಗಿನ ದೃಢೀಕರಣವನ್ನು (_I)"
+
+#~ msgid "PAC pro_visioning"
+#~ msgstr "PAC ಪ್ರಾವಿಶನಿಂಗ್ (_v)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "ಅನಾಮಧೇಯ"
+
+#~ msgid "Authenticated"
+#~ msgstr "ದೃಡೀಕರಿಸಿದ"
+
+#~ msgid "Both"
+#~ msgstr "ಎರಡೂ"
+
+#~ msgid "Sho_w password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ತೋರಿಸು (_w)"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "ಸರ್ಟಿಫಿಕೇಟ್ ಅಥಾರಿಟಿ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Version 0"
+#~ msgstr "ಆವೃತ್ತಿ 0"
+
+#~ msgid "Version 1"
+#~ msgstr "ಆವೃತ್ತಿ 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "C_A ಪ್ರಮಾಣಪತ್ರ"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP ಆವೃತ್ತಿ (_v)"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "ಪ್ರತಿ ಬಾರಿಯೂ ಸಹ ಈ ಗುಪ್ತಪದಕ್ಕಾಗಿ ಕೇಳು (_k)"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "ಗೂಢಲಿಪೀಕರಿಸದ ಖಾಸಗಿ ಕೀಲಿಗಳು ಅಸುರಕ್ಷಿತವಾಗಿರುತ್ತವೆ"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "ಆಯ್ಕೆ ಮಾಡಲಾದ ಖಾಸಗಿ ಕೀಲಿಯು ಒಂದು ಗುಪ್ತಪದದಿಂದ ಸಂರಕ್ಷಿತಗೊಂಡಿರುವಂತೆ ಕಾಣಿಸುತ್ತಿಲ್ಲ.  "
+#~ "ಇದರಿಂದಾಗಿ ನಿಮ್ಮ ಸುರಕ್ಷತಾ ರುಜುವಾತನ್ನು ರಾಜಿ ಮಾಡಿಕೊಂಡಂತಾಗುತ್ತದೆ.  ದಯವಿಟ್ಟು ಒಂದು "
+#~ "ಗುಪ್ತಪದದಿಂದ ಸಂರಿಕ್ಷಿತಗೊಂಡಂತಹ ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ಒದಗಿಸಿ.\n"
+#~ "\n"
+#~ "(ನೀವು ನಿಮ್ಮ ಖಾಸಗಿ ಕೀಲಿಯನ್ನು openssl ಬಳಸಿಕೊಂಡು ಸಂರಕ್ಷಿಸಿ)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಪ್ರಮಾಣಪತ್ರವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Choose your private key"
+#~ msgstr "ನಿಮ್ಮ ಖಾಸಗಿ ಕೀಲಿಯನ್ನು ಆರಿಸಿ"
+
+#~ msgid "I_dentity"
+#~ msgstr "ಗುರುತು (_d)"
+
+#~ msgid "_User certificate"
+#~ msgstr "ಬಳಕೆದಾರ ಪ್ರಮಾಣಪತ್ರ (_U)"
+
+#~ msgid "Private _key"
+#~ msgstr "ಖಾಸಗಿ ಕೀಲಿ (_k)"
+
+#~ msgid "_Private key password"
+#~ msgstr "ಖಾಸಗಿ ಕೀಲಿ ಗುಪ್ತಪದ (_P)"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "ನನ್ನನ್ನು ಇನ್ನೊಮ್ಮೆ ಎಚ್ಚರಿಸಬೇಡ (_w)"
+
+#~ msgid "No"
+#~ msgstr "ಇಲ್ಲ"
+
+#~ msgid "Yes"
+#~ msgstr "ಹೌದು"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "ಟನಲ್ಡ್ TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "ಪ್ರೊಟೆಕ್ಟೆಡ್ EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "ದೃಢೀಕರಣ (_t)"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (ಪೂರ್ವನಿಯೋಜಿತ)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "ಮುಕ್ತ ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Shared Key"
+#~ msgstr "ಹಂಚಲಾದ ಕೀಲಿ"
+
+#~ msgid "_Key"
+#~ msgstr "ಕೀಲಿ (_K)"
+
+#~ msgid "Sho_w key"
+#~ msgstr "ಕೀಲಿಯನ್ನು ತೋರಿಸು (_w)"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP ಸೂಚಿ (_x)"
+
+#~ msgid "_Type"
+#~ msgstr "ಬಗೆ (_T)"
+
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "ಸೂಚನೆಗಳು"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "ಶಬ್ಧ ರೂಪದ ಎಚ್ಚರಿಕೆಗಳು"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "ಪಾಪ್ಅಪ್ ಬ್ಯಾನರುಗಳನ್ನು ತೋರಿಸು"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Banners"
+#~ msgstr "ವಿವರಗಳನ್ನು ಬ್ಯಾನರುಗಳಲ್ಲಿ ತೋರಿಸು"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "ಲಾಕ್ ಮಾಡಿದ ತೆರೆಯಲ್ಲಿ ನೋಡು"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Lock Screen"
+#~ msgstr "ಲಾಕ್ ಮಾಡಿದ ತೆರೆಯಲ್ಲಿ ವಿವರಗಳನ್ನು ತೋರಿಸು"
+
+#~ msgid "On"
+#~ msgstr "ಚಾಲಿತ"
+
+#~ msgid "Notifications"
+#~ msgstr "ಸೂಚನೆಗಳು"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr ""
+#~ "ಯಾವ ಸೂಚನೆಗಳನ್ನು ತೋರಿಸಬೇಕು ಮತ್ತು ಅವು ಏನನ್ನು ತೋರಿಸಬೇಕು ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸುತ್ತದೆ"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "ಸೂಚನೆಗಳು;ಬ್ಯಾನರ್;ಸಂದೇಶ;ಟ್ರೇ;ಪಾಪ್ಅಪ್;"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "ಪಾಪ್ ಅಪ್ ಬ್ಯಾನರುಗಳನ್ನು ತೋರಿಸು"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "ಲಾಕ್ ಮಾಡಿದ ತೆರೆಯಲ್ಲಿ ತೋರಿಸು"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "ಇತರೆ"
+
+#~ msgid "Add Account"
+#~ msgstr "ಖಾತೆಯನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Mail"
+#~ msgstr "ಅಂಚೆ"
+
+#~ msgid "Contacts"
+#~ msgstr "ಸಂಪರ್ಕವಿಳಾಸಗಳು"
+
+#~ msgid "Chat"
+#~ msgstr "ಚಾಟ್"
+
+#~ msgid "Resources"
+#~ msgstr "ಸಂಪನ್ಮೂಲಗಳು"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "ಖಾತೆಗೆ ದಾಖಲಾಗುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "ರುಜುವಾತುಗಳ ವಾಯಿದೆ ತೀರಿದೆ."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "ಈ ಖಾತೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಸೈನ್ ಇನ್ ಆಗಿ."
+
+#~ msgid "_Sign In"
+#~ msgstr "ಸೈನ್ ಇನ್ (_S)"
+
+#~ msgid "Error creating account"
+#~ msgstr "ಖಾತೆಯನ್ನು ರಚಿಸುವಲ್ಲಿ ದೋಷ"
+
+#~ msgid "Error removing account"
+#~ msgstr "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕುವಲ್ಲಿ ದೋಷ"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವೆ?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "ಇದು ಪರಿಚಾರಕದಿಂದ ಖಾತೆಯನ್ನು ತೆಗೆದು ಹಾಕುವುದಿಲ್ಲ."
+
+#~ msgid "_Remove"
+#~ msgstr "ತೆಗೆದು ಹಾಕು (_R)"
+
+#~ msgid "Online Accounts"
+#~ msgstr "ಅಂತರಜಾಲದಲ್ಲಿನ ಖಾತೆಗಳು"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಆನ್‌ಲೈನ್ ಖಾತೆಗಳೊಂದಿಗೆ ಸಂಪರ್ಕ ಜೋಡಿಸಿ ಮತ್ತು ಅವುಗಳನ್ನು ಯಾವ ಕೆಲಸಕ್ಕೆ ಬಳಸಬೇಕು "
+#~ "ಎನ್ನುವುದನ್ನು ನಿರ್ಧರಿಸಿ"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "ಯಾವುದೆ ಆನ್‌ಲೈನ್ ಖಾತೆಗಳನ್ನು ಸಂರಚಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Add an online account"
+#~ msgstr "ಅಂತರಜಾಲದಲ್ಲಿನ ಖಾತೆಯನ್ನು ಸೇರಿಸು"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "ಒಂದು ಖಾತೆಯನ್ನು ಸೇರಿಸುವುದರಿಂದ ಅದನ್ನು ನಿಮ್ಮ ಅನ್ವಯಗಳನ್ನು ದಸ್ತಾವೇಜುಗಳಿಗೆ, ಅಂಚೆಗೆ, "
+#~ "ಸಂಪರ್ಕವಿಳಾಸಗಳಿಗೆ, ಕ್ಯಾಲೆಂಡರಿಗೆ, ಹರಟೆ ಮತ್ತು ಮುಂತಾದವುಗಳಿಗಾಗಿ ನಿಲುಕಿಸಿಕೊಳ್ಳಲು "
+#~ "ಸಾಧ್ಯವಾಗುತ್ತದೆ."
+
+#~ msgid "Unknown time"
+#~ msgstr "ಗೊತ್ತಿರದ ಸಮಯ"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i ನಿಮಿಷ"
+#~ msgstr[1] "%i ನಿಮಿಷಗಳು"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ಗಂಟೆ"
+#~ msgstr[1] "%i ಗಂಟೆಗಳು"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ಗಂಟೆ"
+#~ msgstr[1] "ಗಂಟೆಗಳು"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "ನಿಮಿಷ"
+#~ msgstr[1] "ನಿಮಿಷಗಳು"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "ಚಾರ್ಜ್ ಮಾಡಿದಾಗಿನಿಂದ  %s"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "ಎಚ್ಚರಿಕೆ, %s ಬಾಕಿ ಇದೆ"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s ಬಾಕಿ ಇದೆ"
+
+#~ msgid "Fully charged"
+#~ msgstr "ಸಂಪೂರ್ಣ ಚಾರ್ಜ್ ಆಗಿದೆ"
+
+#~ msgid "Empty"
+#~ msgstr "ಖಾಲಿ"
+
+#~ msgid "Charging"
+#~ msgstr "ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ"
+
+#~ msgid "Discharging"
+#~ msgstr "ಡಿಸ್‌ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "ಮುಖ್ಯ"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "ಹೆಚ್ಚುವರಿ"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "ತಂತಿರಹಿತ ಮೌಸ್"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "ತಂತಿರಹಿತ ಕೀಲಿಮಣೆ"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "ತಡೆರಹಿತ ವಿದ್ಯುತ್ ಪೂರೈಕೆ"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "ವೈಯಕ್ತಿಕ ಡಿಜಿಟಲ್ ಸಹಾಯಕ"
+
+#~ msgid "Cellphone"
+#~ msgstr "ಸೆಲ್‌ಫೋನ್"
+
+#~ msgid "Media player"
+#~ msgstr "ಮಾಧ್ಯಮ ಚಾಲಕ"
+
+#~ msgid "Tablet"
+#~ msgstr "ಕಿಸೆಗಣಕ (ಟ್ಯಾಬ್ಲೆಟ್)"
+
+#~ msgid "Computer"
+#~ msgstr "ಗಣಕ"
+
+#~ msgid "Battery"
+#~ msgstr "ಬ್ಯಾಟರಿ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "ಎಚ್ಚರಿಕೆ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "ಕೆಳ ಮಟ್ಟದ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "ಸಂಪುರ್ಣವಾಗಿ ಚಾರ್ಜ್ ಆಗಿದೆ"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "ಖಾಲಿ"
+
+#~ msgid "Batteries"
+#~ msgstr "ಬ್ಯಾಟರಿಗಳು"
+
+#~ msgid "When _idle"
+#~ msgstr "ಜಡವಾಗಿದ್ದಾಗ (_i)"
+
+#~ msgid "Power Saving"
+#~ msgstr "ವಿದ್ಯುಚ್ಛಕ್ತಿ ಉಳಿತಾಯ"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "ತೆರೆಯ ಪ್ರಕಾಶತೆ (_S)"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "ಕೀಲಿಮಣೆ ಪ್ರಕಾಶತೆ (_K)"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "ಚಟುವಟಿಕೆ ಇಲ್ಲದಾಗ ತೆರೆಯನ್ನು ಮಂದಗೊಳಿಸು (_D)"
+
+#~ msgid "_Blank screen"
+#~ msgstr "ಖಾಲಿ ತೆರೆ (_B)"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "ವೈ-ಫೈ (_W)"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "ವೈರ್ಲೆಸ್ ಸಾಧನಗಳನ್ನು ಆಫ್ ಮಾಡುತ್ತದೆ"
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "ಮೊಬೈಲ್ ಬ್ರಾಡ್‌ಬ್ಯಾಂಡ್ (_M)"
+
+#~ msgid "Turns off mobile broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgstr "ಮೊಬೈಲ್ ಬ್ರಾಡ್‌ಬ್ಯಾಂಡ್‌ (3G, 4G, WiMax, ಇತರೆ.) ಸಾಧನಗಳನ್ನು ಆಫ್ ಮಾಡುತ್ತದೆ"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "ಬ್ಲೂಟೂತ್ (_B)"
+
+#~ msgid "When on battery power"
+#~ msgstr "ಬ್ಯಾಟರಿ ವಿದ್ಯುಚ್ಛಕ್ತಿಯನ್ನು ಬಳಸುವಾಗ"
+
+#~ msgid "When plugged in"
+#~ msgstr "ವಿದ್ಯುಚ್ಧಕ್ತಿ ಸಂಪರ್ಕ ಜೋಡಿಸಿದಾಗ"
+
+#~ msgid "Suspend & Power Off"
+#~ msgstr "ಅಮಾನತುಗೊಳಿಸು ಮತ್ತು ಆಫ್ ಮಾಡು"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ಅಮಾನತು (_A)"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "ಬ್ಯಾಟರಿಯ ವಿದ್ಯುಚ್ಛಕ್ತಿಯು ಸಂದಿಗ್ಧ ಮಟ್ಟದಲ್ಲಿದ್ದಾಗ (_c)"
+
+#~ msgid "Power Off"
+#~ msgstr "ಆಫ್ ಮಾಡು"
+
+#~ msgid "Devices"
+#~ msgstr "ಸಾಧನಗಳು"
+
+#~ msgid "Power"
+#~ msgstr "ವಿದ್ಯುಚ್ಛಕ್ತಿ"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "ಬ್ಯಾಟರಿ ಸ್ಥಿತಿಯನ್ನು ನೋಡು ಮತ್ತು ವಿದ್ಯುಚ್ಛಕ್ತಿ ಉಳಿಸುವ ಸಿದ್ಧತೆಗಳನ್ನು ಬದಲಾಯಿಸು"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "ವಿದ್ಯುಚ್ಛಕ್ತಿ;ನಿದ್ರಿಸು;ಅಮಾನತು;ಹೈಬರ್ನೇಟ್;ಬ್ಯಾಟರಿ;ಪ್ರಕಾಶತೆ;ಮಂದ;ಖಾಲಿ;ತೆರೆ;DPMS;ಜಡ;"
+
+#~ msgid "Hibernate"
+#~ msgstr "ಹೈಬರ್ನೇಟ್"
+
+#~ msgid "Power off"
+#~ msgstr "ಸ್ಥಗಿತಗೊಳಿಸು"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 ನಿಮಿಷಗಳು"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ಗಂಟೆ"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 ನಿಮಿಷಗಳು"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 ನಿಮಿಷಗಳು"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 ನಿಮಿಷಗಳು"
+
+#~ msgid "2 hours"
+#~ msgstr "2 ಗಂಟೆಗಳು"
+
+#~ msgid "1 minute"
+#~ msgstr "1 ನಿಮಿಷ"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 ನಿಮಿಷಗಳು"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 ನಿಮಿಷಗಳು"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 ನಿಮಿಷಗಳು"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 ನಿಮಿಷಗಳು"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 ನಿಮಿಷಗಳು"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 ನಿಮಿಷಗಳು"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 ನಿಮಿಷಗಳು"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ಅಮಾನತು"
+
+#~ msgid "_Plugged In"
+#~ msgstr "ಸಂಪರ್ಕ ಜೋಡಿಸಲಾಗಿದೆ (_P)"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "ಬ್ಯಾಟರಿ ವಿದ್ಯುಚ್ಛಕ್ತಿಯಲ್ಲಿದ್ದಾಗ (_B)"
+
+#~ msgid "Delay"
+#~ msgstr "ವಿಳಂಬ"
+
+#~ msgid "Authenticate"
+#~ msgstr "ದೃಢೀಕರಿಸು"
+
+#~ msgid "Authentication Required"
+#~ msgstr "ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "Low on toner"
+#~ msgstr "ಟೋನರ್ ಕಡಿಮೆ ಇದೆ"
+
+#~ msgid "Out of toner"
+#~ msgstr "ಟೋನರ್ ಖಾಲಿಯಾಗಿದೆ"
+
+#~ msgid "Low on developer"
+#~ msgstr "ವಿಕಸನೆಗಾರ ಕಡಿಮೆ ಇದೆ"
+
+#~ msgid "Out of developer"
+#~ msgstr "ವಿಕಸನೆಗಾರ ಖಾಲಿಯಾಗಿದೆ"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "ಮಾರ್ಕರ್ ಪೂರೈಕೆಯಲ್ಲಿ ಕೊರತೆಯಿದೆ"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "ಮಾರ್ಕರ್ ಪೂರೈಕೆ ಇಲ್ಲವಾಗಿದೆ"
+
+#~ msgid "Open cover"
+#~ msgstr "ಮುಚ್ಚಣ ತೆರೆದಿದೆ"
+
+#~ msgid "Open door"
+#~ msgstr "ಬಾಗಿಲು ತೆರೆದಿದೆ"
+
+#~ msgid "Low on paper"
+#~ msgstr "ಕಾಗದ ಕಡಿಮೆ ಇದೆ"
+
+#~ msgid "Out of paper"
+#~ msgstr "ಕಾಗದದ ಖಾಲಿಯಾಗಿದೆ"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "ಆಫ್‌ಲೈನ್"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯು ಬಹುಪಾಲು ತುಂಬಿದೆ"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿ ತುಂಬಿದೆ"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "ಆಪ್ಟಿಕಲ್ ಫೋಟೊ ಕಂಡಕ್ಟರ್ ಸ್ಥಗಿತಗೊಳ್ಳುವ ಹಂತದಲ್ಲಿದೆ"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "ಆಪ್ಟಿಕಲ್ ಫೋಟೊ ಕಂಡಕ್ಟರ್ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "ಸಿದ್ಧಗೊಂಡಿದೆ"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "ಕಾರ್ಯಗಳನ್ನು ಸ್ವೀಕರಿಸುವುದಿಲ್ಲ"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "ಸಂಸ್ಕರಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Toner Level"
+#~ msgstr "ಟೋನರ್ ಮಟ್ಟ"
+
+#~ msgid "Ink Level"
+#~ msgstr "ಶಾಯಿಯ ಮಟ್ಟ"
+
+#~ msgid "Supply Level"
+#~ msgstr "ಒದಗಣೆಯ ಮಟ್ಟ"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "No printers available"
+#~ msgstr "ಯಾವುದೆ ಮುದ್ರಕ ಲಭ್ಯವಿಲ್ಲ"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u ಸಕ್ರಿಯ"
+#~ msgstr[1] "%u ಸಕ್ರಿಯ"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "ಹೊಸ ಮುದ್ರಕವನ್ನು ಸೇರಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ."
+
+#~ msgid "Select PPD File"
+#~ msgstr "PPD ಕಡತವನ್ನು ಆರಿಸು"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript ಪ್ರಿಂಟರ್ ಡಿಸ್ಕ್ರಿಪ್ಶನ್ ಕಡತಗಳು (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "ಯಾವುದೆ ಸೂಕ್ತ ಚಾಲಕವು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "ಇಚ್ಛೆಯ ಚಾಲಕಕ್ಕಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "Select from database…"
+#~ msgstr "ದತ್ತಸಂಚಯದಿಂದ ಆಯ್ಕೆ ಮಾಡು..."
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "PPD ಕಡತವನ್ನು ಒದಗಿಸು..."
+
+#~ msgid "Test page"
+#~ msgstr "ಪ್ರಾಯೋಗಿಕ ಪುಟ"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "ui ಅನ್ನುಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ: %s"
+
+#~ msgid "Printers"
+#~ msgstr "ಮುದ್ರಕಗಳು"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "ಮುದ್ರಕಗಳನ್ನು ಸೇರಿಸಿ, ಮುದ್ರಣ ಕಾರ್ಯಗಳನ್ನು ನೋಡಿ ಮತ್ತು ನೀವು ಹೇಗೆ ಮುದ್ರಿಸಲು ಬಯಸುವಿರಿ "
+#~ "ಎನ್ನುವುದನ್ನು ನಿರ್ಧರಿಸಿ"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "ಮುದ್ರಕ;ಸರತಿ;ಮುದ್ರಣ;ಕಾಗದ;ಶಾಯಿ;ಟೋನರ್;"
+
+#~ msgid "Active Jobs"
+#~ msgstr "ಸಕ್ರಿಯ ಕಾರ್ಯಗಳು"
+
+#~ msgid "Close"
+#~ msgstr "ಮುಚ್ಚು"
+
+#~ msgid "Resume Printing"
+#~ msgstr "ಮುದ್ರಣವನ್ನು ಮರುಆರಂಭಿಸು"
+
+#~ msgid "Pause Printing"
+#~ msgstr "ಮುದ್ರಣವನ್ನು ತಾತ್ಕಾಲಿಕ ನಿಲ್ಲಿಸು"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "ಮುದ್ರಣ ಕಾರ್ಯವನ್ನು ರದ್ದುಗೊಳಿಸು"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "ಒಂದು ಹೊಸ ಮುದ್ರಕವನ್ನು ಸೇರಿಸಿ"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "ದೃಢೀಕರಿಸು (_u)"
+
+#~ msgid "No printers detected."
+#~ msgstr "ಯಾವುದೆ ಮುದ್ರಕಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "ಫಲಿತಾಂಶಗಳನ್ನು ಫಿಲ್ಟರ್‌ ಮಾಡಲು ಒಂದು ಮುದ್ರಕದ ವಿಳಾಸ ಅಥವ ಒಂದು ಪಠ್ಯವನ್ನು ನಮೂದಿಸಿ"
+
+#~ msgid "Loading options…"
+#~ msgstr "ಆಯ್ಕೆಗಳನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ.."
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "ಮುದ್ರಕದ ಚಾಲಕವನ್ನು ಆರಿಸು"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "ಚಾಲಕಗಳ ದತ್ತಸಂಚಯವನ್ನು ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect ಮುದ್ರಕ"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD ಮುದ್ರಕ"
+
+#~ msgid "One Sided"
+#~ msgstr "ಒಂದು ಬದಿಯ"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "ಉದ್ದನೆಯ ಅಂಚು (ಶಿಷ್ಟ)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "ಚಿಕ್ಕ ಅಂಚು (ಹೊರಳಿಸು)"
+
+#~ msgid "Portrait"
+#~ msgstr "ಭಾವಚಿತ್ರ"
+
+#~ msgid "Landscape"
+#~ msgstr "ಪ್ರಕೃತಿ ಚಿತ್ರ"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "ವಿಲೋಮ ಪ್ರಕೃತಿ ಚಿತ್ರ"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "ವಿಲೋಮ ಭಾವಚಿತ್ರ"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "ಬಾಕಿ ಇದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "ತಡೆಹಿಡಿಯಲಾಗಿದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "ಸಂಸ್ಕರಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "ನಿಲ್ಲಿಸಲಾಗಿದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "ರದ್ದು ಮಾಡಲಾಗಿದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "ವಿಫಲಗೊಳಿಸಲಾಗಿದೆ"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "ಪೂರ್ಣಗೊಂಡಿದೆ"
+
+#~ msgid "Job Title"
+#~ msgstr "ಕೆಲಸದ ಶೀರ್ಷಿಕೆ"
+
+#~ msgid "Job State"
+#~ msgstr "ಕೆಲಸದ ಸ್ಥಿತಿ"
+
+#~ msgid "Time"
+#~ msgstr "ಸಮಯ"
+
+#, c-format
+#~ msgid "%s Active Jobs"
+#~ msgstr "%s ಸಕ್ರಿಯ ಕಾರ್ಯಗಳು"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "ಅನುಕ್ರಮಿತ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#~ msgid "Parallel Port"
+#~ msgstr "ಸಮಾನಾಂತರ ಸಂಪರ್ಕಸ್ಥಾನ"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "ಸ್ಥಳ: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "ವಿಳಾಸ: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "ಪೂರೈಕೆಗಣಕಕ್ಕೆ ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "Two Sided"
+#~ msgstr "ಎರಡೂ ಬದಿಯ"
+
+#~ msgid "Paper Type"
+#~ msgstr "ಪೇಪರಿನ ಬಗೆ"
+
+#~ msgid "Paper Source"
+#~ msgstr "ಪೇಪರಿನ ಆಕರ"
+
+#~ msgid "Output Tray"
+#~ msgstr "ಔಟ್‌ಪುಟ್ ಟ್ರೇ"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript ಪೂರ್ವ-ಸೋಸುವಿಕೆ"
+
+#~ msgid "Pages per side"
+#~ msgstr "ಪ್ರತಿ ಬದಿಯ ಪುಟಗಳು"
+
+#~ msgid "Two-sided"
+#~ msgstr "ಎರಡೂ-ಬದಿಯ"
+
+#~ msgid "Orientation"
+#~ msgstr "ಅಭಿಮುಖ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "ಪುಟ ಸಿದ್ಧತೆ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "ಅನುಸ್ಥಾಪನೆಯ ಆಯ್ಕೆಗಳು"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "ಕಾರ್ಯ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "ಚಿತ್ರದ ಗುಣಮಟ್ಟ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "ಬಣ್ಣ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "ಪೂರ್ಣಗೊಳಿಕೆ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "ಸುಧಾರಿತ"
+
+#~ msgid "Auto Select"
+#~ msgstr "ಸ್ವಯಂ ಆಯ್ಕೆ"
+
+#~ msgid "Printer Default"
+#~ msgstr "ಮುದ್ರಕದ ಪೂರ್ವನಿಯೋಜಿತ"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "ಅಡಕಗೊಳಿಸಲಾದ GhostScript ಅಕ್ಷರಶೈಲಿಗಳು ಮಾತ್ರ"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "PS ಹಂತ 1 ಕ್ಕೆ ಪರಿವರ್ತಿಸು"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "PS ಹಂತ 2 ಕ್ಕೆ ಪರಿವರ್ತಿಸು"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "ಯಾವುದೆ ಪೂರ್ವ-ಫಿಲ್ಟರಿಂಗ್ ಇಲ್ಲ"
+
+#~ msgid "Manufacturer"
+#~ msgstr "ಉತ್ಪಾದಕರು"
+
+#~ msgid "Driver"
+#~ msgstr "ಚಾಲಕ"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "%s ನಲ್ಲಿ ಲಭ್ಯವಿರುವ ಮುದ್ರಕಗಳನ್ನು ನೋಡಲು ನಿಮ್ಮ ಬಳಕೆದಾರಹೆಸರು ಹಾಗು ಗುಪ್ತಪದವನ್ನು "
+#~ "ನಮೂದಿಸಿ."
+
+#~ msgid "Add Printer"
+#~ msgstr "ಮುದ್ರಕವನ್ನು ಸೇರಿಸಿ"
+
+#~ msgid "Remove Printer"
+#~ msgstr "ಮುದ್ರಕವನ್ನು ತೆಗೆದುಹಾಕಿ"
+
+#~ msgid "Supply"
+#~ msgstr "ಪೂರೈಕೆ"
+
+#~ msgid "Location"
+#~ msgstr "ಸ್ಥಳ"
+
+#~ msgid "_Default printer"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಮುದ್ರಕ (_D)"
+
+#~ msgid "Jobs"
+#~ msgstr "ಕಾರ್ಯಗಳು"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "ಕೆಲಸಗಳನ್ನು ತೋರಿಸು (_J)"
+
+#~ msgid "Model"
+#~ msgstr "ಮಾದರಿ"
+
+#~ msgid "label"
+#~ msgstr "ಲೇಬಲ್"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "ಹೊಸ ಚಾಲಕನ್ನು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ..."
+
+#~ msgid "page 3"
+#~ msgstr "ಪುಟ 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "ಪ್ರಾಯೋಗಿಕ ಪುಟವನ್ನು ಮುದ್ರಿಸು (_T)"
+
+#~ msgid "_Options"
+#~ msgstr "ಆಯ್ಕೆಗಳು (_O)"
+
+#~ msgid "Add New Printer"
+#~ msgstr "ಹೊಸ ಮುದ್ರಕವನ್ನು ಸೇರಿಸಿ"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "ಕ್ಷಮಿಸಿ! ವ್ಯವಸ್ಥೆಯ ಮುದ್ರಣ ಸೇವೆಯು\n"
+#~ "ಲಭ್ಯವಿರುವಂತೆ ತೋರುತ್ತಿಲ್ಲ."
+
+#~ msgid "Screen Lock"
+#~ msgstr "ತೆರೆ ಲಾಕ್"
+
+#~ msgid "Usage & History"
+#~ msgstr "ಬಳಕೆ ಮತ್ತು ಇತಿಹಾಸ"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯಿಂದ ಎಲ್ಲಾ ಅಂಶಗಳನ್ನು ಖಾಲಿ ಮಾಡಬೇಕೆ?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯಲ್ಲಿನ ಎಲ್ಲಾ ಅಂಶಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡು (_E)"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "ಎಲ್ಲಾ ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "ಎಲ್ಲಾ ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ಅಳಿಸಲಾಗುತ್ತದೆ."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಹೊರತಳ್ಳು (_P)"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "ಕಸ ಮತ್ತು ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಹೊರತಳ್ಳು"
+
+#~ msgid "Software Usage"
+#~ msgstr "ತಂತ್ರಾಂಶದ ಬಳಕೆ"
+
+#~ msgid "Privacy"
+#~ msgstr "ಗೌಪ್ಯತೆ"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಗಳನ್ನು ಸಂರಕ್ಷಿಸಿ ಮತ್ತು ಬೇರೆಯವರು ಏನನ್ನು ನೋಡುತ್ತಾರೆ "
+#~ "ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "ತೆರೆ;ಲಾಕ್;ದೋಷಪತ್ತೆ;ಕುಸಿತ;ಖಾಸಗಿ;ಇತ್ತೀಚಿನ;ತಾತ್ಕಾಲಿಕ;tmp;ಸೂಚಿ;ಹೆಸರು;ಜಾಲಬಂಧ;"
+#~ "ಗುರುತು;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "ತೆರೆಯು ಆಫ್ ಆಗುತ್ತದೆ"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 ಸೆಕೆಂಡುಗಳು"
+
+#~ msgid "1 day"
+#~ msgstr "1 ದಿನ"
+
+#~ msgid "2 days"
+#~ msgstr "2 ದಿನಗಳು"
+
+#~ msgid "3 days"
+#~ msgstr "3 ದಿನಗಳು"
+
+#~ msgid "4 days"
+#~ msgstr "4 ದಿನಗಳು"
+
+#~ msgid "5 days"
+#~ msgstr "5 ದಿನಗಳು"
+
+#~ msgid "6 days"
+#~ msgstr "6 ದಿನಗಳು"
+
+#~ msgid "7 days"
+#~ msgstr "7 ದಿನಗಳು"
+
+#~ msgid "14 days"
+#~ msgstr "14 ದಿನಗಳು"
+
+#~ msgid "30 days"
+#~ msgstr "30 ದಿನಗಳು"
+
+#~ msgid "Forever"
+#~ msgstr "ಯಾವಾಗಲೂ"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ವ್ಯವಸ್ಥೆಯ ಇತಿಹಾಸವನ್ನು ನೆನಪಿಟ್ಟುಕೊಳ್ಳುವುದರಿಂದ ಅಗತ್ಯವಾದ ವಸ್ತುಗಳನ್ನು ಮತ್ತೆ "
+#~ "ಹುಡುಕಲು ಸುಲಭವಾಗಿರುತ್ತದೆ. ಈ ಅಂಶಗಳನ್ನು ಎಂದಿಗೂ ಸಹ ಜಾಲಬಂಧದ ಮುಖಾಂತರ "
+#~ "ಹಂಚಿಕೊಳ್ಳಲಾಗುವುದಿಲ್ಲ."
+
+#~ msgid "_Recently Used"
+#~ msgstr "ಇತ್ತೀಚಿಗೆ ಬಳಸಲಾದ (_R)"
+
+#~ msgid "Retain _History"
+#~ msgstr "ಇತಿಹಾಸವನ್ನು ಉಳಿಸಕೊ (_H)"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "ಇತ್ತೀಚಿನ ಇತಿಹಾಸವನ್ನು ಅಳಿಸು (_e)"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "ತೆರೆಯನ್ನು ಲಾಕ್‌ ಮಾಡುವಿಕೆಯು ನೀವು ಆದೆ ಹೋದಾಗ ನಿಮ್ಮ ಗೌಪ್ಯತೆಯನ್ನು ಕಾಪಾಡುತ್ತದೆ."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ ತೆರೆಯ ಲಾಕ್ (_L)"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "ಇಷ್ಟು ಸಮಯ ಖಾಲಿ ಬಿಟ್ಟಲ್ಲಿ ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು (_a)"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "ಸೂಚನೆಗಳನ್ನು ತೋರಿಸು (_ N)"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಗಣಕವು ಅನಗತ್ಯವಾದ ಸಂವೇದನಾ ಮಾಹಿತಿಯನ್ನು ಇರಿಸಿಕೊಳ್ಳುವುದನ್ನು ತಪ್ಪಿಸಲು ಕಸ "
+#~ "(ಟ್ರ್ಯಾಶ್) ಮತ್ತು ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊರತಳ್ಳಿ."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "ಕಸದ ಬುಟ್ಟಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಖಾಲಿ ಮಾಡು (_T)"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "ತಾತ್ಕಾಲಿಕ ಕಡತಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಹೊರತಳ್ಳು (_F)"
+
+#~ msgid "Purge _After"
+#~ msgstr "ಇದರ ನಂತರ ಹೊರತಳ್ಳು (_A)"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "ನೀವು ಯಾವ ತಂತ್ರಾಂಶವನ್ನು ಬಳಸುತ್ತೀರಿ ಎಂಬುದರ ಬಗೆಗಿನ ಮಾಹಿತಿಯನ್ನು ಕಳುಹಿಸುವುದರಿಂದ "
+#~ "ನಿಮಗೆ ಖಚಿತವಾದ ಸಲಹೆಗಳನ್ನು ಒದಗಿಸಲು ನಮಗೆ ಸಹಾಯವಾಗುತ್ತದೆ. ಇದು ನಮ್ಮ ತಂತ್ರಾಂಶವನ್ನೂ ಸಹ "
+#~ "ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n"
+#~ "\n"
+#~ "ನಾವು ಸಂಗ್ರಹಿಸುವ ಎಲ್ಲಾ ಮಾಹಿತಿಯನ್ನು ಅಜ್ಞಾತವಾಗಿರಿಸಲಾಗುತ್ತದೆ, ಮತ್ತು ನಾವು ಇದನ್ನು "
+#~ "ಮೂರನೆಯ ವ್ಯಕ್ತಿಗಳೊಂದಿಗೆ ಎಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "ತಂತ್ರಾಂಶ ಬಳಕೆಯ ಅಂಕಿಅಂಶಗಳನ್ನು ಕಳುಹಿಸು (_S)"
+
+#~ msgid "Privacy Policy"
+#~ msgstr "ಗೌಪ್ಯತಾ ನಿಯಮ"
+
+#~ msgid "_Location Services"
+#~ msgstr "ಸ್ಥಳದ ಸೇವೆಗಳು (_L)"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "ನಿಮ್ಮ ಭೂಸ್ಥಳದ ಕುರಿತು ನಿರ್ಧರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "ಇಂಪೀರಿಯಲ್"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "ಮೆಟ್ರಿಕ್"
+
+#~ msgid "No regions found"
+#~ msgstr "ಯಾವುದೆ ಜಾಗಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "No input sources found"
+#~ msgstr "ಯಾವುದೆ ಇನ್‌ಪುಟ್‌ ಮೂಲಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "ಇತರೆ"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "ಬದಲಾವಣೆಗಳು ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರಲು ನಿಮ್ಮ ಅಧಿವೇಶನವನ್ನು ಮರಳಿ ಆರಂಭಿಸಬೇಕಾಗುತ್ತದೆ"
+
+#~ msgid "Restart Now"
+#~ msgstr "ಈಗಲೆ ಮರಳಿ ಆರಂಭಿಸು"
+
+#~ msgid "No input source selected"
+#~ msgstr "ಯಾವುದೆ ಇನ್‌ಪುಟ್ ಮೂಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ"
+
+#~ msgid "Sorry"
+#~ msgstr "ಕ್ಷಮಿಸಿ"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "ಪ್ರವೇಶ ತೆರೆಯಲ್ಲಿ ಇನ್‌ಪುಟ್ ವಿಧಾನಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ"
+
+#~ msgid "Login Screen"
+#~ msgstr "ಪ್ರವೇಶ ತೆರೆ"
+
+#~ msgid "Formats"
+#~ msgstr "ವಿನ್ಯಾಸಗಳು"
+
+#~ msgid "Preview"
+#~ msgstr "ಮುನ್ನೋಟ"
+
+#~ msgid "Dates"
+#~ msgstr "ದಿನಾಂಕಗಳು"
+
+#~ msgid "Times"
+#~ msgstr "ಸಮಯಗಳು"
+
+#~ msgid "Numbers"
+#~ msgstr "ಸಂಖ್ಯೆಗಳು"
+
+#~ msgid "Measurement"
+#~ msgstr "ಅಳತೆ"
+
+#~ msgid "Paper"
+#~ msgstr "ಕಾಗದ"
+
+#~ msgid "Region & Language"
+#~ msgstr "ಪ್ರದೇಶ ಹಾಗು ಭಾಷೆ"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಪ್ರದರ್ಶನದ ಭಾಷೆ, ವಿನ್ಯಾಸಗಳು, ಕೀಲಿಮಣೆ ವಿನ್ಯಾಸಗಳು ಮತ್ತು ಇನ್‌ಪುಟ್ ಮೂಲಗಳನ್ನು ಆರಿಸಿ"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "ಭಾಷೆ;ವಿನ್ಯಾಸ;ಕೀಲಿಮಣೆ;ಇನ್‌ಪುಟ್;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "ಒಂದು ಇನ್‌ಪುಟ್‌ ಮೂಲವನ್ನು ಸೇರಿಸಿ"
+
+#~ msgid "Input Source Options"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಮೂಲದ ಆಯ್ಕೆಗಳು"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "ಎಲ್ಲಾ ಕಿಟಕಿಗಳಿಗೂ ಒಂದೇ ರೀತಿಯ ಮೂಲವನ್ನು ಬಳಸು (_s)"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "ಪ್ರತಿ ಕಿಟಕಿಗೂ ಸಹ ಪ್ರತ್ಯೇಕ ಮೂಲಗಳನ್ನು ಅನುಮತಿಸು (_d)"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "ಕೀಲಿಮಣೆ-ಸುಲಭ ಆಯ್ಕೆಗಳು"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "ಹಿಂದಿನ ಆಕರಕ್ಕೆ ಬದಲಾಯಿಸು"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "ಮುಂದಿನ ಆಕರಕ್ಕೆ ಬದಲಾಯಿಸು"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "ನೀವು ಈ ಸುಲಭಆಯ್ಕೆಗಳನ್ನು ಕೀಲಿಮಣೆ ಸಿದ್ಧತೆಗಳಲ್ಲಿ ಬದಲಾಯಿಸಬಹುದು"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "ಮುಂದಿನ ಮೂಲಕ್ಕೆ ಪರ್ಯಾಯ ಸ್ವಿಚ್"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "ಎಡ+ಬಲ Alt"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "ಇಂಗ್ಲೀಷ್ (ಯುನೈಟೆಡ್ ಕಿಂಗ್‌ಡಮ್)"
+
+#~ msgid "United Kingdom"
+#~ msgstr "ಯುನೈಟೆಡ್ ಕಿಂಗ್‌ಡಮ್"
+
+#~ msgid "Options"
+#~ msgstr "ಆಯ್ಕೆಗಳು"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr "ವ್ಯವಸ್ಥೆಗೆ ಪ್ರವೇಶಿಸುವಾಗ ಎಲ್ಲಾ ಬಳಕೆದಾರರಿಂದ ಬಳಸಲಾಗುವ ಪ್ರವೇಶದ ಸಿದ್ಧತೆಗಳು"
+
+#~ msgctxt "Search Location"
+#~ msgid "Places"
+#~ msgstr "ಸ್ಥಳಗಳು"
+
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "ಪುಟಗುರುತುಗಳು"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "ಇತರೆ"
+
+#~ msgid "Select Location"
+#~ msgstr "ಸ್ಥಳವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "_OK"
+#~ msgstr "ಸರಿ (_O)"
+
+#~ msgid "No applications found"
+#~ msgstr "ಯಾವುದೆ ಅನ್ವಯಗಳು ಕಂಡು ಬಂದಿಲ್ಲ"
+
+#~ msgid "Search"
+#~ msgstr "ಹುಡುಕು"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "ಯಾವ ಅನ್ವಯಗಳು ಚಟುವಟಿಕೆಗಳ ಅವಲೋಕನದಲ್ಲಿ ಹುಡುಕು ಫಲಿತಾಂಶವನ್ನು ತೋರಿಸುತ್ತದೆ "
+#~ "ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "ಶೋಧಿಸು;ಹುಡುಕು;ಸೂಚಿ;ಅಡಗಿಸು;ಗೌಪ್ಯತೆ;ಫಲಿತಾಂಶಗಳು;"
+
+#~ msgid "Search Locations"
+#~ msgstr "ಸ್ಥಳಗಳನ್ನು ಹುಡುಕು"
+
+#~ msgid "Move Up"
+#~ msgstr "ಮೇಲೆ ಜರುಗಿಸು"
+
+#~ msgid "Move Down"
+#~ msgstr "ಕೆಳಗೆ ಜರುಗಿಸು"
+
+#~ msgid "Preferences"
+#~ msgstr "ಆದ್ಯತೆಗಳು"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "ಆನ್"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "ಆಫ್"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "ಸಕ್ರಿಯಗೊಂಡ"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "ಸಕ್ರಿಯ"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "ಒಂದು ಕಡತಕೋಶವನ್ನು ಆರಿಸು"
+
+#~ msgid "Copy"
+#~ msgstr "ಪ್ರತಿಮಾಡು"
+
+#~ msgid "Sharing"
+#~ msgstr "ಹಂಚಿಕೆ"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "ನೀವು ಬೇರೆಯವರೊಂದಿಗೆ ಏನನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವಿರಿ ಎನ್ನುವುದನ್ನು ನಿಯಂತ್ರಿಸಿ"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;"
+#~ "video;pictures;photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "ಹಂಚು;ಹಂಚಿಕೆ;ssh;ಆತಿಥೇಯ;ಹೆಸರು;ದೂರಸ್ಥ;ಗಣಕತೆರೆ;ಬ್ಲೂಟೂತ್;obex;ಮಾಧ್ಯಮ;ಆಡಿಯೊ;ವೀಡಿಯೊ;"
+#~ "ಚಿತ್ರಗಳು;ಫೋಟೊಗಳು;ಚಲನಚಿತ್ರಗಳು;ಪೂರೈಕೆಗಣಕ;ನಿರೂಪಕ;"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "ದೂರಸ್ಥ ಪ್ರವೇಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ ಅಥವ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "ದೂರಸ್ಥ ಪ್ರವೇಶವನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಅಥವ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲು ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "ಹಂಚಿಕೊಳ್ಳಲು ಯಾವುದೆ ಜಾಲಬಂಧಗಳನ್ನು ಆರಿಸಲಾಗಿಲ್ಲ"
+
+#~ msgid "Networks"
+#~ msgstr "ಜಾಲಬಂಧಗಳು"
+
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಹಂಚಿಕೆ"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "ಬ್ಲೂಟೂತ್ ಹಂಚಿಕೆಯು ಕಡತಗಳನ್ನು ಇತರೆ ಬ್ಲೂಟೂತ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾದ ಸಾಧನಗಳೊಂದಿಗೆ "
+#~ "ಹಂಚಿಕೊಳ್ಳಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "ನಂಬಿಕಸ್ತ ಸಾಧನಗಳಿಂದ ಮಾತ್ರ ಸ್ವೀಕರಿಸು"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "ಸ್ವೀಕರಿಸಲಾದ ಕಡತಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಕಡತಕೋಶಕ್ಕೆ ಉಳಿಸು"
+
+#~ msgid "Computer Name"
+#~ msgstr "ಗಣಕದ ಹೆಸರು"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "ವೈಯಕ್ತಿಕ ಕಡತ ವಿನಿಮಯ"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "ತೆರೆ ಹಂಚಿಕೆ"
+
+#~ msgid "Media Sharing"
+#~ msgstr "ಮಾಧ್ಯಮ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ"
+
+#~ msgid "Remote Login"
+#~ msgstr "ದೂರಸ್ಥ ಪ್ರವೇಶ"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "ಯಾವುದೆ ಜಾಲಬಂಧ ಸೇವೆಯು ಇರದ ಕಾರಣ ಕೆಲವು ಸೇವೆಗಳು ನಿಷ್ಕ್ರಿಯವಾಗಿರುತ್ತವೆ."
+
+#, no-c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "ವೈಯಕ್ತಿಕ ಕಡತ ಹಂಚಿಕೆಯನ್ನು ಬಳಸಿಕೊಂಡು ನೀವು ಸಾರ್ವಜನಿಕ ಕಡತಕೋಶವನ್ನು ನಿಮ್ಮ ಪ್ರಸಕ್ತ "
+#~ "ಜಾಲಬಂಧದಲ್ಲಿರುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿರುತ್ತದೆ: <a href=\"dav://%s\">dav://"
+#~ "%s</a>"
+
+#~ msgid "Require Password"
+#~ msgstr "ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to connect using the Secure Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "ಈ ಸೆಕ್ಯೂರ್ ಶೆಲ್ ಆದೇಶವನ್ನು ಬಳಸಿಕೊಂಡು ದೂರಸ್ಥ ಬಳಕೆದಾರರು ಸಂಪರ್ಕಸಾಧಿಸಲು ಅನುಮತಿಸಿ:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to view or control your screen by connecting to: <a "
+#~ "href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "ಇದಕ್ಕೆ ಸಂಪರ್ಕ ಸಾಧಿಸುವ ಮುಖಾಂತರ ದೂರಸ್ಥ ಬಳಕೆದಾರರು ನಿಮ್ಮ ತೆರೆಯನ್ನು ನೋಡಲು ಅಥವ "
+#~ "ನಿಯಂತ್ರಿಸಲು ಅನುಮತಿಸಿ: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Allow Remote Control"
+#~ msgstr "ದೂರಸ್ಥ ನಿಯಂತ್ರಣವನ್ನು ಅನುಮತಿಸು"
+
+#~ msgid "Password:"
+#~ msgstr "ಗುಪ್ತಪದ:"
+
+#~ msgid "Show Password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ತೋರಿಸು"
+
+#~ msgid "Access Options"
+#~ msgstr "ನಿಲುಕು ಆಯ್ಕೆಗಳು"
+
+#~ msgid "New connections must ask for access"
+#~ msgstr "ಹೊಸ ಸಂಪರ್ಕಗಳು ನಿಲುಕಿಗಾಗಿ ಕೇಳಬೇಕು"
+
+#~ msgid "Require a password"
+#~ msgstr "ಒಂದು ಗುಪ್ತಪದದ ಅಗತ್ಯವಿದೆ"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "ಜಾಲಬಂಧದ ಮುಖಾಂತರ ಸಂಗೀತ, ಚಿತ್ರಗಳು ಮತ್ತು ವೀಡಿಯೊಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಿ."
+
+#~ msgid "Folders"
+#~ msgstr "ಕಡತಕೋಶಗಳು"
+
+#~ msgid "Sound"
+#~ msgstr "ಧ್ವನಿ"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "ಧ್ವನಿಯ ಪ್ರಮಾಣಗಳು, ಇನ್‌ಪುಟ್‌ಗಳು, ಔಟ್‌ಪುಟ್‌ಗಳು ಮತ್ತು ಎಚ್ಚರಿಕೆ ಸದ್ದುಗಳನ್ನು ಬದಲಾಯಿಸಿ"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr "ಕಾರ್ಡ್;ಧ್ವನಿವರ್ಧಕ;ಧ್ವನಿಪ್ರಮಾಣ;ಮಬ್ಬು;ಸಮತೋಲನ;ಬ್ಲೂಟೂತ್;ಹೆಡ್‌ಸೆಟ್;ಆಡಿಯೊ;"
+
+#~ msgid "Bark"
+#~ msgstr "ಬೊಗಳು"
+
+#~ msgid "Drip"
+#~ msgstr "ತೊಟ್ಟಿಕ್ಕು"
+
+#~ msgid "Glass"
+#~ msgstr "ಗಾಜು"
+
+#~ msgid "Sonar"
+#~ msgstr "ಸೋನಾರ್"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "ಎಡ"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "ಬಲ"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "ಹಿಂಬದಿ"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "ಎದುರು"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "ಕನಿಷ್ಟ"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "ಗರಿಷ್ಟ"
+
+#~ msgid "_Balance:"
+#~ msgstr "ಸಮತೋಲನ (_B):"
+
+#~ msgid "_Fade:"
+#~ msgstr "ಮಬ್ಬುಗೊಳಿಸು (_F):"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "ಸಬ್‌ವೂಫರ್ (_S):"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "ವರ್ಧಿಸದ"
+
+#~ msgid "_Profile:"
+#~ msgstr "ಪ್ರೊಫೈಲ್ (_P):"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u ಔಟ್‌ಪುಟ್"
+#~ msgstr[1] "%u ಔಟ್‌ಪುಟ್‌ಗಳು"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ಇನ್‌ಪುಟ್"
+#~ msgstr[1] "%u ಇನ್‌ಪುಟ್‌ಗಳು"
+
+#~ msgid "System Sounds"
+#~ msgstr "ವ್ಯವಸ್ಥೆಯ ಧ್ವನಿಗಳು"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "ಸ್ಪೀಕರುಗಳನ್ನು ಪರೀಕ್ಷಿಸು (_T)"
+
+#~ msgid "Peak detect"
+#~ msgstr "ಉತ್ತುಂಗದ ಪತ್ತೆ"
+
+#~ msgid "Name"
+#~ msgstr "ಹೆಸರು"
+
+#~ msgid "Device"
+#~ msgstr "ಸಾಧನ"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "%s ಗಾಗಿನ ಸ್ಪೀಕರುಗಳ ಪರೀಕ್ಷೆ"
+
+#~ msgid "_Output volume:"
+#~ msgstr "ಔಟ್‌ಪುಟ್ ಧ್ವನಿ ಪ್ರಮಾಣ (_O):"
+
+#~ msgid "Output"
+#~ msgstr "ಔಟ್‌ಪುಟ್"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "ಧ್ವನಿಯ ಇನ್‌ಪುಟ್‌ಗಾಗಿ ಒಂದು ಸಾಧನವನ್ನು ಆರಿಸಿ (_h):"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "ಆಯ್ಕೆ ಮಾಡಿದ ಸಾಧನದ ಸಿದ್ಧತೆಗಳು:"
+
+#~ msgid "Input"
+#~ msgstr "ಇನ್‌ಪುಟ್"
+
+#~ msgid "_Input volume:"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಧ್ವನಿ ಪ್ರಮಾಣ (_I):"
+
+#~ msgid "Input level:"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಹಂತ:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "ಧ್ವನಿಯ ಔಟ್‌ಪುಟ್‌ಗಾಗಿ ಒಂದು ಸಾಧನವನ್ನು ಆರಿಸಿ (_h):"
+
+#~ msgid "Sound Effects"
+#~ msgstr "ಧ್ವನಿ ಪರಿಣಾಮಗಳು"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "ಎಚ್ಚರಿಕೆ ಧ್ವನಿ ಪ್ರಮಾಣ (_A):"
+
+#~ msgid "Applications"
+#~ msgstr "ಅನ್ವಯಗಳು"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "ಯಾವುದೆ ಅನ್ವಯವು ಪ್ರಸ್ತುತ ಧ್ವನಿಯನ್ನು ಚಲಾಯಿಸುತ್ತಿಲ್ಲ."
+
+#~ msgid "Built-in"
+#~ msgstr "ಒಳನಿರ್ಮಿತ"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "ಧ್ವನಿಯ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "Testing event sound"
+#~ msgstr "ಘಟನೆ ಶಬ್ಧವನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Default"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
+
+#~ msgid "From theme"
+#~ msgstr "ಪರಿಸರವಿನ್ಯಾಸದಿಂದ"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "ಒಂದು ಎಚ್ಚರಿಕೆ ಧ್ವನಿಯನ್ನು ಆರಿಸಿ (_h):"
+
+#~ msgid "Stop"
+#~ msgstr "ನಿಲ್ಲಿಸು"
+
+#~ msgid "Test"
+#~ msgstr "ಪರೀಕ್ಷೆ"
+
+#~ msgid "Subwoofer"
+#~ msgstr "ಸಬ್‌ವೂಫರ್"
+
+#~ msgid "Custom"
+#~ msgstr "ಇಚ್ಛೆಯ"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "ನೋಡಲು, ಕೇಳಲು, ಬರೆಯಲು, ತೋರಿಸಲು ಮತ್ತು ಕ್ಲಿಕ್ ಮಾಡಲು ಸುಲಭಗೊಳಿಸು"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "ಕೀಲಿಮಣೆ;ಮೌಸ್;a11y;ನಿಲುಕು;ಕಾಂಟ್ರಾಸ್ಟ್;ಗಾತ್ರಬದಲಾವಣೆ;ತೆರೆ ಓದುಗ;ಪಠ್ಯ;ಅಕ್ಷರಶೈಲಿ;ಗಾತ್ರ;"
+#~ "AccessX;ಸ್ಟಿಕಿ;ಕೀಲಿಗಳು;ನಿಧಾನಗತಿ;ಪುಟಿಯುವ;ಮೌಸ್‌;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "ಯಾವಾಗಲೂ ಜಾಗತಿಕ ನಿಲುಕಣೆ ಪರಿವಿಡಿಯನ್ನು ತೋರಿಸು (_A)"
+
+#~ msgid "Seeing"
+#~ msgstr "ನೋಡುವಿಕೆ"
+
+#~ msgid "_High Contrast"
+#~ msgstr "ಅತಿಹೆಚ್ಚು ಕಾಂಟ್ರಾಸ್ಟ್ (_H)"
+
+#~ msgid "_Large Text"
+#~ msgstr "ದೊಡ್ಡ ಪಠ್ಯ (_L)"
+
+#~ msgid "_Zoom"
+#~ msgstr "ಹಿಗ್ಗಿಸು (_Z)"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "ತೆರೆ ಓದುಗ (_R)"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "ಧ್ವನಿ ಕೀಲಿಗಳು (_S)"
+
+#~ msgid "Hearing"
+#~ msgstr "ಆಲಿಸುವಿಕೆ"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "ವೀಶುವಲ್ ಎಚ್ಚರಿಕೆಗಳು (_V)"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "ತೆರೆ ಮೇಲಿನ ಕೀಲಿಮಣೆ (_K)"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "ಟೈಪಿಂಗ್ ಸಹಾಯ (_T) (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "ತೆರೆಸೂಚಕವನ್ನು ಇರಿಸುವಿಕೆ ಮತ್ತು ಕ್ಲಿಕ್ ಮಾಡುವಿಕೆ"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "ಮೌಸ್ ಕೀಲಿಗಳು (_M)"
+
+#~ msgid "_Click Assist"
+#~ msgstr "ಕ್ಲಿಕ್ ಸಹಾಯ (_C)"
+
+#~ msgid "Screen Reader"
+#~ msgstr "ತೆರೆ ಓದುಗ"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "ನೀವು ಗಮನವನ್ನು ಬದಲಾಯಿಸಿದಂತೆಲ್ಲಾ ತೆರೆಯ ಓದುಗವು ತೋರಿಸಲಾಗುತ್ತಿರುವ ಪಠ್ಯವನ್ನು ಓದುತ್ತದೆ."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "ತೆರೆ ಓದುಗ (_S)"
+
+#~ msgid "Sound Keys"
+#~ msgstr "ಧ್ವನಿ ಕೀಲಿಗಳು"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on."
+#~ msgstr "Num Lock ಅಥವ Caps Lock ಅನ್ನು ಆನ್ ಮಾಡಿದಾಗ ಬೀಪ್ ಶಬ್ಧ ಮಾಡು."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "ದೃಷ್ಟಿಗೋಚರ ಎಚ್ಚರಿಕೆಗಳು"
+
+#~ msgid "_Test flash"
+#~ msgstr "ಪ್ರಾಯೋಗಿಕ ಫ್ಲ್ಯಾಶ್ (_T)"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "ಒಂದು ಎಚ್ಚರಿಕೆಯ ಸದ್ದನ್ನು ಮಾಡಿದಾಗ ಒಂದು ಸೂಚನೆಯನ್ನು ತೋರಿಸು."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "ಕಿಟಕಿ ಶೀರ್ಷಿಕೆ ಪಟ್ಟಿಯನ್ನು ಹೊಳೆಯುವಂತೆ ಮಾಡು (_w)"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "ಸಂಪೂರ್ಣ ತೆರೆಯನ್ನು ಹೊಳೆಯುವಂತೆ ಮಾಡಿ (_s)"
+
+#~ msgid "Typing Assist"
+#~ msgstr "ಟೈಪಿಂಗ್ ಸಹಾಯ"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳು (_S)"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "ಮಾರ್ಪಡಕ ಕೀಲಿಗಳ ಒಂದು ಸರಣಿಯನ್ನು ಕೀಲಿ ಸಂಯೋಜನೆಯಾಗಿ ಪರಿಗಣಿಸುತ್ತದೆ"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "ಎರಡು ಕೀಲಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತಿದಲ್ಲಿ ಅಶಕ್ತಗೊಳಿಸು (_D)s"
+
+#~| msgid "Beep when a _modifer key is pressed"
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "ಮಾರ್ಪಡಕ ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಬೀಪ್ ಶಬ್ಧ ಮಾಡು (_m)"
+
+#~ msgid "S_low Keys"
+#~ msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳು (_l)"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr ""
+#~ "ಕೀಲಿಯನ್ನು ಯಾವಾಗ ಒತ್ತಲಾಗುತ್ತದೆ ಮತ್ತು ಯಾವಾಗ ಅಂಗೀಕರಿಸಲ್ಪಡುತ್ತದೆ ಎನ್ನುವುದರ ನಡುವೆ "
+#~ "ಒಂದು ವಿಳಂಬವನ್ನು ಸೇರಿಸುತ್ತದೆ"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "ಅಂಗೀಕರಿಸಬಹುದಾದ ವಿಳಂಬ (_c):"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳ ನಮೂದಿಸುವ ವಿಳಂಬ"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "ಒಂದು ಕೀಲಿಯನ್ನು ಒತ್ತಿದಾಗ ಬೀಪ್ ಶಬ್ಧ ಮಾಡು (_e)"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "ಒಂದು ಕೀಲಿಯು ಅಂಗೀಕರಿಸಿದಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು (_a)"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "ಒಂದು ಕೀಲಿಯು ತಿರಸ್ಕರಿಸಲ್ಪಟ್ಟಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು (_r)"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "ಪುಟಿಯುವ ಕೀಲಿಗಳು (_B)"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "ವೇಗವಾದ ನಕಲಿ ಕೀಲಿಒತ್ತುವಿಕೆಗಳನ್ನು ಕಡೆಗಣಿಸಿ"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "ಪುಟಿಕೆ ಕೀಲಿಗಳನ್ನು ನಮೂದಿಸುವಲ್ಲಿ ವಿಳಂಬ"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "ಕೀಲಿಮಣೆಯಿಂದ ಸಕ್ರಿಯಗೊಳಿಸು (_E)"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "ಕೀಲಿಮಣೆಯಿಂದ ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳನ್ನು ಆನ್ ಮತ್ತು ಆಫ್ ಮಾಡಿ"
+
+#~ msgid "Click Assist"
+#~ msgstr "ಕ್ಲಿಕ್ ಸಹಾಯಕ"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "ಸಿಮುಲೇಟ್ ಆದ ದ್ವಿತೀಯ ಕ್ಲಿಕ್ (_S)"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "ಪ್ರಾಥಮಿಕ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿಯುವ ಮೂಲಕ ಅಪ್ರಮುಖ ಕ್ಲಿಕ್‌ ಅನ್ನು ಆರಂಭಿಸಿ"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "ಅಪ್ರಮುಖ ಕ್ಲಿಕ್ ವಿಳಂಬ"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgid "_Hover Click"
+#~ msgstr "ಸುಳಿದಾಡಿಕೆಯ ಕ್ಲಿಕ್ (_H)"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "ಸೂಚಕವನ್ನು ಸುಳಿದಾಡಿಸಿದಾಗ ಕ್ಲಿಕ್‌ ಆಗುವಂತೆ ಮಾಡಿ"
+
+#~ msgid "D_elay:"
+#~ msgstr "ವಿಳಂಬ (_e):"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "ಚಲನೆಯ ಮಿತಿ (_T):"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "ಅತಿಚಿಕ್ಕ"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "ಅತಿದೊಡ್ಡ"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "ಕಿರು"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "ತೆರೆಯ ¼"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "ತೆರೆಯ ½"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "ತೆರೆಯ ¾"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದ"
+
+#~ msgid "Full Screen"
+#~ msgstr "ಪೂರ್ಣ ತೆರೆ"
+
+#~ msgid "Top Half"
+#~ msgstr "ಮೇಲಿನ ಅರ್ಧ"
+
+#~ msgid "Bottom Half"
+#~ msgstr "ಕೆಳಗಿನ ಅರ್ಧ"
+
+#~ msgid "Left Half"
+#~ msgstr "ಎಡ ಅರ್ಧ"
+
+#~ msgid "Right Half"
+#~ msgstr "ಬಲ ಅರ್ಧ"
+
+#~ msgid "Zoom Options"
+#~ msgstr "ಹಿಗ್ಗಿಸುವ ಆಯ್ಕೆಗಳು"
+
+#~ msgid "Zoom"
+#~ msgstr "ಹಿಗ್ಗಿಸು"
+
+#~ msgid "Magnification:"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫಿಕೇಶನ್:"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "ಮೌಸ್‌ನ ಸೂಚಕವನ್ನು ಅನುಸರಿಸು"
+
+#~ msgid "Screen part:"
+#~ msgstr "ತೆರೆಯ ಭಾಗ:"
+
+#~ msgid "Magnifier extends outside of screen"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫಯರ್ ತೆರೆಯ ಹೊರಗೆ ವ್ಯಾಪಿಸುತ್ತದೆ"
+
+#~ msgid "Keep magnifier cursor centered"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರ್ ತೆರೆಸೂಚಕವನ್ನು ಮಧ್ಯಕ್ಕೆ ಹೊಂದಿಸು"
+
+#~ msgid "Magnifier cursor pushes contents around"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರ್ ತೆರೆಸೂಚಕವು ವಿಷಯಗಳನ್ನು ಸುತ್ತಲೂ ತಳ್ಳುತ್ತದೆ"
+
+#~ msgid "Magnifier cursor moves with contents"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರ್ ತೆರೆಸೂಚಕವು ವಿಷಯಗಳೊಂದಿಗೆ ಸ್ಥಳಾಂತರಗೊಳ್ಳುತ್ತದೆ"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರ್ ಸ್ಥಾನ:"
+
+#~ msgid "Magnifier"
+#~ msgstr "ಮ್ಯಾಗ್ನಿಫೈರ್"
+
+#~ msgid "Thickness:"
+#~ msgstr "ದಪ್ಪ:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "ತೆಳುವಾದ"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "ದಪ್ಪವಾದ"
+
+#~ msgid "Length:"
+#~ msgstr "ಉದ್ದ:"
+
+#~ msgid "Color:"
+#~ msgstr "ಬಣ್ಣ:"
+
+#~ msgid "Crosshairs:"
+#~ msgstr "ಅಡ್ಡಗೆರೆಗಳು:"
+
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "ಮೌಸ್‌ನ ತೆರೆಸೂಚಕದ ಮೇಲೆ ಆವರಿಸುತ್ತದೆ"
+
+#~ msgid "Crosshairs"
+#~ msgstr "ಅಡ್ಡಗೆರೆಗಳು:"
+
+#~ msgid "White on black:"
+#~ msgstr "ಕಪ್ಪು ಬಣ್ಣದಲ್ಲಿ ಬಿಳಿ:"
+
+#~ msgid "Brightness:"
+#~ msgstr "ಪ್ರಕಾಶ:"
+
+#~ msgid "Contrast:"
+#~ msgstr "ವೈದೃಶ್ಯ:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "ಬಣ್ಣ"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "ಸಂಪೂರ್ಣ"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "ಕೆಳ ಮಟ್ಟದ"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "ಕೆಳ ಮಟ್ಟದ"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgid "Color Effects:"
+#~ msgstr "ಬಣ್ಣದ ಪರಿಣಾಮಗಳು:"
+
+#~ msgid "Color Effects"
+#~ msgstr "ಬಣ್ಣದ ಪರಿಣಾಮಗಳು"
+
+#~ msgid "_Verify"
+#~ msgstr "ಪರಿಶೀಲಿಸು (_V)"
+
+#~ msgid "_Enroll"
+#~ msgstr "ನೋಂದಾಯಿಸು (_E)"
+
+#~ msgid "Login History"
+#~ msgstr "ಪ್ರವೇಶದ ಇತಿಹಾಸ"
+
+#~ msgid "Add User Account"
+#~ msgstr "ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಸೇರಿಸು"
+
+#~ msgid "Remove User Account"
+#~ msgstr "ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕು"
+
+#~ msgid "_Language"
+#~ msgstr "ಭಾಷೆ (_L)"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "ಬಳಕೆದಾರ ಖಾತೆಗಳನ್ನು ನಿರ್ವಹಿಸಿ"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "ಬಳಕೆದಾರರ ಮಾಹಿತಿಯನ್ನು ಬದಲಾಯಿಸಲು ದೃಢೀಕರಣದ ಅಗತ್ಯವಿದೆ"
+
+#, c-format
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "'%s' ಎಂಬ ಹೆಸರಿನ ಒಬ್ಬ ಬಳಕೆದಾರ ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದ್ದಾರೆ."
+
+#~ msgid "Map Buttons"
+#~ msgstr "ಮ್ಯಾಪ್ ಗುಂಡಿಗಳು"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "ಕಾರ್ಯಭಾರಗಳ ಮ್ಯಾಪ್ ಗುಂಡಿಗಳು"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "ಒಂದು ಸಮೀಪಮಾರ್ಗ ಕೀಲಿಯನ್ನು ಸಂಪಾದಿಸಲು, \"ಕೀಲಿಹೊಡೆತವನ್ನು ಕಳುಹಿಸು\" ಕ್ರಿಯೆಯನ್ನು "
+#~ "ಆರಿಸಿ, ಕೀಲಿಮಣೆ ಸಮೀಪಮಾರ್ಗ ಗುಂಡಿಯನ್ನು ಒತ್ತಿ ನಂತರ ಹೊಸ ಕೀಲಿಗಳನ್ನು ಒತ್ತಿಹಿಡಿಯಿರಿ "
+#~ "ಅಥವ ಅಳಿಸಲು ಬ್ಯಾಕ್‍ಸ್ಪೇಸನ್ನು ಒತ್ತಿ."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "ಟ್ಯಾಬ್ಲೆಟ್ ಅನ್ನು ಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡಲು ತೆರೆಯ ಮೇಲೆ ಗುರಿಯ ಗುರುತುಗಳು ಕಾಣಿಸಿಕೊಂಡಾಗ "
+#~ "ಅವುಗಳ ಮೇಲೆ ಮೆಲ್ಲಗೆ ತಟ್ಟಿ."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "ತಪ್ಪು-ಕ್ಲಿಕ್ ಕಂಡುಬಂದಿದೆ, ಮರಳಿ ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "ಮೇಲೆ"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "ಕೆಳಕ್ಕೆ"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "ಕೀಲಿಹೊಡೆತವನ್ನು ಕಳುಹಿಸು"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "ತೆರೆಯನ್ನು ಬದಲಿಸು"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "ತೆರೆಯ ಮೇಲಣ ನೆರವನ್ನು ತೋರಿಸು"
+
+#~ msgid "Output:"
+#~ msgstr "ಔಟ್‌ಪುಟ್:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "ರೂಪದ ಅನುಪಾತವನ್ನು ಹಾಗೆಯೆ ಇರಿಸಿಕೊ (ಓಲೆಪೆಟ್ಟಿಗೆ):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "ಒಂದು ತೆರೆಗೆ ಮ್ಯಾಪ್ ಮಾಡು"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d, %d ರಲ್ಲಿ"
+
+#~ msgid "Display Mapping"
+#~ msgstr "ಪ್ರದರ್ಶಕ ಮ್ಯಾಪಿಂಗ್"
+
+#~ msgid "Button"
+#~ msgstr "ಗುಂಡಿ"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "ವೇಕಾಮ್ ಕಿಸೆಗಣಕ (ಟ್ಯಾಬ್ಲೆಟ್)"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "ಗ್ರಾಫಿಕ್ಸ್ ಟ್ಯಾಬ್ಲೆಟ್‌ಗಳಿಗಾಗಿ ಗುಂಡಿಯ ಮ್ಯಾಪಿಂಗ್ ಅನ್ನು ಹೊಂದಿಸಿ ಮತ್ತು ಸ್ಟೈಲಸ್ "
+#~ "ಸಂವೇದಿಸೂಕ್ಷ್ಮತೆಯನ್ನು ಹೊಂದಿಸಿ"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "ಟ್ಯಾಬ್ಲೆಟ್;ವೇಕಾಮ್;ಸ್ಟೈಲಸ್;ಉಜ್ಜುಗ;ಮೌಸ್;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "ಟ್ಯಾಬ್ಲೆಟ್ (ಪರಿಪೂರ್ಣ)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "ಟಚ್‌ಪ್ಯಾಡ್ (ತುಲನಾತ್ಮಕ)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "ಕಿಸಗಣಕದ ಆದ್ಯತೆಗಳು"
+
+#~ msgid "No tablet detected"
+#~ msgstr "ಯಾವುದೆ ಕಿಸೆಗಣಕವು (ಟ್ಯಾಬ್ಲೆಟ್) ಕಂಡುಬಂದಿಲ್ಲ"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ವೇಕಾಮ್ ಕಿಸೆಗಣಕದೊಂದಿಗೆ (ಟ್ಯಾಬ್ಲೆಟ್) ಸಂಪರ್ಕಜೋಡಿಸಿ ಅಥವ ಅದನ್ನು ಚಾಲನೆಗೊಳಿಸಿ"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಸಿದ್ಧತೆಗಳು"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "ತೆರೆಗೆ ಮ್ಯಾಪ್ ಮಾಡು..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "ಗುಂಡಿಗಳನ್ನು ಮ್ಯಾಪ್ ಮಾಡು"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "ಪ್ರದರ್ಶಕದ ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಸರಿಹೊಂದಿಸು"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "ಮೌಸ್‌ನ ಸಿದ್ಧತೆಗಳನ್ನು ಸರಿಹೊಂದಿಸು"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "ಜಾಡು ಇರಿಸುವ ಕ್ರಮ"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "ಎಡ-ಭಾಗದ ವಾಲಿಕೆ"
+
+#~ msgid "Left Ring"
+#~ msgstr "ಎಡ ರಿಂಗ್"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "ಎಡ ರಿಂಗ್ ವಿಧಾನ #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "ಬಲ ರಿಂಗ್"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "ಬಲ ರಿಂಗ್ ವಿಧಾನ #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "ಎಡ ಟಚ್‌ಸ್ಟ್ರಿಪ್"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "ಎಡ ಟಚ್‌ಸ್ಟ್ರಿಪ್ ವಿಧಾನ #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "ಬಲ ಟಚ್‌ಸ್ಟ್ರಿಪ್"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "ಬಲ ಟಚ್‌ಸ್ಟ್ರಿಪ್ ವಿಧಾನ #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "ಎಡ ಟಚ್‌ರಿಂಗ್ ವಿಧಾನ ಬದಲಾವಣೆ"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "ಬಲ ಟಚ್‌ರಿಂಗ್ ವಿಧಾನ ಬದಲಾವಣೆ"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "ಎಡ ಟಚ್‌ಸ್ಟ್ರಿಪ್ ವಿಧಾನ ಬದಲಾವಣೆ"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "ಬಲ ಟಚ್‌ಸ್ಟ್ರಿಪ್ ವಿಧಾನ ಬದಲಾವಣೆ"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "ವಿಧಾನದ ಬದಲಾವಣೆ #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "ಎಡ ಗುಂಡಿ #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "ಬಲ ಗುಂಡಿ #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "ಮೇಲಿನ ಗುಂಡಿ #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "ಕೆಳಗಿನ ಗುಂಡಿ #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "ಹೊಸ ಸಮೀಪಮಾರ್ಗ..."
+
+#~ msgid "No Action"
+#~ msgstr "ಯಾವುದೆ ಕ್ರಿಯೆಯಿಲ್ಲ"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "ಮೌಸ್‌ನ ಎಡ ಗುಂಡಿಯ ಕ್ಲಿಕ್"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "ಮೌಸ್‌ನ ಮಧ್ಯ ಗುಂಡಿಯ ಕ್ಲಿಕ್"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "ಮೌಸ್‌ನ ಬಲ ಗುಂಡಿಯ ಕ್ಲಿಕ್"
+
+#~ msgid "Scroll Up"
+#~ msgstr "ಮೇಲಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "Scroll Down"
+#~ msgstr "ಕೆಳಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "Scroll Left"
+#~ msgstr "ಎಡಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "Scroll Right"
+#~ msgstr "ಬಲಕ್ಕೆ ಚಲಿಸು"
+
+#~ msgid "Back"
+#~ msgstr "ಹಿಂದಕ್ಕೆ"
+
+#~ msgid "Forward"
+#~ msgstr "ಮುಂದಕ್ಕೆ"
+
+#~ msgid "Stylus"
+#~ msgstr "ಸ್ಟೈಲಸ್"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "ಉಜ್ಜುಗದ ಒತ್ತಡದ ಅನುಭವ"
+
+#~ msgid "Soft"
+#~ msgstr "ಮೃದು"
+
+#~ msgid "Firm"
+#~ msgstr "ಭದ್ರ"
+
+#~ msgid "Top Button"
+#~ msgstr "ಮೇಲಿನ ಗುಂಡಿ"
+
+#~ msgid "Lower Button"
+#~ msgstr "ಕೆಳಗಿನ ಗುಂಡಿ"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "ತುದಿಯ ಒತ್ತಡದ ಅನುಭವ"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "ವರ್ಬೋಸ್ ಕ್ರಮವನ್ನು ಶಕ್ತಗೊಳಿಸಿ"
+
+#~ msgid "Show the overview"
+#~ msgstr "ಅವಲೋಕನವನ್ನು ತೋರಿಸು"
+
+#~ msgid "Search for the string"
+#~ msgstr "ವಾಕ್ಯಾಂಶಕ್ಕಾಗಿ ಹುಡುಕು"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "ಸಾಧ್ಯವಿರುವ ಫಲಕದ ಹೆಸರುಗಳನ್ನು ಪಟ್ಟಿ ಮಾಡಿ ನಿರ್ಗಮಿಸು"
+
+#~ msgid "Show help options"
+#~ msgstr "ಸಹಾಯ ಆಯ್ಕೆಯನ್ನು ತೋರಿಸು"
+
+#~ msgid "Panel to display"
+#~ msgstr "ತೋರಿಸಬೇಕಿರುವ ಫಲಕ"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "- Settings"
+#~ msgstr "- ಸಿದ್ಧತೆಗಳು"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "ಲಭ್ಯವಿರುವ ಎಲ್ಲಾ ಆಜ್ಞಾ ಸಾಲಿನ ಆಯ್ಕೆಗಳನ್ನು ನೋಡಲು '%s --help' ಅನ್ನು ಚಲಾಯಿಸಿ.\n"
+
+#~ msgid "Available panels:"
+#~ msgstr "ಲಭ್ಯವಿರುವ ಪ್ಯಾನಲ್‌ಗಳು:"
+
+#~ msgid "Help"
+#~ msgstr "ನೆರವು"
+
+#~ msgid "Quit"
+#~ msgstr "ನಿರ್ಗಮಿಸು"
+
+#~ msgid "All Settings"
+#~ msgstr "ಎಲ್ಲಾ ಸಿದ್ಧತೆಗಳು"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "ವೈಯಕ್ತಿಕ"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "ಯಂತ್ರಾಂಶ"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "ವ್ಯವಸ್ಥೆ"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "ಆದ್ಯತೆಗಳು;ಸಿದ್ಧತೆಗಳು;"
+
+#~ msgid "United States"
+#~ msgstr "ಯುನೈಟೆಡ್ ಸ್ಟೇಟ್ಸ್‍"
+
+#~ msgid "Germany"
+#~ msgstr "ಜರ್ಮನಿ"
+
+#~ msgid "France"
+#~ msgstr "ಫ್ರಾನ್ಸ್‍"
+
+#~ msgid "Spain"
+#~ msgstr "ಸ್ಪೇನ್"
+
+#~ msgid "China"
+#~ msgstr "ಚೈನಾ"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "ಹೊಸ ಸಾಧನವನ್ನು ಸಿದ್ಧಗೊಳಿಸು"
+
+#~ msgid "Connection"
+#~ msgstr "ಸಂಪರ್ಕ"
+
+#~ msgid "Paired"
+#~ msgstr "ಜೋಡಿಸಿದ"
+
+#~ msgid "Type"
+#~ msgstr "ಬಗೆ"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "ಮೌಸ್‌ ಮತ್ತು ಟಚ್‌ಪ್ಯಾಡ್ ಸಿದ್ಧತೆಗಳು"
+
+#~ msgid "Sound Settings"
+#~ msgstr "ಧ್ವನಿ ಸಿದ್ಧತೆಗಳು"
+
+#~ msgid "Send Files…"
+#~ msgstr "ಕಡತಗಳನ್ನು ಕಳುಹಿಸು…"
+
+#~ msgid "Visibility"
+#~ msgstr "ಗೋಚರಿಕೆ"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "“%s” ನ ಗೋಚರಿಕೆ"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "'%s' ಅನ್ನು ಸಾಧನಗಳ ಪಟ್ಟಿಯಿಂದ ತೆಗೆದುಹಾಕಬೇಕೆ?"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "ನೀವು ಈ ಸಾಧನವನ್ನು ತೆಗೆದುಹಾಕಿದಲ್ಲಿ, ಮುಂದಿನ ಬಾರಿ ಬಳಸುವ ಮೊದಲು ಇದನ್ನು ಪುನಃ "
+#~ "ಇನ್ನೊಮ್ಮೆ ಸಿದ್ಧಗೊಳಿಸಬೇಕಾಗುತ್ತದೆ."
+
+#~ msgid "Export"
+#~ msgstr "ರಫ್ತು"
+
+#~ msgid "Device type:"
+#~ msgstr "ಸಾಧನದ ಬಗೆ:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "ತಯಾರಕರು:"
+
+#~ msgid "Model:"
+#~ msgstr "ಮಾದರಿ:"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr ""
+#~ "ಮೇಲಿನ ಸ್ಥಳಗಳನ್ನು ಸ್ವಯಂ ಪೂರ್ಣಗೊಳ್ಳುವಂತೆ ಮಾಡಲು ಚಿತ್ರಗಳ ಕಡತಗಳನ್ನು ಈ ಕಿಟಕಿಗೆ "
+#~ "ಸೇರಿಸಬಹುದು"
+
+#~ msgid "Left Shift"
+#~ msgstr "ಎಡ Shift"
+
+#~ msgid "Left Alt"
+#~ msgstr "ಎಡ Alt"
+
+#~ msgid "Left Ctrl"
+#~ msgstr "ಎಡ Ctrl"
+
+#~ msgid "Right Shift"
+#~ msgstr "ಬಲ Shift"
+
+#~ msgid "Right Alt"
+#~ msgstr "ಬಲ Alt"
+
+#~ msgid "Right Ctrl"
+#~ msgstr "ಬಲ Ctrl"
+
+#~ msgid "Left Alt+Shift"
+#~ msgstr "ಎಡ Alt+Shift"
+
+#~ msgid "Left Ctrl+Shift"
+#~ msgstr "ಎಡ Ctrl+Shift"
+
+#~ msgid "Right Ctrl+Shift"
+#~ msgstr "ಬಲ Ctrl+Shift"
+
+#~ msgid "Alt+Shift"
+#~ msgstr "Alt+Shift"
+
+#~ msgid "Ctrl+Shift"
+#~ msgstr "Ctrl+Shift"
+
+#~ msgid "Alt+Ctrl"
+#~ msgstr "Alt+Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "ಕ್ಯಾಪ್ಸ್"
+
+#~ msgid "Shift+Caps"
+#~ msgstr "Shift+ಕ್ಯಾಪ್ಸ್‍"
+
+#~ msgid "Alt+Caps"
+#~ msgstr "Alt+ಕ್ಯಾಪ್ಸ್"
+
+#~ msgid "_Region:"
+#~ msgstr "ಪ್ರದೇಶ (_R):"
+
+#~ msgid "_City:"
+#~ msgstr "ಊರು (_C):"
+
+#~ msgid "_Network Time"
+#~ msgstr "ಜಾಲಬಂಧ ಸಮಯ (_N)"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "ಗಂಟೆಯನ್ನು ಒಂದು ಗಂಟೆ ಮುಂದಕ್ಕೆ ಹೊಂದಿಸಿ."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "ಗಂಟೆಯನ್ನು ಒಂದು ಗಂಟೆ ಹಿಂದಕ್ಕೆ ಹೊಂದಿಸಿ."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "ಗಂಟೆಯನ್ನು ಒಂದು ನಿಮಿಷ ಮುಂದಕ್ಕೆ ಹೊಂದಿಸಿ."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "ಗಂಟೆಯನ್ನು ಒಂದು ನಿಮಿಷ ಹಿಂದಕ್ಕೆ ಹೊಂದಿಸಿ."
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "AM ಮತ್ತು PM ನಡುವೆ ಬದಲಾಯಿಸು."
+
+#~ msgid "AM/PM"
+#~ msgstr "AM/PM"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Counterclockwise"
+#~ msgstr "ಅಪ್ರದಕ್ಷಿಣೆ"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "ಪ್ರದಕ್ಷಿಣೆ"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 ಡಿಗ್ರಿಗಳು"
+
+#~ msgid "Monitor"
+#~ msgstr "ಪರದೆ"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "ಪ್ರಾಥಮಿಕ ಪ್ರದರ್ಶಕವನ್ನು ಬದಲಾಯಿಸಲು ಎಳೆಯಿರಿ."
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "ಒಂದು ತೆರೆಯ ಗುಣಗಳನ್ನು ಬದಲಾಯಿಸಲು ಅದನ್ನು ಆಯ್ಕೆ ಮಾಡಿ; ಅದರ ಸ್ಥಾನವನ್ನು ಬದಲಾಯಿಸಲು "
+#~ "ಅದನ್ನು ಎಳೆಯಿರಿ."
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "ಪ್ರದರ್ಶಕಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "_Resolution"
+#~ msgstr "ರೆಸಲ್ಯೂಶನ್ (_R)"
+
+#~ msgid "R_otation"
+#~ msgstr "ತಿರುಗಿಸುವಿಕೆ (_o)"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "ಪ್ರತಿಬಿಂಬಿತ ಪ್ರದರ್ಶಕಗಳು (_M)"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "ಸೂಚನೆ: ರೆಸಲ್ಯೂಶನ್ ಆಯ್ಕೆಗಳನ್ನು ಮಿತಿಗೊಳಿಸಬಹುದು"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "ಪ್ರದರ್ಶಕಗಳನ್ನು ಪತ್ತೆ ಮಾಡು (_D)"
+
+#~ msgid "Install Updates"
+#~ msgstr "ಅಪ್‌ಡೇಟ್‌ಗಳನ್ನು ಅನುಸ್ಥಾಪಿಸು"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "ವ್ಯವಸ್ಥೆಯು ಅಪ್-ಟು-ಡೇಟ್ ಆಗಿದೆ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0, author Shankar
+#~ msgid "OS Type"
+#~ msgstr "OS ಬಗೆ"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "ಮೌಸ್ ಆದ್ಯತೆಗಳು"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Slow"
+#~ msgstr "ನಿಧಾನ"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Fast"
+#~ msgstr "ವೇಗ"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "ವಿಷಯಗಳು ಬೆರಳಿಗೆ ಅಂಟಿಕೊಳ್ಳುತ್ತವೆ (_o)"
+
+#~ msgid "_Options…"
+#~ msgstr "ಆಯ್ಕೆಗಳು (_O)…"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "ಹೊಸ ಸೇವೆಯಲ್ಲಿ ಬಳಸಬೇಕಿರುವ ಸಂಪರ್ಕಸಾಧನವನ್ನು ಆರಿಸಿ"
+
+#~ msgid "C_reate…"
+#~ msgstr "ರಚಿಸು (_r)…"
+
+#~ msgid "_Interface"
+#~ msgstr "ಸಂಪರ್ಕಸಾಧನ (_I)"
+
+#~ msgid "_Default"
+#~ msgstr "ಪೂರ್ವನಿಯೋಜಿತ (_D)"
+
+#~ msgid "Hidden"
+#~ msgstr "ಅಡಗಿಸಲಾದ"
+
+#~ msgid "Visible"
+#~ msgstr "ಗೋಚರ"
+
+#~ msgid "Name & Visibility"
+#~ msgstr "ಹೆಸರು ಮತ್ತು ಗೋಚರಿಕೆ"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr ""
+#~ "ತೆರೆಯ ಮೇಲೆ ಮತ್ತು ಜಾಲಬಂಧದಲ್ಲಿ ನೀವು ಹೇಗೆ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತೀರಿ ಎನ್ನುವುದನ್ನು "
+#~ "ನಿಯಂತ್ರಿಸಿ."
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "ಸಂಪೂರ್ಣ ಹೆಸರನ್ನು ಮೇಲಿನ ಪಟ್ಟಿಯಲ್ಲಿ ತೋರಿಸು (_f)"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "ಸಂಪೂರ್ಣ ಹೆಸರನ್ನು ಲಾಕ್ ತೆರೆಯಲ್ಲಿ ತೋರಿಸು (_l)"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "ರಹಸ್ಯವಾದ ವಿಧಾನ (_S)"
+
+#~ msgid "Immediately"
+#~ msgstr "ತಕ್ಷಣ"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "ಯಾವುದೂ ಇಲ್ಲ"
+
+#~ msgid "Share Public Folder"
+#~ msgstr "ಸಾರ್ವಜನಿಕೆ ಕಡತಕೋಶವನ್ನು ಹಂಚಿಕೊ"
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "ಕೇವಲ ನಂಬಿಕಸ್ತ ಸಾಧನಗಳೊಂದಿಗೆ ಮಾತ್ರ ಹಂಚಿಕೊ"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "ಈ ಜಾಲಬಂಧದಲ್ಲಿ ಮಾಧ್ಯಮವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ"
+
+#~ msgid "Shared Folders"
+#~ msgstr "ಹಂಚಲಾದ ಕಡತಕೋಶಗಳು"
+
+#~ msgid "column"
+#~ msgstr "ಉದ್ದಸಾಲು"
+
+#~ msgid "Remove Folder"
+#~ msgstr "ಕಡತಕೋಶವನ್ನು ತೆಗೆದುಹಾಕು"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "ಸಾರ್ವಜನಿಕ ಕಡತಕೋಶವನ್ನು ಈ ಜಾಲಬಂಧದಲ್ಲಿ ಹಂಚಿಕೊಳ್ಳಿ"
+
+#~ msgid "Remote View"
+#~ msgstr "ದೂರಸ್ಥ ನೋಟ"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "ಎಲ್ಲಾ ಸಂಪರ್ಕಗಳನ್ನು ಅಂಗೀಕರಿಸು"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "ಉತ್ತಮ/ವಿಲೋಮ"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "ತೆರೆ ಮೇಲಿನ ಕೀಲಿಮಣೆ"
+
+#~ msgid "OnBoard"
+#~ msgstr "ಆನ್‌ಬೋರ್ಡ್"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "ಸಾಮಾನ್ಯ"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "ದೊಡ್ಡದಾದ"
+
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "ಕ್ಯಾಪ್ಸ್‍ ಮತ್ತು ನಮ್ ಲಾಕ್‌ ಸಕ್ರಿಯವಾಗಿದ್ದಾಗ ಬೀಪ್"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "ಆನ್ ಅಥವ ಆಫ್ ಮಾಡಿ:"
+
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "ಗಾತ್ರಬದಲಿಸು"
+
+#~ msgid "Zoom in:"
+#~ msgstr "ಹಿಗ್ಗಿಸು:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "ಕುಗ್ಗಿಸು:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆ ನೀಡಿಕೆ"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "ವಾಕ್ ಮತ್ತು ಧ್ವನಿಗಳ ಪಠ್ಯ ರೂಪದ ವಿವರವನ್ನು ತೋರಿಸು"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Short"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Long"
+#~ msgstr "ಉದ್ದವಾದ"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "ಕೀಲಿಯ ಸ್ಥಿತಿಯು ಹೀಗಿದ್ದಾಗ ಬೀಪ್ ಸದ್ದನ್ನು ಮಾಡು"
+
+#~ msgid "pressed"
+#~ msgstr "ಒತ್ತಲಾಗಿದೆ"
+
+#~ msgid "accepted"
+#~ msgstr "ಅಂಗೀಕರಿಸಲಾಗಿದೆ"
+
+#~ msgid "rejected"
+#~ msgstr "ತಿರಸ್ಕರಿಸಲಾಗಿದೆ"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "ಅಂಗೀಕರಿಸಬಹುದಾದ ವಿಳಂಬ (_e):"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "ಕೀಪ್ಯಾಡ್‌ ಅನ್ನು ಬಳಸಿಕೊಂಡು ಸೂಚಕವನ್ನು ನಿಯಂತ್ರಿಸಿ"
+
+#~ msgid "Video Mouse"
+#~ msgstr "ವೀಡಿಯೊ ಮೌಸ್"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "ವೀಡಿಯೊ ಕ್ಯಾಮೆರಾ ಬಳಸಿಕೊಂಡು ಸೂಚಕವನ್ನು ನಿಯಂತ್ರಿಸು."
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Small"
+#~ msgstr "ಚಿಕ್ಕದಾದ"
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Large"
+#~ msgstr "ದೊಡ್ಡದಾದ"
+
+#~ msgid "Add account"
+#~ msgstr "ಖಾತೆಯನ್ನು ಸೇರಿಸು"
+
+#~ msgid "_Local Account"
+#~ msgstr "ಸ್ಥಳೀಯ ಖಾತೆ (_L)"
+
+#~ msgid "_Login Name"
+#~ msgstr "ಪ್ರವೇಶದ ಹೆಸರು (_L)"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "ಸುಳಿವು: ಎಂಟರ್ಪ್ರೈಸ್ ಡೊಮೈನ್ ಅಥವ ಕ್ಷೇತ್ರ ಹೆಸರು"
+
+#~ msgid "C_ontinue"
+#~ msgstr "ಮುಂದುವರೆ (_o)"
+
+#~ msgid "Previous Week"
+#~ msgstr "ಹಿಂದಿನ ವಾರ"
+
+#~ msgid "Next Week"
+#~ msgstr "ಮುಂದಿನ ವಾರ"
+
+#~ msgid "Next week"
+#~ msgstr "ಮುಂದಿನ ವಾರ"
+
+#~ msgid "Log in without a password"
+#~ msgstr "ಗುಪ್ತಪದವಿಲ್ಲದೆ ಪ್ರವೇಶಿಸಿ"
+
+#~ msgid "Disable this account"
+#~ msgstr "ಈ ಖಾತೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
+
+#~ msgid "Enable this account"
+#~ msgstr "ಈ ಖಾತೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು"
+
+#~ msgid "Generate a password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಉತ್ಪಾದಿಸಿ"
+
+#~ msgid "_Action"
+#~ msgstr "ಕ್ರಿಯೆ (_A)"
+
+#~ msgid "_Show password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ತೋರಿಸು (_S)"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "ಸದೃಢವಾದ ಗುಪ್ತಪದವನ್ನು ಹೇಗೆ ಆರಿಸಿಬೇಕು"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "ಇವರ ಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸಲಾಗುತ್ತಿದೆ:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "ಈ ಖಾತೆಗಾಗಿ ಪ್ರವೇಶ ತೆರೆಯಲ್ಲಿ ತೋರಿಸಲಾಗುವ ಒಂದು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ."
+
+#~ msgid "Gallery"
+#~ msgstr "ಸಂಗ್ರಹ"
+
+#~ msgid "Take a photograph"
+#~ msgstr "ಒಂದು ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ"
+
+#~ msgid "Browse"
+#~ msgstr "ವೀಕ್ಷಿಸಿ"
+
+#~ msgid "Photograph"
+#~ msgstr "ಚಿತ್ರ"
+
+#~ msgid "Account Information"
+#~ msgstr "ಖಾತೆಯ ಮಾಹಿತಿ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "ಬಹಳ ಚಿಕ್ಕದಾಗಿದೆ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "ಸಾಕಷ್ಟು ಉತ್ತಮವಾಗಿಲ್ಲ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "ದುರ್ಬಲ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "ಪರವಾಗಿಲ್ಲ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "ಉತ್ತಮ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "ಸದೃಢ"
+
+#~ msgid "_Generate a password"
+#~ msgstr "ಗುಪ್ತಪದವನ್ನು ಉತ್ಪಾದಿಸು (_G)"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "ನೀವು ಒಂದು ಹೊಸ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿಬೇಕು"
+
+#~ msgid "The new password is not strong enough"
+#~ msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಸಾಕಷ್ಟು ದೃಢವಾಗಿದೆ"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "ನೀವು ಒಂದು ಗುಪ್ತಪದವನ್ನು ಖಚಿತಪಡಿಸಬೇಕು"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "ನಿಮ್ಮ ಈಗಿನ ಗುಪ್ತಪದವನ್ನು ನಮೂದಿಸಿಬೇಕು"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "ನಿಮ್ಮ ಈಗಿನ ಗುಪ್ತಪದವು ಸರಿಯಾಗಿಲ್ಲ"
+
+#~ msgid "Wrong password"
+#~ msgstr "ಗುಪ್ತಪದ ತಪ್ಪಾಗಿದೆ"
+
+#~ msgid "Switch Modes"
+#~ msgstr "ವಿಧಾನಗಳನ್ನು ಬದಲಾಯಿಸು"
+
+#~ msgid "Action"
+#~ msgstr "ಕಾರ್ಯ"

@@ -1,0 +1,20 @@
+# Add files with translateable strings here.
+# Please keep this file sorted alphabetically.
+[encoding: UTF-8]
+[type: gettext/glade]data/account-dialog.ui
+[type: gettext/glade]data/account-fingerprint.ui
+data/xings-user-accounts.desktop.in
+[type: gettext/glade]data/password-dialog.ui
+[type: gettext/glade]data/user-accounts-dialog.ui
+src/cc-user-panel.c
+src/pw-utils.c
+src/run-passwd.c
+src/um-account-dialog.c
+src/um-account-type.c
+src/um-fingerprint-dialog.c
+src/um-history-dialog.c
+src/um-password-dialog.c
+src/um-photo-dialog.c
+src/um-realm-manager.c
+src/um-utils.c
+src/xings-user-accounts.c

@@ -1,0 +1,4 @@
+.intltool-merge-cache
+POTFILES
+*.gmo
+stamp-it

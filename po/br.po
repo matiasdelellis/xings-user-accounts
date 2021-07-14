@@ -1,0 +1,1643 @@
+# Breton translation of gnome-control-center.
+# Copyright (C) 2004-2014 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-menu package.
+#
+# Jérémy Ar Floc'h <jeremy.lefloch@gmail.com>, 2006-2008.
+# Jamy <jamybzh@free.fr>, 2009.
+# Denis Arnaud <denisarnuad@yahoo.fr>, 2014
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2014-09-27 21:34+0100\n"
+"Last-Translator: Denis Arnaud <denisarnuad@yahoo.fr>\n"
+"Language-Team: Breton <br@li.org>\n"
+"Language: br\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Domani"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Ouzhpennañ un arveriad"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Biz meud kleiz"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Biz bras kleiz"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Biz bizoù kleiz"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Biz bihan kleiz"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Biz meud dehou"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Biz bras dehou"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Biz bizoù dehou"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Biz bihan dehou"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Gweredekaat an anaout dre roudoù biz"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Deuet eo da vat ar gwaredur hoc'h roudoù biz. Bremañ, gallout a rit anaout "
+"deoc'h gant al lenner roudoù biz."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Arveriaded"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Nullañ"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Kemm_añ"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Ger-tremen nevez"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "Ger-tremen nevez"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "Ouzhpennañ un arveriad"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Dibarzhioù ar c'hennask"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Arlun an arveriad"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Kontoù all"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Dilemel ar restroù"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Mirout ar restroù"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "_Dilemel ar restroù"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr ""
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Fazi dianav"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr ""
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr ""
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"N'hoc'h eus ket droad da vont en drobarzhell. Kit e darempred gant hoc'h "
+"ardoer reizhiad."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Implijet eo dija an drobarzhell."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Diweredekaet"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Dilemel roudoù biz gwaredet?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Dilemel ar roudoù biz"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"C'hoant hoc'h eus dilemel roudoù biz gwaredet ha deweredekaat merour gant "
+"roudoù biz?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Echu !"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "N'eus ket tu da vonet en drobarzhell '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "N'eus ket tu da lañsañ an dapadenn roudoù biz gant an drobarzhell '%s'"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "N'eus ket tu da vont en ul lenner roudoù biz ebet"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+"Mar plij ganeoc'h,kit e darempred gant hoc'h ardoer reizhiad evit skoazell "
+"ac'hanout."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Ret eo deoc'h gwrarediñ unan eus ho louc'hoù biz gant sikour trobarzhell "
+"'%s' evit gweredekaat ar c'hennaskañ dre al louc'hoù biz."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr ""
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Diuzañ"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Furchal evit muioc'h a skeudennoù"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Furchal evit muioc'h a skeudennoù..."
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Arveret gant %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Re hir eo anv an arveriad."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#~ msgid "Background"
+#~ msgstr "Drekleur"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Prennañ ar skramm"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Marell"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Zoumañ"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Kreizañ"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Skeulaat"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Leuniañ"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Ledañ"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Drekleurioù"
+
+#~ msgid "Colors"
+#~ msgstr "Livioù"
+
+#~ msgid "Select Background"
+#~ msgstr "Diuzit an drekleur"
+
+#~ msgid "Pictures"
+#~ msgstr "Skeudennoù"
+
+#~ msgid "multiple sizes"
+#~ msgstr "mentoù liesseurt"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "N'eus ket drekleur burev"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Drekleur;Skramm;Burev;"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Diweredekaet eo ar Bluetooth"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "Diweredekaet eo ar Bluetooth gant kemm ar periant"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s skramm"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s c'hwilerver"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s webcam"
+
+#~ msgid "Default: "
+#~ msgstr "Dre ziouer : "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Egorad livverkel : "
+
+#~ msgid "Test profile: "
+#~ msgstr "Aelad arnodiñ : "
+
+#~ msgid "_Import"
+#~ msgstr "Enporzh_iañ"
+
+#~ msgid "All files"
+#~ msgstr "An holl restroù"
+
+#~ msgid "Screen"
+#~ msgstr "Skramm"
+
+#~ msgid "Save Profile"
+#~ msgstr "Enrollañ an aelad"
+
+#~ msgid "Test Profile"
+#~ msgstr "Arnodiñ an aelad"
+
+#~ msgid "Done"
+#~ msgstr "Graet"
+
+#~ msgid "Display Type"
+#~ msgstr "Diskouez ar rizh"
+
+#~ msgid "Copy profile"
+#~ msgstr "Eilañ an aelad"
+
+#~ msgid "Upload profile"
+#~ msgstr "Kargañ an aelad"
+
+#~ msgid "Learn more"
+#~ msgstr "Gouzout hiroc'h"
+
+#~ msgid "Set for all users"
+#~ msgstr "Arventnniñ evit an holl arveriaded"
+
+#~ msgid "Add profile"
+#~ msgstr "Ouzhpennañ un aelad"
+
+#~ msgid "Remove profile"
+#~ msgstr "Dilemel an aelad"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Uhel"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Izel"
+
+#~ msgid "Color"
+#~ msgstr "Liv"
+
+#~ msgid "United States"
+#~ msgstr "Stadoù-Unanet"
+
+#~ msgid "France"
+#~ msgstr "Bro C'hall"
+
+#, fuzzy
+#~ msgid "Other…"
+#~ msgstr "Aelad all…"
+
+#~ msgid "_Done"
+#~ msgstr "_Graet"
+
+#, fuzzy
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#, fuzzy, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#, fuzzy
+#~ msgid "%l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#, fuzzy, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#~ msgid "January"
+#~ msgstr "Genver"
+
+#~ msgid "February"
+#~ msgstr "C'hwevrer"
+
+#~ msgid "March"
+#~ msgstr "Meurzh"
+
+#~ msgid "April"
+#~ msgstr "Ebrel"
+
+#~ msgid "May"
+#~ msgstr "Mae"
+
+#~ msgid "June"
+#~ msgstr "Mezheven"
+
+#~ msgid "July"
+#~ msgstr "Gouere"
+
+#~ msgid "August"
+#~ msgstr "Eost"
+
+#~ msgid "September"
+#~ msgstr "Gwengolo"
+
+#~ msgid "October"
+#~ msgstr "Here"
+
+#~ msgid "November"
+#~ msgstr "Du"
+
+#~ msgid "December"
+#~ msgstr "Kerzu"
+
+#~ msgid "Date & Time"
+#~ msgstr "Deiziad hag eur"
+
+#~ msgid "Day"
+#~ msgstr "Deiz"
+
+#~ msgid "Month"
+#~ msgstr "Miz"
+
+#~ msgid "Year"
+#~ msgstr "Bloaz"
+
+#, fuzzy
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Deiziad hag eur"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Deiziad hag _eur"
+
+#~ msgid "24-hour"
+#~ msgstr "24-eur"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "N'eus ket tu da gaout titouroù ar skramm"
+
+#~ msgid "Unknown"
+#~ msgstr "Dianav"
+
+#~ msgid "_Other Media…"
+#~ msgstr "Media_où all…"
+
+#~ msgid "Eject"
+#~ msgstr "Kas er-maez"
+
+#~ msgid "Settings"
+#~ msgstr "Arventennoù"
+
+#~ msgid "Home folder"
+#~ msgstr "Teuliad ar gêr"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Klask"
+
+#~ msgid "System"
+#~ msgstr "Reizhiad"
+
+#~ msgid "Log out"
+#~ msgstr "Dilugañ"
+
+#~ msgid "Lock screen"
+#~ msgstr "Prennañ ar skramm"
+
+#~ msgid "Keyboard"
+#~ msgstr "Klavier"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Personnalaat ar berradennoù"
+
+#~ msgid "_Name:"
+#~ msgstr "_Anv :"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Ar_c'had :"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Arren ar stokelloù"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Pa chomer gant ar stokell pouezet warni ez adskriver an arouezenn"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Dale :"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Tizh :"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Berr"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Gorrek"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Arren tizh ar stokelloù"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Hir"
+
+#, fuzzy
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Trumm"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Blinkadur ar reti"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Ar reti a vlink war _maeziennoù an destenn"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Tizh :"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Berradennoù klavier personelaet"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Gwered Dianav>"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "N'hallit ket ober gant ar verradenn-mañ \"%s\" rak ne vo ket tro da "
+#~ "viziata en ur arverañ ar stokell-mañ.\n"
+#~ "Mar plij, klaskit gant ur stokell evel Control, Alt pe Pennliz. war un "
+#~ "dro."
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Arveret eo ar verradenn \"%s\" endeo evit\n"
+#~ "\"%s\""
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Mar bez deverket ar verradenn da \"%s\" en-dro e vo diweredekaet ar "
+#~ "verradenn \"%s\"."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Deverkañ en-dro"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "Mar bez deverket ar verradenn da \"%s\" en-dro e vo diweredekaet ar "
+#~ "verradenn \"%s\"."
+
+#, fuzzy
+#~ msgid "_Assign"
+#~ msgstr "_Deverkañ en-dro"
+
+#, fuzzy
+#~ msgid "Test Your _Settings"
+#~ msgstr "Arventennoù ar son"
+
+#, fuzzy
+#~ msgid "Test Your Settings"
+#~ msgstr "Arventennoù ar son"
+
+#~ msgid "General"
+#~ msgstr "Hollek"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Gorrek"
+
+#, fuzzy
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Trumm"
+
+#~ msgid "Mouse"
+#~ msgstr "Logodenn"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Gorrek"
+
+#, fuzzy
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Trumm"
+
+#~ msgid "Touchpad"
+#~ msgstr "Pavez stekiñ"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Gorrek"
+
+#, fuzzy
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Trumm"
+
+#~ msgid "page 1"
+#~ msgstr "pajenn 1"
+
+#~ msgid "page 2"
+#~ msgstr "pajenn 2"
+
+#~ msgid "Never"
+#~ msgstr "Morse"
+
+#~ msgid "Address"
+#~ msgstr "Chomlec'h"
+
+#~ msgid "Delete Address"
+#~ msgstr "Dilemel ar chomlec'h"
+
+#~ msgid "Add"
+#~ msgstr "Ouzhpennañ"
+
+#~ msgid "Manual"
+#~ msgstr "Dre zorn"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Tra ebet"
+
+#~ msgid "_Name"
+#~ msgstr "_Anv"
+
+#~ msgid "_MAC Address"
+#~ msgstr "Chomlec'h _MAC"
+
+#, fuzzy
+#~ msgid "_Cloned Address"
+#~ msgstr "Chomlec'h"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Dre ziouer"
+
+#~ msgid "_Addresses"
+#~ msgstr "Ch_omlec'hioù"
+
+#~ msgid "New Profile"
+#~ msgstr "Aelad nevez"
+
+#~ msgid "Import from file…"
+#~ msgstr "Enporzhiañ diouzh ur restr…"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Ouzhpennañ ur c'hennask rouedad"
+
+#~ msgid "Options…"
+#~ msgstr "Dibarzhioù..."
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Aelad %d"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "Ouzhpenn_añ un aelad..."
+
+#~ msgid "Remove Device"
+#~ msgstr "Dilemel un drobarzhell"
+
+#~ msgid "None"
+#~ msgstr "Tra ebet"
+
+#~ msgid "PAC _file"
+#~ msgstr "Restr _PAC"
+
+#~ msgid "No"
+#~ msgstr "Ket"
+
+#~ msgid "Yes"
+#~ msgstr "Ya"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Dre ziouer)"
+
+#, fuzzy
+#~ msgid "Open System"
+#~ msgstr "Reizhiad"
+
+#~ msgid "_Type"
+#~ msgstr "_Rizh"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "Arventennoù ar son"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Prennañ ar skramm"
+
+#, fuzzy
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Prennañ ar skramm"
+
+#~ msgid "_Remove"
+#~ msgstr "Dilemel"
+
+#, fuzzy
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Arventennoù ar c'hlavier"
+
+#, fuzzy
+#~ msgid "_Blank screen"
+#~ msgstr "Prennañ ar skramm"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "Devices"
+#~ msgstr "Trobarzhelloù"
+
+#~ msgid "Delay"
+#~ msgstr "Dale"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Chomlec'h : %s"
+
+#~ msgid "_Default printer"
+#~ msgstr "Moulerez dre ziouer : "
+
+#, fuzzy
+#~ msgid "Forever"
+#~ msgstr "Morse"
+
+#, fuzzy
+#~ msgid "Login Screen"
+#~ msgstr "Prennañ ar skramm"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Berradennoù ar c'hlavier"
+
+#~ msgid "Options"
+#~ msgstr "Neuziadoù"
+
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "Sinedoù"
+
+#, fuzzy
+#~ msgid "Select Location"
+#~ msgstr "Diuzit an drekleur"
+
+#~ msgid "_OK"
+#~ msgstr "Mat e_o"
+
+#~ msgid "Search"
+#~ msgstr "Klask"
+
+#~ msgid "Preferences"
+#~ msgstr "Gwellvezio"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Dibab ur teuliad"
+
+#~ msgid "Copy"
+#~ msgstr "Eilañ"
+
+#~ msgid "Networks"
+#~ msgstr "Rouedadoù"
+
+#, fuzzy
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Computer Name"
+#~ msgstr "Anv an urzhiater"
+
+#~ msgid "Remote Login"
+#~ msgstr "Kennask a-bell"
+
+#~ msgid "Password:"
+#~ msgstr "Ger-tremen"
+
+#~ msgid "Show Password"
+#~ msgstr "Skrammañ ar ger-tremen"
+
+#, fuzzy
+#~ msgid "Access Options"
+#~ msgstr "Neuziadoù"
+
+#~ msgid "Folders"
+#~ msgstr "Teuliadoù"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "10%"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Aelad :"
+
+#~ msgid "Name"
+#~ msgstr "Anv"
+
+#~ msgid "Device"
+#~ msgstr "Trobarzhell"
+
+#~ msgid "Applications"
+#~ msgstr "Arloadoù"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Gwellvezioù ar son"
+
+#~ msgid "Default"
+#~ msgstr "Dre ziouer"
+
+#~ msgid "Custom"
+#~ msgstr "Personelaet"
+
+#, fuzzy
+#~ msgid "_Large Text"
+#~ msgstr "Bras"
+
+#~ msgid "_Zoom"
+#~ msgstr "Zoumañ"
+
+#, fuzzy
+#~ msgid "_Sound Keys"
+#~ msgstr "Stokelloù daslammus"
+
+#, fuzzy
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Klavier"
+
+#, fuzzy
+#~ msgid "_Mouse Keys"
+#~ msgstr "Stokelloù al logodenn"
+
+#, fuzzy
+#~ msgid "Sound Keys"
+#~ msgstr "Stokelloù daslammus"
+
+#, fuzzy
+#~ msgid "_Sticky Keys"
+#~ msgstr "Stokelloù pegus"
+
+#, fuzzy
+#~ msgid "S_low Keys"
+#~ msgstr "Stokelloù gorrek"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Berr"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Hir"
+
+#, fuzzy
+#~ msgid "_Bounce Keys"
+#~ msgstr "Stokelloù daslammus"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Berr"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Hir"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Berr"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Hir"
+
+#~ msgid "D_elay:"
+#~ msgstr "Dal_e :"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Berr"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Hir"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Bihan"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Bras"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoum"
+
+#~ msgid "Color:"
+#~ msgstr "Liv :"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Liv"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Tra ebet"
+
+#~ msgid "_Language"
+#~ msgstr "_Yezh"
+
+#~ msgid "Output:"
+#~ msgstr "Ec'hankad :"
+
+#, fuzzy
+#~ msgid "Left Ring"
+#~ msgstr "Biz bizoù kleiz"
+
+#, fuzzy
+#~ msgid "Right Ring"
+#~ msgstr "Biz bizoù dehou"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Berradenn nevez..."
+
+#~ msgid "Show help options"
+#~ msgstr "Skrammañ dibarzhioù ar skoazell"
+
+#~ msgid "- Settings"
+#~ msgstr "- Arventennoù"
+
+#~ msgid "Help"
+#~ msgstr "Skoazell"
+
+#~ msgid "Quit"
+#~ msgstr "Kuitaat"
+
+#~ msgid "All Settings"
+#~ msgstr "An holl arventennoù"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Reizhiad [Rummad]"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Gwellvezioù;Arventennoù;"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "Kefluniañ an arventennoù Bluetooth"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "Arventenniñ un drobarzhell nevez"
+
+#~ msgid "Send Files..."
+#~ msgstr "Kas restroù..."
+
+#~ msgid "Browse Files..."
+#~ msgstr "Merdeiñ restroù..."
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Add device"
+#~ msgstr "OUzhpennañ un drobarzhell"
+
+#~ msgid "Device type:"
+#~ msgstr "Rizh an drobarzhell :"
+
+#~ msgid "Select a language"
+#~ msgstr "Diuzañ ur yezh"
+
+#~ msgid "_Select"
+#~ msgstr "_Diuzañ"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 derez"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Diuzañ ur skramm a-benn kemmañ e berzhioù ; lakaat d'e riklañ a-benn "
+#~ "kempenn e lec'hiadur."
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "N'eus ket tu da enrollañ ar c'hefluniadur skramm"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "N'hall ket dinoiñ ar skrammoù"
+
+#~ msgid "_Options..."
+#~ msgstr "_Dibarzhioù"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "Gweredekaat ar boneg diveugañ"
+
+#~ msgid "Control Center"
+#~ msgstr "Kreizenn reoliñ"

@@ -1,0 +1,2399 @@
+# translation of gnome-control-center-2.0 to Uzbek
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Nurali Abdurahmonov <mavnur@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center-2.0 trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2007-11-12 09:36+0500\n"
+"Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
+"Language-Team: Uzbek\n"
+"Language: uz@cyrillic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=0;\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "Ф_ойдалунувчи:"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "Тўлиқ исм"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Андоза X-терминали"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Огоҳлантириш тури"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Махфий сўз:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_Янги махфий сўз:"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Махфий сўз:"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Махфий сўзни ўзгартириш"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Янги махфий сўз:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Янги махфий сўз:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Жорий _махфий сўз:"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_Янги махфий сўз:"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Параметрлар"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "Фойдаланувчи номи:"
+
+#: ../data/user-accounts-dialog.ui.h:11
+#, fuzzy
+msgid "Last Login"
+msgstr "Кириш"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr ""
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, fuzzy, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Ушбу ўлчамни сақлаб қолишни истайсизми?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "Ҳамма файллар"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "Янги  файл"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Олиб ташлаш"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "Йўқ"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+#, fuzzy
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Илтимос аплет тўғри ўрнатилганлигига ишонч хосил қилинг"
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Махфий сўз хато."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Тасдиқланди!"
+
+#: ../src/run-passwd.c:493
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Махфий сўз жуда қисқа."
+
+#: ../src/run-passwd.c:501
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Махфий сўз жуда оддий."
+
+#: ../src/run-passwd.c:509
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Эски ва янги махфий сўз жуда ўхшаш."
+
+#: ../src/run-passwd.c:514
+#, fuzzy, c-format
+msgid "The new password has already been used recently."
+msgstr "Иккала махфий сўз мос келмади."
+
+#: ../src/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Янги махфий сўз рақам ва махсус белги(лар)дан иборат бўлиши керак."
+
+#: ../src/run-passwd.c:525
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Эски ва янги махфий сўз бир хил."
+
+#: ../src/run-passwd.c:530
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Махфий сўзингиз кейинги сафарги тасдиқланишдан кейин ўзгартирилади! Илтимос "
+"қайта тасдиқланг."
+
+#: ../src/run-passwd.c:535
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Янги махфий сўз рақам ва махсус белги(лар)дан иборат бўлиши керак."
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Номаълум"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "Махфий сўз жуда қисқа."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "_Қўшиш..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Андоза X-терминали"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+#, fuzzy
+msgid "An internal error occurred."
+msgstr "Тизимда хатолик рўй берди"
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Ўчирилган"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Ўчирилган"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "Расмни танланг"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "Илтимос <b>янги махфий сўз</b> майдонига махфий сўзни киритинг."
+
+#: ../src/um-password-dialog.c:166
+#, fuzzy
+msgid "Password could not be changed"
+msgstr "Махфий сўзингиз ўзгартирилди."
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_Танлаш"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Очиш"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Ўчирилган"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "Махфий сўз жуда қисқа."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Янги махфий сўз:"
+
+#~ msgid "Image/label border"
+#~ msgstr "Расм/ёрлиқ чегараси"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "Огоҳлантириш диалогидаги расм ва ёрлиқларнинг кенглиги"
+
+#~ msgid "The type of alert"
+#~ msgstr "Огоҳлантириш тури"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Огоҳлантириш тугмалари"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Огоҳлантириш ойнасида кўрсатиладиган тугмалар"
+
+#~ msgid "Show more _details"
+#~ msgstr "_Тафсилотларни кўрсатиш"
+
+#~ msgid "No Image"
+#~ msgstr "Расмсиз"
+
+#~ msgid "Images"
+#~ msgstr "Расмлар"
+
+#~ msgid ""
+#~ "There was an error while trying to get the addressbook information\n"
+#~ "Evolution Data Server can't handle the protocol"
+#~ msgstr ""
+#~ "Манзиллар дафтаридан маълумот олиб бўлмади.\n"
+#~ "Evolution маълумот сервери протоколни қўлламайди"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Манзиллар дафтарини очиб бўлмади"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Номаълум фойдаланувчи ID'си. фойдаланувчи маълумот базаси зарарланган "
+#~ "бўлиши мумкин"
+
+#, c-format
+#~ msgid "About %s"
+#~ msgstr "%s ҳақида"
+
+#~ msgid "About Me"
+#~ msgstr "Мен ҳақимда"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Шахсий маълумотларингиз"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>Эл.почта</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Уй</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Телефон</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>WWW</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Иш</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Махфий сўзни ўзгартириш</span>"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "_Манзил:"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "_Ёрдамчи:"
+
+#~ msgid "Address"
+#~ msgstr "Манзил"
+
+#~ msgid "C_ity:"
+#~ msgstr "_Шаҳар:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "_Ташкилот:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Та_қвим:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Махфий _сўзни ўзгартириш..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Махфий с_ўзни ўзгартириш"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "Ш_аҳар:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "_Давлат:"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "Дав_лат:"
+
+#~ msgid "Hom_e:"
+#~ msgstr "У_й:"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "Почта қ_утиси:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "_Почта қутиси:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Шахсий маълумот"
+
+#~ msgid "Select your photo"
+#~ msgstr "Расм танланг"
+
+#~ msgid "Wor_k:"
+#~ msgstr "И_ш:"
+
+#~ msgid "Work _fax:"
+#~ msgstr "_Факс (иш):"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "_Почта индекси:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Манзил:"
+
+#~ msgid "_Authenticate"
+#~ msgstr "_Тасдиқлаш"
+
+#~ msgid "_Department:"
+#~ msgstr "_Бўлим:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Уй саҳифаси:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Уй:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Бошқарувчи:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "Уяли телефон:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Иш:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "Почта _индекси:"
+
+#, c-format
+#~ msgid "System error: %s."
+#~ msgstr "Тизим хатоси: %s."
+
+#~ msgid "Checking password..."
+#~ msgstr "Махфий сўз текширилмоқда..."
+
+#~ msgid "Click <b>Change password</b> to change your password."
+#~ msgstr ""
+#~ "Махфий сўзни ўзгартириш учун <b>Махфий сўзни ўзгартириш</b> тугмасини "
+#~ "босинг."
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Ёрдамчи технологиялар</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Параметрлар</b>"
+
+#~ msgid "Accessible Lo_gin"
+#~ msgstr "Тизимга _киришдаги ёрдамчи технологиялар"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Ёпиш ва тизимдан _чиқиш"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "Ёрдамчи технологияларни _ёқиш"
+
+#~ msgid "_Keyboard Accessibility"
+#~ msgstr "_Клавиатура махсус имкониятлари"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Гулқоғоз қўшиш"
+
+#~ msgid "All files"
+#~ msgstr "Ҳамма файллар"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Шрифт жуда катта бўлиши мумкин"
+
+#~ msgid "Use previous font"
+#~ msgstr "Олдинги шрифтдан фойдаланиш"
+
+#~ msgid "Use selected font"
+#~ msgstr "Танланган шрифтдан фойдаланиш"
+
+#~ msgid "Specify the filename of a theme to install"
+#~ msgstr "Ўрнатиладиган мавзу файли номини кўрсатинг"
+
+#~ msgid "filename"
+#~ msgstr "файл номи"
+
+#~ msgid "page"
+#~ msgstr "саҳифа"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[ГУЛҚОҒОЗ...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Андоза кўрсатгич"
+
+#~ msgid "Apply Font"
+#~ msgstr "Шрифтни қўллаш"
+
+#~ msgid "Custom"
+#~ msgstr "Бошқа"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>_Ранглар</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Меню ва асбоблар панели</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Олдиндан кўриш</b>"
+
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>_Гулқоғоз</b>"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Ташқи кўринишни мослаш"
+
+#~ msgid "Background"
+#~ msgstr "Орқа фон"
+
+#~ msgid "Best _shapes"
+#~ msgstr "Энг яхши _шакллар"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Энг яхши ко_нтраст"
+
+#~ msgid "C_ut"
+#~ msgstr "К_есиш"
+
+#~ msgid "Changing your cursor theme takes effect the next time you log in."
+#~ msgstr "Курсор мавзуси кейинги сафар тизимга кирганда кучга киради."
+
+#~ msgid "Colors"
+#~ msgstr "Ранглар"
+
+#~ msgid "D_etails..."
+#~ msgstr "_Тафсилотлар..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Иш _столи шрифти:"
+
+#~ msgid "Edit"
+#~ msgstr "Таҳрирлаш"
+
+#~ msgid "Fonts"
+#~ msgstr "Шрифтлар"
+
+#~ msgid "Icons"
+#~ msgstr "Нишончалар"
+
+#~ msgid "Interface"
+#~ msgstr "Интерфейс"
+
+#~ msgid "Large"
+#~ msgstr "Катта"
+
+#~ msgid "N_one"
+#~ msgstr "_Йўқ"
+
+#~ msgid "Open File"
+#~ msgstr "Файлни очиш"
+
+#~ msgid "Open a dialog to specify the color"
+#~ msgstr "Рангни кўрсатиш учун диалогни очиш"
+
+#~ msgid "R_esolution:"
+#~ msgstr "Ў_лчами:"
+
+#~ msgid "Save File"
+#~ msgstr "Файлни сақлаш"
+
+#~ msgid "Save _background image"
+#~ msgstr "_Орқа фон расмини сақлаш"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Менюларда _нишончаларни кўрсатиш"
+
+#~ msgid "Small"
+#~ msgstr "Кичкина"
+
+#~ msgid "Text"
+#~ msgstr "Матн"
+
+#~ msgid "Theme"
+#~ msgstr "Мавзу"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Window Border"
+#~ msgstr "Ойна чегараси"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Дастур шрифти:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Copy"
+#~ msgstr "_Нусха олиш"
+
+#~ msgid "_Description:"
+#~ msgstr "_Таърифи:"
+
+#~ msgid "_Document font:"
+#~ msgstr "_Ҳужжат шрифти:"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "_Input boxes:"
+#~ msgstr "_Киритиш майдонлари:"
+
+#~ msgid "_Install..."
+#~ msgstr "_Ўрнатиш..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Ўртача"
+
+#~ msgid "_Name:"
+#~ msgstr "_Номи:"
+
+#~ msgid "_New"
+#~ msgstr "_Янги"
+
+#~ msgid "_None"
+#~ msgstr "_Йўқ"
+
+#~ msgid "_Paste"
+#~ msgstr "_Қўйиш"
+
+#~ msgid "_Print"
+#~ msgstr "_Босиб чиқариш"
+
+#~ msgid "_Quit"
+#~ msgstr "_Чиқиш"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "Андоза қийматга _қайтариш"
+
+#~ msgid "_Save"
+#~ msgstr "_Сақлаш"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Танланган элементлар:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Ҳажми:"
+
+#~ msgid "_Style:"
+#~ msgstr "_Услуб:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Ойна сарлавҳаси шрифти:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Ойналар:"
+
+#~ msgid "Appearance"
+#~ msgstr "Ташқи кўриниши"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Мавзу ўрнатгич"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "Gnome мавзу пакети"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Гулқоғозсиз"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "пиксел"
+#~ msgstr[1] "пиксел"
+
+#, c-format
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "%s Gnome мавзуси муваффақиятли ўрнатилди"
+
+#, c-format
+#~ msgid "The theme \"%s\" has been installed."
+#~ msgstr "\"%s\" мавзу ўрнатилди."
+
+#~ msgid "Would you like to apply it now, or keep your current theme?"
+#~ msgstr "Уни қўллашни истайсизми ёки жорий мавзуни сақлаб қоласизми?"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Жорий мавзу сақлаб қолинсин"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Янги мавзу қўллансин"
+
+#~ msgid "Failed to create temporary directory"
+#~ msgstr "Вақтинчалик директория яратиб бўлмади"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Ўрнатиш учун мавзу файли йўли кўрсатилмаган"
+
+#, c-format
+#~ msgid ""
+#~ "Insufficient permissions to install the theme in:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Мавзуни қуйидаги манзилга ўрнатиш учун ҳуқуқ етарли эмас:\n"
+#~ "%s"
+
+#~ msgid "Select Theme"
+#~ msgstr "Мавзуни танлаш"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Мавзу пакетлари"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Мавзу аллақачон мавжуд. Алмаштиришни истайсизми?"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Алмаштириш"
+
+#~ msgid "Would you like to delete this theme?"
+#~ msgstr "Ушбу мавзуни олиб ташлашни истайсизми?"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Мавзуни олиб ташлаб бўлмайди"
+
+#, c-format
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Ёрдам файлини кўрсатишда хатолик юз берди: %s"
+
+#, c-format
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Файлдан нусха олинмоқда: %u дан %u"
+
+#, c-format
+#~ msgid "Copying '%s'"
+#~ msgstr "'%s' нусха олинмоқда"
+
+#~ msgid "Copying files"
+#~ msgstr "Файллардан нусха олинмоқда"
+
+#~ msgid "Current URI index"
+#~ msgstr "Жорий URI индекси"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Жорий URI индекси - 1'дан бошланади"
+
+#~ msgid "Total URIs"
+#~ msgstr "Жами URI"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Жами URI сони"
+
+#~ msgid "Key"
+#~ msgstr "Калит"
+
+#~ msgid "UI Control"
+#~ msgstr "График интерфейс бошқаруви"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "'%s' файлини топиб бўлмади.\n"
+#~ "\n"
+#~ "Илтимос уни мавжудлигини текшириб кўринг ва қайта уриниб кўринг ёки бошқа "
+#~ "орқа фон расмини танланг."
+
+#, c-format
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "'%s' файлини қандай очиш мумкин.\n"
+#~ "Балки бу расм тури хали қўлланилмаслиги мумкин.\n"
+#~ "\n"
+#~ "Илтимос бунинг ўрнига бошқа расм танланг."
+
+#~ msgid "Please select an image."
+#~ msgstr "Илтимос расм танланг."
+
+#~ msgid "White Pointer"
+#~ msgstr "Оқ кўрсатгич"
+
+#~ msgid "White Pointer - Current"
+#~ msgstr "Оқ кўрсатгич - жорий"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Катта кўрсатгич"
+
+#~ msgid "Large Pointer - Current"
+#~ msgstr "Катта кўрсатгич - жорий"
+
+#~ msgid "Large White Pointer - Current"
+#~ msgstr "Катта оқ кўрсатгич - жорий"
+
+#~ msgid "Large White Pointer"
+#~ msgstr "Катта оқ кўрсатгич"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Андоза дастурни танланг"
+
+#, c-format
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Мосламани сақлаш хатолиги: %s"
+
+#~ msgid "Could not load the main interface"
+#~ msgstr "Асосий интерфейсни юклаб бўлмади"
+
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>Мултимедиа плейери</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>Терминал эмулятори</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>Матн таҳрирчиси</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>Видео плейер</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>Веб-браузер</b>"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Буй_руқ:"
+
+#~ msgid "Internet"
+#~ msgstr "Интернет"
+
+#~ msgid "Multimedia"
+#~ msgstr "Мултимедиа"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Боғламани янги _табда очиш"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Боғламани янги _ойнада очиш"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Боғламани браузер _андозаси билан очиш"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Т_ерминалда бажариш"
+
+#~ msgid "System"
+#~ msgstr "Тизим"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee мусиқий плейери"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian терминал эмулятори"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany веб браузери"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution почта клиенти"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME терминали"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Mail"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine мусиқа плейери"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Communicator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox мусиқа плейери"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem плейери"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "_Янгиланиш даражаси"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Ўлчами:"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Экран ўлчамини ўзгартириш"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Экран ўлчами"
+
+#~ msgid "Normal"
+#~ msgstr "Ўртача"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Гц"
+
+#~ msgid "Sound"
+#~ msgstr "Товуш"
+
+#~ msgid "Desktop"
+#~ msgstr "Иш столи"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Акселератор тугмаси"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Акселератор модификаторлари"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Акселератор тугмаси коди"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Акселератор усули"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Акселератор тури."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Номаълум амал>"
+
+#~ msgid "Action"
+#~ msgstr "Амал"
+
+#~ msgid "Shortcut"
+#~ msgstr "Тугмалар бирикмаси"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Клавиатура тугмалар бирикмаси:"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Буйруқларга тугмалар бирикмаси тайинлаш"
+
+#~ msgid "- GNOME Keyboard Preferences"
+#~ msgstr "- GNOME клавиатура параметрлари"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Тез</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Узун</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Қисқа</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Секин</i></small>"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Клавиатура русумини танланг"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Тугмалар тартибини танланг"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Клавиатура мосламалари"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Клавиатура _русуми:"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Сичқонча тугмалари"
+
+#~ msgid "Preview:"
+#~ msgstr "Олдиндан кўриш:"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "_Андоза параметрларни тиклаш"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Тезлик:"
+
+#~ msgid "Separate _layout for each window"
+#~ msgstr "Ҳар бир ойна учун алоҳида _тугмалар тартиби"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Кечикиш:"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Танланган тугмалар тартиби:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Тезлик:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "Параметрларни _синаш майдони:"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Вариантлар:"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Иш.чиқарувчилар:"
+
+#~ msgid "minutes"
+#~ msgstr "дақиқа"
+
+#~ msgid "Default"
+#~ msgstr "Андоза"
+
+#~ msgid "Layout"
+#~ msgstr "Тугмалар тартиби"
+
+#~ msgid "Vendors"
+#~ msgstr "Иш.чиқарувчилар"
+
+#~ msgid "Keyboard"
+#~ msgstr "Клавиатура"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Ушлаб олиб қўйиш</b>"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Сичқонча мосламалари"
+
+#~ msgid "Mouse"
+#~ msgstr "Сичқонча"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Тармоқ проксиси"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Интернетга _тўғридан-тўғри уланиш</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>Прокси мосламасини _авто-аниқлаш</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>Прокси мосламаларини _қўлбола кўрсатиш</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>Тасдиқлашдан _фойдаланиш</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Авто-мослаш _URL'и:"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP прокси:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Тармоқ прокси мосламалари"
+
+#~ msgid "Port:"
+#~ msgstr "Порт:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Прокси параметрлари"
+
+#~ msgid "_Details"
+#~ msgstr "_Тафсилотлар"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP прокси:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "HTTP_S прокси:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "Барча протоколлар учун битта проксидан _фойдаланиш"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "_Meta"
+#~ msgstr "_Мета"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Ойна танлаш</b>"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Ойна параметрлари"
+
+#~ msgid "seconds"
+#~ msgstr "сония"
+
+#~ msgid "Set your window properties"
+#~ msgstr "Ойна мосламаларини ўрнатиш"
+
+#~ msgid "Windows"
+#~ msgstr "Ойналар"
+
+#, c-format
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>%s'ни ишга тушириш</b>"
+
+#~ msgid "Help"
+#~ msgstr "Ёрдам"
+
+#~ msgid "Upgrade"
+#~ msgstr "Янгилаш"
+
+#~ msgid "Other"
+#~ msgstr "Бошқа"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Янги электрон жадвал"
+
+#~ msgid "New Document"
+#~ msgstr "Янги ҳужжат"
+
+#~ msgid "File System"
+#~ msgstr "Файл тизими"
+
+#~ msgid "Network Servers"
+#~ msgstr "Тармоқ серверлари"
+
+#~ msgid "Search"
+#~ msgstr "Қидириш"
+
+#, c-format
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Очиш</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Номини ўзгартириш..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Чиқиндилар қутисига олиб ташлаш"
+
+#, c-format
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>\"%s\" билан очиш</b>"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Андоза дастур билан очиш"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Файл менежерида очиш"
+
+#, c-format
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s'ни очиш</b>"
+
+#, c-format
+#~ msgid "Remove from System Items"
+#~ msgstr "Тизим элементларидан олиб ташлаш"
+
+#~ msgid "Maximize"
+#~ msgstr "Ёйиш"
+
+#~ msgid "Minimize"
+#~ msgstr "Йиғиш"
+
+#~ msgid "Filter"
+#~ msgstr "Филтр"
+
+#~ msgid "Groups"
+#~ msgstr "Гуруҳлар"
+
+#~ msgid "Control Center"
+#~ msgstr "Бошқарув маркази"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME мослаш воситаси"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Параметрлар"
+
+#~ msgid "/_About"
+#~ msgstr "/_Ҳақида"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Муаллиф: Ричард Халт (Richard Hult) <richard@imendio.com>"
+
+#~ msgid "translator-credits"
+#~ msgstr "Нурали Абдураҳмонов <mavnur@gmail.com>"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Оқ чойнакка оқ қопқоқ, кўк чойнакка кўк қопқоқ. 0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "Номи:"
+
+#~ msgid "Style:"
+#~ msgstr "Услуби:"
+
+#~ msgid "Type:"
+#~ msgstr "Тури:"
+
+#~ msgid "Version:"
+#~ msgstr "Версияси:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Муаллифлик ҳуқуқи:"
+
+#~ msgid "Description:"
+#~ msgstr "Таърифи:"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Шрифт ўлчами (андоза: 64)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Ёрдамчи технологияларни мослаш"
+
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "Сичқончани мослаш ойнасини очишда хатолик: %s"
+
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "«%s» файлидан AccessX параметрларини импорт қилиб бўлмади"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Параметрлар файлини импорт қилиш"
+
+#~ msgid "_Import"
+#~ msgstr "_Импорт"
+
+#~ msgid "Keyboard Accessibility"
+#~ msgstr "Клавиатура махсус имкониятлари"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Тизимда XKB кенгайтмаси йўқ.  Клавиатура махсус имкониятлари усиз "
+#~ "ишламайди."
+
+#~ msgid "Basic"
+#~ msgstr "Асосий"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr "Клавиатурадан тугмалар _активлаштирилганда сигнал бериш"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "_модификатор босилганда сигнал бериш"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Ке_чикиш:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Икки тугма бирга босилса, _ўчириш"
+
+#~ msgid "Filters"
+#~ msgstr "Филтрлар"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "Сичқонча _мосламалари..."
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "Клавиатуранинг рақамли қисмидан сичқонча сифатида фойдаланиш."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "Қуйидаги оралиқда ишлатилмаса _ўчириш:"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "Клавиатура махсус имкониятларини _ёқиш"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "Параметрларни _импорт қилиш..."
+
+#~ msgid "_accepted"
+#~ msgstr "_қабул қилинди"
+
+#~ msgid "_pressed"
+#~ msgstr "_босилди"
+
+#~ msgid "_rejected"
+#~ msgstr "қ_абул қилинмади"
+
+#~ msgid "characters/second"
+#~ msgstr "белги/сония"
+
+#~ msgid "milliseconds"
+#~ msgstr "миллисония"
+
+#~ msgid "pixels/second"
+#~ msgstr "пиксел/сония"
+
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "Шрифт жилдига _ўтиш"
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "The %s utility is not installed."
+#~ msgstr ""
+#~ "Мавзуни ўрнатиб бўлмади.\n"
+#~ "%s ютилитиси ўрнатилмаган."
+
+#~ msgid ""
+#~ "Cannot install theme.\n"
+#~ "There was a problem while extracting the theme."
+#~ msgstr ""
+#~ "Мавзуни ўрнатиб бўлмади.\n"
+#~ "Мавзуни ажратишда хатолик юз берди."
+
+#~ msgid "The file format is invalid"
+#~ msgstr "Файлнинг формати хато"
+
+#~ msgid "Installation Failed"
+#~ msgstr "Ўрнатиб бўлмади"
+
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "Мавзу қўлланилмайдиган форматда."
+
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s мавзу ўрнатиладиган йўлдир. Ундан манба сифатида фойдаланиб бўлмайди"
+
+#~ msgid "The file format is invalid."
+#~ msgstr "Файлнинг формати хато."
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Фақат мосламаларни қўллаш ва чиқиш"
+
+#~ msgid "Connecting..."
+#~ msgstr "Алоқа ўрнатилмоқда..."
+
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "Evolution 1.4 почта клиенти"
+
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "Evolution 1.5 почта клиенти"
+
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "Evolution 1.6 почта клиенти"
+
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "Evolution 2.0 почта клиенти"
+
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "Evolution 2.2 почта клиенти"
+
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "Evolution 2.4 почта клиенти"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Links матнли веб браузер"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx матнли веб браузер"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "W3M матнли веб браузер"
+
+#~ msgid "Default Settings"
+#~ msgstr "Андоза мосламалар"
+
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "%d экран мосламалари\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Экран ўлчами параметрлари"
+
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "Ушбу компьютер (%s) учун андоза этиб _белгилаш"
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Мосламаларни текшириш. Агар %d сония ичида тасдиқламасангиз эски мослама "
+#~ "қўлланилади."
+#~ msgstr[1] ""
+#~ "Мосламаларни текшириш. Агар %d сония ичида тасдиқламасангиз эски мослама "
+#~ "қўлланилади."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Ушбу ўлчамни сақлаб қолиш"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "_Олдинги ўлчамдан фойдаланиш"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "Ушбу ўлчамни _сақлаб қолиш"
+
+#~ msgid "New accelerator..."
+#~ msgstr "Янги акселератор..."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "\"%s\" тугмалар бирикмаси қуйидаги учун ишлатилмоқда:\n"
+#~ " \"%s\"\n"
+
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "Янги акселераторни маълумот базасига қайд қилишда хатолик: %s\n"
+
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr "Акселераторни маълумот базасидан олиб ташлашда хатолик: %s\n"
+
+#~ msgid "Choose..."
+#~ msgstr "Танлаш..."
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Microsoft Natural клавиатураси"
+
+#~ msgid "_Layouts:"
+#~ msgstr "_Тугмалар тартиби:"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Тезлик</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Тез</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Юқори</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Катта</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Паст</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Секин</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Кичик</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Тугмалар"
+
+#~ msgid "Motion"
+#~ msgstr "Ҳаракат"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "_Чап қўл учун"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#~ msgid "Advanced Configuration"
+#~ msgstr "Қўшимча параметрлар"
+
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "Номаълум товуш мословчиси %d"
+
+#~ msgid "Autodetect"
+#~ msgstr "Авто-аниқлаш"
+
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - Такомиллаштирилган Linux товуш тизими"
+
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART товуш демони"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - Очиқ товуш тизими"
+
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "PulseAudio товуш сервери"
+
+#~ msgid "Silence"
+#~ msgstr "Жимлик"
+
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- GNOME товуш параметрлари"
+
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>Мусиқа ва фильмлар</b>"
+
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>Товуш ҳодисалар</b>"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">Синалмоқда...</span>"
+
+#~ msgid "Click OK to finish."
+#~ msgstr "Тугатиш учун OK тугмасини босинг."
+
+#~ msgid "Devices"
+#~ msgstr "Ускуналар"
+
+#~ msgid "S_ound playback:"
+#~ msgstr "Т_овушни ўйнаш:"
+
+#~ msgid "So_und playback:"
+#~ msgstr "То_вушни ўйнаш:"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Товуш параметрлари"
+
+#~ msgid "Sounds"
+#~ msgstr "Товушлар"
+
+#~ msgid "System Beep"
+#~ msgstr "Тизим товуши"
+
+#~ msgid "Test"
+#~ msgstr "Синаш"
+
+#~ msgid "_Device:"
+#~ msgstr "_Ускуна:"
+
+#~ msgid "_Enable system beep"
+#~ msgstr "Тизим товушини _ёқиш"
+
+#~ msgid "_Play system sounds"
+#~ msgstr "Тизим товушини _ўйнаш"
+
+#~ msgid "_Sound playback:"
+#~ msgstr "_Товушни ўйнаш:"
+
+#~ msgid "Volume"
+#~ msgstr "Товуш"
+
+#~ msgid "_Activate"
+#~ msgstr "_Активлаштирилсин"
+
+#~ msgid "Do_n't activate"
+#~ msgstr "Активлаштирил_масин"
+
+#~ msgid "Do _not show this warning again"
+#~ msgstr "Ушбу огоҳлантириш бошқа кўрсатил_масин"
+
+#~ msgid "Use X settings"
+#~ msgstr "X мосламаларидан фойдаланиш"
+
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "Буйруқни бажариб бўлмади: %s\n"
+#~ "Буйруқ мавжудлигини текшириб кўринг."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "Ушбу хабар бошқа _кўрсатилмасин"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Фойдаланувчи уй директориясини аниқлаб бўлмади"
+
+#~ msgid "A_vailable files:"
+#~ msgstr "_Мавжуд файллар:"
+
+#~ msgid "Do _not show this warning again."
+#~ msgstr "Ушбу огоҳлантириш бошқа кўрсатил_масин."
+
+#~ msgid "Load modmap files"
+#~ msgstr "modmap файлларини юклаш"
+
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "modmap файл(лар)ини юклашни истайсизми?"
+
+#~ msgid "_Load"
+#~ msgstr "_Юклаш"
+
+#~ msgid "_Loaded files:"
+#~ msgstr "_Юкланган файллар:"
+
+#~ msgid "Type"
+#~ msgstr "Тури"
+
+#~ msgid "Screen"
+#~ msgstr "Экран"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "Маълумотлар директориясида хатчўп топилмади"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "URI '%s' учун хатчўп аллақачон мавжуд"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "URI \"%s\" учун хатчўп топилмади"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "URI '%s' учун хатчўпда MIME тури аниқланмаган"
+
+#~ msgid "Logout"
+#~ msgstr "Чиқиш"
+
+#~ msgid "Boing"
+#~ msgstr "Боинг"
+
+#~ msgid "No sound"
+#~ msgstr "Товуш йўқ"
+
+#~ msgid "Sound not set for this event."
+#~ msgstr "Ушбу ҳодиса учун товуш ўрнатилмаган."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "Ушбу ҳодиса учун товуш файли мавжуд эмас.\n"
+#~ "Андоза товушларидан фойдаланиш учун gnome-audio пакетларини ўрнатинг."
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Ушбу ҳодиса учун товуш файли мавжуд эмас."
+
+#~ msgid "Select Sound File"
+#~ msgstr "Товуш файлини танланг"
+
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "%s файли wav файл эмас"
+
+#~ msgid "Select sound file..."
+#~ msgstr "Товуш файлини танланг..."
+
+#~ msgid "System Sounds"
+#~ msgstr "Тизим товушлари"
+
+#~ msgid "E-mail"
+#~ msgstr "Эл.почта"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Эл.почта клиентини ишга тушириш тугмалар бирикмаси."
+
+#~ msgid "Eject"
+#~ msgstr "Чиқариш"
+
+#~ msgid "Home folder"
+#~ msgstr "Уй жилди"
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Уй жилди учун тугмалар бирикмаси."
+
+#~ msgid "Launch web browser"
+#~ msgstr "Веб браузерни ишга тушириш"
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Веб браузерни ишга тушириш тугмалар бирикмаси."
+
+#~ msgid "Lock screen"
+#~ msgstr "Экранни қулфлаш"
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Экранни қулфлаш тугмалар бирикмаси."
+
+#~ msgid "Log out"
+#~ msgstr "Сеансни тугатиш"
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Сеансни тугатиш тугмалар бирикмаси."
+
+#~ msgid "Media player"
+#~ msgstr "Мусиқа плейери"
+
+#~ msgid "Pause"
+#~ msgstr "Вақтинча тўхтатиш"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Вақтинча тўхтатиш тугмаси тугмалар бирикмаси."
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Ўйнаш (ёки ўйнаш/вақтинча тўхтатиш) тугмалар бирикмаси."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Олдинги қўшиқ учун тугмалар бирикмаси."
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Қидириш учун тугмалар бирикмаси."
+
+#~ msgid "Skip to next track"
+#~ msgstr "Кейинги йўлакчага ўтиш"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "Олдин йўлакчага ўтиш"
+
+#~ msgid "Stop playback key"
+#~ msgstr "Ўйнашни тўхтатиш тугмаси"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Ўйнашни тўхтатиш учун тугмалар бирикмаси."
+
+#~ msgid "Volume down"
+#~ msgstr "Товушни пасайтириш"
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Товушни пасайтириш учун тугмалар бирикмаси"
+
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "Овозни ўчириш учун тугмалар бирикмаси"
+
+#~ msgid "Run screensaver at login"
+#~ msgstr "Сеанс бошланганда экран сақловчисини  ишга тушириш"
+
+#~ msgid "Start screensaver"
+#~ msgstr "Экран сақловчисини ишга тушириш"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Дастур шрифти сифатида ўрнатиш"
+
+#~ msgid "Sets the default application font"
+#~ msgstr "Андоза дастур шрифтини танланг"
+
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "GNOME шрифт кўрувчиси"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Янги шрифт қўллансинми?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Шрифт _қўлланмасин"
+
+#~ msgid "_Apply font"
+#~ msgstr "Шрифтни _қўллаш"
+
+#~ msgid "Themes"
+#~ msgstr "Мавзулар"
+
+#~ msgid "Description"
+#~ msgstr "Таърифи"
+
+#~ msgid "Window border theme"
+#~ msgstr "Ойна чегараси мавзуси"
+
+#~ msgid "Icon theme"
+#~ msgstr "Нишонча мавзуси"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDEFG"
+
+#~ msgid "[FILE]"
+#~ msgstr "[ФАЙЛ]"
+
+#~ msgid "Apply theme"
+#~ msgstr "Мавзуни қўллаш"
+
+#~ msgid "Sets the default theme"
+#~ msgstr "Мавзуни андоза қилиб белгилайди"

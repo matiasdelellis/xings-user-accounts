@@ -1,0 +1,6264 @@
+# translation of bn_IN.po to Bengali INDIA
+# Bangla Translation of the Gnome Control Center po file.
+# Copyright (c)  2003-2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the Gnome Control Center package.
+#
+#
+# Bengali translations for zanata_rhel package.
+# Copyright (C) 2013 THE zanata_rhel'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the zanata_rhel package.
+# Progga <progga@BengaLinux.Org>, 2003-2006.
+# Runa Bhattacharjee <runabh@gmail.com>, 2006, 2007.
+# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009, 2010.
+# Automatically generated, 2013.
+# sray <sray@redhat.com>, 2014. #zanata.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2014-09-15 16:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language: bn_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.5\n"
+
+# auto translated by TM merge from project: gnome-boxes, version: 3.8.3, DocId: gnome-boxes
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "ব্যবহারকারীর নাম (_U)"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "সম্পূর্ণ নাম (_F)"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "প্রমিত"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "প্রশাসক"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "অ্যাকাউন্ট ধরন (_T)"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 5177-68190
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+"ব্যবহারকারী যখন পরের বার লগইন করবেন তখন তাকে একটি পাসওয়ার্ড সেট করার অনুমতি দিন"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "এখনই একটি পাসওয়ার্ড সেট করুন"
+
+# auto translated by TM merge from project: gnome-boxes, version: 3.8.3, DocId: gnome-boxes
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "পাসওয়ার্ড (_P)"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "কনফিগার করা হচ্ছে"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"এন্টারপ্রাইজ লগিন এই ডিভাইসে একটি বিদ্যমান কেন্দ্রীয় ভাবে পরিচালিত ব্যবহারকারী "
+"অ্যাকাউন্ট ব্যবহারের অনুমতি দেয়।"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "ডোমেইন (_D)"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"এন্টারপ্রাইজ লগিন অ্যাকাউন্টগুলি\n"
+"যোগ করতে অনলাইনে যান।"
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "এন্টারপ্রাইজ লগিন (_E)"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "ব্যবহারকারী যোগ করুন"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "ডোমেইন অ্যাডমিনিস্ট্রেটর লগিন"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"এন্টারপ্রাইজ লগিন ব্যবহার করতে, এই কম্পিউটারটিকে এই ডোমেনে নথিভুক্ত\n"
+"করতে  হবে। অনুগ্রহ করে অাপনার নেটওয়ার্ক প্রশাসককে\n"
+"এখানে ডোমেন পাসওয়ার্ড দিতে বলুন।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "প্রশাসকের নাম (_N)"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "প্রশাসকের পাসওয়ার্ড"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "বাঁহাতের বৃদ্ধাঙ্গুলি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "বাঁহাতের মধ্যমা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "বাঁহাতের অনামিকা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "বাঁহাতের কনিষ্ঠা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "ডান হাতের বৃদ্ধাঙ্গুলি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "ডান হাতের মধ্যমা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "ডান হাতের অনামিকা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "ডান হাতের কনিষ্ঠা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "আঙুলের ছাপ সহযোগে লগ-ইনের ব্যবস্থা সক্রিয় করুন"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "ডান ইনডেক্স ফিংগার (_R)"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "বাম ইনডেক্স ফিংগার (_L)"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "অন্যান্য ফিংগার (_O):"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"আপনার আঙুলের ছাপ সাফল্যের সাথে সংরক্ষিত হয়েছে। আঙুলের ছাপ পাঠের ব্যবস্থা (রিডার) "
+"সহযোগে আপনি এখন লগ-ইন করতে সক্ষম হবেন।"
+
+# auto translated by TM merge from project: Cloudforms Cloud Engine User Guide, version: 1.0, DocId: Users_And_Roles
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "ব্যবহারকারী"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "ব্যবহারকারীদের যোগ করুন বা সরান এবং অাপনার পাসওয়ার্ড পরিবর্তন করুন"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "লগিন;নাম;ফিংগারপ্রিন্ট;অবতার;লোগো;ফেস;পাসওয়ার্ড;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "পাসওয়ার্ড পরিবর্তন করুন"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "বাতিল করুন (_C)"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "পরিবর্তন করুন (_a)"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "পাসওয়ার্ড নিশ্চিত করুন (_o)"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "নতুন পাসওয়ার্ড (_N)"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "বর্তমান পাসওয়ার্ড (_P)"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr ""
+"ব্যবহারকারী যখন পরের বার লগইন করবেন তখন তাকে একটি পাসওয়ার্ড সেট করার অনুমতি দিন"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "এখনই একটি পাসওয়ার্ড সেট করুন"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "ব্যবহারকারী যোগ করুন"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "লগিন বিকল্প"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "স্বয়ংক্রিয় লগিন (_u)"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "ফিংগারপ্রিন্ট লগিন (_F)"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "ব্যবহারকারী অাইকন"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "সর্বশেষ লগিন"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "অ্যাকাউন্ট সরান"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "অন্যান্য অ্যাকাউন্ট"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "ব্যবহারকারী মুছতে ব্যর্থ"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "ব্যবহারকারী মুছতে ব্যর্থ"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "অাপনি অাপনার নিজের অ্যাকাউন্ট মুছতে পারবেন না।"
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s এখনও লগিন অাছে"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"কোনো ব্যবহারকারীকে তার লগিন থাকা অবস্থাতেই মুছে ফেলা হলে, সিস্টেম অধারাবাহিক "
+"অবস্থায় চলে যেতে পারে।"
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "অাপনি কি %s'র ফাইলগুলি রাখতে চান?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"একটি ব্যবহারকারী অ্যাকাউন্ট মোছার সময়ে হোম ডিরেক্টরি, মেল স্পুল এবং অস্থায়ী ফাইলগুলি "
+"হাতের কাছে রাখা সম্ভব।"
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "ফাইলগুলি মুছুন (_D)"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "ফাইলগুলি রাখুন (_K)"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "আপনি কি নিশ্চিতরূপে অ্যাকাউন্টটি সরাতে চান?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "ফাইলগুলি মুছুন (_D)"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "অ্যাকাউন্ট নিষ্ক্রিয়"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "পরবর্তী লগিনো সেট করা হবে"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "শূণ্য"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "লগিন করা হয়েছে"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "অ্যাকাউন্ট পরিষেবায় যোগাযোগ করতে ব্যর্থ"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "দয়া করে নিশ্চিত করুন যে, AccountService ইনস্টল করা এবং সক্রিয় করা হয়েছে।"
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"পরিবর্তনগুলি করতে,\n"
+"প্রথমে * অাইকন ক্লিক করুন"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "একটি ব্যবহারকারী অ্যাকাউন্ট তৈরি করুন"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"একটি ব্যবহারকারী অ্যাকাউন্ট তৈরি করতে,\n"
+"প্রথমে * অাইকনে ক্লিক করুন"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "নির্বাচিত ব্যবহারকারী অ্যাকাউন্ট মুছুন"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"নির্বাচিত ব্যবহারকারী অ্যাকাউন্ট মুছতে,\n"
+"প্রথমে * অাইকনে ক্লিক করুন"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "অামার অ্যাকাউন্ট"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "নতুন পাসওয়ার্ডটি পুরানো পাসওয়ার্ডের থেকে অালাদা হতে হবে।"
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "কিছু অক্ষর এবং সংখ্যা পরিবর্তন করে চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "পাসওয়ার্ডটি অনেকটা বদলে চেষ্টা করুন"
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "অাপনার ব্যবহারকারী নাম ছাড়া কোনো পাসওয়ার্ড শক্তিশালী হবে।"
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "পাসওয়ার্ডে নিজের নাম ব্যবহার না করাই ভালো।"
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "পাসওয়ার্ডে অন্তর্ভুক্ত কিছু শব্দ এড়িয়ে যাওয়ার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "সাধারণ শব্দ এড়িয়ে যাওয়ার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "বিদ্যমান শব্দ অাবার সাজানো এড়িয়ে যাওয়ার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "অারো সংখ্যা ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "অারো বেশি সংখ্যাক বড় হাতের অক্ষর ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "অারো বেশি সংখ্যক ছোট হাতের অক্ষর ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "যতিচিহ্নের মতো অারো বিশেষ অক্ষর ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "অক্ষর, সংখ্যা এবং যতিচিহ্ন মিলিয়েমিশিয়ে ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "একই অক্ষর পুনরাবৃত্ত করা এড়িয়ে চলুন।"
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"একই ধরনের অক্ষর লেখা এড়িয়ে যাওয়ার চেষ্টা করুন: অাপনাকে অক্ষর, সংখ্যা এবং যতিচিহ্ন "
+"মিলিয়ে মিশিয়ে ব্যবহার করতে হবে।"
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "1234 বা abcd-এর মতো ক্রম এড়িয়ে যাওয়ার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "অক্ষর, সংখ্যা এবং যতিচিহ্ন মিলিয়েমিশিয়ে ব্যবহার করার চেষ্টা করুন।"
+
+#: ../src/pw-utils.c:117
+#, fuzzy
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+"বড় এবং ছোট হাতের অক্ষর মিলিয়ে মিশিয়ে লিখুন এবং এক বা দুইটি সংখ্যা ব্যবহার করুন।"
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"ভালো পাসওয়ার্ড! অারো অক্ষর, সংখ্যা এবং যতি চিহ্ন যোগ করলে পাসওয়ার্ড শক্তিশালী হবে।"
+
+# auto translated by TM merge from project: evolution-mapi, version: el6, DocId: evolution-mapi
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "পরিচয় প্রমাণ করতে বিফল"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "নতুন পাসওয়ার্ড অত্যন্ত ছোট"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "নতুন পাসওয়ার্ড অত্যন্ত সরল"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "পুরনো এবং নতুন পাসওয়ার্ড প্রায় একই"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "নতুন পাসওয়ার্ড ইতিমধ্যেই সাম্প্রতিক সময়ে ব্যবহৃত হয়েছে।"
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "নতুন পাসওয়ার্ডে অবশ্যই সাংখ্যিক বা বিশেষ অক্ষর থাকতে হবে"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "পুরনো এবং নতুন পাসওয়ার্ড একই"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "অাপনার প্রারম্ভিক ভাবে প্রমাণীকরণের সময়ে অাপনার পাসওয়ার্ড পরিবর্তিত হয়েছে!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "নতুন পাসওয়ার্ডে যথেষ্ট অালাদা অালাদা অক্ষর নেই"
+
+# auto translated by TM merge from project: evolution-mapi, version: el6, DocId: evolution-mapi
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "অজানা ত্রুটি"
+
+#: ../src/um-account-dialog.c:34
+#, fuzzy
+msgid "Should match the web address of your login provider."
+msgstr "অাপনার অ্যাকাউন্ট সরবরাহকারীর ওয়েব ঠিকানা মিলতে হবে।"
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "অ্যাকাউন্ট যোগ করতে ব্যর্থ"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "পাসওয়ার্ড মিলছে না।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "অ্যাকাউন্ট রেজিস্টার করতে ব্যর্থ"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "এই ডোমেন দিয়ে পরিচয়প্রমাণের কোনো সমর্থিত মাধ্যম নেই"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "ডোমেন এ যোগদান করতে ব্যর্থ"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"প্রদত্ত লগিন নামটি কাজ করেনি।\n"
+"দয়া করে অাবার চেষ্টা করুন।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"প্রদত্ত লগিন পাসওয়ার্ডটি কাজ করেনি।\n"
+"দয়া করে অাবার চেষ্টা করুন।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "ডোমেনে লগ ইন করতে ব্যর্থ"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "ডোমেন খুঁজে পাওয়া যায়নি। হতে পারি অাপনি বানান ভুল করেছেন?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "বাতিল করুন"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "যোগ করুন (_A)"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "প্রমিত"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "প্রশাসক"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"আপনি এই ডিভাইস ব্যবহার করতে অনুমোদিত নন। অনুগ্রহ করে সিস্টেম অ্যাডমিনিস্ট্রেটরের "
+"সাথে যোগাযোগ করুন।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "ডিভাইসটি বর্তমানে ব্যবহৃত হচ্ছে।"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "একটি অভ্যন্তরীণ ত্রুটি ঘটেছে।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "নিষ্ক্রিয়"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "সক্রিয়"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "নিবন্ধিত আঙুলের ছাপ মুছে ফেলা হবে কি?"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "আঙুলের ছাপ মুছে ফেলুন (_D)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"আঙুলের ছাপ সহযোগে লগ-ইন ব্যবস্থা নিষ্ক্রিয় করার উদ্দেশ্যে নিবন্ধিত আঙুলের ছাপগুলি মুছে "
+"ফেলা হবে কি?"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "সমাপ্ত!"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "'%s' ডিভাইস ব্যবহার করতে ব্যর্থ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "'%s' ডিভাইসের মধ্যে আঙুলের ছাপ প্রাপ্ত করতে ব্যর্থ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "আঙুলের ছাপ পাঠের কোনো ব্যবস্থা প্রয়োগ করা যায়নি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "অনুগ্রহ করে সহায়তার জন্য আপনার সিস্টেম অ্যাডমিনিস্ট্রটরের সাথে যোগাযোগ করুন।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"আঙুলের ছাপ সহযোগে লগ-ইন ব্যবস্থা সক্রিয় করার জন্য, '%s' সহযোগে অন্তত একটি আঙুলের "
+"ছাপ সংরক্ষণ করা আবশ্যক।"
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "ফিংগার নির্বাচন করা হচ্ছে"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "ফিংগারপ্রিন্ট নথিভুক্ত করা হচ্ছে"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "সারাংশ"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "এই সপ্তাহে"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "গত সপ্তাহে"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "সেশন সমাপ্ত হয়েছে"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "সেশন শুরু হয়েছে"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "দয়া করে অপর একটি পাসওয়ার্ড বাছুন।"
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "দয়া করে অাপনার বর্তমান পাসওয়ার্ড অাবার টাইপ করুন।"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "পাসওয়ার্ড পরিবর্তন করা যাবে না"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "নির্বাচন করুন"
+
+# auto translated by TM merge from project: gnome-contacts, version: 3.8.2, DocId: gnome-contacts
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "আরো ছবির জন্য ব্রাউজ করুন"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "খুলুন (_O)"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "ছবি নিষ্ক্রিয় করুন"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "একটি ফোটো তুলুন…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "আরো ছবির জন্য ব্রাউজ করুন…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "%s দ্বারা ব্যবহৃত"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "এই ধরনের ডোমেনে স্বয়ংক্রিয়ভাবে যোগ দেওয়া যায় না"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "এমন কোন ডোমেন বা রিলম পাওয়া যায়নি"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "%s হিসেবে %s ডোমেনে লগইন করা সম্ভব হচ্ছে না"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "অবৈধ পাসওয়ার্ড, পুনরায় চেষ্টা করুন"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "%s ডোমেনে সংযোগ স্থাপন করতে ব্যর্থ: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "ব্যবহারকারীর নাম অতিশয় দীর্ঘ।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "একটি ব্যবহারকারীর নাম '-' দিয়ে শুরু হতে পারে না।"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#: ../src/um-utils.c:572
+#, fuzzy
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"ব্যবহারকারী নামে শুধুমাত্র a-z-এর বড় হাতের এবং ছোট হাতের অক্ষর, সংখ্যা এবং '.', "
+"'-' এবং '_' এর মধ্যে যেকোনো অক্ষর থাকতে পারে।"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr "এটি অাপনার হোম ফোল্ডারের নামকরণ করতে ব্যবহৃত হবে এবং পরিবর্তন করা যাবে না।"
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "আজ"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "গতকাল"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "নতুন পাসওয়ার্ড যাচাই করুন (_V)"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "অারো বেশি করে অক্ষর, সংখ্যা এবং সংকেত যোগ করার চেষ্টা করুন।"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "শক্তি: দুর্বল"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "শক্তি: কম"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "শক্তি: মাঝারি"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "শক্তি: ভালো"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "শক্তি: উচ্চ"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Passwords do not match."
+#~ msgstr "পাসওয়ার্ডগুলি মিলছে না।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Background"
+#~ msgstr "পটভূমি"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "সারাদিনব্যাপী পরিবর্তন"
+
+#~| msgid "Lock screen"
+#~ msgid "Lock Screen"
+#~ msgstr "পর্দা লক করুন"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "টাইল"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "জুম"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "কেন্দ্র"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "স্কেল"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "পূরণ"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "স্প্যান"
+
+#~ msgid "Select Background"
+#~ msgstr "পটভূমি নির্বাচন করুন"
+
+#~ msgid "Wallpapers"
+#~ msgstr "ওয়ালপেপার"
+
+#~ msgid "Pictures"
+#~ msgstr "ছবি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Colors"
+#~ msgstr "রং"
+
+#~| msgid "No input sources found"
+#~ msgid "No Pictures Found"
+#~ msgstr "কোনো ছবি পাওয়া যায়নি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Home"
+#~ msgstr "গৃহ"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "অাপনি অাপনার %s ফোল্ডারে ছবি যোগ করতে পারেন এবং তাদের এখানে দেখানো হবে"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "multiple sizes"
+#~ msgstr "একাধিক মাপ"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "No Desktop Background"
+#~ msgstr "ডেস্কটপের কোনো পটভূমি প্রয়োগ করা হবে না"
+
+#~ msgid "Current background"
+#~ msgstr "বর্তমান পটভূমি"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "অাপনার পটভূমি ছবি কোনো ওয়ালপেপার বা ফোটোতে পরিবর্তন করুন"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "ওয়ালপেপার;স্ক্রীন;ডেস্কটপ;"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth অক্ষম"
+
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "কোনো Bluetooth অ্যাডাপ্টার পাওয়া যায়নি"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "Bluetooth হার্ডওয়্যার স্যুইচ দ্বারা অক্ষম"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Bluetooth চালু এবং বন্ধ করুন এবং অাপনার ডিভাইসগুলি সংযুক্ত করুন"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "কৌণিক অবস্থানে অাপনার ক্যালিব্রেশন ডিভাইস রাখুন এবং 'সূচনা করুন' টিপুন"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "অাপনার ক্যালিব্রেশন ডিভাইস ক্যালিব্রেশন অবস্থানে সরান এবং 'জারি রাখুন' টিপুন"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr "অাপনার ক্যালিব্রেশন ডিভাইস তলদেশে সরান এবং 'জারি রাখুন' টিপুন"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "ল্যাপটপ লিড বন্ধ করুন"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "এক অাভ্যন্তরীণ ত্রুটি দেখা দিয়েছে যা পুনরুদ্ধার করা যাবে না।"
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "ক্যালিব্রেশনের জন্য প্রয়োজনীয় সরঞ্জাম ইনস্টল করা নেই।"
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "প্রোফাইল প্রস্তুত করা যাবে না।"
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "টার্গেট হোয়াইটপয়েন্ট প্রাপ্তযোগ্য নয়।"
+
+#~ msgid "Complete!"
+#~ msgstr "সম্পন্ন!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "ক্যালিব্রেশন ব্যর্থ হয়েছে!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "অাপনি ক্যালিব্রেশন ডিভাইস সরাতে পারেন।"
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "কাজ চলছে এমন অবস্থায় ক্যালিব্রেশন ডিভাইসে হাত দেবেন না"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "ল্যাপটপ স্ক্রীন"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "অন্তর্ভুক্ত ওয়েবক্যাম"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s মনিটর"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s স্ক্রীনার"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s ক্যামেরা"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s প্রিন্টার"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s ওয়েবক্যাম"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "%s এর রঙ ব্যবস্থাপনা সক্ষম করুন"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "%s এর জন্য রঙের প্রোফাইল দেখান"
+
+#~ msgid "Not calibrated"
+#~ msgstr "ক্যালিব্রেট করা হয়নি"
+
+#~ msgid "Default: "
+#~ msgstr "ডিফল্ট: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "কালারস্পেস: "
+
+#~ msgid "Test profile: "
+#~ msgstr "টেস্ট প্রোফাইল:"
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "ICC প্রোফাইল ফাইল নির্বাচন করুন"
+
+#~ msgid "_Import"
+#~ msgstr "অামদানি করুন (_I)"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "সমর্থিত ICC প্রোফাইলসমূহ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "All files"
+#~ msgstr "সর্বধরনের ফাইল"
+
+#~ msgid "Screen"
+#~ msgstr "স্ক্রীন"
+
+#, c-format
+#~| msgid "Failed to apply configuration: %s"
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "ফাইল অাপলোড করা গেল না: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "প্রোফাইল এখানে অাপলোড করা হয়েছে:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "এই URLটি লিখে রাখুন।"
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "এই কম্পিউটার রিস্টার্ট করুন এবং অাপনার সাধারণ অপারেটিং সিস্টেম বুট করুন।"
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "প্রোফাইল ডাউনলোড এবং ইনস্টল করতে URLটি অাপনার ব্রাউজারে লিখুন।"
+
+#~ msgid "Save Profile"
+#~ msgstr "প্রোফাইল সংরক্ষণ করুন"
+
+#~ msgid "_Save"
+#~ msgstr "সংরক্ষণ করুন (_S)"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "নির্বাচিত ডিভাইসের জন্য একটি রঙ প্রোফাইল তৈরি করুন"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "পরিমাপের সরঞ্জাম সনাক্ত করা হয়নি। দয়া করে এটি যে চালু অাছে এবং সঠিক ভাবে "
+#~ "সংযুক্ত তা দেখে নিন।"
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "পরিমাপের যন্ত্র প্রিন্টার প্রোফাইলিঙের সুবিধা দেয় না।"
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "ডিভাইস ধরন বর্তমানে সমর্থিত নয়।"
+
+#~ msgid "Standard Space"
+#~ msgstr "স্ট্যান্ডার্ড স্পেস"
+
+#~ msgid "Test Profile"
+#~ msgstr "টেস্ট প্রোফাইল"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "স্বয়ংক্রিয়"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "নিম্ন মানের"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "মাঝারি মানের"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "উচ্চ মানের"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "ডিফল্ট RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "ডিফল্ট CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "ডিফল্ট গ্রে"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "ভেন্ডার সরবরাহকৃত ফ্যাক্টরি ক্যালিব্রেশন ডেটা"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "এই প্রোফাইলের ক্ষেত্রে সম্পূর্ণ স্ক্রীন প্রদর্শন সংশোধন সম্ভব নয়"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "এই প্রোফাইল অার হয়তো যথাযথ নেই"
+
+#~ msgid "Display Calibration"
+#~ msgstr "ক্যালিব্রেশন দেখান"
+
+#~ msgid "Start"
+#~ msgstr "আরম্ভ করুন"
+
+#~ msgid "Resume"
+#~ msgstr "অাবার শুরু করুন"
+
+#~ msgid "Done"
+#~ msgstr "সম্পন্ন"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "স্ক্রীন ক্যালিব্রেশন"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "ক্যালিব্রেশন একটি প্রোফাইল তৈরি করবে যা অাপনি অাপনার স্ক্রীনকে রঙের দিক থেকে "
+#~ "ব্যবস্থাপনা করতে পারবেন। ক্যালিব্রেশনের ক্ষেত্রে অাপনি যত বেশি সময় খরচ করবেন, "
+#~ "রঙ প্রোফাইলের গুণমান তত উন্নত হবে।"
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "ক্যালিব্রেশন চলার সময়ে অাপনি অাপনার কম্পিউটার ব্যবহার করতে পারবেন না।"
+
+#~ msgid "Quality"
+#~ msgstr "গুণমান"
+
+#~ msgid "Approximate Time"
+#~ msgstr "অানুমানিক সময়"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "ক্যালিব্রেশনের গুণমান"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "ক্যালিব্রেশনের জন্য অাপনি সেন্সর ডিভাইস ব্যবহার করতে চান তা নির্বাচন করুন।"
+
+#~ msgid "Calibration Device"
+#~ msgstr "ক্যালিব্রেশন ডিভাইস"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "সংযুক্ত প্রদর্শনের ধরনটি নির্বাচন করুন।"
+
+#~ msgid "Display Type"
+#~ msgstr "প্রদর্শনের ধরন"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "একটি প্রদর্শন টার্গেট হোয়াইট পয়েন্ট নির্বাচন করুন। অধিকাংশ প্রদর্শন একটি D65 "
+#~ "ইলিউমিনেন্টে ক্যালিব্রেট হবে।"
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "প্রোফাইল হোয়াইটপয়েন্ট"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "দয়া করে প্রদর্শন এমন এক উজ্জ্বলতায় সেট যা অাপনার ক্ষেত্রে উপযুক্ত। উজ্জ্বলতার এই "
+#~ "স্তরে রঙ ব্যবস্থাপনা সবথেকে যথাযথ হবে।"
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "বিকল্প ভাবে, অাপনি এই ডিভাইসের ক্ষেত্রে অন্যান্য প্রোফাইলের একটিতে ব্যবহার করা "
+#~ "উজ্জ্বলতার স্তর ব্যবহার করতে পারবেন।"
+
+#~ msgid "Display Brightness"
+#~ msgstr "প্রদর্শন উজ্জ্বলতা"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "অাপনি বিভিন্ন কম্পিউটারে একটি রঙ প্রোফাইল ব্যবহার করতে পারবেন, বা পৃথক অালোক "
+#~ "অবস্থায় প্রোফাইল তৈরি করতে পারবেন।"
+
+#~ msgid "Profile Name:"
+#~ msgstr "প্রোফাইলের নাম:"
+
+#~ msgid "Profile Name"
+#~ msgstr "প্রোফাইলের নাম"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "প্রোফাইল সফলভাবে তৈরি হয়েছে!"
+
+#~| msgid "Add profile"
+#~ msgid "Copy profile"
+#~ msgstr "প্রোফাইল অনুলিপি করুন"
+
+#~ msgid "Requires writable media"
+#~ msgstr "লিখনযোগ্য মিডিয়ার প্রয়োজন"
+
+#~| msgid "Add profile"
+#~ msgid "Upload profile"
+#~ msgstr "প্রোফাইল অাপলোড করুন"
+
+#~| msgid "Add new connection"
+#~ msgid "Requires Internet connection"
+#~ msgstr "ইন্টারনেট সংযোগের প্রয়োজন"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "<a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> এবং <a "
+#~ "href=\"windows\">Microsoft Windows</a> সিস্টেমে প্রোফাইল ব্যবহার সংক্রান্ত এই "
+#~ "নির্দেশগুলি অাপনার কাছে অাসতে পারে।"
+
+#~ msgid "Import File…"
+#~ msgstr "ফাইল অামদানি করুন…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "সমস্যাগুলি সনাক্ত হয়েছে। প্রোফাইল ঠিকঠাক ভাবে কাজ নাও করতে পারে। <a href="
+#~ "\"\">বিস্তারিত দেখান।</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "প্রত্যেক ডিভাইসের রঙ ব্যবস্থাপনার ক্ষেত্রে একটি অাপ-টু-ডেট প্রোফাইলের প্রয়োজন।"
+
+#~ msgid "Learn more"
+#~ msgstr "অারো জানুন"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "রঙ ব্যবস্থাপনা বিষয়ে অারো জানুন"
+
+#~ msgid "Set for all users"
+#~ msgstr "সকল ব্যবহারকারীর জন্য সেট করুন"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "এই প্রোফাইল এই কম্পিউটারে সকল ব্যবহারকারীর জন্য সেট করুন"
+
+#~ msgid "Enable"
+#~ msgstr "সক্ষম করুন"
+
+#~ msgid "Add profile"
+#~ msgstr "প্রোফাইল যোগ করুন"
+
+#~ msgid "Calibrate…"
+#~ msgstr "ক্যালিব্রেট করুন…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "ডিভাইস ক্যালিব্রেট করুন"
+
+#~ msgid "Remove profile"
+#~ msgstr "প্রোফাইল সরান"
+
+#~ msgid "View details"
+#~ msgstr "বিস্তারিত দেখুন"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "এমন কোনো ডিভাইস সনাক্ত করতে পারেনি যা রঙ ব্যবস্থাপিত হতে পারে"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "প্রোজেক্টর"
+
+#~ msgid "Plasma"
+#~ msgstr "প্লাজমা"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL পিছনের অালো)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED পিছনের অালো)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (সাদা LED পিছনের অালো)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "চওড়া গ্যামুট LCD (CCFL পিছনের অালো)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "চওড়া গ্যামুট LCD (RGB LED পিছনের অালো)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "উচ্চ"
+
+#~ msgid "40 minutes"
+#~ msgstr "৪০ মিনিট"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "মাঝারি"
+
+#~ msgid "30 minutes"
+#~ msgstr "৩০ মিনিট"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "নিম্ন"
+
+#~ msgid "15 minutes"
+#~ msgstr "১৫ মিনিট"
+
+#~ msgid "Native to display"
+#~ msgstr "প্রদর্শনের নেটিভ"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (মুদ্রণ এবং প্রকাশনা)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (ফটোগ্র্যাফি এবং গ্র্যাফিক্স)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Color"
+#~ msgstr "রঙ"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "অাপনার ডিভাইসের রঙ ক্যালিব্রেট করুন, যেমন প্রদর্শন, ক্যামেরা বা প্রিন্টার"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "রঙ;ICC;প্রোফাইল;ক্যালিব্রেট;প্রিন্টার;প্রদর্শন;"
+
+#~ msgid "United States"
+#~ msgstr "মার্কিন যুক্তরাষ্ট্র"
+
+#~ msgid "Germany"
+#~ msgstr "জার্মানি"
+
+#~ msgid "France"
+#~ msgstr "ফ্রান্স"
+
+#~ msgid "Spain"
+#~ msgstr "স্পেন"
+
+#~ msgid "China"
+#~ msgstr "চিন"
+
+#~ msgid "Other…"
+#~ msgstr "অন্যান্য..."
+
+#~ msgid "More…"
+#~ msgstr "অারো…"
+
+#~ msgid "No languages found"
+#~ msgstr "কোনো ভাষা পাওয়া যায়নি"
+
+#~ msgid "Language"
+#~ msgstr "ভাষা"
+
+#~ msgid "_Done"
+#~ msgstr "সম্পন্ন (_D)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "%a %l:%M %p"
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "%a %l:%M %p"
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "জানুয়ারি"
+
+#~ msgid "February"
+#~ msgstr "ফেব্রুয়ারি"
+
+#~ msgid "March"
+#~ msgstr "মার্চ"
+
+#~ msgid "April"
+#~ msgstr "এপ্রিল"
+
+#~ msgid "May"
+#~ msgstr "মে"
+
+#~ msgid "June"
+#~ msgstr "জুন"
+
+#~ msgid "July"
+#~ msgstr "জুলাই"
+
+#~ msgid "August"
+#~ msgstr "অাগস্ট"
+
+#~ msgid "September"
+#~ msgstr "সেপ্টেম্বর"
+
+#~ msgid "October"
+#~ msgstr "অক্টোবর"
+
+#~ msgid "November"
+#~ msgstr "নভেম্বর"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "December"
+#~ msgstr "ডিসেম্বর"
+
+#~ msgid "Date & Time"
+#~ msgstr "তারিখ & সময়"
+
+#~ msgid "Hour"
+#~ msgstr "ঘন্টা"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~| msgid "minute"
+#~| msgid_plural "minutes"
+#~ msgid "Minute"
+#~ msgstr "মিনিট"
+
+#~ msgid "Day"
+#~ msgstr "দিন"
+
+#~ msgid "Month"
+#~ msgstr "মাস"
+
+#~ msgid "Year"
+#~ msgstr "বছর"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~| msgid "Time"
+#~ msgid "Time Zone"
+#~ msgstr "সময় জোন"
+
+#~| msgid "Search for the string"
+#~ msgid "Search for a city"
+#~ msgstr "শহর সন্ধান করুন"
+
+#~| msgid "Date & Time"
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "স্বয়ংক্রিয় তারিখ & সময় (_D)"
+
+#~ msgid "Requires internet access"
+#~ msgstr "ইন্টারনেট অ্যাক্সেসের প্রয়োজন"
+
+#~| msgid "Automatic _Connect"
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "স্বয়ংক্রিয় সময় জোন (_Z)"
+
+#~| msgid "Date & Time"
+#~ msgid "Date & _Time"
+#~ msgstr "তারিখ & সময় (_T)"
+
+#~ msgid "Time _Zone"
+#~ msgstr "সময় জোন (_Z)"
+
+#~| msgid "Formats"
+#~ msgid "Time _Format"
+#~ msgstr "সময় ফর্ম্যাট (_F)"
+
+#~ msgid "24-hour"
+#~ msgstr "২৪ ঘন্টা"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "সময় অঞ্চল সমেত তারিখ এবং সময় পরিবর্তন করুন"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "ঘড়ি;সময় অঞ্চল;অবস্থান;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "সিস্টেম সময় এবং তারিখ সেটিং পরিবর্তন করুন"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "সময় বা তারিখ সেটিং পরিবর্তন করতে, অাপনার প্রমাণীকরণের প্রয়োজন।"
+
+#~| msgid "Close"
+#~ msgid "Lid Closed"
+#~ msgstr "লিড বন্ধ"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "Mirrored"
+#~ msgstr "প্রতিফলিত"
+
+#~| msgid "Primary _button"
+#~ msgid "Primary"
+#~ msgstr "প্রাথমিক"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Off"
+#~ msgstr "বন্ধ"
+
+#~| msgid "Secondary click delay"
+#~ msgid "Secondary"
+#~ msgstr "অপ্রধান"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "একত্রিত প্রদর্শন সাজান"
+
+#~ msgid "_Apply"
+#~ msgstr "প্রয়োগ করুন (_A)"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "প্রদর্শনগুলিকে অাবার সাজাতে তাদের টানুন"
+
+#~ msgid "Size"
+#~ msgstr "মাপ"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "অ্যাসপেক্ট অনুমাত"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Resolution"
+#~ msgstr "রেসলোলিউশন"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "এই প্রদর্শনে শীর্ষ দন্ড এবং ক্রিয়াকলাপ পূর্বরূপ দেখান "
+
+#~| msgid "Secondary click delay"
+#~ msgid "Secondary Display"
+#~ msgstr "অপ্রধান প্রদর্শন"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "একটি অতিরিক্ত ওয়ার্কস্পেস তৈরি করতে এই প্রদর্শন অপর একটির সংগে যুক্ত করুন"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~| msgid "Orientation"
+#~ msgid "Presentation"
+#~ msgstr "সজ্জা"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "শুধুমাত্র স্লাইডশো এবং মিডিয়া দেখান"
+
+#~ msgid "Mirror"
+#~ msgstr "মিরর"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "উভয় প্রদর্শনেই অাপনার বিদ্যমান রূপ দেখান"
+
+#~| msgid "_Turn On"
+#~ msgid "Turn Off"
+#~ msgstr "বন্ধ করুন"
+
+#~| msgid "Panel to display"
+#~ msgid "Don't use this display"
+#~ msgstr "এই প্রদর্শন ব্যবহার করবেন না"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Could not get screen information"
+#~ msgstr "পর্দা সংক্রান্ত পরিবর্তন প্রাপ্ত করতে ব্যর্থ"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "একত্রিত প্রদর্শন সাজান (_A)"
+
+# auto translated by TM merge from project: virt-viewer, version: 0.5.7, DocId: virt-viewer
+#~ msgid "Displays"
+#~ msgstr "প্রদর্শন"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "সংযুক্ত মনিটর এবং প্রোজেক্টর কীভাবে ব্যবহার করতে হবে তা বাছুন"
+
+#~| msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "প্যানেল;প্রোজেক্টর;xrandr;স্ক্রিন;রিজোলিউশন;সতেজ;মনিটর;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Unknown"
+#~ msgstr "অজানা"
+
+#, c-format
+#~| msgid "%d-bit"
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-বিট"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-বিট"
+
+#~ msgid "Ask what to do"
+#~ msgstr "কী করতে হবে অামাকে জিজ্ঞাসা করুন"
+
+#~ msgid "Do nothing"
+#~ msgstr "কিছু নয়"
+
+#~ msgid "Open folder"
+#~ msgstr "ফোল্ডার খুলুন"
+
+#~ msgid "Other Media"
+#~ msgstr "অন্যান্য মিডিয়া"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "অডিও CD'র জন্য একটি অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "ভিডিও DVD'র জন্য একটি অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "একটি মিউজিক প্লেয়ার সংযুক্ত অবস্থায় চালানোর জন্য একটি অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "একটি ক্যামেরা সংযুক্ত অবস্থায় চালানোর জন্য একটি অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "সফ্টওয়্যার CD'র জন্য একটি অ্যাপ্লিকেশন নির্বাচন করুন"
+
+#~ msgid "audio DVD"
+#~ msgstr "অডিও DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "খালি Blu-ray ডিস্ক"
+
+#~ msgid "blank CD disc"
+#~ msgstr "খালি CD ডিস্ক"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "খালি DVD ডিস্ক"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "খালি HD DVD ডিস্ক"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray ভিডিও ডিস্ক"
+
+#~ msgid "e-book reader"
+#~ msgstr "ই-বই রিডার"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD ভিডিও ডিস্ক"
+
+# auto translated by TM merge from project: nautilus, version: 3.8.2, DocId: nautilus
+#~ msgid "Picture CD"
+#~ msgstr "ছবি CD"
+
+# auto translated by TM merge from project: nautilus, version: 3.8.2, DocId: nautilus
+#~ msgid "Super Video CD"
+#~ msgstr "সুপার ভিডিও CD"
+
+# auto translated by TM merge from project: nautilus, version: 3.8.2, DocId: nautilus
+#~ msgid "Video CD"
+#~ msgstr "ভিডিও CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows সফ্টওয়্যার"
+
+#~ msgid "Section"
+#~ msgstr "বিভাগ"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgid "Overview"
+#~ msgstr "পূর্বরূপ"
+
+#~ msgid "Default Applications"
+#~ msgstr "ডিফল্ট অ্যাপ্লিকেশন"
+
+#~ msgid "Removable Media"
+#~ msgstr "অপসারণযোগ্য মিডিয়া"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "সংস্করণ %s"
+
+#~ msgid "Details"
+#~ msgstr "বিবরণ"
+
+#~ msgid "View information about your system"
+#~ msgstr "অাপনার সিস্টেম সম্বন্ধে তথ্য দেখুন"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "ডিভাইস;সিস্টেম;তথ্য;মেমরি;প্রসেসর;সংস্করণ;ডিফল্ট;অ্যাপ্লিকেশন;পছন্দসই;cd;dvd;usb;"
+#~ "অডিও;ভিডিও;ডিস্ক;অপসারণযোগ্য;মিডিয়া;স্বয়ংক্রিয় চালনা;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "অন্যান্য মিডিয়া কীভাবে পরিচালিত হবে তা নির্বাচন করুন"
+
+#~ msgid "_Action:"
+#~ msgstr "কর্ম (_A):"
+
+#~ msgid "_Type:"
+#~ msgstr "ধরন (_T):"
+
+#~ msgid "Device name"
+#~ msgstr "ডিভাইস নাম"
+
+#~ msgid "Memory"
+#~ msgstr "মেমরি"
+
+#~ msgid "Processor"
+#~ msgstr "প্রসেসর"
+
+#~| msgid "Open System"
+#~ msgid "Base system"
+#~ msgstr "বেস সিস্টেম"
+
+#~ msgid "Disk"
+#~ msgstr "ডিস্ক"
+
+#~ msgid "Calculating…"
+#~ msgstr "গণনা করা হচ্ছে…"
+
+#~ msgid "Graphics"
+#~ msgstr "গ্রাফিক্স"
+
+#~ msgid "Virtualization"
+#~ msgstr "ভার্চুয়ালাইজেশন"
+
+#~| msgid "Checking for Updates"
+#~ msgid "Check for updates"
+#~ msgstr "আপডেট অাছে কিনা দেখুন"
+
+#~ msgid "_Web"
+#~ msgstr "ওয়েব (_W)"
+
+#~ msgid "_Mail"
+#~ msgstr "মেল (_M)"
+
+#~ msgid "_Calendar"
+#~ msgstr "বর্ষপঞ্জি (_C)"
+
+#~ msgid "M_usic"
+#~ msgstr "মিউজিক (_u)"
+
+#~ msgid "_Video"
+#~ msgstr "ভিডিও (_V)"
+
+#~ msgid "_Photos"
+#~ msgstr "ছবি (_P)"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "মিডিয়া কীভাবে পরিচালিত হবে তা নির্বাচন করুন"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD অডিও (_a)"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD ভিডিও"
+
+#~ msgid "_Music player"
+#~ msgstr "মিউজিক প্লেয়ার (_M)"
+
+#~ msgid "_Software"
+#~ msgstr "সফ্টওয়্যার (_S)"
+
+#~ msgid "_Other Media…"
+#~ msgstr "অন্যান্য মিডিয়া (_O)…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr ""
+#~ "মিডিয়া সন্নিবেশের সময়ে কখনও সূচনা দেবেন না বা প্রোগ্রাম শুরু করবেন না (_N)"
+
+#~ msgid "Sound and Media"
+#~ msgstr "শব্দ এবং মিডিয়া"
+
+#~ msgid "Volume mute"
+#~ msgstr "শব্দ বন্ধ করুন"
+
+#~ msgid "Volume down"
+#~ msgstr "শব্দমাত্রা কমান"
+
+#~ msgid "Volume up"
+#~ msgstr "শব্দমাত্রা বৃদ্ধি করুন"
+
+#~ msgid "Launch media player"
+#~ msgstr "মিডিয়া প্লেয়ার লঞ্চ করুন"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "বাজান (বা বাজান/বিরতি)"
+
+#~ msgid "Pause playback"
+#~ msgstr "প্লে-ব্যাক স্থগিত করুন"
+
+#~ msgid "Stop playback"
+#~ msgstr "প্লে-ব্যাক বন্ধ করুন"
+
+#~ msgid "Previous track"
+#~ msgstr "পূর্ববর্তী গান"
+
+#~ msgid "Next track"
+#~ msgstr "পরবর্তী গান"
+
+#~ msgid "Eject"
+#~ msgstr "ইজেক্ট"
+
+#~ msgid "Typing"
+#~ msgstr "টাইপ করা হচ্ছে"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "পরবর্তী ইনপুট সোর্সে স্যুইচ করুন"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "পূর্ববর্তী ইনপুট সোর্সে স্যুইচ করুন"
+
+#~ msgid "Launchers"
+#~ msgstr "লঞ্চার"
+
+#~ msgid "Launch help browser"
+#~ msgstr "সহায়তা ব্রাউজার লঞ্চ করুন"
+
+#~ msgid "Settings"
+#~ msgstr "সেটিং"
+
+#~ msgid "Launch calculator"
+#~ msgstr "ক্যালকুলেটর আরম্ভ করুন"
+
+#~ msgid "Launch email client"
+#~ msgstr "ই-মেইল ক্লায়েন্ট আরম্ভ করুন"
+
+#~ msgid "Launch web browser"
+#~ msgstr "ওয়েব ব্রাউজার চালু করুন"
+
+#~ msgid "Home folder"
+#~ msgstr "ব্যক্তিগত ফোল্ডার"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "অনুসন্ধান"
+
+#~ msgid "Screenshots"
+#~ msgstr "স্ক্রীনশট"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "$PICTURES এ একটি স্ক্রীনশট সংরক্ষণ করুন"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "একটি উইন্ডোর স্ক্রীনশট $PICTURES এ সংরক্ষণ করুন"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "কোনো অংশের স্ক্রীনশট $PICTURES এ সংরক্ষণ করুন"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "ক্লিপ-বোর্ডে একটি স্ক্রিন-শট কপি করুন"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "উইন্ডোর স্ক্রিন-শট ক্লিপ-বোর্ডে কপি করুন"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "একটি অঞ্চলের একটি স্ক্রীনশট ক্লিপবোর্ডে অনুলিপি করুন"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "একটি সংক্ষিপ্ত স্ক্রিনকাস্ট রেকর্ড করুন"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "System"
+#~ msgstr "সিস্টেম"
+
+#~ msgid "Log out"
+#~ msgstr "লগ আউট করুন"
+
+#~ msgid "Lock screen"
+#~ msgstr "পর্দা লক করুন"
+
+#~ msgid "Universal Access"
+#~ msgstr "সার্বজনীন ব্যবহারাধিকার"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "জুম চালু বা বন্ধ করুন"
+
+#~ msgid "Zoom in"
+#~ msgstr "বড় মাপে প্রদর্শন"
+
+#~ msgid "Zoom out"
+#~ msgstr "ছোট মাপে প্রদর্শন"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "স্ক্রীন রিডার চালু বা বন্ধ করুন"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "অন-স্ক্রীন কীবোর্ড চালু বা বন্ধ করুন"
+
+#~ msgid "Increase text size"
+#~ msgstr "হরফের মাপ বৃদ্ধি করুন"
+
+#~ msgid "Decrease text size"
+#~ msgstr "হরফের মাপ হ্রাস করুন"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "গাঢ় তারতম্য চালু বা বন্ধ"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "বৈকল্পিক অক্ষর কী"
+
+#~ msgid "Compose Key"
+#~ msgstr "রচনা কী"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "পরবর্তী সোর্সে শুধুমাত্র-সংশোধক স্যুইচ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Keyboard"
+#~ msgstr "কি-বোর্ড"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "কীবোর্ড শর্টকাটগুলি দেখুন এবং পরিবর্তন করুন এবং অাপনার টাইপিং অগ্রাধিকার সেট করুন"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "শর্টকাট;পুনরাবৃত্তি;ব্লিঙ্ক;"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Custom Shortcut"
+#~ msgstr "স্বনির্ধারিত শর্ট-কাট"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "_Name:"
+#~ msgstr "নাম: (_N)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "C_ommand:"
+#~ msgstr "কমান্ড: (_o)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Repeat Keys"
+#~ msgstr "পুনরাবৃত্তির-কি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "কি চেপে ধরে রাখলে অনবরত কি-র মান টেপা হবে (_r)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "_Delay:"
+#~ msgstr "বিলম্ব: (_D)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "_Speed:"
+#~ msgstr "গতি: (_S)"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "মন্থর"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Repeat keys speed"
+#~ msgstr "কি পুনরাবৃত্তির হার"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "দ্রুত"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Cursor Blinking"
+#~ msgstr "কার্সারের ঝলকানি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "টেক্সট লেখার ক্ষেত্রে কার্সার ঝলকাবে (_b)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "S_peed:"
+#~ msgstr "গতি: (_p)"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "কার্সার ব্লিঙ্ক গতি"
+
+#~ msgid "Input Sources"
+#~ msgstr "ইনপুট সোর্স"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "শর্টকাট যোগ করুন"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "শর্টকাট সরান"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "একটি শর্টকাট সম্পাদন করতে, সারিতে ক্লিক করুন এবং সাফ করতে নতুন কী ধরে থাকুন বা "
+#~ "Backspace টিপুন।"
+
+#~ msgid "Shortcuts"
+#~ msgstr "শর্টকাটগুলি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Custom Shortcuts"
+#~ msgstr "স্বনির্ধারিত শর্ট-কাট"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Unknown Action>"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "শর্টকাট-কি হিসেবে \"%s\" ব্যবহার করা যাবে না কারণ এর ফলে এই কি ব্যবহার করে "
+#~ "কিছু টাইপ করা যাবে না।\n"
+#~ "অনুগ্রহ করে Control, Alt অথবা Shift কি-র একত্রিত ব্যবহারের প্রচেষ্টা করুন।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "শর্টকাট \"%s\" বর্তমানে\n"
+#~ "\"%s\"-র জন্য ব্যবহৃত হচ্ছে"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "\"%s\"-এ শর্ট-কাট স্থাপন করা হলে, \"%s\" শর্ট-কাটটি নিষ্ক্রিয় করা হবে।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "_Reassign"
+#~ msgstr "পুনরায় নির্ধারণ (_R)"
+
+#, c-format
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "\"%s\" শর্টকাটের সংগে একটি \"%s\" শর্টকাট সংযুক্ত রয়েছে। অাপনি কি এটি "
+#~ "স্বয়ংক্রিয়ভাবে \"%s\" এ সেট করতে চান?"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#, c-format
+#~| msgid ""
+#~| "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~| "disabled."
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "বর্তমানে \"%s\" \"%s\"-এর সংগে সংশ্লিষ্ট, অাপনি এগিয়ে গেলে এই শর্টকাট নিষ্ক্রিয় "
+#~ "হবে।"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "_Reassign"
+#~ msgid "_Assign"
+#~ msgstr "নিয়োগ (_A)"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "অাপনার সেটিং পরীক্ষা করুন (_S)"
+
+#~| msgid "Test Your _Settings"
+#~ msgid "Test Your Settings"
+#~ msgstr "অাপনার সেটিং পরীক্ষা করুন"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "মাউস & টাচপ্যাড"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "অাপনার মাউস বা টাচপ্যাড সংবেদনশীল পরিবর্তন করুন এবং ডান বা বাম-হাতের দিক "
+#~ "নির্বাচন করুন"
+
+#~| msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "ট্র্যাকপ্যাড;পয়েন্টার;ক্লিক;অালতো চাপুন;দ্বৈত;বোতাম;ট্র্যাকবল;স্ক্রোল;"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "মন্থর"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "দুইবার ক্লিকের সময় সমাপ্ত"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "দ্রুত"
+
+#~ msgid "_Double-click"
+#~ msgstr "দুইবার ক্লিক (_D)"
+
+#~ msgid "Primary _button"
+#~ msgstr "প্রাথমিক বোতাম (_b)"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "বাঁদিকে (_L)"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "ডানদিকে (_R)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Mouse"
+#~ msgstr "মাউস"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "পয়েন্টার গতি (_P)"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "মন্থর"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "দ্রুত"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Touchpad"
+#~ msgstr "টাচ-প্যাড"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "মন্থর"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "দ্রুত"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "টাইপ করার সময়ে অক্ষম করুন (_t)"
+
+#~ msgid "Tap to _click"
+#~ msgstr "ক্লিক করতে অালতো চাপুন (_c)"
+
+#~ msgid "Two _finger scroll"
+#~ msgstr "দুই অাঙুল স্ক্রোল (_f)"
+
+#~ msgid "_Natural scrolling"
+#~ msgstr "স্বাভাবিক স্ক্রোলিং (_N)"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "ক্লিক, দুইবার ক্লিক, স্ক্রোল করার চেষ্টা করুন"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "পাঁচ ক্লিক, GEGL সময়!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "দুইবার ক্লিক, প্রাথমিক বোতাম"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "একবার ক্লিক, প্রাথমিক বোতাম"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "দুইবার ক্লিক, মাঝের বোতাম"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "একবার ক্লিক, মাঝের বোতাম"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "দুইবার ক্লিক, অপ্রধান বোতাম"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "একবার ক্লিক, অপ্রধান বোতাম"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "বিমান মোড (_p)"
+
+#~ msgid "Network proxy"
+#~ msgstr "নেটওয়ার্ক প্রক্সি"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "এই সংস্করণের সংগে সিস্টেম নেটওয়ার্ক পরিষেবাদি সুসংগত নয়।"
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x নিরাপত্তা (_S)"
+
+#~ msgid "page 1"
+#~ msgstr "পৃষ্ঠা ১"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "নামবিহীন পরিচয় (_m)"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "অাভ্যন্তরীণ প্রমাণীকরণ (_a)"
+
+#~ msgid "page 2"
+#~ msgstr "পৃষ্ঠা ২"
+
+#~ msgid "Security"
+#~ msgstr "নিরাপত্তা"
+
+#~ msgid "automatic"
+#~ msgstr "স্বয়ংক্রিয়"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "এন্টারপ্রাইজ "
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "কিছুই নয়"
+
+#~ msgid "Never"
+#~ msgstr "কখনও নয়"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i দিন পূর্বে"
+#~ msgstr[1] "%i দিন পূর্বে"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "কিছুই নয়"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "দুর্বল"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "ঠিক আছে"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "ভাল"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "দুর্দান্ত"
+
+#~ msgid "Identity"
+#~ msgstr "পরিচয়"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Address"
+#~ msgstr "ঠিকানা"
+
+#~ msgid "Netmask"
+#~ msgstr "নেটমাস্ক"
+
+#~ msgid "Gateway"
+#~ msgstr "গেটওয়ে"
+
+#~ msgid "Delete Address"
+#~ msgstr "ঠিকানা মুছুন"
+
+#~ msgid "Add"
+#~ msgstr "যোগ করুন"
+
+#~ msgid "Server"
+#~ msgstr "সার্ভার"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "DNS সার্ভার মুছুন"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "মেট্রিক"
+
+#~ msgid "Delete Route"
+#~ msgstr "রাউট মুছুন"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "স্বয়ংক্রিয় (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "ম্যানুয়াল"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "শুধুমাত্র স্থানীয়-লিংক"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "প্রেফিক্স"
+
+#~ msgid "Automatic"
+#~ msgstr "স্বয়ংক্রিয়"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "স্বয়ংক্রিয়, শুধুমাত্র DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "পুনঃসেট"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "কিছুই নয়"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-বিট কী (Hex বা ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-বিট পাসফ্রেজ"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "ডায়নামিক WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 ব্যক্তিগত"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 এন্টারপ্রাইজ"
+
+#~ msgid "Signal Strength"
+#~ msgstr "সংকেতের শক্তি"
+
+#~ msgid "Link speed"
+#~ msgstr "লিঙ্কের গতি"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 ঠিকানা"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 ঠিকানা"
+
+#~ msgid "Hardware Address"
+#~ msgstr "হার্ডওয়্যার ঠিকানা"
+
+#~ msgid "Default Route"
+#~ msgstr "ডিফল্ট রাউট"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "সর্বশেষ ব্যবহৃত"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "ট্যুইসটেড পেয়ার (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "অ্যাটাচমেন্ট ইউনিট ইন্টারফেস (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "মিডিয়া ইন্ডিপেনডেন্ট ইন্টারফেস (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "নাম (_N)"
+
+#~ msgid "_MAC Address"
+#~ msgstr "MAC ঠিকানা (_M)"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "ক্লোনড ঠিকানা (_C)"
+
+#~ msgid "bytes"
+#~ msgstr "বাইট"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "অন্যান্য ব্যবহারকারীর কাছে উপলব্ধ করান (_u)"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "স্বয়ংক্রিয় ভাবে সংযোগ করুন (_a)"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "ফায়ারওয়্যাল জোন (_Z)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Default"
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "ডিফল্ট"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "জোন সংযোগের বিশ্বস্ততার মাত্রা নির্দিষ্ট করে"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "ঠিকানাগুলি (_A)"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "স্বয়ংক্রিয় DNS"
+
+#~ msgid "Routes"
+#~ msgstr "রাউট"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "স্বয়ংক্রিয় রাউট"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "এই সংযোগ শুধুমাত্র এর নেটওয়ার্কে রিসোর্সগুলির জন্য ব্যবহার করুন (_o)"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "সংযোগ সম্পাদক খোলা গেল না"
+
+#~ msgid "New Profile"
+#~ msgstr "নতুন প্রোফাইল"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Bond"
+#~ msgstr "বন্ড"
+
+#~ msgid "Team"
+#~ msgstr "দল"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Bridge"
+#~ msgstr "ব্রিজ"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "VPN প্লাগিন লোড করা যায়নি"
+
+#~ msgid "Import from file…"
+#~ msgstr "ফাইল থেকে অামদানি করুন…"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "নেটওয়ার্ক সংযোগ যোগ করুন"
+
+# auto translated by TM merge from project: gnome-terminal, version: 3.8.4, DocId: gnome-terminal
+#~ msgid "_Reset"
+#~ msgstr "রি-সেট (_R)"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "_Forget"
+#~ msgstr "মুছে ফেলা হবে (_F)"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "পাসওয়ার্ড সমেত এই নেটওয়ার্কের জন্য সেটিং পুনঃসেট করুন, কিন্তু এটিকে পছন্দের "
+#~ "নেটওয়ার্ক হিসাবে মনে রাখুন"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "এই নেটওয়ার্কের সংগে সংশিষ্ট সমস্ত বিস্তারিত সরান এবং স্বয়ংক্রিয় ভাবে সংযোগ করার "
+#~ "চেষ্টা করুন"
+
+#~ msgid "S_ecurity"
+#~ msgstr "নিরাপত্তা (_e)"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "VPN সংযোগ অামদানি করা যাবে না"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "ফাইল '%s' রিড করা যায়নি বা তাতে স্বীকৃত VPN সংযোগ তথ্য নেই\n"
+#~ "\n"
+#~ "ত্রুটি: %s।"
+
+#~ msgid "Select file to import"
+#~ msgstr "অামদানি করার জন্য ফাইল নির্বাচন করুন"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" নামের একটি ফাইল ইতিমধ্যেই বিদ্যমান।"
+
+# auto translated by TM merge from project: brasero, version: 3.8.0, DocId: brasero
+#~ msgid "_Replace"
+#~ msgstr "প্রতিস্থাপন করুন (_R)"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "অাপনি যে VPN সংযোগ সংরক্ষণ করছেন তা দিয়ে %s প্রতিস্থাপন করতে চান?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "VPN সংযোগ রপ্তানি করা যাবে না"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN সংযোগ '%s' %s এ রপ্তানি করা যায়নি।\n"
+#~ "\n"
+#~ "ত্রুটি: %s।"
+
+#~| msgid "Export VPN connection..."
+#~ msgid "Export VPN connection"
+#~ msgstr "VPN সংযোগ রপ্তানি করুন"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(ত্রুটি: VPN সংযোগ সম্পাদক লোড করা যায়নি)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "অামার হোম নেটওয়ার্ক"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "অন্যান্য ব্যবহারকারীর কাছে উপলব্ধ করান (_o)"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Network"
+#~ msgstr "নেটওয়ার্ক"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "ইন্টারনেটের সংগে অাপনার সংযোগের ধরন নিয়ন্ত্রণ করুন"
+
+#~| msgid ""
+#~| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;DNS;"
+#~ msgstr ""
+#~ "নেটওয়ার্ক;বেতার;Wi-Fi;Wifi;IP;LAN;প্রক্সি;WAN;ব্রডব্যান্ড;মোডেম;ব্লুটুথ;vpn;vlan;"
+#~ "ব্রিজ;বন্ড;DNS;"
+
+#~ msgid "Bond slaves"
+#~ msgstr "বন্ড স্লেভস"
+
+#~ msgid "(none)"
+#~ msgstr "(কিছুই নয়)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "ব্রিজ স্লেভস"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "never"
+#~ msgstr "কখনো নয়"
+
+# auto translated by TM merge from project: gnome-system-log, version: 3.8.1, DocId: gnome-system-log
+#~ msgid "today"
+#~ msgstr "আজ"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "yesterday"
+#~ msgstr "গতকাল"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgid "IP Address"
+#~ msgstr "IP ঠিকানা"
+
+#~ msgid "Last used"
+#~ msgstr "সর্বশেষ ব্যবহৃত"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Wired"
+#~ msgstr "তারযুক্ত"
+
+#~ msgid "Options…"
+#~ msgstr "বিকল্প…"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "প্রোফাইল %d"
+
+#~ msgid "Add new connection"
+#~ msgstr "নতুন সংযোগ যোগ করুন"
+
+#~| msgid "Bridge slaves"
+#~ msgid "Team slaves"
+#~ msgstr "টিম স্লেভস"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "বেতার সংযোগ ছাড়া ইন্টারনেটের সংগে অাপনার অন্য কোনো ধরনের সংযোগ থাকলে, "
+#~ "অন্যদের সংগে সংযোগ ভাগ করতে অাপনি একটি বেতার হটস্পট সেট অাপ করতে পারবেন।"
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "বেতার হটস্পটে স্যুইচ করলে অাপনি <b>%s</b> থেকে সংযোগবিচ্ছিন্ন হবেন।"
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "হটস্পট সক্রিয় থাকার সময়ে অাপনার বেতার মারফত ইন্টারনেট অ্যাক্সেস করা সম্ভব নয়।"
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "হটস্পট বন্ধ এবং কোনো ব্যবহারকারীকে সংযোগবিচ্ছিন্ন করবেন?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "হটস্পট থামান (_S)"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "হটস্পট হিসাবে ব্যবহার সিস্টেম নীতি নিষিদ্ধ করে"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "বেতার ডিভাইস হটস্পট মোড সমর্থন করে না"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "পাসওয়ার্ড সমেত নির্বাচিত নেটওয়ার্কগুলির নেটওয়ার্ক বিস্তারিত এবং যেকোনো কাস্টম "
+#~ "কনফিগারেশন হারিয়ে যাবে।"
+
+#~ msgid "History"
+#~ msgstr "ইতিহাস"
+
+# auto translated by TM merge from project: rhn-client-tools, version: 6.2, DocId: rhn-client-tools
+#~ msgid "_Close"
+#~ msgstr "বন্ধ করুন (_C)"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "মুছে ফেলা হবে (_F)"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "কনফিগারেশন URL সরবরাহ করা না হলে ওয়েব প্রক্সি স্বয়ংক্রিয়-ডিসকভারি ব্যবহার করা "
+#~ "হয়।"
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "অবিশ্বস্ত সর্বজনীন নেটওয়ার্কের ক্ষেত্রে এটি প্রস্তাবিত নয়।"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Proxy"
+#~ msgstr "প্রক্সি"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "প্রোফাইল যোগ করুন (_A)…"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Provider"
+#~ msgstr "সরবরাহকারী"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "শূণ্য"
+
+# auto translated by TM merge from project: control-center, version: 3.8.6, DocId: gnome-control-center-2.0
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "ম্যানুয়াল"
+
+# auto translated by TM merge from project: gnome-terminal, version: 3.8.4, DocId: gnome-terminal
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "স্বয়ংক্রিয়"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "_Method"
+#~ msgstr "পদ্ধতি (_M)"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "_Configuration URL"
+#~ msgstr "কনফিগারেশন URL (_C)"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP প্রক্সি"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS প্রক্সি"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP প্রক্সি"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "_Socks Host"
+#~ msgstr "সকস হোস্ট (_S)"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "হোস্ট উপেক্ষা করুন (_I)"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP প্রক্সি পোর্ট"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS প্রক্সি পোর্ট"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP প্রক্সি পোর্ট"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Socks প্রক্সি পোর্ট"
+
+#~ msgid "Turn device off"
+#~ msgstr "ডিভাইস বন্ধ করুন"
+
+#~ msgid "Add Device"
+#~ msgstr "ডিভাইস যোগ করুন"
+
+#~ msgid "Remove Device"
+#~ msgstr "ডিভাইস সরান"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "VPN Type"
+#~ msgstr "VPN ধরন"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Group Name"
+#~ msgstr "গোষ্ঠী নাম"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Group Password"
+#~ msgstr "গোষ্ঠী পাসওয়ার্ড"
+
+# auto translated by TM merge from project: evolution-mapi, version: el6, DocId: evolution-mapi
+#~ msgid "Username"
+#~ msgstr "ব্যবহারকারীর নাম"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "VPN সংযোগ বন্ধ করুন"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "স্বয়ংক্রিয় সংযোগ (_C)"
+
+#~ msgid "details"
+#~ msgstr "বিস্তারিত"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "None"
+#~ msgstr "শূণ্য"
+
+#~ msgid "Show P_assword"
+#~ msgstr "পাসওয়ার্ড দেখান (_a)"
+
+#~ msgid "Make available to other users"
+#~ msgstr "অন্যান্য ব্যবহারকারীর কাছে উপলব্ধ করান"
+
+# auto translated by TM merge from project: RHEL Deployment Guide, version: 6.2, DocId: Product_Subscriptions_and_Entitlements
+#~ msgid "identity"
+#~ msgstr "পরিচয়"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "শুধুমাত্র স্বয়ংক্রিয় (DHCP) ঠিকানাগুলি"
+
+#~ msgid "Link-local only"
+#~ msgstr "শুধুমাত্র লিঙ্ক-স্থানীয়"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "অন্যান্য কম্পিউটারের সংগে ভাগ করা"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "স্বয়ংক্রিয় ভাবে প্রাপ্ত রাউট উপেক্ষা করুন (_I)"
+
+# auto translated by TM merge from project: firewalld, version: 0.3.4, DocId: firewalld
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+# auto translated by TM merge from project: firewalld, version: 0.3.4, DocId: firewalld
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "ক্লোনড MAC ঠিকানা (_C)"
+
+#~ msgid "hardware"
+#~ msgstr "হার্ডওয়্যার"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "এই সংযোগের সেটিংস তাদের ডিফল্টে পুনঃসেট করুন কিন্তু পছন্দের সংযোগ হিসাবে মনে "
+#~ "রাখুন।"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "এই নেটওয়ার্কের সংগে সংশিষ্ট সমস্ত বিস্তারিত সরান এবং এতে স্বয়ংক্রিয় ভাবে সংযোগ "
+#~ "করার চেষ্টা করবেন না।"
+
+#~ msgid "reset"
+#~ msgstr "পুনঃসেট করুন"
+
+#~ msgid "Hardware"
+#~ msgstr "হার্ডওয়্যার"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wi-Fi হটস্পট"
+
+#~ msgid "_Turn On"
+#~ msgstr "চালু করুন (_T)"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Wi-Fi বন্ধ করুন"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "হটস্পট হিসাবে ব্যবহার করুন (_U)…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "লুকানো নেটওয়ার্কে সংযোগ করুন (_C)…"
+
+#~ msgid "_History"
+#~ msgstr "ইতিহাস (_H)"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "একটি Wi-Fi নেটওয়ার্কে সংযোগ করতে স্যুইচ বন্ধ করুন"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Network Name"
+#~ msgstr "নেটওয়ার্কের নাম"
+
+#~ msgid "Connected Devices"
+#~ msgstr "সংযুক্ত ডিভাইসগুলি"
+
+#~ msgid "Security type"
+#~ msgstr "নিরাপত্তা ধরন"
+
+#~ msgid "Security key"
+#~ msgstr "নিরাপত্তা কী"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "অ্যাড-হক"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Infrastructure"
+#~ msgstr "পরিকাঠামো"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Status unknown"
+#~ msgstr "স্ট্যাটাস অজানা"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Unmanaged"
+#~ msgstr "অপরিচালিত"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgid "Unavailable"
+#~ msgstr "উপলব্ধ নয়"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Connecting"
+#~ msgstr "সংযোগ করা হচ্ছে"
+
+# auto translated by TM merge from project: evolution-data-server, version: el6, DocId: evolution-data-server-2.32
+#~ msgid "Authentication required"
+#~ msgstr "অনুমোদন আবশ্যক"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgid "Connected"
+#~ msgstr "সংযুক্ত"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Disconnecting"
+#~ msgstr "সংযোগ বিচ্ছিন্ন করা হচ্ছে"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Connection failed"
+#~ msgstr "সংযোগ বিফল"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Status unknown (missing)"
+#~ msgstr "স্ট্যাটাস অজানা (অনুপস্থিত)"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Not connected"
+#~ msgstr "সংযোগ বিহীন"
+
+#~ msgid "Configuration failed"
+#~ msgstr "কনফিগারেশন করা যায়নি"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP কনফিগারেশন ব্যর্থ হয়েছে"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP কনফিগারেশনের মেয়াদ শেষ হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "গোপনীয় তথ্য আবশ্যক, কিন্তু উপলব্ধ নয়"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x সাপ্লিক্যান্টের সংযোগ বিচ্ছিন্ন করা হয়েছে"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x সাপ্লিক্যান্টের কনফিগারেশন বিফল হয়েছে"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x সাপ্লিক্যান্ট বিফল হয়েছে"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x সাপ্লিক্যান্ট অনুমোদন করতে অত্যাধিক সময় ব্যয় হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP পরিসেবা আরম্ভ করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP পরিসেবার সাথে সংযোগ বিচ্ছিন্ন হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "PPP failed"
+#~ msgstr "PPP বিফল"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP ক্লায়েন্ট আরম্ভ করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP ক্লায়েন্ট সংক্রান্ত ত্রুটি"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP ক্লায়েন্ট বিফল হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "যৌথরূপে ব্যবহৃত সংযোগ পরিসেবা আরম্ভ হতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Shared connection service failed"
+#~ msgstr "যৌথরূপে ব্যবহৃত পরিসেবা বিফল হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP পরিসেবা আরম্ভ করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP পরিসেবায় ত্রুটি"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP পরিসেবা বিফল"
+
+#~ msgid "Line busy"
+#~ msgstr "লাইন ব্যস্ত"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "No dial tone"
+#~ msgstr "ডায়েল টোন অনুপস্থিত"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "No carrier could be established"
+#~ msgstr "কোনো কেরিয়ার নির্ধারণ করা যায়নি"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "ডায়াল অনুরোধের সময় শেষ হয়ে গেছে"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "ডায়াল করার প্রচেষ্টা ব্যর্থ হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Modem initialization failed"
+#~ msgstr "মোডেম আরম্ভ করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "চিহ্নিত APN নির্বাচন করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Not searching for networks"
+#~ msgstr "নেটওয়ার্ক সন্ধান করা হচ্ছে না"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Network registration denied"
+#~ msgstr "নেটওয়ার্ক নিবন্ধন প্রত্যাখ্যান করা হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Network registration timed out"
+#~ msgstr "নেটওয়ার্ক নিবন্ধন করতে সময়সীমা উত্তীর্ণ হয়েছে"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "অনুরোধ করা নেটওয়ার্কে নিবন্ধন করতে ব্যর্থ"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "PIN check failed"
+#~ msgstr "PIN পরীক্ষা করতে ব্যর্থ"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "অনুপস্থিত হতে পারে এমন ডিভাইসের ফার্মওয়্যার"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "সংযোগ চলে গেছে"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "বিদ্যমান সংযোগ ধরে নেওয়া হয়েছে"
+
+#~ msgid "Modem not found"
+#~ msgstr "মোডেম পাওয়া যায়নি"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "ব্লুটুথ সংযোগ ব্যর্থ হয়েছে"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM কার্ড ঢোকানো হয়নি"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM পিন প্রয়োজনীয়"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM পুক প্রয়োজনীয়"
+
+#~ msgid "SIM wrong"
+#~ msgstr "SIM ভুল"
+
+# auto translated by TM merge from project: NetworkManager, version: 0.9.8.2, DocId: NetworkManager
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "InfiniBand ডিভাইস দ্বারা সংযুক্ত মোড সমর্থিত হয় না"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "সংযোগ নির্ভরশীলতা ব্যর্থ হয়েছে"
+
+# auto translated by TM merge from project: anaconda, version: 19.31.34, DocId: anaconda
+#~ msgid "Firmware missing"
+#~ msgstr "ফায়ারওয়্যার অনুপস্থিত"
+
+# auto translated by TM merge from project: gnome-getting-started-docs, version: 3.8.3.0.1, DocId: gnome-getting-started-docs
+#~ msgid "Cable unplugged"
+#~ msgstr "কেবল বিচ্ছিন্ন করা হয়েছে"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "কোনো শংসাপত্র কর্তৃপক্ষ শংসাপত্র বাছা হয়নি"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "শংসাপত্র কর্তৃপক্ষ (CA) শংসাপত্র ব্যবহার না করার ফলে সংযোগ অনিরাপদ হয়ে যেতে "
+#~ "পারে, Wi-Fi নেটওয়ার্ক বিপজ্জনক হতে পারে। অাপনি কি একটি শংসাপত্র কর্তৃপক্ষ "
+#~ "শংসাপত্র বাছতে চান?"
+
+# auto translated by TM merge from project: authconfig, version: 6.1.12-8, DocId: authconfig
+#~ msgid "Ignore"
+#~ msgstr "অগ্রাহ্য করা হবে"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "CA শংসাপত্র বাছুন"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+#~ msgstr "DER, PEM, বা PKCS#12 ব্যক্তিগত কী (*.der, *.pem, *.p12)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER বা PEM শংসাপত্র (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~| msgid "Choose a PAC file..."
+#~ msgid "Choose a PAC file"
+#~ msgstr "একটি PAC ফাইল বাছুন"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC ফাইল (*.pac)"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC ফাইল (_f)"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "অভ্যন্তরীণ প্রমাণীকরণ (_I)"
+
+#~ msgid "PAC pro_visioning"
+#~ msgstr "PAC নির্দিষ্টকরণ (_v)"
+
+#~ msgid " "
+#~ msgstr " "
+
+# auto translated by TM merge from project: evolution-data-server, version: el6, DocId: evolution-data-server-2.32
+#~ msgid "Anonymous"
+#~ msgstr "নামবিহীন"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Authenticated"
+#~ msgstr "অনুমোদিত"
+
+# auto translated by TM merge from project: subscription-manager, version: 1.8.13, DocId: subscription-manager
+#~ msgid "Both"
+#~ msgstr "উভয়"
+
+#~ msgid "Sho_w password"
+#~ msgstr "পাসওয়ার্ড দেখান (_w)"
+
+# auto translated by TM merge from project: brasero, version: 3.8.0, DocId: brasero
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~| msgid "Choose a Certificate Authority certificate..."
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "একটি শংসাপত্র কর্তৃপক্ষ শংসাপত্র বাছুন"
+
+#~ msgid "Version 0"
+#~ msgstr "সংস্করণ ০"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Version 1"
+#~ msgstr "ভার্সান ১"
+
+#~ msgid "C_A certificate"
+#~ msgstr "C_A শংসাপত্র"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP সংস্করণ (_v)"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "প্রতিবার এই পাসওয়ার্ড জিজ্ঞাসা করুন (_k)"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "এনক্রিপ্ট না করা ব্যক্তিগত কী অনিরাপদ"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "নির্বাচিত ব্যক্তিগত কী একটি পাসওয়ার্ড দ্বারা সুরক্ষিত বলে মনে হচ্ছে না।  এর কারণে "
+#~ "অাপনার নিরাপত্তা শংসাপত্রের অপব্যবহার হওয়ার পরিস্থিতি তৈরি হতে পারে।  দয়া করে "
+#~ "একটি পাসওয়ার্ড সুরক্ষিত ব্যক্তিগত কী নির্বাচন করুন।\n"
+#~ "\n"
+#~ "(অাপনি openssl দিয়ে অাপনার ব্যক্তিগত কী পাসওয়ার্ড সুরক্ষিত করতে পারবেন)"
+
+#~| msgid "Choose your personal certificate..."
+#~ msgid "Choose your personal certificate"
+#~ msgstr "অাপনার ব্যক্তিগত শংসাপত্র বাছুন"
+
+#~| msgid "Choose your private key..."
+#~ msgid "Choose your private key"
+#~ msgstr "অাপনার ব্যক্তিগত কী বাছুন"
+
+#~ msgid "I_dentity"
+#~ msgstr "পরিচয় (_d)"
+
+#~ msgid "_User certificate"
+#~ msgstr "ব্যবহারকারী শংসাপত্র (_U)"
+
+#~ msgid "Private _key"
+#~ msgstr "ব্যক্তিগত কী (_k)"
+
+#~ msgid "_Private key password"
+#~ msgstr "ব্যক্তিগত কী পাসওয়ার্ড (_P)"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "অামাকে অাবার সর্তক করবেন না (_w)"
+
+#~ msgid "No"
+#~ msgstr "না"
+
+#~ msgid "Yes"
+#~ msgstr "হ্যাঁ"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "টানেলড TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "সুরক্ষিত EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "প্রমাণীকরণ (_t)"
+
+#~ msgid "1 (Default)"
+#~ msgstr "১ (ডিফল্ট)"
+
+# auto translated by TM merge from project: RHEL Installation Guide, version: 6.0, DocId: Graphical_Installation-x86
+#~ msgid "2"
+#~ msgstr "২"
+
+# auto translated by TM merge from project: RHEL Installation Guide, version: 6.0, DocId: Graphical_Installation-x86
+#~ msgid "3"
+#~ msgstr "৩"
+
+# auto translated by TM merge from project: RHEL Installation Guide, version: 6.0, DocId: Graphical_Installation-x86
+#~ msgid "4"
+#~ msgstr "৪"
+
+#~ msgid "Open System"
+#~ msgstr "মুক্ত সিস্টেম"
+
+#~ msgid "Shared Key"
+#~ msgstr "ভাগ করা কী"
+
+#~ msgid "_Key"
+#~ msgstr "কী (_K)"
+
+#~ msgid "Sho_w key"
+#~ msgstr "কী দেখান (_w)"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP সূচি (_x)"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgid "_Type"
+#~ msgstr "ধরন (_T)"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "সূচনাবার্তা"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "শব্দ সর্তকতা"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "পপ-অাপ ব্যানার দেখান"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Banners"
+#~ msgstr "ব্যানারে বিস্তারিত দেখান"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "লক স্ক্রীনে দেখুন"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Lock Screen"
+#~ msgstr "বিস্তারিত লক স্ক্রীনে দেখান"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "On"
+#~ msgstr "চালু"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgid "Notifications"
+#~ msgstr "সূচনাবার্তা"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "কোন বিজ্ঞপ্তিগুলি দেখানো হবে এবং তারা কী দেখায় তা নিয়ন্ত্রণ করুন"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "বিজ্ঞপ্তি;ব্যানার;বার্তা;ট্রে;পপ-অাপ;"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "পপ-অাপ ব্যানার দেখান"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "লক স্ক্রীনে দেখান"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Other"
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "অন্যান্য"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Add Account"
+#~ msgstr "অ্যাকাউন্ট যোগ করুন"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Mail"
+#~ msgstr "মেইল"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Contacts"
+#~ msgstr "পরিচিতি"
+
+#~ msgid "Chat"
+#~ msgstr "চ্যাট"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Resources"
+#~ msgstr "রিসোর্সসমূহ"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "অ্যাকাউন্টে লগ ইন করতে ত্রুটি"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "শংসাপত্রের মেয়াদ শেষ হয়ে গেছে।"
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "এই অ্যাকাউন্ট সক্রিয় করতে সাইন ইন করুন।"
+
+#~ msgid "_Sign In"
+#~ msgstr "সাইন ইন করুন (_S)"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Error creating account"
+#~ msgstr "অ্যাকাউন্ট তৈরি করতে ত্রুটি"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Error removing account"
+#~ msgstr "অ্যাকাউন্ট অপসারণের করার সময় ত্রুটি"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "এটি সার্ভারে অ্যাকাউন্ট মুছে ফেলবে না।"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "_Remove"
+#~ msgstr "সরান (_R)"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgid "Online Accounts"
+#~ msgstr "অনলাইন অ্যাকাউন্ট"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "অাপনার অনলাইন অ্যাকাউন্টগুলিতে সংযোগ করুন এবং তাদের কী কাজে ব্যবহার করবেন তার "
+#~ "স্থির করুন"
+
+#~| msgid ""
+#~| "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~| "ownCloud;"
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;অনলাইন;চ্যাট;ক্যালেন্ডার;মেল;পরিচিতি;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;পকেট;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "কোনো অনলাইন অ্যাকাউন্ট কনফিগার করা হয়নি"
+
+# auto translated by TM merge from project: gnome-getting-started-docs, version: 3.8.3.0.1, DocId: gnome-getting-started-docs
+#~ msgid "Add an online account"
+#~ msgstr "একটি অনলাইন অ্যাকাউন্ট যোগ করুন"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "একটি অ্যাকাউন্ট যোগ করলে অাপনার অ্যাপ্লিকেশনগুলি তা নথি, মেল, পরিচিতি, "
+#~ "বর্ষপঞ্জি, চ্যাট এবং অারো অনেক কিছুর জন্য অ্যাক্সেস করতে পারবে।"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Unknown time"
+#~ msgstr "অজানা সময়"
+
+# auto translated by TM merge from project: gnome-packagekit, version: 3.8.2, DocId: gnome-packagekit
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i মিনিট"
+#~ msgstr[1] "%i মিনিটে"
+
+# auto translated by TM merge from project: gnome-packagekit, version: 3.8.2, DocId: gnome-packagekit
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ঘন্টা"
+#~ msgstr[1] "%i ঘন্টায়"
+
+# auto translated by TM merge from project: gnome-packagekit, version: 3.8.2, DocId: gnome-packagekit
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ঘন্টা"
+#~ msgstr[1] "ঘন্টা"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "মিনিট"
+#~ msgstr[1] "মিনিট"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "চার্জ পূর্ণ হতে %s বাকি"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "সর্তকতা: %s বাকি অাছে"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s বাকি অাছে"
+
+#~ msgid "Fully charged"
+#~ msgstr "সম্পূর্ণ চার্জ রয়েছে"
+
+# auto translated by TM merge from project: RHEL Installation Guide, version: 6.0, DocId: Partitions-x86
+#~ msgid "Empty"
+#~ msgstr "খালি"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Charging"
+#~ msgstr "ব্যাটারি চার্জ করা হচ্ছে"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Discharging"
+#~ msgstr "ব্যাটারি ব্যবহার করা হচ্ছে"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "প্রধান"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "অতিরিক্ত"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "বেতার মাউস"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "বেতার কীবোর্ড"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "নিরবিচ্ছিন্ন বিদ্যুত সরবরাহ"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "ব্যক্তিগত ডিজিট্যাল সহায়ক"
+
+#~ msgid "Cellphone"
+#~ msgstr "সেলফোন"
+
+#~ msgid "Media player"
+#~ msgstr "মিডিয়া প্লেয়ার"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Tablet"
+#~ msgstr "ট্যাবলেট"
+
+# auto translated by TM merge from project: gvfs, version: 1.16.3, DocId: gvfs
+#~ msgid "Computer"
+#~ msgstr "কম্পিউটার"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Battery"
+#~ msgstr "ব্যাটারি"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "ব্যাটারি চার্জ করা হচ্ছে"
+
+# auto translated by TM merge from project: gnome-doc-utils, version: 0.20.10, DocId: gnome-doc-utils
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "সতর্কতা"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "নিচু"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "ভাল"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "সম্পূর্ণ চার্জ রয়েছে"
+
+# auto translated by TM merge from project: RHEL Installation Guide, version: 6.0, DocId: Partitions-x86
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "খালি"
+
+#~ msgid "Batteries"
+#~ msgstr "ব্যাটারিগুলি"
+
+#~ msgid "When _idle"
+#~ msgstr "নীরব অবস্থায় (_i)"
+
+#~ msgid "Power Saving"
+#~ msgstr "বিদ্যুতের সংরক্ষণ"
+
+#~| msgid "_Screen Brightness"
+#~ msgid "_Screen brightness"
+#~ msgstr "স্ক্রীন উজ্জ্বলতা (_S)"
+
+#~| msgid "Keyboard Settings"
+#~ msgid "_Keyboard brightness"
+#~ msgstr "কীবোর্ড উজ্জ্বলতা (_K)"
+
+#~| msgid "_Dim Screen when Inactive"
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "নিষ্ক্রিয় অবস্থায় অাবছা স্ক্রীন (_D)"
+
+#~| msgid "_Blank Screen"
+#~ msgid "_Blank screen"
+#~ msgstr "খালি স্ক্রীন (_B)"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "বেতার ডিভাইসগুলি বন্ধ করে"
+
+#~| msgid "_Mobile Broadband"
+#~ msgid "_Mobile broadband"
+#~ msgstr "মোবাইল ব্রড-ব্যান্ড (_M)"
+
+#~| msgid "Turns off Mobile Broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgid "Turns off mobile broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgstr "মোবাইল ব্রডব্যান্ড (3G, 4G, WiMax, ইত্যাদি) ডিভাইসগুলি বন্ধ করে"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "ব্লুটুথ (_B)"
+
+#~ msgid "When on battery power"
+#~ msgstr "যখন ব্যাটারি পাওয়ার চালু"
+
+#~ msgid "When plugged in"
+#~ msgstr "প্লাগইন অবস্থায়"
+
+#~ msgid "Suspend & Power Off"
+#~ msgstr "বিলম্বিত & পাওয়ার বন্ধ করুন"
+
+#~| msgid "_Automatic Suspend"
+#~ msgid "_Automatic suspend"
+#~ msgstr "স্বয়ংক্রিয় বিলম্ব (_A)"
+
+#~| msgid "When Battery Power is _Critical"
+#~ msgid "When battery power is _critical"
+#~ msgstr "যখন ব্যাটারি পাওয়ার খুবই কম (_C)"
+
+# auto translated by TM merge from project: gnome-shell-extensions, version: 3.8.3, DocId: gnome-shell-extensions
+#~ msgid "Power Off"
+#~ msgstr "বন্ধ করুন"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Devices"
+#~ msgstr "ডিভাইস"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Power"
+#~ msgstr "পাওয়ার"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "অাপনার ব্যাটারির স্থিতি দেখুন এবং পাওয়ার সঞ্চয় সেটিং পরিবর্তন করুন"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "পাওয়ার;ঘুমন্ত;বিলম্ব;হাইবারনেট;ব্যাটারি;উজ্জ্বলতা;অন্ধকারময়;খালি;মনিটর;DPMS;"
+#~ "নিশ্চল;"
+
+# auto translated by TM merge from project: gnome-shell-extensions, version: 3.8.3, DocId: gnome-shell-extensions
+#~ msgid "Hibernate"
+#~ msgstr "নিদ্রিত অবস্থা"
+
+# auto translated by TM merge from project: gnome-session, version: 3.8.4, DocId: gnome-session-3.0
+#~ msgid "Power off"
+#~ msgstr "বন্ধ করুন"
+
+#~ msgid "45 minutes"
+#~ msgstr "৪৫ মিনিট"
+
+#~ msgid "1 hour"
+#~ msgstr "১ ঘন্টা"
+
+#~ msgid "80 minutes"
+#~ msgstr "৮০ মিনিট"
+
+#~ msgid "90 minutes"
+#~ msgstr "৯০ মিনিট"
+
+#~ msgid "100 minutes"
+#~ msgstr "১০০ মিনিট"
+
+#~ msgid "2 hours"
+#~ msgstr "২ ঘন্টা"
+
+#~ msgid "1 minute"
+#~ msgstr "১ মিনিট"
+
+#~ msgid "2 minutes"
+#~ msgstr "২ মিনিট"
+
+#~ msgid "3 minutes"
+#~ msgstr "৩ মিনিট"
+
+#~ msgid "4 minutes"
+#~ msgstr "৪ মিনিট"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgid "5 minutes"
+#~ msgstr "৫ মিনিট"
+
+#~ msgid "8 minutes"
+#~ msgstr "৮ মিনিট"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "10 minutes"
+#~ msgstr "১০ মিনিট"
+
+#~ msgid "12 minutes"
+#~ msgstr "১২ মিনিট"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "স্বয়ংক্রিয় বিলম্ব"
+
+#~ msgid "_Plugged In"
+#~ msgstr "প্লাগইন অবস্থায় (_P)"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "ব্যাটারির পাওয়ারে (_B)"
+
+#~ msgid "Delay"
+#~ msgstr "বিলম্ব"
+
+# auto translated by TM merge from project: polkit-gnome, version: 0.105, DocId: polkit-gnome-1
+#~ msgid "Authenticate"
+#~ msgstr "অনুমোদন"
+
+# auto translated by TM merge from project: evolution-data-server, version: el6, DocId: evolution-data-server-2.32
+#~ msgid "Authentication Required"
+#~ msgstr "পরিচয় প্রমাণ করতে হবে"
+
+#~ msgid "Low on toner"
+#~ msgstr "টোনার কম"
+
+#~ msgid "Out of toner"
+#~ msgstr "টোনার শেষ"
+
+#~ msgid "Low on developer"
+#~ msgstr "ডেভেলপার কম"
+
+#~ msgid "Out of developer"
+#~ msgstr "ডেভেলপার শেষ"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "মার্কার সরবরাহ কম"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Out of a marker supply"
+#~ msgstr "মার্কার সরবরাহ শেষ হয়ে গেছে"
+
+#~ msgid "Open cover"
+#~ msgstr "মুক্ত অাবরণ"
+
+#~ msgid "Open door"
+#~ msgstr "মুক্ত দরজা"
+
+#~ msgid "Low on paper"
+#~ msgstr "কাগজ কম"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Out of paper"
+#~ msgstr "কাগজ নেই"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "অফলাইন"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "থামানো হয়েছে"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "অাবর্জনা পাত্র প্রায় পূর্ণ"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "অাবর্জনা পাত্র পূর্ণ"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "অপটিক্যাল ফোটো কনডাকটরের অায়ু প্রায় শেষ হয় এসেছে"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "অপটিক্যাল ফোটো কনডাকটার অার কাজ করছে না"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "প্রস্তুত"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "কাজ নিচ্ছে না"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "কর্মরত"
+
+#~ msgid "Toner Level"
+#~ msgstr "টোনারের মাত্রা"
+
+#~ msgid "Ink Level"
+#~ msgstr "কালির মাত্রা"
+
+#~ msgid "Supply Level"
+#~ msgstr "সরবরাহের মাত্রা"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "ইনস্টল করা হচ্ছে"
+
+#~ msgid "No printers available"
+#~ msgstr "কোনো প্রিন্টার উপলব্ধ নেই"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u সক্রিয়"
+#~ msgstr[1] "%u সক্রিয়"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "নতুন প্রিন্টার যোগ করতে ব্যর্থ।"
+
+#~ msgid "Select PPD File"
+#~ msgstr "PPD ফাইল নির্বাচন করুন"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript প্রিন্টার উল্লেখকারী ফাইল (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "কোনো উপযুক্ত ড্রাইভার পাওয়া যায়নি"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "পছন্দসই ড্রাইভার সন্ধান করা হচ্ছে…"
+
+#~ msgid "Select from database…"
+#~ msgstr "ডেটাবেস থেকে নির্বাচন করুন…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "PPD ফাইল সরবরাহ করুন…"
+
+#~ msgid "Test page"
+#~ msgstr "পরীক্ষা পৃষ্ঠা"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "ui লোড করতে ব্যর্থ: %s"
+
+#~ msgid "Printers"
+#~ msgstr "প্রিন্টার"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "প্রিন্টারগুলি যোগ করুন, প্রিন্টার সংক্রান্ত কাজ দেখুন এবং অাপনি কীভাবে প্রিন্ট করতে "
+#~ "চান তা স্থির করুন"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "প্রিন্টার;সারি;মুদ্রণ;কাগজ;কালি;টোনার;"
+
+#~ msgid "Active Jobs"
+#~ msgstr "সক্রিয় কাজ"
+
+#~ msgid "Close"
+#~ msgstr "বন্ধ করুন"
+
+#~ msgid "Resume Printing"
+#~ msgstr "মুদ্রণ অাবার শুরু করুন"
+
+#~ msgid "Pause Printing"
+#~ msgstr "মুদ্রণ সাময়িক থামান"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "মুদ্রণের কাজ বাতিল করুন"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "একটি নতুন প্রিন্টার যোগ করুন"
+
+# auto translated by TM merge from project: polkit-gnome, version: 0.105, DocId: polkit-gnome-1
+#~| msgid "Authenticate"
+#~ msgid "A_uthenticate"
+#~ msgstr "অনুমোদন (_u)"
+
+#~ msgid "No printers detected."
+#~ msgstr "কোনো প্রিন্টার সনাক্ত করা হয়নি।"
+
+#~| msgid "Search for network printers or filter result"
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "ফলাফল বাছাই করতে একটি প্রিন্টারের ঠিকানা বা একটি পাঠ্য লিখুন"
+
+#~ msgid "Loading options…"
+#~ msgstr "লোডের বিকল্প…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "প্রিন্টার ড্রাইভার নির্বাচন করুন"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "ড্রাইভার ডেটাবেস লোড হচ্ছে..."
+
+#~| msgid "Remove Printer"
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect প্রিন্টার"
+
+#~| msgid "%s Printer"
+#~ msgid "LPD Printer"
+#~ msgstr "LPD প্রিন্টার"
+
+#~ msgid "One Sided"
+#~ msgstr "একপার্শ্বিক"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "দীর্ঘ প্রান্ত (প্রমিত মান)"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "ক্ষুদ্র প্রান্ত (উলট)"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Portrait"
+#~ msgstr "প্রতিকৃতি"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Landscape"
+#~ msgstr "ভূদৃশ্য"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Reverse landscape"
+#~ msgstr "বিপরীত ভূদৃশ্য"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Reverse portrait"
+#~ msgstr "বিপরীত প্রতিকৃতি"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "অসমাপ্ত কর্ম"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "আটক করা"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "কর্মরত"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "স্থগিত"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "বাতিল করা"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 4312-85999
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "পরিত্যক্ত"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "সমাপ্ত"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Job Title"
+#~ msgstr "কাজের শিরোনাম"
+
+#~ msgid "Job State"
+#~ msgstr "কাজের স্থিতি"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Time"
+#~ msgstr "সময়"
+
+#, c-format
+#~ msgid "%s Active Jobs"
+#~ msgstr "%s সক্রিয় কাজ"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "সিরিয়াল পোর্ট"
+
+#~ msgid "Parallel Port"
+#~ msgstr "সমান্তরাল পোর্ট"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 4507-74586
+#, c-format
+#~| msgid "Location"
+#~ msgid "Location: %s"
+#~ msgstr "অবস্থান: %s"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#, c-format
+#~| msgid "Address"
+#~ msgid "Address: %s"
+#~ msgstr "ঠিকানা: %s"
+
+#~| msgid "_Inner authentication"
+#~ msgid "Server requires authentication"
+#~ msgstr "সার্ভারের প্রমাণীকরণের প্রয়োজন"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Two Sided"
+#~ msgstr "উভয়পৃষ্ঠ"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Paper Type"
+#~ msgstr "কাগজের ধরন"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Paper Source"
+#~ msgstr "কাগজের সংগ্রহস্থল"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Output Tray"
+#~ msgstr "আউটপুট-ট্রে"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript প্রি-ফিল্টারিং"
+
+#~ msgid "Pages per side"
+#~ msgstr "প্রতি পার্শ্বে পৃষ্ঠা"
+
+#~ msgid "Two-sided"
+#~ msgstr "উভয় পৃষ্ঠা"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Orientation"
+#~ msgstr "সজ্জা"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "সাধারণ"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "পৃষ্ঠার বৈশিষ্ট্য"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "ইনস্টল করার যোগ্য বিকল্প"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "কর্ম"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "ছবির গুণমান"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "রঙ"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "সমাপ্তি"
+
+# auto translated by TM merge from project: ekiga, version: 4.0.1, DocId: ekiga
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "উন্নত"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Auto Select"
+#~ msgstr "স্বয়ংক্রিয় নির্বাচন"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Printer Default"
+#~ msgstr "প্রিন্টারের ডিফল্ট মান"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "শুধুমাত্র GhostScript ফন্ট এমবেড করা হবে"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Convert to PS level 1"
+#~ msgstr "PS লেভেল ১-এ রূপান্তর করা হবে"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "Convert to PS level 2"
+#~ msgstr "PS লেভেল ২-এ রূপান্তর করা হবে"
+
+# auto translated by TM merge from project: gtk3, version: 3.8.2, DocId: gtk30
+#~ msgid "No pre-filtering"
+#~ msgstr "প্রি-ফিল্টারিং বিহীন"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Manufacturer"
+#~ msgstr "নির্মাতা"
+
+#~ msgid "Driver"
+#~ msgstr "ড্রাইভার"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr "%s এ উপলব্ধ প্রিন্টারগুলি দেখতে অাপনার ব্যবহারকারী নাম এবং পাসওয়ার্ড দিন।"
+
+#~ msgid "Add Printer"
+#~ msgstr "প্রিন্টার যোগ করুন"
+
+#~ msgid "Remove Printer"
+#~ msgstr "প্রিন্টার সরান"
+
+#~ msgid "Supply"
+#~ msgstr "সরবরাহ করুন"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 4507-74586
+#~ msgid "Location"
+#~ msgstr "অবস্থান"
+
+#~| msgid "Default Route"
+#~ msgid "_Default printer"
+#~ msgstr "ডিফল্ট প্রিন্টার (_D)"
+
+#~ msgid "Jobs"
+#~ msgstr "কাজ"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "কাজ দেখান (_J)"
+
+#~ msgid "Model"
+#~ msgstr "মডেল"
+
+#~ msgid "label"
+#~ msgstr "স্তর"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "নতুন ড্রাইভার সেট করা হচ্ছে…"
+
+#~ msgid "page 3"
+#~ msgstr "পৃষ্ঠা ৩"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "পরীক্ষা পৃষ্ঠা মুদ্রণ করুন (_T)"
+
+#~ msgid "_Options"
+#~ msgstr "বিকল্প (_O)"
+
+#~ msgid "Add New Printer"
+#~ msgstr "নতুন প্রিন্টার যোগ করুন"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "দুঃখিত! সিস্টেম মুদ্রণ পরিষেবা\n"
+#~ "উপলব্ধ নেই বলে মনে হচ্ছে।"
+
+#~ msgid "Screen Lock"
+#~ msgstr "স্ক্রীন লক"
+
+#~ msgid "Usage & History"
+#~ msgstr "ব্যবহার & ইতিহাস"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "ট্র্যাশ সম্পূর্ণ খালি করবেন?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "ট্র্যাশের সবকিছু সম্পূর্ণ ভাবে মুছে যাবে।"
+
+#~ msgid "_Empty Trash"
+#~ msgstr "ট্র্যাশ খালি করুন (_E)"
+
+#~| msgid "Purge Trash & Temporary Files"
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "সকল অস্থায়ী ফাইল মুছবেন?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "সকল অস্থায়ী ফাইল সম্পূর্ণ ভাবে মুছে যাবে।"
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "অস্থায়ী ফাইলগুলি পার্জ করুন (_P)"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "ট্র্যাশ & অস্থায়ী ফাইল পার্জ করুন"
+
+# auto translated by TM merge from project: gnome-packagekit, version: 3.8.2, DocId: gnome-packagekit
+#~| msgid "Software"
+#~ msgid "Software Usage"
+#~ msgstr "সফ্টওয়্যারের ব্যবহার"
+
+#~ msgid "Privacy"
+#~ msgstr "গোপনীয়তা"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "অাপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখুন এবং অন্যরা কী দেখতে পাবেন না পাবেন তা "
+#~ "নিয়ন্ত্রণ করুন"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "স্ক্রীন;লক;সমস্যা নিরূপণ;ক্র্যাশ;ব্যক্তিগত;সাম্প্রতিক;অস্থায়ী;tmp;সূচি;নাম;নেটওয়ার্ক;"
+#~ "পরিচয়;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "স্ক্রীন বন্ধ হয়"
+
+#~ msgid "30 seconds"
+#~ msgstr "৩০ সেকেন্ড"
+
+#~ msgid "1 day"
+#~ msgstr "১ দিন"
+
+#~ msgid "2 days"
+#~ msgstr "২ দিন"
+
+#~ msgid "3 days"
+#~ msgstr "৩ দিন"
+
+#~ msgid "4 days"
+#~ msgstr "৪ দিন"
+
+#~ msgid "5 days"
+#~ msgstr "৫ দিন"
+
+#~ msgid "6 days"
+#~ msgstr "৬ দিন"
+
+#~ msgid "7 days"
+#~ msgstr "৭ দিন"
+
+#~ msgid "14 days"
+#~ msgstr "১৪ দিন"
+
+#~ msgid "30 days"
+#~ msgstr "৩০ দিন"
+
+#~ msgid "Forever"
+#~ msgstr "অনন্তকাল"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "অাপনার ইতিহাস মনে রাখলে তা কিছু অাবার খোঁজার কাজকে সহজ করে তোলে। এইগুলি কখনও "
+#~ "নেটওয়ার্ক মারফত ভাগ করা হয়  না।"
+
+#~ msgid "_Recently Used"
+#~ msgstr "সাম্প্রতিক ব্যবহৃত (_R)"
+
+#~ msgid "Retain _History"
+#~ msgstr "ইতিহাস রেখে দিন (_H)"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "সাম্প্রতিক ইতিহাস মুছুন (_e)"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "অাপনি দূরে থাকলে স্ক্রীন লক অাপনার গোপনীয়তাকে সুরক্ষিত রাখে।"
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "স্বয়ংক্রিয় স্ক্রীন লক (_L)"
+
+#~| msgid "Lock Screen _After Blank For"
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "এত খালি থাকার পরে স্ক্রীন তালাবন্ধ করুন (_a)"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "বিজ্ঞপ্তিগুলি দেখান (_N)"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "অাপনার কম্পিউটারকে অপ্রয়োজনীয় সংবেদনশীল তথ্য থেকে মুক্ত রাখতে ট্র্যাশ এবং অস্থায়ী "
+#~ "ফাইলগুলি স্বয়ংক্রিয় ভাবে পার্জ করুন।"
+
+#~| msgid "Automatically Empty _Trash"
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "ট্র্যাশ স্বয়ংক্রিয় ভাবে খালি করুন (_T)"
+
+#~| msgid "Automatically Purge Temporary _Files"
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "অস্থায়ী ফাইলগুলি স্বয়ংক্রিয় ভাবে পার্জ করুন (_F)"
+
+#~ msgid "Purge _After"
+#~ msgstr "এত পরে পার্জ করুন (_A)"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "অাপনি কোন সফ্টওয়্যার ব্যবহার করছেন সেই বিষয়ে অামাদের তথ্য দিলে তা অাপনাকে "
+#~ "অামাদের তরফ থেকে অারো নির্ভুল প্রস্তাবনা দিতে সাহায্য করে। এটি অামাদের "
+#~ "সফ্টওয়্যার উন্নত করতেও সহায়তা করে।\n"
+#~ "\n"
+#~ "অামরা সকল তথ্য বেনামেই সংগ্রহ করে থাকি, এবং অামরা কখনই তৃতীয় পক্ষের সংগে "
+#~ "অাপনার ডেটা ভাগ করে নেব না।"
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "সফ্টওয়্যার ব্যবহারের পরিসংখ্যান পাঠান (_S)"
+
+#~| msgid "Privacy"
+#~ msgid "Privacy Policy"
+#~ msgstr "গোপনীয়তা নীতি"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 4507-74586
+#~| msgid "Location"
+#~ msgid "_Location Services"
+#~ msgstr "অবস্থান পরিষেবা (_L)"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "অাপনার ভৌগোলিক অবস্থান নির্ধারণ করতে ব্যবহৃত"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "ইম্পিরিয়াল"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "মেট্রিক"
+
+#~ msgid "No regions found"
+#~ msgstr "কোনো অঞ্চল খুঁজে পাওয়া যায়নি"
+
+#~ msgid "No input sources found"
+#~ msgstr "কোনো ইনপুট সোর্স পাওয়া যায়নি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Other"
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "অন্যান্য"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "করা পরিবর্তনগুলি প্রয়োগ হতে অাপনার সেশন রিস্টার্ট করা প্রয়োজন"
+
+#~ msgid "Restart Now"
+#~ msgstr "এখনই পুনরারম্ভ করুন"
+
+#~ msgid "No input source selected"
+#~ msgstr "কোনো ইনপুট সোর্স নির্বাচন করা হয়নি"
+
+#~ msgid "Sorry"
+#~ msgstr "দুঃখিত"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "লগিন স্ক্রীনে ইনপুট পদ্ধতি ব্যবহার করা যাবে না"
+
+#~ msgid "Login Screen"
+#~ msgstr "লগিন স্ক্রীন"
+
+#~ msgid "Formats"
+#~ msgstr "ফর্ম্যাট"
+
+#~ msgid "Preview"
+#~ msgstr "পূর্বদৃশ্য"
+
+#~ msgid "Dates"
+#~ msgstr "তারিখ"
+
+#~ msgid "Times"
+#~ msgstr "বার"
+
+#~ msgid "Numbers"
+#~ msgstr "সংখ্যা"
+
+#~ msgid "Measurement"
+#~ msgstr "পরিমাপ"
+
+#~ msgid "Paper"
+#~ msgstr "কাগজ"
+
+#~ msgid "Region & Language"
+#~ msgstr "অঞ্চল & ভাষা"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr "অাপনার প্রদর্শন ভাষা, ফর্ম্যাট, কীবোর্ড সজ্জা এবং ইনপুট সোর্স নির্বাচন করুন"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "ভাষা;সজ্জা;কীবোর্ড;ইনপুট;"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Add an Input Source"
+#~ msgstr "একটি ইনপুট সোর্স যোগ করুন"
+
+#~ msgid "Input Source Options"
+#~ msgstr "ইনপুট সোর্স বিকল্প"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "সকল উইন্ডোর জন্য একই সোর্স ব্যবহার করুন (_s)"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "প্রত্যেক উইন্ডোর জন্য অালাদা সোর্সের অনুমতি দিন (_d)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "কি-বোর্ড শর্টকাট"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "পূর্ববর্তী সোর্সে স্যুইচ করুন"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "পরবর্তী সোর্সে স্যুইচ করুন"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "অাপনি কীবোর্ড সেটিং থেকে এই শর্টকাটগুলি পরিবর্তন করতে পারবেন"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "পরবর্তী সোর্সে বৈকল্পিক স্যুইচ"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Left+Right Alt"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "ইংরাজি (ইউনাইটেড কিংডম)"
+
+#~ msgid "United Kingdom"
+#~ msgstr "ইউনাইটেড কিংডম"
+
+# auto translated by TM merge from project: RHEL Deployment Guide, version: 6.2, DocId: Product_Subscriptions_and_Entitlements
+#~ msgid "Options"
+#~ msgstr "বিকল্প"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "সিস্টেমে লগিন করার সময়ে সকল ব্যবহারকারীর দ্বারা লগিন সেটিং ব্যবহার করা হয়"
+
+# auto translated by TM merge from project: file-roller, version: 3.8.3, DocId: file-roller
+#~| msgid "Places"
+#~ msgctxt "Search Location"
+#~ msgid "Places"
+#~ msgstr "অবস্থান"
+
+# auto translated by TM merge from project: gnome-documents, version: 3.8.3.1, DocId: gnome-documents
+#~| msgid "Bookmarks"
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "বুকমার্ক"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Other"
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "অন্যান্য"
+
+#~ msgid "Select Location"
+#~ msgstr "অবস্থান নির্বাচন করুন"
+
+#~| msgid "GOK"
+#~ msgid "_OK"
+#~ msgstr "ঠিক অাছে (_O)"
+
+#~ msgid "No applications found"
+#~ msgstr "কোনো অ্যাপ্লিকেশন পাওয়া যায়নি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Search"
+#~ msgstr "অনুসন্ধান"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "ক্রিয়াকলাপ পূর্বরূপে কোন অ্যাপ্লিকেশনগুলি সন্ধান ফলাফল দেখাবে তা নিয়ন্ত্রণ করুন"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "সন্ধান;খোঁজ;সূচি;লুকানো;গোপনীয়তা;ফলাফল;"
+
+#~ msgid "Search Locations"
+#~ msgstr "অবস্থান সন্ধান"
+
+# auto translated by TM merge from project: totem, version: 3.8.2, DocId: totem
+#~ msgid "Move Up"
+#~ msgstr "উপরে স্থানান্তর"
+
+# auto translated by TM merge from project: totem, version: 3.8.2, DocId: totem
+#~ msgid "Move Down"
+#~ msgstr "নীচে স্থানান্তর"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Preferences"
+#~ msgstr "পছন্দ"
+
+# auto translated by TM merge from project: control-center, version: 3.8.3, DocId: gnome-control-center-2.0
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "চালু"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "বন্ধ"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~| msgid "Enabled"
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "সক্রিয়"
+
+#~| msgid "Active Jobs"
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "সক্রিয়"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "একটি ফোল্ডার বাছুন"
+
+# auto translated by TM merge from project: gnome-terminal, version: 3.8.4, DocId: gnome-terminal
+#~ msgid "Copy"
+#~ msgstr "কপি করুন"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Sharing"
+#~ msgstr "যৌথরূপে ব্যবহার"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "অন্যদের সংগে অাপনি কী ভাগ করতে চান তা নিয়ন্ত্রণ করুন"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;"
+#~ "video;pictures;photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "ভাগ;অংশীদারি;ssh;হোস্ট;নাম;রিমোট;ডেস্কটপ;ব্লুটুথ;obex;মিডিয়া;অডিও;ভিডিও;ছবি;"
+#~ "ফোটো;মুভি;সার্ভার;রেন্ডরার;"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "রিমোট লগিন সক্রিয় বা নিষ্ক্রিয় করুন"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "রিমোট লগিন সক্রিয় বা নিষ্ক্রিয় করতে অনুমোদনের প্রয়োজন"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "ভাগ করার জন্য কোনো নেটওয়ার্ক নির্বাচন করা হয়নি"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~| msgid "Network"
+#~ msgid "Networks"
+#~ msgstr "নেটওয়ার্ক"
+
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "ব্লুটুথ ভাগ"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "ব্লুটুথ ভাগের মাধ্যমে অাপনি অন্যান্য ব্লুটুথ সক্রিয় ডিভাইসের সংগে ফাইল ভাগ করতে "
+#~ "পারবেন"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "শুধুমাত্র বিশ্বস্ত ডিভাইসগুলি থেকে প্রাপ্ত করুন"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "প্রাপ্ত ফাইলগুলি ডাউনলোড ফোল্ডারে সংরক্ষণ করুন"
+
+# auto translated by TM merge from project: gdm, version: 3.8.4, DocId: gdm
+#~ msgid "Computer Name"
+#~ msgstr "কম্পিউটারের নাম"
+
+# auto translated by TM merge from project: gnome-user-share, version: 3.8, DocId: gnome-user-share
+#~ msgid "Personal File Sharing"
+#~ msgstr "ব্যক্তিগত ফাইলের যৌথ ব্যবহার"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "স্ক্রীন ভাগ"
+
+#~ msgid "Media Sharing"
+#~ msgstr "মিডিয়া ভাগ"
+
+# auto translated by TM merge from project: gdm, version: 3.8.4, DocId: gdm
+#~ msgid "Remote Login"
+#~ msgstr "দূরবর্তী লগ-ইন"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "কোনো নেটওয়ার্ক অ্যাক্সেস না থাকায় কিছু পরিষেবাদি নিষ্ক্রিয় করা হয়েছে।"
+
+#, no-c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "ব্যক্তিগত ফাইল ভাগ এর ব্যবহার করে অন্যদের সংগে অাপনার সার্বজনীন ফোল্ডার ভাগ "
+#~ "করতে দেয়: <a href=\"dav://%s\">dav://%s</a>"
+
+#~ msgid "Require Password"
+#~ msgstr "পাসওয়ার্ড প্রয়োজনীয়"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to connect using the Secure Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "নিরাপদ সেল কম্যান্ড ব্যবহার করে রিমোট ব্যবহারকারীদের সংযোগ করতে অনুমতি দিন:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to view or control your screen by connecting to: <a "
+#~ "href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "এর সংগে সংযোগ করে রিমোট ব্যবহারকারীদেরকে অাপনার স্ক্রীন দেখতে বা নিয়ন্ত্রণ "
+#~ "করতে অনুমতি দিন: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~| msgid "Remote Control"
+#~ msgid "Allow Remote Control"
+#~ msgstr "রিমোট কন্ট্রোলের অনুমতি দিন"
+
+# auto translated by TM merge from project: Skynet topics, version: 1, DocId: 5177-68190
+#~| msgid "Password"
+#~ msgid "Password:"
+#~ msgstr "পাসওয়ার্ড:"
+
+#~ msgid "Show Password"
+#~ msgstr "পাসওয়ার্ড দেখান"
+
+# auto translated by TM merge from project: RHEL Deployment Guide, version: 6.2, DocId: Product_Subscriptions_and_Entitlements
+#~| msgid "Options"
+#~ msgid "Access Options"
+#~ msgstr "অ্যাক্সেস বিকল্প"
+
+#~ msgid "New connections must ask for access"
+#~ msgstr "নতুন সংযোগগুলিকে অবশ্যই অ্যাক্সেস চাইতে হবে"
+
+#~| msgid "Require Password"
+#~ msgid "Require a password"
+#~ msgstr "একটি পাসওয়ার্ডের প্রয়োজন"
+
+#~| msgid "Share Music, Photos and Videos with others on the current network."
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "নেটওয়ার্কের মাধ্যমে মিউজিক, ফোটো এবং ভিডিও ভাগ করুন।"
+
+#~| msgid "Add Folder"
+#~ msgid "Folders"
+#~ msgstr "ফোল্ডারগুলি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Sound"
+#~ msgstr "শব্দ"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "শব্দের মাত্রা, ইনপুট, অাউটপুট, এবং সর্তকতা শব্দ পরিবর্তন করুন"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr "কার্ড;মাইক্রোফোন;ভলিউম;ফেকাসে;ব্যালেন্স;ব্লুটুথ;হেডসেট;অডিও;"
+
+#~ msgid "Bark"
+#~ msgstr "বার্ক"
+
+#~ msgid "Drip"
+#~ msgstr "ড্রিপ"
+
+#~ msgid "Glass"
+#~ msgstr "গ্লাস"
+
+#~ msgid "Sonar"
+#~ msgstr "সোনার"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "বাম"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "ডান"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "পিছনে"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "সম্মুখে"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "সর্বনিম্ন"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "সর্বাধিক"
+
+#~ msgid "_Balance:"
+#~ msgstr "ব্যালেন্স (_B):"
+
+#~ msgid "_Fade:"
+#~ msgstr "ফেকাসে (_F):"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "সাব-উফার (_S):"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "১০০%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "অান-অ্যাপ্লিফায়েড"
+
+#~ msgid "_Profile:"
+#~ msgstr "প্রোফাইল (_P):"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u আউটপুট"
+#~ msgstr[1] "%u আউটপুট"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ইনপুট"
+#~ msgstr[1] "%u ইনপুট"
+
+#~ msgid "System Sounds"
+#~ msgstr "সিস্টেমের শব্দ"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "স্পীকার পরীক্ষা (_T)"
+
+#~ msgid "Peak detect"
+#~ msgstr "পিক সনাক্ত"
+
+#~ msgid "Name"
+#~ msgstr "নাম"
+
+#~ msgid "Device"
+#~ msgstr "ডিভাইস"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "%s এর জন্য স্পীকার পরীক্ষা"
+
+#~ msgid "_Output volume:"
+#~ msgstr "অাউটপুট ভলিউম (_O):"
+
+#~ msgid "Output"
+#~ msgstr "অাউটপুট"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "শব্দ অাউটপুটের জন্য একটি ডিভাইস বাছুন (_h):"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "নির্বাচিত ডিভাইসের সেটিং:"
+
+#~ msgid "Input"
+#~ msgstr "ইনপুট"
+
+#~ msgid "_Input volume:"
+#~ msgstr "ইনপুট ভলিউম (_I):"
+
+#~ msgid "Input level:"
+#~ msgstr "ইনপুট মাত্রা:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "শব্দ ইনপুটের জন্য একটি ডিভাইস বাছুন (_h):"
+
+#~ msgid "Sound Effects"
+#~ msgstr "শব্দ প্রভাব"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "সর্তকতা ভলিউম (_A):"
+
+#~ msgid "Applications"
+#~ msgstr "অ্যাপ্লিকেশন"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "বর্তমানে কোনো অ্যাপ্লিকেশন অডিও প্লে বা রেকর্ড করছে না।"
+
+#~ msgid "Built-in"
+#~ msgstr "অন্তর্ভুক্ত"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "শব্দ বিষয়ক অগ্রাধিকার"
+
+#~ msgid "Testing event sound"
+#~ msgstr "ইভেন্ট শব্দ পরীক্ষা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Default"
+#~ msgstr "ডিফল্ট"
+
+#~ msgid "From theme"
+#~ msgstr "থীম থেকে"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "একটি সর্তকতা শব্দ বাছুন (_h):"
+
+# auto translated by TM merge from project: gnome-clocks, version: 3.8.2, DocId: gnome-clocks
+#~ msgid "Stop"
+#~ msgstr "বন্ধ করুন"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Test"
+#~ msgstr "পরীক্ষা"
+
+# auto translated by TM merge from project: pulseaudio, version: 3.0, DocId: pulseaudio
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Custom"
+#~ msgstr "স্বনির্ধারিত"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "এটিকে দেখা, শোনা, ধরন, পয়েন্ট এবং ক্লিক করা সহজতর করুন"
+
+#~| msgid ""
+#~| "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen Reader;text;font;"
+#~| "size;AccessX;Sticky Keys;Slow Keys;Bounce Keys;Mouse Keys;"
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "কীবোর্ড;মাউস;a11y;অ্যাক্সেসযোগ্যতা;প্রাবল্যতা;জুম;স্ক্রিন;রিডার;পাঠ্য;হরফ;মাপ;"
+#~ "AccessX;স্টিকি;কী;মন্থর;বাউন্স;মাউস;"
+
+#~| msgid "Universal Access"
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "সর্বদা সার্বজনীন অ্যাক্সেস মেনু দেখান (_A)"
+
+#~ msgid "Seeing"
+#~ msgstr "দেখা"
+
+# auto translated by TM merge from project: gnome-themes-standard, version: 3.8.3, DocId: gnome-themes-standard
+#~| msgid "High Contrast"
+#~ msgid "_High Contrast"
+#~ msgstr "গাঢ় তারতম্য (_H)"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~| msgid "Large Text"
+#~ msgid "_Large Text"
+#~ msgstr "বড় মাপের হরফ (_L)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Zoom"
+#~ msgid "_Zoom"
+#~ msgstr "জুম (_Z)"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~| msgid "Screen Reader"
+#~ msgid "Screen _Reader"
+#~ msgstr "স্ক্রীন রিডার (_R)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Bounce Keys"
+#~ msgid "_Sound Keys"
+#~ msgstr "শব্দ কী (_S)"
+
+#~ msgid "Hearing"
+#~ msgstr "শোনা"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~| msgid "Visual Alerts"
+#~ msgid "_Visual Alerts"
+#~ msgstr "দৃশ্যমান সূচনা (_V)"
+
+#~| msgid "On Screen Keyboard"
+#~ msgid "Screen _Keyboard"
+#~ msgstr "স্ক্রীন কীবোর্ড (_K)"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "টাইপিং সহায়তা (_T) (AccessX)"
+
+#~| msgid "Pointing and Clicking"
+#~ msgid "Pointing & Clicking"
+#~ msgstr "পয়েন্টিং & ক্লিকিং"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Mouse Keys"
+#~ msgid "_Mouse Keys"
+#~ msgstr "মাউস-কি (_M)"
+
+#~ msgid "_Click Assist"
+#~ msgstr "ক্লিক সহায়তা (_C)"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Screen Reader"
+#~ msgstr "স্ক্রীন রিডার"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr "অাপনার ফোকাস সরানোর সাথে সাথে স্ক্রিন রিডার প্রদর্শিত পাঠ্য পড়ে।"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~| msgid "Screen Reader"
+#~ msgid "_Screen Reader"
+#~ msgstr "স্ক্রীন রিডার (_S)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Bounce Keys"
+#~ msgid "Sound Keys"
+#~ msgstr "শব্দ কি"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on."
+#~ msgstr "Num Lock বা Caps Lock চালু করা হলে বীপ শব্দ করুন"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Visual Alerts"
+#~ msgstr "দৃশ্যমান সূচনা"
+
+#~ msgid "_Test flash"
+#~ msgstr "ফ্ল্যাশ পরীক্ষা (_T)"
+
+#~| msgid "Use a visual indication when an alert sound occurs"
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "একটি সর্তকতা শব্দ দেখা দিলে একটি ভিজ্যুয়াল সূচনা ব্যবহার করুন।"
+
+#~| msgid "Flash the window title"
+#~ msgid "Flash the _window title"
+#~ msgstr "উইন্ডো শিরোনাম ফ্ল্যাশ করুন (_w)"
+
+#~| msgid "Flash the entire screen"
+#~ msgid "Flash the entire _screen"
+#~ msgstr "সমগ্র স্ক্রীন ফ্ল্যাশ করুন (_s)"
+
+#~| msgid "Typing"
+#~ msgid "Typing Assist"
+#~ msgstr "টাইপিং সহায়তা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Sticky Keys"
+#~ msgid "_Sticky Keys"
+#~ msgstr "স্টিকি-কি (_S)"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "মডিফায়ার কীগুলির একটি ক্রমকে একটি কী সমন্বয় হিসাবে বিবেচ্য করুন"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "দুইটি কী একসংগে টেপা হলে নিষ্ক্রিয় করুন (_D)"
+
+#~ msgid "Beep when a _modifer key is pressed"
+#~ msgstr "একটি মডিফায়ার কী টেপা হলে বীপ (_m)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Slow Keys"
+#~ msgid "S_low Keys"
+#~ msgstr "ধীর গতির-কি (_l)"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "একটি কী টেপা এবং একটিকে স্বীকার করার মধ্যে কিছুটা সময় রাখুন"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "স্বীকার করতে বিলম্ব (_c):"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "মন্থর কী টাইপিং বিলম্ব"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~| msgid "Beep when a _modifer key is pressed"
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "একটি কী টেপা হলে বীপ (_e)"
+
+#~| msgid "Beep when a key is _rejected"
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "একটি কী গৃহিত হলে বীপ অাওয়াজ করুন (_a)"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "একটি কী প্রত্যাখ্যান হলে বীপ অাওয়াজ করুন (_r)"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Bounce Keys"
+#~ msgid "_Bounce Keys"
+#~ msgstr "বাউন্স-কি (_B)"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "দ্রুত সদৃশ কী-টেপা উপেক্ষা করে"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "বাউন্স কী টাইপিং বিলম্ব"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~| msgid "Enable by Keyboard"
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "কীবোর্ড দ্বারা সক্রিয় (_E)"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "কীবোর্ড ব্যবহার করে অ্যাক্সেসযোগ্যতা বৈশিষ্ট্য চালু এবং বন্ধ করুন"
+
+#~ msgid "Click Assist"
+#~ msgstr "ক্লিক সহায়তা"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~| msgid "Simulated Secondary Click"
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "দ্বিতীয় ক্লিকের অনুকরণ (_S)"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "প্রাথমিক বোতাম ধরে রেখে একটি অপ্রধান ক্লিক ট্রিগার করুন"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "অপ্রধান ক্লিক বিলম্ব"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~| msgid "Hover Click"
+#~ msgid "_Hover Click"
+#~ msgstr "হোভার ক্লিক (_H)"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "পয়েন্টার হোভার করার সময়ে একটি ক্লিক ট্রিগার করুন"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "D_elay:"
+#~ msgstr "বিলম্ব: (_e)"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "মোশন থ্রেশোল্ড (_t):"
+
+#~| msgctxt "universal access, text size"
+#~| msgid "Small"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "ছোট"
+
+# auto translated by TM merge from project: totem, version: 3.8.2, DocId: totem
+#~| msgctxt "universal access, text size"
+#~| msgid "Large"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "বৃহৎ"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ স্ক্রীন"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ স্ক্রীন"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ স্ক্রীন"
+
+# auto translated by TM merge from project: control-center, version: 3.8.6, DocId: gnome-control-center-2.0
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+# auto translated by TM merge from project: gnome-terminal, version: 3.8.4, DocId: gnome-terminal
+#~ msgid "Full Screen"
+#~ msgstr "সম্পূর্ণ পর্দা জুড়ে প্রদর্শন"
+
+#~ msgid "Top Half"
+#~ msgstr "শীর্ষ অর্ধ"
+
+#~ msgid "Bottom Half"
+#~ msgstr "নিম্ন অর্ধ"
+
+#~ msgid "Left Half"
+#~ msgstr "বাম অর্ধ"
+
+#~ msgid "Right Half"
+#~ msgstr "ডান অর্ধ"
+
+#~ msgid "Zoom Options"
+#~ msgstr "জুম বিকল্প"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Zoom"
+#~ msgstr "প্রদর্শনের মাপ"
+
+#~ msgid "Magnification:"
+#~ msgstr "বর্ধিতকরণ:"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "মাউস কার্সর অনুসরণ করুন"
+
+#~ msgid "Screen part:"
+#~ msgstr "স্ক্রীন অংশ:"
+
+#~ msgid "Magnifier extends outside of screen"
+#~ msgstr "বিবর্ধক স্ক্রীনের বাইরে বাড়ানো হয়"
+
+#~ msgid "Keep magnifier cursor centered"
+#~ msgstr "বিবর্ধন কার্সার কেন্দ্রে রাখুন"
+
+#~ msgid "Magnifier cursor pushes contents around"
+#~ msgstr "বিবর্ধন কার্সার বিষয়বস্তু চারপাশে ঢেলে"
+
+#~ msgid "Magnifier cursor moves with contents"
+#~ msgstr "বিবর্ধন কার্সার বিষয়বস্তুর সংগে সরে"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "বিবর্ধন অবস্থান:"
+
+#~ msgid "Magnifier"
+#~ msgstr "বিবর্ধন"
+
+#~ msgid "Thickness:"
+#~ msgstr "স্থূলতা:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "পাতলা"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "পুরু"
+
+#~ msgid "Length:"
+#~ msgstr "দৈর্ঘ্য:"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "Color:"
+#~ msgstr "রং:"
+
+#~ msgid "Crosshairs:"
+#~ msgstr "ক্রসহেয়ার:"
+
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "মাউস কার্সার ওভারল্যাপ করে"
+
+#~ msgid "Crosshairs"
+#~ msgstr "ক্রসহেয়ার"
+
+#~ msgid "White on black:"
+#~ msgstr "কালোর উপরে সাদা:"
+
+# auto translated by TM merge from project: system-config-printer, version: 1.1.16-23, DocId: system-config-printer
+#~ msgid "Brightness:"
+#~ msgstr "উজ্জ্বলতা:"
+
+#~ msgid "Contrast:"
+#~ msgstr "বৈপরীত্য:"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "রঙ"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "শূণ্য"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "সম্পূর্ণ"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "নিচু"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "উঁচু"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "কম"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "বেশি"
+
+#~ msgid "Color Effects:"
+#~ msgstr "রং প্রভাব:"
+
+#~ msgid "Color Effects"
+#~ msgstr "রং প্রভাব"
+
+#~ msgid "_Verify"
+#~ msgstr "যাচাই (_V)"
+
+#~ msgid "_Enroll"
+#~ msgstr "নথিভুক্ত করুন (_E)"
+
+#~ msgid "Login History"
+#~ msgstr "লগিন ইতিহাস"
+
+#~ msgid "Add User Account"
+#~ msgstr "ব্যবহারকারী অ্যাকাউন্ট যোগ করুন"
+
+#~ msgid "Remove User Account"
+#~ msgstr "ব্যবহারকারী অ্যাকাউন্ট সরান"
+
+#~ msgid "_Language"
+#~ msgstr "ভাষা (_L)"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "ব্যবহারকারী অ্যাকাউন্টগুলি পরিচালনা করুন"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "ব্যবহারকারী ডেটা পরিবর্তন করতে প্রমাণীকরণের প্রয়োজন"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#, c-format
+#~| msgid "A user with the username '%s' already exists"
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "%s নামের একটি ব্যবহারকারী ইতিমধ্যেই উপস্থিত রয়েছে।"
+
+#~ msgid "Map Buttons"
+#~ msgstr "মানচিত্র বোতাম"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "কাজের মানচিত্র বোতাম"
+
+#~| msgid ""
+#~| "To edit a shortcut, click the row and hold down the new keys or press "
+#~| "Backspace to clear."
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "কোনো শর্টকাট সম্পাদনা করতে, \"কীস্ট্রোক পাঠান\" বাছুন, কীবোর্ড শর্টকাট বোতাম "
+#~ "টিপে নতুন কী ধরে থাকুন বা সাফ করতে ব্যাকস্পেস টিপুন।"
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "ট্যাবলেট ক্যালিব্রেট করতে টার্গেট মার্কারগুলি স্ক্রীনে দেখা দেওয়ার সময়ে দয়া করে "
+#~ "তাদের অালতো চাপুন।"
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "মিস-ক্লিক সনাক্ত করা হয়েছে, পুনঃসূচনা করা হচ্ছে..."
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "উপরে"
+
+# auto translated by TM merge from project: empathy, version: 3.8.3, DocId: empathy
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "নীচে"
+
+# auto translated by TM merge from project: rhsm-web, version: 0.0, DocId: management
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "শূণ্য"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "কীস্ট্রোক পাঠান"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "মনিটর পাল্টান"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "অন-স্ক্রীন সহায়তা দেখান"
+
+#~ msgid "Output:"
+#~ msgstr "অাউটপুট:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "অ্যাসপেক্ট অনুমাত রাখুন (লেটারবক্স):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "একক মনিটরে ম্যাপ করুন"
+
+# auto translated by TM merge from project: sushi, version: 3.8.1, DocId: sushi
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d, %d এর"
+
+#~ msgid "Display Mapping"
+#~ msgstr "ম্যাপিং প্রদর্শন"
+
+#~ msgid "Button"
+#~ msgstr "বোতাম"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom ট্যাবলেট"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "বোতাম ম্যাপিং সেট করুন এবং গ্র্যাফিক্স ট্যাবলেটের জন্য স্টাইলাস সংবেদনশীলতা "
+#~ "সামঞ্জস্যপূর্ণ করুন"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "ট্যাবলেট;Wacom;স্টাইলাস;ইরেজার;মাউস;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "ট্যাবলেট (চরম)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "টাচপ্যাড (সম্পর্কিত)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "ট্যাবলেট অগ্রাধিকার"
+
+#~ msgid "No tablet detected"
+#~ msgstr "কোনো ট্যাবলেট সনাক্ত হয়নি"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "দয়া করে প্লাগ ইন করুন বা অাপনার Wacom ট্যাবলেট চালু করুন"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Bluetooth Settings"
+#~ msgstr "ব্লু-টুথ সংক্রান্ত বৈশিষ্ট্য"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "মনিটর করতে ম্যাপ করুন…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "ম্যাপ বোতাম…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "প্রদর্শন রিজোলিউশন সামঞ্জস্যপূর্ণ করুন"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~| msgid "Mouse Settings"
+#~ msgid "Adjust mouse settings"
+#~ msgstr "মাউস সংক্রান্ত বৈশিষ্ট্য সামজ্ঞস্যপূর্ণ করুন"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "ট্র্যাকিং মোড"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "বাম-হাতী সজ্জা"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Left Ring"
+#~ msgstr "বাঁদিকের রিং"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "বাঁদিকের রিং মোড #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Right Ring"
+#~ msgstr "ডানদিকের রিং"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "ডানদিকের রিং মোড #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Left Touchstrip"
+#~ msgstr "বাঁদিকের টাচ-স্ট্রিপ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "বাঁদিকের টাচ-স্ট্রিপ মোড #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#~ msgid "Right Touchstrip"
+#~ msgstr "ডানদিকের টাচ-স্ট্রিপ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "ডানদিকের টাচ-স্ট্রিপ মোড #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "বাঁদিকের টাচ-রিং মোডের সুইচ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "ডানদিকের টাচ-রিং মোডের সুইচ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "বাঁদিকের টাচ-স্ট্রিপ মোডের সুইচ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "ডানদিকের টাচ-স্ট্রিপ মোডের সুইচ"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "মোডের সুইচ #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "বাঁদিকের বাটন #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "ডানদিকের বাটন #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "উপরের বাটন #%d"
+
+# auto translated by TM merge from project: gnome-settings-daemon, version: 3.8.4, DocId: gnome-settings-daemon
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "নীচের বাটন #%d"
+
+#~| msgid "No shortcut set"
+#~ msgid "New shortcut…"
+#~ msgstr "নতুন শর্টকাট…"
+
+#~ msgid "No Action"
+#~ msgstr "কোনো কাজ নয়"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "বাম মাউস বোতাম ক্লিক"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "মধ্যম মাউস বোতাম ক্লিক"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "ডান মাউস বোতাম ক্লিক"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "Scroll Up"
+#~ msgstr "উপরে চলুন"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "Scroll Down"
+#~ msgstr "নীচে চলুন"
+
+#~ msgid "Scroll Left"
+#~ msgstr "বাম দিকে স্ক্রোল করুন"
+
+#~ msgid "Scroll Right"
+#~ msgstr "ডান দিকে স্ক্রোল করুন"
+
+# auto translated by TM merge from project: rhn-client-tools, version: 6.2, DocId: rhn-client-tools
+#~ msgid "Back"
+#~ msgstr "পূর্ববর্তী"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Forward"
+#~ msgstr "ফরওয়ার্ড"
+
+#~ msgid "Stylus"
+#~ msgstr "স্টাইলাস"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "ইরেজার প্রেসার ফিল"
+
+#~ msgid "Soft"
+#~ msgstr "নরম"
+
+#~ msgid "Firm"
+#~ msgstr "শক্ত"
+
+#~ msgid "Top Button"
+#~ msgstr "শীর্ষ বোতাম"
+
+#~ msgid "Lower Button"
+#~ msgstr "নিম্ন বোতাম"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "টিপ প্রেসার ফিল"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "ভারবজ মোড সক্রিয় করুন"
+
+#~ msgid "Show the overview"
+#~ msgstr "পূর্বরূপ দেখান"
+
+#~ msgid "Search for the string"
+#~ msgstr "স্ট্রীং সন্ধান করুন"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "সম্ভাব্য প্যানেল নামগুলি তালিকাভুক্ত করুন এবং প্রস্থান করুন"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Show help options"
+#~ msgstr "সহায়তা সংক্রান্ত বিকল্প প্রদর্শন করা হবে"
+
+#~ msgid "Panel to display"
+#~ msgstr "প্রদর্শনের জন্য প্যানেল"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[প্যানেল] [অার্গুমেন্ট…]"
+
+#~ msgid "- Settings"
+#~ msgstr "- সেটিং"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "কমান্ড-লাইন থেকে ব্যবহারযোগ্য বিকল্পের সম্পূর্ণ তালিকা দেখার জন্য '%s --help' "
+#~ "প্রয়োগ করুন।\n"
+
+#~ msgid "Available panels:"
+#~ msgstr "উপলব্ধ প্যানেলগুলি:"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Help"
+#~ msgstr "সাহায্য"
+
+#~ msgid "Quit"
+#~ msgstr "প্রস্থান করুন"
+
+#~ msgid "All Settings"
+#~ msgstr "সকল সেটিং"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "ব্যক্তিগত"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "হার্ডওয়্যার"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "সিস্টেম"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "অগ্রাধিকার;সেটিং;"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "নতুন ডিভাইস সেট অাপ করুন"
+
+#~ msgid "Connection"
+#~ msgstr "সংযোগ"
+
+#~ msgid "Paired"
+#~ msgstr "জুটি"
+
+#~ msgid "Type"
+#~ msgstr "ধরন"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "মাউস & টাচপ্যাড সেটিং"
+
+#~ msgid "Sound Settings"
+#~ msgstr "শব্দ সেটিং"
+
+#~ msgid "Send Files…"
+#~ msgstr "ফাইলগুলি পাঠান…"
+
+#~ msgid "Visibility"
+#~ msgstr "দৃশ্যমানতা"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "“%s” এর দৃশ্যমানতা"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "ডিভাইসগুলির তালিকা থেকে '%s' সরান?"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "অাপনি ডিভাইস সরিয়ে দিলে, পরের বার ব্যবহার করার অাগে অাপনাকে অাবার তা সেট "
+#~ "অাপ করতে হবে।"
+
+#~ msgid "Export"
+#~ msgstr "রপ্তানি করুন"
+
+#~ msgid "Device type:"
+#~ msgstr "ডিভাইসের ধরন:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "উত্পাদক:"
+
+#~ msgid "Model:"
+#~ msgstr "মডেল:"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr ""
+#~ "উপরের ক্ষেত্রগুলিকে স্বয়ংক্রিয় ভাবে সম্পূর্ণ করতে এই উইন্ডোতে ছবি ফাইল টেনে অানা "
+#~ "যেতে পারে।"
+
+#~ msgid "Left Shift"
+#~ msgstr "বাম Shift"
+
+#~ msgid "Left Alt"
+#~ msgstr "বাম Alt"
+
+#~ msgid "Left Ctrl"
+#~ msgstr "বাম Ctrl"
+
+#~ msgid "Right Shift"
+#~ msgstr "ডান Shift"
+
+#~ msgid "Right Alt"
+#~ msgstr "ডান Alt"
+
+#~ msgid "Right Ctrl"
+#~ msgstr "ডান Ctrl"
+
+#~ msgid "Left Alt+Shift"
+#~ msgstr "বাম Alt+Shift"
+
+#~ msgid "Left Ctrl+Shift"
+#~ msgstr "বাম Ctrl+Shift"
+
+#~ msgid "Right Ctrl+Shift"
+#~ msgstr "ডান Ctrl+Shift"
+
+#~ msgid "Alt+Shift"
+#~ msgstr "Alt+Shift"
+
+#~ msgid "Ctrl+Shift"
+#~ msgstr "Ctrl+Shift"
+
+#~ msgid "Alt+Ctrl"
+#~ msgstr "Alt+Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "Caps"
+
+#~ msgid "Shift+Caps"
+#~ msgstr "Shift+Caps"
+
+#~ msgid "Alt+Caps"
+#~ msgstr "Alt+Caps"
+
+#~ msgid "_Region:"
+#~ msgstr "অঞ্চল (_R):"
+
+#~ msgid "_City:"
+#~ msgstr "শহর (_C):"
+
+#~ msgid "_Network Time"
+#~ msgstr "নেটওয়ার্ক সময় (_N)"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "সময় এক ঘন্টা অাগে সেট করুন।"
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "সময় এক ঘন্টা পিছনে সেট করুন।"
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "সময় এক মিনিট অাগে সেট করুন।"
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "সময় এক মিনিট পিছনে সেট করুন।"
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "AM এবং PM এর মধ্যে অদলবদল করুন।"
+
+#~ msgid "AM/PM"
+#~ msgstr "AM/PM"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "স্বাভাবিক"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Counterclockwise"
+#~ msgstr "ঘড়ির কাঁটার বিপরীত দিকে"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "ঘড়ির কাঁটার দিকে"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "১৮০ ডিগ্রি"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Monitor"
+#~ msgstr "মনিটর"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "প্রাথমিক প্রদর্শন পরিবর্তন করতে টানুন।"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "কোনো মনিটরের বিশিষ্টতা পরিবর্তন করতে তা নির্বাচন করুন; তার অবস্থান পনঃসজ্জিত "
+#~ "করতে তাকে টানুন।"
+
+# auto translated by TM merge from project: gnome-desktop3, version: 3.8.3, DocId: gnome-desktop-3.0
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "মনিটর সংক্রান্ত কনফিগারেশন সংরক্ষণ করতে ব্যর্থ"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Could not detect displays"
+#~ msgstr "ডিসপ্লে সনাক্ত করতে ব্যর্থ"
+
+#~ msgid "_Resolution"
+#~ msgstr "রিজোলিউশন (_R)"
+
+#~ msgid "R_otation"
+#~ msgstr "ঘূর্ণন (_o)"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "মিরর প্রদর্শন (_M)"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "দ্রষ্টব্য: রিজোলিউশন বিকল্প সীমাবদ্ধ করতে পারে"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "প্রদর্শন সনাক্ত করুন (_D)"
+
+#~ msgid "Install Updates"
+#~ msgstr "আপডেট ইনস্টল করুন"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "সিস্টেম অাপ-টু‍-ডেট"
+
+#~ msgid "OS Type"
+#~ msgstr "OS ধরন"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Mouse Preferences"
+#~ msgstr "মাউস সম্পর্কিত পছন্দ"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Slow"
+#~ msgstr "মন্থর"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Fast"
+#~ msgstr "দ্রুত"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "অাঙুলে অাটকানো বিষয়বস্তু (_o)"
+
+# auto translated by TM merge from project: brasero, version: 3.8.0, DocId: brasero
+#~ msgid "_Options…"
+#~ msgstr "বিকল্প…(_O)"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "নতুন ডিভাইসের জন্য ব্যবহার করতে ইন্টারফেসটি নির্বাচন করুন"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgid "C_reate…"
+#~ msgstr "তৈরি করুন (_r)…"
+
+#~ msgid "_Interface"
+#~ msgstr "ইন্টারফেস (_I)"
+
+#~ msgid "_Default"
+#~ msgstr "ডিফল্ট (_D)"
+
+#~ msgid "Hidden"
+#~ msgstr "লুকানো"
+
+#~ msgid "Visible"
+#~ msgstr "দৃশ্যমান"
+
+#~ msgid "Name & Visibility"
+#~ msgstr "নাম & দৃশ্যমানতা"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr "অাপনি স্ক্রীন এবং নেটওয়ার্কে কীভাবে উপস্থিত হন তা নিয়ন্ত্রণ করুন।"
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "শীর্ষ দণ্ডে সম্পূর্ণ নাম দেখান (_f)"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "লক স্ক্রীনে সম্পূর্ণ নাম দেখান (_l)"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "_Stealth মোড"
+
+#~ msgid "Immediately"
+#~ msgstr "অবিলম্বে"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "কিছুই নয়"
+
+#~ msgid "Share Public Folder"
+#~ msgstr "সর্বজনীন ফোল্ডার ভাগ করুন"
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "শুধুমাত্র বিশ্বস্ত ডিভাইসগুলির সংগে ভাগ করুন"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "এই নেটওয়ার্কে মিডিয়া ভাগ করুন"
+
+#~ msgid "Shared Folders"
+#~ msgstr "ভাগ করা ফোল্ডারগুলি"
+
+#~ msgid "column"
+#~ msgstr "কলাম"
+
+#~ msgid "Remove Folder"
+#~ msgstr "ফোল্ডার সরান"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "এই নেটওয়ার্কে সার্বজনীন ফোল্ডার ভাগ করুন"
+
+#~ msgid "Remote View"
+#~ msgstr "রিমোট ভিউ"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "সকল সংযোগের অনুমোদন দিন"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "স্বাভাবিক"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "উচ্চ/বিপরীত "
+
+#~ msgid "On screen keyboard"
+#~ msgstr "অন-স্ক্রীন কীবোর্ড"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "75%"
+#~ msgstr "৭৫%"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "100%"
+#~ msgstr "১০০%"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "স্বাভাবিক"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "125%"
+#~ msgstr "১২৫%"
+
+# auto translated by TM merge from project: evince, version: 3.8.3, DocId: evince
+#~ msgid "150%"
+#~ msgstr "১৫০%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "অারো বড়"
+
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "Caps এবং Num Lock এ বীপ"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "চালু বা বন্ধ:"
+
+# auto translated by TM merge from project: control-center, version: 3.8.3, DocId: gnome-control-center-2.0
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "জুম"
+
+#~ msgid "Zoom in:"
+#~ msgstr "জুম বাড়ান:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "জুম কমান:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "ক্লোজড ক্যাপশনিং"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "স্পীচ এবং শব্দের একটি টেক্সচুয়াল বর্ণনা দেখান"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "universal access, delay"
+#~ msgid "Short"
+#~ msgstr "সংক্ষিপ্ত"
+
+# auto translated by TM merge from project: control-center, version: 3.8.6, DocId: gnome-control-center-2.0
+#~ msgctxt "universal access, delay"
+#~ msgid "Long"
+#~ msgstr "লম্বা"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "বীপ অাওয়াজ হোক, যখন একটি কী"
+
+#~ msgid "pressed"
+#~ msgstr "টেপা হলে"
+
+#~ msgid "accepted"
+#~ msgstr "স্বীকার করা হলে"
+
+#~ msgid "rejected"
+#~ msgstr "প্রত্যাখ্যান করা হলে"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "স্বীকার করতে বিলম্ব (_e):"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "কীপ্যাড ব্যবহার করে পয়েন্টার নিয়ন্ত্রণ করুন"
+
+#~ msgid "Video Mouse"
+#~ msgstr "ভিডিও মাউস"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "ভিডিও ক্যামেরা ব্যবহার করে পয়েন্টার নিয়ন্ত্রণ করুন।"
+
+# auto translated by TM merge from project: control-center, version: 3.8.6, DocId: gnome-control-center-2.0
+#~ msgctxt "universal access, threshold"
+#~ msgid "Small"
+#~ msgstr "ছোট"
+
+# auto translated by TM merge from project: totem, version: 3.8.2, DocId: totem
+#~ msgctxt "universal access, threshold"
+#~ msgid "Large"
+#~ msgstr "বৃহৎ"
+
+#~ msgid "Add account"
+#~ msgstr "অ্যাকাউন্ট যোগ করুন"
+
+#~ msgid "_Local Account"
+#~ msgstr "স্থানীয় অ্যাকাউন্ট (_L)"
+
+#~ msgid "_Login Name"
+#~ msgstr "লগিন নাম (_L)"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "পরামর্শ: এন্টারপ্রাইজ ডোমেন বা রিলম নাম"
+
+# auto translated by TM merge from project: brasero, version: 3.8.0, DocId: brasero
+#~ msgid "C_ontinue"
+#~ msgstr "এগিয়ে চলুন (_o)"
+
+#~ msgid "Previous Week"
+#~ msgstr "পূর্ববর্তী সপ্তাহ"
+
+#~ msgid "Next Week"
+#~ msgstr "পরবর্তী সপ্তাহ"
+
+# auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
+#~ msgid "Next week"
+#~ msgstr "পরবর্তী সপ্তাহ"
+
+#~ msgid "Log in without a password"
+#~ msgstr "একটি পাসওয়ার্ড ছাড়াই লগিন করুন"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Disable this account"
+#~ msgstr "এই অ্যাকাউন্টটি নিষ্ক্রিয় করুন"
+
+#~ msgid "Enable this account"
+#~ msgstr "এই অ্যাকাউন্ট সক্রিয় করুন"
+
+#~ msgid "Generate a password"
+#~ msgstr "একটি পাসওয়ার্ড প্রস্তুত করুন"
+
+# auto translated by TM merge from project: ekiga, version: 4.0.1, DocId: ekiga
+#~ msgid "_Action"
+#~ msgstr "কর্ম (_A)"
+
+#~ msgid "_Show password"
+#~ msgstr "পাসওয়ার্ড দেখান (_S)"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "কীভাবে একটি শক্তিশালী পাসওয়ার্ড বেছে নেবেন"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "এর জন্য ফোটো পরিবর্তন:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "একটি ছবি বাছুন, যা এই অ্যাকাউন্টের ক্ষেত্রে লগিন স্ক্রীনে দেখানো হবে।"
+
+#~ msgid "Gallery"
+#~ msgstr "গ্যালারি"
+
+#~ msgid "Take a photograph"
+#~ msgstr "একটি ফটোগ্র্যাফ তুলুন"
+
+# auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
+#~ msgid "Browse"
+#~ msgstr "ব্রাউজ করুন"
+
+#~ msgid "Photograph"
+#~ msgstr "ফটোগ্র্যাফ"
+
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#~ msgid "Account Information"
+#~ msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "খুবই ছোট"
+
+# auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "যথেষ্ট ভালো নয়"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "দুর্বল"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "মোটামুটি"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "ভাল"
+
+# auto translated by TM merge from project: gnome-disk-utility, version: 3.8.2, DocId: gnome-disk-utility
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "শক্তিশালী"
+
+#~ msgid "_Generate a password"
+#~ msgstr "একটি পাসওয়ার্ড প্রস্তুত করুন (_G)"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "অাপনাকে একটি নতুন পাসওয়ার্ড দিতে হবে"
+
+#~ msgid "The new password is not strong enough"
+#~ msgstr "নতুন পাসওয়ার্ড ততটা শক্তিশালী নয়"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "অাপনাকে পাসওয়ার্ড নিশ্চিত করতে হবে"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "অাপনাকে অাপনার বর্তমান পাসওয়ার্ড দিতে হবে"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "বর্তমান পাসওয়ার্ডটি সঠিক নয়"
+
+#~ msgid "Wrong password"
+#~ msgstr "ভুল পাসওয়ার্ড"
+
+#~ msgid "Switch Modes"
+#~ msgstr "মোডগুলি স্যুইচ করুন"
+
+# translation auto-copied from project control-center, version 3.8.3, document gnome-control-center-2.0
+#~ msgid "Action"
+#~ msgstr "কাজ"

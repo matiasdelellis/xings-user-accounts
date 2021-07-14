@@ -1,0 +1,1371 @@
+# translation of si.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Danishka Navin <snavin@redhat.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: si\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2007-08-08 14:58+0530\n"
+"Last-Translator: Danishka Navin <snavin@redhat.com>\n"
+"Language-Team: Sinhala <en@li.org>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "සම්පූර්ණ නම"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "විපරම් වර්ගය"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+#, fuzzy
+msgid "Right thumb"
+msgstr "දකුණ"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "රහස්පදය: (_P)"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "විකල්ප"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr ""
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "සියළුම ගොනු"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "ගොනු (_F)"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "මකන්න"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "කිසිවක් නැත (_N)"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "නොදන්නා"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "එක් කරන්න... (_A)"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr ""
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "අක්‍රීය"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "අක්‍රීය"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+#, fuzzy
+msgid "Could not access any fingerprint readers"
+msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "පිළිඹිබුව තෝරන්න"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr ""
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "තෝරන්න (_S)"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "විවෘත කරන්න (_O)"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "අක්‍රීය"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "රහස්පදය: (_P)"
+
+#~ msgid "Image/label border"
+#~ msgstr "පිළිඹිබුව/ලේබලය රාමුව"
+
+#~ msgid "Width of border around the label and image in the alert dialog"
+#~ msgstr "විපරම් සංවාද කොටුව තුළ වූ ලේබලය සහ පිළිඹිබුව වටා ඇති රාමුවේ ඝනකම"
+
+#~ msgid "The type of alert"
+#~ msgstr "විපරමෙහි වර්ගය"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "විපරම් බොත්තම්"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "විපරම් සංවාද කොටුව තුළ පෙන්වන බොත්තම් වර්‍ග"
+
+#~ msgid "Show more _details"
+#~ msgstr "වැඩි විස්තර පෙන්වන්න (_d)"
+
+#~ msgid "No Image"
+#~ msgstr "පිළිඹිබු නැත"
+
+#~ msgid "Images"
+#~ msgstr "පිළිඹිබු"
+
+#, c-format
+#~ msgid "About %s"
+#~ msgstr "%s සම්බන්ධව"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>විද්‍යුත් තැපැල</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>නිවස</b>"
+
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>ක්‍ෂණික පණිවිඩ</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>කාර්‍යය</b>"
+
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>දුරකතනය</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>වැඩ</b>"
+
+#~ msgid "A_ddress:"
+#~ msgstr "ලිපිනය (_d):"
+
+#~ msgid "Address"
+#~ msgstr "ලිපිනය"
+
+#~ msgid "Ci_ty:"
+#~ msgstr "නගතය (_t):"
+
+#~ msgid "Contact"
+#~ msgstr "සම්බන්දතාව"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "_Address:"
+#~ msgstr "ලිපිනය (_A):"
+
+#~ msgid "_Department:"
+#~ msgstr "දෙපාර්තුමෙන්තුව (_D):"
+
+#~ msgid "_Manager:"
+#~ msgstr "කළමණාකරු (_M):"
+
+#~ msgid "_Profession:"
+#~ msgstr "වෘතිය (_P):"
+
+#~ msgid "_State/Province:"
+#~ msgstr "ප්‍රාන්තය/පළාත: (_S)"
+
+#~ msgid "_Title:"
+#~ msgstr "සිරස්තලය: (_T)"
+
+#, c-format
+#~ msgid "System error: %s."
+#~ msgstr "පද්ධති දෝෂය: %s."
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>අභිප්‍රේත</b>"
+
+#~ msgid "Basic"
+#~ msgstr "සරළ"
+
+#~ msgid "milliseconds"
+#~ msgstr "මිලි තත්පර"
+
+#~ msgid "seconds"
+#~ msgstr "තත්පර"
+
+#~ msgid "All files"
+#~ msgstr "සියළු ගොනු"
+
+#~ msgid "page"
+#~ msgstr "පිටුව"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WALLPAPER...]"
+
+#~ msgid "Custom"
+#~ msgstr "රිසිකළ"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>පූර්‍වදසුන</b>"
+
+#~ msgid "Background"
+#~ msgstr "පසුබිම"
+
+#~ msgid "C_ut"
+#~ msgstr "කපන්න (_u)"
+
+#~ msgid "Colors"
+#~ msgstr "වර්‍ණ"
+
+#~ msgid "Edit"
+#~ msgstr "සැකසුම්"
+
+#~ msgid "Fonts"
+#~ msgstr "අකුරු"
+
+#~ msgid "Interface"
+#~ msgstr "අතුරු මූණත"
+
+#~ msgid "Open File"
+#~ msgstr "ගොනුව විවෘත කරන්න "
+
+#~ msgid "Text"
+#~ msgstr "පෙළ"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Copy"
+#~ msgstr "පිටපත් කරන්න (_C)"
+
+#~ msgid "_Description:"
+#~ msgstr "විස්තරය (_D):"
+
+#~ msgid "_Install..."
+#~ msgstr "ස්ථාපනය... (_I)"
+
+#~ msgid "_Medium"
+#~ msgstr "මධ්‍යම (_M)"
+
+#~ msgid "_Name:"
+#~ msgstr "නම (_N):"
+
+#~ msgid "_New"
+#~ msgstr "නව (_N)"
+
+#~ msgid "_Paste"
+#~ msgstr "අලවන්න (_P)"
+
+#~ msgid "_Print"
+#~ msgstr "මුද්‍රණය (_P)"
+
+#~ msgid "_Quit"
+#~ msgstr "ඉවත් වන්න (_Q)"
+
+#~ msgid "_Save"
+#~ msgstr "සුරකින්න (_S)"
+
+#~ msgid "_Size:"
+#~ msgstr "ප්‍රමාණය: (_S)"
+
+#~ msgid "_Style:"
+#~ msgstr "රටාව (_S):"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Windows:"
+#~ msgstr "කවුළු (_W):"
+
+#~ msgid "dots per inch"
+#~ msgstr "අඟලට තිත්"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "පික්සලය"
+#~ msgstr[1] "පික්සලය"
+
+#~ msgid "_Overwrite"
+#~ msgstr "මත ලියන්න (_O)"
+
+#, c-format
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "සහාය දර්ශණය කිරිමේදි දෝෂයක් තිබුනි: %s"
+
+#, c-format
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "ගොනු පිටපත් කරමින් සිටී: %u of %u"
+
+#, c-format
+#~ msgid "Copying '%s'"
+#~ msgstr "පිටපත් කරමින් සිටී '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "ගොනු පිටපත් කරමින් සිටී"
+
+#~ msgid "From URI"
+#~ msgstr "URI වෙතින්"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "URI දැනට වෙතින් මාරුවෙමින් පවතින්නේ"
+
+#~ msgid "To URI"
+#~ msgstr "URI වෙත"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI දැනට මාරුවන්නේ"
+
+#~ msgid "Fraction completed"
+#~ msgstr "සුළු කොටස සම්පුර්ණ විය"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "මාරු කිරිමේ සුළු කොටස දැනට සම්පුර්ණයි"
+
+#~ msgid "Current URI index"
+#~ msgstr "දැනට ඇති URI පටුන"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "වර්තමාන URI පටුණ - 1න් පටන් ගන්න"
+
+#~ msgid "Total URIs"
+#~ msgstr "සියළුම URIs"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "URI එකතුව"
+
+#~ msgid "Connecting..."
+#~ msgstr "සම්බන්ද වෙමින්..."
+
+#~ msgid "Key"
+#~ msgstr "යතුර"
+
+#~ msgid "Visual"
+#~ msgstr "දෘශ්‍ය"
+
+#~ msgid "Accessibility"
+#~ msgstr "පිවිසුම් හැකියාව"
+
+#~ msgid "Internet"
+#~ msgstr "අන්තර්ජාලය"
+
+#~ msgid "Multimedia"
+#~ msgstr "බහුමාධ්‍ය"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "ටර්මිනලයේ ක්‍රියා කරවන්න"
+
+#~ msgid "System"
+#~ msgstr "පද්දති"
+
+#~ msgid "Firefox"
+#~ msgstr "ෆයර්ෆොක්ස්"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME අග්‍රය"
+
+#~ msgid "KMail"
+#~ msgstr "කේමේල්"
+
+#~ msgid "Mozilla"
+#~ msgstr "මොසිලා"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "මොසිලා 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "මොසිලා තැපැල්"
+
+#~ msgid "Opera"
+#~ msgstr "ඔපෙරා"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Normal"
+#~ msgstr "සාමාන්‍ය"
+
+#~ msgid "Left"
+#~ msgstr "වම"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "_Resolution:"
+#~ msgstr "විභේදනය (_R):"
+
+#~ msgid "Default Settings"
+#~ msgstr "පෙරනිමි සැකසුම්"
+
+#, c-format
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත "
+#~ "ස්ථපිත කෙරෙනු ඇත."
+#~ msgstr[1] ""
+#~ "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත "
+#~ "ස්ථපිත කෙරෙනු ඇත."
+
+#~ msgid "Sound"
+#~ msgstr "ශබ්දය"
+
+#~ msgid "Desktop"
+#~ msgstr "මූලික තිරය"
+
+#~ msgid "New accelerator..."
+#~ msgstr "නව ත්වරකය..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "ත්වරක යතුර"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "ත්නරකයේ විකරණ"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "ත්වරකයේ යතුරුකේත"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<නොදන්නා ක්‍රියා>"
+
+#~ msgid "Action"
+#~ msgstr "ක්‍රියාව"
+
+#~ msgid "Shortcut"
+#~ msgstr "කෙටි මාර්‍ගය"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "යතුරු පුවරු කෙටි මාර්‍ඟ"
+
+#~ msgid "Preview:"
+#~ msgstr "පූර්‍වදසුන:"
+
+#~ msgid "minutes"
+#~ msgstr "මිනිත්තු"
+
+#~ msgid "Default"
+#~ msgstr "ප්‍රකෘතිය"
+
+#~ msgid "Layout"
+#~ msgstr "පසුබිම"
+
+#~ msgid "_Timeout:"
+#~ msgstr "කාලය ඉකුත් ඉවිය (_T):"
+
+#~ msgid "Port:"
+#~ msgstr "කෙවනිය:"
+
+#~ msgid "_Details"
+#~ msgstr "විස්තර (_D)"
+
+#~ msgid "Not connected"
+#~ msgstr "සම්බන්ධ නොවීය"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - විවෘත හඬ පද්ධතිය"
+
+#~ msgid "Test Sound"
+#~ msgstr "හඬ පරීක්‍ෂාව"
+
+#~ msgid "Silence"
+#~ msgstr "නිහඬ"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">පරික්‍ෂා කරමින්...</span>"
+
+#~ msgid "Test"
+#~ msgstr "පරික්‍ෂණය"
+
+#~ msgid "_Device:"
+#~ msgstr "උපාංගය (_D):"
+
+#~ msgid "Windows"
+#~ msgstr "කවුළු"
+
+#~ msgid "Volume"
+#~ msgstr "හඬ"
+
+#~ msgid "_Activate"
+#~ msgstr "සක්‍රීය කරන්න (_A)"
+
+#~ msgid "_Deactivate"
+#~ msgstr "අක්‍රීය කරන්න (_D)"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "සංඥා නළය නිර්මාණය කිරිම දෝෂ සහිතයි."
+
+#~ msgid "Type"
+#~ msgstr "වර්‍ගය"
+
+#~ msgid "Screen"
+#~ msgstr "තිරය"
+
+#~ msgid "Help"
+#~ msgstr "උදව්"
+
+#~ msgid "Other"
+#~ msgstr "වෙනත්"
+
+#~ msgid "Home"
+#~ msgstr "නිවස"
+
+#~ msgid "File System"
+#~ msgstr "ගොනු පද්ධතිය"
+
+#~ msgid "Network Servers"
+#~ msgstr "ජාල සේවාදායක"
+
+#~ msgid "Search"
+#~ msgstr "සොයන්න"
+
+#~ msgid "Rename..."
+#~ msgstr "නම වෙනස් කරන්න..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "ඉවතලන්න"
+
+#, c-format
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "'%s' මූලය සඳහා බලාපොරොත්තු නොවු '%s' විශේෂණය"
+
+#, c-format
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "'%s' මූලයෙහි '%s' විශේෂණය හමුවුයේ නැත"
+
+#, c-format
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "'%s'බලාපොරොත්තු නොවු ටැගයකි, බලාපොරොත්තු වුයේ '%s' ටැගයයි"
+
+#, c-format
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "'%s'බලාපොරොත්තු නොවු ටැගයක් '%s' තුළ ඇත"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "දත්ත බහලුම් තුළ නිරවද්‍ය පිටු සළකුණක් හමුවූයෙ නැත"
+
+#, c-format
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "'%s' URI සඳහා වු  පිටු සළකුණ දැනට භාවිතයේ ඇත"
+
+#, c-format
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "'%s' URI සඳහා පිටු සළකුණු හමුවුයේ නැත"
+
+#, c-format
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ MIME වර්‍හගයක් සදහන් කරුයේ නැත"
+
+#, c-format
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ සමූහ කට්ටලය නැත"
+
+#~ msgid "Beep"
+#~ msgstr "බීප් හඬ"
+
+#~ msgid "Eject"
+#~ msgstr "ඉවත් කරන්න"
+
+#~ msgid "Log out"
+#~ msgstr "ඉවත් වීම"
+
+#~ msgid "Pause"
+#~ msgstr "විරාමය"
+
+#~ msgid "Volume down"
+#~ msgstr "හඬ අඩු කරන්න"
+
+#~ msgid "Volume up"
+#~ msgstr "හඬ වැඩි කරන්න"
+
+#~ msgid "Filter"
+#~ msgstr "පෙරනය"
+
+#~ msgid "translator-credits"
+#~ msgstr "පරිවර්තන ස්තුතිය"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "දෝෂහරිණ කේත සක්‍රිය කරන්න"
+
+#~ msgid "Name:"
+#~ msgstr "නම:"
+
+#~ msgid "Type:"
+#~ msgstr "වර්‍ගය:"
+
+#~ msgid "Size:"
+#~ msgstr "විශාලත්වය:"
+
+#~ msgid "Version:"
+#~ msgstr "වෙළුම:"
+
+#~ msgid "Description:"
+#~ msgstr "විස්තරය:"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Themes"
+#~ msgstr "තේමා"
+
+#~ msgid "Description"
+#~ msgstr "විස්තරය"
+
+#~ msgid "Show help options"
+#~ msgstr "සහාය විකල්ප දර්ශනය කරන්න"

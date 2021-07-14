@@ -1,0 +1,5700 @@
+# gnome-control-center Finnish translation
+# Copyright (C) 2004-2009 Free Software Foundation, Inc.
+# Mikko Rauhala <mjr@iki.fi>, x-2000
+#
+# sticky key = pohjaan jäävä näppäin
+# bounce key = kimmonäppäin
+# mouse key = hiirinäppäin
+# toggle key = piippaava näppäin
+#
+# Gnome 2012-13 Finnish translation sprint participants:
+# Niklas Laxström
+# Timo Jyrinki
+#
+#
+#
+# Pauli Virtanen <pauli.virtanen@hut.fi>, 2000-2004.
+# Ilkka Tuohela <hile@iki.fi>, 2005-2009.
+# Tommi Vainikainen <thv@iki.fi>, 2009-2010.
+# Timo Jyrinki <timo.jyrinki@iki.fi>, 2008-2011.
+# Ville-Pekka Vainio <vpvainio@iki.fi>, 2013.
+# Lasse Liehu <lasse.liehu@gmail.com>, 2013, 2014.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-11-01 20:43+0200\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+"X-POT-Import-Date: 2012-03-07 10:37:43+0000\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Käyttäjätunnus"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "K_oko nimi"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Normaali"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Ylläpitäjä"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "Tilin _tyyppi"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Salasana"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Salli käyttäjän vaihtaa salasana seuraavalla ki_rjautumiskerralla"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "_Aseta salasana nyt"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Salasana"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Vahvista"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Yrityskirjautuminen mahdollistaa ennestään keskitetysti hallitun "
+"käyttäjätilin käytön tällä laitteella. Voit käyttää tätä tiliä myös "
+"yrityksen resurssien käyttöön internetissä."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "T_oimialue"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Muodosta verkkoyhteys lisätäksesi yrityskirjautumistilejä."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Yrityskirjautumisen vaativa tili"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Lisää käyttäjä"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Toimialueen ylläpitäjän kirjautuminen"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Yrityskirjautumisen käyttö vaatii, että tietokone on rekisteröity\n"
+"toimialueeseen. Pyydä verkkosi ylläpitäjää kirjoittamaan\n"
+"toimialueen salasanan tähän."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Ylläpitäjän _nimi"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Ylläpitäjän salasana"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Vasen peukalo"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Vasen keskisormi"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Vasen nimetön"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Vasen pikkurilli"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Oikea peukalo"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Oikea keskisormi"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Oikea nimetön"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Oikea pikkurilli"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Ota sormenjäljellä kirjautuminen käyttöön"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Oikea etusormi"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Vasen etusormi"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Muu sormi:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Sormenjälkesi tallennettiin onnistuneesti. Sinun pitäisi nyt pystyä "
+"kirjautumaan sisään sormenjäljen avulla."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Käyttäjät"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Lisää tai poista käyttäjiä, vaihda salasanasi"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+"Login;Name;Fingerprint;Avatar;Logo;Face;Password;kirjautuminen;nimi;"
+"sormenjälki;avatar;kasvokuva;salasana;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Vaihda salasana"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Peru"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_Vaihda"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Uusi salasana"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Uusi salasana"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "_Nykyinen salasana"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Salli käyttäjän vaihtaa salasana seuraavalla kirjautumiskerralla"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Aseta salasana nyt"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Lisää käyttäjä…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Sisäänkirjautumisvalinnat"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "A_utomaattinen kirjautuminen"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Sormenjäljellä kirjautuminen"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Käyttäjän kuvake"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Viimeisin kirjautuminen"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Poista tili"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Muut tilit"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Käyttäjän poisto epäonnistui"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Etähallitun käyttäjän kumoaminen epäonnistui"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Et voi poistaa omaa tunnustasi."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s on yhä sisäänkirjautuneena"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Jos käyttäjä poistetaan hänen ollessaan sisäänkirjautuneena, järjestelmässä "
+"voi ilmetä ongelmia."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Haluatko säilyttää käyttäjän %s tiedostot?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Voit halutessasi säilyttää kotikansion, sähköpostit ja väliaikaistiedostot "
+"käyttäjätilin poiston yhteydessä."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "P_oista tiedostot"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Säilytä tiedostot"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Haluatko varmasti kumota käyttöoikeudet etähallitulta tililtä %s?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Poista"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Käyttäjätili pois käytöstä"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Asetetaan seuraavalla kirjautumiskerralla"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Ei mitään"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Sisäänkirjautuneena"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Yhteys tilipalveluun (accounts service) epäonnistui"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Varmista, että AccountService on asennettu ja käytössä."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Tee muutoksia\n"
+"napsauttamalla ensin *-kuvaketta"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Luo käyttäjätili"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Luo käyttäjätili\n"
+"napsauttamalla ensin *-kuvaketta"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Poista valittu käyttäjätili"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Poista valittu käyttäjä\n"
+"napsauttamalla ensin *-kuvaketta"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Oma tili"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Uusi salasana ei saa olla vanhan salasanan kaltainen."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Vaihda kirjaimia ja numeroita."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Yritä muuttaa salasanaa vielä hieman."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Älä laita käyttäjätunnustasi salasanaasi."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Älä laita nimeäsi salasanaasi."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Vältä salasanassasi olevia sanoja."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Vältä yleisiä, sanakirjoista löytyviä sanoja."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Älä käytä samoja sanoja eri järjestyksessä."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Käytä enemmän numeroita."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Käytä enemmän isoja kirjaimia."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Käytä enemmän pieniä kirjaimia."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Käytä erikois- ja välimerkkejä."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Sekoita kirjaimia, numeroita ja välimerkkejä."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Vältä toistamasta samaa merkkiä."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Vältä saman merkkityylin käyttöä: sekoita kirjaimia, numeroita ja "
+"välimerkkejä."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Vältä sarjan kaltaisia jonoja, kuten 1234 tai abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Sekoita kirjaimia, numeroita ja välimerkkejä."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Käytä isoja ja pieniä kirjaimia sekä joitain numeroita."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Hyvä salasana! Useampien kirjaimien, numeroiden ja välimerkkien käyttö tekee "
+"siitä entistä vahvemman."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Tunnistautuminen epäonnistui"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Uusi salasana on liian lyhyt"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Uusi salasana on liian yksinkertainen"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Vanha ja uusi salasana ovat liian samankaltaiset"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Uusi salasana on ollut jo käytössä äskettäin."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Uuden salasanan tulee sisältää numeroita tai erikoismerkkejä"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Vanha ja uusi salasana ovat samat"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Salasanasi on vaihtunut ensimmäisen todennuksen jälkeen"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Uusi salasana ei sisällä riittävästi eri merkkejä"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Tuntematon virhe"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Tulisi vastata kirjautumistilisi myöntäjän verkko-osoitetta."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Tilin lisäys epäonnistui"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Salasanat eivät täsmää."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Tilin rekisteröinti epäonnistui"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+"Tähän toimialueeseen vaadittavaa tunnistautumistapaa ei ole käytettävissä"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Toimialueeseen liittyminen epäonnistui"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Käyttäjätunnus ei kelvannut.\n"
+"Yritä uudelleen."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Salasana ei kelvannut.\n"
+"Yritä uudelleen."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Toimialueeseen kirjautuminen epäonnistui"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Toimialuetta ei löytynyt. Kirjoititko sen oikein?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Peru"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Lisää"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Normaali"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Ylläpitäjä"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Sinulla ei ole oikeutta käyttää laitetta. Ota yhteyttä ylläpitäjäjääsi."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Laite on jo käytössä."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Tapahtui sisäinen virhe."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Poistetaanko rekisteröidyt sormenjäljet?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Poista sormenjäljet"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Haluatko poistaa rekisteröidyt sormenjälkesi, jolloin sormenjäljillä "
+"kirjautuminen poistetaan käytöstä?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Valmis!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Laitetta ”%s” ei voitu käsitellä"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Sormenjäljen tunnistusta ei voitu aloitta laitteella ”%s”"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Sormenjälkilukijoita ei voitu käyttää"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Kysy apua järjestelmäsi ylläpitäjältä."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Jotta voit ottaa sormenjäljellä kirjautumisen käyttöön, täytyy yksi "
+"sormenjäljistä tallentaa käyttäen laitetta ”%s”."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Valitaan sormea"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Kirjataan sormenjälkiä"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Yhteenveto"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Tällä viikolla"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Viime viikolla"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e. %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e. %b %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Istunto päättyi"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Istunto alkoi"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Tilin käyttöhistoria"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Valitse jokin toinen salasana."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Syötä nykyinen salasana uudelleen."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Salasanaa ei voitu vaihtaa"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Valitse"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Selaa lisää kuvia"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Avaa"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Poista kuva käytöstä"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Ota kuva…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Selaa lisää kuvia…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Käytössä (%s)"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Tämän tyyppiseen toimialueeseen ei voi liittyä automaattisesti"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Määriteltyä toimialuetta tai realmia ei löytynyt"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Kirjautuminen tunnuksella %s toimialueeseen %s ei onnistu"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Virheellinen salasana, yritä uudelleen"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Toimialueeseen %s yhdistäminen epäonnistui: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+"Valitettavasti kyseinen käyttäjätunnus ei ole saatavilla. Valitse toinen "
+"käyttäjätunnus."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Käyttäjätunnus on liian pitkä."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Käyttäjätunnus ei voi alkaa merkillä '-'."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Käyttäjätunnus voi koostua pienistä ja isoista kirjaimista välillä a-z, "
+"numeroista sekä seuraavista merkeistä: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr "Tätä käytetään kotikansiosi nimeämiseen, eikä sitä voi vaihtaa."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Tänään"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Eilen"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e. %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e. %b %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "V_ahvista uusi salasana"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Lisää kirjaimia, numeroita ja symboleja."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Vahvuus: heikko"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Vahvuus: matala"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Vahvuus: keskitaso"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Vahvuus: hyvä"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Vahvuus: korkea"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Salasanat eivät täsmää."
+
+#~ msgid "_Background"
+#~ msgstr "_Taustakuva"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Muuttuu päivän aikana"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "L_ukitusnäyttö"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Laatoitettu"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Lähennys"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Keskitetty"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Skaalattu"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Täyttö"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Peitetty"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Taustakuvat"
+
+#~ msgid "Colors"
+#~ msgstr "Värit"
+
+#~ msgid "Select Background"
+#~ msgstr "Valitse taustakuva"
+
+#~ msgid "Pictures"
+#~ msgstr "Kuvat"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Kuvia ei löytynyt"
+
+#~ msgid "Home"
+#~ msgstr "Koti"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "Voit lisätä kuvia %s-kansioon, jolloin ne näkyvät täällä"
+
+#~ msgid "_Select"
+#~ msgstr "_Valitse"
+
+#~ msgid "multiple sizes"
+#~ msgstr "useita kokoja"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Ei työpöydän taustaa"
+
+#~ msgid "Current background"
+#~ msgstr "Nykyinen taustakuva"
+
+#~ msgid "Back­ground"
+#~ msgstr "Taustakuva"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Vaihda taustakuva"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Taustakuva;Näyttö;Työpöytä;Wallpaper;Screen;Desktop;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Poista lentokonetila käytöstä"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Bluetoothia ei löytynyt"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Liitä sovitin käyttääksesi Bluetoothia."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth on pois päältä"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr ""
+#~ "Kytke päälle yhdistääksesi laitteita ja vastaanottaaksesi tiedostoja."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Lentokonetila on päällä"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Bluetooth on pois käytöstä, kun lentokonetila on päällä."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Laitetason lentokonetila on päällä"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Poista lentokonetila käytöstä käyttääksesi Bluetoothia."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Kytke Bluetooth päälle tai pois ja yhdistä laitteita"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "share;sharing;bluetooth;obex;jakaminen;jaot;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "Aseta kalibrointilaite neliön päälle ja napsauta ”Käynnistä”"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr "Vaihda kalibrointilaite kalibrointitilaan ja napsauta ”Jatka”"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Sulje kannettavan kansi"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Tapahtui sisäinen virhe josta ei voitu toipua."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Kalibrointiin vaadittavia työkaluja ei ole asennettu."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Profiilin luonti ei onnistunut."
+
+#~ msgid "Complete!"
+#~ msgstr "Valmis!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Kalibrointi epäonnistui!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Voit irrottaa kalibrointilaitteen."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Älä liikuta kalibrointilaitetta kesken kalibroinnin"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Kannettavan näyttö"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Sisäänrakennettu web-kamera"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Näyttö - %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Kuvanlukija - %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Kamera - %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Tulostin - %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Web-kamera - %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Käytä värinhallintaa laitteelle %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Näytä laitteen %s väriprofiilit"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Ei kalibroitu"
+
+#~ msgid "Default: "
+#~ msgstr "Oletus: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Väriavaruus: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Testiprofiili:"
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Valitse ICC-profiilitiedosto"
+
+#~ msgid "_Import"
+#~ msgstr "_Tuo"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Tuetut ICC-profiilit"
+
+#~ msgid "All files"
+#~ msgstr "Kaikki tiedostot"
+
+#~ msgid "Screen"
+#~ msgstr "Näyttö"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Tiedoston lähetys epäonnistui: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profiili on lähetetty:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Kirjoita ylös tämä osoite."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Käynnistä tietokone uudelleen ja käynnistä normaali käyttöjärjestelmäsi."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Kirjoita osoite selaimen osoitekenttään, lataa ja asenna profiili."
+
+#~ msgid "Save Profile"
+#~ msgstr "Tallenna profiili"
+
+#~ msgid "_Save"
+#~ msgstr "_Tallenna"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Luo väriprofiili valitulle laitteelle"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Mittalaitetta ei tunnistettu. Tarkista että se on oikein liitetty ja että "
+#~ "siinä on virta päällä."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Mittalaite ei tue tulostimien profilointia."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Laitetyyppi ei ole tällä hetkellä tuettu."
+
+#~ msgid "Standard Space"
+#~ msgstr "Standardiavaruus"
+
+#~ msgid "Test Profile"
+#~ msgstr "Testiprofiili"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automaattinen"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Matala laatu"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Keskimääräinen laatu"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Korkea laatu"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Oletus-RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Oletus-CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Oletusharmaasävy"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Valmistajan toimittaja tehdaskalibrointidata"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Koko ruudun näyttökorjaus ei ole mahdollista tällä profiililla"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Tämä profiili ei välttämättä ole enää tarkka"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Näytön kalibrointi"
+
+#~ msgid "_Start"
+#~ msgstr "_Käynnistä"
+
+#~ msgid "_Resume"
+#~ msgstr "_Jatka"
+
+#~ msgid "_Done"
+#~ msgstr "_Valmis"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Näytön kalibrointi"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Kalibrointi tuottaa profiilin, jota voi käyttää näytön värien hallintaan. "
+#~ "Profiilista tulee sitä parempi mitä kauemmin aikaa kalibrointiin "
+#~ "käytetään."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Et voi käyttää tietokonettasi, kun kalibrointi on meneillään."
+
+#~ msgid "Quality"
+#~ msgstr "Laatu"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Arvioitu aika"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kalibrointilaatu"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Valitse anturilaite jota haluat käyttää kalibrointiin."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Kalibrointilaite"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Valitse yhdistetyn näytön tyyppi."
+
+#~ msgid "Display Type"
+#~ msgstr "Näytön tyyppi"
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profiilin valkopiste"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Aseta näyttö siihen kirkkauteen, jolla yleensä käytät sitä. "
+#~ "Värienhallinta tulee olemaan tarkinta tällä kirkkaustasolla."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Voit myös käyttää samaa kirkkaustasoa kuin muut tätä laitetta varten "
+#~ "tehdyt profiilit."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Näytön kirkkaus"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Voit käyttää väriprofiilia eri tietokoneilla, tai vaikkapa luoda "
+#~ "profiileja eri valaistuksia varten."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Profiilin nimi:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Profiilin nimi"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Profiili luotiin onnistuneesti!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Kopioi profiili"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Vaatii median, johon on mahdollista kirjoittaa"
+
+#~ msgid "Upload profile"
+#~ msgstr "Lähetä profiili"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Vaatii internetyhteyden"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Näistä ohjeista profiilin käyttöön <a href=\"linux\">GNU/Linuxilla</a>, "
+#~ "<a href=\"osx\">Apple OS X:llä</a> ja <a href=\"windows\">Windowsilla</a> "
+#~ "saattaa olla hyötyä."
+
+#~ msgid "Add profile"
+#~ msgstr "Lisää profiili"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Tuo tiedosto\t…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Ongelmia havaittu. Profiili ei välttämättä toimi kunnolla. <a href="
+#~ "\"\">Näytä tiedot.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Laitteet vaativat ajan tasalla olevan väriprofiilin, jotta niiden värejä "
+#~ "on mahdollista hallita."
+
+#~ msgid "Learn more"
+#~ msgstr "Lue lisää"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Lue lisää värienhallinnasta"
+
+#~ msgid "_Set for all users"
+#~ msgstr "Aseta _kaikille käyttäjille"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Aseta tämä profiili kaikille tietokoneen käyttäjille"
+
+#~ msgid "_Enable"
+#~ msgstr "K_äytä"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Lisää profiili"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibroi…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Kalibroi laite"
+
+#~ msgid "_Remove profile"
+#~ msgstr "_Poista profiili"
+
+#~ msgid "_View details"
+#~ msgstr "Näytä yk_sityiskohdat"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Värihallinnan piiriin sopivia laitteita ei havaittu"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektori"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL-taustalamppu)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED -taustalamppu)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (valkoinen LED-taustalamppu)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Laajan gamutin LCD (CCFL-taustalamppu)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Laajan gamutin LCD (RGB LED -taustalamppu)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Korkea"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minuuttia"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Keskitaso"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuuttia"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Matala"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minuuttia"
+
+#~ msgid "Native to display"
+#~ msgstr "Näytön natiivi"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (Tulostus ja julkaisu)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Valokuvaus ja grafiikka)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Väri"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "Kalibroi laitteidesi, kuten näytön, kameran ja tulostimen värejä"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr ""
+#~ "väri;ICC;color;profiili;kalibrointi;Calibrate;Tulostin;Printer;Näyttö;"
+
+#~ msgid "Other…"
+#~ msgstr "Muu…"
+
+#~ msgid "More…"
+#~ msgstr "Lisää…"
+
+#~ msgid "No languages found"
+#~ msgstr "Kieli ei löytynyt"
+
+#~ msgid "Language"
+#~ msgstr "Kieli"
+
+#~ msgid "Day"
+#~ msgstr "Päivä"
+
+#~ msgid "Month"
+#~ msgstr "Kuukausi"
+
+#~ msgid "Year"
+#~ msgstr "Vuosi"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e. %Bta %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e. %Bta %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Tammikuu"
+
+#~ msgid "February"
+#~ msgstr "Helmikuu"
+
+#~ msgid "March"
+#~ msgstr "Maaliskuu"
+
+#~ msgid "April"
+#~ msgstr "Huhtikuu"
+
+#~ msgid "May"
+#~ msgstr "Toukokuu"
+
+#~ msgid "June"
+#~ msgstr "Kesäkuu"
+
+#~ msgid "July"
+#~ msgstr "Heinäkuu"
+
+#~ msgid "August"
+#~ msgstr "Elokuu"
+
+#~ msgid "September"
+#~ msgstr "Syyskuu"
+
+#~ msgid "October"
+#~ msgstr "Lokakuu"
+
+#~ msgid "November"
+#~ msgstr "Marraskuu"
+
+#~ msgid "December"
+#~ msgstr "Joulukuu"
+
+#~ msgid "Date & Time"
+#~ msgstr "Päivä ja aika"
+
+#~ msgid "Hour"
+#~ msgstr "Tunti"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Minuutti"
+
+#~ msgid "Time Zone"
+#~ msgstr "Aikavyöhyke"
+
+#~ msgid "Search for a city"
+#~ msgstr "Etsi kaupunkia"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Automaattinen _päivä ja aika"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Vaatii internetyhteyden"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Automaattinen _aikavyöhyke"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Päivä _ja aika"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Aikav_yöhyke"
+
+#~ msgid "Time _Format"
+#~ msgstr "Ajan _muoto"
+
+#~ msgid "24-hour"
+#~ msgstr "24 tuntia"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Vaihda aikaa, päivää tai aikavyöhykettä"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Kello;Aikavyöhyke;Sijainti;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Muuta järjestelmän aika-asetuksia"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Muuttaaksesi ajan tai päivän asetuksia sinun tulee tunnistautua."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Kansi suljettu"
+
+#~ msgid "Mirrored"
+#~ msgstr "Peilattu"
+
+#~ msgid "Primary"
+#~ msgstr "Ensisijainen"
+
+#~ msgid "Off"
+#~ msgstr "Pois"
+
+#~ msgid "Secondary"
+#~ msgstr "Toissijainen"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Järjestä yhdistetyt näytöt"
+
+#~ msgid "_Apply"
+#~ msgstr "_Toteuta"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Järjestä näytöt vetämällä niitä"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Käännä vastapäivään 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Käännä 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Käännä myötäpäivään 90°"
+
+#~ msgid "Size"
+#~ msgstr "Koko"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Kuvasuhde"
+
+#~ msgid "Resolution"
+#~ msgstr "Tarkkuus"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Sovita TV:hen"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Päivitystaajuus"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Näytä yläpalkki ja yleisnäkymä tällä näytöllä"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Toissijainen näyttö"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "Liitä tämä näyttö toiseen luodaksesi lisää työtilaa"
+
+#~ msgid "Presentation"
+#~ msgstr "Esitys"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Näyttää vain diaesitykset ja muun median"
+
+#~ msgid "Mirror"
+#~ msgstr "Peili"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Näytä nykyinen näkymä molemmilla näytöillä"
+
+#~ msgid "Turn Off"
+#~ msgstr "Sammuta"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Älä käytä tätä näyttöä"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Näytön tietoja ei saatu"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Järjestä yhdistetyt näytöt"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Näytöt"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Valitse kuinka näyttöjä ja projektoreja käsitellään"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr ""
+#~ "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;Paneeli;"
+#~ "Projektori;Näyttö;Resoluutio;Tarkkuus;Virkistystaajuus;"
+
+#~ msgid "Unknown"
+#~ msgstr "Tuntematon"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (Tunniste: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (Tunniste: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Kysy mitä tehdään"
+
+#~ msgid "Do nothing"
+#~ msgstr "Älä tee mitään"
+
+#~ msgid "Open folder"
+#~ msgstr "Avaa kansio"
+
+#~ msgid "Other Media"
+#~ msgstr "Muu media"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Valitse sovellus ääni-CD-levyille"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Valitse sovellus video-DVD-levyille"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "Valitse sovellus ajettavaksi kun musiikkisoitin kytketään"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Valitse sovellus ajettavaksi kun kamera kytketään"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Valitse sovellus ohjelmisto-CD-levyille"
+
+#~ msgid "audio DVD"
+#~ msgstr "ääni-DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "tyhjä Blu-ray-levy"
+
+#~ msgid "blank CD disc"
+#~ msgstr "tyhjä CD-levy"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "tyhjä DVD-levy"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "tyhjä HD DVD -levy"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray-videolevy"
+
+#~ msgid "e-book reader"
+#~ msgstr "e-kirjalukija"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD -videolevy"
+
+#~ msgid "Picture CD"
+#~ msgstr "Kuva-CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video-CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows-ohjelmisto"
+
+#~ msgid "Section"
+#~ msgstr "Osio"
+
+#~ msgid "Overview"
+#~ msgstr "Yhteenveto"
+
+#~ msgid "Default Applications"
+#~ msgstr "Oletussovellukset"
+
+#~ msgid "Removable Media"
+#~ msgstr "Erilliset tallennusvälineet"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Versio %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Tiedot"
+
+#~ msgid "View information about your system"
+#~ msgstr "Katsele järjestelmän tietoja"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;laite;"
+#~ "järjestelmä;tiedot;muisti;suoritin;prosessori;versio;oletukset;sovellus;"
+#~ "suositellut;automaattikäynnistys;ääni;irrotettava;ulkoinen;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Valitse kuinka muita medioita käsitellään"
+
+#~ msgid "_Action:"
+#~ msgstr "_Toiminto:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Tyyppi:"
+
+#~ msgid "Device name"
+#~ msgstr "Laitteen nimi"
+
+#~ msgid "Memory"
+#~ msgstr "Muisti"
+
+#~ msgid "Processor"
+#~ msgstr "Suoritin"
+
+#~ msgid "Base system"
+#~ msgstr "Järjestelmä"
+
+#~ msgid "Disk"
+#~ msgstr "Levy"
+
+#~ msgid "Calculating…"
+#~ msgstr "Lasketaan…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafiikka"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualisointi"
+
+#~ msgid "Check for updates"
+#~ msgstr "Tarkista päivitykset"
+
+#~ msgid "_Web"
+#~ msgstr "_Verkko"
+
+#~ msgid "_Mail"
+#~ msgstr "_Sähköposti"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Kalenteri"
+
+#~ msgid "M_usic"
+#~ msgstr "M_usiikki"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Kuvat"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Valitse kuinka mediaa käsitellään"
+
+#~ msgid "CD _audio"
+#~ msgstr "_Ääni-CD"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD-video"
+
+#~ msgid "_Music player"
+#~ msgstr "_Musiikkisoitin"
+
+#~ msgid "_Software"
+#~ msgstr "_Ohjelmisto"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Muu media…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Älä koskaan kysy tai käynnistä ohjelmia liitettäessä media"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Ääni ja media"
+
+#~ msgid "Volume mute"
+#~ msgstr "Hiljennä ääni"
+
+#~ msgid "Volume down"
+#~ msgstr "Vähennä äänenvoimakkuutta"
+
+#~ msgid "Volume up"
+#~ msgstr "Lisää äänenvoimakkuutta"
+
+#~ msgid "Launch media player"
+#~ msgstr "Käynnistä mediasoitin"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Soita (tai tauko)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Keskeytä toisto"
+
+#~ msgid "Stop playback"
+#~ msgstr "Pysäytä toisto"
+
+#~ msgid "Previous track"
+#~ msgstr "Edellinen kappale"
+
+#~ msgid "Next track"
+#~ msgstr "Seuraava kappale"
+
+#~ msgid "Eject"
+#~ msgstr "Irrota"
+
+#~ msgid "Typing"
+#~ msgstr "Kirjoittaminen"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Vaihda seuraavaan lähteeseen"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Vaihda edelliseen lähteeseen"
+
+#~ msgid "Launchers"
+#~ msgstr "Käynnistimet"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Käynnistä ohjeselain"
+
+#~ msgid "Settings"
+#~ msgstr "Asetukset"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Käynnistä laskin"
+
+#~ msgid "Launch email client"
+#~ msgstr "Käynnistä sähköpostisovellus"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Käynnistä internetselain"
+
+#~ msgid "Home folder"
+#~ msgstr "Kotikansio"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Etsi"
+
+#~ msgid "Screenshots"
+#~ msgstr "Kuvakaappaukset"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Tallenna kuvakaappaus kohteeseen $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Tallenna kuvakaappaus ikkunasta kohteeseen $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Tallenna kuvakaappaus alueesta $PICTURES-kansioon"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Kopioi kuvakaappaus leikepöydälle"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Kopioi kuvakaappaus ikkunasta leikepöydälle"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Kopioi kuvakaappaus alueesta leikepöydälle"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Nauhoita ruutukaappausvideo"
+
+#~ msgid "System"
+#~ msgstr "Järjestelmä"
+
+#~ msgid "Log out"
+#~ msgstr "Kirjaudu ulos"
+
+#~ msgid "Lock screen"
+#~ msgstr "Lukitse näyttö"
+
+#~ msgid "Universal Access"
+#~ msgstr "Esteettömyys"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Suurennus päällä/pois"
+
+#~ msgid "Zoom in"
+#~ msgstr "Lähennä"
+
+#~ msgid "Zoom out"
+#~ msgstr "Loitonna"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Näytönlukija päällä/pois"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Virtuaalinäppäimistö päällä/pois"
+
+#~ msgid "Increase text size"
+#~ msgstr "Suurenna tekstin kokoa"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Pienennä tekstin kokoa"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Korkea kontrasti päälle/pois"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Omat pikanäppäimet"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Vaihtoehtoinen merkistönäppäin"
+
+#~ msgid "Compose Key"
+#~ msgstr "Compose-näppäin"
+
+#, fuzzy
+#~| msgid "Switch to next source"
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Vaihda seuraavaan lähteeseen"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Palauta pikanäppäin oletusarvoon"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "Pikanäppäin %s on jo asetettu toimintoon <b>%s</b>. Jos korvaat sen, "
+#~ "poistetaan toiminto %s poistetaan käytöstä"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Aseta oma pikanäppäin"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Aseta pikanäppäin"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Anna uusi pikanäppäin vaihtaaksesi <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Lisää oma pikanäppäin"
+
+#~ msgid "Key­board"
+#~ msgstr "Näppäimistö"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Katsele ja muuta näppäimistön pikanäppäimiä ja aseta kirjoitusasetuksesi"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Pikanäppäin;Toisto;Vilkkuminen;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Näppäimistön pikanäppäintä ei löytynyt"
+
+#~ msgid "Try a different search"
+#~ msgstr "Yritä eri hakuehdoilla"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Paina Esc peruaksesi."
+
+#~ msgid "Name"
+#~ msgstr "Nimi"
+
+#~ msgid "Command"
+#~ msgstr "Komento"
+
+#~ msgid "Shortcut"
+#~ msgstr "Pikanäppäin"
+
+#~ msgid "Edit"
+#~ msgstr "Muokkaa"
+
+#~ msgid "None"
+#~ msgstr "Ei mikään"
+
+#~ msgid "Remove"
+#~ msgstr "Poista"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Anna uusi pikanäppäin"
+
+#~ msgid "Add"
+#~ msgstr "Lisää"
+
+#~ msgid "Replace"
+#~ msgstr "Korvaa"
+
+#~ msgid "Set"
+#~ msgstr "Aseta"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Testaa asetukset"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Hiiri ja kosketuslevy"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Muuta hiiren tai kosketuslevyn herkkyyttä ja valitse kumpaa kättä käytät"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Kosketuslevy;Trackpad;Osoitin;Kohdistin;Napsauta;Klikkaa;Painike;Nappi;"
+#~ "Kaksois;Pallohiiri;Trackball;vieritä;Tap;Double;Button;Tuplaklikkaa;"
+#~ "Kaksois;Scroll;"
+
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgid "Primary Button"
+#~ msgstr "Ensisijainen painike"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr ""
+#~ "Aseta fyysisten painikkeiden järjestys hiirien ja kosketuslevyjen "
+#~ "kohdalla."
+
+#~ msgid "Left"
+#~ msgstr "Vasen"
+
+#~ msgid "Right"
+#~ msgstr "Oikea"
+
+#~ msgid "Mouse"
+#~ msgstr "Hiiri"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Hiiren nopeus"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Kaksoisnapsautuksen aikaraja"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Luonnollinen vieritys"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Vieritys liikuttaa sisältöä, ei näkymää."
+
+#~ msgid "Touchpad"
+#~ msgstr "Kosketuslevy"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Kosketuslevyn nopeus"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Napsauta napauttamalla"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Kahden sormen vieritys"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Reunavieritys"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Kokeile napsauttamista, kaksoisnapsauttamista ja vierittämistä"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Viisi napsautusta, GEGL-aika!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Kaksoisnapsautus, ensisijainen painike"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Yksi napsautus, ensisijainen painike"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Kaksoisnapsautus, keskimmäinen painike"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Yksi napsautus, keskimmäinen painike"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Kaksoisnapsautus, toissijainen painike"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Yksi napsautus, toissijainen painike"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Le_ntokonetila"
+
+#~ msgid "Network proxy"
+#~ msgstr "Verkon välityspalvelin"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s - VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr "Hups, jokin taisi mennä pieleen. Ota yhteys sovellustoimittajaan."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "NetworkManagerin tulee olla käynnissä."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x-suojaus"
+
+#~ msgid "page 1"
+#~ msgstr "sivu 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Anony_ymi identiteetti"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "_Sisempi tunnistautuminen"
+
+#~ msgid "page 2"
+#~ msgstr "sivu 2"
+
+#~ msgid "Security"
+#~ msgstr "Tietoturva"
+
+#~ msgid "automatic"
+#~ msgstr "automaattinen"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profiili %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Yritys"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgid "Never"
+#~ msgstr "Ei koskaan"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i päivä sitten"
+#~ msgstr[1] "%i päivää sitten"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Heikko"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "OK"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Hyvä"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Erinomainen"
+
+#~ msgid "Details"
+#~ msgstr "Tiedot"
+
+#~ msgid "Identity"
+#~ msgstr "Identiteetti"
+
+#~ msgid "Address"
+#~ msgstr "Osoite"
+
+#~ msgid "Netmask"
+#~ msgstr "Aliverkon peite"
+
+#~ msgid "Gateway"
+#~ msgstr "Yhdyskäytävä"
+
+#~ msgid "Delete Address"
+#~ msgstr "Poista osoite"
+
+#~ msgid "Server"
+#~ msgstr "Palvelin"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Poista DNS-palvelin"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Mitta"
+
+#~ msgid "Delete Route"
+#~ msgstr "Poista reitti"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automaattinen (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Manuaalinen"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Vain linkkiyhteys"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Etuliite"
+
+#~ msgid "Automatic"
+#~ msgstr "Automaattinen"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automaattinen, vain DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Tyhjennä asetukset"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-bittinen avain (Hex tai ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-bittinen salalause"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Dynaaminen WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Signaalin vahvuus"
+
+#~ msgid "Link speed"
+#~ msgstr "Yhteysnopeus"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4-osoite"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6-osoite"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Laiteosoite"
+
+#~ msgid "Default Route"
+#~ msgstr "Oletusreitti"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Viimeksi käytetty"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Parikaapeli (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Nimi"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC-osoite"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Kloonattu osoite"
+
+#~ msgid "bytes"
+#~ msgstr "tavua"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Aseta kaikkien _käyttäjien käytettäväksi"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "_Yhdistä automaattisesti"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "Palomuurin _vyöhyke"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Vyöhyke määrittää yhteyden luottamustason"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Osoitteet"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Automaattinen DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Reitit"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Automaattiset reitit"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Käytä tätä yhteyttä _vain tässä verkossa oleviin resursseihin"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Yhteyseditorin avaaminen epäonnistui"
+
+#~ msgid "New Profile"
+#~ msgstr "Uusi profiili"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Tuo tiedostosta…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Lisää VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Tyhjennä"
+
+#~ msgid "_Forget"
+#~ msgstr "_Unohda"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Tyhjennä tämän verkon asetukset, myös salasanat, mutta muista tämä verkko "
+#~ "ensisijaisena"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Poista kaikki tähän verkkoon liittyvä tieto äläkä yritä yhdistää "
+#~ "automaattisesti"
+
+#~ msgid "S_ecurity"
+#~ msgstr "_Tietoturva"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "VPN-yhteyden tuonti epäonnistui"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Tiedoston '%s' luku epäonnistui tai se ei sisällä tunnistettavaa VPN-"
+#~ "yhteyden tietoa\n"
+#~ "\n"
+#~ "Virhe: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Valitse tuotava tiedosto"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Tiedosto nimeltä \"%s\" on jo olemassa."
+
+#~ msgid "_Replace"
+#~ msgstr "_Korvaa"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr ""
+#~ "Haluatko korvata tiedoston %s VPN-asetuksilla, joita olet tallentamassa?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "VPN-yhteyden vienti epäonnistui"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN-yhteyttä ”%s” ei voitu viedä tiedostoon %s.\n"
+#~ "\n"
+#~ "Virhe: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Vie VPN-yhteys"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Virhe: VPN-yhteyseditoria ei voitu ladata)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Kotiverkko"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Aseta _kaikkien käyttäjien käytettäväksi"
+
+#~ msgid "Net­work"
+#~ msgstr "Verkko"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Hallitse internetyhteyden asetuksia"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;DNS;verkko;langaton;lähiverkko;välityspalvelin;"
+#~ "laajakaista;modeemi;nimipalvelut;"
+
+#~ msgid "never"
+#~ msgstr "ei koskaan"
+
+#~ msgid "today"
+#~ msgstr "tänään"
+
+#~ msgid "yesterday"
+#~ msgstr "eilen"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-osoite"
+
+#~ msgid "Last used"
+#~ msgstr "Viimeksi käytetty"
+
+#~ msgid "Wired"
+#~ msgstr "Kiinteä"
+
+#~ msgid "Options…"
+#~ msgstr "Valinnat…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Lisää uusi yhteys"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Jos käytössäsi on myös muu kuin langaton internetyhteys, voit käyttää "
+#~ "sitä kyseisen yhteyden jakamiseen muiden käyttäjien kanssa."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Yhteyspisteen käyttöönotto katkaisee yhteyden langattomaan verkkoon <b>"
+#~ "%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Yhteyspisteen ollessa käytössä langattoman internetyhteyden käyttö ei ole "
+#~ "mahdollista."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr ""
+#~ "Suljetaanko yhteyspiste ja katkaistaanko kaikkien käyttäjien yhteydet?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Sulje yhteyspiste"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Järjestelmäkäytännöt estävät käytön yhteyspisteenä"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Langaton verkkolaite ei tue yhteyspisteeksi asettamista"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Valittujen verkkojen tiedot, kuten salasanat ja omat asetukset, häviävät."
+
+#~ msgid "History"
+#~ msgstr "Historia"
+
+#~ msgid "_Close"
+#~ msgstr "_Sulje"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Unohda"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "WPAD-automaattietsintää käytetään, kun hallinta-URL ei ole määritelty."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Tämä ei ole suositeltavaa julkisissa verkoissa."
+
+#~ msgid "Proxy"
+#~ msgstr "Välityspalvelin"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Lisää profiili…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Tarjoaja"
+
+#~ msgid "Network"
+#~ msgstr "Verkko"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Käsin"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automaattinen"
+
+#~ msgid "_Method"
+#~ msgstr "_Tapa"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_Määritys-URL"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP-välityspalvelin"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS-välityspalvelin"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP-välityspalvelin"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Socks-palvelin"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Ohita koneet"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP-välityspalvelimen portti"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS-välityspalvelimen portti"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP-välityspalvelimen portti"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Socks-välityspalvelimen portti"
+
+#~ msgid "Turn device off"
+#~ msgstr "Käännä laite pois päältä"
+
+#~ msgid "Add Device"
+#~ msgstr "Lisää laite"
+
+#~ msgid "Remove Device"
+#~ msgstr "Poista laite"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN-tyyppi"
+
+#~ msgid "Group Name"
+#~ msgstr "Ryhmän nimi"
+
+#~ msgid "Group Password"
+#~ msgstr "Ryhmäsalasana"
+
+#~ msgid "Username"
+#~ msgstr "Käyttäjätunnus"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Katkaise VPN-yhteys"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Automaattinen _yhdistäminen"
+
+#~ msgid "details"
+#~ msgstr "tiedot"
+
+#~ msgid "Show P_assword"
+#~ msgstr "_Näytä salasana"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Aseta kaikkien käyttäjien käytettäväksi"
+
+#~ msgid "identity"
+#~ msgstr "identiteetti"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Vain automaattiset (DHCP-) osoitteet"
+
+#~ msgid "Link-local only"
+#~ msgstr "Vain linkkiyhteys"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Jaettu muille tietokoneille"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Älä huomioi automaattisesti saatuja reittejä"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Kloonattu MAC-osoite"
+
+#~ msgid "hardware"
+#~ msgstr "laitteisto"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Tyhjennä tämän yhteyden asetukset ja palauta oletusasetukset, mutta "
+#~ "muista yhteys ensisijaisena."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Poista kaikki tähän verkkoon liittyvä tieto äläkä yritä yhdistää "
+#~ "automaattisesti."
+
+#~ msgid "reset"
+#~ msgstr "tyhjennä"
+
+#~ msgid "Hardware"
+#~ msgstr "Laitteisto"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wifi-yhteyspiste"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Ota käyttöön"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wifi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Kytke wifi pois päältä"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Käytä yhteyspisteenä…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "Y_hdistä piilotettuun verkkoon…"
+
+#~ msgid "_History"
+#~ msgstr "_Historia"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Katkaise yhdistääksesi langattomaan verkkoon"
+
+#~ msgid "Network Name"
+#~ msgstr "Verkon nimi"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Yhdistetyt laitteet"
+
+#~ msgid "Security type"
+#~ msgstr "Salauksen tyyppi"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastruktuuri"
+
+#~ msgid "Status unknown"
+#~ msgstr "Tuntematon tila"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Hallitsematon"
+
+#~ msgid "Unavailable"
+#~ msgstr "Ei saatavilla"
+
+#~ msgid "Connecting"
+#~ msgstr "Yhdistetään"
+
+#~ msgid "Authentication required"
+#~ msgstr "Tunnistautuminen vaaditaan"
+
+#~ msgid "Connected"
+#~ msgstr "Yhdistetty"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Katkaistaan yhteyttä"
+
+#~ msgid "Connection failed"
+#~ msgstr "Yhteys epäonnistui"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Tila tuntematon (puuttuu)"
+
+#~ msgid "Not connected"
+#~ msgstr "Ei yhteyttä"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Kokoonpanon käyttö epäonnistui"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP-asetukset epäonnistuivat"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP-asetukset vanhenivat"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Salaisuuksia ei annettu, vaikka niitä pyydettiin"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x-anojan yhteys katkaistu"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x-anojan asetukset epäonnistuivat"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x-anoja epäonnistui"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x-anojalla kesti liian kauan tunnistautua"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP-palvelun käynnistys epäonnistui"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP-palvelun yhteys katkaistu"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP epäonnistui"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP-asiakkaan käynnistys epäonnistui"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP-asiakkaan virhe"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP-asiakas epäonnistui"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Jaetun yhteyden palvelun käynnistys epäonnistui"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Jaetun yhteyden palvelu epäonnistui"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP-palvelun käynnistys epäonnistui"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP-palvelun virhe"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP-palvelu epäonnistui"
+
+#~ msgid "Line busy"
+#~ msgstr "Linja on varattu"
+
+#~ msgid "No dial tone"
+#~ msgstr "Ei valintaääntä"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Kantoaaltoa ei voitu muodostaa"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Soittopyyntö aikatkaistiin"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Soittoyritys epäonnistui"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Modeemin alustus epäonnistui"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Halutun APN:n valinta epäonnistui"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Verkkoja ei etsitä"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Verkkoon rekisteröinti estettiin"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Rekisteröinti verkkoon aikakatkaistiin"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Määritettyyn verkkoon rekisteröinti epäonnistui"
+
+#~ msgid "PIN check failed"
+#~ msgstr "PIN-tarkistus epäonnistui"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Laitteen laiteohjelmisto saattaa puuttua"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Yhteys katosi"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Oletettiin olemassa oleva yhteys"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modeemia ei löytynyt"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Bluetooth-yhteys epäonnistui"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM-korttia ei ole liitetty"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM-kortin PIN vaaditaan"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM-kortin PUK vaaditaan"
+
+#~ msgid "SIM wrong"
+#~ msgstr "SIM väärin"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Yhteysriippuvuus epäonnistui"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Laiteohjelmisto puuttuu"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Johto on irti"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "määrittelemätön virhe 802.1x-tietoturvassa (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "ei tiedostoa valittuna"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr ""
+#~ "DER-, PEM-, tai PKCS#12-yksityisavaimet (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER- tai PEM-varmenteet (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "puuttuva EAP-FAST PAC -tiedosto"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Valitse PAC-tiedosto"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC-tiedostot (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonyymi"
+
+#~ msgid "Authenticated"
+#~ msgstr "Todennettu"
+
+#~ msgid "Both"
+#~ msgstr "Molemmat"
+
+#~ msgid "PAC _file"
+#~ msgstr "PA_C-tiedosto"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Sisempi tunnistautuminen"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Salli automaattinen PAC-pro_visiointi"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "puuttuva EAP-LEAP-käyttäjätunnus"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "puuttuva EAP-LEAP-salasana"
+
+#~ msgid "Sho_w password"
+#~ msgstr "N_äytä salasana"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "virheellinen EAP-PEAP CA -varmenne: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "virheellinen EAP-PEAP CA -varmenne: varmennetta ei määritetty"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Valitse varmentajavarmenne"
+
+#~ msgid "Version 0"
+#~ msgstr "Versio 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Versio 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "_Varmentajavarmenne (CA-varmenne)"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "_CA-varmennetta ei vaadita"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP-_versio"
+
+#~ msgid "missing EAP username"
+#~ msgstr "puuttuva EAP-käyttäjätunnus"
+
+#~ msgid "missing EAP password"
+#~ msgstr "puuttuva EAP-salasana"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "puuttuva EAP-TLS-identiteetti"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "virheellinen EAP-TLS CA -varmenne: %s"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "virheellinen EAP-TLS-salasana: puuttuu"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "virheellinen EAP-TLS-käyttäjävarmenne: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Salaamattomat yksityiset avaimet ovat epäluotettavia"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Valittua yksityistä avainta ei ole suojattu salasanalla. Tämä "
+#~ "mahdollistaa turvallisuustietojen vaarantumisen. Valitse salasanalla "
+#~ "suojattu yksityinen avain.\n"
+#~ "\n"
+#~ "(Voit suojata yksityisen avaimesi openssl:llä)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Valitse henkilökohtainen varmenteesi"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Valitse yksityinen avaimesi"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentiteetti"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Käyttäjävarmenne"
+
+#~ msgid "Private _key"
+#~ msgstr "_Yksityinen avain"
+
+#~ msgid "_Private key password"
+#~ msgstr "Yksityisen avaimen _salasana"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "virheellinen EAP-TTLS CA -varmenne: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "virheellinen EAP-TTLS CA -varmenne: varmennetta ei määritetty"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Tuntematon virhe 802.1x-tietoturvaa vahvistaessa"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Tunneloitu TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Suojattu EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "_Tunnistautuminen"
+
+#~ msgid "missing leap-username"
+#~ msgstr "puuttuva leap-käyttäjätunnus"
+
+#~ msgid "missing leap-password"
+#~ msgstr "puuttuva leap-salasana"
+
+#~ msgid "missing wep-key"
+#~ msgstr "puuttuva wep-avain"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "virheellinen wep-avain: tunnuslause ei voi olla tyhjä"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "virheellinen wep-avain: tunnuslause tulee olla vähemmän kuin 64 merkkiä"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Oletus)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Avoin järjestelmä"
+
+#~ msgid "Shared Key"
+#~ msgstr "Jaettu avain"
+
+#~ msgid "_Key"
+#~ msgstr "_Avain"
+
+#~ msgid "Sho_w key"
+#~ msgstr "N_äytä avain"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP-inde_ksi"
+
+#~ msgid "_Type"
+#~ msgstr "_Tyyppi"
+
+#~ msgid "On"
+#~ msgstr "Päällä"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Ilmoitukset"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "_Ääni-ilmoitukset"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "Ilmoitus_bannerit"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Näy_tä viestin sisältö bannerissa"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Lukitusnäytön i_lmoitukset"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Näytä viestin sisältö _lukitusnäytöllä"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Ilmoitukset"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Hallitse näytettäviä ilmoituksia ja niiden sisältämää tietoa"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr ""
+#~ "Notifications;Banner;Message;Tray;Popup;ilmoitus;ilmoitukset;banneri;"
+#~ "viesti;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "_Ilmoitusbannerit"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Lukitusnäytön ilmoitukset"
+
+#~ msgid "Applications"
+#~ msgstr "Sovellukset"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Add Account"
+#~ msgstr "Lisää tili"
+
+#~ msgid "Mail"
+#~ msgstr "Sähköposti"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalenteri"
+
+#~ msgid "Contacts"
+#~ msgstr "Yhteystiedot"
+
+#~ msgid "Chat"
+#~ msgstr "Keskustelu"
+
+#~ msgid "Resources"
+#~ msgstr "Resurssit"
+
+#~ msgid "Error creating account"
+#~ msgstr "Virhe tiliä luotaessa"
+
+#~ msgid "Error removing account"
+#~ msgstr "Virhe tiliä poistaessa"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Haluatko varmasti poistaa tilin?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Tämä ei poista käyttäjää palvelimelta."
+
+#~ msgid "_Remove"
+#~ msgstr "_Poista"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Verkkotilit"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Liitä verkkotilisi ja päätä, mihin tarkoituksiin niitä käytetään"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;keskustelu;kalenteri;"
+#~ "sähköposti;yhteystiedot;kontaktit;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Verkkotilejä ei ole määritelty"
+
+#~ msgid "Add an online account"
+#~ msgstr "Lisää verkkotili"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Lisäämällä tilin voit käyttää sitä asiakirjoja, sähköpostia, "
+#~ "yhteystietoja, kalenteria, pikaviestintää ja muuta varten."
+
+#~ msgid "Unknown time"
+#~ msgstr "Tuntematon aika"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minuutti"
+#~ msgstr[1] "%i minuuttia"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i tunti"
+#~ msgstr[1] "%i tuntia"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "tunti"
+#~ msgstr[1] "tuntia"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minuutti"
+#~ msgstr[1] "minuuttia"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s kunnes ladattu täyteen"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Varoitus: %s jäljellä"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s jäljellä"
+
+#~ msgid "Fully charged"
+#~ msgstr "Ladattu täyteen"
+
+#~ msgid "Empty"
+#~ msgstr "Tyhjä"
+
+#~ msgid "Charging"
+#~ msgstr "Latautuu"
+
+#~ msgid "Discharging"
+#~ msgstr "Purkautuu"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Pääakku"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Lisäakku"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Langaton hiiri"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Langaton näppäimistö"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Keskeytymätön virransyöttö"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Henkilökohtainen digitaalinen avustaja (PDA)"
+
+#~ msgid "Cellphone"
+#~ msgstr "Matkapuhelin"
+
+#~ msgid "Media player"
+#~ msgstr "Mediasoitin"
+
+#~ msgid "Tablet"
+#~ msgstr "Piirtopöytä"
+
+#~ msgid "Computer"
+#~ msgstr "Tietokone"
+
+#~ msgid "Battery"
+#~ msgstr "Akku"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Latautuu"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Varoitus"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Matala"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Hyvä"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Täyteen ladattu"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Tyhjä"
+
+#~ msgid "Batteries"
+#~ msgstr "Akut"
+
+#~ msgid "When _idle"
+#~ msgstr "Kun _käyttämättä"
+
+#~ msgid "Power Saving"
+#~ msgstr "Virransäästö"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Näytön kirkkaus"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Automaattinen kirkkaus"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Näppäimistön _kirkkaus"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Himmennä näyttö koneen ollessa käyttämättä"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Tyhjä näyttö"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wifi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Sammuta wifi säästääksesi virtaa."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobiililaajakaista"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr "Sammuta mobiililaajakaista (3G, 4G, LTE jne.) säästääksesi virtaa."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Käytettäessä akkua"
+
+#~ msgid "When plugged in"
+#~ msgstr "Käytettäessä verkkovirtaa"
+
+#~ msgid "Suspend"
+#~ msgstr "Valmiustila"
+
+#~ msgid "Hibernate"
+#~ msgstr "Lepotila"
+
+#~ msgid "Nothing"
+#~ msgstr "Ei mitään"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Valmiustila ja virran katkaisu"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Automaattinen valmiustila"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Automaattinen valmiustila"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Kun virtapainiketta painetaan"
+
+#~ msgid "Devices"
+#~ msgstr "Laitteet"
+
+#~ msgid "Po­wer"
+#~ msgstr "Virranhallinta"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Tarkkaile akkusi tilaa ja muuta virransäästöasetuksia"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;virta;uni;valmiustila;lepotila;akku;kirkkaus;himmennys;tyhjä;näyttö;"
+#~ "jouten;virransäästö;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minuuttia"
+
+#~ msgid "1 hour"
+#~ msgstr "1 tunti"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minuuttia"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minuuttia"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minuuttia"
+
+#~ msgid "2 hours"
+#~ msgstr "2 tuntia"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minuutti"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minuuttia"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minuuttia"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minuuttia"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minuuttia"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minuuttia"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minuuttia"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minuuttia"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Automaattinen valmiustila"
+
+#~ msgid "_Plugged In"
+#~ msgstr "Käytettäessä _verkkovirtaa"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Käytettäessä _akkua"
+
+#~ msgid "Delay"
+#~ msgstr "Viive"
+
+#~ msgid "Authenticate"
+#~ msgstr "Tunnistaudu"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Tunnistautuminen vaaditaan"
+
+#~ msgid "Low on toner"
+#~ msgstr "Muste on vähissä"
+
+#~ msgid "Out of toner"
+#~ msgstr "Muste on loppu"
+
+#~ msgid "Low on developer"
+#~ msgstr "Kehite on vähissä"
+
+#~ msgid "Out of developer"
+#~ msgstr "Kehite on loppu"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Väriaine vähissä"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Väriaine loppu"
+
+#~ msgid "Open cover"
+#~ msgstr "Avaa kansi"
+
+#~ msgid "Open door"
+#~ msgstr "Avaa ovi"
+
+#~ msgid "Low on paper"
+#~ msgstr "Paperi vähissä"
+
+#~ msgid "Out of paper"
+#~ msgstr "Paperi on loppu"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Poissa verkosta"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Pysäytetty"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Jätesäiliö melkein täynnä"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Jätesäiliö täynnä"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Valojohdeyksikkö on vaihdettava pian"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Valojohdeyksikkö on rikki"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Määritetään asetuksia"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Valmiina"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Ei hyväksy töitä"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Käsitellään"
+
+#~ msgid "Toner Level"
+#~ msgstr "Värikasetin taso"
+
+#~ msgid "Ink Level"
+#~ msgstr "Musteen taso"
+
+#~ msgid "Supply Level"
+#~ msgstr "Täyttöaste"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Asennetaan"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktiivinen"
+#~ msgstr[1] "%u aktiivista"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Uuden tulostimen lisäys epäonnistui."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Valitse PPD-tiedosto"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript Printer Description -tiedostot (*.ppd, *.PPD, *.ppd.gz, *.PPD."
+#~ "gz, *.PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Soveltuvaa ajuria ei löytynyt"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Etsitään ensisijaisia ajureita…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Valitse tietokannasta…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Määritä PPD-tiedosto…"
+
+#~ msgid "Test page"
+#~ msgstr "Testisivu"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Käyttöliittymätiedoston lataus epäonnistui: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Tulostimet"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr "Lisää tulostimia, seuraa tulostustöitä ja määritä tulostusasetukset"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr ""
+#~ "tulostin;jono;tulosta;paperi;muste;värikasetti;Printer;Queue;Print;Paper;"
+#~ "Ink;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Tyhjennä kaikki"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Ei aktiivisia tulostustöitä"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Lisää uusi tulostin"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "_Tunnistaudu"
+
+#~ msgid "No printers detected."
+#~ msgstr "Tulostimia ei havaittu."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Kirjoita verkko-osoite tai etsi tulostinta"
+
+#~ msgid "Loading options…"
+#~ msgstr "Ladataan valintoja…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Valitse tulostinajuri"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Ladataan ajuritietokantaa..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect-tulostin"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD-tulostin"
+
+#~ msgid "One Sided"
+#~ msgstr "Yksipuoleinen"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "PItkä reuna"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Lyhyt reuna"
+
+#~ msgid "Portrait"
+#~ msgstr "Pysty"
+
+#~ msgid "Landscape"
+#~ msgstr "Vaaka"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Käänteinen vaaka"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Käänteinen pysty"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Odottaa"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Keskeytetty"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Käsitellään"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Pysäytetty"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Peruttu"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Keskeytetynyt"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Valmis"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Aktiiviset työt"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Sarjaportti"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Rinnakkaisportti"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Sijainti: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Osoite: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Palvelin vaatii tunnistautumisen"
+
+#~ msgid "Two Sided"
+#~ msgstr "Kaksipuoleinen"
+
+#~ msgid "Paper Type"
+#~ msgstr "Paperin tyyppi"
+
+#~ msgid "Paper Source"
+#~ msgstr "Paperin lähde"
+
+#~ msgid "Output Tray"
+#~ msgstr "Ulostulo"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScriptin esisuodatus"
+
+#~ msgid "Pages per side"
+#~ msgstr "Sivuja per puoli"
+
+#~ msgid "Two-sided"
+#~ msgstr "Kaksipuoleinen"
+
+#~ msgid "Orientation"
+#~ msgstr "Suunta"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Sivun asetukset"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Asennettavat valinnat"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Työ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Kuvalaatu"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Väri"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Viimeistely"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Lisäasetukset"
+
+#~ msgid "Auto Select"
+#~ msgstr "Valitse automaattisesti"
+
+#~ msgid "Printer Default"
+#~ msgstr "Tulostimen oletus"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Upota vain GhostScript-fontit"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Muunna PS 1 -tasolle"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Muunna PS 2 -tasolle"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Ei esisuodatusta"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Valmistaja"
+
+#~ msgid "Driver"
+#~ msgstr "Ajuri"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Syötä käyttäjätunnus ja salasana palvelimella %s olevien tulostimien "
+#~ "katselemiseksi."
+
+#~ msgid "Add Printer"
+#~ msgstr "Lisää tulostin"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Poista tulostin"
+
+#~ msgid "Supply"
+#~ msgstr "Väri"
+
+#~ msgid "Location"
+#~ msgstr "Sijainti"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Oletustulostin"
+
+#~ msgid "Jobs"
+#~ msgstr "Työt"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "N_äytä työt"
+
+#~ msgid "Model"
+#~ msgstr "Malli"
+
+#~ msgid "label"
+#~ msgstr "nimike"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Asetetaan uutta ajuria…"
+
+#~ msgid "page 3"
+#~ msgstr "sivu 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Tulosta _testisivu"
+
+#~ msgid "_Options"
+#~ msgstr "_Valinnat"
+
+#~ msgid "No printers"
+#~ msgstr "Ei tulostimia"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Lisää tulostin"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Valitettavasti tulostuspalvelu\n"
+#~ "ei vaikuta olevan käytettävissä."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Näytön lukitus"
+
+#~ msgid "In use"
+#~ msgstr "Käytössä"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Päällä"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Pois"
+
+#~ msgid "Location Services"
+#~ msgstr "Sijaintipalvelut"
+
+#~ msgid "Usage & History"
+#~ msgstr "Käyttö ja historia"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Tyhjennetäänkö roskakorin koko sisältö?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Kaikki roskakorissa olevat kohteet poistetaan pysyvästi."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Tyhjennä roskakori"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Poistetaanko kaikki väliaikaiset tiedostot?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Kaikki väliaikaiset tiedostot poistetaan pysyvästi."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "Tu_hoa väliaikaistiedostot"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Tuhoa väliaikaiset ja roskakorin tiedostot"
+
+#~ msgid "Software Usage"
+#~ msgstr "Ohjelmistojen käyttö"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Vikailmoitukset"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Vikailmoitusten lähettäminen auttaa parantamaan %sa. Ilmoitukset eivät "
+#~ "sisällä henkilökohtaisia tietoja. Ilmoitukset lähetetään anonyymisti."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Tietosuoja"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Yksityisyys"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Suojaa henkilökohtaisia tietojasi ja hallitse, mitä tietoja muut voivat "
+#~ "nähdä"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;näyttö;lukitus;diagnostikka;kaatuminen;yksityinen;"
+#~ "viimeisimmät;väliaikset;nimi;verkko;identiteetti;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Näyttö sammuu"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 sekuntia"
+
+#~ msgid "1 day"
+#~ msgstr "1 päivä"
+
+#~ msgid "2 days"
+#~ msgstr "2 päivää"
+
+#~ msgid "3 days"
+#~ msgstr "3 päivää"
+
+#~ msgid "4 days"
+#~ msgstr "4 päivää"
+
+#~ msgid "5 days"
+#~ msgstr "5 päivää"
+
+#~ msgid "6 days"
+#~ msgstr "6 päivää"
+
+#~ msgid "7 days"
+#~ msgstr "7 päivää"
+
+#~ msgid "14 days"
+#~ msgstr "14 päivää"
+
+#~ msgid "30 days"
+#~ msgstr "30 päivää"
+
+#~ msgid "Forever"
+#~ msgstr "Aina"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Historian muistaminen helpottaa asioiden löytämistä uudelleen. Näitä "
+#~ "tietoja ei koskaan jaeta verkossa."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Äskettäin käytetyt"
+
+#~ msgid "Retain _History"
+#~ msgstr "_Säilytä historia"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "Poista historiatietoja"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Näyttölukko suojaa yksityisyyttäsi kun olet poissa."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "_Automaattinen näytön lukitus"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Lukitse näyttö kun se on ollut _tyhjänä"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "_Näytä ilmoitukset"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Tyhjennä roskakori ja tuhoa väliaikaistiedostot automaattisesti, jotta "
+#~ "koneelle ei jää turhaa yksityistä tietoa."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Tyh_jennä roskakori automaattisesti"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Tuhoa _väliaikaistiedostot automaattisesti"
+
+#~ msgid "Purge _After"
+#~ msgstr "Tyhjennä/tuhoa _viiveellä"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Lähettämällä käyttämiesi ohjelmistojen käyttötilastot saat parempia "
+#~ "suosituksia. Samalla autat parantamaan ohjelmistoja.\n"
+#~ "\n"
+#~ "Keräämäämme tietoa ei voi yhdistää yksittäisiin käyttäjiin, eikä "
+#~ "tietojasi tulla koskaan jakamaan kolmansien osapuolien kanssa."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Lä_hetä ohjelmistojen käyttötilastot"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Sijaintipalvelut mahdollistavat sovellusten paikantaa sijaintisi. "
+#~ "Tarkkuus paranee wifiä ja mobiiliyhteyttä käyttäen."
+
+#~ msgid "_Location Services"
+#~ msgstr "Sijai_ntipalvelut"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Automaattiset vikailmoitukset"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Imperiaalinen"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrinen"
+
+#~ msgid "No regions found"
+#~ msgstr "Alueita ei löytynyt"
+
+#~ msgid "No input sources found"
+#~ msgstr "Syötelähteitä ei löytynyt"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr ""
+#~ "Istunto täytyy käynnistää uudelleen, jotta muutokset tulevat voimaan."
+
+#~ msgid "Restart Now"
+#~ msgstr "Käynnistä uudelleen nyt"
+
+#~ msgid "No input source selected"
+#~ msgstr "Syötelähdettä ei valittu"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Kirjautumisnäytt_ö"
+
+#~ msgid "Formats"
+#~ msgstr "Muotoilut"
+
+#~ msgid "Preview"
+#~ msgstr "Esikatselu"
+
+#~ msgid "Dates"
+#~ msgstr "Päivämäärät"
+
+#~ msgid "Times"
+#~ msgstr "Aika"
+
+#~ msgid "Numbers"
+#~ msgstr "Numerot"
+
+#~ msgid "Measurement"
+#~ msgstr "Mitat"
+
+#~ msgid "Paper"
+#~ msgstr "Paperi"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Alue ja kielet"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Valitse näytettävä kieli, formaatit, näppäimistöasettelu ja syötelähteet"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Kieli;Asettelu;Näppäimistö;Syöte;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Lisää syötelähde"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Syötemenetelmiä ei voi käyttää kirjautumisruudussa"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Syötelähteen asetukset"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Käytä _samaa lähdettä kaikille ikkunoille"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Salli _eri lähteet yksittäisille ikkunoille"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Pikanäppäimet"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Vaihda edelliseen lähteeseen"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Välilyönti"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Vaihda seuraavaan lähteeseen"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Välilyönti"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Näitä pikanäppäimiä voi vaihtaa näppäimistöasetuksissa"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Vaihtoehtoinen vaihto seuraavaan lähteeseen"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Vasen+Oikea Alt"
+
+#~ msgid "_Language"
+#~ msgstr "_Kieli"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Englanti (Yhdistynyt kuningaskunta)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Muotoilut"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Yhdistynyt kuningaskunta"
+
+#~ msgid "Input Sources"
+#~ msgstr "Syötelähteet"
+
+#~ msgid "Add input source"
+#~ msgstr "Lisää syötelähde"
+
+#~ msgid "Remove input source"
+#~ msgstr "Poista syötelähde"
+
+#~ msgid "Move input source up"
+#~ msgstr "Siirrä syötelähde ylös"
+
+#~ msgid "Move input source down"
+#~ msgstr "Siirrä syötelähde alas"
+
+#~ msgid "Configure input source"
+#~ msgstr "Muokkaa syötelähdettä"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Näytä syötelähteenä olevan näppäimistön asettelu"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Kaikki käyttäjät käyttävät kirjautumisasetuksia kirjautuessaan "
+#~ "järjestelmään"
+
+#~ msgid "Select Location"
+#~ msgstr "Valitse sijainti"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "No applications found"
+#~ msgstr "Sovelluksia ei löytynyt"
+
+#~ msgid "Search"
+#~ msgstr "Haku"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr "Mitkä ohjelmat näyttävät hakutuloksia Toiminnot-näkymässä"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr ""
+#~ "Search;Find;Index;Hide;Privacy;Results;Haku;Etsi;Indeksi;Piilota;"
+#~ "Yksityisyys;Tulokset;Hakutulokset;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Hakukohteet"
+
+#~ msgid "Places"
+#~ msgstr "Sijainnit"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Kirjanmerkit"
+
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Move Up"
+#~ msgstr "Siirrä _ylös"
+
+#~ msgid "Move Down"
+#~ msgstr "Siirrä _alas"
+
+#~ msgid "Preferences"
+#~ msgstr "Asetukset"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Ei verkkoja valittu jakamista varten"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Päällä"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Pois"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Käytössä"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktiivinen"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Valitse kansio"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Henkilökohtaisen tiedostonjaon avulla voit jakaa julkisen kansiosi verkon "
+#~ "muiden käyttäjien kanssa käyttäen osoitetta <a href=\"dav://%s\">dav://"
+#~ "%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Kun etäkirjautuminen on sallittu, etäkäyttäjät voivat yhdistää käyttäen "
+#~ "Secure Shell -komentoa:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Näytön jakaminen sallii etäkäyttäjien seurata ja hallita näyttöäsi "
+#~ "yhdistämällä kohteeseen <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Kopioi"
+
+#~ msgid "Sharing"
+#~ msgstr "Jakaminen"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Jakaminen"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Valitse mitä haluat jakaa muiden kanssa"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;jako;jakaminen;etä;työpöytä;ääni;video;"
+#~ "kuvat;palvelin;"
+
+#~ msgid "Networks"
+#~ msgstr "Verkot"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Käytä tai poista käytöstä etäkirjautuminen"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "Etäkirjautumisen hallinta vaatii tunnistautuminen"
+
+#~ msgid "_Computer Name"
+#~ msgstr "Ti_etokoneen nimi"
+
+#~ msgid "_File Sharing"
+#~ msgstr "_Tiedostonjako"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "_Näytön jakaminen"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "_Mediajako"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Etäkirjautuminen"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Jotkut palvelut ovat poissa käytöstä, koska verkkoyhteyttä ei ole."
+
+#~ msgid "File Sharing"
+#~ msgstr "Tiedostojako"
+
+#~ msgid "_Require Password"
+#~ msgstr "Vaa_di salasana"
+
+#~ msgid "Remote Login"
+#~ msgstr "Etäkirjautuminen"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Näytön jakaminen"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "Sa_lli yhteydet näytön hallintaan"
+
+#~ msgid "_Password:"
+#~ msgstr "_Salasana:"
+
+#~ msgid "_Show Password"
+#~ msgstr "_Näytä salasana"
+
+#~ msgid "Access Options"
+#~ msgstr "Käyttövalinnat"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Uusien yhteyksien tulee ky_syä lupa"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Vaadi salasana"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Mediajako"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Jaa musiikkia, kuvia ja videoita verkon kautta."
+
+#~ msgid "Folders"
+#~ msgstr "Kansiot"
+
+#~ msgid "Sound"
+#~ msgstr "Ääni"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Muuta äänenvoimakkuutta, sisään- ja ulostuloja sekä äänitapahtumia"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Kortti;mikrofoni;äänenvoimakkuus;häivytys;tasapaino;Bluetooth;kuulokkeet;"
+#~ "headset;Audio;"
+
+#~ msgid "Bark"
+#~ msgstr "Haukunta"
+
+#~ msgid "Drip"
+#~ msgstr "Vesipisara"
+
+#~ msgid "Glass"
+#~ msgstr "Lasi"
+
+#~ msgid "Sonar"
+#~ msgstr "Kaikuluotain"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Vasen"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Oikea"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Taka"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Etu"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimi"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maksimi"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Tasapaino:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Häivytys:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Subwoofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100 %"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Vahvistamaton"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profiili:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u ulostulo"
+#~ msgstr[1] "%u ulostuloa"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u sisääntulo"
+#~ msgstr[1] "%u sisääntuloa"
+
+#~ msgid "System Sounds"
+#~ msgstr "Järjestelmän äänet"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Testaa kaiuttimia"
+
+#~ msgid "Peak detect"
+#~ msgstr "Havaitse piikit"
+
+#~ msgid "Device"
+#~ msgstr "Laite"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Kaiutintesti: %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "_Toistovoimakkuus:"
+
+#~ msgid "Output"
+#~ msgstr "Ulostulo"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Valitse laite äänen toistamiseksi:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Valitun laitteen asetukset:"
+
+#~ msgid "Input"
+#~ msgstr "Sisääntulo"
+
+#~ msgid "_Input volume:"
+#~ msgstr "_Äänitysvoimakkuus:"
+
+#~ msgid "Input level:"
+#~ msgstr "Äänitystaso:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Valitse laite äänen tallentamiseksi:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Äänitehosteet"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "_Hälytysten voimakkuus:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Mikään sovellus ei nyt soita tai tallenna ääntä."
+
+#~ msgid "Built-in"
+#~ msgstr "Sisäänrakennettu"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Ääniasetukset"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Kokeillaan tapahtuman ääntä"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "From theme"
+#~ msgstr "Teemasta"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Valitse hälytysääni:"
+
+#~ msgid "Stop"
+#~ msgstr "Pysäytä"
+
+#~ msgid "Test"
+#~ msgstr "Testaa"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Oma"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Esteettömyys"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Helpota näkemistä, kuulemista, kirjoittamista ja hiiren käyttöä"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;Näppäimistö;Hiiri;a11y;"
+#~ "Esteettömyys;Kontrasti;Zoom;Mittakaava;Lähennys;Loitonnus;Näytönlukija;"
+#~ "teksti;fontti;kirjasin;koko;AccessX;Pohjaan jäävät näppäimet;Hitaat "
+#~ "näppäimet;Kimmonäppäimet;Hiiren painikkeet;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Näytä esteettömyysvalikko aina"
+
+#~ msgid "Seeing"
+#~ msgstr "Näkeminen"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Suuri kontrasti"
+
+#~ msgid "_Large Text"
+#~ msgstr "Suuri _teksti"
+
+#~ msgid "_Zoom"
+#~ msgstr "S_uurennus"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Näytönlukija"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Äänekkäät näppäimet"
+
+#~ msgid "Hearing"
+#~ msgstr "Kuuleminen"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Visuaaliset hälytykset"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "N_äppäimistö näytöllä"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Toist_onäppäimet"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "Kohdistimen _vilkunta"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Kirjoitusapu (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Kohdistaminen ja napsauttaminen"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Hiirinäppäimet"
+
+#~ msgid "_Click Assist"
+#~ msgstr "N_apsautusapu"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Kaksoisnapsautuksen _viive"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Kaksoisnapsautuksen viive"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Näytönlukija"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Näytönlukija lukee ääneen näytöllä olevan tekstin vaihtaessasi "
+#~ "kohdistusta."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Näytönlukija"
+
+#~ msgid "Sound Keys"
+#~ msgstr "_Äänekkäät näppäimet"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Piippaa kun Num Lock tai Caps Lock otetaan käyttöön."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Visuaaliset hälytykset"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Testaa välähdystä"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr ""
+#~ "Käytä visuaalista ilmoitusta, kun hälytyksen äänitehoste toistetaan."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Väläytä _ikkunan reunusta"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Väläytä _koko näyttöä"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Toistonäppäimet"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Painallus toistuu, kun näppäintä pidetään painettuna."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Näppäinten toiston viive"
+
+#~ msgid "Speed"
+#~ msgstr "Nopeus"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Näppäinten toiston nopeus"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Kohdistimen vilkunta"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Kohdistin vilkkuu tekstikentissä."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Kohdistimen vilkkumisnopeus"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Kirjoitusapu"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Pohjaan jäävät näppäimet"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Kohtelee määritenäppäinten sarjaa näppäinyhdistelmänä"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Poista käytöstä, jos kahta näppäintä painetaan samanaikaisesti"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Soita äänimerkki, kun _määritenäppäintä painetaan"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Hitaat näppäimet"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Aseta viive hyväksyttyjen näppäinpainallusten välille"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "V_iiveen kesto:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Hitaiden näppäinten kirjoitusviive"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Soita äänimerkki, kun näppäintä _painetaan"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Soita äänimerkki, kun näppäinpainallus _hyväksytään"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Soita äänimerkki, kun näppäinpainallusta _ei hyväksytty"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Kimmonäppäimet"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Älä huomioi nopeita kahden näppäimen painalluksia"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Kimmonäppäinten kirjoitusviive"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Ota käyttöön näppäimistöä käyttäen"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr ""
+#~ "Ota käyttöön/poista käytöstä esteettömyystoiminnot näppäimistöä käyttäen"
+
+#~ msgid "Click Assist"
+#~ msgstr "Napsautusapu"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "Kakkospainikkeen simuloitu _napsautus"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Käytä hiiren kakkosnäppäintä pitämällä ykkösnäppäintä pohjassa"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Kakkosnäppäimen viive"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Napsautus _kohdistamalla"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Toteuta painallus, kun hiiren kohdistin kohdistetaan"
+
+#~ msgid "D_elay:"
+#~ msgstr "Viiv_e:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Liikkeen _kynnysarvo:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Pieni"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Suuri"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ näyttöä"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ näyttöä"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ näyttöä"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgid "Full Screen"
+#~ msgstr "Koko näyttö"
+
+#~ msgid "Top Half"
+#~ msgstr "Yläosa"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Alaosa"
+
+#~ msgid "Left Half"
+#~ msgstr "Vasen puoli"
+
+#~ msgid "Right Half"
+#~ msgstr "Oikea puoli"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Suurennuksen valinnat"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Suurennus:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "Seuraa _hiiren osoitinta"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Näytön osa:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "Suu_rennuslasi ulottuu näytön ulkopuolelle"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "Pi_dä suurennuslasin osoitin keskitettynä"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Suur_ennuslasin osoitin työntää sisältöä"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Suurennuslasin osoit_in siirtyy sisällön kanssa"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Suurennuslasin sijainti:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Suurennuslasi"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Paksuus:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Ohut"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Paksu"
+
+#~ msgid "_Length:"
+#~ msgstr "Pit_uus:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "Vä_ri:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "Tähtäi_n:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "Hii_ren osoittimen päällä"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Tähtäimet"
+
+#~ msgid "_White on black:"
+#~ msgstr "Valkoista _mustalla:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "K_irkkaus:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Kontrasti:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "V_äri"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Täysi"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Matala"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Korkea"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Matala"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Korkea"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Väritehosteet:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Väritehosteet"
+
+#~ msgid "You are Offline"
+#~ msgstr "Olet poissa verkosta"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Liitä toimialueeseen"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Hallitse käyttäjätilejä"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Käyttäjätietojen muuttaminen vaatii tunnistautuminen"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Määritä painikkeet"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Määritä painikkeille toimintoja"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Muokkaa pikanäppäintä valitsemalla ensin ”Lähetä näppäinpainallus” ja "
+#~ "painamalla sitten pikanäppäinpainiketta. Paina sitten haluamasi uudet "
+#~ "näppäimet pohjaan. Pikanäppäimen voi poistaa käytöstä painamalla "
+#~ "askelpalautinta."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Kosketa näytöllä näkyviä kohdemerkkejä piirtopöydän kalibroimiseksi."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Tunnistettiin ohi mennyt kosketus, aloitetaan alusta…"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Ylös"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Alas"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Lähetä näppäinpainallus"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Vaihda näyttöä"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Näytä ohjeet näytöllä"
+
+#~ msgid "Output:"
+#~ msgstr "Ulostulo:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Säilytä kuvasuhde (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Kohdista näyttöön"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d / %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Kohdistus näyttöön"
+
+#~ msgid "Button"
+#~ msgstr "Painike"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wacom-piirtopöytä"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr "Aseta piirtopöydän painikkeet ja kynän herkkyys"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Piirtopöytä;Wacom;Stylus;Eraser;Hiiri;Tablet;Mouse;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Piirtopöytä (yksi yhteen)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Kosketuslevy (suhteellinen)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Piirtopöydän asetukset"
+
+#~ msgid "_Help"
+#~ msgstr "_Ohje"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Piirtopöytää ei havaittu"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Liitä tai käynnistä Wacom-piirtopöytä"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth-asetukset"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom-piirtopöydät"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Kohdista näyttöön…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Määritä painikkeet…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibroi..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Säädä näytön tarkkuutta"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Muuta hiiren asetuksia"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Seurantatila"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Vasenkätinen suunta"
+
+#~ msgid "Left Ring"
+#~ msgstr "Vasen rengas"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Vasemman renkaan tila #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Oikea rengas"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Oikean renkaan tila #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Vasen kosketusliuska"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Vasemman kosketusliuskan tila #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Oikea kosketusliuska"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Oikean kosketusliuskan tila #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Vasemman kosketusrenkaan tilavaihdin"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Oikean kosketusrenkaan tilavaihdin"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Vasemman kosketusliuskan tilavaihdin"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Oikean kosketusliuskan tilavaihdin"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Tilavaihdin #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Vasen painike #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Oikea painike #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Yläpainike #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Alapainike #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Uusi pikanäppäin…"
+
+#~ msgid "No Action"
+#~ msgstr "Ei toimintoa"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Hiiren vasemman painikkeen napsautus"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Hiiren keskimmäisen painikkeen napsautus"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Hiiren oikean painikkeen napsautus"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Vieritys ylös"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Vieritys alas"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Vieritys vasemmalle"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Vieritys oikealle"
+
+#~ msgid "Back"
+#~ msgstr "Takaisin"
+
+#~ msgid "Forward"
+#~ msgstr "Eteenpäin"
+
+#~ msgid "Stylus"
+#~ msgstr "Osoitinkynä"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Pyyhekumin paineentuntu"
+
+#~ msgid "Soft"
+#~ msgstr "Pehmeä"
+
+#~ msgid "Firm"
+#~ msgstr "Kova"
+
+#~ msgid "Top Button"
+#~ msgstr "Yläpainike"
+
+#~ msgid "Lower Button"
+#~ msgstr "Alanäppäin"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Kynän kärjen paineentuntu"
+
+#~ msgid "All Settings"
+#~ msgstr "Kaikki asetukset"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Gnomen asetuskeskus"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Työkalut Gnome-työpöydän hallintaan"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Asetuskeskus on Gnomen ensisijainen käyttöliittymä työpöydän monien eri "
+#~ "asetusten muokkaamiseen."
+
+#~ msgid "Display version number"
+#~ msgstr "Näytä versionumero"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Ota käyttöön lisätietoja tulostava tila"
+
+#~ msgid "Show the overview"
+#~ msgstr "Näytä yleiskuva"
+
+#~ msgid "Search for the string"
+#~ msgstr "Etsi merkkijonoa"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Näytä mahdolliset paneelinimet ja lopeta"
+
+#~ msgid "Panel to display"
+#~ msgstr "Näytettävä paneeli"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEELI] [ARGUMENTTI…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Käytettävissä olevat paneelit:"
+
+#~ msgid "Help"
+#~ msgstr "Ohje"
+
+#~ msgid "Quit"
+#~ msgstr "Lopeta"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Henkilökohtaiset"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Laitteisto"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Järjestelmä"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Ominaisuudet;Asetukset;Preferences;Settings;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Lopeta"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Haku"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Paneelit"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Näytä asetusten päänäkymä"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Peru haku"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Yhteyspiste"
+
+#~| msgid "No regions found"
+#~ msgid "No results found"
+#~ msgstr "Tuloksia ei löytynyt"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Keyboard shortcut for <b>%s</b>. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Pikanäppäin toiminnolle <b>%s</b>. Anna uusi pikanäppäin vaihtaaksesi."
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Muokkaa pikanäppäintä napsauttamalla riviä ja paina sitten haluamasi "
+#~ "uudet näppäimet pohjaan. Pikanäppäimen voi poistaa käytöstä painamalla "
+#~ "askelpalautinta."
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Virhe kirjauduttaessa käyttäjätilille"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Kirjautumistiedot ovat vanhentuneet."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Kirjaudu sisään ottaaksesi tämän tilin käyttöön."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Kirjaudu sisään"
+
+#~ msgid "Color"
+#~ msgstr "Värit"
+
+#~ msgid "_Name:"
+#~ msgstr "_Nimi:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Lisää pikanäppäin"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Poista pikanäppäin"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Tuntematon toiminto>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Pikanäppäintä ”%s” ei voi käyttää, koska tällöin kyseistä näppäintä ei "
+#~ "enää voi käyttää kirjoittamiseen.\n"
+#~ "Kokeile yhdistämällä näppäin esimerkiksi Control-, Alt- tai "
+#~ "vaihtonäppäimeen."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Pikanäppäin ”%s” on jo kytketty toimintoon\n"
+#~ "”%s”"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Jos siirrät pikanäppäimen toimintoon \"%s\", poistetaan pikanäppäin \"%s"
+#~ "\" käytöstä."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Siirrä"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" on sidottu toimintoon \"%s\", tämä pikanäppäin poistetaan käytöstä "
+#~ "jos jatkat eteenpäin."
+
+#~ msgid "_Assign"
+#~ msgstr "_Aseta"
+
+#~ msgid "Bond"
+#~ msgstr "Liitos"
+
+#~ msgid "Bridge"
+#~ msgstr "Silta"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "VPN-liittänäisten lataus epäonnistui"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Lisää verkkoyhteys"
+
+#~ msgid "(none)"
+#~ msgstr "(ei mitään)"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "InfiniBand-laite ei tue yhdistettyä tilaa"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Varmentajavarmennetta ei valittu"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Varmentajan (CA) käyttämättä jättäminen voi johtaa yhteyksien ottamiseen "
+#~ "turvattomiin, epäluotettaviin langattomiin verkkoihin. Haluatko valita "
+#~ "varmentajan varmenteen?"
+
+#~ msgid "Ignore"
+#~ msgstr "Ohita"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Valitse CA-varmenne"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "K_ysy tätä salasanaa joka kerta"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "_Älä varoita uudelleen"
+
+#~ msgid "No"
+#~ msgstr "Ei"
+
+#~ msgid "Yes"
+#~ msgstr "Kyllä"
+
+#~ msgid "Power"
+#~ msgstr "Virransäästö"
+
+#~ msgid "Privacy"
+#~ msgstr "Yksityisyys"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Muu"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Henkilökohtainen tiedostonjako"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "S_alli etäkäyttö"
+
+#~ msgid "_Verify"
+#~ msgstr "_Vahvista"
+
+#~ msgid "Login History"
+#~ msgstr "Kirjautumishistoria"
+
+#~ msgid "Add User Account"
+#~ msgstr "Lisää käyttäjätili"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Poista käyttäjätili"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Käyttäjä tunnuksella '%s' on jo olemassa."
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Käytetään maantieteellisen sijaintisi määrittämiseen"
+
+#~ msgid "Done"
+#~ msgstr "Valmis"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Aika_vyöhyke"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Aktiiviset työt"
+
+#~ msgid "Close"
+#~ msgstr "Sulje"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Jatka tulostusta"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Keskeytä tulostus"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Peru tulostustyö"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Pidossa"
+
+#~ msgid "Job Title"
+#~ msgstr "Työn nimi"
+
+#~ msgid "Job State"
+#~ msgstr "Työn tila"
+
+#~ msgid "Time"
+#~ msgstr "Aika"
+
+#~ msgid "Options"
+#~ msgstr "Valinnat"
+
+#~ msgid "Password:"
+#~ msgstr "Salasana:"
+
+#~ msgid "_Repeat Keys"
+#~ msgstr "Toistonäppäi_met"
+
+#~ msgid "_Cursor Blinking"
+#~ msgstr "K_ohdistimen vilkunta"
+
+#~ msgid "Zoom"
+#~ msgstr "Lähennys"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Väri"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Viive:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Lyhyt"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Hidas"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Pitkä"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Nopea"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Nopeus:"
+
+#~ msgid "For mice and touchpads."
+#~ msgstr "Hiirelle ja kosketuslevylle."
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Testaa asetukset"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Hidas"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Nopea"
+
+#~ msgid "_Double-click"
+#~ msgstr "_Kaksoisnapsautus"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "_Vasen"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Oikea"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "O_soittimen nopeus"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Hidas"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Nopea"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Hidas"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Nopea"
+
+#~ msgid "No printers available"
+#~ msgstr "Tulostimia ei saatavilla"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Lisää uusi tulostin"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth on pois käytöstä"
+
+#~ msgid "Security key"
+#~ msgstr "Salausavain"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "Langattomat laitteet tarvitsevat lisävirtaa"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "Kun akkuvirtaa on e_rittäin vähän"
+
+#~ msgid "Power Off"
+#~ msgstr "Virta pois päältä"
+
+#~ msgid "Power off"
+#~ msgstr "Virta pois päältä"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "Bluetoothin avulla voit jakaa tiedostoja toisten Bluetooth-laitteiden "
+#~ "kanssa"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Vastaanota vain luotetuilta laitteilta"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Tallenna vastaanotetut tiedostot Lataukset-kansioon"
+
+#~ msgid "Show help options"
+#~ msgstr "Näytä ohjevalitsimet"
+
+#~ msgid "- Settings"
+#~ msgstr "- Asetukset"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Suorita ”%s --help” nähdäksesi täyden luettelon komentorivivalitsimista.\n"
+
+#~ msgid "United States"
+#~ msgstr "Yhdysvallat"
+
+#~ msgid "Germany"
+#~ msgstr "Saksa"
+
+#~ msgid "France"
+#~ msgstr "Ranska"
+
+#~ msgid "Spain"
+#~ msgstr "Espanja"
+
+#~ msgid "China"
+#~ msgstr "Kiina"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "_Poista kosketuslevy käytöstä kirjoitettaessa"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr ""
+#~ "Järjestelmän verkkopalvelut eivät ole yhteensopivia tämän version kanssa."
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Näytä ilmoitusbannerit"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Näytä lukitusnäytössä"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "Näytä ilmoitusbannerit"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Näytä lukitusnäytössä"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "Sammuttaa langattomat laitteet"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "Kirjoita tulostimen osoite tai tekstiä suodattaaksesi tuloksia"
+
+#~ msgid "Sorry"
+#~ msgstr "Virhe"

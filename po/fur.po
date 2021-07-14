@@ -1,0 +1,5675 @@
+# Friulian translation for gnome-control-center.
+# Copyright (C) 2015 gnome-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-control-center package.
+# Fabio Tomat <f.t.public@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-10-17 16:24+0200\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "Non _utent"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "Non _complet"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Normâl"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Aministradôr"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Gjenar di account"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Password"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Permet al utent di impostâ une password al prossim _acès"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Imposte une password _cumò"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Password"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Conferme"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"L'acès enterprise al permet di doprâ su chest dispositîf un account utent za "
+"esistent ministrât in maniere centrâl. Tu puedis ancje doprâ chest account "
+"par jentrâ tes risorsis de compagnie su internet."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Domini"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Tu scugnis jessi in rêt par zontâ utents enterprise."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "Account _enterprise"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Zonte utent"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Acès aministradôr domini"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Par podê doprâ i acès aziendâi, il computer al à di jessi\n"
+" regjistrât tal domini. Domandâ al aministradôr di rêt\n"
+"di scrivi la password pal domini in chest cjamp."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "_Non aministradôr"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Password aministradôr"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Poleâr çamp"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Medi çamp"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Anulâr çamp"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Dêt piçul çamp"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Poleâr diestri"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Medi diestri"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Anulâr diestri"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Dêt piçul diestri"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Abilite acès cun impronte"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Dêt indiç _diestri"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Dêt indiç _çamp"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Altri dêt:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"La tô impronte digjitâl e je stade salvade. Cumò tu puedis jentrâ doprant il "
+"letôr di improntis."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Utents"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Zonte o gjave utents e cambie la tô password"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Login;Acès;Non;Impronte;Avatar;Logo;Muse;Password;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Cambie password"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Anule"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "C_ambie"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Gnove password"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Gnove password"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "_Password atuâl"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Permet al utent di cambiâ la sô password al prossim acès"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Imposte une password cumò"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Zonte utent..."
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Opzions di acès"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Acès automatic"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Acès cun impronte"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Icone utent"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Ultin acès"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Gjave account"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Altris account"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Eliminazion utent falide"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Revoche dal utent gjestît di rimot falide"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Nol è permetût eliminâ il propri account."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s nol à ancjemò terminât la session"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Eliminâ un utent intant che la sô session e je ancjemò in cors, al pues "
+"lassâ il sisteme in stât incoerent."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Tegnî i file di %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Al è pussibil tegnî la cartele home, i spool di pueste e i varis file "
+"temporanis cuant che si elimine un account utent."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Scancele file"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Ten file"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Sigûrs di revocâ l'account di %s gjestît di rimot?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Elimine"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Account disabilitât"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Di impostâ al prossim acès"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Nissun"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Acès eseguît"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%H:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Comunicazion cun servizi account falide"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Sigurâsi che AccountService al sedi instalât e abilitât."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Par aplicâ cambiaments,\n"
+"fâs prime clic su le icone *"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Cree un account utent"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Par creâ un account utent,\n"
+"fas prime clic su le icone *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Elimine l'account utent selezionât"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Par eliminâ l'account utent selezionât,\n"
+"fâs prime clic su le icone *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Account personâl"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "La gnove password e scugne jessi divierse de precedent."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Prove cambie cualchi letare e numar."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Prove cambie la password un tic di plui."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Une password cence il tô non utent e sarès plui robuste."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Cîr di evitâ di doprâ il tô non te password."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Cîr di evitâ cualchi peraule includude te password."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Cîr di evitâ peraulis comunis."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Cîr di evitâ di tornâ a ordenâ  peraulis esistentis."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Cîr di doprâ plui numars."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Cîr di doprâ plui letaris maiusculis."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Cîr di doprâ plui letaris minusculis."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Cîr di doprâ plui caratars speciâi, come i ponts."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Cîr di doprâ une misture di letaris, numars e ponts."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Cîr di evitâ di ripeti il stes caratar."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Cîr di evitâ di ripeti il stes gjenar di caratar: tu scugnis miscliçâ "
+"letaris, numars e ponts."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Cîr di evitâ secuencis come 1234 o abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Cîr di doprâ une misture di letaris, numars e ponts."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Misture letaris maiusculis e minusculis e cîr di doprâ un numar o doi."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Password buine! Zontâ plui letaris, numars e ponts le fasarà diventâ plui "
+"robuste."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Autenticazion falide"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "La gnove password e je masse curte"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "La gnove password e je masse semplice"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "La password vecje e chê gnove a son masse similis"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "La gnove password e je za stade doprade di recent."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "La gnove password e scugne vê caratars numerics o speciâi"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "La password vecje e chê gnove a son compagnis"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "La tô password e je stade cambiade di cuant che tu ti sês autenticât!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "La gnove password no à vonde caratars diferents"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Erôr no cognossût"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Al varès di corispuindi ae direzion web dal to furnidôr di acès."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Zonte dal account falide"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Lis password no corispuindin."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Regjistrazion account falide"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Nissun mût supuartât par autenticâsi cun chest domini"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Falît a unîsi al domini"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Non di acès no valit.\n"
+"Prove une altre volte."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Password no valide.\n"
+"Prove une altre volte."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Acès al domini falît"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Impussibil cjatâ il domini. Forsit al è stât scrit mâl."
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Anule"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Zonte"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Normâl"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Aministradôr"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"L'acès al dispositîf nol è permetût. Contatâ l'aministradôr di sisteme."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Il dispositîf al è za in ûs."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Al è vignût fûr un erôr interni."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Disativât"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Abilitât"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Eliminâ lis improntis digjitâi regjistradis?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Elimine improntis"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Eliminâ lis improntis digjitâi regjistradis cussì di disabilitâ l'acès vie "
+"impronte?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Fat!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Impussibil acedi al dispositîf '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Impussibil tacâ la cature de impronte sul dispositîf '%s'"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "No rivi a acedi a nissun letôr di improntis digjitâi"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Contatâ l'aministradôr di sisteme par vê jutori."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Par abilitâ l'acès vie impronte digjitâl al covente salvâ une proprie "
+"impronte digjitâl doprant il dispositîf '%s'."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Sielç dêt"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Regjistre impronte"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Somari"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Cheste setemane"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Setemane passade"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Fin session"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Inizi session"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Ativitât dal account"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Sielç une altre password."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Scrîf di gnûf la tô password atuâl."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Impussibil cambiâ la password"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Selezione"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Esplore altris imagjins"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Vierç"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Disabilite imagjin"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Scate une foto..."
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Esplore altris imagjins..."
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Doprade di %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Impussibil unîsi in automatic a chest gjenar di domini"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Nissun domini o ream cjatâts"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Impussibil acedi come %s al domini %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Password no valide, prove di gnûf"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Impussibil tacâsi al domini %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Mi displâs, chel non utent nol è disponibil. Prove cuntun altri."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Il non utent al è masse lunc."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Il non utent nol pues tacâ cuntun '-'."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Il non utent al à di jessi formât di letaris maiusculis e minusculis (de A "
+"ae Z), numars e dai caratars chi daurman: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Al vegnarà doprât par dâ un non ae tô cartele cjase (home) e nol podarâ "
+"jessi cambiât."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Vuê"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Îr"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Verifiche gnove password"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Cîr di zontâ plui letaris, numars e simbui."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Robustece: Debule"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Robustece: Basse"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Robustece: Medie"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Robustece: Buine"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Robustece: Alte"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Lis password no corispuindin."
+
+#~ msgid "_Background"
+#~ msgstr "_Sfont"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Cambie dilunc il dì"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Bloche schermi"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Mosaic"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Ingrandìs"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Centre"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Scjale"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Iemple"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Slargje"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Rivestiments"
+
+#~ msgid "Colors"
+#~ msgstr "Colôrs"
+
+#~ msgid "Select Background"
+#~ msgstr "Selezione sfont"
+
+#~ msgid "Pictures"
+#~ msgstr "Imagjins"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Nissune imagjin cjatade"
+
+#~ msgid "Home"
+#~ msgstr "Cjase"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Al è pussibil zontâ imagjins ae tô cartele %s e a vegnaran mostradis a chi"
+
+#~ msgid "_Select"
+#~ msgstr "_Selezione"
+
+#~ msgid "multiple sizes"
+#~ msgstr "Dimensions multiplis"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Nissun sfont pe scrivanie"
+
+#~ msgid "Current background"
+#~ msgstr "Sfont atuâl"
+
+#~ msgid "Back­ground"
+#~ msgstr "Sfont"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Cambie la tô imagjin di sfont cuntun rivestiment o une foto"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Rivestiment;Sfont;Scrivanie;Desktop;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Stude Modalitât Avion"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Nissun Bluetooth cjatât"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Tache une clâf par doprâ il Bluetooth."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth studât"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Pie par coneti dispositîfs e ricevi trasferiments file."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Modalitât Avion piade"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr ""
+#~ "Il Bluetooth nol è abilitât cuant che la modalitât avion e je piade."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Modalitât avion hardware piade"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Stude il cric de modalitât Avion par abilitâ il Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Blue­tooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Pie e stude il Bluetooth e conet i tiei dispositîfs"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "condividi;condivision;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Place il tô dispositîf di calibrazion parsore dal cuadrât e sclice 'Start'"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Sposte il tô dispositîf di calibrazion su le posizion di calibradure e "
+#~ "sclice 'Continue'"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Sposte il tô dispositîf di calibrazion inte posizion di superficie e "
+#~ "sclice 'Continue'"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Siere il tapon (visôr) dal portatil"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Al è vignût fûr un erôr interni impussibil di recuperâ."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "I struments necessaris pe calibradure no son instalâts."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Impussibil gjenerâ il profîl."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Impussibil vê il pont blanc prefissât."
+
+#~ msgid "Complete!"
+#~ msgstr "Completâde"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Calibrazion falide!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Al è pussibil gjavâ il dispositîf di calibrazion."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "No stâ disturbâ il dispositîf di calibrazion intant che al lavore"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Visôr dal portatil"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Webcam integrade"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Monitor %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Scanner %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Fotocjamare %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Stampant %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Webcam %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Abilite gjestion dal colôr par %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Mostre i profîi di colôr par %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "No calibrât"
+
+#~ msgid "Default: "
+#~ msgstr "Predefinît: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Spazi colôr: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Profîl di test: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Selezionâ file profîl ICC"
+
+#~ msgid "_Import"
+#~ msgstr "_Impuarte"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Profîi ICC supuartâts"
+
+#~ msgid "All files"
+#~ msgstr "Ducj i file"
+
+#~ msgid "Screen"
+#~ msgstr "Schermi"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Falît tal cjariâ il file: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Il profîl al è stât cjariât su:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Cjape note di cheste URL."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Torne invie il computer e eseguìs il boot dal abituâl sisteme operatîf."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Scrîf l'URL tal browser par scjariâ e instalâ il profîl."
+
+#~ msgid "Save Profile"
+#~ msgstr "Salve Profîl"
+
+#~ msgid "_Save"
+#~ msgstr "_Salve"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Cree un profîl di colôr pal dispositîf selezionât"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Nol è stât rilevât nissun strument di misure. Controle che al seti piât e "
+#~ "tacât te juste maniere."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Il strument di misure nol supuarte il profiling de stampant."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Il gjenar di dispositîf nol è al moment supuartât."
+
+#~ msgid "Standard Space"
+#~ msgstr "Spazi  standard"
+
+#~ msgid "Test Profile"
+#~ msgstr "Prove profîl"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatic"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Cualitât basse"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Cualitât medie"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Cualitât alte"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "RGB predefinît"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "CMYK predefinît"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Gray predefinît"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Dâts di calibrazion di fabriche furnîts dal vendidôr"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr ""
+#~ "Cun chest profîl nol è pussibil la corezion dal visôr a plen schermi"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Chest profîl al podarès no jessi plui precîs"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Calibrazion visôr"
+
+#~ msgid "_Start"
+#~ msgstr "_Tache"
+
+#~ msgid "_Resume"
+#~ msgstr "_Ripie"
+
+#~ msgid "_Done"
+#~ msgstr "_Fat"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Calibrazion schermi"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "La calibradure e produsarà un profîl che tu puedis doprâ par gjestî i "
+#~ "colôrs dal visôr. Plui tu stâs a calibrâ miôr a sarà la cualitât dal "
+#~ "profîl colôr."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Nol sarà pussibil doprâ il computer fintremai che le calibrazion e je in "
+#~ "vore."
+
+#~ msgid "Quality"
+#~ msgstr "Cualitât"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Timp stimât"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Cualitât calibradure"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Selezione il dispositîf sensôr che tu âs voie di doprâ par calibrâ."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Dispositîf par calibrâ"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Selezione il gjenar di visôr tacât."
+
+#~ msgid "Display Type"
+#~ msgstr "Gjenar di visôr"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Selezione un pont blanc prefissât pal visôr. La plui part dai visôrs a "
+#~ "varessin di jessi calibrâts tal illuminant D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Pont blanc dal profîl"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Impueste la luminositât dal visôr come chê che tu dopris normalmentri. La "
+#~ "gjestion dal colôr e sarà plui precise a chel nivel di luminositât."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "In alternative al è pussibil doprâ il nivel di luminositât doprât cuntun "
+#~ "di chei altris profîi par chest dispositîf."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Luminositât visôr"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Al è pussibil doprâ un profîl colôr su diviers computer, o ancje creâ "
+#~ "profîi par diviersis condizions di iluminazion."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Non dal profîl:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Non dal profîl"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Creazion dal profîl riesside!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Copie profîl"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Al covente un supuart scrivibil"
+
+#~ msgid "Upload profile"
+#~ msgstr "Cjarie profîl\t"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Si scugne vê une conession internet"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "A podaressin jessi utii chestis istruzions su ce mût doprâ il profîl su "
+#~ "<a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> e <a href="
+#~ "\"windows\">Microsoft Windows</a>."
+
+#~ msgid "Add profile"
+#~ msgstr "Zonte profîl"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Impuarte file..."
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Rilevât un probleme. Il profîl al podarès no lavorà ben. <a href="
+#~ "\"\">Mostre detais.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Ogni dispositîf al scugne vê un profîl di colôr inzornât par podê gjestî "
+#~ "il colôr."
+
+#~ msgid "Learn more"
+#~ msgstr "Plui informazions"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Plui informazions su le gjestion dai colôrs"
+
+#~ msgid "_Set for all users"
+#~ msgstr "_Impueste par ducj i utents"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Impueste chest profîl par ducj i utents su chest computer"
+
+#~ msgid "_Enable"
+#~ msgstr "_Abilite"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Zonte profîl"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Calibre..."
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Calibre il dispositîf"
+
+#~ msgid "_Remove profile"
+#~ msgstr "_Gjave profîl"
+
+#~ msgid "_View details"
+#~ msgstr "_Mostre detais"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr ""
+#~ "Impussibil rilevâ un dispositîf che al supuarti la gjestion dal colôr"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Proietôr"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasme"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (iluminazion CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (iluminazion a LED RGB)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (iluminazion a LED blanc)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "LCD Wide gamut (iluminazion CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "LCD Wide gamut (iluminazion a LED RGB)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Alte"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minûts"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Medie"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minûts"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Basse"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minûts"
+
+#~ msgid "Native to display"
+#~ msgstr "Natîf al visôr"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (stampe e publicazion)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Fotografie e grafiche)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Co­lôr"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Calibre il colôr dai tiei dispositîfs, come visôrs, fotocjamaris o "
+#~ "stampantis"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Colôr;ICC;Profîll;Calibrazion;Stampant;Visôr;Schermi;"
+
+#~ msgid "Other…"
+#~ msgstr "Altri..."
+
+#~ msgid "More…"
+#~ msgstr "Altri..."
+
+#~ msgid "No languages found"
+#~ msgstr "Nissune lenghe cjatade"
+
+#~ msgid "Language"
+#~ msgstr "Lenghe"
+
+#~ msgid "Day"
+#~ msgstr "Dì"
+
+#~ msgid "Month"
+#~ msgstr "Mês"
+
+#~ msgid "Year"
+#~ msgstr "Àn"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %I:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %H:%M"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%I:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%H:%M"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Zenâr"
+
+#~ msgid "February"
+#~ msgstr "Fevrâr"
+
+#~ msgid "March"
+#~ msgstr "Març"
+
+#~ msgid "April"
+#~ msgstr "Avrîl"
+
+#~ msgid "May"
+#~ msgstr "Mai"
+
+#~ msgid "June"
+#~ msgstr "Jugn"
+
+#~ msgid "July"
+#~ msgstr "Lui"
+
+#~ msgid "August"
+#~ msgstr "Avost"
+
+#~ msgid "September"
+#~ msgstr "Setembar"
+
+#~ msgid "October"
+#~ msgstr "Otubar"
+
+#~ msgid "November"
+#~ msgstr "Novembar"
+
+#~ msgid "December"
+#~ msgstr "Dicembar"
+
+#~ msgid "Date & Time"
+#~ msgstr "Da­te­ ­e­ ­o­re"
+
+#~ msgid "Hour"
+#~ msgstr "Ore"
+
+#~ msgid "∶"
+#~ msgstr "."
+
+#~ msgid "Minute"
+#~ msgstr "Minût"
+
+#~ msgid "Time Zone"
+#~ msgstr "Fûs orari"
+
+#~ msgid "Search for a city"
+#~ msgstr "Cîr une citât"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_Date e ore automatiche"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Si scugne vê un acès a internet"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "_Fûs orari automatic"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Da_te e ore"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Fûs _orari"
+
+#~ msgid "Time _Format"
+#~ msgstr "F_ormât ore"
+
+#~ msgid "24-hour"
+#~ msgstr "24 oris"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Cambie date e ore, cussì ancje il fûs orari"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Orloi;Ore;Timp;Date;Fûs;Posizion;Orari;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Cambie lis impostazions di sisteme pe ore e pe date"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr ""
+#~ "Par cambiâ lis impostazions de ore e de date al è necessari autenticâsi."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Tapon sierât"
+
+#~ msgid "Mirrored"
+#~ msgstr "Duplicâts"
+
+#~ msgid "Primary"
+#~ msgstr "Primari"
+
+#~ msgid "Off"
+#~ msgstr "Distudât"
+
+#~ msgid "Secondary"
+#~ msgstr "Secondari"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Disponi visôrs cumbinâts"
+
+#~ msgid "_Apply"
+#~ msgstr "_Apliche"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Strissine i visôrs par tornâ a disponi"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Ribalte in sens antiorari di 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Ribalte di 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Ribalte in sens orari di 90°"
+
+#~ msgid "Size"
+#~ msgstr "Dimension"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Rapuart"
+
+#~ msgid "Resolution"
+#~ msgstr "Risoluzion"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Juste par TV"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Frecuence di inzornament"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Mostre su chest visôr la sbare superiôr e la panoramiche ativitâts"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Visôr secondari"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "Unìs chest visôr cuntun altri par creâ un spazi di lavôr in plui"
+
+#~ msgid "Presentation"
+#~ msgstr "Presentazion"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Mostre dome presentazions e elements multimediâi"
+
+#~ msgid "Mirror"
+#~ msgstr "Duplicât"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Mostre su ducj i doi i visôrs ce che tu âs visibil"
+
+#~ msgid "Turn Off"
+#~ msgstr "Stude"
+
+#~ msgid "Don't use this display"
+#~ msgstr "No sta doprâ chest visôr"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Impussibil vê informazions sul schermi"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Dispon visôrs cumbinâts"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Vi­sôrs"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Sielç ce mût doprâ i visôrs e i proietôrs tacâts"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Panel;Proietôr;xrandr;Schermi;Risoluzion;Refresh;Visôr;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "No cognossût"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (ID di costruzion: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (ID di costruzion: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Domande ce fâ"
+
+#~ msgid "Do nothing"
+#~ msgstr "No sta fâ nie"
+
+#~ msgid "Open folder"
+#~ msgstr "Vierç cartele"
+
+#~ msgid "Other Media"
+#~ msgstr "Vierç supuart"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Sielç une aplicazion par i CD audio"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Sielç une aplicazion par i DVD video"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Sielç une aplicazion di eseguî cuant che al ven tacât un letôr musicâl"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr ""
+#~ "Sielç une aplicazion di eseguî cuant che e ven tacade une fotocjamare"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Sielç une aplicazion par i CD di software"
+
+#~ msgid "audio DVD"
+#~ msgstr "DVD audio"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Disc Blu-ray vueit"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Disc CD vueit"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Disc DVD vueit"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Disc HD DVD vueit"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Disc video Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "Letôr e-book"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "Disc video HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Software Windows"
+
+#~ msgid "Section"
+#~ msgstr "Sezion"
+
+#~ msgid "Overview"
+#~ msgstr "Panoramiche"
+
+#~ msgid "Default Applications"
+#~ msgstr "Aplicazions predefinidis"
+
+#~ msgid "Removable Media"
+#~ msgstr "Dispositîfs rimovibil"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Version %s"
+
+#~ msgid "De­tails"
+#~ msgstr "De­tais"
+
+#~ msgid "View information about your system"
+#~ msgstr "Mostre informazions su chest sisteme"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "dispositîf;sisteme;informazions;memorie;procesôr;version;predefinît;"
+#~ "aplicazion;preferide;cd;dvd;usb;audio;video;disc;removibil;multimedie;"
+#~ "esecuzion;autorun;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Selezione ce mût gjestî altris supuarts"
+
+#~ msgid "_Action:"
+#~ msgstr "_Azion:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Gjenar:"
+
+#~ msgid "Device name"
+#~ msgstr "Non dispositîf"
+
+#~ msgid "Memory"
+#~ msgstr "Memorie"
+
+#~ msgid "Processor"
+#~ msgstr "Procesôr"
+
+#~ msgid "Base system"
+#~ msgstr "Sisteme base"
+
+#~ msgid "Disk"
+#~ msgstr "Disc"
+
+#~ msgid "Calculating…"
+#~ msgstr "Calcul..."
+
+#~ msgid "Graphics"
+#~ msgstr "Grafiche"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualizazion"
+
+#~ msgid "Check for updates"
+#~ msgstr "Controle inzornaments"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "E_mail"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Calendari"
+
+#~ msgid "M_usic"
+#~ msgstr "M_usiche"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fotografiis"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Selezione la modalitât di gjestion dai supuarts"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD _audio"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD video"
+
+#~ msgid "_Music player"
+#~ msgstr "Letôr _musicâl"
+
+#~ msgid "_Software"
+#~ msgstr "_Software"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Altris supuarts..."
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_No sta domandâ o inviâ programs cuant che si inserissin supuarts"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Audio e Media"
+
+#~ msgid "Volume mute"
+#~ msgstr "Cidine il volum"
+
+#~ msgid "Volume down"
+#~ msgstr "Sbasse il volum"
+
+#~ msgid "Volume up"
+#~ msgstr "Alce il volum"
+
+#~ msgid "Launch media player"
+#~ msgstr "Invie il letôr multimediâl"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Riprodûs (o riprodûs/pause)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pause"
+
+#~ msgid "Stop playback"
+#~ msgstr "Ferme la riproduzion"
+
+#~ msgid "Previous track"
+#~ msgstr "Piste/linie precedent"
+
+#~ msgid "Next track"
+#~ msgstr "Piste/linie sucessive"
+
+#~ msgid "Eject"
+#~ msgstr "Pare fûr"
+
+#~ msgid "Typing"
+#~ msgstr "Digjitazion"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Passe ae sorzint di input sucessive"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Passe ae sorzint di input precedent"
+
+#~ msgid "Launchers"
+#~ msgstr "Inviadôrs"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Fâs partî il visualizadôr di manuâi"
+
+#~ msgid "Settings"
+#~ msgstr "Impostazions"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Fâs partî il calcoladôr"
+
+#~ msgid "Launch email client"
+#~ msgstr "Fâs partî il client email"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Fâs partî il browser web"
+
+#~ msgid "Home folder"
+#~ msgstr "Cartele home"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Cîr"
+
+#~ msgid "Screenshots"
+#~ msgstr "Schermadis"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Salve une schermade in $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Salve une schermade di un barcon in $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Salve une schermade di une aree in $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Copie une schermade intes notis"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Copie une schermade di un barcon intes notis"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Copie une schermade di une aree intes notis"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Regjistre un piçul screencast"
+
+#~ msgid "System"
+#~ msgstr "Sisteme"
+
+#~ msgid "Log out"
+#~ msgstr "Termine session"
+
+#~ msgid "Lock screen"
+#~ msgstr "Bloche il schermi"
+
+#~ msgid "Universal Access"
+#~ msgstr "Acès universâl"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Ative o disative l'ingrandiment"
+
+#~ msgid "Zoom in"
+#~ msgstr "Aumente ingrandiment"
+
+#~ msgid "Zoom out"
+#~ msgstr "Diminuìs ingrandiment"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Ative o disative letôr di schermi"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Ative o disative la tastiere a schermi"
+
+#~ msgid "Increase text size"
+#~ msgstr "Aumente la dimension dal test"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Diminuìs la dimension dal test"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Ative o disative il contrast elevât"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Scurtis personalizadis"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Tascj caratar alternatîfs"
+
+#~ msgid "Compose Key"
+#~ msgstr "Tast Compose"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Dome i \"modificadôrs\" a passin ae sorzint sucessive"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Torne met la scurte al so valôr predefinît"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s al è za doprât par <b>%s</b>. Se tu lu rimplacis, %s al vegnarà "
+#~ "disabilitât"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Stabilìs la scurte personalizade"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Met la scurte"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Inserìs la gnove scurte di cambiâ <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Zonte scurte personalizade"
+
+#~ msgid "Key­board"
+#~ msgstr "Tas­tie­re"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Viôt e cambie la scurte di tastiere e impueste lis preferencis di "
+#~ "digjitazion"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Scurte;Ripet;Lampâ;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Nissune scurte di tastiere cjatade"
+
+#~ msgid "Try a different search"
+#~ msgstr "Prove une ricercje diferente"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Frache Esc par anulâ."
+
+#~ msgid "Name"
+#~ msgstr "Non"
+
+#~ msgid "Command"
+#~ msgstr "Comant"
+
+#~ msgid "Shortcut"
+#~ msgstr "Scurte"
+
+#~ msgid "Edit"
+#~ msgstr "Modifiche"
+
+#~ msgid "None"
+#~ msgstr "Nissun"
+
+#~ msgid "Remove"
+#~ msgstr "Gjave"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Inserìs la gnove scurte"
+
+#~ msgid "Add"
+#~ msgstr "Zonte"
+
+#~ msgid "Replace"
+#~ msgstr "Rimplace"
+
+#~ msgid "Set"
+#~ msgstr "Met"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "Test _impostazions"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Mou­se­ ­&­ ­Touch­pad"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Cambie la sensibilitât di mouse e touchpad e selezione se par man diestre "
+#~ "o çampe"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Trackpad;Cursôr;Cursôr;Clic;Tap;Dopli;Boton;Trackball;Cursôr;Scroll;"
+#~ "Scoriment;"
+
+#~ msgid "General"
+#~ msgstr "Gjenerâl"
+
+#~ msgid "Primary Button"
+#~ msgstr "Boton primari"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Impueste l'ordin dai botons fisics sui mouse e touchpad."
+
+#~ msgid "Left"
+#~ msgstr "Çampe"
+
+#~ msgid "Right"
+#~ msgstr "Drete"
+
+#~ msgid "Mouse"
+#~ msgstr "Mouse"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Velocitât Mouse"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Timp util pal dopli-clic"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Scoriment naturâl"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Il scori al sposte il contignût, no la viodude."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Velocitât Touchpad"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Tap par fâ clic"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Scoriment a doi dêts"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Scor tal ôr"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Prove a fâ clic, dopli-clic o scori"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Cinc clic, e je ore di GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Dopli-clic, boton primari"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Clic singul, boton primari"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Dopli-clic, boton centrâl"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Clic singul, boton centrâl"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Dopli-clic, boton secondari"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Clic singul, boton secondari"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Modalitât a_vion"
+
+#~ msgid "Network proxy"
+#~ msgstr "Proxy di rêt"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "VPN %s"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Orpo, al semee che alc al è lât stuart. Contate il furnidôr di software."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "NetworkManager al à di jessi in esecuzion."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Sigurece 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "pagjine 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Identitât anoni_me"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "_Autenticazion interne"
+
+#~ msgid "page 2"
+#~ msgstr "pagjine 2"
+
+#~ msgid "Security"
+#~ msgstr "Sigurece"
+
+#~ msgid "automatic"
+#~ msgstr "automatic"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profîl %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Nissune"
+
+#~ msgid "Never"
+#~ msgstr "Mai"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i zornade indaûr"
+#~ msgstr[1] "%i diis indaûr"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Nissune"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Debul"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Bon"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Ecelent"
+
+#~ msgid "Details"
+#~ msgstr "Detais"
+
+#~ msgid "Identity"
+#~ msgstr "Identitât"
+
+#~ msgid "Address"
+#~ msgstr "Direzion"
+
+#~ msgid "Netmask"
+#~ msgstr "Netmask"
+
+#~ msgid "Gateway"
+#~ msgstr "Gateway"
+
+#~ msgid "Delete Address"
+#~ msgstr "Elimine direzion"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Elimine server DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrichis"
+
+#~ msgid "Delete Route"
+#~ msgstr "Elimine instradament"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatic (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Manuâl"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Nome Link-Local"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefìs"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatic"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatic, nome DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Nissune"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "Clâf WEP 40/128-bit(Hex o ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "Passphrase WEP 128-bit"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "WEP dinamic (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Fuarce segnâl"
+
+#~ msgid "Link speed"
+#~ msgstr "Velocitât colegament"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Direzion IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Direzion IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Direzion Hardware"
+
+#~ msgid "Default Route"
+#~ msgstr "Instradament predefinît"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Ultime volte doprât"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Twisted Pair (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Non"
+
+#~ msgid "_MAC Address"
+#~ msgstr "Direzion _MAC"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "Direzion _Clonade"
+
+#~ msgid "bytes"
+#~ msgstr "byte"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Rindi disponibil a chei altris _utents"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Conet in _automatic"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Zone firewall"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Predefinide"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "La zone e definìs il nivel di fiducie de conession"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Direzions"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "DNS Automatic"
+
+#~ msgid "Routes"
+#~ msgstr "Instradaments"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Instradaments automatics"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Dopre cheste conession n_ome par lis risorsis inte sô rêt"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Impussibil vierzi l'editor di conession"
+
+#~ msgid "New Profile"
+#~ msgstr "Gnûf profîl"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Impuarte di file..."
+
+#~ msgid "Add VPN"
+#~ msgstr "Zonte VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Reset"
+
+#~ msgid "_Forget"
+#~ msgstr "_Dismentee"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Scancele lis impostazions par cheste rêt, comprindudis lis password, ma "
+#~ "tegnile come une rêt preferide"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Gjave ducj i detais di cheste rêt e no stâ cirî di coneti in automatic"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Sigur_ece"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Impussibil impuartâ la conession VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Impussibil lei il file '%s' o nol ten informazions di conession VPN "
+#~ "ricognossudis\n"
+#~ "\n"
+#~ "Erôr: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Selezione un file di impuartâ"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Un file clamât \"%s\" al esist za."
+
+#~ msgid "_Replace"
+#~ msgstr "_Rimplace"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Âstu voie di rimplaçâ %s cun le conession VPN che tu stâs salvant?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Impussibil espuartâ la conession VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Impussibil espuartâ la conession VPN '%s' su %s.\n"
+#~ "\n"
+#~ "Erôr: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Espuarte la conession VPN"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Erôr: impussibil cjamâ l'editor di conessions VPN)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "La mê rêt di cjase"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Rindi disponibil a chei _altris utents"
+
+#~ msgid "Net­work"
+#~ msgstr "Rêt"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Controle ce mût conetiti a Internet"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Rêt;Network;Wireless;Cence fîl;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;"
+#~ "Modem;Bluetooth;vpn;DNS;"
+
+#~ msgid "never"
+#~ msgstr "mai"
+
+#~ msgid "today"
+#~ msgstr "vuê"
+
+#~ msgid "yesterday"
+#~ msgstr "îr"
+
+#~ msgid "IP Address"
+#~ msgstr "Direzions IP"
+
+#~ msgid "Last used"
+#~ msgstr "Ultime volte doprât"
+
+#~ msgid "Wired"
+#~ msgstr "Fîl"
+
+#~ msgid "Options…"
+#~ msgstr "Opzions..."
+
+#~ msgid "Add new connection"
+#~ msgstr "Zonte gnove conession"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Se tu âs une altre conession a internet oltri a chê wireless, tu puedis "
+#~ "impuestâ un hotspot wireless par condividi la conession cun altris."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Piant il hotspot wireless tu ti gjavarâs de conession cun <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Al è impussibil conetisi a internet vie wireless fintremai che il "
+#~ "hotspost al è atîf."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Fermâ il hotspot e disconeti ducj i utents?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Ferme Hotspot"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "La politiche di sisteme e proibìs l'ûs come Hotspot"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Il dispositîf wireless nol supuarte la modalitât Hotspot"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "A vegnaran pierdûts i detais par lis rêts selezionadis, includût lis "
+#~ "password e ogni configurazion personalizade."
+
+#~ msgid "History"
+#~ msgstr "Cronologjie"
+
+#~ msgid "_Close"
+#~ msgstr "_Siere"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Dismentee"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "La individuazion automatiche dal proxy web e ven doprade cuant che nol "
+#~ "ven dât l'URL di configurazion."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Nol è conseât par rêts publichis no fidadis."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Zonte profîl..."
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Provider"
+
+#~ msgid "Network"
+#~ msgstr "Rêt"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Nissun"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Manuâl"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatic"
+
+#~ msgid "_Method"
+#~ msgstr "_Maniere"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "URL di _configurazion"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Proxy _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Proxy H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Proxy _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Host _Socks"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "Host di _ignorâ"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Puarte proxy HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Puarte proxy HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Puarte proxy FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Puarte proxy Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "Stude il dispositîf"
+
+#~ msgid "Add Device"
+#~ msgstr "Zonte dispositîf"
+
+#~ msgid "Remove Device"
+#~ msgstr "Gjave dispositîf"
+
+#~ msgid "VPN Type"
+#~ msgstr "Gjenar di VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Non grup"
+
+#~ msgid "Group Password"
+#~ msgstr "Password grup"
+
+#~ msgid "Username"
+#~ msgstr "Non utent"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Stude la conession VPN"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "_Conet in automatic"
+
+#~ msgid "details"
+#~ msgstr "detais"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Mostre p_assword"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Rint disponibil a chei altris utents"
+
+#~ msgid "identity"
+#~ msgstr "identitât"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Dome direzions automatichis (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Dome link-local"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Condividût con altris computers"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Ignore instradaments vûts in automatic"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "Direzions MAC _clonadis"
+
+#~ msgid "hardware"
+#~ msgstr "hardware"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Puarte lis impostazions par cheste conession ai valôr predefinîts, ma "
+#~ "tegnile come conession predefinide."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Gjave ducj i detais relatîfs a cheste rêt e no cîr di conetisi in "
+#~ "automatic."
+
+#~ msgid "reset"
+#~ msgstr "reset"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Hotspot Wi-Fi"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Pie"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Stude Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Dopre come Hotspot..."
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Conet a rêt platade..."
+
+#~ msgid "_History"
+#~ msgstr "_Cronologjie"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Stude par tacâsi suntune rêt Wi-Fi"
+
+#~ msgid "Network Name"
+#~ msgstr "Non rêt"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Dispositîfs tacâts"
+
+#~ msgid "Security type"
+#~ msgstr "Gjenar di sigurece"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastructure"
+
+#~ msgid "Status unknown"
+#~ msgstr "Stât no cognossût"
+
+#~ msgid "Unmanaged"
+#~ msgstr "No gjestît"
+
+#~ msgid "Unavailable"
+#~ msgstr "No disponibil"
+
+#~ msgid "Connecting"
+#~ msgstr "Daûr a coneti"
+
+#~ msgid "Authentication required"
+#~ msgstr "Autenticazion necessarie"
+
+#~ msgid "Connected"
+#~ msgstr "Tacât"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Daûr a distacâsi"
+
+#~ msgid "Connection failed"
+#~ msgstr "Conession falide"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Stât no cognossût (al mancje)"
+
+#~ msgid "Not connected"
+#~ msgstr "No tacât"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Configurazion falide"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Configurazion IP falide"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Configurazion IP scjadude"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "A jerin domandâts segrets, ma no son stâts dâts"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "Supplicant 802.1x distacât"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "configurazion supplicant 802.1x falide"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Supplicant 802.1x falît"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "Le autenticazion dal supplicant 802.1x e à doprât masse timp"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Inviament dal servizi PPP falît"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "servizi PPP no conetût"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP falît"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Inviament dal client DHCP falît"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Erôr client DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Client DHCP falît"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Inviament dal servizi di conession condividude falît"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Servizi conession condividude falît"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Inviament dal servizi AutoIP falît"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Erôr servizi AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Servizi AutoIP falît"
+
+#~ msgid "Line busy"
+#~ msgstr "Linie ocupade"
+
+#~ msgid "No dial tone"
+#~ msgstr "Nissun segnâl di clamade"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Impussibil stabilî cualchi puartant"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "La richieste di selezion e je scjadude"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Tentatîf di selezion falît"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Iniziazion modem falide"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Selezion dal APN specificât falide"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Nissune ricercje di rêts ative"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Regjistrazion rêt neade"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Regjistrazion rêt scjadude"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Regjistrazion falide su le rêt domandade"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Verifiche PIN falide"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Al podarès mancjâ il firmware dal dispositîf"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Conession sparide"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "A je stade considerade la conession esistente"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem no cjatât"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Conession Bluetooth falide"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "Schede SIM no inseride"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Si domande codiç PIN de SIM"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Si domande codiç PUK de SIM"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Schede SIM falade/sbaliade"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Dipendence de conession falide"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Firmware mancjant"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Fil stacât"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "Erôr no definît inte sigurece 802.1x (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "Nissun file selezionât"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "Erôr no specificât tal validâ il file dal metodi eap"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr "Clâfs privadis DER, PEM, o PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Certificâts DER o PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "al mancje il file PAC di EAP-FAST"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Sielç un file PAC"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "File PAC (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonim"
+
+#~ msgid "Authenticated"
+#~ msgstr "Autenticât"
+
+#~ msgid "Both"
+#~ msgstr "Ducj i doi"
+
+#~ msgid "PAC _file"
+#~ msgstr "_File PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "Autenticazion _interne"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Permet pro_visioning PAC automatic"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "al mancje il non utent EAP-LEAP"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "e mancje la password EAP-LEAP"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Mostre pass_word"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "CA dal certificât EAP-PEAP no valit: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "CA dal certificât EAP-PEAP no valit: nissun certificât specificât"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Sielç un certificât di une Autoritât di Certificazion"
+
+#~ msgid "Version 0"
+#~ msgstr "Version 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Version 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "Certificât C_A"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "No covente la CA dal ce_rtificât"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Version PEAP"
+
+#~ msgid "missing EAP username"
+#~ msgstr "al mancje il non utent EAP"
+
+#~ msgid "missing EAP password"
+#~ msgstr "e mancje la password EAP"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "e mancje la identitât EAP-TLS"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "CA dal certificât EAP-TLS no valit: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "CA dal certificât EAP-TLS no valit: nissun certificât specificât"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "password EAP-TLS no valide: e mancje"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "clâf privade EAP-TLS no valide: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "certificât utent EAP-TLS no valit: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Lis clâfs privadis no cifradis no son siguris"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "La clâf privade selezionade no semee jessi protete di une password. Chest "
+#~ "al pues comprometi lis propris credenziâi di sigurece. Selezione une clâf "
+#~ "privade protete di password.\n"
+#~ "\n"
+#~ "(Al è pussibil protezi lis propris clâfs privadis cun openssl.)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Sielzi il certificât personâl"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Sielzi la clâf privade personâl"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentitât"
+
+#~ msgid "_User certificate"
+#~ msgstr "Certificât _utent"
+
+#~ msgid "Private _key"
+#~ msgstr "_Clâf privade"
+
+#~ msgid "_Private key password"
+#~ msgstr "Password clâf _privade"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "CA dal certificât EAP-TTLS no valit: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "CA dal certificât EAP-TTLS no valit: nissun certificât specificât"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Erôr no cognossût tal validâ la sigurece 802.1x"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "TLS cun tunnel"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "PEAP (Protected EAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Au_tenticazion"
+
+#~ msgid "missing leap-username"
+#~ msgstr "al mancje il non utent leap"
+
+#~ msgid "missing leap-password"
+#~ msgstr "e mancje la password leap"
+
+#~ msgid "missing wep-key"
+#~ msgstr "e mancje la clâf wep"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "clâf wep no valide: une clâf di lungjece %zu e scugne contignî nome "
+#~ "cifris esadecimâi"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "clâf wep no valide: une clâf di lungjece %zu e scugne contignî nome "
+#~ "caratars ascii"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "clâf wep no valide: lungjece %zu de clâf sbaliade. Une clâf e scugne "
+#~ "jessi o di lungjece 5/13 (ascii) o 10/26 (esadecimâl)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "clâf wep no valide: la passphrase no pues jessi vueide"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "clâf wep no valide: la passphrase no pues jessi plui curte di 64 caratars"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Predefinît)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Sisteme Viert"
+
+#~ msgid "Shared Key"
+#~ msgstr "Clâf condividude"
+
+#~ msgid "_Key"
+#~ msgstr "_Clâf"
+
+#~ msgid "Sho_w key"
+#~ msgstr "M_ostre la clâf"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "Indi_ç WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "wpa-psk no valit: lungjece %zu de clâf no valide. E scugne jessi [8,63] "
+#~ "bytes o 64 cifris esadecimâi"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "wpa-psk no valit: impussibil interpretâ la clâf di 64 byte come esadecimâl"
+
+#~ msgid "_Type"
+#~ msgstr "_Gjenar"
+
+#~ msgid "On"
+#~ msgstr "Piât"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Notifichis"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "_Avîs sonôrs"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "_Banner di notifiche"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Mostre _contignût messaç intai banner"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Notifichis sul schermi b_locât"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Mostrâ i c_ontignûts dal messaç sul schermi blocât"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "No­ti­fi­chis"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Controle cualis notifichis mostrâ e ce che a mostrin"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Notifichis;Banner;Messaç;Tray;Popup;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "_Banner di notifiche"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Notifichis sul schermi b_locât"
+
+#~ msgid "Applications"
+#~ msgstr "Aplicazions"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Altri"
+
+#~ msgid "Add Account"
+#~ msgstr "Zonte account"
+
+#~ msgid "Mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Calendar"
+#~ msgstr "Calendari"
+
+#~ msgid "Contacts"
+#~ msgstr "Contats"
+
+#~ msgid "Chat"
+#~ msgstr "Chat"
+
+#~ msgid "Resources"
+#~ msgstr "Risorsis"
+
+#~ msgid "Error creating account"
+#~ msgstr "Erôr tal creâ l'account"
+
+#~ msgid "Error removing account"
+#~ msgstr "Erôr tal gjava l'account"
+
+# Metût plurâl par risolvi masculin/feminin
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Sigûrs di volê gjavâ chest account?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "In cheste maniere nol vegnarà gjavât l'account tal server."
+
+#~ msgid "_Remove"
+#~ msgstr "_Gjave"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Ac­count­ ­on­line"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Conet ai tiei account online e decît par ce doprâju"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Conversazions;Calendari;"
+#~ "Mail;E-mail;Email;Pueste;Contat;Contats;ownCloud;Kerberos;IMAP;SMTP;"
+#~ "Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Nissun account online configurât"
+
+#~ msgid "Add an online account"
+#~ msgstr "Zonte un account online"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Zontâ un account al permet a lis tôs aplicazions di podê acedi ai "
+#~ "relatîfs documents, e-mail, contats, calendaris, chat e altri."
+
+#~ msgid "Unknown time"
+#~ msgstr "Timp no cognossût"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minût"
+#~ msgstr[1] "%i minûts"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ore"
+#~ msgstr[1] "%i oris"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s e %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ore"
+#~ msgstr[1] "oris"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minût"
+#~ msgstr[1] "minûts"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s ae cjarie plene"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Atenzion: ancjemò %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "ancjemò %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Cjarie"
+
+#~ msgid "Empty"
+#~ msgstr "Scjarie"
+
+#~ msgid "Charging"
+#~ msgstr "In cjarie"
+
+#~ msgid "Discharging"
+#~ msgstr "In scjarie"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Principâl"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Adizionâl"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Mouse cence fîl"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Tastiere cence fîl"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "UPS"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "PDA"
+
+#~ msgid "Cellphone"
+#~ msgstr "Celulâr"
+
+#~ msgid "Media player"
+#~ msgstr "Letôr multimediâl"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Computer"
+
+#~ msgid "Battery"
+#~ msgstr "Batarie"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "In cjarie"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Atenzion"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Basse"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Buine"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Cjarie"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Scjarie"
+
+#~ msgid "Batteries"
+#~ msgstr "Batariis"
+
+#~ msgid "When _idle"
+#~ msgstr "Cuant _inatîf"
+
+#~ msgid "Power Saving"
+#~ msgstr "Risparmi energjetic"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "Luminositât dal _schermi"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Luminositât automatiche"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Luminositât de _tastiere"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Scurî il schermi cuant che al è inatîf"
+
+#~ msgid "_Blank screen"
+#~ msgstr "Schermi _neri"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Distude Wi-Fi par sparagnâ curint."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "Bande largje _mobil"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Distude bande largje mobil (3G, 4G, LTE, ecc.) par sparagnâ energjie."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Cuant che si dopre la batarie"
+
+#~ msgid "When plugged in"
+#~ msgstr "Cuant che al è alimentât"
+
+#~ msgid "Suspend"
+#~ msgstr "Sospindi"
+
+#~ msgid "Hibernate"
+#~ msgstr "Ibernâ"
+
+#~ msgid "Nothing"
+#~ msgstr "Nissune azion"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Sospension e boton par studâ"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "Sospension _Automatiche"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Sospension automatiche"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Cuant che si frache il boton Studâ"
+
+#~ msgid "Devices"
+#~ msgstr "Dispositîfs"
+
+#~ msgid "Po­wer"
+#~ msgstr "A­li­men­ta­zion"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr ""
+#~ "Mostre il stât de batarie e cambie lis impostazions di sparagn energjetic"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Alimentazion;Sleep;Sospension;Ibernazion;Batarie;Luminositât;Visôr;Dim;"
+#~ "DPMS;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minûts"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ore"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minûts"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minûts"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minûts"
+
+#~ msgid "2 hours"
+#~ msgstr "2 oris"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minût"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minûts"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minûts"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minûts"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minûts"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minûts"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minûts"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minûts"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Sospension automatiche"
+
+#~ msgid "_Plugged In"
+#~ msgstr "Cuant _Alimentât"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Cuant a _batarie"
+
+#~ msgid "Delay"
+#~ msgstr "Ritart"
+
+#~ msgid "Authenticate"
+#~ msgstr "Autentiche"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Autenticazion necessarie"
+
+#~ msgid "Low on toner"
+#~ msgstr "Toner in esauriment"
+
+#~ msgid "Out of toner"
+#~ msgstr "Toner esaurît"
+
+#~ msgid "Low on developer"
+#~ msgstr "Developer in esauriment"
+
+#~ msgid "Out of developer"
+#~ msgstr "Developer esaurît"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Furnidure toner in esauriment"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Furnidure toner esauride"
+
+#~ msgid "Open cover"
+#~ msgstr "Tapon viert"
+
+#~ msgid "Open door"
+#~ msgstr "Sportel viert"
+
+#~ msgid "Low on paper"
+#~ msgstr "Cjarte in esauriment"
+
+#~ msgid "Out of paper"
+#~ msgstr "Cjarte esauride"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Fûr rêt"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Ferme"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Bidon scovacis cuasi plen"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Bidon scovacis plen"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Il fotocondutôr otic al sta par terminâ il sô timp di operativitât"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Il fotocondutôr otic nol funzione plui"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "In configurazion"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Pronte"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "No acete lavôrs"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "In elaborazion"
+
+#~ msgid "Toner Level"
+#~ msgstr "Nivel toner"
+
+#~ msgid "Ink Level"
+#~ msgstr "Nivel ingjustri"
+
+#~ msgid "Supply Level"
+#~ msgstr "Nivel consumabii"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Instalazion"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u atîf"
+#~ msgstr[1] "%u atîfs"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Zonte de gnove stampant falide."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Selezione file PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "File PostScript Printer Description (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Nissun driver adat cjatât"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Ricercje driver preferîts..."
+
+#~ msgid "Select from database…"
+#~ msgstr "Selezione dal database..."
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Furnìs file PPD..."
+
+#~ msgid "Test page"
+#~ msgstr "Pagjine di test"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Impussibil cjariâ la interface: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Stam­pan­tis"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr "Zonte stampantis, mostre i lavôrs di stampe e decît ce mût stampâ"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Stampant;Code;Stampe;Cjarte;Ingjustri;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Nete dut"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Nissun lavôr di stampe atîf"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Zonte une gnove stampant"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "A_utentiche"
+
+#~ msgid "No printers detected."
+#~ msgstr "Nissune stampant rilevade."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Scrîf une direzion di rêt o cîr une stampant"
+
+#~ msgid "Loading options…"
+#~ msgstr "Cjariament opzions..."
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Selezione driver stampant"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Cjariament driver database..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "Stampant JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "Stampant LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "Une bande"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Ôr lunc (standard)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Ôr curt (ribaltât)"
+
+#~ msgid "Portrait"
+#~ msgstr "Verticâl"
+
+#~ msgid "Landscape"
+#~ msgstr "Orizontâl"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Orizontâl invertît"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Verticâl invertît"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "In atese"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "In pause"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "In elaborazion"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Fermât"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Anulât"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Interot"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Finît"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Lavôrs Atîfs"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Puarte seriâl"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Puarte paralele"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Colocazion: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Direzion: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Il server al domande autenticazion"
+
+#~ msgid "Two Sided"
+#~ msgstr "Denant e daûr"
+
+#~ msgid "Paper Type"
+#~ msgstr "Gjenar di cjarte"
+
+#~ msgid "Paper Source"
+#~ msgstr "Sorzint cjarte"
+
+#~ msgid "Output Tray"
+#~ msgstr "Casset di jessude"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Pre-filtradure GhostScript"
+
+#~ msgid "Pages per side"
+#~ msgstr "Pagjinis par sfuei"
+
+#~ msgid "Two-sided"
+#~ msgstr "Denant e daûr"
+
+#~ msgid "Orientation"
+#~ msgstr "Orientament"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Gjenerâl"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Impostazions pagjine"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Opzions instalabii"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Lavôr"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Cualitât Imagjin"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Colôr"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Finidure"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Avanzadis"
+
+#~ msgid "Auto Select"
+#~ msgstr "Automatic"
+
+#~ msgid "Printer Default"
+#~ msgstr "Impostazions predefinidis stampant"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Inclût nome i caratars GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Convertî a PS nivel 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Convertî a PS nivel 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Nissune pre-filtradure"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Produtôr"
+
+#~ msgid "Driver"
+#~ msgstr "Driver"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Scrîf non utent e password par viodi lis stampantis disponibii su %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Zonte stampant"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Gjave stampant"
+
+#~ msgid "Supply"
+#~ msgstr "Nivei"
+
+#~ msgid "Location"
+#~ msgstr "Colocazion"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Stampant predefinide"
+
+#~ msgid "Jobs"
+#~ msgstr "Lavôrs"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Mostre _lavôrs"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "label"
+#~ msgstr "etichete"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Impostazion gnûf driver..."
+
+#~ msgid "page 3"
+#~ msgstr "pagjine 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Stampe _pagjine di prove"
+
+#~ msgid "_Options"
+#~ msgstr "_Opzions"
+
+#~ msgid "No printers"
+#~ msgstr "Nissune stampant"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Zonte une stampant"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Il servizi di sisteme pe stampe\n"
+#~ "al semee no jessi disponibil."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Bloc schermi"
+
+#~ msgid "In use"
+#~ msgstr "In ûs"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgid "Location Services"
+#~ msgstr "Servizis su la posizion"
+
+#~ msgid "Usage & History"
+#~ msgstr "Ûs e Cronologjie"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Disvuedâ le scovacere?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr ""
+#~ "Ducj i elements te scovacere a vegnaran eliminâts in maniere definitive."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Dis_vuede scovacere"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Eliminâ ducj i file temporanis?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Ducj i file temporanis a vegnaran eliminâts in maniere definitive."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Nete file temporanis"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Nete scovacere e file temporanis"
+
+#~ msgid "Software Usage"
+#~ msgstr "Utilizazion software"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Segnalazion problemis"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Inviant lis segnalazions nus permet di miorâ %s. Lis segnalazions a "
+#~ "vegnin inviadis in anonim e cualsisei dât personâl al ven prime eliminât."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Informative su le privacy"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Pri­va­cy"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Protêç lis propris informazions personâi e controle ce che i altris a "
+#~ "puedin viodi"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "schermi;visôr;bloc;diagnostiche;crash;privât;recent;temporani;tmp;indiç;"
+#~ "non;rêt;identitât;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Sospension dal schermi"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 seconts"
+
+#~ msgid "1 day"
+#~ msgstr "1 zornade"
+
+#~ msgid "2 days"
+#~ msgstr "2 diis"
+
+#~ msgid "3 days"
+#~ msgstr "3 diis"
+
+#~ msgid "4 days"
+#~ msgstr "4 diis"
+
+#~ msgid "5 days"
+#~ msgstr "5 diis"
+
+#~ msgid "6 days"
+#~ msgstr "6 diis"
+
+#~ msgid "7 days"
+#~ msgstr "7 diis"
+
+#~ msgid "14 days"
+#~ msgstr "14 diis"
+
+#~ msgid "30 days"
+#~ msgstr "30 diis"
+
+#~ msgid "Forever"
+#~ msgstr "Par simpri"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Tegnî une cronologjie al fâs diventâ plui facil cjatâ ce che al covente. "
+#~ "Chescj elements no saran mai condividûts in rêt."
+
+#~ msgid "_Recently Used"
+#~ msgstr "Doprâts di recent"
+
+#~ msgid "Retain _History"
+#~ msgstr "_Ten la cronologjie"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "_Nete cronologjie recent"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr ""
+#~ "Il bloc schermi al protêç la proprie privacy intant che si è assents."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "B_loc schermi automatic"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "_Bloche schermi se neri par"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Mostrâ lis _notifichis"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Nete in automatic la scovacere e i file temporanis par tegnî il computer "
+#~ "libar di informazions sensibilis no necessaris."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Disv_uede in automatic la scovacere"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Nete in automatic i file _temporanis"
+
+#~ msgid "Purge _After"
+#~ msgstr "Nete _dopo"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Inviâ informazions sul software doprât nus jude a furnî conseis plui "
+#~ "precîs e a miorâ il stes software.\n"
+#~ "\n"
+#~ "Dutis lis informazions a vegnin cjapadis in maniere anonime: chei dâts no "
+#~ "vegnaran mai condividûts cun tiercis parts."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Inviâ _statistichis sul ûs dal software"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "I servizis su la localizazion a permetin a lis aplicazions di cognossi la "
+#~ "tô posizion. Doprant il Wi-Fi e la bande largje mobil e aumente la "
+#~ "precision."
+
+#~ msgid "_Location Services"
+#~ msgstr "Servizis di _localizazion"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "Segnalazion _automatiche problemis"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Imperiâi"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrics"
+
+#~ msgid "No regions found"
+#~ msgstr "Nissune regjon cjatade"
+
+#~ msgid "No input sources found"
+#~ msgstr "Nissune sorzint input cjatade"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Altri"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Al è necessari tornâ a inviâ la session par aplicâ lis modifichis"
+
+#~ msgid "Restart Now"
+#~ msgstr "Torne invie cumò"
+
+#~ msgid "No input source selected"
+#~ msgstr "Nissune sorzint input selezionade"
+
+#~ msgid "Login _Screen"
+#~ msgstr "_Schermade di acès"
+
+#~ msgid "Formats"
+#~ msgstr "Formâts"
+
+#~ msgid "Preview"
+#~ msgstr "Anteprime"
+
+#~ msgid "Dates"
+#~ msgstr "Datis"
+
+#~ msgid "Times"
+#~ msgstr "Oraris"
+
+#~ msgid "Numbers"
+#~ msgstr "Numars"
+
+#~ msgid "Measurement"
+#~ msgstr "Unitât di misure"
+
+#~ msgid "Paper"
+#~ msgstr "Cjarte"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Re­gjon­ ­e­ ­len­ghe"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Selezione la lenghe doprade, i formâts, lis disposizions de tastiere e "
+#~ "lis sorzints input"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Lenghe;Disposizion;Layout;Tastiere;Input;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Zonte une sorzint input"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Nol è pussibil doprâ i metodis di input te schermade di acès"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Opzions des sorzints di input"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Dopre la _stesse sorzint par ducj i barcons"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Permet sorzints _diviersis par ogni barcon"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Scurte di tastiere"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Passe ae sorzint precedent"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Maiusc+Spazi"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Passe ae sorzint sucessive"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Spazi"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Tu puedis cambiâ chestis scurtis tes impostazions de tastiere"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Passe ae sorzint sucessive (alternative)"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Alt diestri + çampe"
+
+#~ msgid "_Language"
+#~ msgstr "_Lenghe"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Inglês (Ream Unît)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formâts"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Ream Unît"
+
+#~ msgid "Input Sources"
+#~ msgstr "Sorzints Input"
+
+#~ msgid "Add input source"
+#~ msgstr "Zonte sorzint input"
+
+#~ msgid "Remove input source"
+#~ msgstr "Gjave sorzint input"
+
+#~ msgid "Move input source up"
+#~ msgstr "Sposte sorzint input in sù"
+
+#~ msgid "Move input source down"
+#~ msgstr "Sposte sorzint input in jù"
+
+#~ msgid "Configure input source"
+#~ msgstr "Configure sorzint di input"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Mostre disposizion tastiere de sorzint di input"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Lis impostazions di acès a vegnin dopradis di ducj i utents cuant che a "
+#~ "fasin il login"
+
+#~ msgid "Select Location"
+#~ msgstr "Selezione posizion"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "No applications found"
+#~ msgstr "Nissune aplicazion cjatade"
+
+#~ msgid "Search"
+#~ msgstr "Cîr"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Controle cualis aplicazions a mostrin risultâts di ricercje te "
+#~ "panoramiche ativitâts"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Cîr;Cjate;Indiç;Plate;Privacy;Risultâts;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Posizions di ricercje"
+
+#~ msgid "Places"
+#~ msgstr "Risorsis"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Segnelibris"
+
+#~ msgid "Other"
+#~ msgstr "Altri"
+
+#~ msgid "Move Up"
+#~ msgstr "Sposte in sù"
+
+#~ msgid "Move Down"
+#~ msgstr "Sposte in jù"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencis"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Nissune rêt selezionade pe condivision"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "On"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Off"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Abilitât"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Atîf"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Sielzi une cartele"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "La condivision di file personâi e permet di condividi cun altris la "
+#~ "proprie cartele Publics su le rêt atuâl doprant: <a href=\\\"dav://%s\\"
+#~ "\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Cuant che il login rimot al è abilitât, i utents rimots a puedin tacâsi "
+#~ "doprant il comant Secure Shell:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "La condivision dal visôr e permet ai utents rimots di viodi o controlâ il "
+#~ "to schermi tacantsi a <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Copie"
+
+#~ msgid "Sharing"
+#~ msgstr "Condivision"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Con­di­vi­sion"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Controle ce che si vûl condividi cun altris"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "condivision;share;ssh;host;non;rimot;desktop;scritori;medie;multimedie;"
+#~ "audio;video;imagjins;fotos;film;servidôr;server;renderer;"
+
+#~ msgid "Networks"
+#~ msgstr "Rêts"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Abilitâ o no l'acès rimot"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "Al è necessari autenticâsi par abilitâ o no abilitâ l'acès rimot"
+
+#~ msgid "_Computer Name"
+#~ msgstr "Non _computer"
+
+#~ msgid "_File Sharing"
+#~ msgstr "Condivision _file"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Condivision _schermi"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Condivision _multimediâl"
+
+#~ msgid "_Remote Login"
+#~ msgstr "Acès _rimot"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Cualchi servizi nol è abilitât parcè che nol è acès di rêt."
+
+#~ msgid "File Sharing"
+#~ msgstr "Condivision file"
+
+#~ msgid "_Require Password"
+#~ msgstr "_Covente password"
+
+#~ msgid "Remote Login"
+#~ msgstr "Acès rimot"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Condivision schermi"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "_Permet conessions par controlâ il visôr"
+
+#~ msgid "_Password:"
+#~ msgstr "_Password:"
+
+#~ msgid "_Show Password"
+#~ msgstr "_Mostre password"
+
+#~ msgid "Access Options"
+#~ msgstr "Opzions di acès"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Lis _gnovis conessions a scugnin domandâ l'acès"
+
+#~ msgid "_Require a password"
+#~ msgstr "_E covente une password"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Condivision multimediâl"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Condivît musiche, fotos e video su la rêt."
+
+#~ msgid "Folders"
+#~ msgstr "Cartelis"
+
+#~ msgid "Sound"
+#~ msgstr "Audio"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Comede i nivei dal audio, i ingrès, lis jessudis e i suns di alerte"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Schede;Microfon;Volum;Sfantâ;Belançament;Bluetooth;Auricolâr;Scufis;Sun;"
+
+#~ msgid "Bark"
+#~ msgstr "Vuacade"
+
+#~ msgid "Drip"
+#~ msgstr "Gote"
+
+#~ msgid "Glass"
+#~ msgstr "Veri"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Çampe"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Diestre"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Daûr"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Denant"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minim"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Massim"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Belançament:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Sfantâ:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "Sub_woofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "No amplificât"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profîl:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u jessude"
+#~ msgstr[1] "%u jessudis"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ingrès"
+#~ msgstr[1] "%u jentradis"
+
+#~ msgid "System Sounds"
+#~ msgstr "Suns di sisteme"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Test cassis"
+
+#~ msgid "Peak detect"
+#~ msgstr "Rilevament pic"
+
+#~ msgid "Device"
+#~ msgstr "Dispositîf"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Test cassis par %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "V_olum di jessude:"
+
+#~ msgid "Output"
+#~ msgstr "Jessude"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Sielzi un dispositîf par la jessude audio:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Impostazions pal dispositîf selezionât:"
+
+#~ msgid "Input"
+#~ msgstr "Ingrès"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Volum di _ingrès:"
+
+#~ msgid "Input level:"
+#~ msgstr "Nivel di ingrès:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Sielzi un dispositîf par l'ingrès audio:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Efiets sonôrs"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Volum di _avîs:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Nissune aplicazion e sta riprodusint o regjistrant audio."
+
+#~ msgid "Built-in"
+#~ msgstr "Integrât"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Preferencis sun"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Test event sonôr"
+
+#~ msgid "Default"
+#~ msgstr "Predefinît"
+
+#~ msgid "From theme"
+#~ msgstr "Dal teme"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Sielzi un sun di avîs:"
+
+#~ msgid "Stop"
+#~ msgstr "Ferme"
+
+#~ msgid "Test"
+#~ msgstr "Test"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizât"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "A­cès­ ­u­ni­ver­sâl"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Al fâs diventâ plui facil viodi, sintî, digjitâ e fâ clic"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Tastiere;Mouse;ally;Acessibilitât;Contrast;Ingrandiment;Zoom;Screen;"
+#~ "Reader;Letôr;schermi; test;font;gjenar di caratar;dimension;AccessX;Tascj;"
+#~ "Singui;Sticky;Lents;Slow;Sbalçâts;Bounce;Slow;Mouse;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Mostre simpri il menù Acès Universâl"
+
+#~ msgid "Seeing"
+#~ msgstr "Viste"
+
+#~ msgid "_High Contrast"
+#~ msgstr "Contrast _elevât"
+
+#~ msgid "_Large Text"
+#~ msgstr "Test _larc"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Ingrandiment"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Letôr schermi"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Sun tascj"
+
+#~ msgid "Hearing"
+#~ msgstr "Uldide"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "Avîs _visibii"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Tastiere a visôr"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Rip_et tascj"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_Lampâ dal cursôr"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Assistent di digjitazion (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Pontament e clic"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Mouse di tastiere"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Assistent _clic"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Ritart _Dopli-clic"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Ritart Dopli-clic"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Letôr schermi"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr "Il letôr di schermi al lei il test mostrât al spostament dal focus."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Letôr _schermi"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Sun tascj"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr ""
+#~ "Fâs un sun cuant che BlocNum o BlocMaiusc a vegnin ativâts o disativâts."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Avîs visibii"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Prove lampe"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Dopre une indicazion visive in presince di un avîs audio."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Ilumine il titul dal _barcon"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Iluminâ dut il _visôr"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Ripet tascj"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr ""
+#~ "Il fracâ dal tast al ripet il caratar fintremai che al reste fracât."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Ritart di ripetizion tascj"
+
+#~ msgid "Speed"
+#~ msgstr "Velocitât"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Velocitât di ripetizion tascj"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Lampâ dal cursôr"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Il cursôr al lampe intai cjamps di test."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Velocitât dal lampâ dal cursôr"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Assistent di digjitazion"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "Tascj _singui"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr ""
+#~ "Trate une secuence di tascj di modifiche come une cumbinazion di tascj"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_No stâ abilitâ se doi tascj a vegnin scliçâts tal stes moment"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Avîs sonôr cuant che al ven scliçât un tast di _modifiche"
+
+#~ msgid "S_low Keys"
+#~ msgstr "Tascj _lents"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Imposte un ritart jenfri la pression di un tast e la sô acetazion"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Ritart di a_cetazion:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Ritart digjitazion tascj lents"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Lunc"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Avîs sonôr cuant che un tast al ven _scliçât"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Avîs sonôr cuant che un tast al ven _acetât"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Avîs sonôr cuant che un tast al ven _refudât"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Tascj s_balçâts"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ignore rapidis pressions dopleadis di tascj"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Ritart digjitazion tascj sbalçâts"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Lunc"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Abilite di _tastiere"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Tache e stache lis funzions di acessibilitât doprant la tastiere"
+
+#~ msgid "Click Assist"
+#~ msgstr "Assistent clic"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "Clic secondari _simulât"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Eseguìs un clic secondari tignint scliçât il pulsant primari"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Ritart clic secondari"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Lunc"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Clic automatic tal fermâsi"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Eseguìs in automatic un clic cuant che si ferme il cursôr"
+
+#~ msgid "D_elay:"
+#~ msgstr "R_itart:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Lunc"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Principi di m_oviment:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Piçul"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Grant"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ di schermi"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ schermi"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ di schermi"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Lungje"
+
+#~ msgid "Full Screen"
+#~ msgstr "Plen visôr"
+
+#~ msgid "Top Half"
+#~ msgstr "Metât superiôr"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Metât inferiôr"
+
+#~ msgid "Left Half"
+#~ msgstr "Metât çampe"
+
+#~ msgid "Right Half"
+#~ msgstr "Metât diestre"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Opzions di ingrandiment"
+
+#~ msgid "_Magnification:"
+#~ msgstr "In_grandiment:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Cor daûr dal cursôr dal mouse"
+
+#~ msgid "_Screen part:"
+#~ msgstr "Part di _schermi:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "L'ingranditôr si _slargje fûr dal visôr"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "_Tegnî il cursôr dal ingranditôr tal mieç"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Il cursôr dal ingranditôr al _sburte il contignût"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Il cursôr dal ingranditôr si sposte cui _contignûts"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Posizion dal ingranditôr:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Ingranditôr"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Spessôr:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Fin"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Spes"
+
+#~ msgid "_Length:"
+#~ msgstr "_Lungjece:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "Co_lôr:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "S_mire:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "_Al sta parsore dal cursôr dal mouse"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Smiris"
+
+#~ msgid "_White on black:"
+#~ msgstr "Blanc su _neri:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "L_uminositât:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Contrast:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "Co_lôr"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Nissun"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Plen"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Basse"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Alte"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Ridot"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Elevât"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Efiets colôr:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Efiets colôr"
+
+#~ msgid "You are Offline"
+#~ msgstr "Tu sês fûr rêt"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Regjistre"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Ministre i account online"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Si scugne autenticâsi par cambiâ i dâts utent"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Associe botons"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Associe i botons a lis funzions"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Par modificâ une scurte, sielzi la azion \"Invie pression tascj\", scliçâ "
+#~ "il boton scurte de tastiere e tignî scliçâts i gnûfs tascj, o se no "
+#~ "scliçâ Backspace par scancelâle."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Fâs \"tap\" sui segnepuest cuant che a vegnin fûr sul visôr par calibrâ "
+#~ "la taulete grafiche."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Rilevât clic sbaliât, o torni a inviâ..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Sù"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Jù"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Nissun"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Invie pression tascj"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Cambie visôr"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Mostre jutori a schermi"
+
+#~ msgid "Output:"
+#~ msgstr "Jessude:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Tegnî il rapuart (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Mape su singul visôr"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d di %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Mapadure display"
+
+#~ msgid "Button"
+#~ msgstr "Boton"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Tau­lu­te­ ­Wa­com"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Imposte la mapadure dai botons e juste la sensibilitât de pene pe "
+#~ "taulutis grafichis."
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Wacom;Stylus;Eraser;Mouse;Taulete;Pene;Gome;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Taulete (assolude)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Touchpad (relative)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Preferencis de taulete"
+
+#~ msgid "_Help"
+#~ msgstr "_Jutori"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Nissune taulete rilevade"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Tacâ o piâ la taulete Wacom"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Impostazions Bluetooth"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Taulute Wacom"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Mape su visôr..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Associe botons..."
+
+#~ msgid "Calibrate…"
+#~ msgstr "Calibre..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Juste la risoluzion dal visôr"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Juste lis impostazions dal mouse"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Modalitât segnadure"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Orientament par çampins"
+
+#~ msgid "Left Ring"
+#~ msgstr "Ring çamp"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Modalitât Ring çamp #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Ring diestri"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Modalitât Ring diestri #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Touchstrip çamp"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Modalitât Touchstrip çamp #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Touchstrip diestri"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Modalitât Touchstrip diestri #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Interutôr modalitât Touchring çamp"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Interutôr modalitât Touchring diestri"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Interutôr modalitât Touchstrip çamp"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Interutôr modalitât Touchstrip diestri"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Interutôr modalitât #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Boton çamp #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Boton diestri #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Boton superiôr #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Boton inferiôr #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Gnove scurte..."
+
+#~ msgid "No Action"
+#~ msgstr "Nissune azion"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Clic boton çamp dal mouse"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Clic boton di mieç dal mouse"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Clic boton diestri dal mouse"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Scor in sù"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Scor in jù"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Scor a çampe"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Scor a drete"
+
+#~ msgid "Back"
+#~ msgstr "Indaûr"
+
+#~ msgid "Forward"
+#~ msgstr "Indenant"
+
+#~ msgid "Stylus"
+#~ msgstr "Pene"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Sensibilitât de gome"
+
+#~ msgid "Soft"
+#~ msgstr "Lizere"
+
+#~ msgid "Firm"
+#~ msgstr "Pesante"
+
+#~ msgid "Top Button"
+#~ msgstr "Boton superiôr"
+
+#~ msgid "Lower Button"
+#~ msgstr "Boton inferiôr"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Sensibilitât de ponte"
+
+#~ msgid "All Settings"
+#~ msgstr "Dutis lis impostazions"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Centri di control GNOME"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Utilitâts par configurâ l'ambient grafic GNOME"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Il centri di control GNOME e je la interface principâl par configurâ "
+#~ "l'ambient grafic."
+
+#~ msgid "Display version number"
+#~ msgstr "Mostre numar version"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Abilite modalitât lungje/fetose"
+
+#~ msgid "Show the overview"
+#~ msgstr "Mostre la panoramiche"
+
+#~ msgid "Search for the string"
+#~ msgstr "Cîr la stringhe"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Liste i nons dai panei disponibii e jes"
+
+#~ msgid "Panel to display"
+#~ msgstr "Panel di mostrâ"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGOMENT…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Panei disponibii:"
+
+#~ msgid "Help"
+#~ msgstr "Jutori"
+
+#~ msgid "Quit"
+#~ msgstr "Jes"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Personâl"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardware"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Sisteme"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Preferencis;Impostazions;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Gjenerâl"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Jes"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Cîr"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Panei"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Torne te panoramiche"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Anule ricercje"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~ msgid "Keyboard shortcut for <b>%s</b>. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Scurte di tastiere par <b>%s</b>. Inserìs une gnove scurte par cambiâle."
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Par modificâ une scurte fâs clic su la rie e sclice i gnûfs tascj o "
+#~ "sclice «Backspace» par scancelâle."
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Erôr tal jentrâ tal account"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Lis credenziâi a son scjadudis."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Eseguìs acès par abilitâ chest account."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Jentre"
+
+#~ msgid "_Name:"
+#~ msgstr "_Non:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Zonte scurte"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Gjave scurte"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<azion no cognossude>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Nol è pussibil doprâ \"%s\" come scurte parcè che al deventarès "
+#~ "impussibil scrivi doprant chest tast.\n"
+#~ "Prove dopre in cumbinazion un tast come Ctrl, Alt o Maiusc."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "La scurte \"%s\" e je za doprade par\n"
+#~ "\"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Se tu tornis a assegnâ le scurte a \"%s\", la scurte \"%s\" a vegnarà "
+#~ "disativade."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Torne assegne"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "La scurte \"%s\" e je associade ae scurte \"%s\". Impuestâle in maniere "
+#~ "automatiche a \"%s\"?"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" e je atualmentri associade cun \"%s\", continuant chê scurte e "
+#~ "vegnarà disativade."
+
+#~ msgid "_Assign"
+#~ msgstr "_Assegne"
+
+#~ msgid "Add User Account"
+#~ msgstr "Zonte account utent"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Gjave account utent"
+
+#~ msgid "_Account Activity"
+#~ msgstr "_Ativitât dal account"
+
+#~ msgid "Color"
+#~ msgstr "Colôr"
+
+#~ msgid "Bond"
+#~ msgstr "Bond"
+
+#~ msgid "Team"
+#~ msgstr "Team"
+
+#~ msgid "Bridge"
+#~ msgstr "Bridge"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Impussibil cjamâ i plugin VPN"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Zonte conession di rêt"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Bond slave"
+
+#~ msgid "(none)"
+#~ msgstr "(nissun)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Bridge slave"
+
+#~ msgid "Team slaves"
+#~ msgstr "Team slave"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "Il dispositîf InfiniBand nol supuarte la modalitât colegade"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr ""
+#~ "Nol è stât sielt nissun certificât di une Autoritât di Certificazion"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Il no doprâ un certificât mitût fûr di une Autoritât di Certificazion "
+#~ "(CA) al pues portâ a conessions Wi-Fi no siguris. Sielzi un certificât di "
+#~ "une Autoritât di Certificazion?"
+
+#~ msgid "Ignore"
+#~ msgstr "Ignore"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Sielç certificât CA"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "_Domande cheste password ogni volte"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "No stâ visâmi plui"
+
+#~ msgid "No"
+#~ msgstr "No"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "Power"
+#~ msgstr "Alimentazion"
+
+#~ msgid "Privacy"
+#~ msgstr "Privacy"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Altri"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Condivision file personâi"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "_Permet control rimot"
+
+#~ msgid "_Verify"
+#~ msgstr "_Verifiche"
+
+#~ msgid "Login History"
+#~ msgstr "Cronologjie acès"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Un utent cul non utent '%s' al esist za."
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth no abilitât"
+
+#~ msgid "Done"
+#~ msgstr "Eseguide"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Fû_s orari"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Ritart:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Curt"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Lent"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Lunc"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Veloç"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Velocitât:"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Test impostazions"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Lent"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Veloç"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "_Çamp"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Distri"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "_Velocitât cursôr"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lent"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Veloç"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lent"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Veloç"
+
+#~ msgid "Security key"
+#~ msgstr "Clâf di sigurece"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "I dispositîfs cence fîl a domandin plui energjie"
+
+#~ msgid "No printers available"
+#~ msgstr "Nissune stampant disponibile"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Lavôrs atîfs"
+
+#~ msgid "Close"
+#~ msgstr "Siere"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Torne finìs le stampe"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Pause le stampe"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Anule lavôr di stampe"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Stratignût"
+
+#~ msgid "Job Title"
+#~ msgstr "Titul lavôr"
+
+#~ msgid "Job State"
+#~ msgstr "Stât lavôr"
+
+#~ msgid "Time"
+#~ msgstr "Date"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Zonte gnove stampant"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Doprâts par determinâ la posizion gjeografiche"
+
+#~ msgid "Options"
+#~ msgstr "Opzions"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "La condivision Bluetooth a permet di condividi file cun altris "
+#~ "dispositîfs Bluetooth abilitâts"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Ricêf dome di dispositîfs fidâts"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Salve i file ricevûts te cartele Scjariâts"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "Zoom"
+#~ msgstr "Ingrandiment"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Colôr"

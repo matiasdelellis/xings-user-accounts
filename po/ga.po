@@ -1,0 +1,4065 @@
+# Irish translations for gnome-control-center package.
+# Copyright (C) 2002-2013 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+# Alastair McKinstry <mckinstry@debian.org>, 2003.
+# Seán de Búrca <leftmostcat@gmail.com>, 2007-2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2015-09-23 15:39-0600\n"
+"Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
+"Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4;\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Ainm úsáideora"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "Ainm _Iomlán"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Gnáthchuntas"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Riarthóir"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "Cineál Cun_tais"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Focal Faire"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "Socraigh focal faire anois"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Focal Faire"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "U_RL Uathchumraíochta:"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Fearann"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "Logáil Isteach _Fiontair"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Cuir Úsáideoir Leis"
+
+#: ../data/account-dialog.ui.h:17
+#, fuzzy
+msgid "Domain Administrator Login"
+msgstr "Riarthóir"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Ai_nm Riarthóra"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Focal Faire Riarthóra"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Ordóg chlé"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Méar mheáin chlé"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Méar an fháinne chlé"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Lúidín clé"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Ordóg dheas"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Méar mheáin dheas"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Méar an fháinne dheas"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Lúidín deas"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Cumasaigh Logáil Isteach Méarloirg"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Corrmhéar _dheas"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Corrmhéar _chlé"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "Méar _eile:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"D'éirigh le sábháil do mhéarloirg. Ba chóir duit bheith in ann logáil "
+"isteach le do bhraiteoir méarloirg."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Úsáideoirí"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+#, fuzzy
+msgid "Add or remove users and change your password"
+msgstr "Cuir leis nó bain úsáideoirí"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+"Login;Name;Fingerprint;Avatar;Logo;Face;Password;Logáil Isteach;Ainm;"
+"Méarlorg;Abhatár;Aghaidh;Focal Faire;"
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Taispeáin Focal Faire"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Cealaigh"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_Athraigh"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Focal Faire _Nua"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "Focal Faire _Nua"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "_Focal Faire Reatha"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Socraigh focal faire anois"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "Cuir Úsáideoir Leis"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Roghanna Logála Isteach"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Logáil Isteach _Uathoibríoch"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Logáil Isteach _Méarloirg"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Deilbhín Úsáideora"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Logáil Isteach Is Déanaí"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Bain Cuntas"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Cuntais Eile"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Scrios Comhaid"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Coinnigh Comhaid"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "An bhfuil tú cinnte gur mhaith leat an cuntas a bhaint?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Scrios"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Cuntas díchumasaithe"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Neamhní"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Logáilte isteach"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Chun athruithe a dhéanamh,\n"
+"cliceáil an deilbhín * ar dtús"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Cruthaigh cuntas úsáideora"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#, fuzzy
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Chun úsáideoir a chruthú,\n"
+"cliceáil an deilbhín * ar dtús"
+
+#: ../src/cc-user-panel.c:1218
+#, fuzzy
+msgid "Delete the selected user account"
+msgstr "Scrios an úsáideoir roghnaithe"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#, fuzzy
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Chun an úsáideoir roghnaithe a scriosadh,\n"
+"cliceáil an deilbhín * ar dtús"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Mo Chuntas"
+
+#: ../src/pw-utils.c:81
+#, fuzzy
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+"Ní mór carachtair uimhriúla nó speisialta a bheith san fhocal faire nua."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Focal faire á athrú do"
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Theip ar fhíordheimniú"
+
+#: ../src/run-passwd.c:493
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Tá an focal faire ró-ghairid."
+
+#: ../src/run-passwd.c:501
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Tá an focal faire ró-shimplí."
+
+#: ../src/run-passwd.c:509
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Tá an focal faire nua agus an seanfhocal faire ró-chósúil."
+
+#: ../src/run-passwd.c:514
+#, fuzzy, c-format
+msgid "The new password has already been used recently."
+msgstr "Níl an dá fhocal faire cothrom."
+
+#: ../src/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+"Ní mór carachtair uimhriúla nó speisialta a bheith san fhocal faire nua."
+
+#: ../src/run-passwd.c:525
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Is ionann an focal faire nua agus an seanfhocal faire."
+
+#: ../src/run-passwd.c:530
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Athraíodh d'fhocal faire ó d'fhíordheimhnigh tú ar dtús! Athfhíordheimhnigh, "
+"le do thoil."
+
+#: ../src/run-passwd.c:535
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+"Ní mór carachtair uimhriúla nó speisialta a bheith san fhocal faire nua."
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Earráid anaithnid"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+#, fuzzy
+msgid "Failed to add account"
+msgstr "Roghnaigh cuntas"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "Tá an focal faire ró-ghairid."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Cealaigh"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "Cuir _Leis"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Gnáthchuntas"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Riarthóir"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+#, fuzzy
+msgid "An internal error occurred."
+msgstr "Tharla earráid chórais"
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Díchumasaithe"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Cumasaithe"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Críochnaithe!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Méar á roghnú"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "An tSeachtain Seo"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "An tSeachtain Seo Caite"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr ""
+"Clóscriobh d'fhocal faire isteach sa réimse <b>Focal faire nua</b>, le do "
+"thoil."
+
+#: ../src/um-password-dialog.c:166
+#, fuzzy
+msgid "Password could not be changed"
+msgstr "Athraítear d'fhocal faire."
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Roghnaigh"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Oscail"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Díchumasaigh íomhá"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Tóg grianghraf…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "Tá an t-ainm úsáideora ró-fhada"
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Inniu"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Inné"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Deimhnigh Focal Faire Nua"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Neart: Lag"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Neart: Íseal"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Neart: Meánach"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Neart: Maith"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Neart: Ard"
+
+#, fuzzy
+#~ msgid "Passwords do not match."
+#~ msgstr "Tá an focal faire ró-ghairid."
+
+#~ msgid "Background"
+#~ msgstr "Cúlra"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Ag athrú le linn an lae"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Scáileán Glasála"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Tíligh"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Súmáil"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Láraigh"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Scálaigh"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Líon"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Réisigh"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Cúlbhrait"
+
+#~ msgid "Colors"
+#~ msgstr "Dathanna"
+
+#~ msgid "Select Background"
+#~ msgstr "Roghnaigh Cúlra"
+
+#~ msgid "Pictures"
+#~ msgstr "Pictiúir"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Níor Aimsíodh Aon Phictiúr"
+
+#~ msgid "Home"
+#~ msgstr "Baile"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Is féidir leat íomhánna a chur le d'fhillteán “%s” agus taispeánfar iad "
+#~ "anseo"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Gan Cúlra na Deisce"
+
+#~ msgid "Current background"
+#~ msgstr "Cúlra reatha"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Cúlbhrat;Scáileán;Deasc;"
+
+#, fuzzy
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Múchann sé seo gléasanna gan sreang"
+
+#, fuzzy
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Níor aimsíodh aon chuibheoir Bluetooth"
+
+#, fuzzy
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Comhroinnt Bluetooth"
+
+#, fuzzy
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Díchumasaíodh Bluetooth ag lasc chrua-earraí"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr ""
+#~ "Cumasaigh agus díchumasaigh Bluetooth agus ceangail do chuid ghléasanna"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Socraigh do ghléas calabraithe thar an gcearnóg agus brúigh 'Tosaigh'"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Bog do ghléas calabraithe go dtí an t-ionad calabraithe agus brúigh 'Ar "
+#~ "Aghaidh'"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Bog do ghléas calabraithe go dtí an t-ionad dromchla agus brúigh 'Ar "
+#~ "Aghaidh'"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Dún an clúdach"
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Tá uirlisí de dhíth le haghaidh calabraithe nach bhfuil suiteáilte."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Níorbh fhéidir an phróifíl a ghiniúint."
+
+#~ msgid "Complete!"
+#~ msgstr "Críochnaithe!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Theip ar chalabrú!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Is féidir leat an gléas calabraithe a bhaint."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Ná cuir isteach ar an ngléas calabraithe nuair atá sé ar siúl"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Scáileán Ríomhaire Glúine"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Ceamara Gréasáin Ionsuite"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Monatóir %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Scanóir %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Ceamara %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Printéir %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Ceamara Gréasáin %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Cumasaigh bainisteoireacht dathanna do %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Taispeáin próifílí datha do %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Gan chalabrú"
+
+#~ msgid "Default: "
+#~ msgstr "Réamhshocrú: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Dathspás:"
+
+#~ msgid "Test profile: "
+#~ msgstr "Próifíl tástála:"
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Roghnaigh Comhad Próifíle ICC"
+
+#~ msgid "_Import"
+#~ msgstr "_Iompórtáil"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Próifílí ICC le tacaíocht"
+
+#~ msgid "All files"
+#~ msgstr "Gach comhad"
+
+#~ msgid "Screen"
+#~ msgstr "Scáileán"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Theip ar uasluchtú comhaid: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Uasluchtaíodh an phróifíl go:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Breac síos an URL seo."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Atosaigh an ríomhaire seo agus bútáil do ghnáthchóras oibriúcháin."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Clóscríobh an URL isteach i do bhrabhsálaí chun an phróifíl a íosluchtú "
+#~ "agus a shuiteáil."
+
+#~ msgid "Save Profile"
+#~ msgstr "Sábháil Próifíl"
+
+#~ msgid "_Save"
+#~ msgstr "_Sábháil"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Cruthaigh próifíl dathanna don ghléas roghnaithe"
+
+#~ msgid "Standard Space"
+#~ msgstr "Spás Caighdeánach"
+
+#~ msgid "Test Profile"
+#~ msgstr "Próifíl Tástála"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Uathoibríoch"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Cáilíocht Íseal"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Cáilíocht Mheánach"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Ardcháilíocht"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "RGB Réamhshocraithe"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "CMYK Réamhshocraithe"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Liath Réamhshocraithe"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Is féidir nach bhfuil an phróifíl seo cruinn a thuilleadh"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Calabrú Taispeána"
+
+#~ msgid "Start"
+#~ msgstr "Tosaigh"
+
+#~ msgid "Resume"
+#~ msgstr "Lean"
+
+#~ msgid "Done"
+#~ msgstr "Críochnaithe"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Calabrú Scáileáin"
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Ní féidir leat do ríomhaire a úsáid agus an calabrú á dhéanamh."
+
+#~ msgid "Quality"
+#~ msgstr "Cáilíocht"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Neas-am"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Cáilíocht Chalabraithe"
+
+#~ msgid "Calibration Device"
+#~ msgstr "Gléas Calabraithe"
+
+#~ msgid "Display Type"
+#~ msgstr "Cineál Taispeána"
+
+#~ msgid "Display Brightness"
+#~ msgstr "Taispeáin Gile"
+
+#~ msgid "Profile Name:"
+#~ msgstr "Ainm Próifíle:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Ainm Próifíle"
+
+#~ msgid "Copy profile"
+#~ msgstr "Cóipeáil próifíl"
+
+#~ msgid "Upload profile"
+#~ msgstr "Uasluchtaigh próifíl"
+
+#~ msgid "Import File…"
+#~ msgstr "Iompórtáil Comhad…"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Teastaíonn próifíl datha atá cothrom le dáta chun a chuid dathanna a "
+#~ "bhainistiú."
+
+#~ msgid "Learn more"
+#~ msgstr "Faigh tuilleadh eolais"
+
+#~ msgid "Set for all users"
+#~ msgstr "Socraigh do gach úsáideoir"
+
+#~ msgid "Enable"
+#~ msgstr "Cumasaigh"
+
+#~ msgid "Add profile"
+#~ msgstr "Cuir próifíl leis"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Calabraigh…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Calabraigh an gléas"
+
+#~ msgid "Remove profile"
+#~ msgstr "Bain próifíl"
+
+#~ msgid "View details"
+#~ msgstr "Amharc ar mhionsonraí"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Teilgeoir"
+
+#~ msgid "Plasma"
+#~ msgstr "Plasma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (cúlsolas CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (cúlsolas LED RGB)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (cúlsolas LED bán)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "LCD raoin leathain (cúlsolas CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "LCD raoin leathain (cúlsolas LED RGB)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Ard"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 nóimeád"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Meánach"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 nóimeád"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Íseal"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 nóimeád"
+
+#, fuzzy
+#~ msgid "Native to display"
+#~ msgstr "Painéal le taispeáint"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (Priontáil agus foilsiú)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Grianghrafadóireacht agus grafaic)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Color"
+#~ msgstr "Dath"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Calabraigh dath do ghléasanna, mar shampla taispeáintí, ceamaraí nó "
+#~ "printéirí"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Dath;ICC;Próifíl;Calabraigh;Printéir;Taispeáint;"
+
+#~ msgid "Other…"
+#~ msgstr "Eile…"
+
+#~ msgid "More…"
+#~ msgstr "Tuilleadh…"
+
+#~ msgid "No languages found"
+#~ msgstr "Teanga gan aimsiú"
+
+#~ msgid "Language"
+#~ msgstr "Teanga"
+
+#~ msgid "_Done"
+#~ msgstr "_Críochnaithe"
+
+#~ msgid "Day"
+#~ msgstr "Lá"
+
+#~ msgid "Month"
+#~ msgstr "Mí"
+
+#~ msgid "Year"
+#~ msgstr "Bliain"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%B %e %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%B %e %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "AUL%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Eanáir"
+
+#~ msgid "February"
+#~ msgstr "Feabhra"
+
+#~ msgid "March"
+#~ msgstr "Márta"
+
+#~ msgid "April"
+#~ msgstr "Aibreán"
+
+#~ msgid "May"
+#~ msgstr "Bealtaine"
+
+#~ msgid "June"
+#~ msgstr "Meitheamh"
+
+#~ msgid "July"
+#~ msgstr "Iúil"
+
+#~ msgid "August"
+#~ msgstr "Lúnasa"
+
+#~ msgid "September"
+#~ msgstr "Meán Fómhair"
+
+#~ msgid "October"
+#~ msgstr "Deireadh Fómhair"
+
+#~ msgid "November"
+#~ msgstr "Samhain"
+
+#~ msgid "December"
+#~ msgstr "Nollaig"
+
+#~ msgid "Date & Time"
+#~ msgstr "Dáta & Am"
+
+#~ msgid "Hour"
+#~ msgstr "Uair"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Nóimeád"
+
+#~ msgid "Time Zone"
+#~ msgstr "Crios Ama"
+
+#~ msgid "Search for a city"
+#~ msgstr "Cuardaigh cathair"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_Dáta & Am Uathoibríoch"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Rochtain idirlín de dhíth"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "C_rios Ama Uathoibríoch"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Dáta & _Am"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Crios A_ma"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Formáid Ama"
+
+#~ msgid "24-hour"
+#~ msgstr "24 uair"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Athraigh an dáta agus an t-am, crios ama ina measc"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Clog;Crios Ama;Suíomh;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Athraigh socruithe ama agus dáta an chórais"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Is gá fíordeimhniú chun socruithe ama nó dáta a athrú."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Clúdach Dúnta"
+
+#~ msgid "Mirrored"
+#~ msgstr "Scáthánaithe"
+
+#~ msgid "Primary"
+#~ msgstr "Príomhúil"
+
+#~ msgid "Off"
+#~ msgstr "Díchumasaithe"
+
+#~ msgid "Secondary"
+#~ msgstr "Tánaisteach"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Leag Amach Taispeáintí Comhcheangailte"
+
+#~ msgid "_Apply"
+#~ msgstr "Cuir i bh_Feidhm"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Tarraing taispeáintí chun iad a leagan amach"
+
+#~ msgid "Size"
+#~ msgstr "Méid"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Cóimheas Treoíochta"
+
+#~ msgid "Resolution"
+#~ msgstr "Taifeach"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Taispeáint Tánaisteach"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Comhcheangail an taispeáint seo le ceann eile chun spás breise oibre a "
+#~ "chruthú"
+
+#~ msgid "Presentation"
+#~ msgstr "Láithreoireacht"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Taispeáin teaspántais sleamhnán agus meáin amháin"
+
+#~ msgid "Mirror"
+#~ msgstr "Scáthánaigh"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Taispeáin d'amharc atá ann ar an dá taispeáint"
+
+#~ msgid "Turn Off"
+#~ msgstr "Múch"
+
+#, fuzzy
+#~ msgid "Don't use this display"
+#~ msgstr "Ná bain úsáid as an taispeáint"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Níorbh fhéidir eolas scáileáin a fháil"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Leag Amach Taispeáintí Comhcheangailte"
+
+#~ msgid "Displays"
+#~ msgstr "Taispeáintí"
+
+#, fuzzy
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Painéal;Teilgeoir;xrandr;Scáileán;Taifeach;Athnuaigh;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "Anaithnid"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-giotán"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-giotán"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Fiafraigh díom"
+
+#~ msgid "Do nothing"
+#~ msgstr "Ná déan faic"
+
+#~ msgid "Open folder"
+#~ msgstr "Oscail fillteán"
+
+#~ msgid "Other Media"
+#~ msgstr "Meáin Eile"
+
+#, fuzzy
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Roghnaigh d'fheidhmchláir réamhshocraithe"
+
+#, fuzzy
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Roghnaigh d'fheidhmchláir réamhshocraithe"
+
+#, fuzzy
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Roghnaigh d'fheidhmchláir réamhshocraithe"
+
+#~ msgid "audio DVD"
+#~ msgstr "DVD fuaime"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "diosca Blu-ray bán"
+
+#~ msgid "blank CD disc"
+#~ msgstr "diosca CD bán"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "diosca DVD bán"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "diosca HD DVD bán"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "diosca físe Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "léitheoir r-leabhair"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "diosca físe HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Bogearraí Windows"
+
+#~ msgid "Section"
+#~ msgstr "Rannán"
+
+#~ msgid "Overview"
+#~ msgstr "Foramharc"
+
+#~ msgid "Default Applications"
+#~ msgstr "Feidhmchláir Réamhshocraithe"
+
+#~ msgid "Removable Media"
+#~ msgstr "Meáin Inbhainte"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Leagan %s"
+
+#~ msgid "Details"
+#~ msgstr "Sonraí"
+
+#~ msgid "View information about your system"
+#~ msgstr "Amharc ar eolas faoi do chóras"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "gléas;córas;faisnéis;cuimhne;próiseálaí;leagan;réamhshocrú;feidhmchlár;"
+#~ "rogha;cd;dvd;usb;fuaim;fís;diosca;inbhainte;meáin;uathrith;"
+
+#~ msgid "_Action:"
+#~ msgstr "_Gníomh:"
+
+#~ msgid "_Type:"
+#~ msgstr "C_ineál:"
+
+#~ msgid "Device name"
+#~ msgstr "Ainm gléis"
+
+#~ msgid "Memory"
+#~ msgstr "Cuimhne"
+
+#~ msgid "Processor"
+#~ msgstr "Próiseálaí"
+
+#~ msgid "Base system"
+#~ msgstr "Bunchóras"
+
+#~ msgid "Disk"
+#~ msgstr "Diosca"
+
+#~ msgid "Calculating…"
+#~ msgstr "Á áireamh…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafaic"
+
+#~ msgid "Virtualization"
+#~ msgstr "Fíorúlú"
+
+#, fuzzy
+#~ msgid "Check for updates"
+#~ msgstr "Nuashonruithe á Seiceáil"
+
+#~ msgid "_Web"
+#~ msgstr "_Gréasán"
+
+#~ msgid "_Mail"
+#~ msgstr "_Post"
+
+#~ msgid "_Calendar"
+#~ msgstr "Féi_lire"
+
+#~ msgid "M_usic"
+#~ msgstr "_Ceol"
+
+#~ msgid "_Video"
+#~ msgstr "_Fís"
+
+#~ msgid "_Photos"
+#~ msgstr "G_rianghraif"
+
+#~ msgid "CD _audio"
+#~ msgstr "fu_aim CD"
+
+#~ msgid "_DVD video"
+#~ msgstr "fís _DVD"
+
+#~ msgid "_Music player"
+#~ msgstr "Seinnteoir _ceoil"
+
+#~ msgid "_Software"
+#~ msgstr "_Bogearraí"
+
+#~ msgid "_Other Media…"
+#~ msgstr "Meáin _Eile…"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Fuaim agus Meáin"
+
+#~ msgid "Volume mute"
+#~ msgstr "Airde gan fuaim"
+
+#~ msgid "Volume down"
+#~ msgstr "Airde síos"
+
+#~ msgid "Volume up"
+#~ msgstr "Airde suas"
+
+#~ msgid "Launch media player"
+#~ msgstr "Luchtaigh seinnteoir meán"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Seinn (nó seinn/sos)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Cuir athsheinm ar shos"
+
+#~ msgid "Stop playback"
+#~ msgstr "Stad athsheinm"
+
+#~ msgid "Previous track"
+#~ msgstr "An t-amhrán roimhe seo"
+
+#~ msgid "Next track"
+#~ msgstr "An chéad t-amhrán eile"
+
+#~ msgid "Eject"
+#~ msgstr "Díchuir"
+
+#~ msgid "Typing"
+#~ msgstr "Clóscríobh"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Athraigh go dtí an chéad fhoinse ionchuir eile"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Athraigh go dtí an fhoinse ionchuir roimhe seo"
+
+#~ msgid "Launchers"
+#~ msgstr "Tosaitheoirí"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Luchtaigh brabhsálaí cabhrach"
+
+#~ msgid "Settings"
+#~ msgstr "Socruithe"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Luchtaigh áireamhán"
+
+#~ msgid "Launch email client"
+#~ msgstr "Luchtaigh cliant ríomhphoist"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Luchtaigh brabhsálaí gréasáin"
+
+#~ msgid "Home folder"
+#~ msgstr "Fillteán baile"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Cuardaigh"
+
+#~ msgid "Screenshots"
+#~ msgstr "Gabhálacha Scáileáin"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Sábháil gabháil scáileáin i $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Sábháil gabháil scáileán fuinneoige i $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Sábháil gabháil scáileán limistéir i $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Cóipeáil gabháil scáileáin go dtí an ghearrthaisce"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Cóipeáil gabháil scáileán fuinneoige go dtí an ghearrthaisce"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Cóipeáil gabháil scáileán limistéir go dtí an ghearrthaisce"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Taifead físghabháil ghearr scáileáin"
+
+#~ msgid "System"
+#~ msgstr "Córas"
+
+#~ msgid "Log out"
+#~ msgstr "Logáil amach"
+
+#~ msgid "Lock screen"
+#~ msgstr "Cuir an scáileán faoi ghlas"
+
+#~ msgid "Universal Access"
+#~ msgstr "Rochtain Uilíoch"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Cumasaigh nó díchumasaigh súmáil"
+
+#~ msgid "Zoom in"
+#~ msgstr "Súmáil isteach"
+
+#~ msgid "Zoom out"
+#~ msgstr "Súmáil amach"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Cumasaigh nó díchumasaigh léitheoir scáileáin"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Cumasaigh nó díchumasaigh méarchlár scáileáin"
+
+#~ msgid "Increase text size"
+#~ msgstr "Méadaigh clómhéid"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Laghaidh clómhéid"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Cumasaigh nó díchumasaigh ardchodarsnacht"
+
+#, fuzzy
+#~ msgid "Compose Key"
+#~ msgstr "Cnaipe na Luiche"
+
+#~ msgid "Keyboard"
+#~ msgstr "Méarchlár"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Aicearra;Athbhrú;Caoch;"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Aicearra Saincheaptha"
+
+#~ msgid "_Name:"
+#~ msgstr "_Ainm:"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Ordú:"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Athbhrú Eochracha"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Déantar brú eochracha _arís nuair a choinníonn an eochair síos"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Moill:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Luas:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Mall"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Luas athbhrú eochracha"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Tapa"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Caochadh an Chúrsóra"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "_Caochann an cúrsóir i réimsí téacs"
+
+#~ msgid "S_peed:"
+#~ msgstr "L_uas:"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "Luas caochadh an chúrsóra"
+
+#~ msgid "Input Sources"
+#~ msgstr "Foinsí Ionchuir"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Cuir Aicearra Leis"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Bain Aicearra"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Chun aicearra a chur in eagar, cliceáil ar an ró agus coinnigh síos na "
+#~ "heochracha nua, nó brúigh Backspace chun glanta."
+
+#~ msgid "Shortcuts"
+#~ msgstr "Aicearraí"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Aicearraí Saincheaptha"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Gníomh Anaithnid>"
+
+#~ msgid "_Reassign"
+#~ msgstr "_Athshann"
+
+#, fuzzy
+#~ msgid "_Assign"
+#~ msgstr "_Athshann"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "Tástáil Do _Shocruithe"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Tástáil Do Shocruithe"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "Luch & Ceap Tadhaill"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Ceap Rianaithe;Pointeoir;Cliceáil;Cnag;Déchliceáil;Cnaipe;Rianliathróid;"
+#~ "Scrollaigh;"
+
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Mall"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Teorainn am déchliceála"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Tapa"
+
+#~ msgid "_Double-click"
+#~ msgstr "_Déchliceáil"
+
+#~ msgid "Primary _button"
+#~ msgstr "_Príomhchnaipe"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "_Clé"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Deas"
+
+#~ msgid "Mouse"
+#~ msgstr "Luch"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "_Luas an phointeora"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Mall"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Tapa"
+
+#~ msgid "Touchpad"
+#~ msgstr "Ceap Tadhaill"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Mall"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Tapa"
+
+#, fuzzy
+#~ msgid "Two _finger scroll"
+#~ msgstr "Scrollú dhá-_mhéar"
+
+#, fuzzy
+#~ msgid "Double click, primary button"
+#~ msgstr "Teorainn Am Déchliceála"
+
+#, fuzzy
+#~ msgid "Double click, middle button"
+#~ msgstr "Teorainn Am Déchliceála"
+
+#, fuzzy
+#~ msgid "Double click, secondary button"
+#~ msgstr "Teorainn Am Déchliceála"
+
+#~ msgid "Network proxy"
+#~ msgstr "Seachfhreastalaí líonra"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "VPN %s"
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Slándáil 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "leathanach 1"
+
+#, fuzzy
+#~ msgid "Inner _authentication"
+#~ msgstr "Fíordheimhnithe!"
+
+#~ msgid "page 2"
+#~ msgstr "leathanach 2"
+
+#~ msgid "Security"
+#~ msgstr "Slándáil"
+
+#~ msgid "automatic"
+#~ msgstr "uathoibríoch"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Fiontar"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgid "Never"
+#~ msgstr "Riamh"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i lá ó shin"
+#~ msgstr[1] "%i lá ó shin"
+#~ msgstr[2] "%i lá ó shin"
+#~ msgstr[3] "%i lá ó shin"
+#~ msgstr[4] "%i lá ó shin"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Lag"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Cuíosach"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Maith"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Ar fheabhas"
+
+#~ msgid "Identity"
+#~ msgstr "Aitheantas"
+
+#~ msgid "Address"
+#~ msgstr "Seoladh"
+
+#~ msgid "Netmask"
+#~ msgstr "Masc Líonra"
+
+#~ msgid "Gateway"
+#~ msgstr "Geata"
+
+#~ msgid "Delete Address"
+#~ msgstr "Scrios Seoladh"
+
+#~ msgid "Add"
+#~ msgstr "Cuir Leis"
+
+#~ msgid "Server"
+#~ msgstr "Freastalaí"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Scrios Freastalaí DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Méadrach"
+
+#~ msgid "Delete Route"
+#~ msgstr "Scrios Ród"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Uathoibríoch (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "De láimh"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Automatic"
+#~ msgstr "Uathoibríoch"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Uathoibríoch, DHCP amháin"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Athshocraigh"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#, fuzzy
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "Fiontar"
+
+#~ msgid "Link speed"
+#~ msgstr "Luas an cheangail"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Seoladh IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Seoladh IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Seoladh Crua-Earraí"
+
+#~ msgid "Default Route"
+#~ msgstr "Ród Réamhshocraithe"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Casphéire (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Comhéadan Aonad Ceangail (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Ainm"
+
+#~ msgid "_MAC Address"
+#~ msgstr "Seoladh _MAC"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#, fuzzy
+#~ msgid "_Cloned Address"
+#~ msgstr "Seoladh"
+
+#~ msgid "bytes"
+#~ msgstr "beart"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Seoltaí"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "DNS Uathoibríoch"
+
+#~ msgid "Routes"
+#~ msgstr "Róid"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Róid Uathoibríocha"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#, fuzzy
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Fíordheimhnithe!"
+
+#~ msgid "New Profile"
+#~ msgstr "Próifíl Nua"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Bond"
+#~ msgstr "Nasc"
+
+#~ msgid "Bridge"
+#~ msgstr "Droichead"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#, fuzzy
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Níorbh fhéidir an príomhchomhéadan a luchtú"
+
+#~ msgid "Import from file…"
+#~ msgstr "Iompórtáil ó chomhad…"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Cuir Ceangal Líonra Leis"
+
+#~ msgid "_Reset"
+#~ msgstr "_Athshocraigh"
+
+#~ msgid "_Forget"
+#~ msgstr "_Déan Dearmad"
+
+#~ msgid "S_ecurity"
+#~ msgstr "S_lándáil"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Tá comhad darb ainm \"%s\" ann cheana."
+
+#~ msgid "_Replace"
+#~ msgstr "_Ionadaigh"
+
+#, fuzzy
+#~ msgid "Export VPN connection"
+#~ msgstr "Easpórtáil ceangal VPN..."
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Mo Líonra Baile"
+
+#~ msgid "Network"
+#~ msgstr "Líonra"
+
+#, fuzzy
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;DNS;"
+#~ msgstr ""
+#~ "Líonra;Gan Sreang;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Leathanbhanda;Móideim;"
+#~ "Bluetooth;vpn;vlan;droichead;nasc;"
+
+#~ msgid "never"
+#~ msgstr "riamh"
+
+#~ msgid "today"
+#~ msgstr "inniu"
+
+#~ msgid "yesterday"
+#~ msgstr "inné"
+
+#~ msgid "IP Address"
+#~ msgstr "Seoladh IP"
+
+#~ msgid "Last used"
+#~ msgstr "Úsáid is déanaí"
+
+#~ msgid "Wired"
+#~ msgstr "Sreangaithe"
+
+#~ msgid "Options…"
+#~ msgstr "Roghanna…"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Próifíl %d"
+
+#~ msgid "Add new connection"
+#~ msgstr "Cuir ceangal nua leis"
+
+#~ msgid "History"
+#~ msgstr "Stair"
+
+#~ msgid "_Close"
+#~ msgstr "_Dún"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Déan Dearmad"
+
+#~ msgid "Proxy"
+#~ msgstr "Seachfhreastalaí"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "Cuir _Próifíl Leis…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Soláthraí"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "De láimh"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Uathoibríoch"
+
+#~ msgid "_Method"
+#~ msgstr "_Modh"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "U_RL Cumraíochta:"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Seachfhreastalaí _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Seachfhreastalaí H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Seachfhreastalaí _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Óstach _Socks"
+
+#, fuzzy
+#~ msgid "HTTP proxy port"
+#~ msgstr "Seachfhreastalaí _HTTP"
+
+#, fuzzy
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Seachfhreastalaí _HTTP"
+
+#, fuzzy
+#~ msgid "FTP proxy port"
+#~ msgstr "Seachfhreastalaí _FTP:"
+
+#~ msgid "Turn device off"
+#~ msgstr "Múch gléas"
+
+#~ msgid "Add Device"
+#~ msgstr "Cuir Gléas Leis"
+
+#~ msgid "Remove Device"
+#~ msgstr "Bain Gléas"
+
+#~ msgid "VPN Type"
+#~ msgstr "Cineál VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Ainm Grúpa"
+
+#~ msgid "Group Password"
+#~ msgstr "Focal Faire an Ghrúpa"
+
+#~ msgid "Username"
+#~ msgstr "Ainm Úsáideora"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "_Ceangal Uathoibríoch"
+
+#~ msgid "details"
+#~ msgstr "sonraí"
+
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgid "Show P_assword"
+#~ msgstr "_Taispeáin Focal Faire"
+
+#~ msgid "identity"
+#~ msgstr "aitheantas"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "reset"
+#~ msgstr "athshocraigh"
+
+#~ msgid "Hardware"
+#~ msgstr "Crua-Earraí"
+
+#, fuzzy
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Méarchlár Scáileáin GNOME"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "Úsáid Mar _Bhall Te…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Nasc le Líonra Folaithe…"
+
+#~ msgid "_History"
+#~ msgstr "_Stair"
+
+#~ msgid "Network Name"
+#~ msgstr "Ainm Líonra"
+
+#, fuzzy
+#~ msgid "Connected Devices"
+#~ msgstr "Gach Comhad"
+
+#, fuzzy
+#~ msgid "Security type"
+#~ msgstr "Eochracha Greamaitheacha"
+
+#~ msgid "Status unknown"
+#~ msgstr "Stádas anaithnid"
+
+#~ msgid "Unavailable"
+#~ msgstr "Níl ar fáil"
+
+#~ msgid "Connecting"
+#~ msgstr "Ag ceangal"
+
+#~ msgid "Authentication required"
+#~ msgstr "Fíordheimhniú de dhíth"
+
+#~ msgid "Connected"
+#~ msgstr "Ceangailte"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Ag dícheangal"
+
+#~ msgid "Not connected"
+#~ msgstr "Gan cheangal"
+
+#, fuzzy
+#~ msgid "Configuration failed"
+#~ msgstr "U_RL Uathchumraíochta:"
+
+#, fuzzy
+#~ msgid "IP configuration failed"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "IP configuration expired"
+#~ msgstr "U_RL Uathchumraíochta:"
+
+#, fuzzy
+#~ msgid "AutoIP service failed"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "Modem initialization failed"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "Network registration denied"
+#~ msgstr "Socruithe an líonra"
+
+#, fuzzy
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "SIM wrong"
+#~ msgstr "Láidir"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#, fuzzy
+#~ msgid "Choose a PAC file"
+#~ msgstr "Roghnaigh comhad PAC..."
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "Comhaid PAC (*.pac)"
+
+#~ msgid "PAC _file"
+#~ msgstr "_Comhad PAC"
+
+#, fuzzy
+#~ msgid "_Inner authentication"
+#~ msgstr "Fíordheimhnithe!"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Authenticated"
+#~ msgstr "Fíordheimhnithe"
+
+#~ msgid "Sho_w password"
+#~ msgstr "_Taispeáin focal faire"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Version 0"
+#~ msgstr "Leagan 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Leagan 1"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Leagan PEAP"
+
+#, fuzzy
+#~ msgid "_Private key password"
+#~ msgstr "Socraigh focal faire anois"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "No"
+#~ msgstr "Níl"
+
+#~ msgid "Yes"
+#~ msgstr "Tá"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Fío_rdheimniú"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Réamhshocrú)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#, fuzzy
+#~ msgid "Open System"
+#~ msgstr "Córas"
+
+#~ msgid "_Key"
+#~ msgstr "_Eochair"
+
+#~ msgid "_Type"
+#~ msgstr "C_ineál"
+
+#~ msgid "On"
+#~ msgstr "Cumasaithe"
+
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "Fógairtí"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "Foláirimh Fuaime"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Notification Banners"
+#~ msgstr "Fógairtí"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Show Message Content in Banners"
+#~ msgstr "Taispeáin Sonraí sna Meirgí"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Lock Screen Notifications"
+#~ msgstr "Fógairtí"
+
+#, fuzzy
+#~ msgctxt "notifications"
+#~ msgid "Show Message Content on Lock Screen"
+#~ msgstr "Taispeán Sonraí ar an Scáileán Glasála"
+
+#~ msgid "Notifications"
+#~ msgstr "Fógairt"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Fógairtí;Meirge;Teachtaireacht;Greille;Preab;"
+
+#, fuzzy
+#~ msgid "Notification Banners"
+#~ msgstr "Fógairt"
+
+#, fuzzy
+#~ msgid "Lock Screen Notifications"
+#~ msgstr "Fógairt"
+
+#~ msgid "Applications"
+#~ msgstr "Feidhmchláir"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Eile"
+
+#~ msgid "Add Account"
+#~ msgstr "Cuir Cuntas Leis"
+
+#~ msgid "Mail"
+#~ msgstr "Post"
+
+#~ msgid "Contacts"
+#~ msgstr "Teagmhálacha"
+
+#~ msgid "Chat"
+#~ msgstr "Comhrá"
+
+#~ msgid "Resources"
+#~ msgstr "Acmhainní"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Chuaigh dintiúir as feidhm."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Sínigh isteach chun an cuntas seo a chumasú."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Sínigh Isteach"
+
+#~ msgid "Error creating account"
+#~ msgstr "Earráid agus cuntas á chruthú"
+
+#~ msgid "Error removing account"
+#~ msgstr "Earráid agus cuntas á bhaint"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "An bhfuil tú cinnte gur mhaith leat an cuntas a bhaint?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Ní bhainfidh sé seo an cuntas ón bhfreastalaí."
+
+#~ msgid "_Remove"
+#~ msgstr "_Bain"
+
+#~ msgid "Online Accounts"
+#~ msgstr "Cuntais ar Líne"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Gréasán;Ar Líne;Comhrá;Féilire;Post;"
+#~ "Teagmháil;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Níl cuntas ar líne cumasaithe"
+
+#~ msgid "Add an online account"
+#~ msgstr "Cuir cuntas ar líne leis"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Nuair a chuireann tú cuntas leis, is féidir le feidhmchláir é a rochtain "
+#~ "le haghaidh cáipéisí, poist, teagmhálacha, féilire, comhrá, agus ar uile."
+
+#~ msgid "Unknown time"
+#~ msgstr "Am anaithnid"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i nóimeád"
+#~ msgstr[1] "%i nóimeád"
+#~ msgstr[2] "%i nóimeád"
+#~ msgstr[3] "%i nóimeád"
+#~ msgstr[4] "%i nóimeád"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i uair"
+#~ msgstr[1] "%i uair"
+#~ msgstr[2] "%i uaire"
+#~ msgstr[3] "%i n-uaire"
+#~ msgstr[4] "%i uair"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "uair"
+#~ msgstr[1] "uair"
+#~ msgstr[2] "uaire"
+#~ msgstr[3] "n-uaire"
+#~ msgstr[4] "uair"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "nóimeád"
+#~ msgstr[1] "nóimeád"
+#~ msgstr[2] "nóimeád"
+#~ msgstr[3] "nóimeád"
+#~ msgstr[4] "nóimeád"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s go dtí luchtaithe go hiomlán"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Rabhadh: %s fágtha"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s fágtha"
+
+#~ msgid "Fully charged"
+#~ msgstr "Luchtaithe go hiomlán"
+
+#~ msgid "Empty"
+#~ msgstr "Folamh"
+
+#~ msgid "Charging"
+#~ msgstr "Á luchtú"
+
+#~ msgid "Discharging"
+#~ msgstr "Á dhíluchtú"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Príomhchadhnra"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Breise"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Luch gan sreang"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Méarchlár gan sreang"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Soláthar dobhriste cumhachta"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Ríomhaire boise"
+
+#~ msgid "Cellphone"
+#~ msgstr "Fón póca"
+
+#~ msgid "Media player"
+#~ msgstr "Seinnteoir meán"
+
+#~ msgid "Tablet"
+#~ msgstr "Táibléad"
+
+#~ msgid "Computer"
+#~ msgstr "Ríomhaire"
+
+#~ msgid "Battery"
+#~ msgstr "Cadhnra"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Á luchtú"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Rabhadh"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Íseal"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Maith"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Luchtaithe go hiomlán"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Folamh"
+
+#~ msgid "Batteries"
+#~ msgstr "Cadhnraí"
+
+#~ msgid "When _idle"
+#~ msgstr "Nuair _díomhaoin"
+
+#~ msgid "Power Saving"
+#~ msgstr "Coigilt Chumhachta"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "Gile an _scáileáin"
+
+#, fuzzy
+#~ msgid "Automatic brightness"
+#~ msgstr "Róid Uathoibríocha"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Gile an _mhéarchláir"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "Maolaigh an scáileán agus _neamhghníomhach"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Bánaigh an scáileán"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "Leathanbhanda _móibíleach"
+
+#, fuzzy
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Múchann sé seo gléasanna leathanbhanda móibíligh (3G, 4G, WiMax, srl.)"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Agus ar chumhacht chadhnra"
+
+#~ msgid "When plugged in"
+#~ msgstr "Nuair atá ionsuite"
+
+#~ msgid "Suspend & Power Off"
+#~ msgstr "Cur ar Fionraí & Múchadh"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Cur ar fionraí uathoibríoch"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Cur ar fionraí uathoibríoch"
+
+#~ msgid "Devices"
+#~ msgstr "Gléasanna"
+
+#~ msgid "Power"
+#~ msgstr "Cumhacht"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 nóimeád"
+
+#~ msgid "1 hour"
+#~ msgstr "1 uair"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 nóimeád"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 nóimeád"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 nóimeád"
+
+#~ msgid "2 hours"
+#~ msgstr "2 uair"
+
+#~ msgid "1 minute"
+#~ msgstr "1 nóimeád"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 nóimeád"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 nóimeád"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 nóiméad"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 nóimeád"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 nóiméad"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 nóimeád"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 nóimeád"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Cur ar Fionraí Uathoibríoch"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Ionsuite"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Ar _Chumhacht Chadhnra"
+
+#~ msgid "Delay"
+#~ msgstr "Moill"
+
+#~ msgid "Authenticate"
+#~ msgstr "Fíordheimhnigh"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Fíordheimhniú de Dhíth"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "As líne"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Stadta"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Réidh"
+
+#, fuzzy
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "_Gairm:"
+
+#~ msgid "Toner Level"
+#~ msgstr "Leibhéal Tonóra"
+
+#~ msgid "Ink Level"
+#~ msgstr "Leibhéal Dúigh"
+
+#~ msgid "Supply Level"
+#~ msgstr "Leibhéal Soláthair"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Á shuiteáil"
+
+#~ msgid "No printers available"
+#~ msgstr "Níl aon phrintéir ar fáil"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Theip ar chur printéir nua leis."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Roghnaigh Comhad PPD"
+
+#~ msgid "Test page"
+#~ msgstr "Leathanach tástála"
+
+#, fuzzy, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Níorbh fhéidir an príomhchomhéadan a luchtú"
+
+#~ msgid "Printers"
+#~ msgstr "Printéirí"
+
+#~ msgid "Close"
+#~ msgstr "Dún"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Cuir Printéir Nua Leis"
+
+#, fuzzy
+#~ msgid "A_uthenticate"
+#~ msgstr "Fíordheimhnigh"
+
+#~ msgid "No printers detected."
+#~ msgstr "Níor braitheadh aon phrintéir."
+
+#~ msgid "Loading options…"
+#~ msgstr "Roghanna á luchtú…"
+
+#, fuzzy
+#~ msgid "Select Printer Driver"
+#~ msgstr "Méar an fháinne chlé"
+
+#, fuzzy
+#~ msgid "JetDirect Printer"
+#~ msgstr "Bain Printéir"
+
+#, fuzzy
+#~ msgid "LPD Printer"
+#~ msgstr "Printéir %s"
+
+#, fuzzy
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "_Gairm:"
+
+#~ msgid "Job Title"
+#~ msgstr "Teideal Jab"
+
+#~ msgid "Job State"
+#~ msgstr "Staid Jab"
+
+#~ msgid "Time"
+#~ msgstr "Am"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Suíomh: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Seoladh: %s"
+
+#, fuzzy
+#~ msgid "Server requires authentication"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "Output Tray"
+#~ msgstr "Aschur"
+
+#, fuzzy
+#~ msgid "Orientation"
+#~ msgstr "Gníomh an Bharra Teidil"
+
+#, fuzzy
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Ginearálta"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Socrú Leathanaigh"
+
+#, fuzzy
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Gníomh an Bharra Teidil"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Jab"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Cáilíocht Íomhá"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Dath"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Casta"
+
+#~ msgid "Auto Select"
+#~ msgstr "Uathroghnaigh"
+
+#, fuzzy
+#~ msgid "Printer Default"
+#~ msgstr "Réamhshocrú"
+
+#, fuzzy
+#~ msgid "No pre-filtering"
+#~ msgstr "Gan phróifíl"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Déantóir"
+
+#~ msgid "Driver"
+#~ msgstr "Tiománaí"
+
+#~ msgid "Add Printer"
+#~ msgstr "Cuir Printéir Leis"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Bain Printéir"
+
+#~ msgid "Supply"
+#~ msgstr "Soláthar"
+
+#~ msgid "Location"
+#~ msgstr "Suíomh"
+
+#~ msgid "_Default printer"
+#~ msgstr "Printéir _réamhshocraithe"
+
+#~ msgid "Jobs"
+#~ msgstr "Jabanna"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Taispeáin _Jabanna"
+
+#~ msgid "Model"
+#~ msgstr "Samhail"
+
+#~ msgid "label"
+#~ msgstr "lipéad"
+
+#~ msgid "page 3"
+#~ msgstr "leathanach 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Priontáil Leathanach _Tástála"
+
+#~ msgid "_Options"
+#~ msgstr "_Roghanna"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Cuir Printéir Nua Leis"
+
+#~ msgid "Screen Lock"
+#~ msgstr "Glas Scáileáin"
+
+#~ msgid "Usage & History"
+#~ msgstr "Úsáid & Stair"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Folmhaigh gach mír ón mBruscar?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Scriosfar gach mír sa Bhruscar go buan."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Folmhaigh an Bruscar"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Scrios gach comhad sealadach?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Scriosfar gach comhad sealadach go buan."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Purgaigh Comhaid Shealadacha"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Purgaigh Bruscar & Comhaid Shealadacha"
+
+#, fuzzy
+#~ msgid "Software Usage"
+#~ msgstr "Bogearraí"
+
+#, fuzzy
+#~ msgid "Privacy Policy"
+#~ msgstr "Príobháid­eachas"
+
+#~ msgid "Privacy"
+#~ msgstr "Príobháid­eachas"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Múchadh an Scáileáin"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 soicind"
+
+#~ msgid "1 day"
+#~ msgstr "1 lá"
+
+#~ msgid "2 days"
+#~ msgstr "2 lá"
+
+#~ msgid "3 days"
+#~ msgstr "3 lá"
+
+#~ msgid "4 days"
+#~ msgstr "4 lá"
+
+#~ msgid "5 days"
+#~ msgstr "5 lá"
+
+#~ msgid "6 days"
+#~ msgstr "6 lá"
+
+#~ msgid "7 days"
+#~ msgstr "7 lá"
+
+#~ msgid "14 days"
+#~ msgstr "14 lá"
+
+#~ msgid "30 days"
+#~ msgstr "30 lá"
+
+#~ msgid "Forever"
+#~ msgstr "Go deo"
+
+#~ msgid "_Recently Used"
+#~ msgstr "Ú_sáidte le Déanaí"
+
+#~ msgid "Retain _History"
+#~ msgstr "Coinnigh _Stair"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "_Glan an Stair Is Déanaí"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Cosnaíonn Glas Scáileáin do phríobháideachas nuair atá tú amuigh."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Glasáil Scáileáin Uathoibríoch"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Cuir scáileán faoi _ghlas tar éis"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Taispeáin _Fógairtí"
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Folmhaigh _Bruscar go huathoibríoch"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Purgaigh _Comhaid Sealadacha go huathoibríoch"
+
+#~ msgid "Purge _After"
+#~ msgstr "Purgaigh i _nDiaidh"
+
+#, fuzzy
+#~ msgid "_Location Services"
+#~ msgstr "Suíomh"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Impiriúil"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Méadrach"
+
+#~ msgid "No regions found"
+#~ msgstr "Réigiún gan aimsiú"
+
+#~ msgid "No input sources found"
+#~ msgstr "Foinse ionchuir gan aimsiú"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Eile"
+
+#~ msgid "Restart Now"
+#~ msgstr "Atosaigh Anois"
+
+#~ msgid "No input source selected"
+#~ msgstr "Níl aon fhoinse ionchuir roghnaithe"
+
+#~ msgid "Login Screen"
+#~ msgstr "Scáileán Logála Isteach"
+
+#~ msgid "Formats"
+#~ msgstr "Formáidí"
+
+#~ msgid "Preview"
+#~ msgstr "Réamhamharc"
+
+#~ msgid "Dates"
+#~ msgstr "Dátaí"
+
+#~ msgid "Times"
+#~ msgstr "Amanna"
+
+#~ msgid "Numbers"
+#~ msgstr "Uimhreacha"
+
+#~ msgid "Measurement"
+#~ msgstr "Tomhas"
+
+#~ msgid "Paper"
+#~ msgstr "Páipéir"
+
+#~ msgid "Region & Language"
+#~ msgstr "Réigiún & Teanga"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Teanga;Leagan Amach;Méarchlár;Ionchur;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Cuir Foinse Ionchuir Leis"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Ní féidir modhanna ionchuir a úsáid ar an scáileán logála isteach"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Roghanna na Foinse Ionchuir"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Aicearraí Méarchláir"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Left+Right Alt"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Béarla (An Ríocht Aontaithe)"
+
+#~ msgid "United Kingdom"
+#~ msgstr "An Ríocht Aontaithe"
+
+#~ msgid "Options"
+#~ msgstr "Roghanna"
+
+#, fuzzy
+#~ msgid "Add input source"
+#~ msgstr "Cuir Foinse Ionchuir Leis"
+
+#, fuzzy
+#~ msgid "Remove input source"
+#~ msgstr "Foinse ionchuir gan aimsiú"
+
+#, fuzzy
+#~ msgid "Move input source up"
+#~ msgstr "Foinse ionchuir gan aimsiú"
+
+#, fuzzy
+#~ msgid "Move input source down"
+#~ msgstr "Foinse ionchuir gan aimsiú"
+
+#, fuzzy
+#~ msgid "Configure input source"
+#~ msgstr "Athraigh go dtí an chéad fhoinse ionchuir eile"
+
+#, fuzzy
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Níl aon fhoinse ionchuir roghnaithe"
+
+#~ msgctxt "Search Location"
+#~ msgid "Places"
+#~ msgstr "Áiteanna"
+
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "Leabharmharcanna"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Eile"
+
+#~ msgid "Select Location"
+#~ msgstr "Roghnaigh Suíomh"
+
+#~ msgid "_OK"
+#~ msgstr "Tá g_o Maith"
+
+#~ msgid "No applications found"
+#~ msgstr "Feidhmchlár gan aimsiú"
+
+#~ msgid "Search"
+#~ msgstr "Cuardach"
+
+#~ msgid "Search Locations"
+#~ msgstr "Suíomhanna Cuardaigh"
+
+#~ msgid "Move Up"
+#~ msgstr "Bog Suas"
+
+#~ msgid "Move Down"
+#~ msgstr "Bog Síos"
+
+#~ msgid "Preferences"
+#~ msgstr "Sainroghanna"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Cumasaithe"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Díchumasaithe"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Cumasaithe"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Gníomhach"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Roghnaigh Fillteán"
+
+#~ msgid "Copy"
+#~ msgstr "Cóipeáil"
+
+#~ msgid "Sharing"
+#~ msgstr "Comhroinnt"
+
+#, fuzzy
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy
+#~ msgid "Networks"
+#~ msgstr "Líonra"
+
+#~ msgid "Computer Name"
+#~ msgstr "Ainm an Ríomhaire"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Comhroinnt na gComhad Pearsanta"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Comhroinnt an Scáileáin"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Comhroinnt Meán"
+
+#~ msgid "Remote Login"
+#~ msgstr "Cianlogáil Isteach"
+
+#, fuzzy
+#~ msgid "Require Password"
+#~ msgstr "_Focal Faire:"
+
+#, fuzzy
+#~ msgid "Allow Remote Control"
+#~ msgstr "Rialtán UI"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "Focal Faire"
+
+#~ msgid "Show Password"
+#~ msgstr "Taispeáin Focal Faire"
+
+#, fuzzy
+#~ msgid "Access Options"
+#~ msgstr "Roghanna"
+
+#, fuzzy
+#~ msgid "Require a password"
+#~ msgstr "_Focal Faire:"
+
+#~ msgid "Folders"
+#~ msgstr "Fillteáin"
+
+#~ msgid "Sound"
+#~ msgstr "Fuaim"
+
+#~ msgid "Bark"
+#~ msgstr "Sceamh"
+
+#~ msgid "Drip"
+#~ msgstr "Sileadh"
+
+#~ msgid "Glass"
+#~ msgstr "Gloine"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonóir"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Clé"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Deas"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Cúl"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Aghaidh"
+
+#, fuzzy
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Íoslaghdaigh"
+
+#, fuzzy
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Uasmhéadaigh"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Cothromaíocht:"
+
+#~ msgid "_Fade:"
+#~ msgstr "Céi_mniú:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "Fo-dhordaire"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Gan aimpliú"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Próifíl:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u Aschur"
+#~ msgstr[1] "%u Aschur"
+#~ msgstr[2] "%u Aschur"
+#~ msgstr[3] "%u nAschur"
+#~ msgstr[4] "%u Aschur"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u Ionchur"
+#~ msgstr[1] "%u Ionchur"
+#~ msgstr[2] "%u Ionchur"
+#~ msgstr[3] "%u nIonchur"
+#~ msgstr[4] "%u Ionchur"
+
+#~ msgid "System Sounds"
+#~ msgstr "Fuaimeanna Córais"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Tástáil Callairí"
+
+#~ msgid "Name"
+#~ msgstr "Ainm"
+
+#~ msgid "Device"
+#~ msgstr "Gléas"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Airde _aschuir:"
+
+#~ msgid "Output"
+#~ msgstr "Aschur"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Roghnaigh gléas le haghaidh aschur fuaime:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Socruithe don ghléas roghnaithe:"
+
+#~ msgid "Input"
+#~ msgstr "Ionchur"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Airde _ionchuir:"
+
+#~ msgid "Input level:"
+#~ msgstr "Leibhéal ionchuir:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Roghnaigh gléas le haghaidh ionchur fuaime:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Maisíochtaí Fuaime"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "_Airde foláireamh:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Níl fuaim á seinm nó á taifeadadh ag aon fheidhmchlár."
+
+#~ msgid "Built-in"
+#~ msgstr "Ionsuite"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Sainroghanna Fuaime"
+
+#~ msgid "Default"
+#~ msgstr "Réamhshocrú"
+
+#~ msgid "From theme"
+#~ msgstr "Ó théama"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Roghnaigh fuaim fholáirimh:"
+
+#~ msgid "Stop"
+#~ msgstr "Stad"
+
+#~ msgid "Test"
+#~ msgstr "Tástáil"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Fo-dhordaire"
+
+#~ msgid "Custom"
+#~ msgstr "Saincheaptha"
+
+#, fuzzy
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Méarchlár;Luch;a11y;Inrochtaineacht;Codarsnacht;Súmáil;Léitheoir "
+#~ "Scáileáin;téacs;cló;méid;AccessX;Eocracha Greamaitheacha;Eochracha Malla;"
+#~ "Eocracha Preabtha;Eochracha Luiche;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "Taispeáin Roghchlár Rochtana Uilíoch i _gCónaí"
+
+#~ msgid "Seeing"
+#~ msgstr "Feiceáil"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Ardchodarsnacht"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Téacs Mór"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Súmáil"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Léitheoir Scáileáin"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "Eochracha _Fuaime"
+
+#~ msgid "Hearing"
+#~ msgstr "Cloisteáil"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "Folái_rimh Amhairc"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Méarchlár Scáileáin"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "Cúnamh _Clóscríofa (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Pointeáil & Cliceáil"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "Eocracha L_uiche"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Cúnamh Cl_icéala"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Léitheoir Scáileáin"
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Léitheoir _Scáileáin"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Eochracha Fuaime"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Foláirimh Amhairc"
+
+#, fuzzy
+#~ msgid "_Test flash"
+#~ msgstr "LEATHANACH"
+
+#, fuzzy
+#~ msgid "Flash the _window title"
+#~ msgstr "Splanc barra teidil na _fuinneoige"
+
+#, fuzzy
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Splanc _scáileán ar fad"
+
+#, fuzzy
+#~ msgid "Typing Assist"
+#~ msgstr "Clóscríobh"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "Eochracha _Greamaitheacha"
+
+#, fuzzy
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr ""
+#~ "Dích_umasaigh eochracha greamaitheacha má bhrúitear dhá eochair le chéile"
+
+#, fuzzy
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Luas athbhrú eochracha"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Eochracha Malla"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#, fuzzy
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Luas athbhrú eochracha"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Eochracha _Preabtha"
+
+#, fuzzy
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Déan _neamhaird ar brúnna eochrach dúblacha tapa"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#, fuzzy
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Méarchlár"
+
+#, fuzzy
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr ""
+#~ "Is féidir gnéithe _inrochtaineachta a scoránú le haicearraí méarchláir"
+
+#, fuzzy
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "Cliceáil Tánaisteach Ionsamhailte"
+
+#, fuzzy
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "_Truicear cliceáil tánaisteach agus an príomhcnaipe á choinneáil síos"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#, fuzzy
+#~ msgid "Secondary click delay"
+#~ msgstr "Cliceáil Tánaisteach Ionsamhailte"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#, fuzzy
+#~ msgid "_Hover Click"
+#~ msgstr "Cliceáil Fanachta"
+
+#, fuzzy
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "_Cuir tús le cliceáil agus gluaiseacht an phointeora á stad"
+
+#~ msgid "D_elay:"
+#~ msgstr "M_oill:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#, fuzzy
+#~ msgid "Motion _threshold:"
+#~ msgstr "Tairseach _ghluaisne:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Beag"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Mór"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Gearr"
+
+#, fuzzy
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "Scáileán"
+
+#, fuzzy
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "Scáileán"
+
+#, fuzzy
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "Scáileán"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Fada"
+
+#, fuzzy
+#~ msgid "Full Screen"
+#~ msgstr "Scáileán"
+
+#, fuzzy
+#~ msgid "Left Half"
+#~ msgstr "Ar Chlé"
+
+#, fuzzy
+#~ msgid "Right Half"
+#~ msgstr "Ar Dheis"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Roghanna Súmála"
+
+#~ msgid "Zoom"
+#~ msgstr "Súmáil"
+
+#, fuzzy
+#~ msgid "Screen part:"
+#~ msgstr "Léitheoir Scáileáin Linux"
+
+#~ msgid "Color:"
+#~ msgstr "Dath:"
+
+#~ msgid "White on black:"
+#~ msgstr "Bán ar dhubh:"
+
+#~ msgid "Brightness:"
+#~ msgstr "Gile:"
+
+#~ msgid "Contrast:"
+#~ msgstr "Codarsnacht:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Dath"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Lán"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Íseal"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Ard"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Íseal"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Ard"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Maisíochtaí Datha:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Maisíochtaí Datha"
+
+#~ msgid "Login History"
+#~ msgstr "Stair Logála Isteach"
+
+#~ msgid "Add User Account"
+#~ msgstr "Cuir Cuntas Úsáideora Leis"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Bain Cuntas Úsáideora"
+
+#~ msgid "_Language"
+#~ msgstr "_Teanga"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Bainistigh cuntais úsáideora"
+
+#, fuzzy
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Fíordheimhnithe!"
+
+#, fuzzy, c-format
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Tá comhad darb ainm \"%s\" ann cheana."
+
+#, fuzzy
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Chun eochair aicearra a chur in eagar, cliceáil ar an ró comhfhreagrach "
+#~ "agus clóscríobh teaglaim eochracha nua, nó brúigh backspace chun glanta."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Suas"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Síos"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Neamhní"
+
+#, fuzzy
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Monatóir"
+
+#~ msgid "Output:"
+#~ msgstr "Aschur:"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d as %d"
+
+#, fuzzy
+#~ msgid "Display Mapping"
+#~ msgstr "Taispeáint"
+
+#~ msgid "Button"
+#~ msgstr "Cnaipe"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Táibléad Wacom"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Táibléad;Wacom;Stíleas;Scriosán;Luch;"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Sainroghanna Táibléid"
+
+#, fuzzy
+#~ msgid "_Help"
+#~ msgstr "Cabhair"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Níor braitheadh aon táibléad"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Ionsuigh nó cuir do tháibléad Wacom ar siúl"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Socruithe Bluetooth"
+
+#, fuzzy
+#~ msgid "Map Buttons…"
+#~ msgstr "Roghanna..."
+
+#, fuzzy
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Socruithe Luiche"
+
+#, fuzzy
+#~ msgid "Left Ring"
+#~ msgstr "Méar an fháinne chlé"
+
+#, fuzzy
+#~ msgid "Right Ring"
+#~ msgstr "Méar an fháinne dheas"
+
+#, fuzzy, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Méar an fháinne dheas"
+
+#, fuzzy
+#~ msgid "New shortcut…"
+#~ msgstr "Aicearra nua..."
+
+#, fuzzy
+#~ msgid "No Action"
+#~ msgstr "Gníomh"
+
+#, fuzzy
+#~ msgid "Scroll Up"
+#~ msgstr "Scrollú"
+
+#, fuzzy
+#~ msgid "Scroll Down"
+#~ msgstr "Scrollú"
+
+#, fuzzy
+#~ msgid "Scroll Left"
+#~ msgstr "Scrollú"
+
+#, fuzzy
+#~ msgid "Scroll Right"
+#~ msgstr "Scrollú"
+
+#, fuzzy
+#~ msgid "Display version number"
+#~ msgstr "Taispeáin Gile"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Cumasaigh mód foclach"
+
+#~ msgid "Show the overview"
+#~ msgstr "Taispeáin an foramharc"
+
+#~ msgid "Panel to display"
+#~ msgstr "Painéal le taispeáint"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PAINÉAL] [ARGÓINT…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Painéil atá ar fáil:"
+
+#~ msgid "Help"
+#~ msgstr "Cabhair"
+
+#~ msgid "Quit"
+#~ msgstr "Scoir"
+
+#~ msgid "All Settings"
+#~ msgstr "Gach Socrú"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Pearsanta"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Crua-Earraí"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Córas"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Sainroghanna;Socruithe;"

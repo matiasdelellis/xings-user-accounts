@@ -1,0 +1,5635 @@
+# translation of gnome-control-center.master.ru.po to Russian
+# translation of gnome-control-center to Russian
+#
+#
+# Max Valianskiy <maxcom@vinchi.ru>, 1998-99.
+# Sergey Panov <sipan@mit.edu>, 1999.
+# Valek Filippov <frob@df.ru>, 2000-2002.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007, 2009, 2010.
+# Maxim Popov <ravemax@hotbox.ru>, 2006.
+# Yuri Kozlov <kozlov.y@gmail.com>, 2008.
+# Valery Inozemtsev <inozemtsev@gmail.com>, 2009.
+# Alexandre Prokoudine <alexandre.prokoudine@gmail.com>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2012.
+# Dmitry Shachnev <mitya57@ubuntu.com>, 2012.
+# Mihail Gurin <mikegurin@yandex.ru>, 2015.
+# Yuri Myasoedov <ymyasoedov@yandex.ru>, 2012, 2014, 2015.
+# Stas Solovey <whats_up@tut.by>, 2012, 2013, 2014, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ru\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-12-30 00:49+0300\n"
+"Last-Translator: Stas Solovey <whats_up@tut.by>\n"
+"Language-Team: Русский <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Имя пользователя"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Полное имя"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Обычный"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Администратор"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Тип учётной записи"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Пароль"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+"_Разрешить пользователю установить пароль при следующем входе с систему"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "_Установите пароль сейчас"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Пароль"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Подтвердить"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Корпоративный вход в систему позволяет использовать существующую управляемую "
+"централизованно учётную запись пользователя на этом устройстве. Также можно "
+"использовать данную учётную запись для доступа к ресурсам компании в "
+"интернете."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Домен"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"Для добавления корпоративных учётных записей требуется подключение к сети."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Корпоративный вход"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Добавить пользователя"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Вход для администратора домена"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Для использования корпоративного входа этот компьютер необходимо\n"
+"внести в домен. Попросите системного администратора ввести сюда\n"
+"пароль домена."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "_Имя администратора"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Пароль администратора"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Левый большой палец"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Левый средний палец"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Левый безымянный палец"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Левый мизинец"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Правый большой палец"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Правый средний палец"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Правый безымянный палец"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Правый мизинец"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Включить вход в систему по отпечатку"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Правый указательный палец"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Левый указательный палец"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Другой палец:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Отпечаток успешно сохранён. Теперь можно войти в систему с помощью сканера "
+"отпечатков."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Пользователи"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Добавить или удалить пользователей или изменить пароль"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Вход;Имя;Отпечаток;Аватар;Логотип;Лицо;Пароль;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Изменить пароль"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Отменить"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Из_менить"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Новый пароль"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Новый пароль"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Текущий па_роль"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Разрешить пользователю изменить пароль при следующем входе с систему"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Установите пароль сейчас"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Добавить пользователя…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Параметры входа в систему"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Автоматический в_ход"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Вход по отпечатку"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Значок пользователя"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Последний вход"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Удалить учётную запись"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Другие учётные записи"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Не удалось удалить пользователя"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Не удалось аннулировать удалённого пользователя"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Нельзя удалить собственную учётную запись."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s всё ещё находится в системе"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Удаление пользователя, с незавершённым сеансом, может привести систему в "
+"противоречивое состояние."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Хотите сохранить файлы пользователя %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Можно сохранить домашнюю папку, почтовый ящик и временные файлы при удалении "
+"учётной записи пользователя."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Удалить файлы"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Сохранить файлы"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Действительно аннулировать удалённую учётную запись %s?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Удалить"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Учётная запись отключена"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Установить при следующем входе в систему"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Нет"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Авторизованный"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Не удалось связаться со службой учётных записей"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Убедитесь, что AccountService установлен и включён."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Чтобы изменить,\n"
+"сначала нажмите на значок *"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Создать учётную запись пользователя"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Чтобы создать учётную запись пользователя,\n"
+"сначала нажмите на значок *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Удалить выбранную учётную запись пользователя"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Чтобы удалить выбранную учётную запись пользователя,\n"
+"сначала нажмите на значок *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Моя учётная запись"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Новый пароль должен отличаться от старого."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Попробуйте изменить некоторые буквы и цифры."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Попробуйте изменить пароль немного больше."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Пароль не содержащий имя пользователя будет надёжнее."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Старайтесь избегать использования вашего имени в пароле."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Старайтесь избегать слов из которых состоит пароль."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Старайтесь избегать общих слов."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Старайтесь избегать перестановки существующих слов."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Попробуйте использовать больше чисел."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Попробуйте использовать больше заглавных букв."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Попробуйте использовать больше строчных букв."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+"Попробуйте использовать больше специальных символов, например знаки "
+"препинания."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Попробуйте использовать вперемешку буквы, цифры и знаки препинания."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Старайтесь избегать повторения одного и того же символа."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Старайтесь избегать повторения одного и того же символа: используйте "
+"вперемешку буквы, цифры и знаки препинания."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Старайтесь избегать последовательностей, например 1234 или abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Попробуйте использовать вперемешку буквы, цифры и знаки препинания."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Смешайте заглавные и строчные буквы несколько раз."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Хороший пароль! Добавление большего количества букв, цифр и знаков "
+"препинания сделает его надёжнее."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Сбой аутентификации"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Новый пароль слишком короткий"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Новый пароль слишком прост"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Старый и новый пароли слишком похожи"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Новый пароль уже недавно использовался."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Новый пароль должен содержать цифровые или специальные символы"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Новый пароль совпадает со старым"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Ваш пароль изменился с момента последней аутентификации!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "В новом пароле недостаточно различных символов"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Должно совпадать с веб-адресом провайдера вашей учётной записи."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Не удалось добавить учётную запись"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Пароли не совпадают."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Не удалось зарегистрировать учётную запись"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Нет поддерживаемого метода аутентификации в этом домене"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Не удалось подключить к домену"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Неправильное имя пользователя.\n"
+"Попробуйте ещё раз."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Неправильный пароль.\n"
+"Попробуйте ещё раз."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Не удалось войти в домен"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Не удалось найти домен. Может быть, он написан с ошибкой?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Отменить"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Добавить"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Обычный"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Администратор"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Доступ к устройству чтения запрещён. Свяжитесь с системным администратором."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Устройство уже используется."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Произошла внутренняя ошибка."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Выключено"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Включено"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Удалить зарегистрированные отпечатки?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Удалить отпечатки"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Удалить зарегистрированные отпечатки пальцев и запретить доступ по отпечатку?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Выполнено!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Не удалось получить доступ к устройству «%s»"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Не удалось снять отпечаток с устройства «%s»"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Не удалось получить доступ к устройствам сканирования отпечатков"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Для получения помощи свяжитесь с системным администратором."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Чтобы включить вход по отпечатку пальца, необходимо снять один или несколько "
+"образцов, используя устройство «%s»."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Выбор пальца"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Регистрация отпечатков пальцев"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Краткая информация"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "На этой неделе"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "На прошлой неделе"
+
+# fix для часов
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b."
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b. %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s — %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Сеанс завершён"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Сеанс начат"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s — активность учётной записи"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Выберите другой пароль."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Введите пароль ещё раз."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Не удалось изменить пароль"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Выбрать"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Найти дополнительные изображения"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Открыть"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Выключить изображение"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Сделать фотоснимок…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Найти дополнительные изображения…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Используется %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Не удалось автоматически присоединиться к этому типу домена"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Домен или realm не найден"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Не удалось войти как %s в домене %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Неправильный пароль, попробуйте ещё раз"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Не удалось подключиться к домену %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Данное имя пользователя не доступно. Попробуйте ввести другое."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Имя пользователя слишком длинное."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Имя пользователя не может начинаться с символа «-»."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Имя пользователя может состоять только из букв латинского алфавита в верхнем "
+"и нижнем регистре, цифр и следующих символов: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Используется для именования вашей домашней папки и не может быть изменено."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Сегодня"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Вчера"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b."
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b. %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Подтвердить новый пароль"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Попробуйте добавить ещё буквы, цифры и символы."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Надёжность: очень слабая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Надёжность: слабая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Надёжность: средняя"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Надёжность: хорошая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Надёжность: высокая"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Пароли не совпадают."
+
+#~ msgid "_Background"
+#~ msgstr "_Фон"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Меняется в течение дня"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Экран блокировки"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Мозаика"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Приближение"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "По центру"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Масштаб"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Заполнить"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Вместить"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Обои"
+
+#~ msgid "Colors"
+#~ msgstr "Цвета"
+
+#~ msgid "Select Background"
+#~ msgstr "Выбор фона"
+
+#~ msgid "Pictures"
+#~ msgstr "Изображения"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Изображения не найдены"
+
+#~ msgid "Home"
+#~ msgstr "Домашняя папка"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "Можно добавить изображения в папку %s и они будут показаны здесь"
+
+#~ msgid "_Select"
+#~ msgstr "_Выбрать"
+
+#~ msgid "multiple sizes"
+#~ msgstr "множество размеров"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Без фона рабочего стола"
+
+#~ msgid "Current background"
+#~ msgstr "Текущий фон"
+
+#~ msgid "Back­ground"
+#~ msgstr "Фон"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Изменить фоновое изображение на обои или фото"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Обои;Экран;Рабочий;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Выключить режим для _авиаперелётов"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Адаптеры Bluetooth не найдены"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Для использования Bluetooth подключите адаптер."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Адаптер Bluetooth выключен"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Включите для подключения устройств и передачи файлов."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Режим для авиаперелётов включён"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr ""
+#~ "Адаптер Bluetooth отключается при включённом режиме для авиаперелётов"
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Аппаратный режим для _авиаперелётов включён"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr "Для включения Bluetooth выключите режим для авиаперелётов."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Включение и отключение Bluetooth. Подключение устройств Bluetooth"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "общий;доступ;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "Поместите устройство калибровки на квадрат и нажмите «Запустить»"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Наведите устройство калибровки на место калибровки и нажмите «Продолжить»"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Наведите устройство калибровки на поверхность и нажмите «Продолжить»"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Закройте крышку ноутбука"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Произошла внутренняя ошибка, которая не может быть исправлена."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Необходимые для калибровки инструменты не установлены."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Ошибка при создании профиля."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Целевая точка белого не получена."
+
+#~ msgid "Complete!"
+#~ msgstr "Выполнено!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Сбой калибровки!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Можно убрать устройство калибровки."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Не трогайте устройство калибровки в процессе выполнения"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Экран ноутбука"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Встроенная веб-камера"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Монитор %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Сканер %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Камера %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Принтер %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Веб-камера %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Включить управление цветом для %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Показать цветовые профили для %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Неоткалиброванный"
+
+#~ msgid "Default: "
+#~ msgstr "По умолчанию: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Цветовое пространство: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Тестовый профиль: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Выберите файл профиля ICC"
+
+#~ msgid "_Import"
+#~ msgstr "_Импортировать"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Поддерживаемые профили ICC"
+
+#~ msgid "All files"
+#~ msgstr "Все файлы"
+
+#~ msgid "Screen"
+#~ msgstr "Экран"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Не удалось загрузить файл: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Профиль был загружен на:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Запишите этот URL."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "Перезапустите компьютер и загрузите обычную операционную систему."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Введите URL в адресную строку браузера, чтобы загрузить и установить "
+#~ "профиль."
+
+#~ msgid "Save Profile"
+#~ msgstr "Сохранить профиль"
+
+#~ msgid "_Save"
+#~ msgstr "_Сохранить"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Создать цветовой профиль для выбранного устройства"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Измерительный инструмент не обнаружен. Проверьте, что он включён и "
+#~ "правильно подключён."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Измерительный инструмент не поддерживает профилирование принтеров."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Этот тип устройств ещё не поддерживается."
+
+#~ msgid "Standard Space"
+#~ msgstr "Стандартное цветовое пространство"
+
+#~ msgid "Test Profile"
+#~ msgstr "Тестовый профиль"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Автоматический"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Низкое качество"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Среднее качество"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Высокое качество"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "RGB по умолчанию"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "CMYK по умолчанию"
+
+# Цветовое пространство
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Серое по умолчанию"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Предоставленные производителем данные заводской калибровки"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Полноэкранный режим коррекции не возможен с этим профилем"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Возможно этот профиль уже неточный"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Калибровка экрана"
+
+#~ msgid "_Start"
+#~ msgstr "_Начать"
+
+#~ msgid "_Resume"
+#~ msgstr "_Продолжить"
+
+#~ msgid "_Done"
+#~ msgstr "_Готово"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Калибровка экрана"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "После калибровки будет создан профиль, который можно использовать для "
+#~ "управления цветом экрана. Чем дольше калибровка, тем лучше качество "
+#~ "цветового профиля."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Вы не сможете использовать ваш компьютер во время выполнения калибровки."
+
+#~ msgid "Quality"
+#~ msgstr "Качество"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Приблизительное время"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Качество калибровки"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Выберите используемое для калибровки измерительное устройство."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Устройство калибровки"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Выберите тип подключённого монитора."
+
+#~ msgid "Display Type"
+#~ msgstr "Тип монитора"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Выберите целевую точку белого данного экрана. Большинство экранов "
+#~ "откалибровано на цветовую температуру освещения D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Профиль точки белого"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Установите яркость экрана, которую обычно используете. Управление цветом "
+#~ "будет наиболее точным на этом уровне яркости."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Кроме того, можно использовать уровень яркости, который используется с "
+#~ "одним из других профилей для данного устройства."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Яркость экрана"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Цветовой профиль можно использовать на различных компьютерах или даже "
+#~ "создавать профили для различных режимов освещённости."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Имя профиля:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Имя профиля"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Профиль успешно создан!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Копировать профиль"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Требуется носитель с возможностью записи"
+
+#~ msgid "Upload profile"
+#~ msgstr "Загрузить профиль"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Требуется подключение к Интернету"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Данные инструкции об использовании цветовых профилей применимы для систем "
+#~ "<a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> и <a href="
+#~ "\"windows\">Microsoft Windows</a>."
+
+#~ msgid "Add profile"
+#~ msgstr "Добавить профиль"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Импортировать файл…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Обнаружены неполадки. Профиль может работать некорректно. <a href="
+#~ "\"\">Показать подробности.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Для управления цветом каждому устройству требуется обновление цветового "
+#~ "профиля."
+
+#~ msgid "Learn more"
+#~ msgstr "Узнать больше"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Узнать больше об управлении цветом"
+
+#~ msgid "_Set for all users"
+#~ msgstr "_Установить для всех пользователей"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Установить этот профиль для всех пользователей этого компьютера"
+
+#~ msgid "_Enable"
+#~ msgstr "_Включить"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Добавить профиль"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Калибровать…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Калибровать устройство"
+
+#~ msgid "_Remove profile"
+#~ msgstr "У_далить профиль"
+
+#~ msgid "_View details"
+#~ msgstr "П_одробности"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Устройства с возможностью управления цветом не обнаружены"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Проектор"
+
+#~ msgid "Plasma"
+#~ msgstr "Плазменная панель"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL-подсветка)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED-подсветка)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (белая LED-подсветка)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "LCD с расширенной цветовой палитрой (CCFL-подсветка)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "LCD с расширенной цветовой палитрой (RGB LED-подсветка)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Высокое"
+
+# Выключать экран при простое после:
+#~ msgid "40 minutes"
+#~ msgstr "40 минут"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Среднее"
+
+# Выключать экран при простое после:
+#~ msgid "30 minutes"
+#~ msgstr "30 минут"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Низкое"
+
+# Выключать экран при простое после:
+#~ msgid "15 minutes"
+#~ msgstr "15 минут"
+
+#~ msgid "Native to display"
+#~ msgstr "Нативный для экрана"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (Полиграфия и издательская деятельность)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Фото и графика)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Цвет"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "Калибровка цвета устройств, таких как экраны, камеры или принтеры"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Цвет;ICC;Профиль;Калибровка;Принтер;Экран;"
+
+#~ msgid "Other…"
+#~ msgstr "Другой…"
+
+#~ msgid "More…"
+#~ msgstr "Ещё…"
+
+#~ msgid "No languages found"
+#~ msgstr "Ни один язык не найден"
+
+#~ msgid "Language"
+#~ msgstr "Язык"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgid "Year"
+#~ msgstr "Год"
+
+# fix даты
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %b. %Y, %l:%M %p"
+
+# fix даты
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %b. %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Date & Time"
+#~ msgstr "Дата и время"
+
+#~ msgid "Hour"
+#~ msgstr "Часы"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Минуты"
+
+#~ msgid "Time Zone"
+#~ msgstr "Часовой пояс"
+
+#~ msgid "Search for a city"
+#~ msgstr "Поиск местоположения"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Автоматическое определение _даты и времени"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Требуется подключение к Интернету"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Автоматическое определение _часового пояса"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Дата и _время"
+
+#~ msgid "Time Z_one"
+#~ msgstr "_Часовой пояс"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Формат времени"
+
+#~ msgid "24-hour"
+#~ msgstr "24-часовой"
+
+#~ msgid "AM / PM"
+#~ msgstr "12-часовой"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Изменить дату и время, включая часовой пояс"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Часы;Часовой;пояс;Местоположение;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Изменить системное время и дату"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Для изменения времени или даты требуется аутентификация."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Крышка ноутбука закрыта"
+
+#~ msgid "Mirrored"
+#~ msgstr "Дублируемый"
+
+#~ msgid "Primary"
+#~ msgstr "Основной"
+
+#~ msgid "Off"
+#~ msgstr "Выключено"
+
+#~ msgid "Secondary"
+#~ msgstr "Дополнительный"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Упорядочить сгруппированные экраны"
+
+#~ msgid "_Apply"
+#~ msgstr "_Применить"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Перетащите экраны, чтобы изменить их порядок"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Гц (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Гц"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Повернуть против часовой стрелки на 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Повернуть на 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Повернуть по часовой стрелке на 90°"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Соотношение сторон"
+
+#~ msgid "Resolution"
+#~ msgstr "Разрешение"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Отрегулировать для ТВ"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Частота обновления"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Показывать верхнюю панель и режим обзора на этом дисплее"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Дополнительный экран"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Объединить этот дисплей с другим для увеличения рабочего пространства"
+
+#~ msgid "Presentation"
+#~ msgstr "Презентация"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Показывать только слайд-шоу и мультимедиа"
+
+#~ msgid "Mirror"
+#~ msgstr "Зеркало"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Показывать текущий вид на обоих дисплеях"
+
+#~ msgid "Turn Off"
+#~ msgstr "Выключить"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Не использовать этот монитор"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Не удалось получить информацию об экране"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Расположить объединённые дисплеи"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Мониторы"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Выберите, как использовать подключённые мониторы и проекторы"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Панель;Проектор;xrandr;Экран;Разрешение;Обновить;Монитор;"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестно"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-бит (ID сборки: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-бит (ID сборки: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-бит"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-бит"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Спрашивать, что делать"
+
+#~ msgid "Do nothing"
+#~ msgstr "Ничего не делать"
+
+#~ msgid "Open folder"
+#~ msgstr "Открыть папку"
+
+#~ msgid "Other Media"
+#~ msgstr "Другой носитель"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Выберите приложение для звуковых компакт-дисков"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Выберите приложения для видео DVD"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Выберите приложение, запускаемое при подключении музыкального плеера"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Выберите приложение, запускаемое при подключении камеры"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Выберите приложение для компакт-дисков с программами"
+
+#~ msgid "audio DVD"
+#~ msgstr "звуковой DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "чистый диск Blu-ray"
+
+#~ msgid "blank CD disc"
+#~ msgstr "чистый компакт-диск"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "чистый диск DVD"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "чистый диск HD DVD"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "видеодиск Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "устройство чтения электронных книг"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "видеодиск HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "диск Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "компакт-диск Super Video"
+
+#~ msgid "Video CD"
+#~ msgstr "видеодиск VCD"
+
+#~ msgid "Windows software"
+#~ msgstr "приложение Windows"
+
+#~ msgid "Section"
+#~ msgstr "Раздел"
+
+#~ msgid "Overview"
+#~ msgstr "Обзор"
+
+#~ msgid "Default Applications"
+#~ msgstr "Приложения по умолчанию"
+
+#~ msgid "Removable Media"
+#~ msgstr "Съёмный носитель"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Версия %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Подробности"
+
+#~ msgid "View information about your system"
+#~ msgstr "Просмотр информации о системе"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "устройство;система;информация;память;процессор;версия;умолчанию;"
+#~ "приложение;альтернативный;предпочтительный;cd;dvd;usb;аудио;видео;диск;"
+#~ "съёмный;съемный;носитель;автозапуск;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Выберите способ обработки другого носителя"
+
+#~ msgid "_Action:"
+#~ msgstr "_Действие:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Тип:"
+
+#~ msgid "Device name"
+#~ msgstr "Название устройства"
+
+#~ msgid "Memory"
+#~ msgstr "Память"
+
+#~ msgid "Processor"
+#~ msgstr "Процессор"
+
+#~ msgid "Base system"
+#~ msgstr "Базовая система"
+
+#~ msgid "Disk"
+#~ msgstr "Диск"
+
+#~ msgid "Calculating…"
+#~ msgstr "Вычисление…"
+
+#~ msgid "Graphics"
+#~ msgstr "Графика"
+
+#~ msgid "Virtualization"
+#~ msgstr "Виртуализация"
+
+#~ msgid "Check for updates"
+#~ msgstr "Проверить наличие обновлений"
+
+#~ msgid "_Web"
+#~ msgstr "_Интернет"
+
+#~ msgid "_Mail"
+#~ msgstr "_Почта"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Календарь"
+
+#~ msgid "M_usic"
+#~ msgstr "_Музыка"
+
+#~ msgid "_Video"
+#~ msgstr "_Видео"
+
+#~ msgid "_Photos"
+#~ msgstr "_Фото"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Выберите способ обработки носителя"
+
+#~ msgid "CD _audio"
+#~ msgstr "_Звуковой компакт-диск"
+
+#~ msgid "_DVD video"
+#~ msgstr "_Видео-DVD"
+
+#~ msgid "_Music player"
+#~ msgstr "_Музыкальный плеер"
+
+#~ msgid "_Software"
+#~ msgstr "_Приложение"
+
+#~ msgid "_Other Media…"
+#~ msgstr "Д_ругой носитель…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr ""
+#~ "_Никогда не спрашивать и не запускать программы при подключении носителя"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Звук и носители"
+
+#~ msgid "Volume mute"
+#~ msgstr "Выключить звук"
+
+#~ msgid "Volume down"
+#~ msgstr "Уменьшить громкость"
+
+#~ msgid "Volume up"
+#~ msgstr "Увеличить громкость"
+
+#~ msgid "Launch media player"
+#~ msgstr "Запустить медиапроигрыватель"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Воспроизвести (или воспроизвести/приостановить)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Приостановить воспроизведение"
+
+#~ msgid "Stop playback"
+#~ msgstr "Остановить воспроизведение"
+
+#~ msgid "Previous track"
+#~ msgstr "Предыдущая дорожка"
+
+#~ msgid "Next track"
+#~ msgstr "Следующая дорожка"
+
+#~ msgid "Eject"
+#~ msgstr "Извлечь"
+
+#~ msgid "Typing"
+#~ msgstr "Ввод"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Переключиться на следующий источник ввода"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Переключиться на предыдущий источник ввода"
+
+#~ msgid "Launchers"
+#~ msgstr "Запуск приложений"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Запустить справочный браузер"
+
+#~ msgid "Settings"
+#~ msgstr "Параметры"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Запустить калькулятор"
+
+#~ msgid "Launch email client"
+#~ msgstr "Запустить клиент эл. почты"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Запустить веб-браузер"
+
+#~ msgid "Home folder"
+#~ msgstr "Домашняя папка"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Найти"
+
+#~ msgid "Screenshots"
+#~ msgstr "Снимки экрана"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Сохранять снимок экрана в папку «$PICTURES»"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Сохранять снимок экрана с окном в папку «$PICTURES»"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Сохранять снимок экрана с областью в папку «$PICTURES»"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Скопировать снимок экрана в буфер обмена"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Скопировать снимок окна в буфер обмена"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Скопировать снимок области экрана в буфер обмена"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Записать короткий скринкаст"
+
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Log out"
+#~ msgstr "Завершить сеанс"
+
+#~ msgid "Lock screen"
+#~ msgstr "Заблокировать экран"
+
+#~ msgid "Universal Access"
+#~ msgstr "Универсальный доступ"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Включить или выключить увеличение"
+
+#~ msgid "Zoom in"
+#~ msgstr "Приблизить"
+
+#~ msgid "Zoom out"
+#~ msgstr "Отдалить"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Включить или выключить чтение с экрана"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Включить или выключить экранную клавиатуру"
+
+#~ msgid "Increase text size"
+#~ msgstr "Увеличить размер текста"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Уменьшить размер текста"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Включить или выключить высокую контрастность"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Дополнительные комбинации клавиш"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Клавиша альтернативных символов"
+
+#~ msgid "Compose Key"
+#~ msgstr "Композиционная клавиша"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Клавиша-модификатор переключает источник ввода"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Сбросить комбинацию на значение по умолчанию"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s уже используется для <b>%s</b>. Если применить, комбинация для %s "
+#~ "будет отключена"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Установить пользовательскую комбинацию клавиш"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Установить комбинацию клавиш"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Введите новую комбинацию для изменения <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Добавить пользовательскую комбинацию клавиш"
+
+# спецсимвол-невидимый перенос тут между стрелок <­>, копировать через vim или nano
+#~ msgid "Key­board"
+#~ msgstr "Клавиа­тура"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "Просмотр и изменение комбинаций клавиш, а также настройка ввода"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Комбинация;Повтор;Мигание;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Комбинации клавиш не найдена"
+
+#~ msgid "Try a different search"
+#~ msgstr "Попробуйте другой поисковый запрос"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Нажмите клавишу Esc для отмены."
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Command"
+#~ msgstr "Команда"
+
+#~ msgid "Shortcut"
+#~ msgstr "Комбинация"
+
+#~ msgid "Edit"
+#~ msgstr "Правка"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Remove"
+#~ msgstr "Удалить"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Введите новую комбинацию"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Replace"
+#~ msgstr "Заменить"
+
+#~ msgid "Set"
+#~ msgstr "Установить"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Проверить параметры"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Мышь и сенсорная панель"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Изменение чувствительности мыши или сенсорной панели, а также настройки "
+#~ "кнопок для правши или левши"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "Трэкпад;Указатель;Щелчок;Нажатие;Двойной;Кнопка;Трэкбол;Прокрутка;"
+
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgid "Primary Button"
+#~ msgstr "Основная кнопка"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr ""
+#~ "Устанавливает порядок физических кнопок на мышке и сенсорной панели."
+
+#~ msgid "Left"
+#~ msgstr "Левая"
+
+#~ msgid "Right"
+#~ msgstr "Правая"
+
+#~ msgid "Mouse"
+#~ msgstr "Мышь"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Скорость указателя мыши"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Задержка двойного щелчка"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Естественная прокрутка"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr ""
+#~ "При прокрутке перемещается содержимое на экране, а не полоса прокрутки."
+
+#~ msgid "Touchpad"
+#~ msgstr "Сенсорная панель"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Скорость указателя сенсорной панели"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Нажатие касанием"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Прокрутка двумя пальцами"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Участки прокрутки по краям"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Проверьте щелчок, двойной щелчок, прокрутку"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Сделайте пять щелчков мышью, чтобы открыть «пасхальное яйцо»."
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Двойной щелчок, основная кнопка"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Один щелчок, основная кнопка"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Двойной щелчок, средняя кнопка"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Один щелчок, средняя кнопка"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Двойной щелчок, вторичная кнопка"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Один щелчок, вторичная кнопка"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Режим для _авиаперелётов"
+
+#~ msgid "Network proxy"
+#~ msgstr "Сетевая прокси-служба"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "VPN %s"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "К сожалению, что-то пошло не так. Обратитесь к поставщику программного "
+#~ "обеспечения."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "NetworkManager должен быть запущен."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Безопасность 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "страница 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "А_нонимная аутентификация"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Внутренняя _аутентификация"
+
+#~ msgid "page 2"
+#~ msgstr "страница 2"
+
+#~ msgid "Security"
+#~ msgstr "Безопасность"
+
+#~ msgid "automatic"
+#~ msgstr "автоматический"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Профиль %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Предприятие"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Never"
+#~ msgstr "Никогда"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i день назад"
+#~ msgstr[1] "%i дня назад"
+#~ msgstr[2] "%i дней назад"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Мб/с"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Слабый"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Средний"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Хороший"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Отличный"
+
+#~ msgid "Details"
+#~ msgstr "Подробности"
+
+#~ msgid "Identity"
+#~ msgstr "Идентификация"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Netmask"
+#~ msgstr "Маска сети"
+
+#~ msgid "Gateway"
+#~ msgstr "Шлюз"
+
+#~ msgid "Delete Address"
+#~ msgstr "Удалить адрес"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Удалить сервер DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Метрика"
+
+#~ msgid "Delete Route"
+#~ msgstr "Удалить маршрут"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Автоматический (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Вручную"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Только для локальной сети"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Префикс"
+
+#~ msgid "Automatic"
+#~ msgstr "Автоматический"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Автоматический, только DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Сбросить"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "40/128-битный ключ WEP (Hex или ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "128-битная парольная фраза WEP"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Динамический WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "Персональный WPA и WPA2"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "Корпоративный WPA и WPA2"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Мощность сигнала"
+
+#~ msgid "Link speed"
+#~ msgstr "Скорость передачи данных"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Адрес IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Адрес IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Аппаратный адрес"
+
+#~ msgid "Default Route"
+#~ msgstr "Маршрут по умолчанию"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Последнее использование"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Витая пара"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Интерфейс AUI"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Интерфейс MII"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Мб/с"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Мб/с"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Гб/с"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Гб/с"
+
+#~ msgid "_Name"
+#~ msgstr "_Название"
+
+#~ msgid "_MAC Address"
+#~ msgstr "MAC-а_дрес"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Клонированный адрес"
+
+#~ msgid "bytes"
+#~ msgstr "байт"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Сделать доступным для других _пользователей"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Подключаться _автоматически"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Зона брандмауэра"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Зона определяет уровень доверия соединению"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Адреса"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Автоматический DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Маршруты"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Автоматические маршруты"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Использовать это подключение _только для ресурсов в этой сети"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Не удалось открыть редактор соединений"
+
+#~ msgid "New Profile"
+#~ msgstr "Создать профиль"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Импортировать из файла…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Добавить VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Сбросить"
+
+#~ msgid "_Forget"
+#~ msgstr "_Забыть"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Сбросить параметры этой сети, включая пароли, и запомнить её в качестве "
+#~ "предпочтительной сети"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Удалить все параметры, относящиеся к этой сети, и не пытаться "
+#~ "автоматически подключаться к этой сети"
+
+#~ msgid "S_ecurity"
+#~ msgstr "_Безопасность"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Не удалось импортировать соединение VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Невозможно прочитать файл «%s» или файл содержит некорректную информацию "
+#~ "о VPN-соединении\n"
+#~ "\n"
+#~ "Ошибка: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Выберите файл для импортирования"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Файл с именем «%s» уже существует."
+
+#~ msgid "_Replace"
+#~ msgstr "_Заменить"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Заменить %s сохраняемым VPN-соединением?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Не удалось экспортировать соединение VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Не удалось импортировать VPN-соединение «%s» в %s.\n"
+#~ "\n"
+#~ "Ошибка: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Экспортировать VPN-соединение"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Ошибка: не удалось загрузить редактор VPN-соединений)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Моя домашняя сеть"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Сделать доступным для _других пользователей"
+
+#~ msgid "Net­work"
+#~ msgstr "Сеть"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Управление подключением к Интернету"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Сеть;Беспроводная;Wi-Fi;Wifi;IP;LAN;Прокси;WAN;Мобильная;Модем;Bluetooth;"
+#~ "vpn;DNS;"
+
+#~ msgid "never"
+#~ msgstr "никогда"
+
+#~ msgid "today"
+#~ msgstr "сегодня"
+
+#~ msgid "yesterday"
+#~ msgstr "вчера"
+
+#~ msgid "IP Address"
+#~ msgstr "Адрес IP"
+
+#~ msgid "Last used"
+#~ msgstr "Последнее использование"
+
+#~ msgid "Wired"
+#~ msgstr "Проводное"
+
+#~ msgid "Options…"
+#~ msgstr "Параметры…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Добавить новое подключение"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Если помимо беспроводного доступа в Интернет имеется ещё какое-либо "
+#~ "подключение к Интернету, беспроводную точку доступа можно настроить для "
+#~ "подключения к Интернету других пользователей."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Переключение на беспроводную точку доступа приведёт к отключению от <b>"
+#~ "%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Доступ к Интернету по беспроводному каналу возможен только при "
+#~ "отключённой точке доступа."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Остановить точку доступа и отключить всех пользователей?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Остановить точку доступа"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr ""
+#~ "Использование в качестве точки доступа запрещено системной политикой"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Беспроводное устройство не поддерживает режим точки доступа"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Сетевые данные для выделенных сетей, включая пароли и любые "
+#~ "пользовательские настройки, будут утеряны."
+
+#~ msgid "History"
+#~ msgstr "История"
+
+#~ msgid "_Close"
+#~ msgstr "_Закрыть"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Забыть"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "При отсутствии URL для автоматической настройки используется метод Web "
+#~ "Proxy Autodiscovery."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr ""
+#~ "Не рекомендуется использовать для непроверенных общедоступных сетей."
+
+#~ msgid "Proxy"
+#~ msgstr "Прокси"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Добавить профиль…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Провайдер"
+
+#~ msgid "Network"
+#~ msgstr "Сеть"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Отсутствует"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Ручной"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Автоматический"
+
+#~ msgid "_Method"
+#~ msgstr "_Метод"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "URL _автоматической настройки"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Прокси для H_TTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Прокси для H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Прокси для _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Узел S_ocks"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Игнорировать узлы"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Порт прокси для HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Порт прокси для HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Порт прокси для FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Порт прокси для Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "Выключить устройство"
+
+#~ msgid "Add Device"
+#~ msgstr "Добавить устройство"
+
+#~ msgid "Remove Device"
+#~ msgstr "Удалить устройство"
+
+#~ msgid "VPN Type"
+#~ msgstr "Тип VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Имя группы"
+
+#~ msgid "Group Password"
+#~ msgstr "Пароль группы"
+
+#~ msgid "Username"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Выключить VPN-соединение"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Автоматическое _подключение"
+
+#~ msgid "details"
+#~ msgstr "подробности"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Показать п_ароль"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Доступно для других пользователей"
+
+#~ msgid "identity"
+#~ msgstr "идентичность"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Только автоматические адреса (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Только для локальной сети"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Общий с другими компьютерами"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Игнорировать автоматически полученные маршруты"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Клонированный MAC-адрес"
+
+#~ msgid "hardware"
+#~ msgstr "аппаратура"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Сбросить параметры этого соединения в значения по умолчанию и запомнить "
+#~ "его в качестве предпочтительного."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Удалить все данные, относящиеся к этой сети, и не подключаться к ней "
+#~ "автоматически."
+
+#~ msgid "reset"
+#~ msgstr "сбросить"
+
+#~ msgid "Hardware"
+#~ msgstr "Аппаратура"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Точка доступа Wi-Fi"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Включить"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Выключить Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Сделать точкой доступа…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Подключиться к скрытой сети…"
+
+#~ msgid "_History"
+#~ msgstr "_История"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Выключите, если хотите подключиться к беспроводной сети"
+
+#~ msgid "Network Name"
+#~ msgstr "Название сети"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Подключённые устройства"
+
+#~ msgid "Security type"
+#~ msgstr "Тип безопасности"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Инфраструктура"
+
+#~ msgid "Status unknown"
+#~ msgstr "Состояние неизвестно"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Неуправляемое"
+
+#~ msgid "Unavailable"
+#~ msgstr "Недоступно"
+
+#~ msgid "Connecting"
+#~ msgstr "Подключение"
+
+#~ msgid "Authentication required"
+#~ msgstr "Требуется аутентификация"
+
+#~ msgid "Connected"
+#~ msgstr "Подключено"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Отключение"
+
+#~ msgid "Connection failed"
+#~ msgstr "Сбой подключения"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Состояние неизвестно (отсутствует)"
+
+#~ msgid "Not connected"
+#~ msgstr "Не подключено"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Сбой настройки"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Сбой настройки IP"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Истёк срок настроек IP"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Требуется пароль, но он не задан"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "Клиент 802.1x отключён"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Сбой настройки клиента 802.1x"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Сбой клиента 802.1x"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "Клиент 802.1x слишком долго ожидал аутентификации"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Не удалось запустить службу PPP"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "Служба PPP отключена"
+
+#~ msgid "PPP failed"
+#~ msgstr "Сбой PPP"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Не удалось запустить клиент DHCP"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Ошибка клиента DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Сбой клиента DHCP"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Не удалось запустить службу общего подключения"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Сбой службы общего подключения"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Не удалось запустить службу AutoIP"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Ошибка службы AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Сбой службы AutoIP"
+
+#~ msgid "Line busy"
+#~ msgstr "Линия занята"
+
+#~ msgid "No dial tone"
+#~ msgstr "Нет гудка в линии"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Невозможно установить несущую"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Время, отведённое на звонок, истекло"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Не удалось дозвониться"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Не удалось инициализировать модем"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Не удалось выбрать указанный APN"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Нет сетей для поиска"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Отказано в регистрации в сети"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Время в регистрации сети истекло"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Не удалось зарегистрироваться в запрошенной сети"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Сбой проверки PIN"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Возможно, отсутствует микропрограмма устройства"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Подключение пропало"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Предполагалось, что соединение существует"
+
+#~ msgid "Modem not found"
+#~ msgstr "Модем не найден"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Сбой подключения по Bluetooth"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "Не вставлена SIM-карта"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Требуется SIM Pin"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Требуется SIM Puk"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Некорректный SIM"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Сбой зависимости подключения"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Отсутствует прошивка"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Кабель не подключён"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "неизвестная ошибка в безопасности 802.1x (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "файлы не выбраны"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "неизвестная ошибка проверки файла ЕАР-методом"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr "DER, PEM, или приватные ключи PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Сертификаты DER или PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "отсутствует файл EAP-FAST PAC"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Выберите PAC-файл"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "Файлы PAC (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Анонимный"
+
+#~ msgid "Authenticated"
+#~ msgstr "Аутентифицированный"
+
+#~ msgid "Both"
+#~ msgstr "Оба"
+
+#~ msgid "PAC _file"
+#~ msgstr "_Файл PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Внутренняя аутентификация"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Разрешить автоматическое _выделение ресурсов PAC"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "отсутствует имя пользователя EAP-LEAP"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "отсутствует пароль EAP-LEAP"
+
+#~ msgid "Sho_w password"
+#~ msgstr "_Показывать пароль"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "недействительный сертификат EAP-PEAP CA: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "недействительный сертификат EAP-PEAP CA: сертификат не указан"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Выберите сертификат центра сертификации"
+
+#~ msgid "Version 0"
+#~ msgstr "Версия 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Версия 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "Сертификат C_A"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "Сертификат CA не _требуется"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Версия PEAP"
+
+#~ msgid "missing EAP username"
+#~ msgstr "отсутствует имя пользователя EAP"
+
+#~ msgid "missing EAP password"
+#~ msgstr "отсутствует пароль EAP"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "отсутствует идентичность EAP-TLS"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "недействительный сертификат EAP-TLS CA: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "недействительный сертификат EAP-TLS CA: сертификат не указан"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "недействительный пароль EAP-TLS: пароль отсутствует"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "недействительный секретный ключ EAP-TLS: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "недействительный пользовательский сертификат EAP-TLS: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Незашифрованные закрытые ключи являются небезопасными"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Кажется, выбранный приватный ключ не защищён паролем. Это может привести "
+#~ "к компрометированию ваших учётных данных. Выберите приватный ключ, "
+#~ "защищённый паролем.\n"
+#~ "\n"
+#~ "(Вы можете защитить приватный ключ с помощью openssl)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Выберите свой персональный сертификат"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Выберите ваш приватный ключ"
+
+#~ msgid "I_dentity"
+#~ msgstr "_Подлинность"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Сертификат пользователя"
+
+#~ msgid "Private _key"
+#~ msgstr "Приватный _ключ"
+
+#~ msgid "_Private key password"
+#~ msgstr "_Пароль приватного ключа"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "недействительный сертификат EAP-TTLS CA: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "недействительный сертификат EAP-TTLS CA: сертификат не указан"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Неизвестная ошибка проверки безопасности 802.1x"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Туннелированный TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Защищённый EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "А_утентификация"
+
+#~ msgid "missing leap-username"
+#~ msgstr "отсутствует leap-имя пользователя"
+
+#~ msgid "missing leap-password"
+#~ msgstr "отсутствует leap-пароль"
+
+#~ msgid "missing wep-key"
+#~ msgstr "отсутствует wep-ключ"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "недействительный wep-ключ: ключ с длиной %zu должен содержать только "
+#~ "шестнадцатеричные цифры"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "недействительный wep-ключ: ключ с длиной %zu должен содержать только "
+#~ "символы ASCII"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "недействительный wep-ключ: ключ с неверной длиной %zu. Ключ должен быть "
+#~ "длины 5/13 (ASCII) или 10/26 (HEX)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "недействительный wep-ключ: парольная фраза не может быть пустой"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "недействительный wep-ключ: парольная фраза должна быть короче 64 символов"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (по умолчанию)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Open System"
+
+#~ msgid "Shared Key"
+#~ msgstr "Общий ключ"
+
+#~ msgid "_Key"
+#~ msgstr "_Ключ"
+
+#~ msgid "Sho_w key"
+#~ msgstr "_Показать ключ"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "_Индекс WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "недействительный wpa-psk: ключ неверной длины %zu. Должен быть [8,63] "
+#~ "байт или 64 шестнадцатеричных цифр"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "недействительный wpa-psk: невозможно интерпретировать ключ с 64 байт как "
+#~ "шестнадцатеричный"
+
+#~ msgid "_Type"
+#~ msgstr "_Тип"
+
+#~ msgid "On"
+#~ msgstr "Включено"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "У_ведомления"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "_Звуковые уведомления"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "В_сплывающие уведомления"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "По_казывать подробности в всплывающих уведомлениях"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Уведомления на _экране блокировки"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Показывать _подробности уведомлений на заблокированном экране"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Уведомле­ния"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Управление отображением и содержанием уведомлений"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Уведомления;Всплывающее;Сообщение;Лоток;Всплывающее;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Всп_лывающее уведомление"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Уведомления на экране _блокировки"
+
+#~ msgid "Applications"
+#~ msgstr "Приложения"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Другое"
+
+#~ msgid "Add Account"
+#~ msgstr "Добавление учётной записи"
+
+#~ msgid "Mail"
+#~ msgstr "Почта"
+
+#~ msgid "Calendar"
+#~ msgstr "Календарь"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакты"
+
+#~ msgid "Chat"
+#~ msgstr "Чат"
+
+#~ msgid "Resources"
+#~ msgstr "Ресурсы"
+
+#~ msgid "Error creating account"
+#~ msgstr "Ошибка при создании учётной записи"
+
+#~ msgid "Error removing account"
+#~ msgstr "Ошибка при удалении учётной записи"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Действительно удалить учётную запись?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Это не приведёт к удалению учётной записи на сервере."
+
+#~ msgid "_Remove"
+#~ msgstr "_Удалить"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Сетевые учётные записи"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "Подключиться к сетевым учётным записям и решить для чего их использовать"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Онлайн;Чат;Календарь;Почта;Контакт;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Нет ни одной настроенной сетевой учётной записи"
+
+#~ msgid "Add an online account"
+#~ msgstr "Добавить сетевую учётную запись"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Добавление учётной записи позволит вашим приложениям получать доступ к "
+#~ "документам, почте, контактам, календарю, чату и многому другому."
+
+#~ msgid "Unknown time"
+#~ msgstr "Время неизвестно"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i минута"
+#~ msgstr[1] "%i минуты"
+#~ msgstr[2] "%i минут"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i час"
+#~ msgstr[1] "%i часа"
+#~ msgstr[2] "%i часов"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "час"
+#~ msgstr[1] "часа"
+#~ msgstr[2] "часов"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "минута"
+#~ msgstr[1] "минуты"
+#~ msgstr[2] "минут"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s до полного заряда"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Внимание: осталось %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "осталось %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Полностью заряжена"
+
+#~ msgid "Empty"
+#~ msgstr "Батарея разряжена"
+
+#~ msgid "Charging"
+#~ msgstr "Зарядка"
+
+#~ msgid "Discharging"
+#~ msgstr "Разрядка"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Основная"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Дополнительная"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Беспроводная мышь"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Беспроводная клавиатура"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Источник бесперебойного питания"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "КПК"
+
+#~ msgid "Cellphone"
+#~ msgstr "Мобильный телефон"
+
+#~ msgid "Media player"
+#~ msgstr "Медиапроигрыватель"
+
+#~ msgid "Tablet"
+#~ msgstr "Планшет"
+
+#~ msgid "Computer"
+#~ msgstr "Компьютер"
+
+#~ msgid "Battery"
+#~ msgstr "Батарея"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Зарядка"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Внимание"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Низкий"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Хороший"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Полностью заряжена"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Полностью разряжена"
+
+#~ msgid "Batteries"
+#~ msgstr "Батареи"
+
+#~ msgid "When _idle"
+#~ msgstr "При п_ростое"
+
+#~ msgid "Power Saving"
+#~ msgstr "Энергосбережение"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "Яркость _экрана"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Автоматическая регулировка яркости"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Яркость подсветки _клавиатуры"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "У_меньшать яркость экрана при простое"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Выключение экрана"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Выключите Wi-Fi для уменьшения энергопотребления."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Мобильный Интернет"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Выключите адаптер мобильного широкополосного доступа (3G, 4G, WiMax и т."
+#~ "д.) для уменьшения энергопотребления."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "При работе от батареи"
+
+#~ msgid "When plugged in"
+#~ msgstr "При подключении"
+
+#~ msgid "Suspend"
+#~ msgstr "Перевести в режим ожидания"
+
+#~ msgid "Hibernate"
+#~ msgstr "Перевести в режим гибернации"
+
+#~ msgid "Nothing"
+#~ msgstr "Ничего не делать"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Режим ожидания и кнопка выключения"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Автоматический режим ожидания"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Автоматический режим ожидания"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_При нажатии кнопки выключения"
+
+#~ msgid "Devices"
+#~ msgstr "Устройства"
+
+# перенос, иначе не влазит
+#~ msgid "Po­wer"
+#~ msgstr "Электро-­питание"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Просмотр состояния батареи и изменение параметров энергосбережения"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Электропитание;Спящий;Ждущий;Батарея;Яркость;Затемнение;Экран;DPMS;"
+#~ "Бездействующий;"
+
+# Выключать экран при простое после:
+#~ msgid "45 minutes"
+#~ msgstr "45 минут"
+
+# Выключать экран при простое после:
+#~ msgid "1 hour"
+#~ msgstr "1 час"
+
+# Выключать экран при простое после:
+#~ msgid "80 minutes"
+#~ msgstr "80 минут"
+
+# Выключать экран при простое после:
+#~ msgid "90 minutes"
+#~ msgstr "90 минут"
+
+# Выключать экран при простое после:
+#~ msgid "100 minutes"
+#~ msgstr "100 минут"
+
+# Выключать экран при простое после:
+#~ msgid "2 hours"
+#~ msgstr "2 часа"
+
+# Блокировать экран после:
+#~ msgid "1 minute"
+#~ msgstr "1 минута"
+
+# Блокировать экран после:
+#~ msgid "2 minutes"
+#~ msgstr "2 минуты"
+
+# Блокировать экран после:
+#~ msgid "3 minutes"
+#~ msgstr "3 минуты"
+
+# Выключать экран при простое после:
+#~ msgid "4 minutes"
+#~ msgstr "4 минуты"
+
+# Выключать экран при простое после:
+#~ msgid "5 minutes"
+#~ msgstr "5 минут"
+
+# Выключать экран при простое после:
+#~ msgid "8 minutes"
+#~ msgstr "8 минут"
+
+# Выключать экран при простое после:
+#~ msgid "10 minutes"
+#~ msgstr "10 минут"
+
+# Блокировать экран после:
+#~ msgid "12 minutes"
+#~ msgstr "12 минут"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Автоматический ждущий режим"
+
+#~ msgid "_Plugged In"
+#~ msgstr "При _подключении"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "При работе от _батареи"
+
+#~ msgid "Delay"
+#~ msgstr "Задержка"
+
+#~ msgid "Authenticate"
+#~ msgstr "Аутентификация"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Требуется аутентификация"
+
+#~ msgid "Low on toner"
+#~ msgstr "Мало тонера"
+
+#~ msgid "Out of toner"
+#~ msgstr "Тонер закончился"
+
+#~ msgid "Low on developer"
+#~ msgstr "Мало проявителя"
+
+#~ msgid "Out of developer"
+#~ msgstr "Проявитель закончился"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Маркер скоро закончится"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Маркер закончился"
+
+#~ msgid "Open cover"
+#~ msgstr "Открыта крышка"
+
+#~ msgid "Open door"
+#~ msgstr "Открыта дверца"
+
+#~ msgid "Low on paper"
+#~ msgstr "Мало бумаги"
+
+#~ msgid "Out of paper"
+#~ msgstr "Бумага закончилась"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Выключен"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Остановлен"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Резервуар почти полон"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Резервуар заполнен"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Фотобарабан скоро выйдет из строя"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Фотобарабан перестал работать"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Настройка"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Готов"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Не принимает задания"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Обработка"
+
+#~ msgid "Toner Level"
+#~ msgstr "Уровень тонера"
+
+#~ msgid "Ink Level"
+#~ msgstr "Уровень чернил"
+
+#~ msgid "Supply Level"
+#~ msgstr "Уровень ресурсов"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Установка"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u активное"
+#~ msgstr[1] "%u активных"
+#~ msgstr[2] "%u активных"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Не удалось добавить новый принтер."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Выберите файл PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "Файлы PostScript Printer Description (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Подходящий драйвер не найден"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Поиск предпочтительных драйверов…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Выбрать из базы данных…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Использовать файл PPD…"
+
+#~ msgid "Test page"
+#~ msgstr "Пробная страница"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Не удалось загрузить интерфейс пользователя: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Принтеры"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Добавление принтеров, просмотр текущих заданий и выбор способа печати"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Принтер;Очередь;Печать;Бумага;Чернила;Тонер;"
+
+#~ msgid "Clear All"
+#~ msgstr "Очистить все"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Нет активных заданий печати"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Добавить новый принтер"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "А_утентификация"
+
+#~ msgid "No printers detected."
+#~ msgstr "Принтеры не найдены."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Введите сетевой адрес или найдите принтер"
+
+#~ msgid "Loading options…"
+#~ msgstr "Загрузка параметров…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Выберите драйвер принтера"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Загрузка базы данных драйверов…"
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "Принтер JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "Принтер LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "Односторонняя печать"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "По длинной стороне (стандарт)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "По короткой стороне (переворот)"
+
+#~ msgid "Portrait"
+#~ msgstr "Портретная"
+
+#~ msgid "Landscape"
+#~ msgstr "Ландшафтная"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Перевёрнутая ландшафтная"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Перевёрнутая портретная"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Ожидание"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Приостановлено"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Выполняется"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Остановлено"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Отменено"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Прервано"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Выполнено"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "Текущие задания %s"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Последовательный порт"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Параллельный порт"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Расположение: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Адрес: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Сервер требует аутентификацию"
+
+#~ msgid "Two Sided"
+#~ msgstr "Двусторонняя печать"
+
+#~ msgid "Paper Type"
+#~ msgstr "Тип бумаги"
+
+#~ msgid "Paper Source"
+#~ msgstr "Источники бумаги"
+
+#~ msgid "Output Tray"
+#~ msgstr "Приёмный лоток"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Предварительная фильтрация GhostScript"
+
+#~ msgid "Pages per side"
+#~ msgstr "Страниц на сторону"
+
+#~ msgid "Two-sided"
+#~ msgstr "Двусторонняя печать"
+
+#~ msgid "Orientation"
+#~ msgstr "Ориентация"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Параметры страницы"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Устанавливаемые параметры"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Задание"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Качество изображения"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Завершение"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Auto Select"
+#~ msgstr "Выбрать автоматически"
+
+#~ msgid "Printer Default"
+#~ msgstr "Параметры по умолчанию"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Встраивать только шрифты GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Преобразовать в PS level 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Преобразовать в PS level 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Без предварительной фильтрации"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Производитель"
+
+#~ msgid "Driver"
+#~ msgstr "Драйвер"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Для просмотра принтеров, доступных на %s, введите имя пользователя и "
+#~ "пароль."
+
+#~ msgid "Add Printer"
+#~ msgstr "Добавить принтер"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Удалить принтер"
+
+#~ msgid "Supply"
+#~ msgstr "Ресурс"
+
+#~ msgid "Location"
+#~ msgstr "Местоположение"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Принтер по умолчанию"
+
+#~ msgid "Jobs"
+#~ msgstr "Задания"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Показать _задания"
+
+#~ msgid "Model"
+#~ msgstr "Модель"
+
+#~ msgid "label"
+#~ msgstr "метка"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Установка нового драйвера…"
+
+#~ msgid "page 3"
+#~ msgstr "страница 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Печать п_робной страницы"
+
+#~ msgid "_Options"
+#~ msgstr "_Параметры"
+
+#~ msgid "No printers"
+#~ msgstr "Принтеров нет"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Добавить принтер"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Системная служба печати\n"
+#~ "недоступна или не запущена."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Блокировка экрана"
+
+#~ msgid "In use"
+#~ msgstr "Используется"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Включено"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Выключено"
+
+#~ msgid "Location Services"
+#~ msgstr "Сервисы местоположения"
+
+#~ msgid "Usage & History"
+#~ msgstr "Статистика и история"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Удалить все объекты из корзины?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Все объекты корзины будут безвозвратно удалены."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Очистить корзину"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Удалить все временные файлы?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Все временные файлы будут безвозвратно удалены."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Удалить временные файлы"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Очистка корзины и временные файлы"
+
+#~ msgid "Software Usage"
+#~ msgstr "Использование ПО"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Сообщение об ошибках"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Отправка сообщения о технических проблемах помогает нам улучшить %s. "
+#~ "Отчеты отправляются анонимно и не содержат персональных данных."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Политика конфиденциальности"
+
+# перенос, иначе не влазит
+#~ msgid "Pri­va­cy"
+#~ msgstr "Конфиденциаль-­ность"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "Управление конфиденциальностью"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "экран;блокировка;диагностика;сбой;личный;приватный;недавние;временные;tmp;"
+#~ "индекс;имя;сеть;идентификация;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Выключение экрана"
+
+# Блокировать экран после:
+#~ msgid "30 seconds"
+#~ msgstr "30 секунд"
+
+# Очищать корзину через / сохранять историю:
+#~ msgid "1 day"
+#~ msgstr "1 день"
+
+#~ msgid "2 days"
+#~ msgstr "2 дня"
+
+#~ msgid "3 days"
+#~ msgstr "3 дня"
+
+#~ msgid "4 days"
+#~ msgstr "4 дня"
+
+#~ msgid "5 days"
+#~ msgstr "5 дней"
+
+#~ msgid "6 days"
+#~ msgstr "6 дней"
+
+#~ msgid "7 days"
+#~ msgstr "7 дней"
+
+#~ msgid "14 days"
+#~ msgstr "14 дней"
+
+#~ msgid "30 days"
+#~ msgstr "30 дней"
+
+#~ msgid "Forever"
+#~ msgstr "Неограниченно"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Сохранение истории упрощает последующий поиск. Эти элементы никогда не "
+#~ "будут доступны по сети."
+
+#~ msgid "_Recently Used"
+#~ msgstr "Н_едавно использованные"
+
+#~ msgid "Retain _History"
+#~ msgstr "Сохранять _историю"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "О_чистить историю"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr ""
+#~ "Блокировка экрана защищает вашу конфиденциальность, когда вас нет на "
+#~ "месте."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Автоматическая _блокировка экрана"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Блокировка экрана"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Показывать _уведомления"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Автоматически очищать корзину и удалять временные файлы, чтобы помочь "
+#~ "сохранить компьютер свободным от ненужной конфиденциальной информации."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Автоматически очищать _корзину"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Автоматически удалять временные _файлы"
+
+#~ msgid "Purge _After"
+#~ msgstr "Очищать _через"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Отправка сведений об используемом вами программном обеспечении позволит "
+#~ "нам предоставлять более точным рекомендации. Это также позволит нам "
+#~ "улучшить программное обеспечение.\n"
+#~ "\n"
+#~ "Вся собранная нами информация является анонимной и никогда не будет "
+#~ "передана третьим лицам."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "_Отправлять статистику по использованию ПО"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Сервисы местоположения позволяют приложениям видеть ваше географическое "
+#~ "положение. Точность возрастает при использовании WiFi и мобильного "
+#~ "широкополосного доступа."
+
+#~ msgid "_Location Services"
+#~ msgstr "_Сервисы местоположения"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Автоматическое сообщение об ошибках"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Имперская"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Метрическая"
+
+#~ msgid "No regions found"
+#~ msgstr "Регионы не найдены"
+
+#~ msgid "No input sources found"
+#~ msgstr "Источники ввода не найдены"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Другое"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Необходимо перезапустить сеанс, чтобы изменения вступили в силу"
+
+#~ msgid "Restart Now"
+#~ msgstr "Перезапустить сейчас"
+
+#~ msgid "No input source selected"
+#~ msgstr "Не выбран источник ввода"
+
+#~ msgid "Login _Screen"
+#~ msgstr "_Экран входа"
+
+#~ msgid "Formats"
+#~ msgstr "Форматы"
+
+#~ msgid "Preview"
+#~ msgstr "Предпросмотр"
+
+#~ msgid "Dates"
+#~ msgstr "Дата"
+
+#~ msgid "Times"
+#~ msgstr "Время"
+
+#~ msgid "Numbers"
+#~ msgstr "Числа"
+
+#~ msgid "Measurement"
+#~ msgstr "Система мер"
+
+#~ msgid "Paper"
+#~ msgstr "Бумага"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Язык и регион"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Выбор языка интерфейса, форматов, раскладки клавиатуры и источников ввода"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Язык;Раскладка;Клавиатура;Ввод;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Добавить источник ввода"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Методы ввода нельзя использовать на экране входа в систему"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Параметры источников ввода"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Использовать _один источник для всех окон"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Использовать _различные источники для каждого окна"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Комбинации клавиш"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Переключиться на предыдущий источник"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Пробел"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Переключиться на следующий источник"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Пробел"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Эти комбинации клавиш можно изменить в параметрах клавиатуры"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Альтернативный переключатель источника"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Левый+Правый Alt"
+
+#~ msgid "_Language"
+#~ msgstr "_Язык"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Английский (Великобритания)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Форматы"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Великобритания"
+
+#~ msgid "Input Sources"
+#~ msgstr "Источники ввода"
+
+#~ msgid "Add input source"
+#~ msgstr "Добавить источник ввода"
+
+#~ msgid "Remove input source"
+#~ msgstr "Удалить источник ввода"
+
+#~ msgid "Move input source up"
+#~ msgstr "Переместить источник ввода вверх"
+
+#~ msgid "Move input source down"
+#~ msgstr "Переместить источник ввода вниз"
+
+#~ msgid "Configure input source"
+#~ msgstr "Настроить источник ввода"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Показать раскладку источника ввода"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr "Параметры входа в систему используются всеми пользователями"
+
+#~ msgid "Select Location"
+#~ msgstr "Выберите расположение"
+
+#~ msgid "_OK"
+#~ msgstr "_ОК"
+
+#~ msgid "No applications found"
+#~ msgstr "Приложения не найдены"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr "Какие приложения показывают результаты поиска в режиме «Обзор»"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Поиск;Найти;Индекс;Скрыть;Конфиденциальность;Результаты;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Места поиска"
+
+#~ msgid "Places"
+#~ msgstr "Места"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Закладки"
+
+#~ msgid "Other"
+#~ msgstr "Другое"
+
+#~ msgid "Move Up"
+#~ msgstr "Поднять"
+
+#~ msgid "Move Down"
+#~ msgstr "Опустить"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Не выбрано ни одной сети для обеспечения общего доступа"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Включено"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Выключено"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Включено"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Запущено"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Выберите папку"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Общий доступ к файлам позволяет открыть доступ к папкам для других "
+#~ "пользователей сети с помощью: <a href=\"dav://%s\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "При включённом удалённом входе, удалённые пользователи могут подключаться "
+#~ "используя команду Secure Shell:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Общий доступ к экрану позволяет удалённым пользователям просматривать и "
+#~ "управлять вашим экраном, подключившись к <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Копировать"
+
+#~ msgid "Sharing"
+#~ msgstr "Общий доступ"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Общий доступ"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Общий доступ для других пользователей"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "общий;доступ;ssh;узел;имя;удалённый;рабочий;стол;медиа;аудио;видео;"
+#~ "изображения;фото;фильмы;сервер;обработчик;"
+
+#~ msgid "Networks"
+#~ msgstr "Сети"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Включение или отключение удалённого входа в систему"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Для включения или выключения удалённого доступа необходимо выполнить "
+#~ "проверку подлинности"
+
+#~ msgid "_Computer Name"
+#~ msgstr "Имя _компьютера"
+
+#~ msgid "_File Sharing"
+#~ msgstr "Общий доступ к _файлам"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Общий доступ к _экрану"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Общий доступ к _мультимедиа"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Удалённая авторизация"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Некоторые службы отключены из-за отсутствия доступа к сети."
+
+#~ msgid "File Sharing"
+#~ msgstr "Общий доступ к файлам"
+
+#~ msgid "_Require Password"
+#~ msgstr "_Требовать пароль"
+
+#~ msgid "Remote Login"
+#~ msgstr "Удалённая авторизация"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Общий доступ к экрану"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "_Разрешить соединения для управления экраном"
+
+#~ msgid "_Password:"
+#~ msgstr "_Пароль:"
+
+#~ msgid "_Show Password"
+#~ msgstr "П_оказать пароль"
+
+#~ msgid "Access Options"
+#~ msgstr "Параметры доступа"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "_Новые подключения должны запрашивать доступ"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Требовать пароль"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Общий доступ к мультимедиа"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Общий доступ к музыке, фото и видео по сети."
+
+#~ msgid "Folders"
+#~ msgstr "Папки"
+
+#~ msgid "Sound"
+#~ msgstr "Звук"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Изменение громкости звука входов, выходов и уведомлений"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Карта;Микрофон;Громкость;Затухание;Баланс;Bluetooth;Наушники;Аудио;Звук;"
+
+#~ msgid "Bark"
+#~ msgstr "Лай"
+
+#~ msgid "Drip"
+#~ msgstr "Капля"
+
+#~ msgid "Glass"
+#~ msgstr "Стекло"
+
+#~ msgid "Sonar"
+#~ msgstr "Сонар"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Левый"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Правый"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Задний"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Передний"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Минимум"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Максимум"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Баланс:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Затухание:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Сабвуфер:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Без усиления"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Профиль:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u выход"
+#~ msgstr[1] "%u выхода"
+#~ msgstr[2] "%u выходов"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u вход"
+#~ msgstr[1] "%u входа"
+#~ msgstr[2] "%u входов"
+
+#~ msgid "System Sounds"
+#~ msgstr "Системные звуки"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Проверить динамики"
+
+#~ msgid "Peak detect"
+#~ msgstr "Пиковый детектор"
+
+#~ msgid "Device"
+#~ msgstr "Устройство"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "%s — проверка динамиков"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Громкость _воспроизведения:"
+
+#~ msgid "Output"
+#~ msgstr "Выход"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "_Выберите устройство для вывода звука:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Параметры выбранного устройства:"
+
+#~ msgid "Input"
+#~ msgstr "Вход"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Громкость _записи:"
+
+#~ msgid "Input level:"
+#~ msgstr "Уровень записи:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "_Выберите устройство для ввода звука:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Звуковые эффекты"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Громкость _уведомлений:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr ""
+#~ "В данный момент ни одно приложение не воспроизводит и не записывает звук."
+
+#~ msgid "Built-in"
+#~ msgstr "Встроенная"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Настройки звука"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Проверка звука события"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "From theme"
+#~ msgstr "Из темы"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Выберите звук уведомления:"
+
+#~ msgid "Stop"
+#~ msgstr "Остановить"
+
+#~ msgid "Test"
+#~ msgstr "Проверить"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Сабвуфер"
+
+#~ msgid "Custom"
+#~ msgstr "Другой"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Универсальный доступ"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr ""
+#~ "Упрощение ввода, наведения и нажатия, а также улучшение видимости и "
+#~ "слышимости"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Клавиатура;Мышь;a11y;Специальные;возможности;Контрастность;Масштаб;Экран;"
+#~ "Чтение;текст;шрифт;размер;AccessX;Залипающие;клавиши;Медленные;"
+#~ "Отскакивающие;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Всегда показывать меню универсального доступа"
+
+#~ msgid "Seeing"
+#~ msgstr "Зрение"
+
+#~ msgid "_High Contrast"
+#~ msgstr "В_ысокая контрастность"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Крупный текст"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Масштабирование"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Чтение с экрана"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Звук при нажатии клавиш"
+
+#~ msgid "Hearing"
+#~ msgstr "Слух"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Визуальные уведомления"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Экранная клавиатура"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "_Автоповтор клавиш"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_Мигание курсора"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "Помощник ввода (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Наведение и нажатие"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Клавиши мыши"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Помощник _нажатия"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "Задержка _двойного нажатия"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Задержка двойного нажатия"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Чтение с экрана"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Приложение для чтения с экрана читает отображённый текст при перемещении "
+#~ "фокуса."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Чтение с экрана"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Озвучивание клавиши"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Подавать сигнал при нажатии Num Lock или Caps Lock."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Визуальные уведомления"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Проверить мигание"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Использовать визуальную индикацию для звуковых уведомлений."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Мигать _заголовком окна"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Мигать всем _экраном"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Автоповтор клавиш"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Повторять нажатую удерживаемую клавишу."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Задержка повтора клавиш"
+
+#~ msgid "Speed"
+#~ msgstr "Скорость"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Скорость повтора клавиш"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Мигание курсора"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Курсор мигает в текстовых полях ввода."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Частота мигания курсора"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Помощник ввода"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Залипающие клавиши"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Обрабатывает последовательность модификаторов как комбинацию клавиш"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Отключать, если две клавиши нажаты вместе"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Подавать сигнал при нажатии _модификатора"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Медленные клавиши"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Вставляет задержку между нажатием клавиши и его обработкой"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "За_держка принятия:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Короткая"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Задержка ввода «медленных» клавиш"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Длинная"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Подавать сигнал при _нажатии клавиши"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Подавать сигнал при _отпускании клавиши"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Подавать сигнал при _игнорировании клавиш"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Отскакивающие клавиши"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Игнорирует быстрые нажатия клавиш"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Короткая"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Задержка ввода «отскакивающих» клавиш"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Длинная"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Управляется клавиатурой"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Включать и выключать специальные возможности с помощью клавиатуры"
+
+#~ msgid "Click Assist"
+#~ msgstr "Помощник нажатия"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Симуляция вторичного нажатия"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Двойное нажатие удержанием главной кнопки"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Короткая"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Задержка вторичного нажатия"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Длинная"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Нажатие при на_ведении"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Нажатие при наведении указателя"
+
+#~ msgid "D_elay:"
+#~ msgstr "За_держка:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Короткая"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Длинная"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Двигательный _порог:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Уменьшенный"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Увеличенный"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Короткая"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Длинная"
+
+#~ msgid "Full Screen"
+#~ msgstr "На весь экран"
+
+#~ msgid "Top Half"
+#~ msgstr "Верхняя половина"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Нижняя половина"
+
+#~ msgid "Left Half"
+#~ msgstr "Левая половина"
+
+#~ msgid "Right Half"
+#~ msgstr "Правая половина"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Параметры масштабирования"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Увеличение:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Следовать за курсором мыши"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Часть экрана:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "Область увеличения выходит за пределы _экрана"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "Курсор увеличителя находится по _центру"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Курсор увеличения перемещается по _области увеличения"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Курсор увеличителя перемещается с _содержимым"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Положение увеличителя:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Увеличитель"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Толщина:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Тоньше"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Толще"
+
+#~ msgid "_Length:"
+#~ msgstr "_Длина:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "_Цвет:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "_Перекрестие:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "П_ерекрывать курсор мыши"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Перекрестие"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Белый на чёрном:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Яркость:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Контрастность:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "_Цвет"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Полный"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Низкая"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Высокая"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Низкая"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Высокая"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Цветовые эффекты:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Цветовые эффекты"
+
+#~ msgid "You are Offline"
+#~ msgstr "Сетевое подключение отсутствует"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Зарегистрировать"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Управление учётными записями"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Для изменения данных пользователя требуется аутентификация"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Отображение кнопок"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Соответствие кнопок и функций"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Чтобы изменить комбинацию клавиш, выберите «Событие нажатие клавиши», "
+#~ "нажмите кнопку комбинации клавиш и нажмите новые клавиши или нажмите "
+#~ "Backspace для очистки."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Коснитесь маркеров, которые будут появляться на экране, чтобы "
+#~ "откалибровать планшет."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Обнаружено ложное нажатие, выполняется перезапуск…"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Вверх"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Вниз"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Событие нажатие клавиши"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Переключение монитора"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Показывать справку на экране"
+
+#~ msgid "Output:"
+#~ msgstr "Вывод:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Сохранять соотношение сторон:"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Отображение на один экран"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d из %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Отображение на экран"
+
+#~ msgid "Button"
+#~ msgstr "Кнопка"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Планшет Wacom"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Установка отображения кнопок и настройка чувствительности пера для "
+#~ "графических планшетов"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Планшет;Wacom;Перо;Ластик;Мышь;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Планшет (абсолютный)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Сенсорная панель (относительный)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Настройки планшета"
+
+#~ msgid "_Help"
+#~ msgstr "_Справка"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Планшет не обнаружен"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Подключите или включите планшет Wacom"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Параметры Bluetooth"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Планшет Wacom"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Отображение на экран…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Отображение кнопок…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Калибровать…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Настроить разрешение экрана"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Изменить параметры мыши"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Режим слежения"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Настроить под левую руку"
+
+#~ msgid "Left Ring"
+#~ msgstr "Кольцо слева"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Режим левого кольца #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Кольцо справа"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Режим правого кольца #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Сенсорная полоса слева"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Режим левой сенсорной полосы #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Сенсорная полоса справа"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Режим правой сенсорной полосы #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Переключение режима левого сенсорного кольца"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Переключение режима правого сенсорного кольца"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Переключение режима левой сенсорной полосы"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Переключение режима правой сенсорной полосы"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Переключение режима #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Левая кнопка #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Правая кнопка #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Верхняя кнопка #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Нижняя кнопка #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Новая комбинация…"
+
+#~ msgid "No Action"
+#~ msgstr "Нет действия"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Нажатие левой кнопки мыши"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Нажатие средней кнопки мыши"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Нажатие правой кнопки мыши"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Прокрутка вверх"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Прокрутка вниз"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Прокрутка влево"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Прокрутка вправо"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Forward"
+#~ msgstr "Вперёд"
+
+#~ msgid "Stylus"
+#~ msgstr "Перо"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Чувствительность нажатия ластика"
+
+# Чувствительность нажатия пера/ластика
+#~ msgid "Soft"
+#~ msgstr "Высокая"
+
+# Чувствительность нажатия пера/ластика
+#~ msgid "Firm"
+#~ msgstr "Низкая"
+
+#~ msgid "Top Button"
+#~ msgstr "Верхняя кнопка"
+
+#~ msgid "Lower Button"
+#~ msgstr "Нижняя кнопка"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Чувствительность нажатия пера"
+
+#~ msgid "All Settings"
+#~ msgstr "Все параметры"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Центр управления GNOME"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Инструменты для настройки рабочего стола GNOME"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Центр управления GNOME — основной интерфейс для настройки различных "
+#~ "параметров и функций рабочего стола."
+
+#~ msgid "Display version number"
+#~ msgstr "Показать номер версии"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Включить информативный режим"
+
+#~ msgid "Show the overview"
+#~ msgstr "Предварительный просмотр"
+
+#~ msgid "Search for the string"
+#~ msgstr "Поиск строки"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Вывести список возможных имён панелей и выйти"
+
+#~ msgid "Panel to display"
+#~ msgstr "Область для отображения"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[ПАНЕЛЬ] [АРГУМЕНТ…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Доступные панели:"
+
+#~ msgid "Help"
+#~ msgstr "Справка"
+
+#~ msgid "Quit"
+#~ msgstr "Завершить"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Персональные"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Оборудование"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Система"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Настройки;Параметры;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Завершить"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Панели"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Вернуться в режим обзора"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Отменить поиск"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Точка доступа"
+
+#~ msgid "No results found"
+#~ msgstr "Результатов не найдено"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Color"
+#~ msgstr "Цвет"
+
+#~ msgid "_Name:"
+#~ msgstr "_Название:"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Удалить комбинацию клавиш"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Чтобы изменить комбинацию клавиш, нажмите на строку и зажмите новые "
+#~ "клавиши; для очистки нажмите Backspace."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Неизвестное действие>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Нельзя использовать комбинацию «%s», поскольку набор с использованием "
+#~ "этой клавиши станет невозможным.\n"
+#~ "Попробуйте клавиши Control, Alt или Shift одновременно."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Комбинация клавиш «%s» уже используется для\n"
+#~ "«%s»"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "После переопределения комбинации на «%s», комбинация «%s» будет выключена."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Переопределить"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr "Комбинация «%s» используется для «%s». Переопределить её для «%s»?"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "Комбинация «%s» сейчас используется для «%s», эта комбинация будет "
+#~ "выключена."
+
+#~ msgid "_Assign"
+#~ msgstr "_Назначить"
+
+# см. network-manager-applet
+#~ msgid "Bond"
+#~ msgstr "Агрегированное (Bond)"
+
+# см. network-manager-applet
+#~ msgid "Team"
+#~ msgstr "Агрегированное (Team)"
+
+#~ msgid "Bridge"
+#~ msgstr "Мост"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Не удалось загрузить модули VPN"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Добавить сетевое подключение"
+
+# см. network-manager-applet
+#~ msgid "Bond slaves"
+#~ msgstr "Слейвы агрегированного соединения (Bond)"
+
+#~ msgid "(none)"
+#~ msgstr "(нет)"
+
+# см. network-manager-applet
+#~ msgid "Bridge slaves"
+#~ msgstr "Слейвы сетевого моста"
+
+#~ msgid "Team slaves"
+#~ msgstr "Слейвы агрегированного соединения (Team)"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "Устройство InfiniBand не поддерживает режим подключения"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Сертификат центра сертификации не выбран"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Если вы не используете сертификат центра сертификации, это может привести "
+#~ "к проблемам безопасности. Хотите выбрать сертификат центра сертификации?"
+
+#~ msgid "Ignore"
+#~ msgstr "Игнорировать"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Выбрать сертификат ЦС"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "_Спрашивать каждый раз этот пароль"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "Больше не предупреждать"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Ошибка при входе в систему под учётной записью"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Срок действия учётных данных истёк."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Войдите, чтобы включить эту учётную запись."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Войти"
+
+#~ msgid "Power"
+#~ msgstr "Электропитание"
+
+#~ msgid "Privacy"
+#~ msgstr "Конфиденциальность"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Другое"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Общий доступ к файлам"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "_Разрешить удалённое управление"
+
+#~ msgid "_Verify"
+#~ msgstr "_Проверить"
+
+#~ msgid "Login History"
+#~ msgstr "Журнал входа в систему"
+
+#~ msgid "Add User Account"
+#~ msgstr "Добавить учётную запись пользователя"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Удалить учётную запись пользователя"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Пользователь с именем «%s» уже существует."
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Используется для определения вашего географического местоположения"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Текущие задания"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Возобновить печать"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Приостановить печать"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Отменить задание"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Удержано"
+
+#~ msgid "Job Title"
+#~ msgstr "Задание"
+
+#~ msgid "Job State"
+#~ msgstr "Состояние"
+
+#~ msgid "Time"
+#~ msgstr "Время"
+
+#~ msgid "Done"
+#~ msgstr "Готово"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Часовой _пояс"
+
+#~ msgid "Close"
+#~ msgstr "Закрыть"
+
+#~ msgid "Options"
+#~ msgstr "Параметры"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "_Repeat Keys"
+#~ msgstr "_Повтор клавиш"
+
+#~ msgid "_Cursor Blinking"
+#~ msgstr "_Мигание курсора"
+
+#~ msgid "Zoom"
+#~ msgstr "Масштабирование"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Цвет"

@@ -1,0 +1,4835 @@
+# translation of po_gnome-control-center-2.0-km.po to Khmer
+# Khmer translation for gnome-control-center
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the gnome-control-center package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+# Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: po_gnome-control-center-2.0-km\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2012-04-19 02:15+0000\n"
+"Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
+"Language-Team: Khmer <support@khmeros.info>\n"
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Launchpad (build 15890)\n"
+"X-Launchpad-Export-Date: 2012-09-03 19:12+0000\n"
+"X-Language: km-KH\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "ឈ្មោះ​អ្នកប្រើ"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "ឈ្មោះពេញ"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "ស្ដង់ដារ"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "អ្នក​គ្រប់គ្រង"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "ប្រភេទ​គណនី"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "ពាក្យ​សម្ងាត់"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr "ជ្រើស​ពាក្យសម្ងាត់ នៅ​ពេល​ចូល​លើកក្រោយ"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "កំណត់​ពាក្យសម្ងាត់​ឥឡូវនេះ"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "ពាក្យ​សម្ងាត់"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "កំណត់​រចនាសម្ព័ន្ធ..."
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "ដែន"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "ចូល​ជា​សហគ្រាស"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "បន្ថែម​អ្នកប្រើ"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "ចូល​ជា​​អ្នក​គ្រប់គ្រង​ដែន"
+
+#: ../data/account-dialog.ui.h:18
+#, fuzzy
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"ដើម្បី​ប្រើ​ឈ្មោះ​ចូល​សហគ្រាស កុំព្យូទ័រ​នេះ​តម្រូវ​ឲ្យ​\n"
+"ចុះឈ្មោះ​នៅ​ក្នុង​ដែន ។ សូម​ឲ្យ​អ្នក​គ្រប់គ្រង​បណ្ដាញ​របស់​អ្នក\n"
+"វាយ​ពាក្យ​សម្ងាត់​ដែន​នៅ​ទី​នេះ ។"
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "ឈ្មោះ​អ្នក​គ្រប់គ្រង"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "ពាក្យសម្ងាត់​អ្នក​គ្រប់គ្រង"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "មេដៃ​ឆ្វេង"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "ម្រាមដៃ​កណ្ដាល​ខាងឆ្វេង"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "ម្រាម​នាងដៃ​ខាង​ឆ្វេង"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "ម្រាម​កូនដៃ​ខាង​ឆ្វេង"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "មេ​ដៃ​ស្ដាំ"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "ម្រាមដៃ​កណ្ដាល​ខាង​ស្ដាំ"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "ម្រាម​នាង​ដៃ​ខាង​ស្ដាំ"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "ម្រាម​កូនដៃ​ខាង​ស្ដាំ"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "បើក​ការ​ចូល​ដោយ​ប្រើ​ស្នាម​ម្រាម​ដៃ"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "ចង្អុល​ដៃ​ស្ដាំ"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "ចង្អុល​ដៃ​ឆ្វេង"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "ម្រាម​ផ្សេងទៀត ៖"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"ស្នាម​ម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​រក្សាទុក​ដោយ​ជោគជ័យ ។  ឥឡូវនេះ អ្នក​អាច​នឹង​ចូល​ដោយ​ប្រើ​កម្មវិធី​អាន​ស្នាម​"
+"ម្រាមដៃ​របស់​អ្នក​បាន ។"
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+#, fuzzy
+msgid "Users"
+msgstr "ឈ្មោះ​អ្នកប្រើ"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+#, fuzzy
+msgid "Add or remove users and change your password"
+msgstr "បន្ថែម ឬ​យក​គណនី​អ្នកប្រើ​ចេញ"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "បោះបង់"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "ផ្លាស់ប្ដូរ"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "អះអាង​ពាក្យសម្ងាត់"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "ពាក្យសម្ងាត់​ថ្មី"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "ពាក្យសម្ងាត់​បច្ចុប្បន្ន"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr "ជ្រើស​ពាក្យសម្ងាត់ នៅ​ពេល​ចូល​លើកក្រោយ"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "កំណត់​ពាក្យសម្ងាត់​ឥឡូវនេះ"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "បន្ថែម​អ្នកប្រើ"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "ជម្រើស​ចូល"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "ចូល​ស្វ័យប្រវត្តិ"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "ចូល​ដោយ​ប្រើ​ស្នាម​ម្រាម​ដៃ"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "រូបតំណាង​អ្នកប្រើ"
+
+#: ../data/user-accounts-dialog.ui.h:11
+#, fuzzy
+msgid "Last Login"
+msgstr "ចូល​ស្វ័យប្រវត្តិ"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "យក​គណនី​ចេញ"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "គណនី​ផ្សេងទៀត"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​លុប​អ្នកប្រើ"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​លុប​អ្នកប្រើ"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "អ្នក​មិន​អាច​លុប​គណនី​ផ្ទាល់ខ្លួន​របស់​អ្នក​បាន​ទេ ។"
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s នៅ​តែ​ត្រូវ​បាន​ចូល"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr "ការ​លុប​អ្នកប្រើ ខណៈ​ដែល​ពួកគេ​ចូល​អាច​ធ្វើឲ្យ​ប្រព័ន្ធ​ស្ថិត​ក្នុង​ស្ថានភាព​មិន​ប្រក្រតី ។"
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "តើ​អ្នក​ចង់​រក្សាទុក​ឯកសារ​របស់ %s ដែរ​ឬ​ទេ ?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"វា​ពិបាក​ក្នុង​ការ​រក្សាទុក​ថត​ផ្ទះ ស្ពូល​អ៊ីមែល និង​ឯកសារ​បណ្ដោះអាសន្ន​ណាស់ នៅ​ពេល​ដែល​លុប​គណនី​អ្នកប្រើ ។"
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "លុប​ឯកសារ"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "រក្សាទុក​ឯកសារ"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "តើ​អ្នក​ពិតជា​ចង់​យក​គណនី​ចេញ​ឬ ?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "លុប​ឯកសារ"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "គណនី​​ត្រូវ​បាន​បិទ"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "ត្រូវ​កំណត់ នៅ​ពេល​ចូល​លើកក្រោយ"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "គ្មាន"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ទាក់ទង​សេវា​គណនី"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "សូម​ប្រាកដ​ថា AccountService ត្រូវ​បាន​ដំឡើង និង​បើក ។"
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"ដើម្បី​ធ្វើការ​ផ្លាស់ប្ដូរ\n"
+"ចុចរូប​តំណាង * ជាមុន​សិន"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "បង្កើត​គណនី​អ្នកប្រើ"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"ដើម្បី​បង្កើត​គណនី​អ្នកប្រើ\n"
+"ចុច​រូប​តំណាង * ជាមុន"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "លុប​គណនី​អ្នកប្រើ​ដែល​បាន​ជ្រើស"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"ដើម្បី​លុប​គណនី​អ្នកប្រើ​ដែល​បាន​ជ្រើស\n"
+"ចុច​រូប​តំណាង * ជាមុន"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "គណនី​របស់​ខ្ញុំ"
+
+#: ../src/pw-utils.c:81
+#, fuzzy
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "ពាក្យសម្ងាត់​ថ្មី​មិន​មាន​តួអក្សរ​ផ្សេង​ៗ​គ្នា​ឲ្យ​បាន​គ្រប់គ្រាន់"
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់"
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ផ្ទៀងផ្ទាត់"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "ពាក្យសម្ងាត់​ថ្មី​ខ្លី​ពេក"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "ពាក្យសម្ងាត់​ថ្មី​សាមញ្ញ​ពេក"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "ពាក្យសម្ងាត់​ចាស់ និង​ថ្មី​ស្រដៀង​គ្នា​ពេក"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "ពាក្យសម្ងាត់​ថ្មី​ត្រូវ​បាន​គេ​ប្រើ​ហើយ ។"
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "ពាក្យសម្ងាត់​ថ្មី​ត្រូវតែ​មាន​តួអក្សរ​ជា​លេខ ឬ​តួអក្សរ​ពិសេស"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "ពាក្យសម្ងាត់​ចាស់ និង​ថ្មី​ដូចគ្នា"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"ពាក្យសម្ងាត់​របស់​អ្នក​ត្រូវ​បាន​ផ្លាស់ប្ដូរ តាំងពី​អ្នក​បាន​ចាប់ផ្ដើម​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ​ពី​ដំបូង​ម្លេះ !"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "ពាក្យសម្ងាត់​ថ្មី​មិន​មាន​តួអក្សរ​ផ្សេង​ៗ​គ្នា​ឲ្យ​បាន​គ្រប់គ្រាន់"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "មិន​ស្គាល់​កំហុស"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "បាន​បរាជ័យ​ក្នុងការ​បន្ថែម​គណនី"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "ពាក្យសម្ងាត់​មិន​ផ្គូផ្គង​គ្នា"
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចុះ​ឈ្មោះ​គណនី"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "គ្មាន​វិធី​ដែល​បាន​គាំទ្រ​ ដើម្បី​ផ្ទៀងផ្ទាត់​ជា​មួយ​ដែន​នេះ"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចូល​ដែន"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ សូម​ព្យាយាម​ម្ដង​ទៀត"
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ សូម​ព្យាយាម​ម្ដង​ទៀត"
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចុះ​កំណត់ហេតុ​ដែន"
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "បោះបង់"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "បន្ថែម"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "ស្ដង់ដារ"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "អ្នក​គ្រប់គ្រង"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "អ្នក​មិន​ត្រូវ​បាន​អនុញ្ញាត​ឲ្យ​ចូល​ដំណើរការ​ឧបករណ៍​នេះ​ទេ ។ សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​ប្រព័ន្ធ​របស់​អ្នក ។"
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "ឧបករណ៍​កំពុង​ត្រូវ​បាន​ប្រើ ។"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "កំហុស​ខាងក្នុង​បាន​កើតឡើង ។"
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "បាន​បិទ"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "បាន​បើក"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "លុប​ស្នាម​ម្រាមដៃ​ដែល​បាន​ចុះ​ឈ្មោះ​ឬ ?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "លុប​ស្នាម​ម្រាមដៃ"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"តើ​អ្នក​ចង់​លុប​ស្នាម​ម្រាមដៃ​ដែល​បាន​ចុះ​ឈ្មោះ ដើម្បី​ឲ្យ​ការ​ចូល​ដោយ​ប្រើ​ស្នាម​ម្រាមដៃ​ត្រូវ​បិទ​ដែរ​ឬ​ទេ ?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "ធ្វើ​រួច !"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "មិន​អាច​ចូល​ដំណើរការ​ឧបករណ៍ '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "មិន​អាច​ចាប់ផ្ដើមការ​​ចាប់​យក​ស្នាម​ម្រាមដៃ​នៅ​លើ​ឧបករណ៍ '%s' បាន​ឡើយ"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "មិន​អាច​ចូល​ដំណើរការ​​កម្មវិធី​អាន​ស្នាម​ម្រាមដៃ​ណាមួយ​បាន​ឡើយ"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "សម្រាប់​ជំនួយ សូម​ទាក់ទង​អ្នក​គ្រប់គ្រង​ប្រព័ន្ធ​របស់​អ្នក ។"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"ដើម្បី​បើក​ការ​ចូល​ដោយ​ប្រើ​ស្នាម​ម្រាមដៃ អ្នក​ចាំបាច់​ត្រូវ​រក្សាទុក​ស្នាម​ម្រាមដៃ​ណាមួយ ដោយ​ប្រើ​ឧបករណ៍ "
+"'%s' ។"
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "ជ្រើស​ម្រាមដៃ"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "ចុះឈ្មោះ​ស្នាម​ម្រាមដៃ"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "សង្ខេប"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+#, fuzzy
+msgid "Last Week"
+msgstr "បានប្រើ​ចុងក្រោយ"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "សូម​ជ្រើស​ពាក្យសម្ងាត់​ផ្សេងទៀត ។"
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "សូម​វាយ​បញ្ចូល​ពាក្យសម្ងាត់​បច្ចុប្បន្ន​របស់​អ្នក​ម្ដងទៀត ។"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "មិន​អាច​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​បាន​ឡើយ"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "ជ្រើស"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "រកមើល​រូបភាព​ផ្សេងទៀត"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "បិទ​រូបភាព"
+
+#: ../src/um-photo-dialog.c:963
+#, fuzzy
+msgid "Take a photo…"
+msgstr "ថត​រូប..."
+
+#: ../src/um-photo-dialog.c:981
+#, fuzzy
+msgid "Browse for more pictures…"
+msgstr "រកមើល​រូបភាព​ផ្សេងទៀត"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "ត្រូវ​បាន​ប្រើ​ដោយ %s"
+
+#: ../src/um-realm-manager.c:308
+#, fuzzy
+msgid "Cannot automatically join this type of domain"
+msgstr "មិន​អាច​យក​ទម្រង់​ដែល​បាន​បន្ថែម​ដោយ​ស្វ័យប្រវត្តិ​ចេញ​បាន​ទេ"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "រក​មិនឃើញ​ដែន ឬ​តំបន់​បែប​នេះ​ទេ​"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "មិន​អាច​ចូល​ជា %s នៅ​ដែន %s បាន​ទេ"
+
+#: ../src/um-realm-manager.c:740
+#, fuzzy
+msgid "Invalid password, please try again"
+msgstr "ពាក្យ​សម្ងាត់​មិន​ត្រឹមត្រូវ សូម​ព្យាយាម​ម្ដង​ទៀត"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "មិន​អាច​តភ្ជាប់​ទៅ %s បាន​ទេ ៖ %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "ឈ្មោះ​អ្នកប្រើ​វែង​ពេក"
+
+#: ../src/um-utils.c:569
+#, fuzzy
+msgid "The username cannot start with a '-'."
+msgstr "ឈ្មោះ​អ្នកប្រើ​មិន​អាច​ចាប់ផ្ដើម​ដោយ '-' បាន​ឡើយ"
+
+#: ../src/um-utils.c:572
+#, fuzzy
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"ឈ្មោះ​អ្នកប្រើ​អាច​មាន​តែ ៖\n"
+" ➣ តួអក្សរ​មក​ពី​អក្ខរក្រម​អង់គ្លេស\n"
+" ➣ តួ​លេខ\n"
+" ➣ តួអក្សរ​ណាមួយ '.', '-' និង '_'"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "ពាក្យសម្ងាត់​ថ្មី"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "ប្រវែង"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "ប្រវែង"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "ប្រវែង"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "ប្រវែង"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "ប្រវែង"
+
+#, fuzzy
+#~ msgid "Passwords do not match."
+#~ msgstr "ពាក្យសម្ងាត់​មិន​ផ្គូផ្គង​គ្នា"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "ផ្លាស់ប្ដូរ​រាល់​ថ្ងៃ"
+
+#~| msgid "Tile"
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "ក្រឡា​ក្បឿង"
+
+#~| msgid "Zoom"
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "ពង្រីក"
+
+#~| msgid "Center"
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "កណ្ដាល"
+
+#~| msgid "Scale"
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "មាត្រដ្ឋាន"
+
+#~| msgid "Fill"
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "បំពេញ"
+
+#~| msgid "Span"
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "វិសាលភាព"
+
+#~| msgid "Select an account"
+#~ msgid "Select Background"
+#~ msgstr "ជ្រើស​ផ្ទៃ​ខា​ងក្រោយ"
+
+#~ msgid "Wallpapers"
+#~ msgstr "ផ្ទាំង​រូបភាព"
+
+#~| msgid "Picture CD"
+#~ msgid "Pictures"
+#~ msgstr "រូបភាព"
+
+#~| msgid "Color"
+#~ msgid "Colors"
+#~ msgstr "ពណ៌"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "multiple sizes"
+#~ msgstr "ទំហំ​ជាច្រើន"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "គ្មាន​ផ្ទៃខាងក្រោយ​របស់​ផ្ទៃតុ"
+
+#~ msgid "Current background"
+#~ msgstr "ផ្ទៃខាងក្រោយ​បច្ចុប្បន្ន"
+
+#~| msgid "<b>Background</b>"
+#~ msgid "Background"
+#~ msgstr "ផ្ទៃ​ខាង​ក្រោយ"
+
+#~| msgid "Change the background and theme"
+#~ msgid "Change the background"
+#~ msgstr "ផ្លាស់ប្ដូរ​ផ្ទៃខាងក្រោយ"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "ផ្ទាំង​រូបភាព អេក្រង់ ផ្ទៃតុ"
+
+#~ msgid "Bluetooth"
+#~ msgstr "ប៊្លូធូស"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "កំណត់​រចនាសម្ព័ន្ធ​នៃ​ការ​កំណត់​ប៊្លូធូស"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "រៀបចំ​ឧបករណ៍​ថ្មី"
+
+#~ msgid "Remove Device"
+#~ msgstr "យក​ឧបករណ៍​ចេញ"
+
+#~ msgid "Connection"
+#~ msgstr "ការ​តភ្ជាប់"
+
+#~ msgid "Paired"
+#~ msgstr "បាន​ផ្គូ"
+
+#~ msgid "Type"
+#~ msgstr "ប្រភេទ"
+
+#~ msgid "Address"
+#~ msgstr "អាសយដ្ឋាន"
+
+#~ msgid "Mouse and Touchpad Settings"
+#~ msgstr "ការ​កំណត់​កណ្ដុរ និង​បន្ទះ​ប៉ះ"
+
+#~ msgid "Sound Settings"
+#~ msgstr "ការ​កំណត់​សំឡេង"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "ការ​កំណត់​ក្ដារចុច"
+
+#~ msgid "Send Files..."
+#~ msgstr "ផ្ញើ​ឯកសារ..."
+
+#~ msgid "Browse Files..."
+#~ msgstr "រកមើល​ឯកសារ..."
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "ប៊្លូធូស"
+
+#~ msgid "Yes"
+#~ msgstr "បាទ/ចាស"
+
+#~ msgid "No"
+#~ msgstr "ទេ"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "ប៊្លូធូស​ត្រូវ​បាន​បិទ"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "ប៊្លូធូស​ត្រូវ​បាន​បិទ​ដោយ​កុងតាក់​ផ្នែក​រឹង"
+
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "រក​មិន​ឃើញ​អាដាប់ទ័រ​ប៊្លូធូស"
+
+#~ msgid "Visibility"
+#~ msgstr "ភាព​អាច​មើល​ឃើ"
+
+#, c-format
+#~ msgid "Visibility of “%s”"
+#~ msgstr "ភាព​អាច​មើល​ឃើញ​នៃ “%s”"
+
+#, c-format
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "យក '%s' ចេញ​ពី​បញ្ជី​ឧបករណ៍​ឬ ?"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr "ប្រសិនបើ​អ្នក​យក​ឧបករណ៍​ចេញ អ្នក​ត្រូវតែ​រៀបចំ​វា​ម្ដងទៀត មុន​នឹង​ប្រើ​នៅ​ពេលក្រោយ ។"
+
+#~ msgid "Other profile…"
+#~ msgstr "ទម្រង់​ផ្សេងទៀត…"
+
+#~ msgid "Default: "
+#~ msgstr "លំនាំដើម ៖ "
+
+#~ msgid "Colorspace: "
+#~ msgstr "គំរូ​ពណ៌ ៖ "
+
+#~ msgid "Test profile: "
+#~ msgstr "ទម្រង់​សាកល្បង ៖ "
+
+#~ msgid "Set for all users"
+#~ msgstr "កំណត់​សម្រាប់​អ្នកប្រើ​ទាំងអស់"
+
+#~ msgid "Create virtual device"
+#~ msgstr "បង្កើត​ឧបករណ៍​និម្មិត"
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "ជ្រើស​ឯកសារ​ទម្រង់ ICC"
+
+#~ msgid "_Import"
+#~ msgstr "នាំចូល"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "គាំទ្រ​ទម្រង់ ICC"
+
+#~ msgid "All files"
+#~ msgstr "ឯកសារ​ទាំងអស់"
+
+#~ msgid "Available Profiles for Displays"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​សម្រាប់​ការ​បង្ហាញ"
+
+#~ msgid "Available Profiles for Scanners"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​សម្រាប់​ម៉ាស៊ីន​ស្កេន"
+
+#~ msgid "Available Profiles for Printers"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​សម្រាប់​ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "Available Profiles for Cameras"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​សម្រាប់​ម៉ាស៊ីន​ថត"
+
+#~ msgid "Available Profiles for Webcams"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​សម្រាប់​វិបខេម"
+
+#~ msgid "Available Profiles"
+#~ msgstr "ទម្រង់​ដែល​អាច​ប្រើ​បាន"
+
+#~ msgid "Device"
+#~ msgstr "ឧបករណ៍"
+
+#~ msgid "Calibration"
+#~ msgstr "ការ​ក្រិត​ខ្នាត"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "បង្កើត​ទម្រង់​ពណ៌​សម្រាប់​ឧបករណ៍​ដែល​បាន​ជ្រើស"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "ឧបករណ៍​វាស់​មិន​ត្រូវ​បាន​រក​ឃើញ ។ សូម​ពិនិត្យមើល​ថា វា​ត្រូវ​បាន​បើក និង​ត្រូវ​បាន​តភ្ជាប់​ត្រឹមត្រូវ ។"
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "ឧបករណ៍​វាស់​មិន​គាំទ្រ​ការ​រៀបចំ​ទម្រង់​ម៉ាស៊ីន​បោះពុម្ព​ទេ ។"
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "ប្រភេទ​ឧបករណ៍​បច្ចុប្បន្ន​មិន​ត្រូវ​បាន​គាំទ្រ ។"
+
+#~ msgid "No profile"
+#~ msgstr "គ្មាន​ទម្រង់"
+
+#, c-format
+#~ msgid "%i year"
+#~ msgid_plural "%i years"
+#~ msgstr[0] "%i ឆ្នាំ"
+
+#, c-format
+#~ msgid "%i month"
+#~ msgid_plural "%i months"
+#~ msgstr[0] "%i ខែ"
+
+#, c-format
+#~ msgid "%i week"
+#~ msgid_plural "%i weeks"
+#~ msgstr[0] "%i សប្ដាហ៍"
+
+#, c-format
+#~ msgid "Less than 1 week"
+#~ msgstr "តិច​ជាង ១ សប្ដាហ៍"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "RGB លំនាំដើម"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "CMYK លំនាំដើម"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "ប្រផេះ​តាម​លំនាំដើម"
+
+#~ msgid "Uncalibrated"
+#~ msgstr "មិន​បាន​ក្រិត​ខ្នាត"
+
+#~ msgid "This device is not color managed."
+#~ msgstr "ឧបករណ៍​នេះ​មិន​ត្រូវ​បាន​គ្រប់គ្រង​តាម​ពណ៌ ។"
+
+#~ msgid "This device is using manufacturing calibrated data."
+#~ msgstr "ឧបករណ៍​នេះ​កំពុង​ប្រើ​ទិន្នន័យ​ដែល​បាន​ក្រិត​ខ្នាត​ពី​ក្រុមហ៊ុន​ផលិត ។"
+
+#~ msgid ""
+#~ "This device does not have a profile suitable for whole-screen color "
+#~ "correction."
+#~ msgstr "ឧបករណ៍​នេះ​មិន​មាន​ទម្រង់​ដែល​សមស្រប​សម្រាប់​ការ​កែតម្រូវ​ពណ៌​អេក្រង់​ទាំងមូល​ទេ ។"
+
+#~ msgid "This device has an old profile that may no longer be accurate."
+#~ msgstr "ឧបករណ៍​នេះ​មាន​ទម្រង់​ចាស់​ដែល​អាច​នឹង​លែង​មាន​សុក្រឹតភាព​ទៀត ។"
+
+#~ msgid "Not specified"
+#~ msgstr "មិន​ត្រូវ​បាន​បញ្ជាក់"
+
+#~ msgid "No devices supporting color management detected"
+#~ msgstr "រក​មិន​ឃើញ​ឧបករណ៍​ដែល​គាំទ្រ​ការ​គ្រប់គ្រង​ពណ៌​ទេ"
+
+#~ msgctxt "Device kind"
+#~ msgid "Display"
+#~ msgstr "ការ​បង្ហាញ"
+
+#~ msgctxt "Device kind"
+#~ msgid "Scanner"
+#~ msgstr "ម៉ាស៊ីន​ស្កេន"
+
+#~ msgctxt "Device kind"
+#~ msgid "Printer"
+#~ msgstr "ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgctxt "Device kind"
+#~ msgid "Camera"
+#~ msgstr "ម៉ាស៊ីន​ថត"
+
+#~ msgctxt "Device kind"
+#~ msgid "Webcam"
+#~ msgstr "វិបខេម"
+
+#~ msgid "Color"
+#~ msgstr "ពណ៌"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr "ឧបករណ៍​នីមួយ​ៗ​ទាមទារ​ឲ្យ​គ្រប់គ្រង​ទម្រង់​ពណ៌​ដែល​ទាន់​សម័យ​តាម​ពណ៌ ។"
+
+#~ msgid "Learn more"
+#~ msgstr "ស្វែងយល់​បន្ថែម"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "ស្វែងយល់​បន្ថែម​អំពី​ការ​គ្រប់គ្រង​ពណ៌"
+
+#~ msgid "Add device"
+#~ msgstr "បន្ថែម​ឧបករណ៍"
+
+#~ msgid "Add a virtual device"
+#~ msgstr "បន្ថែម​ឧបករណ៍​និម្មិត"
+
+#~ msgid "Delete device"
+#~ msgstr "លុប​ឧបករណ៍"
+
+#~ msgid "Remove a device"
+#~ msgstr "យក​ឧបករណ៍​ចេញ"
+
+#~| msgid "Set this device for all users on this computer"
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "កំណត់​ប្រវត្តិ​សម្រាប់​អ្នក​ប្រើ​ទាំងអស់​នៅ​ក្នុង​កុំព្យូទ័រ​នេះ"
+
+#~ msgid "Add profile"
+#~ msgstr "បន្ថែម​ទម្រង់"
+
+#~ msgid "Calibrate…"
+#~ msgstr "ក្រិត​ខ្នាត…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "ក្រិត​ខ្នាត​ឧបករណ៍"
+
+#~ msgid "Remove profile"
+#~ msgstr "យក​ទម្រង់​ចេញ"
+
+#~ msgid "View details"
+#~ msgstr "មើល​សេចក្ដី​លម្អិត"
+
+#~ msgid "Device type:"
+#~ msgstr "ប្រភេទ​ឧបករណ៍ ៖"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "ក្រុមហ៊ុនផលិត ៖"
+
+#~ msgid "Model:"
+#~ msgstr "ម៉ូដែល ៖"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr "ឯកសារ​រូបភាព​អាច​ត្រូវ​បាន​អូស​នៅ​លើ​បង្អួច​នេះ ដើម្បី​បំពេញ​វាល​ខាងលើ​ដោយ​ស្វ័យប្រវត្តិ ។"
+
+#~ msgid "Color management settings"
+#~ msgstr "ការ​កំណត់​ការ​គ្រប់គ្រង​ពណ៌"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Color;ICC;Profile;Calibrate;Printer;Display;"
+
+#~ msgid "English"
+#~ msgstr "អង់គ្លេស"
+
+#~ msgid "British English"
+#~ msgstr "ចក្រភព​អង់គ្លេស"
+
+#~| msgid "Germany"
+#~ msgid "German"
+#~ msgstr "អាល្លឺម៉ង់"
+
+#~ msgid "French"
+#~ msgstr "បារាំង"
+
+#~| msgid "Span"
+#~ msgid "Spanish"
+#~ msgstr "អេស្ប៉ាញ"
+
+#~ msgid "Chinese (simplified)"
+#~ msgstr "ចិន (អក្សរ​កាត់)"
+
+#~ msgid "Russian"
+#~ msgstr "រុស្ស៊ី"
+
+#~ msgid "Arabic"
+#~ msgstr "អារ៉ាប់"
+
+#~ msgid "United States"
+#~ msgstr "សហរដ្ឋ​អាមេរិក"
+
+#~ msgid "Germany"
+#~ msgstr "អាល្លឺម៉ង់"
+
+#~ msgid "France"
+#~ msgstr "បារាំង"
+
+#~ msgid "Spain"
+#~ msgstr "អេស្ប៉ាញ"
+
+#~ msgid "China"
+#~ msgstr "ចិន"
+
+#~| msgctxt "Wireless access point"
+#~| msgid "Other..."
+#~ msgid "Other..."
+#~ msgstr "ផ្សេងទៀត..."
+
+#~ msgid "Select a region"
+#~ msgstr "ជ្រើស​តំបន់"
+
+#~ msgid "Unspecified"
+#~ msgstr "មិន​បាន​បញ្ជាក់"
+
+#~ msgid "Select a language"
+#~ msgstr "ជ្រើស​ភាសា"
+
+#~ msgid "_Select"
+#~ msgstr "ជ្រើស"
+
+#~ msgid "_Region:"
+#~ msgstr "តំបន់ ៖"
+
+#~ msgid "_City:"
+#~ msgstr "ទីក្រុង ៖"
+
+#~ msgid "_Network Time"
+#~ msgstr "ពេលវេលា​តាម​បណ្ដាញ"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "កំណត់​ពេលវេលា​ទៅ​មុខ​មួយ​ម៉ោង ។"
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "កំណត់​ពេលវេលា​ថយ​ក្រោយ​មួយ​ម៉ោង ។"
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "កំណត់​ពេលវេលា​ទៅ​មុខ​មួយ​នាទី ។"
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "កំណត់​ពេលវេលា​ថយក្រោយ​មួយ​នាទី ។"
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "ប្ដូរ​ឆ្លាស់​រវាង​ ព្រឹក និង​ល្ងាច ។"
+
+#~ msgid "Month"
+#~ msgstr "ខែ"
+
+#~ msgid "Day"
+#~ msgstr "ថ្ងៃ"
+
+#~ msgid "Year"
+#~ msgstr "ឆ្នាំ"
+
+#~ msgid "24-hour"
+#~ msgstr "២៤ ម៉ោង"
+
+#~ msgid "AM/PM"
+#~ msgstr "ព្រឹក/ល្ងាច"
+
+#~ msgid "January"
+#~ msgstr "មករា"
+
+#~ msgid "February"
+#~ msgstr "កុម្ភៈ"
+
+#~ msgid "March"
+#~ msgstr "មីនា"
+
+#~ msgid "April"
+#~ msgstr "មេសា"
+
+#~ msgid "May"
+#~ msgstr "ឧសភា"
+
+#~ msgid "June"
+#~ msgstr "មិថុនា"
+
+#~ msgid "July"
+#~ msgstr "កក្កដា"
+
+#~ msgid "August"
+#~ msgstr "សីហា"
+
+#~ msgid "September"
+#~ msgstr "កញ្ញា"
+
+#~ msgid "October"
+#~ msgstr "តុលា"
+
+#~ msgid "November"
+#~ msgstr "វិច្ឆិកា"
+
+#~ msgid "December"
+#~ msgstr "ធ្នូ"
+
+#~| msgid "Date and Time"
+#~ msgid "Date & Time"
+#~ msgstr "កាលបរិច្ឆេទ និង​ពេលវេលា"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "ផ្ទាំង​ចំណូលចិត្ត​កាលបរិច្ឆេទ និង​ពេលវេលា"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Clock;Timezone;Location;"
+
+#~| msgid "Change your region and language settings"
+#~ msgid "Change system time and date settings"
+#~ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ពេលវេលា និង​កាលបរិច្ឆេទ​​ប្រព័ន្ធ"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "ដើម្បី​ផ្លាស់ប្ដូរ​កា​រកំណត់​ពេលវាលា ឬ​កាលបរិច្ឆេទ អ្នក​ត្រូវ​តែ​ផ្ទៀតផ្ទាត់​ ។"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "ធម្មតា"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Counterclockwise"
+#~ msgstr "ច្រាស​ទ្រនិច​នាឡិកា"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "ស្រប​ទ្រនិច​នាឡិកា"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "១៨០ ដឺក្រេ"
+
+#~| msgid "Mirror Displays"
+#~ msgid "Mirrored Displays"
+#~ msgstr "ទិដ្ឋភាព​ឆ្លុះ"
+
+#~ msgid "Monitor"
+#~ msgstr "ម៉ូនីទ័រ"
+
+#, c-format
+#~ msgid "%d x %d (%s)"
+#~ msgstr "%d x %d (%s)"
+
+#, c-format
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "អូស ដើម្បី​ផ្លាស់ប្ដូរ​ទិដ្ឋភាព​ចម្បង ។"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr "ជ្រើស​ម៉ូនីទ័រ ដើម្បី​ផ្លាស់ប្ដូរ​លក្ខណសម្បត្តិ​របស់​វា អូស​វា ដើម្បី​រៀបចំ​ទីតាំង​របស់​វា​ជា​ថ្មី ។"
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#, c-format
+#~ msgid "Failed to apply configuration: %s"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​អនុវត្ត​ការ​កំណត់​រចនាសម្ព័ន្ធ ៖ %s"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "មិន​អាច​រក្សាទុក​ការ​កំណត់​រចនាសម្ព័ន្ធ​ម៉ូនីទ័រ​បាន​ឡើយ"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "រក​មិន​ឃើញ​ទិដ្ឋភាព"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "មិន​អាច​ទទួល​បាន​ព័ត៌មាន​អេក្រង់"
+
+#~ msgid "_Resolution"
+#~ msgstr "គុណភាព​បង្ហាញ"
+
+#~ msgid "R_otation"
+#~ msgstr "ការ​បង្វិល"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "បង្ហាញ​ទិដ្ឋភាព"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "ចំណាំ ៖ អាច​នឹង​កំណត់​ជម្រើស​គុណភាព​បង្ហាញ"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "រក​ឃើញ​ទិដ្ឋភាព"
+
+#~ msgid "Displays"
+#~ msgstr "ទិដ្ឋភាព"
+
+#~ msgid "Change resolution and position of monitors and projectors"
+#~ msgstr "ផ្លាស់ប្ដូរ​គុណភាព​បង្ហាញ និង​ទីតាំង​របស់​ម៉ូនីទ័រ និង​ឧបករណ៍​បញ្ចាំង​ស្លាយ"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+#~ msgstr "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+
+#, c-format
+#~ msgid "VESA: %s"
+#~ msgstr "VESA ៖ %s"
+
+#~ msgid "Unknown"
+#~ msgstr "មិន​ស្គាល់"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d ប៊ីត"
+
+#~ msgid "Unknown model"
+#~ msgstr "មិន​ស្គាល់​ម៉ូដែល"
+
+#~ msgid "The next login will attempt to use the standard experience."
+#~ msgstr "ការ​ចូល​បន្ទាប់​នឹង​ប៉ុនប៉ង​ប្រើ​កម្រិត​ស្ដង់ដារ ។"
+
+#~ msgid ""
+#~ "The next login will use the fallback mode intended for unsupported "
+#~ "graphics hardware."
+#~ msgstr "ការ​ចូល​បន្ទាប់​នឹង​ប្រើ​របៀប fallback ដែល​បម្រុងទុក​សម្រាប់​ផ្នែក​រឹង​ក្រាហ្វិក​ដែល​មិន​គាំទ្រ ។"
+
+#~ msgctxt "Experience"
+#~ msgid "Fallback"
+#~ msgstr "Fallback"
+
+#~ msgid "Ask what to do"
+#~ msgstr "សួរ​អ្វី​ដែល​ត្រូវ​ធ្វើ"
+
+#~ msgid "Do nothing"
+#~ msgstr "មិន​ធ្វើ​អ្វី​ទាំងអស់"
+
+#~ msgid "Open folder"
+#~ msgstr "បើក​ថត"
+
+#~| msgid "_Other Media..."
+#~ msgid "Other Media"
+#~ msgstr "មេឌៀ​ផ្សេងទៀត..."
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "ជ្រើស​កម្មវិធី​សម្រាប់​ស៊ីឌី​អូឌីយ៉ូ"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "ជ្រើស​កម្មវិធី​សម្រាប់​ឌីវីឌី​វីដេអូ"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "ជ្រើស​កម្មវិធី​ដែល​ត្រូវ​ដំណើរការ នៅ​ពេល​កម្មវិធី​ចាក់​តន្ត្រី​ត្រូវ​បាន​តភ្ជាប់"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "ជ្រើស​កម្មវិធី​ដែល​ត្រូវ​ដំណើរការ នៅ​ពេល​ម៉ាស៊ីន​ថត​ត្រូវ​បាន​តភ្ជាប់"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "ជ្រើស​កម្មវិធី​សម្រាប់​ស៊ីឌី​កម្មវិធី"
+
+#~ msgid "audio DVD"
+#~ msgstr "ឌីវីឌី​អូឌីយ៉ូ"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "ថាស​ប៊្លូរ៉េយ៍​ទទេ"
+
+#~ msgid "blank CD disc"
+#~ msgstr "ថាស​ស៊ីឌី​ទទេ"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "ថាស​ឌីវីឌី​ទទេ"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "ថាស​ឌីវីឌី HD ទទេ"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "ថាស​វីដេអូ​ប៊្លូរ៉េយ៍"
+
+#~ msgid "e-book reader"
+#~ msgstr "កម្មវិធី​អាន​សៀវភៅ​អេឡិចត្រូនិក"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "ថាស​វីដេអូ​ឌីវីឌី HD"
+
+#~ msgid "Picture CD"
+#~ msgstr "ស៊ីឌី​រូបភាព"
+
+#~ msgid "Super Video CD"
+#~ msgstr "ស៊ីឌី​វីដេអូ​កម្រិតខ្ពស់"
+
+#~ msgid "Video CD"
+#~ msgstr "ស៊ីឌី​វីដេអូ"
+
+#~ msgid "Windows software"
+#~ msgstr "កម្មវិធី​សម្រាប់​វីនដូ"
+
+#~| msgid "_Software"
+#~ msgid "Software"
+#~ msgstr "កម្មវិធី"
+
+#~ msgid "Section"
+#~ msgstr "ភាគ"
+
+#~ msgid "Overview"
+#~ msgstr "ទិដ្ឋភាព​ទូទៅ"
+
+#~ msgid "Default Applications"
+#~ msgstr "កម្មវិធី​លំនាំដើម"
+
+#~ msgid "Removable Media"
+#~ msgstr "មេឌៀ​ចល័ត"
+
+#~ msgid "Graphics"
+#~ msgstr "ក្រាហ្វិក"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "កំណែ %s"
+
+#~ msgid "Install Updates"
+#~ msgstr "ដំឡើង​បច្ចុប្បន្នភាព"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "ប្រព័ន្ធ​ទាន់សម័យ"
+
+#~ msgid "Checking for Updates"
+#~ msgstr "រកមើល​បច្ចុប្បន្នភាព"
+
+#~ msgid "Details"
+#~ msgstr "សេចក្ដី​លម្អិត"
+
+#~ msgid "System Information"
+#~ msgstr "ព័ត៌មាន​ប្រព័ន្ធ"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "fallback;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "fallback;preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "ជ្រើស​របៀប​គ្រប់គ្រង​មេឌៀ​ផ្សេងទៀត"
+
+#~| msgid "_Action"
+#~ msgid "_Action:"
+#~ msgstr "សកម្មភាព ៖"
+
+#~ msgid "_Type:"
+#~ msgstr "ប្រភេទ ៖"
+
+#~ msgid "Device name"
+#~ msgstr "ឈ្មោះ​ឧបករណ៍"
+
+#~ msgid "Memory"
+#~ msgstr "អង្គ​ចងចាំ"
+
+#~ msgid "Processor"
+#~ msgstr "កម្មវិធី​ដំណើរការ"
+
+#~ msgid "OS type"
+#~ msgstr "ប្រភេទ​ប្រព័ន្ធ​ដំណើរការ"
+
+#~ msgid "Disk"
+#~ msgstr "ថាស"
+
+#~ msgid "Calculating..."
+#~ msgstr "កំពុង​គណនា..."
+
+#~ msgid "_Web"
+#~ msgstr "បណ្ដាញ"
+
+#~ msgid "_Mail"
+#~ msgstr "សំបុត្រ"
+
+#~ msgid "_Calendar"
+#~ msgstr "ប្រតិទិន"
+
+#~ msgid "M_usic"
+#~ msgstr "តន្ត្រី"
+
+#~ msgid "_Video"
+#~ msgstr "វីដេអូ"
+
+#~ msgid "_Photos"
+#~ msgstr "រូបថត"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "ជ្រើស​របៀប​គ្រប់គ្រង​មេឌៀ"
+
+#~ msgid "CD _audio"
+#~ msgstr "អូឌីយ៉ូ​ស៊ីឌី"
+
+#~ msgid "_DVD video"
+#~ msgstr "វីដេអូ​ឌីវីឌី"
+
+#~ msgid "_Music player"
+#~ msgstr "កម្មវិធី​ចាក់​​តន្ត្រី"
+
+#~ msgid "_Software"
+#~ msgstr "កម្មវិធី"
+
+#~ msgid "_Other Media..."
+#~ msgstr "មេឌៀ​ផ្សេងទៀត..."
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "កុំ​សួរ ឬ​ចាប់ផ្ដើម​កម្មវិធី នៅ​ពេល​បញ្ចូល​មេឌៀ"
+
+#~ msgid "Driver"
+#~ msgstr "កម្មវិធី​បញ្ជា"
+
+#~ msgid "Experience"
+#~ msgstr "ជាន់ខ្ពស់"
+
+#~ msgid "Forced _Fallback Mode"
+#~ msgstr "របៀប Forced _Fallback"
+
+#~ msgid "Sound and Media"
+#~ msgstr "សំឡេង និង​មេឌៀ"
+
+#~ msgid "Volume mute"
+#~ msgstr "ស្ងាត់"
+
+#~ msgid "Volume down"
+#~ msgstr "បន្ថយ​កម្រិត​សំឡេង"
+
+#~ msgid "Volume up"
+#~ msgstr "បង្កើន​កម្រិត​សំឡេង"
+
+#~ msgid "Launch media player"
+#~ msgstr "បើក​ដំណើរការ​កម្មវិធី​ចាក់​មេឌៀ"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "ចាក់ (ឬ​ចាក់/ផ្អាក)"
+
+#~ msgid "Pause playback"
+#~ msgstr "ផ្អាក​ការ​ចាក់​សារ​ថ្មី"
+
+#~ msgid "Stop playback"
+#~ msgstr "បញ្ឈប់​ការ​ចាក់​សារ​ថ្មី"
+
+#~ msgid "Previous track"
+#~ msgstr "បទ​មុន"
+
+#~ msgid "Next track"
+#~ msgstr "បទ​បន្ទាប់"
+
+#~ msgid "Eject"
+#~ msgstr "ច្រានចេញ"
+
+#~ msgid "Typing"
+#~ msgstr "វាយ"
+
+#~| msgid "Switch Modes"
+#~ msgid "Switch to next source"
+#~ msgstr "ប្ដូរ​ទៅ​ប្រភព​បន្ទាប់"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "ប្ដូរ​ទៅ​ប្រភព​មុន"
+
+#~ msgid "Launchers"
+#~ msgstr "កម្មវិធី​បើក​ដំណើរការ"
+
+#~ msgid "Launch help browser"
+#~ msgstr "បើក​ដំណើរការ​កម្មវិធី​រុករក​បណ្ដាញ"
+
+#~ msgid "Launch calculator"
+#~ msgstr "បើក​ដំណើរការ​ម៉ាស៊ីន​គណនា"
+
+#~ msgid "Launch email client"
+#~ msgstr "បើក​ដំណើរការ​កម្មវិធី​អ៊ីមែល"
+
+#~ msgid "Launch web browser"
+#~ msgstr "បើក​ដំណើរការ​កម្មវិធី​រុករក​បណ្ដាញ"
+
+#~ msgid "Home folder"
+#~ msgstr "ថត​ផ្ទះ"
+
+#~ msgid "Search"
+#~ msgstr "ស្វែងរក"
+
+#~ msgid "Screenshots"
+#~ msgstr "រូបថត​អេក្រង់"
+
+#~| msgid "Take a screenshot of an area"
+#~ msgid "Save a screenshot to Pictures"
+#~ msgstr "ថត​រូប​អេក្រង់​​ជា​រូបភាព"
+
+#~| msgid "Take a screenshot of a window"
+#~ msgid "Save a screenshot of a window to Pictures"
+#~ msgstr "រក្សាទុក​រូបថត​​អេក្រង់​របស់​វីនដូ​ជា​រូបភាព"
+
+#~| msgid "Take a screenshot of an area"
+#~ msgid "Save a screenshot of an area to Pictures"
+#~ msgstr "រក្សាទុក​រូបថត​អេក្រង់​នៃ​ផ្ទៃ​ជា​រូបភាព"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "ចម្លង​រូបថត​អេក្រង់​ទៅកាន់​ក្ដារ​តម្បៀត​ខ្ទាស់"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "ចម្លង​រូបថត​អេក្រង់​បង្អួច​ទៅកាន់​ក្ដារ​តម្បៀត​ខ្ទាស់"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "ចម្លង​រូបថត​អេក្រង់​នៃ​ផ្ទៃ​ទៅកាន់​ក្ដារ​តម្បៀត​ខ្ទាស់"
+
+#~ msgid "System"
+#~ msgstr "ប្រព័ន្ធ"
+
+#~ msgid "Log out"
+#~ msgstr "ចេញ"
+
+#~ msgid "Lock screen"
+#~ msgstr "ចាក់​សោ​អេក្រង់"
+
+#~ msgid "Universal Access"
+#~ msgstr "ចូល​ដំណើរការ​សកល"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "បើក ឬ​បិទ​ការ​ពង្រីក"
+
+#~ msgid "Zoom in"
+#~ msgstr "ពង្រីក"
+
+#~ msgid "Zoom out"
+#~ msgstr "បង្រួម"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "បើក ឬ​បិទ​កម្មវិធី​អាន​អេក្រង់"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "បើក ឬ​បិទ​ក្ដារចុច​នៅ​លើ​អេក្រង់"
+
+#~ msgid "Increase text size"
+#~ msgstr "បង្កើន​ទំហំ​អត្ថបទ"
+
+#~ msgid "Decrease text size"
+#~ msgstr "បន្ថយ​ទំហំ​អត្ថបទ"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "បើក ឬ​បិទ​កម្រិត​ពណ៌​ខ្ពស់"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "គន្លឹះ​តួអក្សរ​ជំនួស"
+
+#~| msgid "Mouse Keys"
+#~ msgid "Compose Key"
+#~ msgstr "គ្រាប់​ចុច​តែង"
+
+#~ msgid "Keyboard"
+#~ msgstr "ក្ដារចុច"
+
+#~ msgid "Change keyboard settings"
+#~ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ក្ដារចុច"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Shortcut;Repeat;Blink;"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "ផ្លូវកាត់​ផ្ទាល់ខ្លួន"
+
+#~ msgid "_Name:"
+#~ msgstr "ឈ្មោះ ៖"
+
+#~ msgid "C_ommand:"
+#~ msgstr "ពាក្យបញ្ជា ៖"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "គ្រាប់ចុច​ធ្វើ​ម្ដងទៀត"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "គ្រាប់ចុច presses _repeat នៅ​ពេល​គ្រាប់ចុច​ត្រូវ​បាន​សង្កត់"
+
+#~ msgid "_Delay:"
+#~ msgstr "ពន្យារពេល ៖"
+
+#~ msgid "_Speed:"
+#~ msgstr "ល្បឿន ៖"
+
+#~ msgid "Short"
+#~ msgstr "ខ្លី"
+
+#~ msgid "Slow"
+#~ msgstr "យឺត"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "ល្បឿន​គ្រាប់ចុច​ធ្វើ​ម្ដងទៀត"
+
+#~ msgid "Long"
+#~ msgstr "យូរ"
+
+#~ msgid "Fast"
+#~ msgstr "លឿន"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "ទស្សន៍ទ្រនិច​លោត​ភ្លឹបភ្លែត"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "ទស្សន៍ទ្រនិច​លោត​ភ្លឹបភ្លែត​នៅ​ក្នុង​វាល​អត្ថបទ"
+
+#~ msgid "S_peed:"
+#~ msgstr "ល្បឿន ៖"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "ល្បឿន​លោត​ភ្លឹបភ្លែត​របស់​ទស្សន៍ទ្រនិច"
+
+#~ msgid "Layout Settings"
+#~ msgstr "ការ​កំណត់​ប្លង់"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "បន្ថែម​ផ្លូវកាត់"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "យក​ផ្លូវកាត់​ចេញ"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "ដើម្បី​កែសម្រួល​ផ្លូវកាត់ ចុច​ជួរ​ដេក និង​សង្កត់​គ្រាប់ចុច​ថ្មី ឬ​ចុច លុប​ថយក្រោយ (Backspace) ដើម្បី​"
+#~ "សម្អាត ។"
+
+#~ msgid "Shortcuts"
+#~ msgstr "ផ្លូវកាត់"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "ផ្លូវកាត់​ផ្ទាល់ខ្លួន"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<មិន​ស្គាល់​សកម្មភាព>"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "មិន​អាច​ប្រើ​ផ្លូវកាត់ \"%s\" បាន​ទេ ពីព្រោះ​វា​នឹង​ធ្វើឲ្យ​មិន​អាច​វាយ​ដោយ​ប្រើ​គ្រាប់​ចុច​នេះ​បាន ។\n"
+#~ "សូម​ព្យាយាម​ប្រើ​គ្រាប់ចុច​ដូចជា បញ្ជា (Control) ជំនួស (Alt) ឬ​ប្ដូរ (Shift) ក្នុង​ពេល​តែមួយ ។"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "ផ្លូវកាត់ \"%s\" ត្រូវ​បាន​ប្រើ​សម្រាប់\n"
+#~ "\"%s\" រួចហើយ"
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr "ប្រសិនបើ​អ្នក​កំណត់​ផ្លូវកាត់​ឡើងវិញ​ទៅជា \"%s\" ផ្លូវកាត់ \"%s\" នឹង​ត្រូវ​បាន​បិទ ។"
+
+#~ msgid "_Reassign"
+#~ msgstr "កំណត់​ឡើងវិញ"
+
+#~| msgid "Your settings"
+#~ msgid "_Test Your Settings"
+#~ msgstr "សាកល្បង​ការ​កំណត់​របស់​អ្នក"
+
+#~| msgid "Mouse and Touchpad"
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "កណ្ដុរ និង​បន្ទះ​ប៉ះ"
+
+#~ msgid "Set your mouse and touchpad preferences"
+#~ msgstr "កំណត់​ចំណូលចិត្ត​កណ្ដុរ និង​បន្ទះ​ប៉ះ​របស់​អ្នក"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
+#~ msgstr "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "ចំណូលចិត្ត​កណ្ដុរ"
+
+#~ msgid "General"
+#~ msgstr "ទូទៅ"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "អស់​ពេល​ចុច​ទ្វេ​ដង"
+
+#~| msgid "Double-click timeout"
+#~ msgid "_Double-click"
+#~ msgstr "ចុច​ទ្វេ​ដង"
+
+#~| msgid "Primary Color"
+#~ msgid "Primary _button"
+#~ msgstr "ប៊ូតុង​ចម្បង"
+
+#~| msgctxt "balance"
+#~| msgid "Left"
+#~ msgid "_Left"
+#~ msgstr "ឆ្វេង"
+
+#~| msgctxt "balance"
+#~| msgid "Right"
+#~ msgid "_Right"
+#~ msgstr "ស្ដាំ"
+
+#~ msgid "Mouse"
+#~ msgstr "កណ្ដុរ"
+
+#~| msgid "Pointer Speed"
+#~ msgid "_Pointer speed"
+#~ msgstr "ល្បឿន​ព្រួញ​កណ្ដុរ"
+
+#~ msgid "Touchpad"
+#~ msgstr "បន្ទះ​ប៉ះ"
+
+#~| msgid "Disable _touchpad while typing"
+#~ msgid "Disable while _typing"
+#~ msgstr "បិទ​​ខណៈ​ពេល​វាយ"
+
+#~ msgid "Tap to _click"
+#~ msgstr "ថេប​ដើម្បី​ចុច"
+
+#~| msgid "Two-_finger scrolling"
+#~ msgid "Two _finger scroll"
+#~ msgstr "រមូរ​ដោយ​ប្រើម្រាមដៃ​ពីរ"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "មាតិកា​ជាប់​នឹង​ម្រាមដៃ"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "ព្យាយាម​ចុច ចុច​ទ្វេ​ដង រមូរ"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "ចុច​ប្រាំ​ដង GEGL ដង !"
+
+#~| msgid "Double-click timeout"
+#~ msgid "Double click, primary button"
+#~ msgstr "​ចុច​ទ្វេ​ដង ប៊ូតុង​ចម្បង"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "ចុច​ម្ដង​ប៊ូតុង​សំខាន់"
+
+#~| msgid "Double-click timeout"
+#~ msgid "Double click, middle button"
+#~ msgstr "ចុច​ទ្វេ​ដង ប៊ូតុង​កណ្ដាល"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "ចុច​ម្ដង ប៊ូតុង​កណ្ដាល"
+
+#~| msgid "Double-click timeout"
+#~ msgid "Double click, secondary button"
+#~ msgstr "​ចុច​ទ្វេ​ដង ប៊ូតុង​រង"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "ចុច​ម្ដង​ប៊ូតុង​រង"
+
+#~ msgid "Network proxy"
+#~ msgstr "ប្រូកស៊ី​បណ្ដាញ"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "សេវា​បណ្ដាញ​ប្រព័ន្ធ​មិន​ឆប​ជាមួយ​កំណែ​នេះ​ទេ ។"
+
+#~| msgid "Airplane Mode"
+#~ msgid "Air_plane Mode"
+#~ msgstr "នៅ​ពេល​ជិះ​យន្ដហោះ"
+
+#~ msgid "Network"
+#~ msgstr "បណ្ដាញ"
+
+#~ msgid "Network settings"
+#~ msgstr "ការ​កំណត់​បណ្ដាញ"
+
+#~ msgid "Network;Wireless;IP;LAN;Proxy;"
+#~ msgstr "Network;Wireless;IP;LAN;Proxy;"
+
+#~| msgid "Connection"
+#~ msgid "Add new connection"
+#~ msgstr "បន្ថែម​ការ​តភ្ជាប់​ថ្មី"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgid "Connect to a Hidden Network"
+#~ msgstr "តភ្ជាប់​ទៅ​បណ្ដាញ​ដែល​លាក់"
+
+#~ msgid "WEP"
+#~ msgstr "បណ្ដាញ"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "សហគ្រាស"
+
+#~| msgid "None"
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#~| msgid "None"
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#~| msgctxt "Password strength"
+#~| msgid "Weak"
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "ខ្សោយ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "គ្មាន​បញ្ហា"
+
+#~| msgid "Good"
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "ល្អ"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "ប្រសើរ​ណាស់"
+
+#, c-format
+#~ msgid ""
+#~ "Network details for %s including password and any custom configuration "
+#~ "will be lost"
+#~ msgstr ""
+#~ "សេចក្ដី​លម្អិត​អំពី​បណ្ដាញ​សម្រាប់ %s ដែល​រួម​មាន​ពាក្យសម្ងាត់ និង​ការ​កំណត់​រចនាសម្ព័ន្ធ​ផ្ទាល់ខ្លួន​ណាមួយ​នឹង​"
+#~ "ត្រូវ​បាត់បង់"
+
+#~ msgid "Forget"
+#~ msgstr "ភ្លេច"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can use "
+#~ "it to share your internet connection with others."
+#~ msgstr ""
+#~ "ប្រសិន​បើ​អ្នក​មាន​ការ​តភ្ជាប់​​អ៊ីនធឺណិត​ក្រៅ​ពី​​ប្រើ​ប្រព័ន្ធ​ឥត​ខ្សែ អ្នក​អាច​ប្រើ​វា ដើម្បី​ចែករំលែក​ការ​តភ្ជាប់​"
+#~ "អ៊ីនធឺណីត​ជា​មួយ​អ្នក​ផ្សេង ។"
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "បើក​ hotspot ឥតខ្សែ​នឹង​ផ្ដាច់​អ្នក​ពី <b>%s</b> ។"
+
+#~ msgid ""
+#~ "It is not possible to access the internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr "មិនអាច​ចូលប្រើ​អ៊ីនធឺណិត​តាមរយៈ​ប្រព័ន្ធ​ឥតខ្សែ​របស់​អ្នក​បាន​ទេ ខណៈ​ដែល​ hotspot សកម្ម ។"
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "បញ្ឈប់ hotspot និង​ផ្ដាច់​អ្នកប្រើ​ណា​ម្នាក់​ឬ ?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "បញ្ឈប់ Hotspot"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i ថ្ងៃ​មុន"
+
+#~| msgid "Out of toner"
+#~ msgid "Out of range"
+#~ msgstr "ក្រៅ​ជួរ"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "ការ​រក​ឃើញ​ប្រូកស៊ី​បណ្ដាញ​ស្វ័យប្រវត្តិ​នឹង​ត្រូវ​បាន​ប្រើ នៅ​ពេល​ URL កំណត់​រចនាសម្ព័ន្ធ​មិន​ត្រូវ​បាន​ផ្ដល់ ។"
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "វា​មិន​ត្រូវ​បាន​ផ្ដល់​អនុសាសន៍​សម្រាប់​បណ្ដាញ​សាធារណៈ​ដែល​មិន​គួរ​ទុកចិត្ត​នោះ​ទេ ។"
+
+#~ msgid "Proxy"
+#~ msgstr "ប្រូកស៊ី"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "ក្រុមហ៊ុន​ផ្ដល់"
+
+#~ msgid "IP Address"
+#~ msgstr "អាសយដ្ឋាន IP"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "អាសយដ្ឋាន IPv6"
+
+#~ msgid "Default Route"
+#~ msgstr "ផ្លូវ​លំនាំដើម"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "_Options..."
+#~ msgstr "ជម្រើស..."
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "ដោយដៃ"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "ស្វ័យប្រវត្តិ"
+
+#~ msgid "_Method"
+#~ msgstr "វិធីសាស្ត្រ"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "URL កំណត់​រចនាសម្ព័ន្ធ"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "ប្រូកស៊ី HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "ប្រូកស៊ី HTTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "ប្រូកស៊ី FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "ម៉ាស៊ីន​រន្ធ"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "ជ្រើស​ចំណុច​ប្រទាក់​ដែល​ត្រូវ​ប្រើ​សម្រាប់​សេវា​ថ្មី"
+
+#~| msgid "Create..."
+#~ msgid "C_reate..."
+#~ msgstr "បង្កើត..."
+
+#~| msgid "Interface"
+#~ msgid "_Interface"
+#~ msgstr "ចំណុច​ប្រទាក់"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Add Device"
+#~ msgstr "បន្ថែម​ឧបករណ៍"
+
+#~ msgid "VPN Type"
+#~ msgstr "ប្រភេទ VPN"
+
+#~ msgid "Gateway"
+#~ msgstr "ផ្លូវ​ចេញចូល"
+
+#~ msgid "Group Name"
+#~ msgstr "ឈ្មោះ​ក្រុម"
+
+#~ msgid "Group Password"
+#~ msgstr "ពាក្យសម្ងាត់​ជា​ក្រុម"
+
+#~| msgid "Wireless mouse"
+#~ msgid "Wireless Hotspot"
+#~ msgstr "otspot ​ឥត​ខ្សែ"
+
+#~ msgid "_Turn On"
+#~ msgstr "បើក"
+
+#~ msgid "Wireless"
+#~ msgstr "ឥត​ខ្សែ"
+
+#~ msgid "_Use as Hotspot..."
+#~ msgstr "ប្រើ​ជា Hotspot..."
+
+#~ msgid "Hardware Address"
+#~ msgstr "អាសយដ្ឋាន​ផ្នែក​រឹង"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "អាសយដ្ឋាន IPv4"
+
+#~ msgid "Security"
+#~ msgstr "សុវត្ថិភាព"
+
+#~| msgid "Cursor blink speed"
+#~ msgid "Link speed"
+#~ msgstr "ល្បឿនតំណ"
+
+#~| msgid "Copy Settings..."
+#~ msgid "_Settings..."
+#~ msgstr "ការ​កំណត់..."
+
+#~ msgid "Switch off to connect to a wireless network"
+#~ msgstr "បិទ ដើម្បី​តភ្ជាប់​ទៅ​បណ្ដាញ​ឥត​ខ្សែ"
+
+#~ msgid "Network Name"
+#~ msgstr "ឈ្មោះ​បណ្ដាញ"
+
+#~| msgid "Connected"
+#~ msgid "Connected Devices"
+#~ msgstr "ឧបករណ៍​ដែល​បាន​តភ្ជាប់"
+
+#~| msgid "Security Key"
+#~ msgid "Security type"
+#~ msgstr "ប្រភេទ​សុវត្ថិភាព"
+
+#~| msgid "Security Key"
+#~ msgid "Security key"
+#~ msgstr "សោ​សុវត្ថិភាព"
+
+#~ msgid "Security Key"
+#~ msgstr "សោ​សុវត្ថិភាព"
+
+#~| msgid "Forget Network"
+#~ msgid "_Forget Network"
+#~ msgstr "ភ្លេច​បណ្ដាញ"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "របាំង​បណ្ដាញ​រង"
+
+#~ msgid "Wired"
+#~ msgstr "មាន​ខ្សែ"
+
+#~ msgid "Mobile broadband"
+#~ msgstr "រលក​អាកាស​ចល័ត"
+
+#~ msgid "Mesh"
+#~ msgstr "សំណាញ់"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "ហេដ្ឋារចនាសម្ព័ន្ធ"
+
+#~ msgid "Status unknown"
+#~ msgstr "មិន​ស្គាល់​ស្ថានភាព"
+
+#~ msgid "Unmanaged"
+#~ msgstr "មិនបាន​គ្រប់គ្រង"
+
+#~ msgid "Firmware missing"
+#~ msgstr "បាត់​កម្មវិធី​បង្កប់"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "ខ្សែ​ត្រូវ​បាន​ដក"
+
+#~ msgid "Unavailable"
+#~ msgstr "មិន​អាច​ប្រើ​បាន"
+
+#~ msgid "Disconnected"
+#~ msgstr "បាន​ផ្ដាច់"
+
+#~ msgid "Connecting"
+#~ msgstr "តភ្ជាប់"
+
+#~ msgid "Authentication required"
+#~ msgstr "តម្រូវឲ្យ​ផ្ទៀងផ្ទាត់​ភាព​ត្រឹមត្រូវ"
+
+#~ msgid "Connected"
+#~ msgstr "បាន​តភ្ជាប់"
+
+#~ msgid "Disconnecting"
+#~ msgstr "ផ្ដាច់"
+
+#~ msgid "Connection failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​តភ្ជាប់"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "(បាត់) មិន​ស្គាល់​ស្ថានភាព"
+
+#~ msgid "Not connected"
+#~ msgstr "មិន​ត្រូវ​បាន​តភ្ជាប់"
+
+#~| msgid "Connection failed"
+#~ msgid "Configuration failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​កំណត់​រចនាសម្ព័ន្ធ"
+
+#~| msgid "Connection failed"
+#~ msgid "IP configuration failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​កំណត់​រចនាសម្ព័ន្ធ IP"
+
+#~| msgid "_Configuration URL"
+#~ msgid "IP configuration expired"
+#~ msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ IP បាន​ផុត​កំណត់"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "ទាមទារ​ភាព​សម្ងាត់ ប៉ុន្តែ​មិន​បាន​ផ្ដល់​ទេ"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "បាន​ផ្ដាច់ 802.1x supplicant"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​កំណត់​រចនាសម្ព័ន្ធ 802.1x supplicant"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "បាន​បរាជ័យ 802.1x supplicant"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x supplicant ត្រូវ​ការ​ពេលវាលា​ច្រើន​ ដើម្បី​ផ្ទៀងផ្ទាត់"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "សកម្ម PPP បាន​បរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម"
+
+#~| msgid "Disconnected"
+#~ msgid "PPP service disconnected"
+#~ msgstr "បាន​ផ្ដាច់​សេវាកម្ម PPP"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP បាន​បរាជ័យ"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "ម៉ាស៊ីន​ភ្ញៀវ DHCP បាន​បរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម"
+
+#~ msgid "DHCP client error"
+#~ msgstr "កំហុស​ម៉ាស៊ីន​ភ្ញៀវ DHCP"
+
+#~| msgid "Connection failed"
+#~ msgid "DHCP client failed"
+#~ msgstr "ម៉ាស៊ីន​ភ្ញៀវ DHCP បាន​បរាជ័យ"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "សេវាកម្ម​តភ្ជាប់​ដែល​បាន​ចែក​រំលែក​បាន​បរាជ័យ​ក្នុងការ​ចាប់ផ្ដើម"
+
+#~| msgid "Connection failed"
+#~ msgid "Shared connection service failed"
+#~ msgstr "សេវាកម្ម​តភ្ជាប់​ដែល​បាន​ចែករំលែក​បាន​បរាជ័យ"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "សេវាកម្ម AutoIP បាន​បរាជ័យ​ក្នុងការ​ចាប់ផ្ដើម"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "កំហុស​សេវាកម្ម AutoIP"
+
+#~| msgid "Authentication failed"
+#~ msgid "AutoIP service failed"
+#~ msgstr "សេវាកម្ម AutoIP បាន​បរាជ័យ"
+
+#~ msgid "Line busy"
+#~ msgstr "ជាប់​រវល់"
+
+#~ msgid "No dial tone"
+#~ msgstr "គ្មាន​សំឡេង​ចុច"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "គ្មានភ្នាក់ងារ​បញ្ជូន​អាច​ត្រូវ​បាន​បង្កើត"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "សំណើរ​ហៅ​អស់​ពេល"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុងការ​ប៉ុនប៉ង​ហៅ"
+
+#~| msgid "Authentication failed"
+#~ msgid "Modem initialization failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម​ម៉ូដឹម"
+
+#~| msgid "Failed to delete user"
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ជ្រើស​ APN ដែល​បាន​បញ្ជាក់"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "មិន​ស្វែងរក​បណ្ដាញ"
+
+#~| msgid "Network settings"
+#~ msgid "Network registration denied"
+#~ msgstr "បាន​បដិសេធ​ការ​ចុះឈ្មោះ​​បណ្ដាញ"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "ការ​ចុះ​ឈ្មោះ​បណ្ដាញ​បាន​អស់​ពេល"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "បាន​បរាជ័យ​ក្នុងការ​ចុះឈ្មោះ​ជា​មួយ​បណ្ដាញ​ដែល​បាន​ស្នើ"
+
+#~ msgid "PIN check failed"
+#~ msgstr "ការ​ពិនិត្យ​​មើល PIN បាន​បរាជ័យ"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Firmware សម្រាប់​ឧបករណ៍​អាច​បាត់"
+
+#~| msgid "Connection failed"
+#~ msgid "Connection disappeared"
+#~ msgstr "ការ​ត​ភ្ជាប់​មិន​បាន​បង្ហាញ​ទេ"
+
+#~ msgid "Carrier/link changed"
+#~ msgstr "បាន​ផ្លាស់ប្ដូរ​ភ្នាក់ងារ​បញ្ជូន/តំណ"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "បាន​សន្មត​ការ​តភ្ជាប់​ដែល​មាន​ស្រាប់"
+
+#~ msgid "Modem not found"
+#~ msgstr "រក​មិន​ឃើញ​ម៉ូដឹម"
+
+#~| msgid "Connection failed"
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​តភ្ជាប់​ប៊្លូធូស"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "មិន​បាន​បញ្ចូល​ស៊ីមកាត"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "ទាមទារ PIN ស៊ីមកាត​"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "ទាមទារ Puk ស៊ីមកាត​"
+
+#~| msgctxt "Password strength"
+#~| msgid "Strong"
+#~ msgid "SIM wrong"
+#~ msgstr "ស៊ីម​កាត​មិន​ត្រឹមត្រូវ"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "ឧបករណ៍ InfiniBand មិន​គាំទ្រ​របៀប​ដែល​បាន​​តភ្ជាប់​ទេ"
+
+#~| msgid "Connection failed"
+#~ msgid "Connection dependency failed"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​តភ្ជាប់​ភាព​អាស្រ័យ"
+
+#~ msgid "Add Account"
+#~ msgstr "បន្ថែម​គណនី"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "កំហុស​ក្នុង​ការ​ចូល​ទៅ​ក្នុង​គណនី"
+
+#~ msgid "Expired credentials. Please log in again."
+#~ msgstr "លិខិត​សម្គាល់​បាន​ផុត​កំណត់ ។ សូម​ចូល​ម្ដងទៀត ។"
+
+#~ msgid "_Log In"
+#~ msgstr "ចូល"
+
+#~ msgid "Error creating account"
+#~ msgstr "កំហុស​ក្នុង​ការ​បង្កើត​គណនី"
+
+#~ msgid "Error removing account"
+#~ msgstr "កំហុស​ក្នុង​ការ​យក​គណនី​ចេញ"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "វា​នឹង​មិន​យក​គណនី​នៅ​លើ​ម៉ាស៊ីន​បម្រើ​ចេញ​ទេ ។"
+
+#~ msgid "_Remove"
+#~ msgstr "យកចេញ"
+
+#~ msgid "Online Accounts"
+#~ msgstr "គណនី​លើ​បណ្ដាញ"
+
+#~ msgid "Manage online accounts"
+#~ msgstr "គ្រប់គ្រង​គណនី​លើ​បណ្ដាញ"
+
+#~ msgid "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+
+#~| msgid "Manage online accounts"
+#~ msgid "No online accounts configured"
+#~ msgstr "គ្មាន​គណនី​លើ​បណ្ដាញ​បាន​កំណត់​រចនាសម្ព័ន្ធទេ"
+
+#~| msgid "Manage online accounts"
+#~ msgid "Add an online account"
+#~ msgstr "បន្ថែម​គណនី​​លើ​បណ្ដាញ"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "ការ​បន្ថែម​គណនី អនុញ្ញាត​ឲ្យ​​កម្មវិធី​របស់​អ្នក​ចូល​មើល​ឯកសារ អ៊ីមែល ទំនាក់ទំនង ប្រតិទិន ជជែក និង​ផ្សេងៗ​"
+#~ "ទៀត។"
+
+#~ msgid "Unknown time"
+#~ msgstr "មិន​ស្គាល់​ពេលវេលា"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i នាទី"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ម៉ោង"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ម៉ោង"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "នាទី"
+
+#, c-format
+#~ msgid "Charging - %s until fully charged"
+#~ msgstr "បញ្ចូល​ថ្ម - %s រហូត​ដល់​​ពេញ"
+
+#, c-format
+#~ msgid "Caution low battery, %s remaining"
+#~ msgstr "ជិត​អស់​ថ្ម  នៅ​សល់ %s"
+
+#, c-format
+#~ msgid "Using battery power - %s remaining"
+#~ msgstr "ប្រើ​ថាមពល​ថ្ម - នៅ​សល់  %s"
+
+#~ msgid "Charging"
+#~ msgstr "បញ្ចូល​ថ្ម"
+
+#~ msgid "Using battery power"
+#~ msgstr "ប្រើ​ថាមពល​ថ្ម"
+
+#~ msgid "Charging - fully charged"
+#~ msgstr "បញ្ចូល​ថ្ម - ពេញ"
+
+#~ msgid "Empty"
+#~ msgstr "អស់"
+
+#, c-format
+#~ msgid "Caution low UPS, %s remaining"
+#~ msgstr "យូភីអេស​ខ្សោយ​ថាមពល នៅ​សល់ %s"
+
+#, c-format
+#~ msgid "Using UPS power - %s remaining"
+#~ msgstr "ប្រើ​ថាមពល​យូភីអេស -នៅ​សល់ %s"
+
+#~ msgid "Caution low UPS"
+#~ msgstr "យូភីអេស​ខ្សោយ​ថាមពល"
+
+#~ msgid "Using UPS power"
+#~ msgstr "ប្រើ​ថាមពល​យូភីអេស"
+
+#~ msgid "Your secondary battery is fully charged"
+#~ msgstr "ថ្ម​ទី​ពីរ​របស់​អ្នក​ពេញ"
+
+#~ msgid "Your secondary battery is empty"
+#~ msgstr "ថ្ម​ទីពីរ​របស់​អ្នក​អស់ថាមពល"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "កណ្ដុរ​ឥត​ខ្សែ"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "ក្ដារ​ចុច​ឥត​ខ្សែ"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "ការ​ផ្គត់ផ្គង់​ថាមពល​ដែល​មិន​អាច​ផ្អាក​បាន"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "អ្នក​ជំនួយការ​ឌីជីថល​ផ្ទាល់ខ្លួន"
+
+#~ msgid "Cellphone"
+#~ msgstr "ទូរស័ព្ទ​ចល័ត"
+
+#~ msgid "Media player"
+#~ msgstr "កម្មវិធី​ចាក់​មេឌៀ"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "កុំព្យូទ័រ"
+
+#~ msgid "Battery"
+#~ msgstr "ថ្ម"
+
+#~| msgid "Charging"
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "បញ្ចូល​ថ្ម"
+
+#~| msgid "Caution"
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "ប្រយ័ត្ន"
+
+#~| msgid "Low"
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "ទាប"
+
+#~| msgid "Good"
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "ល្អ"
+
+#~| msgid "Charging - fully charged"
+#~ msgctxt "Battery power"
+#~ msgid "Charging - fully charged"
+#~ msgstr "បញ្ចូល​ថ្ម - ពេញ"
+
+#~| msgid "Empty"
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "អស់"
+
+#~ msgid "Power"
+#~ msgstr "ថាមពល"
+
+#~ msgid "Power management settings"
+#~ msgstr "ការ​កំណត់​ការ​គ្រប់គ្រង​ថាមពល"
+
+#~ msgid "Power;Sleep;Suspend;Hibernate;Battery;"
+#~ msgstr "Power;Sleep;Suspend;Hibernate;Battery;"
+
+#~ msgid "Hibernate"
+#~ msgstr "សម្ងំ"
+
+#~ msgid "Power off"
+#~ msgstr "បិទ​ថាមពល"
+
+#~ msgid "5 minutes"
+#~ msgstr "៥ នាទី"
+
+#~ msgid "10 minutes"
+#~ msgstr "១០ នាទី"
+
+#~ msgid "30 minutes"
+#~ msgstr "៣០ នាទី"
+
+#~ msgid "1 hour"
+#~ msgstr "១ ម៉ោង"
+
+#~ msgid "Don't suspend"
+#~ msgstr "កុំ​ផ្អាក"
+
+#~ msgid "On battery power"
+#~ msgstr "នៅ​លើ​ថាមពល​ថ្ម"
+
+#~ msgid "When plugged in"
+#~ msgstr "នៅ​ពេល​បាន​ដោត"
+
+#~ msgid "Suspend when inactive for"
+#~ msgstr "ផ្អាក នៅ​ពេល​អសកម្ម"
+
+#~ msgid "When power is _critically low"
+#~ msgstr "នៅ​ពេល​ថាមពល​កាន់​តែ​ខ្សោយ​ខ្លាំង"
+
+#~ msgid "Low on toner"
+#~ msgstr "ជិត​អស់​ទឹក​ថ្នាំ"
+
+#~ msgid "Out of toner"
+#~ msgstr "អស់​ទឹក​ថ្នាំ"
+
+#~ msgid "Low on developer"
+#~ msgstr "ជិត​អស់​ទឹក​ថ្នាំ​លាង​ហ្វីល"
+
+#~ msgid "Out of developer"
+#~ msgstr "អស់​ទឹក​ថ្នាំ​លាង​ហ្វីល"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "ជិត​អស់​សញ្ញា​សម្គាល់"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "អស់​សញ្ញា​សម្គាល់"
+
+#~ msgid "Open cover"
+#~ msgstr "បើក​គម្រប"
+
+#~ msgid "Open door"
+#~ msgstr "បើក​គម្រប"
+
+#~ msgid "Low on paper"
+#~ msgstr "ជិត​អស់​ក្រដាស"
+
+#~ msgid "Out of paper"
+#~ msgstr "អស់​ក្រដាស"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "ក្រៅបណ្ដាញ"
+
+#~ msgctxt "printer state"
+#~ msgid "Paused"
+#~ msgstr "បាន​ផ្អាក"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "ធុងសំរាម​ជិត​ពេញ"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "ធុងសំរាម​ពេញ"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "អង្គធាតុ​ចម្លង​រូបថត​អុបទិក​ជិត​អស់​អាយុកាល"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "អង្គធាតុ​ចម្លង​រូបថត​អុបទិក​លែង​ដំណើរការ"
+
+#~| msgid "_Configuration URL"
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "កំណត់​រចនាសម្ព័ន្ធ"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "រួចហើយ"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "ដំណើរការ"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "បញ្ឈប់"
+
+#~ msgid "Toner Level"
+#~ msgstr "កម្រិត​ទឹកថ្នាំ"
+
+#~ msgid "Ink Level"
+#~ msgstr "កម្រិត​ទឹក​ខ្មៅ"
+
+#~ msgid "Supply Level"
+#~ msgstr "កម្រិត​ផ្គត់ផ្គង់"
+
+#~| msgid "Install languages..."
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "ដំឡើង​"
+
+#~ msgid "No printers available"
+#~ msgstr "គ្មាន​ម៉ាស៊ីន​បោះពុម្ព​ដែល​អាច​ប្រើ​បាន"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u សកម្ម"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​បន្ថែម​ម៉ាស៊ីន​បោះពុម្ព​ថ្មី ។"
+
+#~| msgid "Select ICC Profile File"
+#~ msgid "Select PPD File"
+#~ msgstr "ជ្រើស​ឯកសារ​ PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "ឯកសារ​ពណ៌នា​​របស់​ម៉ាស៊ីន​បោះពុម្ព PostScript (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~| msgid "No local printers found"
+#~ msgid "No suitable driver found"
+#~ msgstr "រក​មិន​ឃើញ​កម្មវិធី​បញ្ជា​សមរម្យ"
+
+#~ msgid "Searching for preferred drivers..."
+#~ msgstr "កំពុង​ស្វែងរក​កម្មវិធី​បញ្ជា​ដែល​​ចង់​បាន..."
+
+#~ msgid "Select from database..."
+#~ msgstr "ជ្រើស​ពី​មូលដ្ឋាន​ទិន្នន័យ..."
+
+#~| msgid "Browse Files..."
+#~ msgid "Provide PPD File..."
+#~ msgstr "ផ្ដល់​ឯកសារ PPD..."
+
+#~ msgid "Test page"
+#~ msgstr "ទំព័រ​សាកល្បង"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "មិន​អាច​ផ្ទុក ui ៖ %s"
+
+#~ msgid "Printers"
+#~ msgstr "ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "Change printer settings"
+#~ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Printer;Queue;Print;Paper;Ink;Toner;"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Close"
+#~ msgstr "បិទ"
+
+#~| msgid "Active Print Jobs"
+#~ msgid "Active Jobs"
+#~ msgstr "ការងារសកម្ម"
+
+#~ msgid "Resume Printing"
+#~ msgstr "បន្ត​ការ​បោះពុម្ព"
+
+#~ msgid "Pause Printing"
+#~ msgstr "ផ្អាក​ការ​បោះពុម្ព"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "បោះបង់​ការងារ​បោះពុម្ព"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "បន្ថែម​ម៉ាស៊ីន​បោះពុម្ព​ថ្មី"
+
+#~| msgid "No network printers found"
+#~ msgid "Search for network printers or filter result"
+#~ msgstr "ស្វែងរក​ម៉ាស៊ីន​បោះពុម្ព​បណ្ដាញ​ ឬ​លទ្ធផល​តម្រង"
+
+#~| msgid "_Options"
+#~ msgid "Options"
+#~ msgstr "ជម្រើស"
+
+#~| msgid "Locations..."
+#~ msgid "Loading options..."
+#~ msgstr "កំពុង​ផ្ទុក​ជម្រើស..."
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "កំពុង​ផ្ទុក​មូលដ្ឋាន​ទិន្នន័យ​កម្មវិធី​បញ្ជា..."
+
+#~| msgid "Selecting finger"
+#~ msgid "Select Printer Driver"
+#~ msgstr "ជ្រើស​កម្មវិធី​បញ្ហា​ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "One Sided"
+#~ msgstr "តែ​ម្ខាង"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Long Edge (ស្តង់ដារ)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Short Edge (ត្រឡប់)"
+
+#~ msgid "Portrait"
+#~ msgstr "បញ្ឈរ"
+
+#~ msgid "Landscape"
+#~ msgstr "ផ្ដេក"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "បញ្ច្រាស​ផ្ដេក"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "បញ្ច្រាស​បញ្ឈរ"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "កំពុង​រង់ចាំ"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "រង់ចាំ"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "ដំណើរការ"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "បញ្ឈប់"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "បោះបង់"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "បោះបង់"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "បាន​បញ្ចប់"
+
+#~ msgid "Job Title"
+#~ msgstr "ចំណងជើង​ការងារ"
+
+#~ msgid "Job State"
+#~ msgstr "ស្ថានភាព​ការងារ"
+
+#~ msgid "Time"
+#~ msgstr "ពេលវេលា"
+
+#, c-format
+#~| msgid "Active Print Jobs"
+#~ msgid "%s Active Jobs"
+#~ msgstr "ការងារ​សកម្ម %s"
+
+#~| msgid "No tablet detected"
+#~ msgid "No printers detected."
+#~ msgstr "រក​មិ​ន​ឃើញ​ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "Two Sided"
+#~ msgstr "ទាំង​សងខាង"
+
+#~| msgid "VPN Type"
+#~ msgid "Paper Type"
+#~ msgstr "ប្រភេទ​ក្រដាស"
+
+#~ msgid "Paper Source"
+#~ msgstr "ប្រភព​ក្រដាស"
+
+#~| msgid "Output"
+#~ msgid "Output Tray"
+#~ msgstr "ថាស​លទ្ធផល"
+
+#~| msgid "_Resolution"
+#~ msgid "Resolution"
+#~ msgstr "គុណភាព​បង្ហាញ"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript pre-filtering"
+
+#~ msgid "Pages per side"
+#~ msgstr "ទំព័រ​ក្នុង​ម្ខាង"
+
+#~ msgid "Two-sided"
+#~ msgstr "ទាំង​សងខាង"
+
+#~| msgid "Left-Handed Orientation"
+#~ msgid "Orientation"
+#~ msgstr "ទិស​"
+
+#~| msgid "General"
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "ទូទៅ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "រៀបចំ​ទំព័រ"
+
+#~| msgid "Printer Options"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "ជម្រើស​បាន​ដំឡើង"
+
+#~| msgid "Jobs"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "ការងារ"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "គុណភាព​រូបភាព"
+
+#~| msgid "Color"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "ពណ៌"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "បញ្ចប់"
+
+#~| msgctxt "print job"
+#~| msgid "Canceled"
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "កម្រិត​ខ្ពស់"
+
+#, c-format
+#~| msgid "_Options"
+#~ msgid "%s Options"
+#~ msgstr "%s ជម្រើស"
+
+#~| msgid "Select"
+#~ msgid "Auto Select"
+#~ msgstr "ជ្រើស​ស្វ័យ​ប្រវត្តិ"
+
+#~| msgid "Default"
+#~ msgid "Printer Default"
+#~ msgstr "ម៉ាស៊ីន​បោះពុម្ព​លំនាំដើម"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "បញ្ចប់​តែ​ពុម្ពអក្សរ GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "បម្លែង​ទៅ PS កម្រិត ១"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "បម្លែង​ទៅជា PS កម្រិត​ ២"
+
+#~| msgid "No profile"
+#~ msgid "No pre-filtering"
+#~ msgstr "គ្មាន​​តម្រង​ជា​មុន"
+
+#~| msgid "Manufacturer:"
+#~ msgid "Manufacturers"
+#~ msgstr "ក្រុមហ៊ុនផលិត"
+
+#~| msgid "Driver"
+#~ msgid "Drivers"
+#~ msgstr "កម្មវិធី​បញ្ជា"
+
+#~ msgid "Add Printer"
+#~ msgstr "បន្ថែម​ម៉ាស៊ីន​បោះពុម្ព"
+
+#~ msgid "Remove Printer"
+#~ msgstr "យក​ម៉ាស៊ីន​បោះពុម្ព​ចេញ"
+
+#~ msgid "Supply"
+#~ msgstr "ការ​ផ្គត់ផ្គង់"
+
+#~ msgid "Location"
+#~ msgstr "ទីតាំង"
+
+#~ msgid "_Default"
+#~ msgstr "លំនាំដើម"
+
+#~ msgid "Jobs"
+#~ msgstr "ការងារ"
+
+#~ msgid "_Show"
+#~ msgstr "បង្ហាញ"
+
+#~ msgid "Model"
+#~ msgstr "ម៉ូដែល"
+
+#~ msgid "page 1"
+#~ msgstr "ទំព័រ ១"
+
+#~ msgid "label"
+#~ msgstr "ស្លាក"
+
+#~ msgid "page 2"
+#~ msgstr "ទំព័រ ២"
+
+#~| msgid "Getting devices..."
+#~ msgid "Setting new driver..."
+#~ msgstr "កំពុង​កំណត់​កម្មវិធី​បញ្ជា​ថ្មី..."
+
+#~ msgid "page 3"
+#~ msgstr "ទំព័រ​ ៣"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "បោះពុម្ព​ទំព័រ​សាកល្បង"
+
+#~ msgid "_Options"
+#~ msgstr "ជម្រើស"
+
+#~ msgid "Add New Printer"
+#~ msgstr "បន្ថែម​ម៉ាស៊ីន​បោះពុម្ព​ថ្មី"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "សូម​អភ័យទោស ! សេវា​បោះពុម្ព​តាម​ប្រព័ន្ធ\n"
+#~ "ហាក់​ដូចជា​មិន​ដំណើរការ ។"
+
+#~| msgid "Region and Language"
+#~ msgid "Region & Language"
+#~ msgstr "តំបន់ និង​ភាសា"
+
+#~ msgid "Change your region and language settings"
+#~ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​តំបន់ និង​ភាសា​របស់​អ្នក"
+
+#~ msgid "Language;Layout;Keyboard;"
+#~ msgstr "Language;Layout;Keyboard;"
+
+#~ msgid "Imperial"
+#~ msgstr "កម្រិត​ខ្ពស់"
+
+#~ msgid "Metric"
+#~ msgstr "ម៉ែត្រ"
+
+#~| msgid "Select an input source to add"
+#~ msgid "Choose an input source"
+#~ msgstr "ជ្រើស​ប្រភព​បញ្ចូល"
+
+#~ msgid "Select an input source to add"
+#~ msgstr "ជ្រើស​ប្រភព​បញ្ចូល ដើម្បី​បន្ថែម"
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings."
+#~ msgstr "អេក្រង់​ចូល គណនី​ប្រព័ន្ធ និង​គណនី​អ្នកប្រើ​ថ្មី​ប្រើ​ការ​កំណត់​តំបន់ និង​ភាសា​ទូទាំង​ប្រព័ន្ធ ។"
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings. You may change the system settings to "
+#~ "match yours."
+#~ msgstr ""
+#~ "អេក្រង់​ចូល គណនី​ប្រព័ន្ធ និង​គណនី​អ្នកប្រើ​ថ្មី​ប្រើ​ការ​កំណត់​តំបន់ និង​ភាសា​ទូទាំង​ប្រព័ន្ធ ។ អ្នក​អាច​ផ្លាស់ប្ដូរ​"
+#~ "ការ​កំណត់​ប្រព័ន្ធ​ទៅតាម​តម្រូវការ​របស់​អ្នក​បាន ។"
+
+#~ msgid "Copy Settings"
+#~ msgstr "ចម្លង​ការ​កំណត់"
+
+#~ msgid "Copy Settings..."
+#~ msgstr "ចម្លង​ការ​កំណត់..."
+
+#~ msgid "Region and Language"
+#~ msgstr "តំបន់ និង​ភាសា"
+
+#~ msgid ""
+#~ "Select a display language (change will be applied next time you log in)"
+#~ msgstr "ជ្រើស​ភាសា (ការ​ផ្លាស់ប្ដូរ​នឹង​ត្រូវ​បាន​អនុវត្ត​ នៅ​ពេល​ដែល​អ្នក​ចូល​លើក​ក្រោយ)"
+
+#~ msgid "Add Language"
+#~ msgstr "បន្ថែម​ភាសា"
+
+#~ msgid "Remove Language"
+#~ msgstr "យក​ភាសា​ចេញ"
+
+#~ msgid "Install languages..."
+#~ msgstr "ដំឡើង​ភាសា..."
+
+#~ msgid "Language"
+#~ msgstr "ភាសា"
+
+#~ msgid "Select a region (change will be applied the next time you log in)"
+#~ msgstr "ជ្រើស​តំបន់ (ការ​ផ្លាស់ប្ដូរ​នឹង​ត្រូវ​បាន​អនុវត្ត នៅ​ពេល​ដែល​អ្នក​ចូល​លើកក្រោយ)"
+
+#~ msgid "Add Region"
+#~ msgstr "បន្ថែម​តំបន់"
+
+#~ msgid "Remove Region"
+#~ msgstr "យក​តំបន់​ចេញ"
+
+#~ msgid "Dates"
+#~ msgstr "កាលបរិច្ឆេទ"
+
+#~ msgid "Times"
+#~ msgstr "ពេលវេលា"
+
+#~ msgid "Numbers"
+#~ msgstr "លេខ"
+
+#~ msgid "Currency"
+#~ msgstr "រូបិយប័ណ្ណ"
+
+#~ msgid "Measurement"
+#~ msgstr "រង្វាស់"
+
+#~ msgid "Examples"
+#~ msgstr "ឧទាហរណ៍"
+
+#~ msgid "Formats"
+#~ msgstr "ទ្រង់ទ្រាយ"
+
+#~| msgid "Select an input source to add"
+#~ msgid "Select keyboards or other input sources"
+#~ msgstr "ជ្រើស​ក្ដារចុច ឬ​ប្រភព​បញ្ចូល​ផ្សេង​ទៀត"
+
+#~| msgid "Input source:"
+#~ msgid "Add Input Source"
+#~ msgstr "បន្ថែម​ប្រភព​បញ្ចូល"
+
+#~| msgid "Input source:"
+#~ msgid "Remove Input Source"
+#~ msgstr "យក​ប្រភព​បញ្ចូល​ចេញ"
+
+#~| msgid "Input source:"
+#~ msgid "Move Input Source Up"
+#~ msgstr "ផ្លាស់ទី​ប្រភព​បញ្ចូល​ឡើង​លើ"
+
+#~| msgid "Input source:"
+#~ msgid "Move Input Source Down"
+#~ msgstr "ផ្លាស់ទី​ប្រភព​បញ្ចូល​ចុះក្រោម"
+
+#~| msgid "Mouse Settings"
+#~ msgid "Input Source Settings"
+#~ msgstr "បញ្ចូល​ការ​កំណត់​ប្រភព"
+
+#~| msgid "Keyboard Layout"
+#~ msgid "Show Keyboard Layout"
+#~ msgstr "បង្ហាញ​ប្លង់​ក្ដារចុច"
+
+#~ msgid "Ctrl+Alt+Space"
+#~ msgstr "បញ្ជា (Ctrl)+ជំនួស (Alt)+ដកឃ្លា (Space)"
+
+#~ msgid "Ctrl+Alt+Shift+Space"
+#~ msgstr "បញ្ជា(Ctrl)+ជំនួស(Alt)+ប្ដូរ(Shift)+ដកឃ្លា(Space)"
+
+#~| msgid "Sound Settings"
+#~ msgid "Shortcut Settings"
+#~ msgstr "ការ​កំណត់​ផ្លូវ​កាត់"
+
+#~| msgid "Input source:"
+#~ msgid "Input Sources"
+#~ msgstr "ប្រភព​បញ្ចូល"
+
+#~ msgid "Display language:"
+#~ msgstr "ភាសា​បង្ហាញ ៖"
+
+#~ msgid "Input source:"
+#~ msgstr "ប្រភព​បញ្ចូល ៖"
+
+#~ msgid "Format:"
+#~ msgstr "ទ្រង់ទ្រាយ ៖"
+
+#~ msgid "Your settings"
+#~ msgstr "ការ​កំណត់​របស់​អ្នក"
+
+#~ msgid "System settings"
+#~ msgstr "ការ​កំណត់​ប្រព័ន្ធ"
+
+#~| msgid "Brightness and Lock"
+#~ msgid "Brightness & Lock"
+#~ msgstr "ពន្លឺ និង​ការ​ចាក់សោ"
+
+#~ msgid "Screen brightness and lock settings"
+#~ msgstr "ការ​កំណត់​ពន្លឺ​អេក្រង់ និង​ការ​ចាក់សោ"
+
+#~ msgid "Brightness;Lock;Dim;Blank;Monitor;"
+#~ msgstr "Brightness;Lock;Dim;Blank;Monitor;"
+
+#~ msgid "Screen turns off"
+#~ msgstr "បិទ​អេក្រង់"
+
+#~ msgid "30 seconds"
+#~ msgstr "៣០ វិនាទី"
+
+#~ msgid "1 minute"
+#~ msgstr "១ នាទី"
+
+#~ msgid "2 minutes"
+#~ msgstr "២ នាទី"
+
+#~ msgid "3 minutes"
+#~ msgstr "៣ នាទី"
+
+#~ msgid "_Dim screen to save power"
+#~ msgstr "ធ្វើឲ្យ​អេក្រង់​ស្រអាប់ ដើម្បី​សន្សំ​ថាមពល"
+
+#~ msgid "Brightness"
+#~ msgstr "ពន្លឺ"
+
+#~ msgid "_Turn screen off when inactive for:"
+#~ msgstr "បិទ​អេក្រង់ នៅ​ពេល​អសកម្ម ៖"
+
+#~ msgid "_Lock screen after:"
+#~ msgstr "ចាក់​សោ​អេក្រង់​បន្ទាប់ពី ៖"
+
+#~ msgid "Don't lock when at home"
+#~ msgstr "កុំ​ចាក់​សោ នៅ​ពេល​អ្នក​នៅ​ផ្ទះ"
+
+#~ msgid "Locations..."
+#~ msgstr "ទីតាំង..."
+
+#~ msgid "Show _notifications when locked"
+#~ msgstr "បង្ហាញ​ការ​ជូន​ដំណឹង​នៅ​ពេល​ចាក់សោ"
+
+#~ msgid "Lock"
+#~ msgstr "ចាក់សោ"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "បើក​កូដ​បំបាត់​កំហុស"
+
+#~ msgid "Version of this application"
+#~ msgstr "កំណែ​កម្មវិធី​នេះ"
+
+#~ msgid " — GNOME Volume Control Applet"
+#~ msgstr " អាប់ភ្លេត​គ្រប់គ្រង​កម្រិត​សំឡេង​របស់  — GNOME"
+
+#~ msgid "Volume Control"
+#~ msgstr "កា​រ​គ្រប់គ្រង​កម្រិត​សំឡេង"
+
+#~ msgid "Show desktop volume control"
+#~ msgstr "បង្ហាញ​ការ​គ្រប់គ្រង​កម្រិត​សំឡេង​នៅ​លើ​ផ្ទៃតុ"
+
+#~ msgid "Sound"
+#~ msgstr "សំឡេង"
+
+#~ msgid "Change sound volume and sound events"
+#~ msgstr "ផ្លាស់ប្ដូរ​កម្រិត​សំឡេង ​និង​ព្រឹត្តិការណ៍​សំឡេង"
+
+#~| msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;"
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;"
+
+#~ msgid "Bark"
+#~ msgstr "ឆ្កែ​ព្រុស"
+
+#~ msgid "Drip"
+#~ msgstr "តំណក់​ទឹក"
+
+#~ msgid "Glass"
+#~ msgstr "គោះ​កែវ"
+
+#~ msgid "Sonar"
+#~ msgstr "សូរណា"
+
+#~ msgid "Output"
+#~ msgstr "បញ្ចេញ"
+
+#~ msgid "Sound Output Volume"
+#~ msgstr "កម្រិត​បញ្ចេញ​សំឡេង"
+
+#~ msgid "Input"
+#~ msgstr "បញ្ចូល"
+
+#~ msgid "Microphone Volume"
+#~ msgstr "កម្រិត​សំឡេង​មីក្រូហ្វូន"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "ឆ្វេង"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "ស្ដាំ"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "ខាង​ក្រោយ"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "ខាងមុខ"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "អប្បបរមា"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "អតិបរមា"
+
+#~ msgid "_Balance:"
+#~ msgstr "តុល្យភាព ៖"
+
+#~ msgid "_Fade:"
+#~ msgstr "សំឡេង​ថយ ៖"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "Subwoofer ៖"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "១០០%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "មិន​ពង្រីក"
+
+#~ msgid "_Profile:"
+#~ msgstr "ទម្រង់ ៖"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "បញ្ចេញ %u"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "បញ្ចូល %u"
+
+#~ msgid "System Sounds"
+#~ msgstr "សំឡេង​របស់​ប្រព័ន្ធ"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "សាកល្បង​ធុងបាស"
+
+#~ msgid "Peak detect"
+#~ msgstr "រក​ឃើញ​កម្រិត​សំឡេង​ខ្ពស់​បំផុត"
+
+#~ msgid "Name"
+#~ msgstr "ឈ្មោះ"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "សាកល្បង​ធុងបាស​សម្រាប់ %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "កម្រិត​បញ្ចេញ​សំឡេង ៖"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "ជ្រើស​ឧបករណ៍​សម្រាប់​​បញ្ចេញ​សំឡេង ៖"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "ការ​កំណត់​សម្រាប់​ឧបករណ៍​ដែល​បាន​ជ្រើស ៖"
+
+#~ msgid "_Input volume:"
+#~ msgstr "កម្រិត​បញ្ចូល​សំឡេង ៖"
+
+#~ msgid "Input level:"
+#~ msgstr "កម្រិត​បញ្ចូល ៖"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "ជ្រើស​ឧបករណ៍​សម្រាប់​បញ្ចូល​សំឡេង ៖"
+
+#~ msgid "Sound Effects"
+#~ msgstr "បែបផែន​សំឡេង"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "កម្រិត​សំឡេង​ព្រមាន ៖"
+
+#~ msgid "Applications"
+#~ msgstr "កម្មវិធី"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "បច្ចុប្បន្ន​គ្មាន​កម្មវិធី​ដែល​កំពុង​ចាក់ ឬ​ថត​ចម្លង​អូឌីយ៉ូ​ទេ ។"
+
+#~ msgid "Built-in"
+#~ msgstr "ភ្ជាប់​មក​ជាមួយ"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "ចំណូលចិត្ត​សំឡេង"
+
+#~ msgid "Testing event sound"
+#~ msgstr "សាកល្បង​សំឡេង​ព្រឹត្តិការណ៍"
+
+#~ msgid "Default"
+#~ msgstr "លំនាំដើម"
+
+#~ msgid "From theme"
+#~ msgstr "ពី​ស្បែក"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "ជ្រើស​សំឡេង​ព្រមាន ៖"
+
+#~ msgid "Stop"
+#~ msgstr "បញ្ឈប់"
+
+#~ msgid "Test"
+#~ msgstr "សាកល្បង"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#, c-format
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ចាប់ផ្ដើម​ចំណូលចិត្ត​សំឡេង ៖ %s"
+
+#~ msgid "_Mute"
+#~ msgstr "ស្ងាត់"
+
+#~ msgid "_Sound Preferences"
+#~ msgstr "ចំណូលចិត្ត​សំឡេង"
+
+#~ msgid "Muted"
+#~ msgstr "ស្ងាត់"
+
+#~ msgid "Custom"
+#~ msgstr "ផ្ទាល់ខ្លួន"
+
+#~ msgid "No shortcut set"
+#~ msgstr "គ្មាន​ការ​កំណត់​ផ្លូវកាត់"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "ចំណូលចិត្ត​ចូល​ដំណើរការ​សកល"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen Reader;text;font;"
+#~ "size;AccessX;Sticky Keys;Slow Keys;Bounce Keys;Mouse Keys;"
+#~ msgstr ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen Reader;text;font;"
+#~ "size;AccessX;Sticky Keys;Slow Keys;Bounce Keys;Mouse Keys;"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "ទាប"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "ធម្មតា"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "ខ្ពស់"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "ខ្ពស់/ច្រាស"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "ក្ដារចុច​លើ​អេក្រង់"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#, no-c-format
+#~ msgid "75%"
+#~ msgstr "៧៥%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Small"
+#~ msgstr "តូច"
+
+#, no-c-format
+#~ msgid "100%"
+#~ msgstr "១០០%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "ធម្មតា"
+
+#, no-c-format
+#~ msgid "125%"
+#~ msgstr "១២៥%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Large"
+#~ msgstr "ធំ"
+
+#, no-c-format
+#~ msgid "150%"
+#~ msgstr "១៥០%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "ធំជាង"
+
+#~| msgid "_Contrast:"
+#~ msgid "High Contrast"
+#~ msgstr "កម្រិត​ពណ៌"
+
+#~| msgid "Beep when Caps and Num Lock are used"
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "បញ្ចេញ​សំឡេង​ប៊ីប នៅ​ពេល​គ្រាប់ចុច​ប្ដូរ​ជាប់ និង​លេខ​ ( Caps and Num Lock) ត្រូវ​បាន​ប្រើ"
+
+#~ msgid "Options..."
+#~ msgstr "ជម្រើស..."
+
+#~ msgid "Screen Reader"
+#~ msgstr "កម្មវិធី​អាន​អេក្រង់"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "បើក ឬ​បិទ"
+
+#~| msgid "Zoom"
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "ពង្រីក"
+
+#~ msgid "Zoom in:"
+#~ msgstr "ពង្រីក ៖"
+
+#~ msgid "Zoom out:"
+#~ msgstr "បង្រួម ៖"
+
+#~| msgid "Large"
+#~ msgid "Large Text"
+#~ msgstr "អត្ថបទ​ធំ"
+
+#~ msgid "Seeing"
+#~ msgstr "មើលឃើញ"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "ការ​ព្រមាន​ដែល​មើល​ឃើញ"
+
+#~ msgid "Use a visual indication when an alert sound occurs"
+#~ msgstr "ប្រើ​ការ​បង្ហាញ​ដែល​មើល​ឃើញ នៅ​ពេល​សំឡេង​ព្រមាន​កើត​ឡើង"
+
+#~ msgid "Flash the window title"
+#~ msgstr "បញ្ចេញ​ពន្លឺ​លើ​ចំណង​ជើង​បង្អួច"
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "បញ្ចេញ​ពន្លឺ​ទូទាំង​អេក្រង់"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "បាន​បិទ​ដាក់​ចំណងជើង"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "បង្ហាញ​សេចក្ដី​ពិពណ៌នា​ជា​អត្ថបទ​អំពី​ពាក្យសម្ដី និង​សំឡេង"
+
+#~ msgid "_Test flash"
+#~ msgstr "សាកល្បង​ការ​បញ្ចេញ​ពន្លឺ"
+
+#~ msgid "Hearing"
+#~ msgstr "ស្ដាប់"
+
+#~| msgid "On screen keyboard"
+#~ msgid "On Screen Keyboard"
+#~ msgstr "ក្ដារចុច​លើ​អេក្រង់"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "គ្រាប់ចុច​ស្អិត"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "ចាត់​ទុក​លំដាប់​នៃ​គ្រាប់ចុច​កម្មវិធី​កែប្រែ​ជា​បន្សំ​គ្រាប់ចុច"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "បិទ ប្រសិនបើ​គ្រាប់ចុច​ទាំងពីរ​ត្រូវ​បាន​ចុច​ព្រម​គ្នា"
+
+#~ msgid "Beep when a _modifer key is pressed"
+#~ msgstr "បញ្ចេញ​សំឡេង​ប៊ីប នៅ​ពេល​គ្រាប់ចុច​កម្មវិធី​កែប្រែ​ត្រូវ​បាន​ចុច"
+
+#~ msgid "Slow Keys"
+#~ msgstr "គ្រាប់ចុច​យឺត"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "កំណត់​ការ​ពន្យារពេល​រវាង​ពេល​ដែល​គ្រាប់ចុច​ត្រូវ​បាន​ចុច និង​ពេល​ដែល​វា​ត្រូវ​បាន​ទទួល​យក"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "ពន្យារ​ពេល​ក្នុង​ការ​ទទួលយក ៖"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "ពន្យារពេល​ក្នុង​ការ​វាយ​ដោយ​ប្រើ​គ្រាប់ចុច​យឺត"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "បញ្ចេញ​សំឡេង​ប៊ីប នៅ​ពេល​គ្រាប់ចុច"
+
+#~ msgid "pressed"
+#~ msgstr "ត្រូវ​បាន​ចុច"
+
+#~ msgid "accepted"
+#~ msgstr "ទទួលយក"
+
+#~ msgid "rejected"
+#~ msgstr "បដិសេធ"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "គ្រាប់ចុច​លោត"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "មិន​អើពើ​ការ​ចុច​គ្រាប់ចុច​ស្ទួន​គ្នា"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "ពន្យារពេល​ក្នុង​ការ​ទទួល​យក ៖"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "ពន្យារពេល​ក្នុង​ការ​វាយ​ដោយ​ប្រើ​គ្រាប់ចុច​លោត"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "បញ្ចេញ​សំឡេង​ប៊ីប នៅ​ពេល​គ្រាប់ចុច​ត្រូវ​បាន​បដិសេធ"
+
+#~| msgid "Keyboard"
+#~ msgid "Enable by Keyboard"
+#~ msgstr "បើក​ដោយ​ក្ដារចុច"
+
+#~| msgid "_Turn on accessibility features from the keyboard"
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "បើក​លក្ខណ​ពិសេស​នៃ​មធ្យោបាយ​ងាយស្រួល​ប្រើ​ពី​ក្ដារចុច"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "គ្រាប់ចុច​កណ្ដុរ"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "គ្រប់គ្រង​ព្រួញកណ្ដុរ​ដោយ​ប្រើ​បន្ទះ​គ្រាប់ចុច"
+
+#~ msgid "Video Mouse"
+#~ msgstr "កណ្ដុរ​ជា​វីដេអូ"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "គ្រប់គ្រង​ព្រួញ​កណ្ដុរ​ដោយ​ប្រើ​ម៉ាស៊ីន​ថត​វីដេអូ ។"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "ត្រាប់តាម​ការ​ចុច​លើក​ទី​ពីរ"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "ធ្វើការ​ចុច​លើក​ទីពីរ ដោយ​សង្កត់​ប៊ូតុង​ចុច​លើក​ទី​មួយ"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "ពន្យារពេល​ក្នុង​ការ​ចុច​លើក​ទី​ពីរ"
+
+#~ msgid "Hover Click"
+#~ msgstr "ចុច​នៅ​ពេល​សំកាំង"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "ធ្វើ​ការ​ចុច នៅ​ពេល​ព្រួញ​កណ្ដុរ​សំកាំង"
+
+#~ msgid "D_elay:"
+#~ msgstr "ពន្យារពេល ៖"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "កម្រិត​ពន្លឺ​ចលនា ៖"
+
+#~ msgid "Small"
+#~ msgstr "តូច"
+
+#~ msgid "Large"
+#~ msgstr "ធំ"
+
+#~ msgid "Mouse Settings"
+#~ msgstr "ការ​កំណត់​កណ្ដុរ"
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "ចង្អុល និង​ចុច"
+
+#~| msgid "Short"
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "ខ្លី"
+
+#~| msgid "1/4 Screen"
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "អេក្រង់ ១/៤"
+
+#~| msgid "1/4 Screen"
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "អេក្រង់ ១/២"
+
+#~| msgid "1/4 Screen"
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "អេក្រង់ ៣/៤"
+
+#~| msgid "Long"
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "វែង"
+
+#~ msgid "Full Screen"
+#~ msgstr "ពេញ​អេក្រង់"
+
+#~ msgid "Top Half"
+#~ msgstr "ពាក់​កណ្ដាល​ផ្នែកខាងលើ"
+
+#~ msgid "Bottom Half"
+#~ msgstr "ពាក់​កណ្ដាល​ផ្នែក​ខាងក្រោម"
+
+#~ msgid "Left Half"
+#~ msgstr "ពាក់កណ្ដាល​ខាង​ឆ្វេង"
+
+#~ msgid "Right Half"
+#~ msgstr "ពាក់កណ្ដាល​ខាង​ស្ដាំ"
+
+#~ msgid "Zoom Options"
+#~ msgstr "ជម្រើស​ពង្រីក"
+
+#~ msgid "Zoom"
+#~ msgstr "ពង្រីក"
+
+#~ msgid "Magnification:"
+#~ msgstr "ការ​ពង្រីក ៖"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "អនុវត្ត​តាម​ព្រួញ​កណ្ដុរ"
+
+#~ msgid "Screen part:"
+#~ msgstr "ភាគ​អេក្រង់ ៖"
+
+#~ msgid "Magnifier extends outside of screen"
+#~ msgstr "កម្មវិធី​ពង្រីក​ពង្រីក​ចេញ​ពី​អេក្រង់"
+
+#~ msgid "Keep magnifier cursor centered"
+#~ msgstr "រក្សាទុក​ព្រួញ​កណ្ដុរ​កម្មវិធី​ពង្រីក​ឲ្យ​ចំកណ្ដាល"
+
+#~ msgid "Magnifier cursor pushes contents around"
+#~ msgstr "ព្រួញ​កណ្ដុរ​កម្មវិធី​ពង្រីក​រុញ​មាតិកា​ជុំវិញ"
+
+#~ msgid "Magnifier cursor moves with contents"
+#~ msgstr "ព្រួញ​កណ្ដុរ​កម្មវិធី​ពង្រីក​ផ្លាស់ទី​ជាមួយ​មាតិកា"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "ទីតាំង​របស់​កម្មវិធី​ពង្រីក ៖"
+
+#~| msgid "Magnifier Position:"
+#~ msgid "Magnifier"
+#~ msgstr "កម្មវិធី​ពង្រីក"
+
+#~ msgid "Thickness:"
+#~ msgstr "កម្រាស់ ៖"
+
+#~ msgid "Thin"
+#~ msgstr "ស្ដើង"
+
+#~ msgid "Thick"
+#~ msgstr "ក្រាស់"
+
+#~ msgid "Length:"
+#~ msgstr "ប្រវែង ៖"
+
+#~ msgid "Color:"
+#~ msgstr "ពណ៌ ៖"
+
+#~ msgid "Crosshairs:"
+#~ msgstr "សញ្ញា​ខ្វែង ៖"
+
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "ដាក់​ព្រួញ​កណ្ដុរ​ត្រួតគ្នា"
+
+#~| msgid "Crosshairs:"
+#~ msgid "Crosshairs"
+#~ msgstr "សញ្ញា​ខ្វែង"
+
+#~ msgid "White on black:"
+#~ msgstr "ពណ៌​ស​នៅ​លើខ្មៅ"
+
+#~| msgid "Brightness"
+#~ msgid "Brightness:"
+#~ msgstr "ពន្លឺ ៖"
+
+#~| msgid "_Contrast:"
+#~ msgid "Contrast:"
+#~ msgstr "កម្រិត​ពណ៌ ៖"
+
+#~| msgid "Color"
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "Color"
+#~ msgstr "ពណ៌"
+
+#~| msgid "None"
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "Full"
+#~ msgstr "ពេញ"
+
+#~ msgid "Low"
+#~ msgstr "ទាប"
+
+#~ msgid "High"
+#~ msgstr "ខ្ពស់"
+
+#~| msgid "Sound Effects"
+#~ msgid "Color Effects:"
+#~ msgstr "បែបផែន​ពណ៌ ៖"
+
+#~| msgid "Sound Effects"
+#~ msgid "Color Effects"
+#~ msgstr "បែបផែន​ពណ៌"
+
+#~| msgid "Add Account"
+#~ msgid "Add account"
+#~ msgstr "បន្ថែម​គណនី"
+
+#~| msgid "My Account"
+#~ msgid "_Local Account"
+#~ msgstr "គណនី​​មូលដ្ឋាន"
+
+#~ msgid "_Login Name"
+#~ msgstr "ឈ្មោះ​ចូល"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "ជំនួយ ៖ ដែន​សហគ្រាស​ ឬ​ឈ្មោះតំបន់"
+
+#~ msgid "C_ontinue"
+#~ msgstr "បន្ត"
+
+#~ msgid "User Accounts"
+#~ msgstr "គណនី​អ្នកប្រើ"
+
+#~ msgid "Log in without a password"
+#~ msgstr "ចូល​ដោយ​មិន​ប្រើ​ពាក្យសម្ងាត់"
+
+#~ msgid "Disable this account"
+#~ msgstr "បិទ​គណនី​នេះ"
+
+#~ msgid "Enable this account"
+#~ msgstr "បើក​គណនី​នេះ"
+
+#~ msgid "_Hint"
+#~ msgstr "ពាក្យគន្លឹះ"
+
+#~ msgid ""
+#~ "This hint may be displayed at the login screen.  It will be visible to "
+#~ "all users of this system.  Do <b>not</b> include the password here."
+#~ msgstr ""
+#~ "ពាក្យ​គន្លឹះ​អាច​នឹង​ត្រូវ​បង្ហាញ​នៅ​កន្លែង​អេក្រង់​ចូល ។ អ្នកប្រើ​ប្រព័ន្ធ​នេះ​ទាំងអស់​អាច​មើល​ឃើញ​វា ។   "
+#~ "<b>កុំ</b> រួមបញ្ចូល​ពាក្យសម្ងាត់​នៅ​ទីនេះ ។"
+
+#~| msgid "Set a password now"
+#~ msgid "Generate a password"
+#~ msgstr "បង្កើត​ពាក្យ​សម្ងាត់"
+
+#~ msgid "Fair"
+#~ msgstr "ល្មម"
+
+#~ msgid "_Action"
+#~ msgstr "សកម្មភាព"
+
+#~ msgid "_Show password"
+#~ msgstr "បង្ហាញ​ពាក្យសម្ងាត់"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "របៀប​ជ្រើស​ពាក្យសម្ងាត់​ខ្លាំង"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "ផ្លាស់ប្ដូរ​រូបថត ៖"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "ជ្រើស​រូបភាព​ដែល​នឹង​ត្រូវ​បង្ហាញ​នៅ​ត្រង់​អេក្រង់​ចូល​សម្រាប់​គណនី​នេះ ។"
+
+#~ msgid "Gallery"
+#~ msgstr "វិចិត្រសាល"
+
+#~ msgid "Take a photograph"
+#~ msgstr "ថត​រូប"
+
+#~ msgid "Browse"
+#~ msgstr "រកមើល"
+
+#~ msgid "Photograph"
+#~ msgstr "រូបថត"
+
+#~ msgid "Account Information"
+#~ msgstr "ព័ត៌មាន​គណនី"
+
+#~ msgid "Add User Account"
+#~ msgstr "បន្ថែម​គណនី​អ្នកប្រើ"
+
+#~ msgid "Remove User Account"
+#~ msgstr "យក​គណនី​អ្នកប្រើ​ចេញ"
+
+#~ msgid "_Language"
+#~ msgstr "ភាសា"
+
+#~| msgid "Manage online accounts"
+#~ msgid "Manage user accounts"
+#~ msgstr "គ្រប់គ្រង​គណនី​អ្នក​ប្រើ"
+
+#~| msgid "Authentication required"
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដើម្បី​ផ្លាស់ប្ដូរ​ទិន្នន័យ​អ្នក​ប្រើ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "ខ្លី​ពេក"
+
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "មិន​ល្អ​ទេ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "ខ្សោយ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "ល្មម"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "ល្អ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "ខ្លាំង"
+
+#~| msgid "Set a password now"
+#~ msgid "_Generate a password"
+#~ msgstr "បង្កើត​ពាក្យ​សម្ងាត់"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "អ្នក​ត្រូវតែ​បញ្ចូល​ពាក្យសម្ងាត់​ថ្មី"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "អ្នក​​ត្រូវតែ​អះអាង​ពាក្យសម្ងាត់"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "អ្នក​​ត្រូវតែ​បញ្ចូល​ពាក្យសម្ងាត់​បច្ចុប្បន្ន​របស់​អ្នក"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "ពាក្យសម្ងាត់​បច្ចុប្បន្ន​មិន​ត្រឹមត្រូវ"
+
+#~ msgid "Wrong password"
+#~ msgstr "ពាក្យសម្ងាត់​មិន​ត្រឹមត្រូវ"
+
+#~ msgid "Browse for more pictures..."
+#~ msgstr "រកមើល​រូប​ជាច្រើន​ទៀត..."
+
+#, c-format
+#~ msgid "A user with name '%s' already exists."
+#~ msgstr "មាន​អ្នក​ប្រើ​ដែល​មាន​ឈ្មោះ​ '%s' នោះ​រួចហើយ ។"
+
+#, c-format
+#~| msgid "A user with the username '%s' already exists"
+#~ msgid "No user with the name '%s' exists."
+#~ msgstr "មិនមាន​អ្នក​ប្រើ​ដែល​មាន​ឈ្មោះ '%s' ។"
+
+#~ msgid "This user does not exist."
+#~ msgstr "មិន​មាន​អ្នកប្រើ​នេះ​ទេ ។"
+
+#, c-format
+#~ msgid "A user with the username '%s' already exists"
+#~ msgstr "មាន​អ្នកប្រើ​ដែល​មាន​ឈ្មោះ '%s' នោះ​រួច​ហើយ"
+
+#~ msgid "Map Buttons"
+#~ msgstr "ប៊ូតុង​ផែនទី"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "ប៊ូតុង​ផែនទី​ត្រូវ​ដំណើរការ"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "ការ​ក្រិត​ខ្នាត​អេក្រង់"
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr "សូម​ប្រើ​សញ្ញា​សម្គាល់​គោលដៅ នៅ​ពេល​ដែល​ពួកវា​បង្ហាញ​នៅ​លើ​អេក្រង់ ដើម្បី​ក្រិត​ខ្នាត tablet ។"
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "បាន​រក​ឃើញ​ការ​ចុច​មិន​ត្រឹមត្រូវ កំពុង​ចាប់ផ្ដើម​ឡើងវិញ..."
+
+#~ msgid "Output:"
+#~ msgstr "លទ្ធផល​ ៖"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "រក្សា​សមាមាត្រ (ប្រអប់​អក្សរ) ៖"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "ផ្គូផ្គង​ទៅ​ម៉ូនីទ័រ​មួយ"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d នៃ %d"
+
+#~| msgid "None"
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "គ្មាន"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "ផ្ញើ​ការ​ចុច​គ្រាប់ចុច"
+
+#~| msgid "Switch Modes"
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "ប្ដូរ​ម៉ូនីទ័រ"
+
+#~ msgid "Up"
+#~ msgstr "ឡើងលើ"
+
+#~ msgid "Down"
+#~ msgstr "ចុះ​ក្រោម"
+
+#~ msgid "Switch Modes"
+#~ msgstr "របៀប​ប្ដូរ"
+
+#~ msgid "Button"
+#~ msgstr "ប៊ូតុង"
+
+#~ msgid "Action"
+#~ msgstr "សកម្មភាព"
+
+#~ msgid "Display Mapping"
+#~ msgstr "ការ​ផ្គូផ្គង​ទិដ្ឋភាព"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom Tablet"
+
+#~ msgid "Set your Wacom tablet preferences"
+#~ msgstr "កំណត់​ចំណូលចិត្ត Wacom tablet របស់​អ្នក"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Wacom;Stylus;Eraser;Mouse;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tablet (ដាច់ខាត)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "បន្ទះ​ប៉ះ (ធៀប)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "ចំណូលចិត្ត Tablet"
+
+#~ msgid "No tablet detected"
+#~ msgstr "រក​មិន​ឃើញ tablet ទេ"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "សូម​ដោត ឬ​បើក Wacom tablet របស់​អ្នក"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "ការ​កំណត់​ប៊្លូធូស"
+
+#~ msgid "Map to Monitor..."
+#~ msgstr "ផែនទី​ត្រូវ​គ្រប់គ្រង..."
+
+#~ msgid "Map Buttons..."
+#~ msgstr "ប៊ូតុង​ផែនទី..."
+
+#~ msgid "Calibrate..."
+#~ msgstr "ក្រិត​ខ្នាត..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "លៃ​តម្រូវ​គុណភាព​បង្ហាញ"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "របៀប​តាមដាន"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "ទិស​ខាង​ឆ្វេង"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "របៀប​រង្វង់​ខាងឆ្វេង #%d"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "របៀប​រង្វង់​ខាង​ស្ដាំ #%d"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "របៀប Touchstrip ខាង​ឆ្វេង #%d"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "របៀប Touchstrip ខាង​ស្ដាំ#%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "ប្ដូរ​​របៀប Touchring ខាង​ឆ្វេង"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "ប្ដូរ​របៀប Touchring ខាង​ស្ដាំ"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ឆ្វេង"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "ប្ដូរ​របៀប Touchstrip ខាង​ស្ដាំ"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "ប្ដូរ​របៀប #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "ប៊ូតុង​ឆ្វេង #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "ប៊ូតុង​ស្ដាំ #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "ប៊ូតុង​ខាង​លើ #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "ប៊ូតុង​ខាងក្រោម #%d"
+
+#~ msgid "No Action"
+#~ msgstr "គ្មាន​សកម្មភាព"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "ចុច​ប៊ូតុង​កណ្ដុរ​ឆ្វេង"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "ចុច​ប៊ូតុង​កណ្ដុរ​ស្ដាំ"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "ចុច​ប៊ូតុង​កណ្ដុរ​ស្ដាំ"
+
+#~ msgid "Scroll Up"
+#~ msgstr "រមូរ​ឡើងលើ"
+
+#~ msgid "Scroll Down"
+#~ msgstr "រមូរ​ចុះក្រោម"
+
+#~ msgid "Scroll Left"
+#~ msgstr "រមូរ​ទៅ​ឆ្វេង"
+
+#~ msgid "Scroll Right"
+#~ msgstr "រមូរ​ទៅ​ស្ដាំ"
+
+#~ msgid "Back"
+#~ msgstr "ថយក្រោយ"
+
+#~ msgid "Forward"
+#~ msgstr "ទៅមុខ"
+
+#~ msgid "Stylus"
+#~ msgstr "ដែកចារ"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "រូបរាង​របស់​ជ័រលុប"
+
+#~ msgid "Soft"
+#~ msgstr "ទន់"
+
+#~ msgid "Firm"
+#~ msgstr "រឹង"
+
+#~ msgid "Top Button"
+#~ msgstr "ប៊ូតុង​ខាងលើ"
+
+#~ msgid "Lower Button"
+#~ msgstr "ប៊ូតុង​ខាងក្រោម"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "រូបរាង​ចុង​ប៊ិក"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "បើក​របៀប​បរិយាយ"
+
+#~ msgid "Show the overview"
+#~ msgstr "បង្ហាញ​ទិដ្ឋភាព​ទូទៅ"
+
+#~ msgid "Show help options"
+#~ msgstr "បង្ហាញ​ជម្រើស​ជំនួយ"
+
+#~ msgid "Panel to display"
+#~ msgstr "បន្ទះ​ត្រូវ​បង្ហាញ"
+
+#~ msgid "- System Settings"
+#~ msgstr "ការ​កំណត់​ប្រព័ន្ធ"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "ដំណើរការ '%s --help' ដើម្បី​មើល​បញ្ជី​ទាំងមូល​នៃ​ជម្រើស​បន្ទាត់​ពាក្យ​បញ្ជា​ដែល​មាន ។\n"
+
+#~ msgid "Help"
+#~ msgstr "ជំនួយ"
+
+#~ msgid "Quit"
+#~ msgstr "ចេញ"
+
+#~ msgid "Control Center"
+#~ msgstr "មជ្ឈមណ្ឌល​បញ្ជា"
+
+#~ msgid "System Settings"
+#~ msgstr "ការ​កំណត់​ប្រព័ន្ធ"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "ចំណូលចិត្ត;ការ​កំណត់;"
+
+#~| msgid "_All Settings"
+#~ msgid "All Settings"
+#~ msgstr "ការ​កំណត់​ទាំងអស់"
+
+#~ msgid "Swap colors"
+#~ msgstr "ដូរ​ពណ៌"
+
+#~ msgid "Secondary color"
+#~ msgstr "ពណ៌​បន្ទាប់បន្សំ"
+
+#~ msgid "Add wallpaper"
+#~ msgstr "បន្ថែម​ផ្ទាំង​រូបភាព"
+
+#~ msgid "Remove wallpaper"
+#~ msgstr "យក​ផ្ទាំង​រូបភាព​ចេញ"
+
+#~ msgid "Add dots"
+#~ msgstr "បន្ថែម​ចំណុច"
+
+#~ msgid "<b>Theme</b>"
+#~ msgstr "<b>ស្បែក</b>"
+
+#~ msgid "<b>Launcher icon size</b>"
+#~ msgstr "<b>ទំហំ​រូបតំណាង​កម្មវិធី​បើក​ដំណើរការ</b>"
+
+#~ msgid "Look"
+#~ msgstr "មើល"
+
+#~ msgid "<b>Auto-hide the Launcher</b>"
+#~ msgstr "<b>លាក់​កម្មវិធី​បើក​ដំណើរការ​ស្វ័យប្រវត្តិ</b>"
+
+#~ msgid ""
+#~ "<span size=\"small\">The launcher will reveal when moving the pointer to "
+#~ "the defined hot spot.</span>"
+#~ msgstr ""
+#~ "<span size=\"small\">កម្មវិធី​បើក​ដំណើរការ​នឹង​បង្ហាញ នៅ​ពេល​ផ្លាស់ទី​ព្រួញ​កណ្ដុរ​ទៅកាន់ hot "
+#~ "spot ដែល​បាន​កំណត់ ។</span>"
+
+#~ msgid "Reveal location:"
+#~ msgstr "បង្ហាញ​ទីតាំង ៖"
+
+#~ msgid "Left side"
+#~ msgstr "ផ្នែក​ខាងឆ្វេង"
+
+#~ msgid "Top left corner"
+#~ msgstr "ជ្រុង​ខាងលើ​ផ្នែក​ខាងឆ្វេង"
+
+#~ msgid "Other reveal option"
+#~ msgstr "ជម្រើស​បង្ហាញ​ផ្សេងទៀត"
+
+#~ msgid "Reveal sensitivity"
+#~ msgstr "កម្រិត​បង្ហាញ"
+
+#~ msgid "<small>Low</small>"
+#~ msgstr "<small>ទាប</small>"
+
+#~ msgid "<small>High</small>"
+#~ msgstr "<small>ខ្ពស់</small>"
+
+#~ msgid ""
+#~ "Some settings have been overriden by an external program, press \"Restore "
+#~ "Default Behaviors\"  to reset the behavior and return control to this "
+#~ "panel."
+#~ msgstr ""
+#~ "ការ​កំណត់​មួយ​ចំនួន​ត្រូវ​បាន​បដិសេធ​ដោយ​កម្មវិធី​ខាង​ក្រៅ ចុច \"ស្ដារ​ឥរិយាបថ​លំនាំដើម\"  ដើម្បី​កំណត់​"
+#~ "ឥរិយាបថ​ឡើងវិញ និង​ត្រឡប់​វត្ថុ​បញ្ជា​ទៅកាន់​បន្ទះ​នេះ ។"
+
+#~ msgid "Restore Default Behaviours"
+#~ msgstr "ស្ដារ​ឥរិយាបថ​លំនាំដើម"
+
+#~ msgid "Behavior"
+#~ msgstr "ឥរិយាបថ"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "ជម្រាល​ផ្ដេក"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "ជម្រាល​បញ្ឈរ"
+
+#~ msgid "Solid Color"
+#~ msgstr "ពណ៌​តាន់"
+
+#~ msgid "default"
+#~ msgstr "លំនាំដើម"
+
+#~ msgid "Pictures Folder"
+#~ msgstr "ថត​រូបភាព"
+
+#~ msgid "Colors & Gradients"
+#~ msgstr "ពណ៌ ​និង​ជម្រាល"
+
+#~ msgid "Appearance"
+#~ msgstr "រូបរាង"
+
+#~ msgid "Wallpaper;Screen;Desktop;Theme;Appearance;Launcher;Unity;Menus;"
+#~ msgstr "Wallpaper;Screen;Desktop;Theme;Appearance;Launcher;Unity;Menus;"
+
+#~ msgid "All displays"
+#~ msgstr "ទិដ្ឋភាព​ទាំងអស់"
+
+#~ msgid "L_auncher placement"
+#~ msgstr "កន្លែង​របស់​កម្មវិធី​បើក​ដំណើកការ"
+
+#~ msgid "S_ticky edges"
+#~ msgstr "គែម​ស្អិត"
+
+#~ msgid "Acti_on:"
+#~ msgstr "សកម្មភាព ៖"
+
+#~ msgid "Take a screenshot"
+#~ msgstr "ថត​រូប​អេក្រង់"
+
+#~ msgid "Shortcut"
+#~ msgstr "ផ្លូវកាត់"
+
+#~ msgid "_Right-handed"
+#~ msgstr "ខាង​ស្ដាំ"
+
+#~ msgid "_Left-handed"
+#~ msgstr "ខាង​ឆ្វេង"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "បង្ហាញ​ទីតាំង​ព្រួញកណ្ដុរ នៅ​ពេល​ចុច​គ្រាប់ចុច​បញ្ជា (Control)"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "ការ​បង្កើន​ល្បឿន ៖"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "កម្រិត​ប្រែប្រួល ៖"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "អូស ហើយ​ទម្លាក់"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "កម្រិត​ពន្លឺ ៖"
+
+#~ msgid "Drag Threshold"
+#~ msgstr "អូស​កម្រិត​ពន្លឺ"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "អស់​ពេល​ចុច​ទ្វេដង"
+
+#~ msgid "_Timeout:"
+#~ msgstr "អស់ពេល ៖"
+
+#~ msgid "To test your settings, try to double-click on the face."
+#~ msgstr "ដើម្បី​សាកល្បង​ការ​កំណត់​របស់​អ្នក សូម​ព្យាយាម​ចុច​ទ្វេដង​លើ​ផ្ទៃ​មុខ ។"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "បើក​ការ​ចុច​កណ្ដុរ​ដោយ​ប្រើ​បន្ទះ​ប៉ះ"
+
+#~ msgid "Scrolling"
+#~ msgstr "រមូរ"
+
+#~ msgid "_Disabled"
+#~ msgstr "បាន​បិទ"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "រមូរ​គែម"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "បើក​ការ​រមូរ​ផ្ដេក"
+
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~ msgid "Not connected to the internet."
+#~ msgstr "មិន​ត្រូវ​បាន​តភ្ជាប់​ទៅ​អ៊ីនធឺណិត ។"
+
+#~ msgid "Create the hotspot anyway?"
+#~ msgstr "យ៉ាងណា បង្កើត hotspot ឬ ?"
+
+#~ msgid "Disconnect from %s and create a new hotspot?"
+#~ msgstr "ផ្ដាច់​ពី %s ហើយ​បង្កើត hotspot ថ្មី​ឬ ?"
+
+#~ msgid "This is your only connection to the internet."
+#~ msgstr "នេះ​គឺជា​ការ​តភ្ជាប់​ទៅកាន់​អ៊ីនធឺណិត​តែមួយ​គត់​របស់​អ្នក ។"
+
+#~ msgid "Create _Hotspot"
+#~ msgstr "បង្កើត Hotspot"
+
+#~ msgid "Device Off"
+#~ msgstr "បិទ​ឧបករណ៍"
+
+#~ msgid "_Network Name"
+#~ msgstr "ឈ្មោះ​បណ្ដាញ"
+
+#~ msgid "_Stop Hotspot..."
+#~ msgstr "បញ្ឈប់ Hotspot..."
+
+#~ msgid "Disable VPN"
+#~ msgstr "បិទ VPN"
+
+#~ msgid "HTTP Port"
+#~ msgstr "ច្រក HTTP"
+
+#~ msgid "HTTPS Port"
+#~ msgstr "ច្រក HTTPS"
+
+#~ msgid "FTP Port"
+#~ msgstr "ច្រក FTP"
+
+#~ msgid "Socks Port"
+#~ msgstr "ច្រក​រន្ធ"
+
+#~ msgid "Apply system wide"
+#~ msgstr "អនុវត្ត​ទូទាំង​ប្រព័ន្ធ"
+
+#~ msgid "To add a new account, first select the account type"
+#~ msgstr "ដើម្បី​បន្ថែម​គណនី​ថ្មី សូម​ជ្រើស​ប្រភេទ​គណនី​ជាមុន​សិន"
+
+#~ msgid "_Add..."
+#~ msgstr "បន្ថែម..."
+
+#~ msgid "Tip:"
+#~ msgstr "ព័ត៌មានជំនួយ ៖"
+
+#~ msgid "Brightness Settings"
+#~ msgstr "ការ​កំណត់​ពន្លឺ"
+
+#~ msgid "affect how much power is used"
+#~ msgstr "ប៉ះពាល់​ដល់​កម្រិត​ថាមពល​ដែលត្រូវប្រើ"
+
+#~ msgid "Suspend"
+#~ msgstr "ផ្អាក"
+
+#~ msgid "When battery is present"
+#~ msgstr "ពេល​នៅ​មាន​ថ្ម"
+
+#~ msgid "When battery is charging/in use"
+#~ msgstr "ពេល​ថ្ម​កំពុង​បញ្ចូល/ប្រើ"
+
+#~ msgid "Never"
+#~ msgstr "មិន​កំណត់"
+
+#~ msgid "When the lid is closed"
+#~ msgstr "នៅ​ពេល​គម្រប​ត្រូវ​បាន​បិទ"
+
+#~ msgid "Show battery status in the _menu bar"
+#~ msgstr "បង្ហាញ​ស្ថានភាព​ថ្ម​នៅ​ក្នុង​របារ​ម៉ឺនុយ"
+
+#~ msgid "A_ddress:"
+#~ msgstr "អាសយដ្ឋាន ៖"
+
+#~ msgid "_Search by Address"
+#~ msgstr "ស្វែងរក​តាម​អាសយដ្ឋាន"
+
+#~ msgid ""
+#~ "FirewallD is not running. Network printer detection needs services mdns, "
+#~ "ipp, ipp-client and samba-client enabled on firewall."
+#~ msgstr ""
+#~ "FirewallD មិន​កំពុង​ដំណើរការ ។ការ​ស្វែងរក​ម៉ាស៊ីន​បោះពុម្ព​តាម​បណ្ដាញ​ត្រូវការ​​សេវា mdns, ipp "
+#~ "កម្មវិធី ipp និង​កម្មវិធី samba ដែល​បើក​នៅ​លើ​ជញ្ជាំង​ភ្លើង ។"
+
+#~ msgid "Devices"
+#~ msgstr "ឧបករណ៍"
+
+#~ msgctxt "printer type"
+#~ msgid "Local"
+#~ msgstr "មូលដ្ឋាន"
+
+#~ msgctxt "printer type"
+#~ msgid "Network"
+#~ msgstr "បណ្ដាញ"
+
+#~ msgid "Device types"
+#~ msgstr "ប្រភេទ​ឧបករណ៍"
+
+#~ msgid "Automatic configuration"
+#~ msgstr "ការ​កំណត់​រចនាសម្ព័ន្ធ​ស្វ័យប្រវត្តិ"
+
+#~ msgid "Opening firewall for mDNS connections"
+#~ msgstr "បើក​ជញ្ជាំង​ភ្លើង​សម្រាប់​ការ​តភ្ជាប់ mDNS"
+
+#~ msgid "Opening firewall for Samba connections"
+#~ msgstr "បើក​ជញ្ជាំង​ភ្លើង​សម្រាប់​ការ​តភ្ជាប់ Samba"
+
+#~ msgid "Opening firewall for IPP connections"
+#~ msgstr "បើក​ជញ្ជាំង​ភ្លើង​សម្រាប់​ការ​តភ្ជាប់ IPP"
+
+#~ msgid "_Back"
+#~ msgstr "ត្រឡប់"
+
+#~ msgid "Remove User"
+#~ msgstr "យក​អ្នកប្រើ​ចេញ"
+
+#~ msgid "Allowed users"
+#~ msgstr "អ្នក​ប្រើ​ដែល​​អនុញ្ញាត"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "ជ្រើស​ប្លង់"
+
+#~ msgid "Preview"
+#~ msgstr "មើល​ជាមុន"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "ជម្រើស​ប្លង់​ក្ដារចុច"
+
+#~ msgid "Add Layout"
+#~ msgstr "បន្ថែម​ប្លង់"
+
+#~ msgid "Remove Layout"
+#~ msgstr "យក​ប្លង់​ចេញ"
+
+#~ msgid "Move Up"
+#~ msgstr "ផ្លាស់ទី​ឡើងលើ"
+
+#~ msgid "Move Down"
+#~ msgstr "ផ្លាស់ទី​ចុះក្រោម"
+
+#~ msgid "Preview Layout"
+#~ msgstr "មើល​ប្លង់​ជាមុន"
+
+#~ msgid "Use the same layout for all windows"
+#~ msgstr "ប្រើ​ប្លង់​តែមួយ​សម្រាប់​បង្អួច​ទាំងអស់"
+
+#~ msgid "Allow different layouts for individual windows"
+#~ msgstr "អនុញ្ញាត​ប្លង់​ផ្សេងៗ​សម្រាប់​បង្អួច​នីមួយ​ៗ"
+
+#~ msgid "New windows use the default layout"
+#~ msgstr "បង្អួច​ថ្មី​ប្រើ​ប្លង់​លំនាំដើម"
+
+#~ msgid "New windows use the previous window's layout"
+#~ msgstr "បង្អួច​ថ្មី​ប្រើ​ប្លង់​របស់​បង្អួច​មុន"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "មើល ហើយ​កែសម្រួល​ជម្រើស​ប្លង់​ក្ដារចុច"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "កំណត់​ឡើង​វិញ​ទៅ​ជា​លំនាំដើម"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "ជំនួស​ការ​កំណត់​ប្លង់​ក្ដារចុច​បច្ចុប្បន្ន​ដោយ​\n"
+#~ "ការ​កំណត់​លំនាំដើម"
+
+#~ msgid "Layouts"
+#~ msgstr "ប្លង់ ៖"
+
+#~ msgid "Layout"
+#~ msgstr "ប្លង់"
+
+#~ msgid "Require my password when waking from suspend"
+#~ msgstr "ទាមទារ​ពាក្យសម្ងាត់ នៅ​ពេល​ដាស់​ពី​ការផ្អាក"
+
+#~ msgid "Co_nnector:"
+#~ msgstr "បន្ទាត់​តភ្ជាប់ ៖"
+
+#~ msgid "Hardware"
+#~ msgstr "ផ្នែករឹង"
+
+#~ msgid "C_hoose a device to configure:"
+#~ msgstr "ជ្រើស​ឧបករណ៍ ដើម្បី​កំណត់​រចនាសម្ព័ន្ធ ៖"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "Caribou"
+#~ msgstr "Caribou"
+
+#~ msgid "Change contrast:"
+#~ msgstr "ផ្លាស់ប្ដូរ​កម្រិត​ពណ៌ ៖"
+
+#~ msgid "_Text size:"
+#~ msgstr "ទំហំ​អត្ថបទ ៖"
+
+#~ msgid "Increase size:"
+#~ msgstr "បង្កើន​ទំហំ ៖"
+
+#~ msgid "Decrease size:"
+#~ msgstr "បន្ថយ​ទំហំ ៖"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Display"
+#~ msgstr "ការ​បង្ហាញ"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Zoom"
+#~ msgstr "ពង្រីក"
+
+#~ msgid "Screen keyboard"
+#~ msgstr "ក្ដារចុច​លើ​អេក្រង់"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "អ្នក​ជំនួយការ​ក្នុង​ការ​វាយ"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "វាយ​ទីនេះ ដើម្បី​សាកល្បង​ការ​កំណត់"
+
+#~ msgid "1/2 Screen"
+#~ msgstr "អេក្រង់ ១/២"
+
+#~ msgid "3/4 Screen"
+#~ msgstr "អេក្រង់ ៣/៤"
+
+#~ msgid "Create new account"
+#~ msgstr "បង្កើត​គណនី​ថ្មី"
+
+#~ msgid "_Account Type"
+#~ msgstr "ប្រភេទ​គណនី"
+
+#~ msgid "Cr_eate"
+#~ msgstr "បង្កើត"
+
+#~ msgid "Choose a generated password"
+#~ msgstr "ជ្រើស​ពាក្យសម្ងាត់​ដែល​បាន​បង្កើត"
+
+#~ msgid "Account _type"
+#~ msgstr "ប្រភេទ​គណនី"
+
+#~ msgid "More choices..."
+#~ msgstr "ជម្រើស​ជាច្រើន​ទៀត..."
+
+#~ msgid "Wacom Graphics Tablet"
+#~ msgstr "Wacom Graphics Tablet"
+
+#~ msgid "Mute"
+#~ msgstr "ស្ងាត់"
+
+#~ msgid "Settings for %s"
+#~ msgstr "ការ​កំណត់ %s"
+
+#~ msgid "Mode:"
+#~ msgstr "របៀប ៖"
+
+#~ msgid "Play sound through"
+#~ msgstr "ចាក់​សំឡេង​តាម​រយៈ"
+
+#~ msgid "Settings for the selected device"
+#~ msgstr "ការ​កំណត់​សម្រាប់​ឧបករណ៍​ដែល​បាន​ជ្រើស"
+
+#~ msgid "Test:"
+#~ msgstr "សាកល្បង ៖"
+
+#~ msgid "Test Sound"
+#~ msgstr "សាកល្បង​សំឡេង"
+
+#~ msgid "Record sound from"
+#~ msgstr "ថតចម្លង​សំឡេង​ពី"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "កំហុស​ក្នុង​ការ​រក្សាទុក​ផ្លូវកាត់​ថ្មី"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "មាន​ផ្លូវកាត់​ផ្ទាល់ខ្លួនច្រើនពេក"
+
+#~ msgid "Key"
+#~ msgstr "គ្រាប់ចុច"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "គ្រាប់ចុច GConf ដែល​ត្រូវ​ភ្ជាប់​ជាមួយ​កម្មវិធី​កែសម្រួល​លក្ខណសម្បត្តិ​នេះ"
+
+#~ msgid "Callback"
+#~ msgstr "ហៅ​ត្រឡប់វិញ"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "ចេញ​ផ្សាយ​ការ​ហៅ​ត្រឡប់​វិញ នៅ​ពេល​តម្លៃ​ដែល​ទាក់ទង​ជាមួយ​គ្រាប់ចុច​ផ្លាស់ប្ដូរ"
+
+#~ msgid "Change set"
+#~ msgstr "ការ​កំណត់​ការ​ផ្លាស់ប្ដូរ"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "ការ​កំណត់​ការ​ផ្លាស់ប្ដូរ GConf ដែល​មាន​ទិន្នន័យ​ត្រូវ​បញ្ជូន​បន្ត​ទៅកាន់​កម្មវិធី gconf នៅ​ពេល​អនុវត្ត"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "ការ​បម្លែង​ទៅជា​ការ​ហៅ​ធាតុ​ក្រាហ្វិក​ត្រឡប់​វិញ"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "ការ​ហៅ​ត្រឡប់​វិញ​ត្រូវ​បាន​ចេញផ្សាយ នៅ​ពេល​ដែល​ទិន្នន័យ​ត្រូវ​បាន​បម្លែង​ពី GConf ទៅជា​ធាតុ​ក្រាហ្វិក"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "ការ​បម្លែង​ពី​ការ​ហៅ​ធាតុ​ក្រាហ្វិក​ត្រឡប់វិញ"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "ការ​ហៅ​ត្រឡប់​វិញ​ត្រូវ​បាន​ចេញផ្សាយ នៅ​ពេល​ដែល​ទិន្នន័យ​ត្រូវ​បាន​បម្លែង​ទៅជា GConf ពី​ធាតុ​ក្រាហ្វិក"
+
+#~ msgid "UI Control"
+#~ msgstr "ការ​គ្រប់គ្រង​ចំណុច​ប្រទាក់​អ្នកប្រើ"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "វត្ថុ​ដែល​គ្រប់គ្រង​លក្ខណសម្បត្តិ (ជាទូទៅ គឺជា​ធាតុ​ក្រាហ្វិក)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "ទិន្នន័យ​វត្ថុ​របស់​កម្មវិធី​កែសម្រួល​លក្ខណសម្បត្តិ"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "ទិន្នន័យ​ផ្ទាល់ខ្លួន​ត្រូវ​បាន​ទាមទារ​ដោយ​កម្មវិធី​កែសម្រួល​លក្ខណសម្បត្តិ​ជាក់លាក់"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "ការ​ហៅ​ត្រឡប់​វិញ​ដោយ​គ្មាន​ទិន្នន័យ​កម្មវិធី​កែសម្រួល​លក្ខណសម្បត្តិ"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "ការ​ហៅ​ត្រឡប់​វិញ​ត្រូវ​បាន​ចេញផ្សាយ នៅ​ពេល​ទិន្នន័យ​វត្ថុ​របស់​កម្មវិធី​កែសម្រួល​លក្ខណសម្បត្តិ​ត្រូវ​បាន​ធ្វើឲ្យ​"
+#~ "ទំនេរ"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "រក​មិន​ឃើញ​ឯកសារ '%s' ។\n"
+#~ "\n"
+#~ "សូម​ប្រាកដ​ថា វា​មាន រួច​ព្យាយាម​ម្ដងទៀត ឬ​ជ្រើស​រូបភាព​ផ្ទៃខាងក្រោយ​ផ្សេងទៀត ។"
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "ខ្ញុំ​មិន​ដឹង​អំពី​របៀប​បើក​ឯកសារ '%s' ។\n"
+#~ "ប្រហែល​វា​គឺជា​ប្រភេទ​រូបភាព​ដែល​មិន​​​​ទាន់​បាន​ទទួល​ការ​គាំទ្រ ។\n"
+#~ "\n"
+#~ "សូម​ជ្រើស​រូបភាព​​ផ្សេងទៀត​ជំនួស​វិញ ។"
+
+#~ msgid "Please select an image."
+#~ msgstr "សូម​ជ្រើស​រូបភាព ។"
+
+#~ msgid "Application Menu"
+#~ msgstr "ម៉ឺនុយ​កម្មវិធី"
+
+#~ msgid "Integrated in menu bar and hidden"
+#~ msgstr "រួមបញ្ចូល​នៅ​ក្នុង​របារ​ម៉ឺនុយ និងលាក់"
+
+#~ msgid "Integrated in menu bar and visible"
+#~ msgstr "រួមបញ្ចូល​នៅ​ក្នុង​របារ​ម៉ឺនុយ និង​​មើល​ឃើញ"

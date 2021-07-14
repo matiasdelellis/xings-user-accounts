@@ -1,0 +1,6999 @@
+# translation of gnome-control-center.master.hi.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2003, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2008, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+# chandankumar(ciypro) <chandankumar.093047@gmail.com>, 2012, 2013.
+# rajesh <rajeshkajha@yahoo.com>, 2012, 2013, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.master.hi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2014-09-23 15:25+0630\n"
+"Last-Translator: rajesh <rajesh>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "उपयोक्ता नाम (_U)"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "पूरा नाम (_F)"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "मानक"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "प्रशासक"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "खाता प्रकार (_T)"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "कूटशब्द"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr "अगले लॉगिन में कूटशब्द सेट करने के लिए उपयोक्ता को छूट दें"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "अभी कूटशब्द निर्धारित करें"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "कूटशब्द (_P)"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "विन्यस्त करें... (_C)"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"एंटरप्राइज लॉगिन मौजूदा केंद्रीय रूप से प्रबंधित उपयोक्ता खाता की अनुमति देता है जिसे इस "
+"युक्ति पर प्रयोग किया जा सके."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "डोमेन (_D)"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"ऑनलाइन हों\n"
+"ताकि एंटरप्राइज लॉगिन खाता बनाएँ."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "एंटरप्राइज लॉगिन (_F)"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "उपयोक्ता जोड़ें"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "डोमेन प्रशासक लॉगिन"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"एंटरप्राइज लॉगिन के लिए, इस कंप्यूटर को\n"
+"इस डोमेन में नामांकित होने की जरूरत है. कृपया अपने संजाल प्रशासक को\n"
+"अपने डोमेन कूटशब्द को यहाँ टाइप करने दें."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "प्रशासक नाम (_N)"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "प्रशासक कूटशब्द"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "बायां थंब"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "बाईं मध्य अंगुली"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "बाईं अनामिका"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "बाईं तर्जनी"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "दाहिना अंगूठा"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "दाहिनी मध्य अंगुली"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "दाहिनी तर्जनी"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "दाहिनी तर्जनी"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "फिंगरप्रिंट लॉगिन सक्रिय करें"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "दायां तर्जनी (_R)"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "बाईं तर्जनी (_L)"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "दूसरी अंगुली: (_O)"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"आपका फिंगरप्रिंट सफलतापूर्वक सहेजा गया था. आपको अब अपने फिंगरप्रिंट रीडर के प्रयोग से "
+"लॉगिन में समर्थ होना चाहिए."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "उपयोक्तानाम "
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "उपयोगकर्ताओं को जोड़ें या हटाने और अपना पासवर्ड बदलें"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "कूटशब्द बदलें"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "रद्द करें (_C)"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "बदलें (_a)"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "कूटशब्द की पुष्टि करें (_o)"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "नया कूटशब्द (_N)"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "मौजूदा कूटशब्द (_P)"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr "अगले लॉगिन में कूटशब्द सेट करने के लिए उपयोक्ता को छूट दें"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "अभी कूटशब्द निर्धारित करें"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "उपयोक्ता जोड़ें"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "लॉगिन विकल्प"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "स्वचालित लॉगिन (_u)"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "फिंगरप्रिंट लॉगिन (_F)"
+
+#  set the timeout value  label with correct value of timeout
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "उपयोक्ता प्रतीक"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "अंतिम लॉगिन"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "खाता मिटाएँ"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "अन्य खाता"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "उपयोक्ता मिटाने में विफल"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "उपयोक्ता मिटाने में विफल"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "आप अपने खुद के खाते को नष्ट नहीं कर सकते हैं."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s अभी भी लॉग इन है"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"उपयोगकर्ता का विलोपन जब वे लॉग इन कर रहे हो से तंत्र को छोड़ सकते हैं असंगत स्थिति में."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "क्या आप %s के फाइल को रखना चाहते है?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"उपयोगकर्ता खाते को हटाने के समय घर निर्देशिका, मेल स्पूल और अस्थायी फ़ाइलों को रखने की "
+"संभावना है."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "फ़ाइल मिटाएँ (_D)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "फ़ाइल रखें (_F)"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "क्या आप वाक़ई ख़ाता को मिटाना चाहते हैं?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "फ़ाइल मिटाएँ (_D)"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "खाता अक्षम"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "अगले लॉगिन में इसे सेट करें"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "लाग्ड इन"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "खातों सेवा से संपर्क करने में विफल"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "कृपया सुनिश्चित करें कि खाता सेवा स्थापित और सक्षम है."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"बदलाब लाने के लिए,\n"
+"क्लिक करें * चिह्न पर पहले"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "उपयोगकर्ता खाता बनाएँ"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"उपयोगकर्ता खाता बनाने के लिए,\n"
+"क्लिक करें * चिह्न पर पहले"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "चयनित उपयोगकर्ता खाता को हटायें"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"चयनित उपयोगकर्ता खाता को हटाने के लिए,\n"
+"क्लिक करें * चिह्न पर पहले"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "मेरा खाता"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "नया कूटशब्द पुराने से काफी अलग होना चाहिए."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "कुछ अक्षर और संख्या बदलने की कोशिश करें."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "कूटशब्द कुछ बदलने की कोशिश करें."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "बिना आपके कूटशब्द के उपयोक्तानाम मजबूत होगा."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "कूटशब्द में अपना नाम मत डालें."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "कूटशब्द में कोई शब्द डालने से बचें."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "सामान्य शब्द से बचें."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "किसी मौजूदा शब्द के बिखरी वर्तनी का उपयोग मत करें."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "अधिक संख्या डालने की कोशिश करें."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "अधिक बड़े अक्षर डालने की कोशिश करें."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "अधिक छोटे अक्षर डालने की कोशिश करें."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "अधिक विशेष वर्ण डालने की कोशिश करें, जैसे कि चिह्न विचार."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "अक्षर, संख्या और चिह्नों के उपयोग की कोशिश करें."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "वही वर्ण को दुहराने से बचें."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"समान प्रकार वर्ण को दुहराने से बचें: आपको अक्षर, संख्या और चिह्नों का मेल तैयार करना है."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "1234 या abcd जैसे शृंखला से बचें."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "अक्षर, संख्या और चिह्नों के उपयोग की कोशिश करें."
+
+#: ../src/pw-utils.c:117
+#, fuzzy
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "बड़े और छोटे अक्षर और एकाधिक संख्या डालें."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr "बढ़िया कूटशब्द! अधिक अक्षर, संख्या और चिह्न इसे मजबूत बनाएगा."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "सत्यापन असफल"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "नया कूटशब्द काफी छोटा है"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "नया कूटशब्द काफी आसान है"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "नया पुराना व नया कूटशब्द काफी समान है"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "नया दो कूटशब्द समान नहीं है."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "नया कूटशब्द को जरूर संख्या या विशेष संप्रतीक शामिल रखना चाहिये."
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "पुराना व नया कूटशब्द समान है"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "आपका कूटशब्द बदला गया है जबसे आपने आरंभ में सत्यापित किया."
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "नया कूटशब्द काफी अलग अलग अक्षरों को शामिल नहीं करता है"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "अज्ञात त्रुटि"
+
+#: ../src/um-account-dialog.c:34
+#, fuzzy
+msgid "Should match the web address of your login provider."
+msgstr "आपके खाता प्रदाता के वेब पता से मेल खाना चाहिए."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "खाता जोड़ने में विफल"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "कूटशब्द मेल नहीं खाता है."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "खाता पंजीयन में विफल"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "इस डोमेन के साथ प्रमाणित करने के लिए कोई समर्थित तरीका नहीं"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "डोमेन में शामिल होने में विफल"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"वह लॉगिन नाम काम नहीं करता है.\n"
+"कृपया फिर कोशिश करें."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"लॉगिन कूटशब्द काम नहीं करता है.\n"
+"कृपया फिर कोशिश करें."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "डोमेन में लॉगिन में विफल"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "डोमेन ढूँढ़ने में असमर्थ. शायद आपने गलत वर्तनी दे दिया हो?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "जोड़ें (_A)"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "मानक"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "प्रशासक"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "आपको युक्ति के अभिगम की अनुमति नहीं है. अपने तंत्र प्रशासक से संपर्क करें."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "यह युक्ति पहले से प्रयोग में है."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "आंतरिक त्रुटि आयी."
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gtk/gtkinputdialog.c:238
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "अक्षम"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gtk/gtkinputdialog.c:238
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "पंजीकृत फिंगरप्रिंट मिटाएँ?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "फिंगरप्रिंट मिटाएँ (_D)"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"क्या आफ अपना पंजीकृत फिंगरप्रिंट को मिटाना चाहते हैं ताकि फिंगरप्रिंट लॉगिन निष्क्रिय हो "
+"जाए?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "संपन्न!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "'%s' युक्ति की पहुँच नहीं ले सका"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "'%s' युक्ति पर फिंगर पकड़ नहीं आरंभ कर सका"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "कोई फिंगरप्रिंट रीडर की पहुँच नहीं ले सका"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "मदद के लिए तंत्र प्रशासक से संपर्क करें."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"फिंगरप्रिंट लॉगिन के लिए समर्थ करने में, आप अपने एक फिंगरप्रिंट को सहेजने की जरूरत है, '%s' "
+"युक्ति के प्रयोग से."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "उंगली का चयन"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "फिंगरप्रिंट दाखिला"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "सारांश"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "इस हफते"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "पिछले सप्ताह"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "सत्र समाप्त"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "सत्र आरंभ"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "कृपया अन्य कूटशब्द का चयन करें."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "अपना मौजूदा कूटशब्द फिर टाइप करें."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "आपका कूटशब्द बदला गया है"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "चुनें"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "अधिक छवियाँ के लिए ब्राउज़ करें"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "खोलें (_O)"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gtk/gtkinputdialog.c:238
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "छिव अक्षम करें"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "एक तस्वीर लें... "
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "अधिक छवियाँ के लिए ब्राउज़ करें…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "%s के द्वारा प्रयुक्त"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "डोमेन के इस प्रकार के स्वचालित रूप से शामिल नहीं हो सकते"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "कोई ऐसा डोमेन या रियल्म नहीं मिला"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "बतौर %s %s डोमेन पर लॉगिन नहीं कर सकता है"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "अवैध कूटशब्द, कृपया फिर कोशिश करें"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "%s डोमेन से कनेक्ट नहीं कर सका: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "उपयोक्तानाम काफी लंबा है."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "उपयोक्तानाम '-' के साथ आरंभ नहीं कर सका."
+
+#: ../src/um-utils.c:572
+#, fuzzy
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"उपयोक्तानाम  केवल a-z अक्षर, अंकों और '.', '-' और '_' में से किसी वर्ण से मिलकर होना "
+"चाहिए."
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"यह करने के लिए अपने घर फ़ोल्डर नाम का इस्तेमाल किया जाएगा और बदला नहीं जा सकता."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "आज"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "कल"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%b %e"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%b %e, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "नया कूटशब्द जाँचें (_V)"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "अधिक अक्षर, संख्या और संकेत जोड़ें."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "सामर्थ्य: कमजोर"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "सामर्थ्य: कम"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "सामर्थ्य: मध्यम"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "सामर्थ्य: अच्छा"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "सामर्थ्य: उच्च"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "कूटशब्द मेल नहीं खाता है."
+
+#~ msgid "Background"
+#~ msgstr "पृष्ठभूमि"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "पूरे दिन परिवर्तन"
+
+#~| msgid "Lock screen"
+#~ msgid "Lock Screen"
+#~ msgstr "स्क्रीन पर ताला लगाएँ"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "टाइल"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "छोटा-बड़ा करें"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "मध्य"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "मापक"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "भरें"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "स्पैन"
+
+#  Create the file chooser dialog stuff here
+#~ msgid "Wallpapers"
+#~ msgstr "वालपेपर्स"
+
+#~ msgid "Colors"
+#~ msgstr "रंग"
+
+#~ msgid "Select Background"
+#~ msgstr "पृष्ठभूमि चुनें"
+
+#~ msgid "Pictures"
+#~ msgstr "तस्वीर"
+
+#~| msgid "No input sources found"
+#~ msgid "No Pictures Found"
+#~ msgstr "कोई  तस्वीर नहीं मिला"
+
+#~ msgid "Home"
+#~ msgstr "घर"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "आप अपने %s फ़ोल्डर में छवि जोड़ सकते हैं और वे यहाँ दिखाए जाएँगे"
+
+#~ msgid "multiple sizes"
+#~ msgstr "बहुत आकार"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "कोई डेस्कटॉप पृष्ठभूमि"
+
+#~ msgid "Current background"
+#~ msgstr "मौजूदा पृष्ठभूमि"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "एक वॉलपेपर या तस्वीर का उपयोग करके अपनी पृष्ठभूमि छवि बदलें"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "वॉलपेपर; स्क्रीन; डेस्कटॉप;"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "ब्लूटूथ अक्षम है"
+
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "कोई ब्लूटूथ एडाप्टर मौजूद नहीं मिला"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "ब्लूटूथ हार्डवेयर स्विच से अक्षम है"
+
+#~ msgid "Bluetooth"
+#~ msgstr "ब्लूटूथ"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "ब्लूटूथ को चालू और बंद करें और अपने उपकरणों को जोड़ें"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr "वर्ग के ऊपर अपने अंशांकन युक्ति को रखें और 'आरंभ' दवाएँ "
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr "अपने अंशांकन युक्ति को अंशांकन स्थिति में खिसकाएं और 'जारी रखें' दवाएँ "
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr "अपने अंशांकन युक्ति को सतह स्थिति में खिसकाएं और 'जारी रखें' दवाएँ "
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "लैपटॉप ढक्कन बंद करो"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "एक आंतरिक त्रुटि आई है जो बरामद नहीं किया जा सकता है."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "अंशांकन के लिए आवश्यक उपकरण नहीं स्थापित कर रहे हैं."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "प्रोफाइल उत्पन्न नहीं किया जा सका."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "लक्ष्य श्वेतबिंदु प्राप्य नहीं किया गया."
+
+#~ msgid "Complete!"
+#~ msgstr "पूर्ण!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "विन्यास विफल!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "आप अंशांकन युक्ति निकाल सकते हैं."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "जारी रखने के दौरान अंशांकन युक्ति को परेशान नहीं करें"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "लैपटॉप स्क्रीन"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "अंतर्निर्मित वेब कैमरा"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s मॉनीटर"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s स्कैनर"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s कैमरा"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s मुद्रक"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s वेबकैम"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "%s के लिए रंग प्रबंधन सक्रिय करें"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "%s के लिए रंग प्रोफाइल दिखाएं"
+
+#~ msgid "Not calibrated"
+#~ msgstr "कैलिब्रेट नहीं किया गया"
+
+#~ msgid "Default: "
+#~ msgstr "तयशुदा: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "कलरस्पेस: "
+
+#~ msgid "Test profile: "
+#~ msgstr "टेस्ट प्रोफ़ाइल: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "आईसीसी प्रोफाइल फ़ाइल का चयन करें"
+
+#~ msgid "_Import"
+#~ msgstr "आयात करें (_I)"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "समर्थित आईसीसी प्रोफाइल"
+
+#~ msgid "All files"
+#~ msgstr "सभी फ़ाइलें"
+
+#~ msgid "Screen"
+#~ msgstr "स्क्रीन"
+
+#, c-format
+#~| msgid "Failed to apply configuration: %s"
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "फ़ाइल अपलोड करने में विफल: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "इन प्रोफ़ाइल को इसमें अद्यतन किया जा रहा है:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "इस URL को लिखें."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr "इस कंप्यूटर को फिर आरंभ करें और अपने सामान्य ऑपरेटिंग तंत्र को बूट करें."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "अपने ब्राउज़र में इस यूआरएल को टाइप करें ताकि प्रोफ़ाइल डाउनलोड और संस्थापित किया जा "
+#~ "सके."
+
+#~ msgid "Save Profile"
+#~ msgstr "प्रोफ़ाइल सहेजें"
+
+#~ msgid "_Save"
+#~ msgstr "सहेजें (_S)"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "चयनित युक्ति के लिए एक रंग प्रोफ़ाइल बनाएँ"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "मापन यंत्र का पता नहीं लगा है. कृपया जाचें कि यह चालू है और सही रूप से कनेक्टेड है."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "माप उपकरण प्रिंटर प्रोफाइलिंग का समर्थन नहीं करता है."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "युक्ति प्रकार मौजूदा में समर्थित नहीं है."
+
+#~ msgid "Standard Space"
+#~ msgstr "मानक स्थान "
+
+#~ msgid "Test Profile"
+#~ msgstr "टेस्ट प्रोफ़ाइल"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "स्वचालित "
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "कम विशेषता"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "मध्यम विशेषता"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "उच्च गुणवत्ता"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "मूलभूत RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "तयशुदा CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "डिफ़ॉल्ट ग्रे"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "विक्रेता द्वारा दी गयी कारखाने अंशांकन डेटा"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "पूर्ण स्क्रीन सुधार प्रदर्शन इस प्रोफाइल के साथ संभव नहीं है "
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "यह युक्ति एक प्रोफाइल ज्यादा देर तक सही नहीं है."
+
+#~ msgid "Display Calibration"
+#~ msgstr "केलिब्रेशन प्रदर्शित करें"
+
+#~ msgid "Start"
+#~ msgstr "प्रारंभ"
+
+#~ msgid "Resume"
+#~ msgstr "पुनरारंभ"
+
+#~ msgid "Done"
+#~ msgstr "संपन्न"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "स्क्रीन कैलिब्रेशन"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "अंशांकन एक प्रोफाइल को पैदा करेगा जो कि आप रंग का उपयोग करके अपनी स्क्रीन का प्रबंधन "
+#~ "कर सकते हैं.अब आप अंशांकन पर ज्यादा समय खर्च करते हैं, रंग प्रोफाइल की गुणवत्ता बेहतर "
+#~ "होगी."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "अंशांकन के दौरान आप अपने कंप्यूटर का उपयोग नहीं कर सकते हैं."
+
+#~ msgid "Quality"
+#~ msgstr "गुणवत्ता"
+
+#~ msgid "Approximate Time"
+#~ msgstr "अनुमानित समय"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "अंशांकन गुणवत्ता"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "अंशांकन का उपयोग करने के लिए सेंसर डिवाइस का चयन करें"
+
+#~ msgid "Calibration Device"
+#~ msgstr "कैलिब्रेशन युक्ति "
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "जुड़ा हुआ प्रदर्शन के प्रकार का चयन करें."
+
+#~ msgid "Display Type"
+#~ msgstr "प्रदर्शक प्रकार "
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "प्रदर्शन लक्ष्य श्वेत बिंदु का चयन करें. D65 रोशन के लिए अधिकांश प्रदर्शन को कैलिब्रेटेड "
+#~ "किया जाना चाहिए."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "प्रोफ़ाइल श्वेतबिंदु"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ " चमक को प्रदर्शन के आधार पर सेट करें जो आप के लिए विशिष्ट है.इस चमक के स्तर पर रंग "
+#~ "प्रबंधन सबसे सटीक होगा."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "वैकल्पिक रूप से, आप इस डिवाइस के लिए अन्य प्रोफाइल के साथ इस्तेमाल किया चमक स्तर का "
+#~ "उपयोग कर सकते हैं."
+
+#~ msgid "Display Brightness"
+#~ msgstr "दृश्य चमक"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "आप अलग कंप्यूटर पर एक रंग प्रोफ़ाइल का उपयोग कर, या भी अलग प्रकाश व्यवस्था की "
+#~ "स्थिति के लिए प्रोफाइल बना सकते हैं."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "Profile Name:"
+#~ msgstr "प्रोफाइल नाम:"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "Profile Name"
+#~ msgstr "प्रोफ़ाइल नाम"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "प्रोफ़ाइल सफलतापूर्वक बनाई गई!"
+
+#~| msgid "Add profile"
+#~ msgid "Copy profile"
+#~ msgstr "प्रोफाइल की नक़ल लें"
+
+#~ msgid "Requires writable media"
+#~ msgstr "लेखनयोग्य मीडिया की जरूरत"
+
+#~| msgid "Add profile"
+#~ msgid "Upload profile"
+#~ msgstr "प्रोफाइल अपलोड करें"
+
+#~| msgid "Add new connection"
+#~ msgid "Requires Internet connection"
+#~ msgstr "इंटरनेट कनेक्शन जोड़ें"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "<a href=\"linux\">ग्नू / लिनक्स</a>, <a href=\"osx\">एप्पल ओएस एक्स </a>और <a "
+#~ "href=\"windows\">माइक्रोसॉफ्ट विंडोज </a>उपयोगी सिस्टम पर प्रोफ़ाइल का उपयोग "
+#~ "करने के लिए आप कैसे इन निर्देशों को खोज पाते है."
+
+#~ msgid "Import File…"
+#~ msgstr "फ़ाइल आयात करें…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "समस्याओं का पता चला. प्रोफ़ाइल सही ढंग से काम नहीं कर रहा.<a href=\"\">विवरण "
+#~ "दिखाएँ.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr "प्रत्येक युक्ति को रंग प्रबंधित होने के लिए रंग प्रोफ़ाइल के अद्यतन की जरुरत है. "
+
+#~ msgid "Learn more"
+#~ msgstr "अधिक जानें"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "रंग प्रबंधन के बारे में अधिक जानें"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~ msgid "Set for all users"
+#~ msgstr "सभी उपयोगकर्ताओं के लिए सेट करें"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "इस कंप्यूटर पर सभी उपयोगकर्ताओं के लिए इस प्रोफ़ाइल को सेट करें"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-# gtk/gtkinputdialog.c:238
+#~ msgid "Enable"
+#~ msgstr "सक्रिय करें"
+
+#~ msgid "Add profile"
+#~ msgstr "जोड़ें प्रोफाइल"
+
+#~ msgid "Calibrate…"
+#~ msgstr "कैलिब्रेट…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "युक्ति जांच"
+
+#~ msgid "Remove profile"
+#~ msgstr "प्रोफ़ाइल हटायें"
+
+#~ msgid "View details"
+#~ msgstr "विवरण देखें"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "उपकरण जिसमे रंग प्रबंधन हो सकता हैं का पता लगाने में असमर्थ"
+
+#~ msgid "LCD"
+#~ msgstr "एलसीडी"
+
+#~ msgid "LED"
+#~ msgstr "एलईडी"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "प्रोजेक्टर"
+
+#~ msgid "Plasma"
+#~ msgstr "प्लासमा"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL बैकलाइट)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED बैकलाइट)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (सफेद LED बैकलाइट)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "वाइड गैमट LCD (CCFL बैकलाइट)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "वाइड गैमट LCD (RGB LED बैकलाइट)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "उच्च"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 मिनट"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "मध्यम"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 मिनट"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "कम"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 मिनट"
+
+#~ msgid "Native to display"
+#~ msgstr "दिखाने के लिए पटल "
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (मुद्रण और प्रकाशन)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (फोटोग्राफी और ग्राफिक्स)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Color"
+#~ msgstr "रंग"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "अपने उपकरणों जैसे प्रदर्शन , कैमरा, या प्रिंटर के रंग का आशंकन करें"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "रंग;आईसीसी;प्रोफाइल;जांच;प्रिंटर;प्रदर्शन;"
+
+#~ msgid "United States"
+#~ msgstr "यूनाइटेड स्टेट्स"
+
+#~ msgid "Germany"
+#~ msgstr "जर्मनी"
+
+#~ msgid "France"
+#~ msgstr "फ्रांस"
+
+#~ msgid "Spain"
+#~ msgstr "स्पैन"
+
+#~ msgid "China"
+#~ msgstr "चीन"
+
+#~ msgid "Other…"
+#~ msgstr "अन्य..."
+
+#~ msgid "More…"
+#~ msgstr "अधिक…"
+
+#~ msgid "No languages found"
+#~ msgstr "कोई भाषाएँ नहीं मिला"
+
+#~ msgid "Language"
+#~ msgstr "भाषा"
+
+#~ msgid "_Done"
+#~ msgstr "संपन्न (_D)"
+
+#~| msgid "%a %l:%M %p"
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~| msgid "%d x %d (%s)"
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~| msgid "%a %l:%M %p"
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~| msgid "%d x %d (%s)"
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "जनवरी"
+
+#~ msgid "February"
+#~ msgstr "फरवरी"
+
+#~ msgid "March"
+#~ msgstr "मार्च"
+
+#~ msgid "April"
+#~ msgstr "अप्रैल"
+
+#~ msgid "May"
+#~ msgstr "मई"
+
+#~ msgid "June"
+#~ msgstr "जून"
+
+#~ msgid "July"
+#~ msgstr "जुलाई"
+
+#~ msgid "August"
+#~ msgstr "अगस्त"
+
+#~ msgid "September"
+#~ msgstr "सितम्बर"
+
+#~ msgid "October"
+#~ msgstr "अक्टूबर"
+
+#~ msgid "November"
+#~ msgstr "नवम्बर"
+
+#~ msgid "December"
+#~ msgstr "दिसम्बर"
+
+#~ msgid "Date & Time"
+#~ msgstr "तिथि व समय"
+
+#~ msgid "Hour"
+#~ msgstr "घंटा"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~| msgid "minute"
+#~| msgid_plural "minutes"
+#~ msgid "Minute"
+#~ msgstr "मिनट"
+
+#~ msgid "Day"
+#~ msgstr "दिन"
+
+#~ msgid "Month"
+#~ msgstr "माह"
+
+#~ msgid "Year"
+#~ msgstr "वर्ष"
+
+#~| msgid "Time"
+#~ msgid "Time Zone"
+#~ msgstr "समय क्षेत्र"
+
+#~| msgid "Search for the string"
+#~ msgid "Search for a city"
+#~ msgstr "एक शहर के लिए खोजें"
+
+#~| msgid "Date & Time"
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "स्वचालित दिनांक व समय"
+
+#~ msgid "Requires internet access"
+#~ msgstr "इंटरनेट कनेक्शन चाहिए"
+
+#~| msgid "Automatic _Connect"
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "स्वचालित समय क्षेत्र (_Z)"
+
+#~| msgid "Date & Time"
+#~ msgid "Date & _Time"
+#~ msgstr "दिनांक व समय (_T)"
+
+#~ msgid "Time _Zone"
+#~ msgstr "समय क्षेत्र (_Z)"
+
+#~| msgid "Formats"
+#~ msgid "Time _Format"
+#~ msgstr "समय प्रारूप (_F)"
+
+#~ msgid "24-hour"
+#~ msgstr "24-घंटे"
+
+#~ msgid "AM / PM"
+#~ msgstr "पूर्वाह्न/अपराह्न"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "दिनांक और समय समय क्षेत्र सहित बदलें"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "घड़ी;समय क्षेत्र;स्थान;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "सिस्टम का समय और दिनांक सेटिंग्स बदलें"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "समय या दिनांक सेटिंग्स को बदलने के लिए, आपको प्रमाणित करने की जरूरत है."
+
+#~| msgid "Close"
+#~ msgid "Lid Closed"
+#~ msgstr "Lid बंद किया गया"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "Mirrored"
+#~ msgstr "मिरर किया"
+
+#~| msgid "Primary _button"
+#~ msgid "Primary"
+#~ msgstr "प्राथमिक"
+
+#~ msgid "Off"
+#~ msgstr "बंद"
+
+#~| msgid "Secondary color"
+#~ msgid "Secondary"
+#~ msgstr "द्वितीयक"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "संयुग्मित प्रदर्शक की व्यवस्था करें"
+
+#~ msgid "_Apply"
+#~ msgstr "लागू करें (_A)"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "उन्हें फिर व्यवस्थित करने के लिए प्रदर्शन खींचें"
+
+#~ msgid "Size"
+#~ msgstr "आकार"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "पहलू अनुपात"
+
+#~ msgid "Resolution"
+#~ msgstr "रेज़ोल्यूशन"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "शीर्ष बार दिखाएँ और इस प्रदर्शन के लिए गतिविधि सारांश"
+
+#~| msgid "Secondary click delay"
+#~ msgid "Secondary Display"
+#~ msgstr "द्वितीयक प्रदर्शन"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "अतिरिक्त कार्यस्थान बनाने के लिए दूसरों के साथ इस प्रदर्शन में शामिल हों"
+
+#~| msgid "Orientation"
+#~ msgid "Presentation"
+#~ msgstr "प्रस्तुति"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "स्लाइडशो और मीडिया केवल दिखाएँ"
+
+#~ msgid "Mirror"
+#~ msgstr "मिरर"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "मौजूदा दृश्य दोनों प्रदर्शन पर दिखाएँ"
+
+#~| msgid "_Turn On"
+#~ msgid "Turn Off"
+#~ msgstr "बन्द करें"
+
+#~| msgid "Panel to display"
+#~ msgid "Don't use this display"
+#~ msgstr "इस प्रदर्शन का उपयोग मत करें"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "स्क्रीन सूचना नहीं पा सका"
+
+#~| msgid "Mirrored Displays"
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "संयुग्मित प्रदर्शक की व्यवस्था करें (_A)"
+
+#~ msgid "Displays"
+#~ msgstr "प्रदर्शक"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "जुड़े हुए मॉनिटर और प्रोजेक्टर का उपयोग करने के लिए चुनें"
+
+#~| msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "पैनल;प्रोजेक्टर;xrandr;स्क्रीन;रिज़ॉल्यूशन;रिफ्रेश;मॉनिटर;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "अज्ञात"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/session-properties-capplet.c:303
+# gnome-session/session-properties-capplet.c:376
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/session-properties-capplet.c:303
+# gnome-session/session-properties-capplet.c:376
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:84 libgnomeui/gnome-app-helper.h:516
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "पूछें कि क्या करना है"
+
+#~ msgid "Do nothing"
+#~ msgstr "कुछ मत करें"
+
+#~ msgid "Open folder"
+#~ msgstr "फ़ोल्डर खोलें"
+
+#~ msgid "Other Media"
+#~ msgstr "अन्य मीडिया"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "ऑडियो सीडी के लिए अनुप्रयोग चुनें"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "वीडियो सीडी के लिए अनुप्रयोग चुनें"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "अनुप्रयोग को चालू करने के लिए चयन करे जब एक म्यूजिक प्लयेर जुड़ा हो"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "अनुप्रयोग को चालू करने के लिए चयन करे जब एक कैमरा जुड़ा हो"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "सॉफ़्टवेयर सीडी के लिए अनुप्रयोग चुनें"
+
+#~ msgid "audio DVD"
+#~ msgstr "ऑडियो डीवीडी"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "खाली Blu-Ray डिस्क"
+
+#~ msgid "blank CD disc"
+#~ msgstr "खाली सीडी डिस्क"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "रिक्त डीवीडी डिस्क"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "खाली HD DVD डिस्क"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray वीडियो डिस्क"
+
+#~ msgid "e-book reader"
+#~ msgstr "ई-बुक रीडर"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD डीवीडी वीडियो डिस्क"
+
+#~ msgid "Picture CD"
+#~ msgstr "पिक्चर सीडी"
+
+#~ msgid "Super Video CD"
+#~ msgstr "सुपर वीडियो सीडी"
+
+#~ msgid "Video CD"
+#~ msgstr "वीडियो सीडी"
+
+#~ msgid "Windows software"
+#~ msgstr "विंडोज़ सॉफ़्टवेयर"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/logout.c:266
+#~ msgid "Section"
+#~ msgstr "विभाग"
+
+#~ msgid "Overview"
+#~ msgstr "सारांश"
+
+#~ msgid "Default Applications"
+#~ msgstr "तयशुदा अनुप्रयोग"
+
+#~ msgid "Removable Media"
+#~ msgstr "हटाने योग्य मीडिया"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "संस्करण %s"
+
+#~ msgid "Details"
+#~ msgstr "विवरण"
+
+#~ msgid "View information about your system"
+#~ msgstr "अपने प्रणाली के बारे में सूचना देखें"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "युक्ति;सिस्टम;जानकारी;स्मृति;प्रोसेसर;संस्करण;डिफ़ॉल्ट;अनुप्रयोग;अनुशंसित;सीडी;डीवीडी;"
+#~ "यूएसबी;ऑडियो;वीडियो;डिस्क;हटाने योग्य;मीडिया;स्वतः चालू;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "चुनें कैसे अन्य मीडिया को नियंत्रित किया जाना चाहिए"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "_Action:"
+#~ msgstr "क्रिया (_A):"
+
+#~ msgid "_Type:"
+#~ msgstr "प्रकार: (_T)"
+
+#~ msgid "Device name"
+#~ msgstr "युक्ति नाम"
+
+#~ msgid "Memory"
+#~ msgstr "मेमोरी"
+
+#~ msgid "Processor"
+#~ msgstr "प्रोसेसर"
+
+#~ msgid "Base system"
+#~ msgstr "आधार प्रणाली"
+
+#~ msgid "Disk"
+#~ msgstr "डिस्क"
+
+#~ msgid "Calculating…"
+#~ msgstr "गणना में..."
+
+#~ msgid "Graphics"
+#~ msgstr "आलेखी"
+
+#~ msgid "Virtualization"
+#~ msgstr "वर्चुअलाइजेशन"
+
+#~| msgid "Checking for Updates"
+#~ msgid "Check for updates"
+#~ msgstr "अद्यतन के लिए जाँचें"
+
+#~ msgid "_Web"
+#~ msgstr "वेब (_W)"
+
+#~ msgid "_Mail"
+#~ msgstr "मेल (_M)"
+
+#~ msgid "_Calendar"
+#~ msgstr "पंचांग (_C)"
+
+#~ msgid "M_usic"
+#~ msgstr "संगीत (_u)"
+
+#~ msgid "_Video"
+#~ msgstr "वीडियो (_V)"
+
+#~ msgid "_Photos"
+#~ msgstr "फोटो (_P)"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "चुनें कैसे मीडिया को नियंत्रित किया जाना चाहिए"
+
+#~ msgid "CD _audio"
+#~ msgstr "सीडी ऑडियो (_a)"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD वीडियो"
+
+#~ msgid "_Music player"
+#~ msgstr "संगीत प्लेयर (_M)"
+
+#~ msgid "_Software"
+#~ msgstr "सॉफ्टवेयर (_S)"
+
+#~ msgid "_Other Media…"
+#~ msgstr "अन्य मीडिया... (_O)"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "मीडिया प्रवेश पर कभी प्रांप्ट मत करें या प्रोग्राम आरंभ मत करें (_N)"
+
+#~ msgid "Sound and Media"
+#~ msgstr "ध्वनि और मीडिया"
+
+#~ msgid "Volume mute"
+#~ msgstr "आवाज मौन"
+
+#~ msgid "Volume down"
+#~ msgstr "आवाज कम करें"
+
+#~ msgid "Volume up"
+#~ msgstr "आवाज बढ़ाएँ"
+
+#~ msgid "Launch media player"
+#~ msgstr "मीडिया प्लेयर लॉन्च करें"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "बजाएँ (या बजाएँ/ठहरें)"
+
+#~ msgid "Pause playback"
+#~ msgstr "प्लेबैक रोकें"
+
+#~ msgid "Stop playback"
+#~ msgstr "प्लेबैक रोकें"
+
+#~ msgid "Previous track"
+#~ msgstr "पिछला ट्रैक"
+
+#~ msgid "Next track"
+#~ msgstr "अगला ट्रैक"
+
+#~ msgid "Eject"
+#~ msgstr "बाहर करें"
+
+#~ msgid "Typing"
+#~ msgstr "टंकित कर रहा है"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "अगले इनपुट स्रोत के लिए स्विच करें"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "पिछले इनपुट स्रोत पर जाएँ"
+
+#~ msgid "Launchers"
+#~ msgstr "लांचर"
+
+#~ msgid "Launch help browser"
+#~ msgstr "मदद ब्राउज़र लॉन्च करें"
+
+#~ msgid "Settings"
+#~ msgstr "सेटिंग्स"
+
+#~ msgid "Launch calculator"
+#~ msgstr "कैलकुलेटर लॉन्च करें"
+
+#~ msgid "Launch email client"
+#~ msgstr "ई-मेल क्लाइंट लॉन्च करें"
+
+#~ msgid "Launch web browser"
+#~ msgstr "वेब ब्राउज़र चलाएँ"
+
+#~ msgid "Home folder"
+#~ msgstr "घर फ़ोल्डर"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "ढूंढें"
+
+#~ msgid "Screenshots"
+#~ msgstr "स्क्रीनशॉट"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "$PICTURES में एक स्क्रीनशॉट सहेजें"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr " $PICTURES में विंडो का स्क्रीनशॉट सहेजें"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr " $PICTURES में किसी क्षेत्र का एक स्क्रीनशॉट सहेजें"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "क्लिपबोर्ड पर स्क्रीनशॉट की नकल करें"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "क्लिपबोर्ड पर विंडो का स्क्रीनशॉट की नकल बनाएं"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "क्लिपबोर्ड पर क्षेत्र की स्क्रीनशॉट की नकल बनाएं"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "छोटा स्क्रीनकास्ट रिकॉर्ड करें"
+
+#~ msgid "System"
+#~ msgstr "सिस्टम"
+
+#~ msgid "Log out"
+#~ msgstr "लॉग आउट"
+
+#~ msgid "Lock screen"
+#~ msgstr "स्क्रीन पर ताला"
+
+#~ msgid "Universal Access"
+#~ msgstr "सार्वभौमिक पहुँच"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "जूम चालू या बंद करें"
+
+#~ msgid "Zoom in"
+#~ msgstr "बडे रूप में दिखाएँ"
+
+#~ msgid "Zoom out"
+#~ msgstr "छोटे रूप में दिखाएँ"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "स्क्रीन रीडर को चालू या बंद करें"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "ऑन स्क्रीन कुंजीपटल के चालू या बंद करें"
+
+#~ msgid "Increase text size"
+#~ msgstr "पाठ का आकार बढ़ाएँ"
+
+#~ msgid "Decrease text size"
+#~ msgstr "पाठ का आकार घटाएँ"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "अधिक कंट्रास्ट चालू या बंद करें"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "वैकल्पिक वर्ण कुँजी"
+
+#~ msgid "Compose Key"
+#~ msgstr "लेखन कुंजी"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "संशोधक केवल अगले स्रोत में जाएँ"
+
+#~ msgid "Keyboard"
+#~ msgstr "कुंजीपटल"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "देखें और कुंजीपटल शॉर्टकट को बदलें और अपनी टाइपिंग की वरीयताओं को सेट करें"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "शॉर्टकट;दोहराएँ;ब्लिंक;"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "मनपसंद शार्टकट"
+
+#~ msgid "_Name:"
+#~ msgstr "नाम: (_N)"
+
+#~ msgid "C_ommand:"
+#~ msgstr "कमांड: (_o):"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "दुहराव कुंजी"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "जब कुंजी दबा कर रखा जाए तो कुंजी दोहराना (_r)"
+
+#~ msgid "_Delay:"
+#~ msgstr "देरीः (_D)"
+
+#~ msgid "_Speed:"
+#~ msgstr "गतिः (_S)"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "धीमा"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "दुहराने वाली कुंजी गति"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "तेज"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "संकेतक टिमटिमाना"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "पाठ बक्सा में संकेतक टिमटिमाएँ (_b)"
+
+#~ msgid "S_peed:"
+#~ msgstr "गति: (_p)"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "कर्सर ब्लिंक गति"
+
+#~ msgid "Input Sources"
+#~ msgstr "इनपुट स्रोत"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "शॉर्टकट जोड़ें"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "शॉर्टकट हटायें"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "शॉर्टकट संपादित करने के लिए, पंक्ति पर क्लिक करें और नई कुंजी नीचे पकड़े या स्पष्ट करने के "
+#~ "लिए बैकस्पेस प्रेस करें."
+
+#~ msgid "Shortcuts"
+#~ msgstr "शॉर्टकट्स"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "पसंदीदा शार्टकट"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<अज्ञात क्रिया>"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "शॉर्टकट \"%s\" प्रयोग नहीं की जा सकती है क्योंकि इस कुंजी के प्रयोग से इसे टाइप करना "
+#~ "असंभव होगा.\n"
+#~ "कृपया Control, Alt या Shift कुंजी को एक साथ कोशिश करें."
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "यह शार्टकट \"%s\" पहले से ही:\n"
+#~ " \"%s\" हेतु प्रयुक्त है"
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "यदि आप \"%s\" को फिर नियत करते हैं, \"%s\" शॉर्टकट को निष्क्रिय किया जाएगा."
+
+#~ msgid "_Reassign"
+#~ msgstr "फिर नियत करें (_R)"
+
+#, c-format
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "\"%s\" शॉर्टकट में एक संबद्ध \"%s\" शॉर्टकट है. क्या आप इसे \"%s\" पर स्वतः सेट करना "
+#~ "चाहते हैं?"
+
+#, c-format
+#~| msgid ""
+#~| "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~| "disabled."
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "\"%s\" अभी \"%s\" से जुड़ा है, शॉर्टकट को निष्क्रिय किया जाएगा यदि आप आगे बढ़ते हैं."
+
+#~| msgid "_Reassign"
+#~ msgid "_Assign"
+#~ msgstr "फिर नियत करें (_A)"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "अपनी सेटिंग्स जाँचें (_S)"
+
+#~| msgid "Test Your _Settings"
+#~ msgid "Test Your Settings"
+#~ msgstr "अपनी सेटिंग्स जाँचें"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "माउस व टचपैड"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr "अपने माउस या संवेदनशीलता टचपैड बदलें और सही है या बाएँ हाथ का चयन करें "
+
+#~| msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;"
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr "ट्रैकपैड;सूचक;क्लिक करें;टैब;डबल;बटन;ट्रैकबॉल;स्क्रॉल;"
+
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "धीमा"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "दोहरा क्लिक टाइमआउट"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "तेज"
+
+#~ msgid "_Double-click"
+#~ msgstr "दोहरा क्लिक करें (_D)"
+
+#~ msgid "Primary _button"
+#~ msgstr "प्राथमिक बटन (_b)"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "बायाँ (_L)"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "दाँया (_R)"
+
+#~ msgid "Mouse"
+#~ msgstr "माउस"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "संकेतक गति (_P)"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "धीमा"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "तेज"
+
+#~ msgid "Touchpad"
+#~ msgstr "टचपैड"
+
+#~| msgctxt "keyboard, speed"
+#~| msgid "Slow"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "धीमा"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~| msgctxt "keyboard, speed"
+#~| msgid "Fast"
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "तेज"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "टाइपिंग के दौरान निष्क्रिय करें (_t)"
+
+#~ msgid "Tap to _click"
+#~ msgstr "क्लिक करने के लिए टैप करें (_c)"
+
+#~ msgid "Two _finger scroll"
+#~ msgstr "दो अंगुली से स्क्रॉल (_f)"
+
+#~| msgid "_Edge scrolling"
+#~ msgid "_Natural scrolling"
+#~ msgstr "प्राकृतिक स्क्रॉलिंग (_N)"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "क्लिक करने, दोहरा क्लिक करने और स्क्रॉल करने की कोशिश करें"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "पाँच क्लिक, GEGL समय!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "दोहरा क्लिक, प्राथमिक बटन"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "एकल क्लिक, प्राथमिक बटन"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "दोहरा क्लिक, मध्य बटन"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "एकल क्लिक, मध्य बटन"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "दोहरा क्लिक, द्वितीयक बटन"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "एकल क्लिक, द्वितीयक बटन"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "हवाई जहाज मोड (_p)"
+
+#~ msgid "Network proxy"
+#~ msgstr "नेटवर्क प्रॉक्सी"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "तंत्र संजाल सेवाओं इस संस्करण के साथ संगत नहीं हैं."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x सुरक्षा (_S)"
+
+#~ msgid "page 1"
+#~ msgstr "पृष्ठ 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "बेनाम पहचान (_m)"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "आंतरिक सत्यापन (_a)"
+
+#~ msgid "page 2"
+#~ msgstr "पृष्ठ 2"
+
+#~ msgid "Security"
+#~ msgstr "सुरक्षा"
+
+#~ msgid "automatic"
+#~ msgstr "स्वचालित"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "उद्यम"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgid "Never"
+#~ msgstr "कभी नहीं"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i दिन पहले"
+#~ msgstr[1] "%i दिनों पहले"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "कमजोर"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "ठीक"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "अच्छा"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "बहुत बढिया"
+
+#~ msgid "Identity"
+#~ msgstr "उपयोक्ता"
+
+#~ msgid "Address"
+#~ msgstr "पता"
+
+#~ msgid "Netmask"
+#~ msgstr "नेटमास्क"
+
+#~ msgid "Gateway"
+#~ msgstr "गेटवे"
+
+#~ msgid "Delete Address"
+#~ msgstr "पता मिटाएँ"
+
+#~ msgid "Add"
+#~ msgstr "जोड़ें"
+
+#~ msgid "Server"
+#~ msgstr "सर्वर"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "DNS सर्वर मिटायें"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "मेट्रिक"
+
+#~ msgid "Delete Route"
+#~ msgstr "मार्ग  मिटाएँ"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "स्वचालित (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "हस्तचालित"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "लिंक स्थानीय सिर्फ"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "उपसर्ग"
+
+#~ msgid "Automatic"
+#~ msgstr "स्वचालित"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "स्वचालित, केवल DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "रीसेट"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-बिट कुंजी (हेक्स या ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-bit पासफ्रेज"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "गतिशील WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 निजी"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 एंटरप्राइज"
+
+#~ msgid "Signal Strength"
+#~ msgstr "सिग्नल सामर्थ्य "
+
+#~ msgid "Link speed"
+#~ msgstr "कड़ी गति"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 पता"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 पता"
+
+#~ msgid "Hardware Address"
+#~ msgstr "हार्डवेयर पता"
+
+#~ msgid "Default Route"
+#~ msgstr "तयशुदा मार्ग"
+
+#~ msgid "DNS"
+#~ msgstr "डीएनएस"
+
+#~ msgid "Last Used"
+#~ msgstr "अंतिम प्रयुक्त"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "मुड़ जोड़ी (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "संलग्न एकक अंतराफलन (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "मीडिया स्वतंत्र अंतरफलक (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 गीबा/s"
+
+#~ msgid "_Name"
+#~ msgstr "नाम (_N)"
+
+#~ msgid "_MAC Address"
+#~ msgstr "MAC पता (_M)"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "क्लोन पता (_C)"
+
+#~ msgid "bytes"
+#~ msgstr "बाइट्स"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "अन्य उपयोगकर्ताओं के लिए उपलब्ध है (_u)"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "स्वतः कनेक्ट करें (_a) "
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "फायरवॉल क्षेत्र (_Z)"
+
+#~| msgid "Default"
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "तयशुदा"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "यह क्षेत्र कनेक्शन का भरोसेमंद स्तर परिभाषित करता है"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "पता (_A)"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "स्वचालित DNS"
+
+#~ msgid "Routes"
+#~ msgstr "रूट"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "स्वचालित रूट"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "इस कनेक्शन का उपयोग करें इसके संजाल पर संसाधन के लिए (_o)"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "कनेक्शन संपादक खोलने में असमर्थ"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "New Profile"
+#~ msgstr "कोई प्रोफ़ाइल"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Bond"
+#~ msgstr "बंधन"
+
+#~ msgid "Team"
+#~ msgstr "टोली"
+
+#~ msgid "Bridge"
+#~ msgstr "पुल"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "वीपीएन प्लगिन लोड नहीं कर सका"
+
+#~ msgid "Import from file…"
+#~ msgstr "फ़ाइल से आयात करें… "
+
+#~ msgid "Add Network Connection"
+#~ msgstr "नया संजाल कनेक्शन जोड़ें"
+
+#~ msgid "_Reset"
+#~ msgstr "रीसेट करें (_R)"
+
+#~ msgid "_Forget"
+#~ msgstr "भूलें (_F)"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "पासवर्ड सहित इस नेटवर्क के लिए सेटिंग्स रीसेट करें, लेकिन इसे एक पसंदीदा नेटवर्क समझें"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "इस नेटवर्क से संबंधित सभी जानकारी निकालें और स्वचालित रूप से कनेक्ट करने की कोशिश नहीं "
+#~ "करें."
+
+#~ msgid "S_ecurity"
+#~ msgstr "सुरक्षा (_e)"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "VPN कनेक्शन आय़ात नहीं कर सका"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "फाइल '%s' पढ़ा नहीं जा सका अथवा कोई परिचित VPN कनेक्शन सूचना को समाहित नहीं कर "
+#~ "सका\n"
+#~ "\n"
+#~ "त्रुटि: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "आयात के लिए फाइल चुनें"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" नामक फाइल पहले से मौजूद है."
+
+#~ msgid "_Replace"
+#~ msgstr "बदलें (_R)"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "क्या आप %s को VPN कनेक्शन के साथ बदलना चाहते हैं जिसे आप सहेज रहे हैं?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "VPN कनेक्शन निर्यात नहीं कर सका"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN कनेक्शन '%s' को %s में निर्यात नहीं किया जा सका.\n"
+#~ "\n"
+#~ "त्रुटि: %s."
+
+#~| msgid "Export VPN connection..."
+#~ msgid "Export VPN connection"
+#~ msgstr "VPN संबंधन निर्यात करें"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(त्रुटि: कनेक्शन संपादक खोलने में असमर्थ)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "मेरा घर संजाल"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "अन्य उपयोगकर्ताओं के लिए उपलब्ध है (_o)"
+
+#~ msgid "Network"
+#~ msgstr "नेटवर्क"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "नियंत्रित करें कैसे आप इंटरनेट से कनेक्ट होते हैं"
+
+#~| msgid ""
+#~| "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;DNS;"
+#~ msgstr ""
+#~ "संजाल;वायरलेस;वाई - फाई;वाईफ़ाई;आईपी;लैन;प्रॉक्सी;वैन;ब्रॉडबैंड;मोडेम;ब्लूटूथ;वीपीएन;"
+#~ "ब्रिज;बांड;डीएनएस;"
+
+#~ msgid "Bond slaves"
+#~ msgstr "बॉण्ड गुलाम"
+
+#~ msgid "(none)"
+#~ msgstr "(कोई नहीं)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "पुल गुलाम"
+
+#~ msgid "never"
+#~ msgstr "कभी नहीं"
+
+#~ msgid "today"
+#~ msgstr "आज"
+
+#~ msgid "yesterday"
+#~ msgstr "कल"
+
+#~ msgid "IP Address"
+#~ msgstr "आईपी पता"
+
+#~ msgid "Last used"
+#~ msgstr "अंतिम प्रयुक्त"
+
+#~ msgid "Wired"
+#~ msgstr "तारसहित"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "Options…"
+#~ msgstr "विकल्प…"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "प्रोफ़ाइल %d"
+
+#~ msgid "Add new connection"
+#~ msgstr "नया कनेक्शन जोड़ें"
+
+#~| msgid "Bridge slaves"
+#~ msgid "Team slaves"
+#~ msgstr "टीम स्लेव"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "यदि आपके पास बेतार के अलावा इंटरनेट पर कोई कनेक्शन है, आप इसे दूसरे के साथ बेतार "
+#~ "हॉटस्पॉट सेट करकेकनेक्शन साझा करने के लिए उपयोग कर सकते हैं."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "बेतार हॉटस्पॉट पर जाना आपको <b>%s</b> से कनेक्ट नहीं रहने देगा."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr "आपके बेतार कनेक्शन से इंटरनेट में पहुँच लेना संभव नहीं है जब हॉटस्पॉट सक्रिय हो. "
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "हॉटस्पॉट रोकें और किसी भी उपयोगकर्ताओं को डिस्कनेक्ट करें?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "हॉटस्पॉट रोकें (_S)"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "तंत्र नीति हॉटस्पॉट के रूप में उपयोग को प्रतिबंधित करता हैं"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "वायरलेस युक्ति हॉटस्पॉट मोड समर्थन नहीं करता है"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "कूटशब्द सहित चुने गए नेटवर्कों के लिए संजाल विवरण और अन्य कोई मनपसंद विन्यास नष्ट हो "
+#~ "जाएगा."
+
+#~ msgid "History"
+#~ msgstr "इतिहास"
+
+#~ msgid "_Close"
+#~ msgstr "बंद करें (_C)"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "भूलें (_F)"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "वेब प्रॉक्सी ऑटो डिस्कवरी का प्रयोग किया जाता है जब कॉन्फ़िगरेशन यूआरएल प्रदान नहीं "
+#~ "किया जाता है."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "यह अविश्वसनीय सार्वजनिक संजाल के लिए अनुशंसित नहीं है."
+
+#~ msgid "Proxy"
+#~ msgstr "प्रॉक्सी"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "जोड़ें प्रोफाइल... (_A)"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "प्रदाता"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "हस्तचालित"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "स्वचालित"
+
+#~ msgid "_Method"
+#~ msgstr "विधि (_M)"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "विन्यास यूआरएल (_C)"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "एचटीटीपी प्रॉक्सी (_H)"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "एचटीटीपी प्रॉक्सी: (_T)"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "एफटीपी प्रॉक्सी (_F)"
+
+#~ msgid "_Socks Host"
+#~ msgstr "साक्स होस्ट (_S)"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "होस्ट अनदेखा करें (_I)"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP प्राक्सी पोर्ट"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "एफ़टीपी प्रॉक्सी पोर्ट "
+
+#~ msgid "FTP proxy port"
+#~ msgstr "एफ़टीपी प्रॉक्सी पोर्ट"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "SOCKS प्राक्सी पोर्ट "
+
+#~ msgid "Turn device off"
+#~ msgstr "युक्ति बन्द करें"
+
+#~ msgid "Add Device"
+#~ msgstr "युक्ति जोड़ें"
+
+#~ msgid "Remove Device"
+#~ msgstr "युक्ति हटायें"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN क़िस्म"
+
+#~ msgid "Group Name"
+#~ msgstr "समूह नाम"
+
+#~ msgid "Group Password"
+#~ msgstr "समूह कूटशब्द"
+
+#~ msgid "Username"
+#~ msgstr "उपयोक्तानाम"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "VPN संबंधन बंद करें"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "स्वचालित कनेक्ट करें (_C)"
+
+#~ msgid "details"
+#~ msgstr "विवरण"
+
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgid "Show P_assword"
+#~ msgstr "कूटशब्द दिखाएं (_a)"
+
+#~ msgid "Make available to other users"
+#~ msgstr "अन्य उपयोगकर्ताओं के लिए उपलब्ध है"
+
+#~ msgid "identity"
+#~ msgstr "उपयोक्ता"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "स्वचालित (DHCP) पता केवल"
+
+#~ msgid "Link-local only"
+#~ msgstr "लिंक स्थानीय सिर्फ"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "अन्य कंप्यूटरों के साथ साझा किया"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "स्वतः प्राप्त रूट अनदेखा करें (_n) "
+
+#~ msgid "ipv4"
+#~ msgstr "IPv4"
+
+#~ msgid "ipv6"
+#~ msgstr "IPv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "क्लोन MAC पता (_C)"
+
+#~ msgid "hardware"
+#~ msgstr "हार्डवेयर"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "उनकी चूक को इस कनेक्शन के लिए सेटिंग्स रीसेट करें, लेकिन एक पसंदीदा कनेक्शन के रूप में याद "
+#~ "करें."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "इस नेटवर्क से संबंधित सभी जानकारी निकालें और स्वचालित रूप से इसे कनेक्ट करने की कोशिश "
+#~ "नहीं करें."
+
+#~ msgid "reset"
+#~ msgstr "रीसेट"
+
+#~ msgid "Hardware"
+#~ msgstr "हार्डवेयर"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wi-Fi हॉटस्पॉट "
+
+#~ msgid "_Turn On"
+#~ msgstr "चालू करें (_T)"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "वाई फाई"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "वाई फाई चालू या बंद करें:"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "हॉटस्पॉट के रूप में प्रयोग... (_U) "
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "छिपे संजाल में कनेक्ट करें... (_C)"
+
+#~ msgid "_History"
+#~ msgstr "इतिहास (_H)"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "वाई फाई संजाल में कनेक्ट होने के लिए बंद करें"
+
+#~ msgid "Network Name"
+#~ msgstr "संजाल नाम"
+
+#~ msgid "Connected Devices"
+#~ msgstr "कनेक्टेड युक्तियाँ"
+
+#~ msgid "Security type"
+#~ msgstr "सुरक्षा प्रकार"
+
+#~ msgid "Security key"
+#~ msgstr "सुरक्षा कुंजी"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "तदर्थ"
+
+#~ msgid "Infrastructure"
+#~ msgstr "बुनियादी ढाँचा"
+
+#~ msgid "Status unknown"
+#~ msgstr "स्थिति अज्ञात"
+
+#~ msgid "Unmanaged"
+#~ msgstr "बिना प्रबंधित"
+
+#~ msgid "Unavailable"
+#~ msgstr "अनुपलब्ध"
+
+#~ msgid "Connecting"
+#~ msgstr "जोड़ रहा है"
+
+#~ msgid "Authentication required"
+#~ msgstr "सत्यापन आवश्यक"
+
+#~ msgid "Connected"
+#~ msgstr "कनेक्टेड"
+
+#~ msgid "Disconnecting"
+#~ msgstr "डिसकनेक्टिंग"
+
+#~ msgid "Connection failed"
+#~ msgstr "कनेक्शन असफल"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "स्थिति अज्ञात (गुम)"
+
+#~ msgid "Not connected"
+#~ msgstr "कनेक्टेड नहीं है"
+
+#~ msgid "Configuration failed"
+#~ msgstr "विन्यास विफल"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP विन्यास विफल"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "आईपी विन्यास का समय समाप्त"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "गोपनीयता जरूरी थी, लेकिन प्रदान नहीं किया गया था"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x सप्लीकेंट डिसकनेक्टेड"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x सप्लीकेंट विन्यास विफल"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x सप्लीकेंट विफल"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x सप्लीकेंट प्रमाणित करने में काफी समय लिया"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP आरंभ होने में विफल रहा"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP सेवा डिस्कनेक्टेड"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP विफल"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP क्लाइंट आरंभ होने में विफल रहा"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP क्लाइंट त्रुटि"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP क्लाइंट विफल"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "साझा कनेक्शन सेवा आरंभ होने में विफल"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "साझा कनेक्शन सेवा विफल"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP सेवा आरंभ होने में विफल रहा"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP सेवा त्रुटि"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP सेवा विफल"
+
+#~ msgid "Line busy"
+#~ msgstr "पंक्ति व्यस्त"
+
+#~ msgid "No dial tone"
+#~ msgstr "डायल टोन नहीं"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "कोई कैरियर स्थापित नहीं किया जा सका"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "डायलिंग आग्रह का समय समाप्त"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "डायलिंग प्रयास विफल"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "मोडेम आरंभीकरण असफल"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "विशेष APN चुनने में विफल"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "संजाल के लिए खोज नहीं रहा है"
+
+#~ msgid "Network registration denied"
+#~ msgstr "संजाल पंजीयन मनाही"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "संजाल पंजीयन का समय समाप्त"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "निवेदित संजाल के साथ पंजीयन में विफल"
+
+#~ msgid "PIN check failed"
+#~ msgstr "पिन चेक विफल"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "युक्ति के लिए फर्मवेयर अनुपस्थित हो सकता है"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "कनेक्शन गुम"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "मौज़ूदा कनेक्शन चालू हुआ"
+
+#~ msgid "Modem not found"
+#~ msgstr "मोडेम नहीं मिला"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "ब्लूटूथ कनेक्शन असफल"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM कार्ड नहीं घुसाया गया"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM पिन जरूरी"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM Puk जरूरी"
+
+#~ msgid "SIM wrong"
+#~ msgstr "SIM गलत"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "InfiniBand युक्ति कनेक्टेड अवस्था का समर्थन नहीं करता है"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "कनेक्शन निर्भरता विफल"
+
+#~ msgid "Firmware missing"
+#~ msgstr "गुम फर्मवेयर"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "केबल अनप्लग"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "कोई प्रमाणपत्र प्राधिकार प्रमाणपत्र चुना गया"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "एक सर्टिफिकेट ऑथोरिटी (CA) प्रमाणपत्र का उपयोग नहीं असुरक्षित, दुष्ट Wi-Fi नेटवर्क के "
+#~ "लिए कनेक्शन में परिणाम कर सकते हैं.आप एक सर्टिफिकेट ऑथोरिटी प्रमाणपत्र का चयन करना "
+#~ "चाहेंगे?"
+
+#~ msgid "Ignore"
+#~ msgstr "नज़रअंदाज़ करें"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "सीए प्रमाणपत्र चुनें"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+#~ msgstr "DER, PEM, या PKCS#12 निजी कुंजी (*.der, *.pem, *.p12)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER या PEM प्रमाणपत्र (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~| msgid "Choose a PAC file..."
+#~ msgid "Choose a PAC file"
+#~ msgstr "PAC फ़ाइल चुनें"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC फ़ाइल (*.pac)"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC फाइल (_f)"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "आंतरिक सत्यापन (_I) "
+
+#~ msgid "PAC pro_visioning"
+#~ msgstr "PAC pro_visioning"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "अज्ञातनाम"
+
+#~ msgid "Authenticated"
+#~ msgstr "सत्यापित"
+
+#~ msgid "Both"
+#~ msgstr "दोनों"
+
+#~ msgid "Sho_w password"
+#~ msgstr "कूटशब्द दिखाएँ (_w)"
+
+#~ msgid "MD5"
+#~ msgstr "एमडी5"
+
+#~| msgid "Choose a Certificate Authority certificate..."
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "सर्टिफिकेट ऑथरिटी प्रमाणपत्र चुनें"
+
+#~ msgid "Version 0"
+#~ msgstr "संस्करण 0"
+
+#~ msgid "Version 1"
+#~ msgstr "संस्करण 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "सीए प्रमाणपत्र (_A)"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP संस्करण (_v)"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "इस कूटशब्द के लिए हर समय पूछें (_k)"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "विगोपित निजी कुंजी असुरक्षित हैं"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "चुना गया निजी कुंजी कूटशब्द के द्वारा संरक्षित नहीं दिखता है.  यह आपके सुरक्षा साख को "
+#~ "खराब कर सकता है.  कृपया कोई कूटशब्द संरक्षित निजी कुंजी चुनें.\n"
+#~ "\n"
+#~ "(आप अपने निजी कुंजी से openssl के साथ अपना कूटशब्द संरक्षित कर सकते हैं)"
+
+#~| msgid "Choose your personal certificate..."
+#~ msgid "Choose your personal certificate"
+#~ msgstr "अपना व्यक्तिगत प्रमाणपत्र चुनें"
+
+#~| msgid "Choose your private key..."
+#~ msgid "Choose your private key"
+#~ msgstr "अपनी निजी कुंजी चुनें"
+
+#~ msgid "I_dentity"
+#~ msgstr "पहचान (_d)"
+
+#~ msgid "_User certificate"
+#~ msgstr "उपयोक्ता प्रमाणपत्र (_U)"
+
+#~ msgid "Private _key"
+#~ msgstr "निजी कुंजी (_k)"
+
+#~ msgid "_Private key password"
+#~ msgstr "निजी कुंजी कूटशब्द (_P) "
+
+#~ msgid "PAP"
+#~ msgstr "पीएपी"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "सीएचएपी"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "मुझे फिर मत चेताएँ (_w)"
+
+#~ msgid "No"
+#~ msgstr "नहीं"
+
+#~ msgid "Yes"
+#~ msgstr "हाँ"
+
+#~ msgid "TLS"
+#~ msgstr "टीएलएस"
+
+#~ msgid "FAST"
+#~ msgstr "तीव्र"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "टनेल किया टीएलएस"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "संरक्षित EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "सत्यापन (_t)"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1(तयशुदा)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "खुला तंत्र"
+
+#~ msgid "Shared Key"
+#~ msgstr "साझा कुंजी"
+
+#~ msgid "_Key"
+#~ msgstr "कुंजी (_K)"
+
+#~ msgid "Sho_w key"
+#~ msgstr "कुंजी दिखाएँ (_w)"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP सूची (_x)"
+
+#~ msgid "_Type"
+#~ msgstr "प्रकार (_T)"
+
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "सूचनाएँ"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "ध्वनि चेतावनी"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "पॉपअप बैनर दिखाएं"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Banners"
+#~ msgstr "बैनर में विवरण दिखाएँ"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "लॉक स्क्रीन में देखें"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Lock Screen"
+#~ msgstr "लॉक स्क्रीन में विवरण दिखाएँ "
+
+#~ msgid "On"
+#~ msgstr "चालू"
+
+#~ msgid "Notifications"
+#~ msgstr "सूचनाएँ"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "नियंत्रण जो सूचनाएं प्रदर्शित कर रहे हैं कि वे क्या दिखाते हैं।"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "बैनर;संदेश;ट्रे;पॉपअप;सूचनाएं;"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "पॉपअप बैनर दिखाएं"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "लॉक स्क्रीन में दिखाएँ "
+
+#~| msgid "Other"
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "अन्य"
+
+#~ msgid "Add Account"
+#~ msgstr "खाता जोड़ें"
+
+#~ msgid "Mail"
+#~ msgstr "डाक"
+
+#~ msgid "Contacts"
+#~ msgstr "संपर्क"
+
+#~ msgid "Chat"
+#~ msgstr "गपशप"
+
+#~ msgid "Resources"
+#~ msgstr "संसाधन "
+
+#~ msgid "Error logging into the account"
+#~ msgstr "खाते में लॉगिंग त्रुटि"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "महत्व का समय समाप्त हो गया."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "इस खाते को सक्षम करने के लिए साइन - इन करें."
+
+#~ msgid "_Sign In"
+#~ msgstr " साइन - इन करें (_S)"
+
+#~ msgid "Error creating account"
+#~ msgstr "खाता बनाने में त्रुटि"
+
+#~ msgid "Error removing account"
+#~ msgstr "खाता हटाने में त्रुटि"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "यह सर्वर पर खाता को हटा देगा."
+
+#~ msgid "_Remove"
+#~ msgstr "हटाएं (_R)"
+
+#~ msgid "Online Accounts"
+#~ msgstr "ऑनलाइन खातों"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "आपके ऑनलाइन खातों से कनेक्ट करने और निर्णय क्या उनके लिए उपयोग करने के लिए"
+
+#~| msgid ""
+#~| "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~| "ownCloud;"
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "गूगल;फेसबुक;ट्विटर;याहू;वेब;ऑनलाइन;चैट;कैलेंडर;मेल;संपर्क;ओनक्लाउड;Kerberos;IMAP;SMTP;"
+#~ "Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "कोई ऑनलाइन खाता विन्यस्त नहीं"
+
+#~ msgid "Add an online account"
+#~ msgstr "एक ऑनलाइन खाता जोड़ें"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "किसी खाता को जोड़ना आपके अनुप्रयोग को दस्तावेज़, डाक, संपर्क, पंचांग, चैट और भी कुछेक में "
+#~ "पहुँछ लेने देता है."
+
+#~ msgid "Unknown time"
+#~ msgstr "अज्ञात समय"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i मिनट"
+#~ msgstr[1] "%i मिनट"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i घंटा"
+#~ msgstr[1] "%i घंटा"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "घंटा"
+#~ msgstr[1] "घंटे"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "मिनट"
+#~ msgstr[1] "मिनट"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s जब तक पूरी तरह चार्ज्ड"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "चेतावनी: %s शेष"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s शेष"
+
+#~ msgid "Fully charged"
+#~ msgstr "पूरी तरह चार्ज्ड "
+
+#~ msgid "Empty"
+#~ msgstr "रिक्त"
+
+#~ msgid "Charging"
+#~ msgstr "चार्ज हो रहा है"
+
+#~ msgid "Discharging"
+#~ msgstr "डिस्चार्ज कर रहा है"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "मुख्य"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "अतिरिक्त"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "बेतार माउस"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "बेतार कीबोर्ड"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "बिना व्यवधान के ऊर्जा आपूर्ति"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "व्यक्तिगत डिजिटल सहायक"
+
+#~ msgid "Cellphone"
+#~ msgstr "सेलफोन"
+
+#~ msgid "Media player"
+#~ msgstr "मीडिया प्लेयर"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-# gtk/gtkinputdialog.c:238
+#~ msgid "Tablet"
+#~ msgstr "टेबलेट"
+
+#~ msgid "Computer"
+#~ msgstr "कम्प्यूटर"
+
+#~ msgid "Battery"
+#~ msgstr "बैटरी"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "चार्ज हो रहा है"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "चेतावनी"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "कम"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "अच्छा"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "पूरी तरह चार्ज्ड "
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "रिक्त"
+
+#~ msgid "Batteries"
+#~ msgstr "बैटरी"
+
+#~ msgid "When _idle"
+#~ msgstr "निष्क्रिय जब (_I)"
+
+#~ msgid "Power Saving"
+#~ msgstr "पावर सेविंग"
+
+#~| msgid "_Screen Brightness"
+#~ msgid "_Screen brightness"
+#~ msgstr "स्क्रीन चमक (_S)"
+
+#~| msgid "Keyboard Settings"
+#~ msgid "_Keyboard brightness"
+#~ msgstr "कुंजीपट चमकीलापन (_K)"
+
+#~| msgid "_Dim Screen when Inactive"
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "स्क्रीन मंद करें जब निष्क्रिय हैं (_D)"
+
+#~| msgid "_Blank Screen"
+#~ msgid "_Blank screen"
+#~ msgstr "खाली स्क्रीन (_B)"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "वाई फाई (_W)"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "बेतार युक्तियाँ बंद करें"
+
+#~| msgid "_Mobile Broadband"
+#~ msgid "_Mobile broadband"
+#~ msgstr "मोबाइल ब्रॉडबैंड (_M)"
+
+#~| msgid "Turns off Mobile Broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgid "Turns off mobile broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgstr "मोबाइल ब्रॉडबैंड (3G, 4G, WiMax, आदि.) युक्तियाँ बंद करें"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "ब्लूटूथ (_B)"
+
+#~ msgid "When on battery power"
+#~ msgstr "जब बैटरी शक्ति पर चल रहा हो"
+
+#~ msgid "When plugged in"
+#~ msgstr "जब प्लगिन"
+
+#~ msgid "Suspend & Power Off"
+#~ msgstr "निलंबित & पावर ऑफ करें"
+
+#~| msgid "_Automatic Suspend"
+#~ msgid "_Automatic suspend"
+#~ msgstr "स्वत: निलंबित (_A)"
+
+#~| msgid "When Battery Power is _Critical"
+#~ msgid "When battery power is _critical"
+#~ msgstr "जब पावर बहुत कम है (_C)"
+
+#~ msgid "Power Off"
+#~ msgstr "बंद करें"
+
+#~ msgid "Devices"
+#~ msgstr "औज़ार"
+
+#~ msgid "Power"
+#~ msgstr "पावर"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "अपनी बैटरी की स्थिति और परिवर्तन बिजली की बचत सेटिंग्स देखें"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "पावर;नींद;निलंबित करें; सीतनिद्रा में होना; बैटरी;चमक;मंद;खाली;मॉनिटर;DPMS;निष्क्रिय;"
+
+#~ msgid "Hibernate"
+#~ msgstr "सुप्तावस्था"
+
+#~ msgid "Power off"
+#~ msgstr "पावर ऑफ"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 मिनट"
+
+#~ msgid "1 hour"
+#~ msgstr "1 घंटा"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 मिनट"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 मिनट"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 मिनट"
+
+#~ msgid "2 hours"
+#~ msgstr "2 घंटा"
+
+#~ msgid "1 minute"
+#~ msgstr "1 मिनट"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 मिनट"
+
+#~ msgid "3 minutes"
+#~ msgstr "मिनट"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 मिनट"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 मिनट"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 मिनट"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 मिनट"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 मिनट"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "स्वत: निलंबित"
+
+#~ msgid "_Plugged In"
+#~ msgstr "जब प्लगिन (_P)"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "बैटरी पॉवर ऑन करें (_B)"
+
+#~ msgid "Delay"
+#~ msgstr "देरी"
+
+#~ msgid "Authenticate"
+#~ msgstr "सत्यापित करें"
+
+#~ msgid "Authentication Required"
+#~ msgstr "सत्यापन आवश्यक"
+
+#~ msgid "Low on toner"
+#~ msgstr "टोनर पर कम"
+
+#~ msgid "Out of toner"
+#~ msgstr "टोनर के बाहर"
+
+#~ msgid "Low on developer"
+#~ msgstr "डेवलपर पर कम"
+
+#~ msgid "Out of developer"
+#~ msgstr "डेवलपर के बाहर"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "चिह्न आपूर्ति पर कम"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "चिह्न आपूर्ति के बाहर"
+
+#~ msgid "Open cover"
+#~ msgstr "कवर खोलें"
+
+#~ msgid "Open door"
+#~ msgstr "खुला दरवाजा"
+
+#~ msgid "Low on paper"
+#~ msgstr "कागज पर कम"
+
+#~ msgid "Out of paper"
+#~ msgstr "कागज के बाहर"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "ऑफ़लाइन"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "रुक गया"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "लगभग पूरा गोदाम बेकार"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "लगभग गोदाम बेकार"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "ऑप्टिकल फोटो कंडक्टर जीवन का अंत निकट है"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "ऑप्टिकल फोटो कंडक्टर कामकाज नहीं रहा है"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "विन्यस्त कर रहा है"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "तैयार"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "काम नहीं स्वीकार कर सकते हैं"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "प्रक्रिया हो रही है"
+
+#~ msgid "Toner Level"
+#~ msgstr "टोनर स्तर"
+
+#~ msgid "Ink Level"
+#~ msgstr "स्याही स्तर"
+
+#~ msgid "Supply Level"
+#~ msgstr "आपूर्ति स्तर"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "संस्थापित किया जा रहा है"
+
+#~ msgid "No printers available"
+#~ msgstr "कोई प्रिंटर उपलब्ध नहीं"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u सक्रिय"
+#~ msgstr[1] "%u सक्रिय"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "नया प्रिंटर जोड़ने में विफल."
+
+#~ msgid "Select PPD File"
+#~ msgstr "एक PPD फाइल चुनें"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "पोस्टस्क्रिप्ट प्रिंटर विवरण फ़ाइल (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *.PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "कोई उपयुक्त ड्राइवर नहीं मिला"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "वरीय ड्राइवर के लिए खोज रहा है... "
+
+#~ msgid "Select from database…"
+#~ msgstr "डेटाबेस से चुनें... "
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "PPD फाइल दें... "
+
+#~ msgid "Test page"
+#~ msgstr "जाँच पृष्ठ"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "लोड नहीं कर सका ui: %s"
+
+#~ msgid "Printers"
+#~ msgstr "मुद्रक"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "प्रिंटर जोड़ें, प्रिंटर नौकरियों देखने के लिए और तय करें कि कैसे आप मुद्रित करना चाहते हैं."
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "प्रिंटर;पंक्ति;मुद्रण;पेपर;इंक;टोनर;"
+
+#~ msgid "Active Jobs"
+#~ msgstr "सक्रिय कार्य"
+
+#~ msgid "Close"
+#~ msgstr "बंद करें"
+
+#~ msgid "Resume Printing"
+#~ msgstr "मुद्रण फिर से शुरू"
+
+#~ msgid "Pause Printing"
+#~ msgstr "ठहराव मुद्रण"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "मुद्रण कार्य रद्द करें"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "नया प्रिंटर जोड़ें"
+
+#~| msgid "Authenticate"
+#~ msgid "A_uthenticate"
+#~ msgstr "सत्यापन करें (_u)"
+
+#~ msgid "No printers detected."
+#~ msgstr "कोई मुद्रक नहीं खोज सका."
+
+#~| msgid "Search for network printers or filter result"
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "प्रिंटर का पता डालें या परिणाम फिल्टर करने के लिए पाठ डालें"
+
+#~ msgid "Loading options…"
+#~ msgstr "लोडिंग विकल्प... "
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "प्रिंटर ड्राइवर चुनें"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "ड्राइवर डेटाबेस लोड कर रहा है..."
+
+#~| msgid "Remove Printer"
+#~ msgid "JetDirect Printer"
+#~ msgstr "जेटप्रिंटर प्रिंटर"
+
+#~| msgid "%s Printer"
+#~ msgid "LPD Printer"
+#~ msgstr "LPD मुद्रक"
+
+#~ msgid "One Sided"
+#~ msgstr "एक तरफा"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "लंबा किनारा (मानक)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "छोटा किनारा (पलटें)"
+
+#~ msgid "Portrait"
+#~ msgstr "व्यक्तिचित्र"
+
+#~ msgid "Landscape"
+#~ msgstr "भूदृश्य"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "उल्टा भूदृश्य"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "उल्टा व्यक्तिचित्र"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "स्थगित"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "रोकें"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "प्रक्रिया हो रही है"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "रुक गया"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "रद्द"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "छोड़ा गया"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "पूर्ण"
+
+#~ msgid "Job Title"
+#~ msgstr "पद नाम"
+
+#~ msgid "Job State"
+#~ msgstr "जॉब स्थिति"
+
+#~ msgid "Time"
+#~ msgstr "समय"
+
+#, c-format
+#~ msgid "%s Active Jobs"
+#~ msgstr "%s सक्रिय कार्य"
+
+#~ msgid "USB"
+#~ msgstr "यूएसबी"
+
+#~ msgid "Serial Port"
+#~ msgstr "क्रमिक पोर्ट"
+
+#~ msgid "Parallel Port"
+#~ msgstr "समांतर पोर्ट"
+
+#, c-format
+#~| msgid "Location"
+#~ msgid "Location: %s"
+#~ msgstr "स्थानः %s"
+
+#, c-format
+#~| msgid "A_ddress:"
+#~ msgid "Address: %s"
+#~ msgstr "पता: %s"
+
+#~| msgid "_Inner authentication"
+#~ msgid "Server requires authentication"
+#~ msgstr "सर्वर को प्रमाणीकरण की आवश्यकता है"
+
+#~ msgid "Two Sided"
+#~ msgstr "दो तरफा"
+
+#~ msgid "Paper Type"
+#~ msgstr "कागज का प्रकार"
+
+#~ msgid "Paper Source"
+#~ msgstr "कागज स्रोत"
+
+#~ msgid "Output Tray"
+#~ msgstr "आउटपुट तश्तरी"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript प्री फ़िल्टरिंग"
+
+#~ msgid "Pages per side"
+#~ msgstr "पृष्ठ प्रति पक्ष"
+
+#~ msgid "Two-sided"
+#~ msgstr "दो तरफा"
+
+#~ msgid "Orientation"
+#~ msgstr "दिशा"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "पृष्ठ सेटअप"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "मुद्रक विकल्प"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "कार्य"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "छवि गुणवत्ता"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "रंग"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "समाप्त कर रहा है"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "उन्नत"
+
+#~ msgid "Auto Select"
+#~ msgstr "स्वतः चुनें"
+
+#~ msgid "Printer Default"
+#~ msgstr "मुद्रक तयशुदा"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "अंतस्थापित GhostScript फ़ॉन्ट केवल"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "PS स्तर 1 में बदलें"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "पीएस स्तर 2 पर परिवर्तित करें"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "No pre-filtering"
+#~ msgstr "कोई पूर्व फ़िल्टरिंग नहीं"
+
+#~ msgid "Manufacturer"
+#~ msgstr "उत्पादक"
+
+#~ msgid "Driver"
+#~ msgstr "ड्राइवर"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr "%s पर उपलब्ध प्रिंटर को देखने के लिए अपने उपयोगकर्ता नाम और पासवर्ड दर्ज करें."
+
+#~ msgid "Add Printer"
+#~ msgstr "प्रिंटर जोड़ें"
+
+#~ msgid "Remove Printer"
+#~ msgstr "प्रिंटर हटायें"
+
+#~ msgid "Supply"
+#~ msgstr "आपूर्ति"
+
+#~ msgid "Location"
+#~ msgstr "स्थान"
+
+#~| msgid "Default Route"
+#~ msgid "_Default printer"
+#~ msgstr "तयशुदा प्रिंटग (_D)"
+
+#~ msgid "Jobs"
+#~ msgstr "कार्य"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "जॉब दिखाएं (_J)"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#~ msgid "Model"
+#~ msgstr "मॉडल"
+
+#~ msgid "label"
+#~ msgstr "लेबल"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "नए ड्राइवर की स्थापना कर रहा है ..."
+
+#~ msgid "page 3"
+#~ msgstr "पृष्ठ 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "जाँच पृष्ठ छापें (_T)"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "_Options"
+#~ msgstr "विकल्प (_O)"
+
+#~ msgid "Add New Printer"
+#~ msgstr "नया प्रिंटर जोड़ें"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "क्षमा करें!तंत्र मुद्रण सेवा\n"
+#~ "उपलब्ध नहीं लगती है."
+
+#~ msgid "Screen Lock"
+#~ msgstr "स्क्रीन ताला"
+
+#~ msgid "Usage & History"
+#~ msgstr "उपयोग & इतिहास"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "रद्दी से सभी मदों खाली करें?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "रद्दी में सभी मदों हमेशा के लिए मिटा दी जाएंगी."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "रद्दी खाली करें (_E)"
+
+#~| msgid "Purge Trash & Temporary Files"
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "ट्रैश व अस्थाई फ़ाइलें मिटाएँ?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "सभी अस्थाई फ़ाइल स्थाई रूप से मिटा दी जाएगी."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "अस्थाई फ़ाइलें मिटाएँ (_P)"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "ट्रैश & अस्थाई फ़ाइलें मिटाएँ"
+
+#~| msgid "Software"
+#~ msgid "Software Usage"
+#~ msgstr "सॉफ्टवेयर प्रयोग"
+
+#~ msgid "Privacy"
+#~ msgstr "गोपनीयता"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "आपकी व्यक्तिगत जानकारी और नियंत्रण जो दूसरों को देख सकते हैं की सुरक्षित रखें"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "स्क्रीन;ताला;निदान;दुर्घटना;निजी;हाल ही में;अस्थायी;tmp;सूचकांक; नाम;नेटवर्क;पहचान;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "स्क्रीन बंद करता है "
+
+#  set the timeout value  label with correct value of timeout
+#~ msgid "30 seconds"
+#~ msgstr "30 सेकण्ड"
+
+#~ msgid "1 day"
+#~ msgstr "1 दिन"
+
+#~ msgid "2 days"
+#~ msgstr "2 दिन"
+
+#~ msgid "3 days"
+#~ msgstr "3 दिन"
+
+#~ msgid "4 days"
+#~ msgstr "4 दिन"
+
+#~ msgid "5 days"
+#~ msgstr "5 दिन"
+
+#~ msgid "6 days"
+#~ msgstr "6 दिन"
+
+#~ msgid "7 days"
+#~ msgstr "7 दिन"
+
+#~ msgid "14 days"
+#~ msgstr "14 दिन"
+
+#~ msgid "30 days"
+#~ msgstr "30 दिन"
+
+#~ msgid "Forever"
+#~ msgstr "सदा के लिए "
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "अपने इतिहास को याद बातें करने के लिए फिर से खोजने के लिए आसान बनाता है.इन मदों "
+#~ "नेटवर्क पर कभी नहीं साझा कर रहे हैं."
+
+#~ msgid "_Recently Used"
+#~ msgstr "हाल ही में प्रयुक्त (_R)"
+
+#~ msgid "Retain _History"
+#~ msgstr "इतिहास रख सकेंगे (_H)"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "हालिया इतिहास साफ करें (_e)"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "स्क्रीन लॉक आपकी गोपनीयता की रक्षा जब आप दूर कर रहे हैं."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "स्वचालित स्क्रीन लॉक (_L)"
+
+#~| msgid "Lock Screen _After Blank For"
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "खाली करने के बाद स्क्रीन लॉक (_a)"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "अधिसूचना दिखाएँ (_N)"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "स्वचालित रूप से कचरा पेटी और अस्थायी फ़ाइलें को मिटायें  अपने कंप्यूटर को अनावश्यक "
+#~ "संवेदनशील जानकारी के मुक्त रखने में मदद करने के लिए "
+
+#~| msgid "Automatically Empty _Trash"
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "स्वचालित रूप से रद्दी खाली करें (_T)"
+
+#~| msgid "Automatically Purge Temporary _Files"
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "स्वचालित रूप से अस्थाई फ़ाइलें मिटाएँ (_F)"
+
+#~ msgid "Purge _After"
+#~ msgstr "के बाद मिटाएँ (_A)"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "आप किस सॉफ़्टवेयर का उपयोग करते हैं इसपर सूचना भेजा हमें अधिक सटीक अनुशंसा के लिए मदद "
+#~ "करता है. यह हमेें हमारे सॉफ्टवेयर को सुधारने में मदद करता है.\n"
+#~ "\n"
+#~ "सभी जानकारियाँ जो हम जमा करते हैं वह बेनाम रहती हैं, और हम आपके आँकड़े को किसी तीसरे "
+#~ "पक्ष से साझा कभी नहीं करते हैं."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "सॉफ़्टवेयर प्रयोग आँकड़ा भेजें (_S)"
+
+#~| msgid "Privacy"
+#~ msgid "Privacy Policy"
+#~ msgstr "गोपनीयता नीति"
+
+#~| msgid "Location"
+#~ msgid "_Location Services"
+#~ msgstr "अवस्थिति सेवाएँ (_L)"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "आपके भौगोलिक अवस्थिति निर्धारित करने के लिए प्रयोग"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "इम्पीरियल"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "मेट्रिक"
+
+#~ msgid "No regions found"
+#~ msgstr "कोई क्षेत्रों नहीं मिला"
+
+#~ msgid "No input sources found"
+#~ msgstr "कोई  इनपुट स्रोत नहीं मिला"
+
+#~| msgid "Other"
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "अन्य"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "परिवर्तनों को प्रभावी करने के लिए अपने सत्र के लिए आरंभ किया जाना है"
+
+#~ msgid "Restart Now"
+#~ msgstr "अब फिर आरंभ करें"
+
+#~ msgid "No input source selected"
+#~ msgstr "कोई इनपुट स्रोत चयनित नहीं"
+
+#~ msgid "Sorry"
+#~ msgstr "खेद है"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "इनपुट विधि लॉगिन स्क्रीन पर नहीं किया जा सकता"
+
+#~ msgid "Login Screen"
+#~ msgstr "लॉगिन स्क्रीन"
+
+#~ msgid "Formats"
+#~ msgstr "प्रारूप"
+
+#~ msgid "Preview"
+#~ msgstr "पूर्वावलोकन"
+
+#~ msgid "Dates"
+#~ msgstr "तिथियाँ"
+
+#~ msgid "Times"
+#~ msgstr "बार"
+
+#~ msgid "Numbers"
+#~ msgstr "संख्याएँ"
+
+#~ msgid "Measurement"
+#~ msgstr "माप"
+
+#~ msgid "Paper"
+#~ msgstr "कागज"
+
+#~ msgid "Region & Language"
+#~ msgstr "क्षेत्र और भाषा"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr "अपनी प्रदर्शन भाषा, स्वरूपों, कीबोर्ड लेआउट और इनपुट सूत्रों का चयन करें"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "भाषा;लेआउट;कीबोर्ड; इनपुट;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "इनपुट स्रोत जोड़ें "
+
+#~ msgid "Input Source Options"
+#~ msgstr "इनपुट स्रोत विकल्प"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "सभी विंडोज़ के लिए एक ही स्रोत का उपयोग करें  (_s)"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "व्यक्तिगत विंडोज़ के लिए विभिन्न स्रोत की अनुमति दें (_d)"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "कुंजीपट शॉर्टकट"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "पिछले स्रोत पर जाएँ"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "अगले स्रोत में जाएँ"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "आप कुंजीपटल सेटिंग्स में इन शॉर्टकट बदल सकते हैं"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "अगले स्रोत के लिए वैकल्पिक स्विच"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "दायां + बायां आल्ट"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "अंग्रेज़ी (यूनाइटेड किंगडम)"
+
+#~ msgid "United Kingdom"
+#~ msgstr "यूनाइटेड किंगडम"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "Options"
+#~ msgstr "विकल्प"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "लॉगइन सेटिंग्स सभी उपयोगकर्ताओं द्वारा उपयोग किया जाता है जब सिस्टम में प्रवेश करते हैं"
+
+#~| msgid "Places"
+#~ msgctxt "Search Location"
+#~ msgid "Places"
+#~ msgstr "स्थान"
+
+#~| msgid "Bookmarks"
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "पुस्तचिह्न"
+
+#~| msgid "Other"
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "अन्य"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "Select Location"
+#~ msgstr "स्थान चुनें"
+
+#~| msgid "GOK"
+#~ msgid "_OK"
+#~ msgstr "ठीक (_O)"
+
+#~ msgid "No applications found"
+#~ msgstr "कोई अनुप्रयोग नहीं मिला"
+
+#~ msgid "Search"
+#~ msgstr "ढूंढें"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr "नियंत्रण के लिए जो आवेदन गतिविधियों के अवलोकन में खोज परिणाम बताते हैं"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "खोज;पता लगाएं;सूचकांक;छिपाएँ;गोपनीयता;परिणाम;"
+
+#~ msgid "Search Locations"
+#~ msgstr "खोजें स्थान"
+
+#~ msgid "Move Up"
+#~ msgstr "ऊपर जाएँ"
+
+#~ msgid "Move Down"
+#~ msgstr "नीचे जाएँ"
+
+#~ msgid "Preferences"
+#~ msgstr "वरीयताएँ"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "चालू"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "बंद"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-# gtk/gtkinputdialog.c:238
+#~| msgid "Enabled"
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "सक्षम"
+
+#~| msgid "Active Jobs"
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "सक्रिय"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "कोई फ़ोल्डर चुनें "
+
+#~ msgid "Copy"
+#~ msgstr "नक़ल"
+
+#~ msgid "Sharing"
+#~ msgstr "साझेदारी"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "नियंत्रण आप क्या दूसरों के साथ साझा करना चाहते हैं"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;"
+#~ "video;pictures;photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "शेयर; साझा करने; ssh; मेजबान; नाम; दूरस्थ; डेस्कटॉप; ब्लूटूथ;OBEX; मीडिया; ऑडिय; "
+#~ "वीडियो;चित्र; फोटो; फिल्मों; सर्वर; रेंडरर;"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "दूरस्थ लॉगिन सक्षम या अक्षम करें."
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr "उपयोक्ता दूरस्थ लॉगिन सक्षम या अक्षम करने के लिए सत्यापन आवश्यक है"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "साझा करने के लिए कोई संजाल चयनित नहीं"
+
+#~| msgid "Network"
+#~ msgid "Networks"
+#~ msgstr "संजाल"
+
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "ब्लूटूथ सेटिंग "
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "ब्लूटूथ शेयरिंग आप अन्य ब्लूटूथ सक्षम उपकरणों के साथ फ़ाइलें साझा करने की अनुमति देता है."
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "केवल विश्वसनीय उपकरण से प्राप्त करें"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "डाउनलोड फ़ोल्डर में प्राप्त फ़ाइलों को सहेजें"
+
+#~ msgid "Computer Name"
+#~ msgstr "कम्प्यूटर नाम"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "निजी फ़ाइल साझा"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "स्क्रीन हिस्सा"
+
+#~ msgid "Media Sharing"
+#~ msgstr "मीडिया साझेदारी"
+
+#~ msgid "Remote Login"
+#~ msgstr "दूरस्थ लॉगिन"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "कुछ सेवाओं को कोई नेटवर्क का उपयोग की वजह से अक्षम हैं."
+
+#, no-c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "व्यक्तिगत फ़ाइल शेयरिंग आप दूसरों के साथ अपने वर्तमान नेटवर्क का उपयोग कर पर अपने "
+#~ "सार्वजनिक फ़ोल्डर साझा करने के लिए अनुमति देता है: <a href=\"dav://%s\">dav://%s</"
+#~ "a>"
+
+#~ msgid "Require Password"
+#~ msgstr " पासवर्ड की आवश्यकता होगी"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to connect using the Secure Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "दूरदराज के उपयोगकर्ताओं को सुरक्षित शैल कमांड का उपयोग कर कनेक्ट करने के लिए अनुमति "
+#~ "दें.:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to view or control your screen by connecting to: <a "
+#~ "href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "दूरदराज के उपयोगकर्ताओं को देखने के लिए या को जोड़ने के द्वारा अपनी स्क्रीन पर नियंत्रण "
+#~ "की अनुमति दें: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~| msgid "Remote Control"
+#~ msgid "Allow Remote Control"
+#~ msgstr "रिमोट दृश्य स्वीकारें"
+
+#~| msgid "Password"
+#~ msgid "Password:"
+#~ msgstr "कूटशब्द:"
+
+#~ msgid "Show Password"
+#~ msgstr "कूटशब्द दिखाएँ"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~| msgid "%s Options"
+#~ msgid "Access Options"
+#~ msgstr "पहुँच विकल्प"
+
+#~ msgid "New connections must ask for access"
+#~ msgstr "नया कनेक्शन पहुँच के लिए जरूर पूछें"
+
+#~| msgid "Require Password"
+#~ msgid "Require a password"
+#~ msgstr "कूटशब्द की आवश्यकता होगी"
+
+#~| msgid "Share Music, Photos and Videos with others on the current network."
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "संगीत, तस्वीरें और वीडियो के संजाल पर साझा करें."
+
+#~| msgid "Add Folder"
+#~ msgid "Folders"
+#~ msgstr "फ़ोल्डर"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Sound"
+#~ msgstr "ध्वनि"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "ध्वनि के स्तर, निविष्टियाँ, outputs, और चेतावनी लगता बदलें"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr "कार्ड;माइक्रोफोन; वॉल्यूम; फीका; बैलेंस; ब्लूटूथ; हेडसेट; ऑडियो;"
+
+#~ msgid "Bark"
+#~ msgstr "बार्क"
+
+#~ msgid "Drip"
+#~ msgstr "ड्रिप"
+
+#~ msgid "Glass"
+#~ msgstr "ग्लास"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Sonar"
+#~ msgstr "सोनार"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "बायाँ"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "दायाँ"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "पिछला"
+
+# #-#-#-#-#  libgnomecanvas.gnome-2-2.hi.po (libgnomecanvas)  #-#-#-#-#
+# libgnomecanvas/gnome-canvas-text.c:238
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-font-picker.c:184 libgnomeui/gnome-font-picker.c:979
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "अग्र भाग"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "न्यूनतम"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "अधिकतम"
+
+#~ msgid "_Balance:"
+#~ msgstr "संतुलन: (_B)"
+
+#~ msgid "_Fade:"
+#~ msgstr "धुंधला: (_F)"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "उप वूफ़र: (_S)"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "बिना संवर्द्धित"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
+# test-gnome/testgnome.xml.h:5
+#~ msgid "_Profile:"
+#~ msgstr "प्रोफाइल: (_P)"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u आउटपुट"
+#~ msgstr[1] "%u आउटपुट"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u इनपुट"
+#~ msgstr[1] "%u इनपुट"
+
+#~ msgid "System Sounds"
+#~ msgstr "सिस्टम ध्वनि"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "टेस्ट स्पीकर्स (_T)"
+
+#~ msgid "Peak detect"
+#~ msgstr "पीक जाँच"
+
+#~ msgid "Name"
+#~ msgstr "नाम"
+
+#~ msgid "Device"
+#~ msgstr "युक्ति"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "स्पीकर टेस्टिंग %s के लिए"
+
+#~ msgid "_Output volume:"
+#~ msgstr "आउटपुट आवाज: (_O)"
+
+#~ msgid "Output"
+#~ msgstr "आउटपुट"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "ध्वनि आउटपुट के लिए कोई युक्ति चुनें: (_h)"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "चयनित युक्ति के लिए सेटिंग:"
+
+#~ msgid "Input"
+#~ msgstr "इनपुट"
+
+#~ msgid "_Input volume:"
+#~ msgstr "इनपुट आवाज: (_I)"
+
+#~ msgid "Input level:"
+#~ msgstr "इनपुट स्तर:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "ध्वनि इनपुट के लिए कोई युक्ति चुनें: (_h)"
+
+#~ msgid "Sound Effects"
+#~ msgstr "ध्वनि प्रभाव"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "आवाज़ निर्धारक: (_A)"
+
+#~ msgid "Applications"
+#~ msgstr "अनुप्रयोग"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "कोई अनुप्रयोग अभी ध्वनि बजा या रिकार्ड नहीं कर रहा है."
+
+#~ msgid "Built-in"
+#~ msgstr "अंतर्निर्मित"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "ध्वनि वरीयता"
+
+#~ msgid "Testing event sound"
+#~ msgstr "घटना ध्वनि जाँच रहा है"
+
+#~ msgid "Default"
+#~ msgstr "तयशुदा"
+
+#~ msgid "From theme"
+#~ msgstr "प्रसंग से"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "कोई चेतावनी ध्वनि चुनें: (_h)"
+
+#~ msgid "Stop"
+#~ msgstr "रूकें"
+
+#~ msgid "Test"
+#~ msgstr "जांच"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+# #-#-#-#-#  libgnomeprint.gnome-2-2.hi.po (libgnomeprint VERSION)  #-#-#-#-#
+# libgnomeprint/gpa/gpa-media.c:241
+#~ msgid "Custom"
+#~ msgstr "पसंदीदा"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "इसे देखना, सुनना, प्रकार, बिंदु और क्लिक करें आसान बनाओ"
+
+#~| msgid ""
+#~| "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen Reader;text;font;"
+#~| "size;AccessX;Sticky Keys;Slow Keys;Bounce Keys;Mouse Keys;"
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "कुंजीपटल;माउस;a11y;एक्सेसिबिलिटी;कंट्रास्ट;ज़ूम;स्क्रीन;रीडर;पाठ;फ़ॉन्ट;आकार;एक्सेसX;"
+#~ "स्टिकी;कुंजी;धीमी;बाउंस;माउस;"
+
+#~| msgid "Universal Access"
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "सार्वभौमिक पहुँच मेन्यू हमेशा दिखाएँ (_A)"
+
+#~ msgid "Seeing"
+#~ msgstr "देख कर रहा है"
+
+#~| msgid "High Contrast"
+#~ msgid "_High Contrast"
+#~ msgstr "अधिक विरोध (_H)"
+
+#~| msgid "Large Text"
+#~ msgid "_Large Text"
+#~ msgstr "बड़ा पाठ (_L)"
+
+#~| msgid "Zoom"
+#~ msgid "_Zoom"
+#~ msgstr "छोटा-बड़ा करें (_Z)"
+
+#~| msgid "Screen Reader"
+#~ msgid "Screen _Reader"
+#~ msgstr "स्क्रीन वाचक (_R)"
+
+#~| msgid "Bounce Keys"
+#~ msgid "_Sound Keys"
+#~ msgstr "ध्वनि कुँजी (_S)"
+
+#~ msgid "Hearing"
+#~ msgstr "सुनवाई"
+
+#~| msgid "Visual Alerts"
+#~ msgid "_Visual Alerts"
+#~ msgstr "दृष्टि चेतावनी (_V)"
+
+#~| msgid "Screen keyboard"
+#~ msgid "Screen _Keyboard"
+#~ msgstr "स्क्रीन कुंजीपटल (_K)"
+
+#~| msgid "Typing Assistant"
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "टाइपिंग सहायक (_T) (AccessX)"
+
+#~| msgid "Pointing and Clicking"
+#~ msgid "Pointing & Clicking"
+#~ msgstr "इंगित और क्लिक"
+
+#~| msgid "Mouse Keys"
+#~ msgid "_Mouse Keys"
+#~ msgstr "माउस कुंजियाँ (_M)"
+
+#~ msgid "_Click Assist"
+#~ msgstr "क्लिक मददगार (_C)"
+
+#~ msgid "Screen Reader"
+#~ msgstr "स्क्रीन वाचक"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr "स्क्रीन रीडर प्रदर्शित पाठ पढ़ता है जैसे ही आप फोकस पर बढते हैं."
+
+#~| msgid "Screen Reader"
+#~ msgid "_Screen Reader"
+#~ msgstr "स्क्रीन वाचक (_S)"
+
+#~| msgid "Bounce Keys"
+#~ msgid "Sound Keys"
+#~ msgstr "ध्वनि कुंजियाँ"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on."
+#~ msgstr "जब Num Lock या Caps Lock चालू है तो बीप करें."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "दृष्टि चेतावनी"
+
+#~ msgid "_Test flash"
+#~ msgstr "जाँच फ्लैश (_T)"
+
+#~| msgid "Use a visual indication when an alert sound occurs"
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "दृश्य संकेत का प्रयोग करें जब एक चेतावनी ध्वनि होती है."
+
+#~| msgid "Flash the window title"
+#~ msgid "Flash the _window title"
+#~ msgstr "विंडो शीर्षक को चमकाएँ (_w)"
+
+#~| msgid "Flash the entire screen"
+#~ msgid "Flash the entire _screen"
+#~ msgstr "पूरा स्क्रीन चमकाएँ (_s)"
+
+#~| msgid "Typing Assistant"
+#~ msgid "Typing Assist"
+#~ msgstr "टाइपिंग सहायक"
+
+#~| msgid "Sticky Keys"
+#~ msgid "_Sticky Keys"
+#~ msgstr "स्टिकी कुंजी (_S)"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "कुंजी संयोजन के रूप में आपरिवर्तक कुंजी का एक अनुक्रम को मानना"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "निष्क्रिय करें यदि दो कुंजी एक साथ दबाया जाए (_D)"
+
+#~ msgid "Beep when a _modifer key is pressed"
+#~ msgstr "जब परिवर्धक कुंजी दबाएँ तो बीप बजाएँ (_m)"
+
+#~| msgid "Slow Keys"
+#~ msgid "S_low Keys"
+#~ msgstr "धीमी कुंजी (_l)"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "जब कुंजी दबा जाता है और जब इसे स्वीकार किया जाता है के बीच देरी रखें"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "स्वीकृति में देरी: (_c)"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "धीमी कुंजी टाइपिंग विलंब"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~| msgid "Beep when a _modifer key is pressed"
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "जब कुंजी दबाएँ तो बीप बजाएँ (_e)"
+
+#~| msgid "Beep when a key is _rejected"
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "जब कुंजी अस्वीकृत हो तो बीप बजाएँ  (_r)"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "जब कुंजी अस्वीकृत हो तो बीप बजाएँ  (_r)"
+
+#~| msgid "Bounce Keys"
+#~ msgid "_Bounce Keys"
+#~ msgstr "उछलती कुंजियाँ (_B)"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "तेज नक़ल कीप्रेस अनदेखा करें"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "उछलती कुंजी टाइपिंग विलंब"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~| msgid "Enable by Keyboard"
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "कुंजीपट से सक्षम करें (_E)"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "कुंजीपटल के उपयोग पर पहुंच सुविधाओं को चालू करें"
+
+#~ msgid "Click Assist"
+#~ msgstr "क्लिक मदद"
+
+#~| msgid "Simulated Secondary Click"
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "सिमुलेटेड द्वितीयक क्लिक (_S)"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "प्राथमिक बटन पकड़ने के दौरान द्वितीयक कुंजी ट्रिगर करें"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "माध्यमिक क्लिक विलंब"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~| msgid "Hover Click"
+#~ msgid "_Hover Click"
+#~ msgstr "होवर क्लिक (_H)"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "प्वाइंटर गति रोकने के दौरान क्लिक आरंभ करें"
+
+#~ msgid "D_elay:"
+#~ msgstr "देरी: (_e)"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Short"
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~| msgctxt "keyboard, delay"
+#~| msgid "Long"
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "गति देहलीज़: (_t)"
+
+#~| msgctxt "universal access, text size"
+#~| msgid "Small"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "छोटा"
+
+#~| msgctxt "universal access, text size"
+#~| msgid "Large"
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "बड़ा"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ स्क्रीन"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ स्क्रीन"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ स्क्रीन"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~ msgid "Full Screen"
+#~ msgstr "पूर्ण स्क्रीन"
+
+#~ msgid "Top Half"
+#~ msgstr "ऊपरी आधा"
+
+#~ msgid "Bottom Half"
+#~ msgstr "नीचला आधा"
+
+#~ msgid "Left Half"
+#~ msgstr "बायाँ आधा"
+
+#~ msgid "Right Half"
+#~ msgstr "दायाँ आधा"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "Zoom Options"
+#~ msgstr "ज़ूम विकल्प"
+
+#~ msgid "Zoom"
+#~ msgstr "ज़ूम"
+
+#~ msgid "Magnification:"
+#~ msgstr "आवर्धन:"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "माउस संकेतक का अनुसरण करें"
+
+#~ msgid "Screen part:"
+#~ msgstr "स्क्रीन हिस्सा:"
+
+#~ msgid "Magnifier extends outside of screen"
+#~ msgstr "आवर्धक स्क्रीन के बाहर विस्तार करता है"
+
+#~ msgid "Keep magnifier cursor centered"
+#~ msgstr "आवर्धक कर्सर केन्द्रित रखें"
+
+#~ msgid "Magnifier cursor pushes contents around"
+#~ msgstr "आवर्धक कर्सर के आसपास विषयवस्तु को पुश करें"
+
+#~ msgid "Magnifier cursor moves with contents"
+#~ msgstr "विषयवस्तु के साथ आवर्धक कर्सर चलता है"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "आवर्धक स्थिति:"
+
+#~ msgid "Magnifier"
+#~ msgstr "आवर्धक:"
+
+#~ msgid "Thickness:"
+#~ msgstr "मोटाईः"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "पतला"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "मोटा "
+
+#~ msgid "Length:"
+#~ msgstr "लंबाईः "
+
+#~ msgid "Color:"
+#~ msgstr "रंगः"
+
+#~ msgid "Crosshairs:"
+#~ msgstr "क्रासहेयर्स:"
+
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "ओवरलैप माउस संकेतक"
+
+#~ msgid "Crosshairs"
+#~ msgstr "क्रासहेयर्स:"
+
+#~ msgid "White on black:"
+#~ msgstr "काले पर सफेद:"
+
+#~ msgid "Brightness:"
+#~ msgstr "चमकीलापन:"
+
+#~ msgid "Contrast:"
+#~ msgstr "विरोधी:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "रंग "
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं "
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr " पूरा"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "निम्न "
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr " उच्च"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "कम"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "उच्च"
+
+#~ msgid "Color Effects:"
+#~ msgstr "रंग प्रभाव:"
+
+#~ msgid "Color Effects"
+#~ msgstr "रंग प्रभाव"
+
+#~ msgid "_Verify"
+#~ msgstr "जाँचें (_V)"
+
+#~ msgid "_Enroll"
+#~ msgstr "नामांकन (_E)"
+
+#~ msgid "Login History"
+#~ msgstr "लॉगिन इतिहास"
+
+#  set the timeout value  label with correct value of timeout
+#~ msgid "Add User Account"
+#~ msgstr "उपयोगकर्ता खाता जोड़ें"
+
+#  set the timeout value  label with correct value of timeout
+#~ msgid "Remove User Account"
+#~ msgstr "उपयोगकर्ता खाता हटायें"
+
+#~ msgid "_Language"
+#~ msgstr "भाषा (_L)"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "उपयोक्ता खातों का प्रबंधन करें"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "उपयोक्ता आँकड़ा बदलने के लिए सत्यापन आवश्यक है"
+
+#, c-format
+#~| msgid "A user with the username '%s' already exists"
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "उपयोक्तानाम '%s' के साथ उपयोगकर्ता पहले से मौजूद है."
+
+#~ msgid "Map Buttons"
+#~ msgstr "नक्शे बटन"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "कार्य करने के लिए नक्शे बटन"
+
+#~| msgid ""
+#~| "To edit a shortcut, click the row and hold down the new keys or press "
+#~| "Backspace to clear."
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "शॉर्टकट संपादित करने के लिए, \"Send Keystroke\"  क्रिया चुनें, कुंजीपट शॉर्टकल बटन "
+#~ "दबाएँ और नई कुंजी नीचे पकड़े या स्पष्ट करने के लिए बैकस्पेस प्रेस करें."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "कृपया लक्ष्य मार्करों को टैप करें जो टैबलेट को कैलिब्रेट करते समय स्क्रीन पर दिखाई देते हैं."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "गलत-क्लिक का पता चला, पुनरारंभ कर रहा है ..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "ऊपर"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "नीचे"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "कीस्ट्रोक भेजें"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "मॉनिटर बदलें"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "स्क्रीन पर मदद दिखाएं"
+
+#~ msgid "Output:"
+#~ msgstr "आउटपुट:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "पहलू अनुपात बनाए रखें (लेटरबॉक्स):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "एकल मॉनिटर से मानचित्रित करें"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d का %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "मानचित्रण प्रदर्शित करें"
+
+#~ msgid "Button"
+#~ msgstr "बटन"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom टेब्लेट"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr "बटन मैपिंग सेट और ग्राफिक्स गोलियाँ के लिए स्टाइलस संवेदनशीलता को समायोजित"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "टैब्लेट;Wacom;लेखनी;इरेज़र;माउस;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "टैब्लेट (निरपेक्ष)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "टचपैड (सापेक्षिक)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "टैबलेट वरीयताएँ"
+
+#~ msgid "No tablet detected"
+#~ msgstr "कोई टैबलेट पता नहीं लगा है"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "कृपया अपने Wacom टैबलेट को चालू या प्लगिन करें"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "ब्लूटूथ सेटिंग"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "मॉनिटर से मानचित्रित करें..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "नक्शे बटन…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "रिसॉल्यूशन प्रदर्शन समायोजित करें"
+
+#~| msgid "Mouse Settings"
+#~ msgid "Adjust mouse settings"
+#~ msgstr "माउस सेटिंग समायोजित करें"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "ट्रैकिंग मोड"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "बाएँ-हाथ ओरिएंटेशन"
+
+#~ msgid "Left Ring"
+#~ msgstr "बाईं अनामिका"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "बाईं अनामिका मोड #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "दाहिनी तर्जनी"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "दाहिनी तर्जनी मोड #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "बाईं Touchstrip"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "बाईं Touchstrip मोड #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "दायाँ Touchstrip"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "दायाँ Touchstrip मोड #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "बाईं Touchring मोड स्विच करें"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "दायाँ Touchring मोड स्विच करें"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "बाईं Touchstrip मोड स्विच करें"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "दायाँ Touchstrip मोड स्विच करें"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "मोड स्विच #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "बायाँ बटन #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "दायाँ बटन #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "शीर्ष बटन #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "नीचे बटन #%d"
+
+#~| msgid "New shortcut..."
+#~ msgid "New shortcut…"
+#~ msgstr "नया शार्टकट..."
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "No Action"
+#~ msgstr "कोई क्रिया नहीं"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "बाईं माउस बटन पर क्लिक करें"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "मध्य माउस बटन पर क्लिक करें"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "दायाँ माउस बटन पर क्लिक करें"
+
+#~ msgid "Scroll Up"
+#~ msgstr "ऊपर स्क्रॉल करें"
+
+#~ msgid "Scroll Down"
+#~ msgstr "नीचे स्क्रॉल करें"
+
+#~ msgid "Scroll Left"
+#~ msgstr "बाएँ स्क्रॉल करें"
+
+#~ msgid "Scroll Right"
+#~ msgstr "दाएँ स्क्रॉल करें"
+
+#~ msgid "Back"
+#~ msgstr "पीछे"
+
+#~ msgid "Forward"
+#~ msgstr "आगे"
+
+#~ msgid "Stylus"
+#~ msgstr "स्टाइलस"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "इरेज़र दबाव फील करें"
+
+#~ msgid "Soft"
+#~ msgstr "सॉफ्ट"
+
+#~ msgid "Firm"
+#~ msgstr "फर्म"
+
+#~ msgid "Top Button"
+#~ msgstr "शीर्ष बटन"
+
+#~ msgid "Lower Button"
+#~ msgstr "निचले बटन"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "टिप दबाव फील करें"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "भर्बोस विधि सक्रिय करें"
+
+#~ msgid "Show the overview"
+#~ msgstr "सारांश दिखाएँ"
+
+#~ msgid "Search for the string"
+#~ msgstr "स्ट्रिंग के लिए खोजें"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "संभव पैनल के नामों की सूची और बाहर निकलें"
+
+#~ msgid "Show help options"
+#~ msgstr "मदद विकल्प दिखाएँ"
+
+#~ msgid "Panel to display"
+#~ msgstr "दिखाने के लिए पटल"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "- Settings"
+#~ msgstr "- सेटिंग्स"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "'%s --help' को उपलब्ध कमांड लाइन विकल्प की पूरी सूची दिखाने के लिए चलाएँ.\n"
+
+#~ msgid "Available panels:"
+#~ msgstr "उपलब्ध पैनल:"
+
+#~ msgid "Help"
+#~ msgstr "मदद"
+
+#~ msgid "Quit"
+#~ msgstr "बाहर"
+
+#~ msgid "All Settings"
+#~ msgstr "सभी सेटिंग्स"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "निजी"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "हार्डवेयर"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "सिस्टम"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "वरीयताएँ;सेटिंग्स;"
+
+#~ msgid "Flickr"
+#~ msgstr "फ्लिकर"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "नई युक्ति सेटअप करें"
+
+#~ msgid "Connection"
+#~ msgstr "कनेक्शन"
+
+#~ msgid "Paired"
+#~ msgstr "युग्म"
+
+#~ msgid "Type"
+#~ msgstr "प्रकार"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "माउस & टचपैड सेटिंग"
+
+#~ msgid "Sound Settings"
+#~ msgstr "ध्वनि विन्यास"
+
+#~ msgid "Send Files…"
+#~ msgstr "फाइल भेजें... "
+
+#~ msgid "Visibility"
+#~ msgstr "दृश्यता"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "दृश्यता “%s” का"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "'%s' को युक्तियों की सूची से हटाता है?"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "यदि आप युक्ति को हटाते हैं, आपको इसे फिर से सेटअप करना होगा आगे के प्रयोग के पहले."
+
+#~ msgid "Export"
+#~ msgstr "निर्यात"
+
+#~ msgid "Device type:"
+#~ msgstr "उपकरण क़िस्म:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "उत्पादक:"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#~ msgid "Model:"
+#~ msgstr "मॉडलः"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr ""
+#~ "छवि फ़ाइलें इस विंडो पर उपरोक्त क्षेत्रों को स्वत: पूरा करने के लिए ड्रैग कर सकते हैं."
+
+#~ msgid "Left Shift"
+#~ msgstr "बायां शिफ्ट "
+
+#~ msgid "Left Alt"
+#~ msgstr "बायां आल्ट "
+
+#~ msgid "Left Ctrl"
+#~ msgstr "बायाँ कंट्रोल"
+
+#~ msgid "Right Shift"
+#~ msgstr "दायां शिफ्ट "
+
+#~ msgid "Right Alt"
+#~ msgstr " दायां आल्ट"
+
+#~ msgid "Right Ctrl"
+#~ msgstr "दायाँ कंट्रोल"
+
+#~ msgid "Left Alt+Shift"
+#~ msgstr "बायां आल्ट+शिफ्ट "
+
+#~ msgid "Left Ctrl+Shift"
+#~ msgstr "बायां कंट्रोल+शिफ़्ट"
+
+#~ msgid "Right Ctrl+Shift"
+#~ msgstr "दायां कंट्रोल+शिफ़्ट"
+
+#~ msgid "Alt+Shift"
+#~ msgstr "आल्ट+शिफ्ट "
+
+#~ msgid "Ctrl+Shift"
+#~ msgstr "कंट्रोल+शिफ़्ट"
+
+#~ msgid "Alt+Ctrl"
+#~ msgstr "आल्ट+कंट्रोल"
+
+#~ msgid "Caps"
+#~ msgstr "कैप्स"
+
+#~ msgid "Shift+Caps"
+#~ msgstr "शिफ्ट + कैप्स"
+
+#~ msgid "Alt+Caps"
+#~ msgstr "आल्ट+कैप्स"
+
+#~ msgid "_Region:"
+#~ msgstr "क्षेत्र: (_R)"
+
+#~ msgid "_City:"
+#~ msgstr "शहर: (_C)"
+
+#~ msgid "_Network Time"
+#~ msgstr "संजाल समय (_N)"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "समय एक घंटे आगे निर्धारित करें."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "वापस समय एक घंटे के सेट करें."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "समय एक मिनट आगे निर्धारित करें."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "समय एक मिनट पहले निर्धारित करें."
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "AM और PM के बीच स्विच करें."
+
+#~ msgid "AM/PM"
+#~ msgstr "पूर्वाह्न/अपराह्न"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "सामान्य"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Counterclockwise"
+#~ msgstr "घड़ी की विपरीत दिशा में"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "घड़ी की दिशा में"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 डिग्रीज़"
+
+#~ msgid "Monitor"
+#~ msgstr "मॉनीटर"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "प्राथमिक प्रदर्शन बदलने के लिए खींचें."
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "इसके गुणों को बदलने के लिए मॉनिटर का चयन करें; इसे उसके स्थान पर पुनर्व्यवस्थित करने के "
+#~ "लिए खींचें."
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "मॉनिटर विन्यास सहेज नहीं सका"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "प्रदर्शन पता नहीं कर सका"
+
+#~ msgid "_Resolution"
+#~ msgstr "रेज़ोल्यूशन (_R)"
+
+#~ msgid "R_otation"
+#~ msgstr "घूर्णन (_o)"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "मिरर प्रदर्शन (_M)"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "नोट: रिसॉल्यूशन विकल्पों को सीमित कर सकते हैं"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "प्रदर्शक का पता लगायें (_D)"
+
+#~ msgid "Install Updates"
+#~ msgstr "अद्यतन संस्थापित करें"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "सिस्टम अद्यतन"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "माउस वरीयताएँ"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Slow"
+#~ msgstr "धीमा"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~ msgctxt "mouse, speed"
+#~ msgid "Fast"
+#~ msgstr "तेज"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "फिंगर में अंतर्वस्तु चिपक जाती है (_o)"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-# gnome-session/logout.c:266
+#~ msgid "_Options…"
+#~ msgstr "विकल्प... (_O)"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "नयी सुविधा का उपयोग करने के लिए अंतरफलक का चयन करे"
+
+#~ msgid "C_reate…"
+#~ msgstr "बनाएँ…  (_r)"
+
+#~ msgid "_Interface"
+#~ msgstr "अंतरफलक (_I)"
+
+#~ msgid "_Default"
+#~ msgstr "तयशुदा (_D)"
+
+#~ msgid "Hidden"
+#~ msgstr "छुपा"
+
+#~ msgid "Visible"
+#~ msgstr "दृष्टिगोचर"
+
+#~ msgid "Name & Visibility"
+#~ msgstr " नाम & दृश्यता"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr "नियंत्रित करें कैसे आप स्क्रीन और नेटवर्क पर दिखाई देते हैं."
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "शीर्ष बार में पूरा नाम प्रदर्शित करें (_f)"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "लॉक स्क्रीन में पूरा नाम प्रदर्शित करें (_l)"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "गुप्त मोड (_S)"
+
+#~ msgid "Immediately"
+#~ msgstr "तत्काल"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#~ msgid "Share Public Folder"
+#~ msgstr "सार्वजनिक फ़ोल्डर साझा करें."
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "विश्वस्त युक्तियां के साथ केवल साझा करें"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "इस नेटवर्क पर मीडिया साझा करें "
+
+#~ msgid "Shared Folders"
+#~ msgstr "साझा फोल्डर"
+
+#~ msgid "column"
+#~ msgstr "स्तम्भ"
+
+#~ msgid "Remove Folder"
+#~ msgstr "फ़ोल्डर मिटाएँ"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "इस नेटवर्क पर सार्वजनिक फ़ोल्डर साझा करें "
+
+#~ msgid "Remote View"
+#~ msgstr "रिमोट दृश्य"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "सभी कनेक्शनों को स्वीकृत करें"
+
+#~ msgid "No shortcut set"
+#~ msgstr "कोई शार्टकट सेट नहीं है..."
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "सामान्य"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "उच्च/विलोम"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "आऩ स्क्रीन कुंजीपटल"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "सामान्य"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "बड़ा"
+
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "कैप्स और न्यूम लॉक पर बीप"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "चालू या बंद करें:"
+
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "छोटा-बड़ा करें"
+
+#~ msgid "Zoom in:"
+#~ msgstr "बड़ा करें:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "छोटा करें:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "बंद अनुशीर्षक"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "भाषण और ध्वनियों की शाब्दिक वर्णन प्रदर्शित करें"
+
+#~ msgid "On Screen Keyboard"
+#~ msgstr "ऑनस्क्रीन कुंजीपटल"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Short"
+#~ msgstr "छोटा"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Long"
+#~ msgstr "लंबा"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "जब कुंजी दबाएँ तो बीप बजाएँ"
+
+#~ msgid "pressed"
+#~ msgstr "दबाया गया"
+
+#~ msgid "accepted"
+#~ msgstr "स्वीकृत"
+
+#~ msgid "rejected"
+#~ msgstr "अस्वीकृत"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "स्वीकृति विलंब: (_e)"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "कुंजीपैड के प्रयोग से प्वाइंटर नियंत्रित किया जा सकता है"
+
+#~ msgid "Video Mouse"
+#~ msgstr "वीडियो माउस"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "वीडियो कैमरा का उपयोग से संकेतक नियंत्रण."
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Small"
+#~ msgstr "छोटा"
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Large"
+#~ msgstr "विशाल"
+
+#~ msgid "Add account"
+#~ msgstr "खाता जोड़ें"
+
+#~ msgid "_Local Account"
+#~ msgstr "स्थानीय खाता (_L)"
+
+#~ msgid "_Login Name"
+#~ msgstr "लॉगिन नाम (_L)"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "संकेत: एंटरप्राइज डोमेन नाम या रियल्म नाम"
+
+#~ msgid "C_ontinue"
+#~ msgstr "जारी रखें (_o)"
+
+#~ msgid "Previous Week"
+#~ msgstr "पिछला सप्ताह "
+
+#~ msgid "Next Week"
+#~ msgstr "अगले सप्ताह"
+
+#~ msgid "Next week"
+#~ msgstr "अगला सप्ताह"
+
+#~ msgid "Log in without a password"
+#~ msgstr "कूटशब्द के बिना में लॉग इन करें"
+
+#~ msgid "Disable this account"
+#~ msgstr "इस खाते को अक्षम करें"
+
+#~ msgid "Enable this account"
+#~ msgstr "खाता सक्रिय करें"
+
+#~ msgid "Generate a password"
+#~ msgstr "कूटशब्द उत्पन्न करें"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/logout.c:266
+#~ msgid "_Action"
+#~ msgstr "क्रिया (_A)"
+
+#~ msgid "_Show password"
+#~ msgstr "कूटशब्द दिखाएं (_S)"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "How to choose a strong password"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "इसके लिए फोटो बदलें:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr "तस्वीर चुनें जो इस खाते के लिए लॉगिन स्क्रीन पर दिखाया जाएगा."
+
+#~ msgid "Gallery"
+#~ msgstr "दीर्घा"
+
+#~ msgid "Take a photograph"
+#~ msgstr "एक चित्र लें"
+
+#~ msgid "Browse"
+#~ msgstr "ब्राउज़"
+
+#~ msgid "Photograph"
+#~ msgstr "फोटोग्राफ"
+
+#~ msgid "Account Information"
+#~ msgstr "खाता जानकारी"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "काफी छोटा"
+
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "पर्याप्त अच्छा नहीं"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "कमजोर"
+
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "साफ"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "अच्छा"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "मजबूत"
+
+#~ msgid "_Generate a password"
+#~ msgstr "एक कूटशब्द बनाएँ (_G)"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "आपको नया पासवर्ड फिर टाइप करना होगा"
+
+#~ msgid "The new password is not strong enough"
+#~ msgstr "नया पासवर्ड पर्याप्त मजबूत नहीं है"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "आप को कूटशब्द की पुष्टि करने की आवश्यकता है"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "आप अपने मौजूदा कूटशब्द दर्ज करने की आवश्यकता है"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "कूटशब्द गलत था"
+
+#~ msgid "Wrong password"
+#~ msgstr "गलत पासवर्ड"
+
+#~ msgid "Switch Modes"
+#~ msgstr "स्विच मोड"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/logout.c:266
+#~ msgid "Action"
+#~ msgstr "कार्य"
+
+#~ msgid "Right Alt+Shift"
+#~ msgstr "दायां आल्ट+शिफ्ट "
+
+#~ msgid "Left+Right Shift"
+#~ msgstr "दायां + बायां शिफ्ट "
+
+#~ msgid "Left+Right Ctrl"
+#~ msgstr "दायां + बायां कंट्रोल"
+
+#~ msgid "Ctrl+Caps"
+#~ msgstr "कंट्रोल+कैप्स"
+
+#~ msgid "Estimated battery capacity: %s"
+#~ msgstr "अनुमानित बैटरी की क्षमता: %s"
+
+#~ msgid "blablabla"
+#~ msgstr "blablabla"
+
+#~ msgid ""
+#~ "Address\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "पता\n"
+#~ "अनुभाग\n"
+#~ "यहाँ\n"
+#~ "जाता है"
+
+#~ msgid ""
+#~ "DNS\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "DNS\n"
+#~ "अनुभाग\n"
+#~ "यहाँ\n"
+#~ "जाता है"
+
+#~ msgid ""
+#~ "Routes\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "मार्ग\n"
+#~ "अनुभाग\n"
+#~ "यहाँ\n"
+#~ "जाता है"
+
+#~ msgid "00:24:16:31:8G:7A"
+#~ msgstr "00:24:16:31:8G:7A"
+
+#~ msgid "Change the background"
+#~ msgstr "पृष्ठभूमि बदलें"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "ब्लूटूथ सेटिंग विन्यस्त करें"
+
+#~ msgid "Browse Files..."
+#~ msgstr "फाइल ब्रॉउज करें..."
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "ब्लूटूथ"
+
+#~ msgid "Create virtual device"
+#~ msgstr "वर्चुअल मशीन बनाएँ"
+
+#~ msgid "Available Profiles for Displays"
+#~ msgstr "प्रदर्शन के लिए उपलब्ध प्रोफाइल"
+
+#~ msgid "Available Profiles for Scanners"
+#~ msgstr "स्कैनर्स के लिए उपलब्ध प्रोफाइल"
+
+#~ msgid "Available Profiles for Printers"
+#~ msgstr "प्रिंटर्स के लिए उपलब्ध प्रोफाइल"
+
+#~ msgid "Available Profiles for Cameras"
+#~ msgstr "कैमरे के लिए उपलब्ध प्रोफाइल"
+
+#~ msgid "Available Profiles for Webcams"
+#~ msgstr "वेबकैम के लिए उपलब्ध प्रोफाइल"
+
+#~ msgid "%i year"
+#~ msgid_plural "%i years"
+#~ msgstr[0] "%i साल"
+#~ msgstr[1] "%i साल"
+
+#~ msgid "%i month"
+#~ msgid_plural "%i months"
+#~ msgstr[0] "%i माह"
+#~ msgstr[1] "%i माह"
+
+#~ msgid "%i week"
+#~ msgid_plural "%i weeks"
+#~ msgstr[0] "%i सप्ताह"
+#~ msgstr[1] "%i सप्ताह"
+
+#~ msgid "Less than 1 week"
+#~ msgstr "कम से कम 1 सप्ताह"
+
+#~ msgid "This device is not color managed."
+#~ msgstr "इस उपकरण में प्रबंधित रंग नहीं है."
+
+#~ msgid "This device is using manufacturing calibrated data."
+#~ msgstr "कैलिब्रेटेड डेटा का प्रयोग करके इस युक्ति का निर्माण हुआ है."
+
+#~ msgid ""
+#~ "This device does not have a profile suitable for whole-screen color "
+#~ "correction."
+#~ msgstr "इस युक्ति के लिए कोई उपयुक्त प्रोफाइल पूर्ण स्क्रीन रंग सुधार के लिए नहीं है."
+
+#~ msgid "Not specified"
+#~ msgstr "उल्लेखित नहीं"
+
+#~ msgid "No devices supporting color management detected"
+#~ msgstr "कोई रंग प्रबंधन समर्थन उपकरणों नहीं मिला"
+
+#~ msgid "Add device"
+#~ msgstr "युक्ति जोड़ें"
+
+#~ msgid "Add a virtual device"
+#~ msgstr "वर्चुअल युक्ति जोड़ें"
+
+#~ msgid "Remove a device"
+#~ msgstr "युक्ति हटायें"
+
+#~ msgid "Color management settings"
+#~ msgstr "रंग प्रबंधन सेटिंग्स"
+
+#~ msgid "English"
+#~ msgstr "अंग्रेज़ी"
+
+#~ msgid "British English"
+#~ msgstr "ब्रिटिश अंग्रेजी"
+
+#~ msgid "German"
+#~ msgstr "जर्मन"
+
+#~ msgid "French"
+#~ msgstr "फ्रेंच"
+
+#~ msgid "Spanish"
+#~ msgstr "स्पानिश"
+
+#~ msgid "Chinese (simplified)"
+#~ msgstr "चीनी (सरल))"
+
+#~ msgid "Russian"
+#~ msgstr "रूसी"
+
+#~ msgid "Arabic"
+#~ msgstr "अरबी"
+
+#~ msgid "Unspecified"
+#~ msgstr "अविशिष्ट"
+
+#~ msgid "Select a language"
+#~ msgstr "भाषा चुनें"
+
+#~ msgid "_Select"
+#~ msgstr "चुनें (_S)"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "दिनांक और समय वरीयताओं पैनल"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "VESA: %s"
+#~ msgstr "VESA: %s"
+
+#~ msgid "Unknown model"
+#~ msgstr "अज्ञात मॉडल"
+
+#~ msgid "The next login will attempt to use the standard experience."
+#~ msgstr "अगले लॉगिन मानक अनुभव का उपयोग करने का प्रयास करेंगे."
+
+#~ msgid ""
+#~ "The next login will use the fallback mode intended for unsupported "
+#~ "graphics hardware."
+#~ msgstr ""
+#~ "असमर्थित ग्राफिक्स हार्डवेयर का प्रयोजन रखने के लिए अगले लॉगिन फॉलबैक मोड का उपयोग "
+#~ "करेगा."
+
+#~ msgctxt "Experience"
+#~ msgid "Fallback"
+#~ msgstr "फालबैक"
+
+#~ msgid "System Information"
+#~ msgstr "तंत्र जानकारी"
+
+#~ msgid "OS type"
+#~ msgstr "OS प्रकार"
+
+#~ msgid "_Other Media..."
+#~ msgstr "अन्य मीडिया ... (_O)"
+
+#~ msgid "Experience"
+#~ msgstr "अनुभव"
+
+#~ msgid "Forced _Fallback Mode"
+#~ msgstr "फोर्स्ड फ़ॉलबैक मोड  (_F)"
+
+#~ msgid "Change keyboard settings"
+#~ msgstr "कुंजीपटल सेटिंग्स बदलें"
+
+#~ msgid "Layout Settings"
+#~ msgstr "लेआउट सेटिंग्स"
+
+#~ msgid "Set your mouse and touchpad preferences"
+#~ msgstr "अपने माउस और टचपैड की वरीयताएँ नियत करें"
+
+#~ msgid "Network settings"
+#~ msgstr "नेटवर्क सेटिंग्स"
+
+#~ msgid "Network;Wireless;IP;LAN;Proxy;"
+#~ msgstr "नेटवर्क;वायरलेस;आईपी;लैन;प्रॉक्सी;"
+
+#~ msgid "Out of range"
+#~ msgstr "सीमा से बाहर"
+
+#~ msgid "_Options..."
+#~ msgstr "विकल्प... (_O)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~ msgid "C_reate..."
+#~ msgstr "बनाएँ (_r)..."
+
+#~ msgid "Wireless Hotspot"
+#~ msgstr "बेतार हॉटस्पॉट"
+
+#~ msgid "Wireless"
+#~ msgstr "बेतार"
+
+#~| msgid "Disconnected"
+#~ msgid "_Disconnect"
+#~ msgstr "डिस्कनेक्ट करें (_D)..."
+
+#~ msgid "_Connect"
+#~ msgstr "कनेक्ट करें (_C)"
+
+# libgnomeprintui/gpaui/add-printer-dialog.c:83
+# libgnomeprintui/gpaui/config-dialog.c:83
+#~ msgid "Mesh"
+#~ msgstr "मेश"
+
+#~ msgid "Disconnected"
+#~ msgstr "डिस्कनेक्टेड"
+
+#~ msgid "Carrier/link changed"
+#~ msgstr "कैरियर/कड़ी परिवर्तित"
+
+#~ msgid "Expired credentials. Please log in again."
+#~ msgstr "क्रेडेंशियल की समय सीमा समाप्त.कृपया फिर से प्रवेश करें."
+
+#~ msgid "_Log In"
+#~ msgstr "लॉग इन (_L) "
+
+#~ msgid "Manage online accounts"
+#~ msgstr "ऑनलाइन खातों का प्रबंधन"
+
+#~ msgid "Caution low battery, %s remaining"
+#~ msgstr "सावधान कम बैटरी, %s शेष"
+
+#~ msgid "Using battery power - %s remaining"
+#~ msgstr "बैटरी शक्ति का उपयोग - %s शेष"
+
+#~ msgid "Using battery power"
+#~ msgstr "बैटरी शक्ति का उपयोग"
+
+#~ msgid "Charging - fully charged"
+#~ msgstr "चार्जिंग - पूरी तरह चार्ज्ड"
+
+#~ msgid "Using UPS power - %s remaining"
+#~ msgstr "यूपीएस शक्ति का उपयोग - %s शेष"
+
+#~ msgid "Caution low UPS"
+#~ msgstr "सावधान कम यूपीएस"
+
+#~ msgid "Using UPS power"
+#~ msgstr "यूपीएस शक्ति का उपयोग"
+
+#~ msgid "Your secondary battery is fully charged"
+#~ msgstr "आपका माध्यमिक बैटरी पूरी तरह चार्ज है"
+
+#~ msgid "Your secondary battery is empty"
+#~ msgstr "आपका माध्यमिक बैटरी खाली है"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging - fully charged"
+#~ msgstr "चार्जिंग - पूरी तरह चार्ज्ड"
+
+#~ msgid ""
+#~ "Tip: <a href=\"screen\">screen brightness</a> affects how much power is "
+#~ "used"
+#~ msgstr ""
+#~ "संकेत: <a href=\"screen\">screen brightness</a> प्रभावित करता है कि कितनी "
+#~ "शक्ति प्रयोग होनी है"
+
+#~ msgid "Power management settings"
+#~ msgstr "बिजली प्रबंधन सेटिंग्स"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#~ msgid "Don't suspend"
+#~ msgstr "निलंबित नहीं"
+
+#~ msgid "Suspend when inactive for"
+#~ msgstr "निलंबित करें जब इसके लिए निष्क्रिय है"
+
+#~ msgctxt "printer state"
+#~ msgid "Paused"
+#~ msgstr "ठहरा"
+
+#~ msgid "Change printer settings"
+#~ msgstr "प्रिंटर सेटिंग्स बदलें"
+
+#~ msgid "Manufacturers"
+#~ msgstr "उत्पादक:"
+
+#~ msgid "Drivers"
+#~ msgstr "ड्राइवर"
+
+#~ msgid "_Show"
+#~ msgstr "दिखाएँ (_S)"
+
+#~ msgid "Change your region and language settings"
+#~ msgstr "अपने क्षेत्र और भाषा सेटिंग्स को बदलें"
+
+#~ msgid "Choose an input source"
+#~ msgstr "इनपुट स्रोत चुनें"
+
+#~ msgid "Select an input source to add"
+#~ msgstr "जोड़ने के लिए इनपुट स्रोत का चुनें"
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings."
+#~ msgstr ""
+#~ "लॉगिन स्क्रीन, तंत्र खातों और नई उपयोगकर्ता खातों सिस्टम-विस्तारित क्षेत्र और भाषा "
+#~ "सेटिंग्स का उपयोग करें."
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings. You may change the system settings to "
+#~ "match yours."
+#~ msgstr ""
+#~ "लॉगिन स्क्रीन, तंत्र खातों और नई उपयोगकर्ता खातों सिस्टम-विस्तारित क्षेत्र और भाषा "
+#~ "सेटिंग्स का उपयोग करें. आप अपने से मेल करने के लिए तंत्र सेटिंग को बदल सकते है"
+
+#~ msgid "Copy Settings"
+#~ msgstr "सेटिंग की नक़ल लें"
+
+#~ msgid "Copy Settings..."
+#~ msgstr "सेटिंग की नक़ल लें..."
+
+#~ msgid "Region and Language"
+#~ msgstr "क्षेत्र और भाषा"
+
+#~ msgid ""
+#~ "Select a display language (change will be applied next time you log in)"
+#~ msgstr "प्रदर्शन भाषा चुनें (अगली बार जब आप लॉगइन करेगे तब परिवर्तन लागु होगा)"
+
+#~ msgid "Add Language"
+#~ msgstr "भाषा जोड़ें"
+
+#~ msgid "Remove Language"
+#~ msgstr "भाषा हटाएँ"
+
+#~ msgid "Install languages..."
+#~ msgstr "भाषा संस्थापित करें..."
+
+#~ msgid "Select a region (change will be applied the next time you log in)"
+#~ msgstr "क्षेत्र चुनें (अगली बार जब आप लॉगइन करेगे तब परिवर्तन लागु होगा)"
+
+#~ msgid "Add Region"
+#~ msgstr "क्षेत्र जोड़ें"
+
+#~ msgid "Currency"
+#~ msgstr "मुद्रा"
+
+#~ msgid "Examples"
+#~ msgstr "उदाहरण"
+
+#~| msgid "Select an input source to add"
+#~ msgid "Select keyboards or other input sources"
+#~ msgstr "कुंजीपटल या अन्य इनपुट स्रोत को चुनें"
+
+#~| msgid "Input source:"
+#~ msgid "Remove Input Source"
+#~ msgstr "इनपुट स्रोत हटाएँ"
+
+#~| msgid "Input source:"
+#~ msgid "Move Input Source Up"
+#~ msgstr "इनपुट स्रोत ऊपर खिसकाएँ"
+
+#~| msgid "Keyboard Layout Options"
+#~ msgid "Show Keyboard Layout"
+#~ msgstr "कुंजीपटल लेआउट दिखाएँ"
+
+#~ msgid "Ctrl+Alt+Space"
+#~ msgstr "Ctrl+Alt+Space"
+
+#~ msgid "Shortcut Settings"
+#~ msgstr "शॉर्टकट सेटिंग्स"
+
+#~ msgid "Display language:"
+#~ msgstr "भाषा प्रदर्शित करें:"
+
+#~ msgid "Input source:"
+#~ msgstr "इनपुट स्रोत:"
+
+#~ msgid "Format:"
+#~ msgstr "प्रारूप:"
+
+#~ msgid "Your settings"
+#~ msgstr "आपकी सेटिंग्स"
+
+#~ msgid "System settings"
+#~ msgstr "तंत्र सेटिंग"
+
+#~ msgid "Brightness & Lock"
+#~ msgstr "चमकीलापन और लॉक"
+
+#~ msgid "Screen brightness and lock settings"
+#~ msgstr "स्क्रीन चमकीलापन और लॉक सेटिंग्स"
+
+#~ msgid "Brightness;Lock;Dim;Blank;Monitor;"
+#~ msgstr "चमकीलापन;लॉक;डिम;रिक्त;मॉनिटर;"
+
+#~ msgid "_Dim screen to save power"
+#~ msgstr "डिम स्क्रीन शक्ति सहेजने के लिए (_D)"
+
+#~ msgid "Don't lock when at home"
+#~ msgstr "लॉक न करे जब घर पर हो"
+
+#~ msgid "Locations..."
+#~ msgstr "स्थान..."
+
+#~ msgid "Lock"
+#~ msgstr "बंद करें"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "डिबगिंग कोड सक्रिय करें"
+
+#~ msgid "Version of this application"
+#~ msgstr "इस अनुप्रयोग का संस्करण"
+
+#~ msgid " — GNOME Volume Control Applet"
+#~ msgstr " — गनोम आवाज नियंत्रक एप्लेट"
+
+#~ msgid "Show desktop volume control"
+#~ msgstr "डेस्कटॉप आवाज नियंत्रण दिखाएँ"
+
+#~ msgid "Sound Output Volume"
+#~ msgstr "ध्वनि आउटपुट आवाज़"
+
+#~ msgid "Microphone Volume"
+#~ msgstr "माइक्रोफ़ोन वॉल्यूम"
+
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "ध्वनि वरीयता आरंभ करने में विफल: %s"
+
+#~ msgid "_Mute"
+#~ msgstr "मूक (_M)"
+
+#~ msgid "_Sound Preferences"
+#~ msgstr "ध्वनि वरीयता (_S)"
+
+#~ msgid "Muted"
+#~ msgstr "मौन"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "सार्वभौमिक पहुंच वरीयता"
+
+#~ msgid "Options..."
+#~ msgstr "विकल्प..."
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "Color"
+#~ msgstr "रंग"
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "None"
+#~ msgstr "कुछ नहीं"
+
+#  set the timeout value  label with correct value of timeout
+#~ msgid "User Accounts"
+#~ msgstr "उपयोक्ता खाता"
+
+#~ msgid "_Hint"
+#~ msgstr "संकेत (_H)"
+
+#~ msgid ""
+#~ "This hint may be displayed at the login screen.  It will be visible to "
+#~ "all users of this system.  Do <b>not</b> include the password here."
+#~ msgstr ""
+#~ "यह संकेत लॉगिन स्क्रीन पर प्रदर्शित किया जा सकता है. यह दृश्यमान हो जाएगा इस  "
+#~ "प्रणाली के सभी उपयोगकर्ताओं  के लिए.  यहाँ पासवर्ड शामिल </b>नहीं</b> करें."
+
+#~ msgid "Fair"
+#~ msgstr "ठीक-ठाक"
+
+#~ msgid "Browse for more pictures..."
+#~ msgstr "अधिक छवियाँ के लिए ब्राउज़ करें..."
+
+#~| msgid "A user with the username '%s' already exists"
+#~ msgid "No user with the name '%s' exists."
+#~ msgstr "'%s' नाम का कोई उपयोक्ता मौजूद नहीं."
+
+#~ msgid "This user does not exist."
+#~ msgstr "यह उपयोक्ता मौजूद नहीं है."
+
+#~ msgid "Set your Wacom tablet preferences"
+#~ msgstr "अपने Wacom टैबलेट वरीयताओं को सेट करें"
+
+#~ msgid "Map Buttons..."
+#~ msgstr "नक्शे बटन..."
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-# libgnomeui/gnome-app-helper.c:166
+#~ msgid "Calibrate..."
+#~ msgstr "कैलिब्रेट..."
+
+#~ msgid "- System Settings"
+#~ msgstr "- तंत्र सेटिंग्स"
+
+#~ msgid "Control Center"
+#~ msgstr "नियंत्रण केंद्र"
+
+#~ msgid "System Settings"
+#~ msgstr "तंत्र विन्यास"
+
+#  Create the file chooser dialog stuff here
+#~| msgid "Wallpapers"
+#~ msgid "Add wallpaper"
+#~ msgstr "वालपेपर जोड़ें"
+
+#  Create the file chooser dialog stuff here
+#~| msgid "Wallpapers"
+#~ msgid "Remove wallpaper"
+#~ msgstr "वालपेपर हटाएँ"
+
+#~ msgid "Swap colors"
+#~ msgstr "रंग आपस में बदलें"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "क्षैतिज ढाल"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "लंबवत झुकाव"
+
+#~ msgid "Solid Color"
+#~ msgstr "ठोस रंग"
+
+#~ msgid "Colors & Gradients"
+#~ msgstr "रंग & अनुपात"
+
+# #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
+# gnome-session/logout.c:266
+#~ msgid "Acti_on:"
+#~ msgstr "क्रिया: (_o)"
+
+#~| msgid "Take a photo..."
+#~ msgid "Take a screenshot"
+#~ msgstr "स्क्रीनशॉट लें"
+
+#~ msgid "Shortcut"
+#~ msgstr "शार्टकट"
+
+#~ msgid "_Right-handed"
+#~ msgstr "दाहिने हाथ से काम करने वाला (_R)"
+
+#~ msgid "_Left-handed"
+#~ msgstr "वाम-हस्त (_L)"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Control कुंजी दबाए जाने पर प्वाइंटर की स्थिति दिखाएँ (_o)"
+
+#~| msgid "_Acceleration:"
+#~ msgid "A_cceleration:"
+#~ msgstr "त्वरक: (_c)"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "संवेदनशीलता:  (_S)"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "खींचें और गिराएँ"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "देहलीज़:  (_e)"
+
+#~| msgid "Thr_eshold:"
+#~ msgid "Drag Threshold"
+#~ msgstr "ड्रैग थ्रेशोल्ड"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "दोहरा क्लिक टाइमआउट"
+
+#~ msgid "_Timeout:"
+#~ msgstr "टाइमआउट: (_T)"
+
+#~ msgid "To test your settings, try to double-click on the face."
+#~ msgstr "अपनी दोहरा क्लिक सेटिंग को जाँचने के लिए, चेहरे पर दोहरा क्लिक आजमाएँ."
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "टचपैड के साथ माउस क्लिक सक्रिय करें (_m)"
+
+#~ msgid "Scrolling"
+#~ msgstr "स्क्रॉल कर रहे"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
+# gtk/gtkinputdialog.c:238
+#~ msgid "_Disabled"
+#~ msgstr "निष्क्रिय (_D)"
+
+#~| msgid "Other..."
+#~ msgctxt "Wireless access point"
+#~ msgid "Other..."
+#~ msgstr "अन्य..."
+
+#~ msgid "Create the hotspot anyway?"
+#~ msgstr "कैसे भी हॉटस्पॉट बनाएँ?"
+
+#~ msgid "Disconnect from %s and create a new hotspot?"
+#~ msgstr "डिस्कनेक्ट करें %s से और नया हॉटस्पॉट बनायें?"
+
+#~ msgid "This is your only connection to the internet."
+#~ msgstr "यह आपका एकमात्र कनेक्शन इन्टरनेट से है."
+
+#~ msgid "Create _Hotspot"
+#~ msgstr "हॉटस्पॉट बनाएँ (_H)"
+
+#~ msgid "Subnet Mask"
+#~ msgstr "सबनेट मास्क"
+
+#~ msgid "_Network Name"
+#~ msgstr "संजाल नाम (_N)"
+
+#~ msgid "_Stop Hotspot..."
+#~ msgstr "हॉटस्पॉट रोकें... (_S)"
+
+# #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-# gtk/gtkinputdialog.c:238
+#~| msgid "Disabled"
+#~ msgid "Disable VPN"
+#~ msgstr "अक्षम VPN"
+
+#~| msgid "_HTTP Proxy"
+#~ msgid "HTTP Port"
+#~ msgstr "एचटीटीपी पोर्ट"
+
+#~| msgid "H_TTPS Proxy"
+#~ msgid "HTTPS Port"
+#~ msgstr "एचटीटीपीस पोर्ट"
+
+#~| msgid "_FTP Proxy"
+#~ msgid "FTP Port"
+#~ msgstr "एफटीपी पोर्ट"
+
+#~ msgid "To add a new account, first select the account type"
+#~ msgstr "नया खाता जोड़ने के लिए, पहले खाता प्रकार का चयन करें"
+
+#~| msgid "Add"
+#~ msgid "_Add..."
+#~ msgstr "जोड़ें... (_A)"
+
+#~| msgid "_Type:"
+#~ msgid "Tip:"
+#~ msgstr "नुस्ख़ा:"
+
+#~| msgid "Brightness"
+#~ msgid "Brightness Settings"
+#~ msgstr "चमकीलापन सेटिंग्स"
+
+#~ msgid "affect how much power is used"
+#~ msgstr "प्रभावित कितना शक्ति का इस्तेमाल किया है"
+
+#~ msgid "_Search by Address"
+#~ msgstr "पते द्वारा खोजें (_S)"
+
+#~ msgid ""
+#~ "FirewallD is not running. Network printer detection needs services mdns, "
+#~ "ipp, ipp-client and samba-client enabled on firewall."
+#~ msgstr ""
+#~ "FirewallD नहीं चल रहा है. संजाल प्रिंटर का पता लगाने में सुविधाएँ mdns, IPP, आईपीपी-"
+#~ "क्लाइंट और साम्बा-क्लाइंट की जरुरत है जो फायरवाल पर सक्षम है. "
+
+#~| msgid "Local"
+#~ msgctxt "printer type"
+#~ msgid "Local"
+#~ msgstr "स्थानीय"
+
+#~| msgid "Network"
+#~ msgctxt "printer type"
+#~ msgid "Network"
+#~ msgstr "संजाल"
+
+#~ msgid "Device types"
+#~ msgstr "उपकरण प्रकार"
+
+#~ msgid "Automatic configuration"
+#~ msgstr "स्वचालित विन्यास"
+
+#~ msgid "Opening firewall for mDNS connections"
+#~ msgstr "फ़ायरवॉल खोलें MDNS कनेक्शन के लिए "
+
+#~ msgid "Opening firewall for Samba connections"
+#~ msgstr "फ़ायरवॉल खोले सांबा कनेक्शन के लिए"
+
+#~ msgid "Opening firewall for IPP connections"
+#~ msgstr "फ़ायरवॉल खोलने के लिए आईपीपी कनेक्शन"
+
+#~| msgid "Back"
+#~ msgid "_Back"
+#~ msgstr "पीछे (_B)"
+
+#~ msgid "Allowed users"
+#~ msgstr "अनुमति प्राप्त उपयोक्ता"
+
+#~| msgid "Layout"
+#~ msgid "Add Layout"
+#~ msgstr "खाका जोड़ें"
+
+#~| msgid "Choose a Layout"
+#~ msgid "Remove Layout"
+#~ msgstr "खाका हटायें"
+
+#~| msgid "Preview"
+#~ msgid "Preview Layout"
+#~ msgstr "पूर्वावलोकन खाका"
+
+#~ msgid "New windows use the default layout"
+#~ msgstr "नई विंडोज डिफ़ॉल्ट खाका का उपयोग करें"
+
+#~ msgid "New windows use the previous window's layout"
+#~ msgstr "नए विंडोज़ पिछले विंडो खाका का उपयोग करें"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "कुंजीपटल लेआउट विकल्प संपादित करें और देखें"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "डिफ़ॉल्ट में रीसेट करें (_f)"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "मौजूदा कुंजीपटल खाका सेटिंग्स प्रतिस्थापित करें\n"
+#~ "डिफ़ॉल्ट सेटिंग्स के साथ"
+
+#~ msgid "Layouts"
+#~ msgstr "अभिन्यास"
+
+#~ msgid "Layout"
+#~ msgstr "अभिन्यास"
+
+#~ msgid "C_hoose a device to configure:"
+#~ msgstr "विन्यस्त करने के लिए कोई युक्ति चुनें: (_h)"
+
+#~ msgid "Dasher"
+#~ msgstr "डैशर"
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "Caribou"
+#~ msgstr "कैरिबू"
+
+#~ msgid "Change contrast:"
+#~ msgstr "कंट्रास्ट बदलें:"
+
+#~| msgid "Text size:"
+#~ msgid "_Text size:"
+#~ msgstr "पाठ आकार: (_T)"
+
+#~ msgid "Increase size:"
+#~ msgstr "आकार बढ़ाएँ:"
+
+#~ msgid "Decrease size:"
+#~ msgstr "आकार घटाएँ:"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Display"
+#~ msgstr "प्रदर्शित करें"
+
+#~ msgctxt "universal access, seeing"
+#~ msgid "Zoom"
+#~ msgstr "बड़ा-छोटा करें"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "विन्यास जांचने हेतु टाइप करें"
+
+#~| msgid "Screen"
+#~ msgid "1/2 Screen"
+#~ msgstr "1/2 स्क्रीन"
+
+#~| msgid "Screen"
+#~ msgid "3/4 Screen"
+#~ msgstr "3/4 स्क्रीन"
+
+#~ msgid "Create new account"
+#~ msgstr "नया खाता बनाएँ"
+
+#~ msgid "_Account Type"
+#~ msgstr "खाता प्रकार (_A)"
+
+# #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
+# libgnomeui/gnome-app-helper.c:166
+#~ msgid "Cr_eate"
+#~ msgstr "बनाएँ (_e)"
+
+#~ msgid "Choose a generated password"
+#~ msgstr "उत्पन्न किया कूटशब्द बदलें"
+
+#~| msgid "Account type"
+#~ msgid "Account _type"
+#~ msgstr "खाता प्रकार (_t)"
+
+#~ msgid "More choices..."
+#~ msgstr "अधिक पसंद..."
+
+#~ msgid "Wacom Graphics Tablet"
+#~ msgstr "Wacom आलेखी टेब्लेट"
+
+#~ msgid "Current network location"
+#~ msgstr "मौजूदा संजाल स्थान"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "अधिक पृष्ठभूमि URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "अधिक प्रसंग URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "अपने मौजूदा स्थान नाम में इसे सेट करें. यह उचित संजाल प्रॉक्सी विन्यास को निर्धारित करने "
+#~ "के लिए प्रयुक्त होता है."
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL जहाँ से अधिक डेस्कटॉप पृष्ठभूमि पाना है. यदि रिक्त स्ट्रिंग पर सेट किया जाता है कड़ी "
+#~ "प्रकट नहीं होगा."
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL जहाँ से अधिक डेस्कटॉप प्रसंग पाना है. यदि रिक्त स्ट्रिंग पर सेट किया जाता है कड़ी "
+#~ "प्रकट नहीं होगा."
+
+#~ msgid "Unlock"
+#~ msgstr "खोलें"
+
+#~ msgid "Locked"
+#~ msgstr "तालाबंद"
+
+#, fuzzy
+#~ msgid ""
+#~ "System policy prevents changes.\n"
+#~ "Contact your system administrator"
+#~ msgstr "मदद के लिए तंत्र प्रशासक से संपर्क करें."
+
+#~ msgid "Key"
+#~ msgstr "कुंजी"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "जी-कान्फ़ कुंजी जिसमें गुण संपादक संलग्न है"
+
+#~ msgid "Callback"
+#~ msgstr "कालबैक "
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "जब इस कुंजी का सम्बद्ध मूल्य बदलता है तो कालबैक जारी करें"
+
+#~ msgid "Change set"
+#~ msgstr "चेंज सेट"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr "लागू करने पर जी-कान्फ़ चेंज सेट जिसमें डेटा मिला हुआ है, जी-कान्फ़ क्लाइन्ट को भेजें."
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "विज़ेट कालबैक में परिवर्तन"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "जब डेटा जी-कान्फ़ से विज़ेट में बदला जाना हो तो कालबैक जारी करें"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "विज़ेट कालबैक से परिवर्तन"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "जब डेटा विज़ेट से जी-कान्फ़ में बदला जाना हो तो कालबैक जारी करें"
+
+#~ msgid "UI Control"
+#~ msgstr "यूआई नियंत्रण"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "आब्जेक्ट जो गुण नियंत्रण करते हैं (सामान्यतः एक विज़ेट)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "गुण संपादक ऑब्जेक्ट डेटा"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "निर्दिष्ट गुण संपादक द्वारा चाहा गया अनुकूलित डेटा"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "गुण संपादक डेटा मुक्त करते हैं कालबैक"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr "गुण संपादक ऑब्जेक्ट डेटा जब मुक्त करने हों तो कालबैक जारी किया जाए"
+
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "फ़ाइल '%s' ढूंढ नहीं सका. \n"
+#~ "कृपया सुनिश्चित करें कि यह मौज़ूद है, \n"
+#~ "फिर कोशिश करें या अन्य पृष्ठ भूमि छवि चुनें."
+
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "मुझे मालूम नहीं है कि फ़ाइल '%s' कैसे खोला जाता है. \n"
+#~ "संभवतः यह उस प्रकार का छवि है \n"
+#~ " जो अभी समर्थित नहीं है.\n"
+#~ " कृपया बदले में कोई अन्य छवि चुनें."
+
+#~ msgid "Please select an image."
+#~ msgstr "कृपया कोई छवि चुनें."
+
+#~ msgid "24-Hour Time"
+#~ msgstr "24-घंटा समय"
+
+#~ msgid "Upside-down"
+#~ msgstr "उलटा नीचे"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "प्रदर्शन विन्यास लागू करने के दौरान सत्र बस नहीं पा सका"
+
+#~ msgid "%.1f KB"
+#~ msgstr "%.1f कि.बा."
+
+#~ msgid "%.1f MB"
+#~ msgstr "%.1f मे.बा."
+
+#~ msgid "%.1f GB"
+#~ msgstr "%.1f गी.बा."
+
+#~ msgid "%.1f TB"
+#~ msgstr "%.1f TB"
+
+#~ msgid "%.1f PB"
+#~ msgstr "%.1f PB"
+
+#~ msgid "%.1f EB"
+#~ msgstr "%.1f EB"
+
+#~ msgid "System Info"
+#~ msgstr "तंत्र जानकारी"
+
+#~ msgid "Photos"
+#~ msgstr "फोटो"
+
+#~ msgid "Updates Available"
+#~ msgstr "अद्यतन उपलब्ध"
+
+#~ msgid "Toggle contrast"
+#~ msgstr "कंट्रास्ट टॉगल करें"
+
+#~ msgid "Toggle magnifier"
+#~ msgstr "आवर्धक टॉगल करें"
+
+#~ msgid "Accelerator key"
+#~ msgstr "त्वरक कुंजी"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "त्वरक परिवर्धक"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "त्वरक कुंजीकोड"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "त्वरक प्रकार"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "नए शॉर्टकट सहेजने में त्रुटि"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "कई मनपसंद शॉर्टकट"
+
+#~ msgid "---"
+#~ msgstr "---"
+
+#, fuzzy
+#~ msgid "Use default layout in new windows"
+#~ msgstr "प्रत्येक विंडो हेतु पृथक समूह (_l)"
+
+#~ msgid "Speed"
+#~ msgstr "गति"
+
+#~ msgid "Battery discharging"
+#~ msgstr "बैटरी डिसचार्जिंग"
+
+#~ msgid "%s until charged (%.0lf%%)"
+#~ msgstr "%s तक चार्ज (%.0lf%%)"
+
+#~ msgid "%s until empty (%.0lf%%)"
+#~ msgstr "%s तक रिक्त (%.0lf%%)"
+
+#~ msgid "%.0lf%% charged"
+#~ msgstr "%.0lf%% चार्ज"
+
+#~ msgid "Ask me"
+#~ msgstr "मुझसे पूछें"
+
+#~ msgid "On AC power:"
+#~ msgstr "एसी पावर पर:"
+
+#~ msgid "Shutdown"
+#~ msgstr "बंद करें"
+
+#~ msgid "Mute"
+#~ msgstr "मौन"
+
+#~ msgid "Keyboard;Mouse;a11y;Accessibility;"
+#~ msgstr "Keyboard;Mouse;a11y;Accessibility;"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">High/Inverse</span>"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">उच्च</span>"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">निम्न</span>"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">सामान्य</span>"

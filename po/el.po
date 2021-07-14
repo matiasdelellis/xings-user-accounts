@@ -1,0 +1,6107 @@
+# Greek translation of GNOME Control Center
+# Copyright (C) 2000 ~ 2010, Free Software Foundation, Inc.
+# For screensaver, picked: profilaji o8onis -simos.
+# spyros: initial translation, around 300 messages.
+# Nikos:   one more review 6Sep2003
+# kostas: 15 feb 2004, update
+# Nikos: 30May2004, some fixes.
+# Nikos: 31Jul2004, some fixes.
+# Nikos 17Sep2004, some fixes.
+# simos: 277 messages, 19Aug2000, (24 fuzzy, 40 untranslated).
+# simos: 358 messages, 05Dec2000, updated translation.
+# :  64 messages, 01Aug2002, due to enhancements in application.
+# nikos: 266 messages, 05Aug2002, updated translation.
+# t_p_r: 266 messages, 05Aug2002, reviewed translation.
+# simos: 329 messages, 06Aug2002, updated translation.
+# kostas: 461 messages, 18Oct2002, updated and completed translation.
+# kostas: 535 messages, 10Dec2002, reviewed and updated translation for Gnome 2.1x.
+# kostas: 533 messages, 06Jan2003, one more update.
+# kostas: 537 messages, 26Jan2003, one more update.
+# kostas:  650 messages, 22Jul2003, one more update.
+# kostas:  655 messages, 27Jul2003, one more update.
+# kostas:  674 messages, 10Aug2003, one more update.
+# Nikos:   review, 29Aug03.
+# kostas: 678 messagew,12Nov2003, updates and fixes.
+# kostas: 786 messagew,22Jan2004, updates and fixes.
+# Simos: 723 messages, 20Dec2004, fixes/updates.
+# Spiros Papadimitriou <spapadim+@cs.cmu.edu>, 2000.
+# Nikos Charonitakis <charosn@her.forthnet.gr>, 2002, 2003, 2004, 2005.
+# Τα πάντα ρει <ta_panta_rei@flashmail.com>, 2002.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2009.
+# Kostas Papadimas <pkst@gnome.org>, 2002,2003, 2004, 2005, 2006, 2007, 2008, 2010, 2011.
+# Theodore Dimitriadis <liakoni@gmail.com>, 2010.
+# Michael Kotsarinis <mk73628@gmail.com>, 2011.
+# Simos Xenitellis <simos@gnome.org>, 2000, 2001, 2002, 2004, 2006, 2011.
+# George Stefanakis <george.stefanakis@gmail.com>, 2011.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2012, 2013, 2014, 2015.
+# Efstathios Iosifidis <iosifidis@opensuse.org>, 2013, 2015, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-09-12 11:34+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "Όνομα _χρήστη"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Πλήρες όνομα"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Τυπικός"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Διαχειριστής"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Τύπος λογαριασμού"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Κωδικός πρόσβασης"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+"Να επιτρέπεται στον χρήστη ο ορισμός κωδικού πρόσβασης στην επόμενη σύν_δεση"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Καθο_ρισμός κωδικού πρόσβασης"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "Κω_δικός πρόσβασης"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Επιβεβαίωση"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Η εταιρική σύνδεση επιτρέπει σε έναν υπάρχοντα κεντρικά διαχειριζόμενο "
+"λογαριασμό χρήστη να χρησιμοποιηθεί σε αυτή τη συσκευή. Μπορείτε επίσης να "
+"χρησιμοποιήσετε τον λογαριασμό γι να έχετε πρόσβαση σε πόρους της εταιρείας "
+"στο διαδίκτυο."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Τομέας"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Πρέπει να είστε σε σύνδεση για να προσθέσετε εταιρικούς χρήστες."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Εταιρική σύνδεση"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Προσθήκη χρήστη"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Σύνδεση διαχειριστή τομέα"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Για να χρησιμοποιήσετε τις εταιρικές συνδέσεις, αυτός ο υπολογιστής πρέπει "
+"να είναι\n"
+"εγγεγραμμένος στον τομέα. Παρακαλούμε, πείτε τον διαχειριστή του δικτύου "
+"σας\n"
+"να πληκτρολογήσει εδώ τον κωδικό πρόσβασης του τομέα."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Ό_νομα διαχειριστή"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Κωδικός πρόσβασης διαχειριστή"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Αριστερός αντίχειρας"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Αριστερό μεσαίο δάκτυλο"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Αριστερός δείκτης"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Αριστερό μικρό δάκτυλο"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Δεξιός αντίχειρας"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Δεξιό μεσαίο δάκτυλο"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Δεξιός δείκτης"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Δεξιό μικρό δάκτυλο"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Ενεργοποίηση εισόδου με αποτύπωμα"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "Δεξιός _δείκτης"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "Α_ριστερός δείκτης"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "Ά_λλο δάχτυλο:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Το δακτυλικό σας αποτύπωμα αποθηκεύθηκε επιτυχώς. Θα μπορείτε πλέον να "
+"χρησιμοποιείτε τη συσκευή ανάγνωσης δακτυλικών αποτυπωμάτων για τη σύνδεσή "
+"σας."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Χρήστες"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Προσθέστε ή διαγράψτε χρήστες και αλλάξτε τον κωδικό πρόσβασης σας"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+"Σύνδεση;Όνομα;Δακτυλικό αποτύπωμα;Avatar;Λογότυπο;Πρόσωπο;Κωδικός πρόσβασης;"
+"Login;Name;Fingerprint;Logo;Face;Password;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Αλλαγή κωδικού πρόσβασης"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Ακύρωση"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Α_λλαγή"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Νέος κωδικός πρόσβασης"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Νέος κωδικός πρόσβασης"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Τρέχων _κωδικός πρόσβασης"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+"Να επιτρέπεται στον χρήστη να αλλάξει τον κωδικό πρόσβασης στην επόμενη "
+"σύνδεση"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Καθορισμός κωδικού πρόσβασης"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "Π_ροσθήκη χρήστη…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Επιλογές σύνδεσης"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "Α_υτόματη σύνδεση"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "Είσοδος με _δακτυλικό αποτύπωμα"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Εικονίδιο χρήστη"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Τελευταία σύνδεση"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Αφαίρεση λογαριασμού"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Άλλοι λογαριασμοί"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Αποτυχία διαγραφής χρήστη"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Αποτυχία ανάκλησης απομακρυσμένης διαχείρισης χρήστη"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Δεν μπορείτε να διαγράψετε τον δικό σας λογαριασμό."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s είναι ακόμη συνδεδεμένος"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Η διαγραφή ενός χρήστη ενώ είναι συνδεδεμένος μπορεί να αφήσει το σύστημα σε "
+"ασταθή κατάσταση."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Θέλετε να κρατήσετε τα αρχεία του %s;"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Είναι δυνατόν να διατηρηθεί ο προσωπικός κατάλογος, το αρχείο αλληλογραφίας "
+"και τα προσωρινά αρχεία μετά τη διαγραφή ενός λογαριασμού χρήστη."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Διαγραφή αρχείων"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "Δια_τήρηση αρχείων"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να ανακαλέσετε τον λογαριασμό της απομακρυσμένης "
+"διαχείρισης του %s;"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Διαγραφή"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Απενεργοποιημένος λογαριασμός"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Θα ορισθεί στην επόμενη σύνδεση"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Κανένας"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Συνδεμένος"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Αποτυχία επικοινωνίας με την υπηρεσία λογαριασμών"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+"Παρακαλούμε βεβαιωθείτε ότι το AccountService έχει εγκατασταθεί και είναι "
+"ενεργοποιημένο."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Για να κάνετε αλλαγές,\n"
+"κάντε κλικ στο εικονίδιο * πρώτα"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Δημιουργία νέου λογαριασμού χρήστη"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Για να δημιουργήσετε ένα λογαριασμό χρήστη,\n"
+"κάντε πρώτα κλικ στο εικονίδιο *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Διαγραφή του επιλεγμένου λογαριασμού χρήστη"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Για να διαγράψετε τον επιλεγμένο λογαριασμό χρήστη,\n"
+"κάντε πρώτα κλικ στο εικονίδιο *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Ο λογαριασμός μου"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Ο νέος κωδικός πρόσβασης πρέπει να είναι διαφορετικός από τον παλιό."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Προσπαθήστε να αλλάξετε μερικά γράμματα και αριθμούς."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Δοκιμάστε να αλλάξετε τον κωδικό πρόσβασης λίγο περισσότερο."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+"Ένας κωδικός πρόσβασης χωρίς το όνομα χρήστη πιθανόν να είναι πιο ισχυρός."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+"Προσπαθήστε να αποφύγετε τη χρήση του ονόματός σας στον κωδικό πρόσβασης."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+"Προσπαθήστε να αποφύγετε μερικές από τις λέξεις που συμπεριλαμβάνονται στον "
+"κωδικό πρόσβασης."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Προσπαθήστε να αποφύγετε συνηθισμένες λέξεις."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Προσπαθήστε να αποφύγετε αναδιάταξη υπαρχουσών λέξεων."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Προσπαθήστε να χρησιμοποιήσετε περισσότερους αριθμούς."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Προσπαθήστε να χρησιμοποιήσετε περισσότερα κεφαλαία γράμματα."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Προσπαθήστε να χρησιμοποιήσετε περισσότερα πεζά γράμματα."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+"Προσπαθήστε να χρησιμοποιήσετε περισσότερους ειδικούς χαρακτήρες, όπως "
+"σημεία στίξης."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+"Προσπαθήστε να χρησιμοποιήσετε έναν συνδυασμό γραμμάτων, αριθμών και σημείων "
+"στίξης."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Προσπαθήστε να αποφύγετε την επανάληψη του ίδιου χαρακτήρα."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Προσπαθήστε να αποφύγετε την επανάληψη του ίδιου τύπου χαρακτήρα: χρειάζεστε "
+"την ανάμειξη γραμμάτων, αριθμών και σημείων στίξης."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Προσπαθήστε να αποφύγετε ακολουθίες όπως 1234 ή abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+"Προσπαθήστε να χρησιμοποιήσετε έναν συνδυασμό γραμμάτων, αριθμών και σημείων "
+"στίξης."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+"Αναμείξτε κεφαλαία και πεζά γράμματα και χρησιμοποιήστε έναν ή περισσότερους "
+"αριθμούς."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Καλός κωδικός πρόσβασης! Η προσθήκη περισσότερων γραμμάτων, αριθμών και "
+"σημείων στίξης θα τον κάνει ισχυρότερο."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Αποτυχία πιστοποίησης"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Ο κωδικός πρόσβασης είναι πολύ σύντομος"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Ο κωδικός πρόσβασης είναι πολύ απλός"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Ο παλιός και ο νέος κωδικός πρόσβασης μοιάζουν πολύ"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Ο νέος κωδικός πρόσβασης έχει χρησιμοποιηθεί πρόσφατα."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+"Ο νέος κωδικός πρόσβασης θα πρέπει να περιέχει αριθμητικούς ή ειδικούς "
+"χαρακτήρες"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Ο παλιός και ο νέος κωδικός πρόσβασης είναι οι ίδιοι"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Ο κωδικός πρόσβασης σας έχει αλλάξει από την αρχική σας πιστοποίηση!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Ο νέος κωδικός πρόσβασης δεν περιέχει αρκετά διαφορετικούς χαρακτήρες"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Πρέπει να ταιριάζει η διεύθυνση ιστού του παρόχου της εισόδου σας."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Αποτυχία προσθήκης λογαριασμού"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Δεν ταιριάζουν οι κωδικοί πρόσβασης."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Αποτυχία εγγραφής του λογαριασμού"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Κανένας υποστηριζόμενος τρόπος πιστοποίησης με αυτόν τον τομέα"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Αποτυχία ένταξης στο τομέα"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Αυτό το όνομα σύνδεσης δεν δούλεψε.\n"
+"Παρακαλούμε, προσπαθήστε ξανά."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Αυτός ο κωδικός πρόσβασης εισόδου δεν δούλεψε.\n"
+"Παρακαλούμε, προσπαθήστε ξανά."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Αποτυχία σύνδεσης στο τομέα"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Αδύνατη η εύρεση του τομέα. Μήπως τον γράψατε λαθεμένα;"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "Προσ_θήκη"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Τυπικός"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Διαχειριστής"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Δεν σας επιτρέπεται η πρόσβαση στη συσκευή. Επικοινωνήστε με το διαχειριστή "
+"του συστήματος."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Η συσκευή χρησιμοποιείται ήδη."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Συνέβη ένα εσωτερικό σφάλμα."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Απενεργοποιήθηκε"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Διαγραφή των καταχωρημένων αποτυπωμάτων;"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Διαγραφή αποτυπωμάτων"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Επιθυμείτε να διαγράψετε τα καταχωρημένα αποτυπώματα για να απενεργοποιηθεί "
+"η είσοδος με αποτύπωμα;"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Έγινε!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Δεν ήταν δυνατή η πρόσβαση στη συσκευή '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Αδυναμία εκκίνησης της καταγραφής αποτυπωμάτων στη συσκευή '%s'"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Δεν είναι δυνατή η πρόσβαση σε καμία συσκευή ανάγνωσης αποτυπωμάτων"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+"Παρακαλούμε επικοινωνήστε με το διαχειριστή του συστήματος για βοήθεια."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Για να ενεργοποιήσετε την είσοδο με αποτύπωμα, πρέπει να αποθηκεύσετε ένα "
+"δακτυλικό σας αποτύπωμα χρησιμοποιώντας τη συσκευή '%s'."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Αριστερός δείκτης"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Καταγραφή δακτυλικών αποτυπωμάτων"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Αυτήν την εβδομάδα"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Την τελευταία εβδομάδα"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Η συνεδρία τελείωσε"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Η συνεδρία άρχισε"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Δραστηριότητα λογαριασμού"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Παρακαλούμε επιλέξτε άλλον κωδικό πρόσβασης."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Παρακαλούμε πληκτρολογήστε ξανά τον τρέχων κωδικό πρόσβασής σας."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Ο κωδικός πρόσβασής σας δεν μπορούσε να αλλαχθεί"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Επιλογή"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Περιηγηθείτε για περισσότερες φωτογραφίες"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "Άν_οιγμα"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Απενεργοποίηση εικόνας"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Λήψη φωτογραφίας…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Περιηγηθείτε για περισσότερες φωτογραφίες…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Χρησιμοποιείται από %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Αδυναμία αυτόματης ένωσης αυτού του τύπου τομέα"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Δεν βρέθηκε τέτοιος τομέας ή realm"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Αδυναμία σύνδεσης ως %s στον τομέα %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Λάθος κωδικός πρόσβασης, παρακαλούμε προσπαθήστε ξανά"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Αδυναμία σύνδεσης στον τομέα %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+"Συγγνώμη, δεν είναι διαθέσιμο το όνομα χρήστη. Παρακαλούμε, δοκιμάστε κάποιο "
+"αλλο."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Το όνομα χρήστη είναι πολύ μεγάλο."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Το όνομα χρήστη δεν μπορεί να αρχίζει με '-'."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Το όνομα χρήστη πρέπει να αποτελείται μόνο από πεζά και κεφαλαία γράμματα "
+"από a-z, αριθμούς και οποιονδήποτε από τους χαρακτήρες:  . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Αυτό θα χρησιμοποιηθεί ως όνομα για τον προσωπικό σας φάκελο και δεν μπορεί "
+"να αλλαχθεί."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Σήμερα"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Χθες"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "Επα_λήθευση νέου κωδικού πρόσβασης"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr ""
+#~ "Προσπαθήστε να προσθέσετε περισσότερα γράμματα, αριθμούς και σύμβολα."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Ισχύς: Ασθενής"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Ισχύς: Χαμηλή"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Ισχύς: Μέτρια"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Ισχύς: Καλή"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Ισχύς: Υψηλή"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Δεν ταιριάζουν οι κωδικοί πρόσβασης."
+
+#~ msgid "_Background"
+#~ msgstr "Πα_ρασκήνιο"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Αλλάζει κατά τη διάρκεια της ημέρας"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Κλείδωμα οθόνης"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Παράθεση"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Εστίαση"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Κεντράρισμα"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Κλιμάκωση"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Συμπλήρωση"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Ανάπτυγμα"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Ταπετσαρίες"
+
+#~ msgid "Colors"
+#~ msgstr "Χρώματα"
+
+#~ msgid "Select Background"
+#~ msgstr "Επιλογή παρασκηνίου"
+
+#~ msgid "Pictures"
+#~ msgstr "Εικόνες"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Δεν βρέθηκαν εικόνες"
+
+#~ msgid "Home"
+#~ msgstr "Προσωπικός φάκελος"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Μπορείτε να προσθέσετε εικόνες στον φάκελο %s και θα εμφανιστούν εδώ"
+
+#~ msgid "_Select"
+#~ msgstr "Επι_λογή"
+
+#~ msgid "multiple sizes"
+#~ msgstr "πολλαπλά μεγέθη"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Επιφάνεια εργασίας χωρίς παρασκήνιο"
+
+#~ msgid "Current background"
+#~ msgstr "Τρέχον παρασκήνιο"
+
+#~ msgid "Back­ground"
+#~ msgstr "Παρασκήνιο"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Αλλάξτε την εικόνα παρασκηνίου με μια ταπετσαρία ή φωτογραφία"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Ταπετσαρία;Οθόνη;Επιφάνεια εργασίας;Wallpaper;Screen;Desktop;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Απενεργοποίηση της λειτουργίας αεροπλάνου"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Δεν βρέθηκε Bluetooth"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Συνδέστε έναν προσαρμογέα για να χρησιμοποιήσετε το Bluetooth."
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Το Bluetooth είναι ανενεργό"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr ""
+#~ "Ενεργοποιήστε για να συνδέσετε συσκευές και να κάνετε μεταφορές αρχείων."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Η λειτουργία αεροπλάνου είναι ενεργή"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr ""
+#~ "Το Bluetooth είναι απενεργοποιημένο όταν η λειτουργία αεροπλάνου είναι "
+#~ "ενεργή."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Η λειτουργία αεροπλάνου είναι ενεργή μέσω του διακόπτη"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr ""
+#~ "Απενεργοποιήστε τον διακόπτη λειτουργίας αεροπλάνου για να ενεργοποιήσετε "
+#~ "το Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Blue­tooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr ""
+#~ "Ενεργοποιήστε/Απενεργοποιήστε το Bluetooth και συνδεθείτε με τις συσκευές "
+#~ "σας"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "κοινή χρήση;κοινόχρηστο;bluetooth;μπλουτούθ;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Τοποθετήστε τη συσκευή βαθμονόμησης πάνω από το τετράγωνο και πατήστε "
+#~ "'Έναρξη'"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Μετακινήστε τη συσκευή βαθμονόμησής σας στη θέση βαθμονόμησης και πατήστε "
+#~ "'Συνέχεια'"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Μετακινήστε τη συσκευή βαθμονόμησής σας στην επιφάνεια και πατήστε "
+#~ "'Συνέχεια'"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Κλείστε το καπάκι του φορητού υπολογιστή"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Συνέβη ένα εσωτερικό σφάλμα που δεν μπόρεσε να ανακτηθεί."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Δεν εγκαταστάθηκαν τα απαιτούμενα εργαλεία για βαθμονόμηση."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Αδυναμία δημιουργίας του προφίλ."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Το λευκό σημείο προορισμού δεν ήταν διαθέσιμο."
+
+#~ msgid "Complete!"
+#~ msgstr "Ολοκληρώθηκε!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Αποτυχία βαθμονόμησης!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Μπορείτε να αφαιρέσετε τη συσκευή βαθμονόμησης."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Μην διακόπτετε τη συσκευή βαθμονόμησης ενώ δουλεύει"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Οθόνη φορητού υπολογιστή"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Ενσωματωμένη δικτυακή κάμερα"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "Οθόνη %s"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "Σαρωτής %s"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "Φωτογραφική μηχανή %s"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "Εκτυπωτής %s"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "Δικτυακή κάμερα %s"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Ενεργοποίηση της διαχείρισης χρωμάτων για %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Προβολή προφίλ χρώματος για %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Δεν έχει βαθμονομηθεί"
+
+#~ msgid "Default: "
+#~ msgstr "Προεπιλεγμένο: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Χρωματικός χώρος: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Δοκιμαστικό προφίλ: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Επιλογή αρχείου προφίλ ICC"
+
+#~ msgid "_Import"
+#~ msgstr "Ε_ισαγωγή"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Υποστηριζόμενα προφίλ ICC"
+
+#~ msgid "All files"
+#~ msgstr "Όλα τα αρχεία"
+
+#~ msgid "Screen"
+#~ msgstr "Οθόνη"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Αποτυχία αποστολής αρχείου: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Το προφίλ απεστάλη στο:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Γράψτε αυτή τη διεύθυνση."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Επανεκκίνηση αυτού του υπολογιστή και εκκίνηση του κανονικού λειτουργικού "
+#~ "σας συστήματος."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Πληκτρολογήστε τη διεύθυνση στον περιηγητή σας, για να κάνετε λήψη και "
+#~ "εγκατάσταση του προφίλ."
+
+#~ msgid "Save Profile"
+#~ msgstr "Αποθήκευση προφίλ"
+
+#~ msgid "_Save"
+#~ msgstr "_Αποθήκευση"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Δημιουργία προφίλ χρώματος για την επιλεγμένη συσκευή"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Δεν εντοπίστηκε το όργανο μέτρησης. Παρακαλούμε ελέγξτε αν είναι "
+#~ "ενεργοποιημένο και σωστά συνδεδεμένο."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Το όργανο μέτρησης δεν υποστηρίζει δημιουργία προφίλ εκτυπωτών."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Δεν υποστηρίζεται ο τύπος της συσκευής."
+
+#~ msgid "Standard Space"
+#~ msgstr "Κανονικός χώρος"
+
+#~ msgid "Test Profile"
+#~ msgstr "Δοκιμαστικό προφίλ"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Αυτόματο"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Χαμηλή ποιότητα"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Μεσαία ποιότητα"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Υψηλή ποιότητα"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Προεπιλεγμένο RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Προεπιλεγμένο CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Προεπιλεγμένo γκρίζο"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Τα εργοστασιακά δεδομένα βαθμονόμησης που παρέχονται από τον πωλητή"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Αδύνατη η διόρθωση προβολής πλήρους οθόνης με αυτό το προφίλ"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Αυτό το προφίλ μπορεί να μην είναι πια ακριβές"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Βαθμονόμηση οθόνης"
+
+#~ msgid "_Start"
+#~ msgstr "_Εκκίνηση"
+
+#~ msgid "_Resume"
+#~ msgstr "_Συνέχεια"
+
+#~ msgid "_Done"
+#~ msgstr "Έ_τοιμο"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Βαθμονόμηση οθόνης"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Η βαθμονόμηση θα παράξει ένα προφίλ που μπορείτε να χρησιμοποιήσετε για "
+#~ "να διαχειριστείτε το χρώμα της οθόνης σας. Όσο περισσότερο χρόνο "
+#~ "διαθέσετε στη βαθμονόμηση, τόσο καλύτερη ποιότητα χρωματικού προφίλ θα "
+#~ "πάρετε."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr ""
+#~ "Δεν θα μπορείτε να χρησιμοποιήσετε τον υπολογιστή σας όσο συμβαίνει η "
+#~ "βαθμονόμηση."
+
+#~ msgid "Quality"
+#~ msgstr "Ποιότητα"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Κατά προσέγγιση χρόνος"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Ποιότητα βαθμονόμησης"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr ""
+#~ "Επιλέξτε την επιθυμητή συσκευή αισθητήρα που θα χρησιμοποιήσετε για "
+#~ "βαθμονόμηση."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Συσκευή βαθμονόμησης"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Επιλέξτε τον τύπο οθόνης που είναι συνδεδεμένος."
+
+#~ msgid "Display Type"
+#~ msgstr "Τύπος οθόνης"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Επιλέξτε ένα λευκό σημείο προορισμού οθόνης. Οι περισσότερες οθόνες "
+#~ "πρέπει να βαθμονομηθούν σε φωτεινότητα D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Λευκό σημείο προφίλ"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Παρακαλούμε ορίστε την οθόνη σε μια φωτεινότητα που είναι τυπική για σας. "
+#~ "Η διαχείριση χρώματος θα είναι περισσότερο ακριβής σε αυτό το επίπεδο "
+#~ "φωτεινότητας."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Εναλλακτικά, μπορείτε να χρησιμοποιήσετε το χρησιμοποιούμενο επίπεδο "
+#~ "φωτεινότητας με ένα από τα άλλα προφίλ για αυτήν τη συσκευή."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Φωτεινότητα οθόνης"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Μπορείτε να χρησιμοποιήσετε ένα χρωματικό προφίλ σε διαφορετικούς "
+#~ "υπολογιστές, ή ακόμα να δημιουργήσετε προφίλ σε διαφορετικές συνθήκες "
+#~ "φωτισμού."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Όνομα προφίλ:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Όνομα προφίλ"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Το προφίλ δημιουργήθηκε με επιτυχία!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Αντιγραφή προφίλ"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Απαιτεί εγγράψιμα μέσα"
+
+#~ msgid "Upload profile"
+#~ msgstr "Αποστολή προφίλ"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Απαιτεί σύνδεση διαδικτύου"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Μπορεί να βρείτε αυτές τις οδηγίες χρήσης του προφίλ χρήσιμες σε "
+#~ "συστήματα <a href=\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> "
+#~ "και <a href=\"windows\">Microsoft Windows</a>."
+
+#~ msgid "Add profile"
+#~ msgstr "Προσθήκη προφίλ"
+
+#~ msgid "_Import File…"
+#~ msgstr "Ε_ισαγωγή αρχείου…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Ανιχνεύθηκαν προβλήματα. Το προφίλ μπορεί να μη λειτουργεί σωστά. <a href="
+#~ "\"\">Δείτε τις λεπτομέρειες.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Κάθε συσκευή χρειάζεται ένα ενημερωμένο προφίλ χρωμάτων για χρωματική "
+#~ "διαχείριση."
+
+#~ msgid "Learn more"
+#~ msgstr "Μάθετε περισσότερα"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Μάθετε περισσότερα για τη διαχείριση χρωμάτων"
+
+#~ msgid "_Set for all users"
+#~ msgstr "Ο_ρισμός για όλους τους χρήστες"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr ""
+#~ "Ορίστε αυτό το προφίλ για όλους τους χρήστες σε αυτόν τον υπολογιστή"
+
+#~ msgid "_Enable"
+#~ msgstr "_Ενεργοποίηση"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Προσθήκη προφίλ"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "Β_αθμονόμηση…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Βαθμονόμηση συσκευής"
+
+#~ msgid "_Remove profile"
+#~ msgstr "Α_φαίρεση προφίλ"
+
+#~ msgid "_View details"
+#~ msgstr "Προ_βολή λεπτομερειών"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Αδυναμία ανίχνευσης συσκευών που μπορούν να διαχειριστούν χρωματικά"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Προβολέας"
+
+#~ msgid "Plasma"
+#~ msgstr "Πλάσμα"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (πίσω φως CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (πίσω φως RGB LED)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (λευκό πίσω φως LED)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Ευρύ φάσμα LCD (πίσω φως CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Ευρύ φάσμα LCD (πίσω φως RGB LED)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Υψηλή"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 λεπτά"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Μεσαία"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 λεπτά"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Χαμηλή"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 λεπτά"
+
+#~ msgid "Native to display"
+#~ msgstr "Εγγενής εμφάνιση"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (εκτύπωση και δημοσίευση)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (φωτογραφία και γραφικά)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Χρώμα"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Βαθμονομήστε το χρώμα των συσκευών σας, όπως οθόνες, κάμερες ή εκτυπωτές"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr ""
+#~ "Χρώμα;ICC;Προφίλ;Βαθμονόμηση;Εκτυπωτής;Οθόνη;Color;Profile;Calibrate;"
+#~ "Printer;Display;"
+
+#~ msgid "Other…"
+#~ msgstr "Άλλη…"
+
+#~ msgid "More…"
+#~ msgstr "Περισσότερα…"
+
+#~ msgid "No languages found"
+#~ msgstr "Δε βρέθηκαν γλώσσες"
+
+#~ msgid "Language"
+#~ msgstr "Γλώσσα"
+
+#~ msgid "Day"
+#~ msgstr "Ημέρα"
+
+#~ msgid "Month"
+#~ msgstr "Μήνας"
+
+#~ msgid "Year"
+#~ msgstr "Έτος"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Ιανουάριος"
+
+#~ msgid "February"
+#~ msgstr "Φεβρουάριος"
+
+#~ msgid "March"
+#~ msgstr "Μάρτιος"
+
+#~ msgid "April"
+#~ msgstr "Απρίλιος"
+
+#~ msgid "May"
+#~ msgstr "Μάιος"
+
+#~ msgid "June"
+#~ msgstr "Ιούνιος"
+
+#~ msgid "July"
+#~ msgstr "Ιούλιος"
+
+#~ msgid "August"
+#~ msgstr "Αύγουστος"
+
+#~ msgid "September"
+#~ msgstr "Σεπτέμβριος"
+
+#~ msgid "October"
+#~ msgstr "Οκτώβριος"
+
+#~ msgid "November"
+#~ msgstr "Νοέμβριος"
+
+#~ msgid "December"
+#~ msgstr "Δεκέμβριος"
+
+#~ msgid "Date & Time"
+#~ msgstr "Ημερομηνία & ώρα"
+
+#~ msgid "Hour"
+#~ msgstr "Ώρα"
+
+#~ msgid "∶"
+#~ msgstr ":"
+
+#~ msgid "Minute"
+#~ msgstr "Λεπτό"
+
+#~ msgid "Time Zone"
+#~ msgstr "Ζώνη ώρας"
+
+#~ msgid "Search for a city"
+#~ msgstr "Αναζήτηση πόλης"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Αυτόματη _ημερομηνία και ώρα"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Απαιτείται πρόσβαση στο διαδίκτυο"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Αυτόματη _ζώνη ώρας"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Ημερομηνία & ώ_ρα"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Ζώ_νη ώρας"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Μορφή ώρας"
+
+#~ msgid "24-hour"
+#~ msgstr "24ωρο"
+
+#~ msgid "AM / PM"
+#~ msgstr "π.μ / μ.μ"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Αλλάξτε την ημερομηνία και ώρα, καθώς και τη ζώνης ώρας"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Ρολόι;Ζώνη ώρας;Τοποθεσία;Clock;Timezone;Location;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Αλλαγή ρυθμίσεων ώρας και ημερομηνίας του συστήματος"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr ""
+#~ "Πρέπει να γίνει πιστοποίηση για να αλλάξετε τις ρυθμίσεις ώρας ή "
+#~ "ημερομηνίας."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Κλειστό κάλυμμα"
+
+#~ msgid "Mirrored"
+#~ msgstr "Με κατοπτρισμό"
+
+#~ msgid "Primary"
+#~ msgstr "Πρωτεύον"
+
+#~ msgid "Off"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Secondary"
+#~ msgstr "Δευτερεύον"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Διάταξη συνδυασμένων οθονών"
+
+#~ msgid "_Apply"
+#~ msgstr "_Εφαρμογή"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Μεταφορά οθονών για αναδιάταξή τους"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Περιστροφή αριστερόστροφα κατά 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Περιστροφή κατά 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Περιστροφή δεξιόστροφα κατά 90°"
+
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Λόγος θέασης"
+
+#~ msgid "Resolution"
+#~ msgstr "Ανάλυση"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Προσαρμογή για τηλεόραση"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Ρυθμός ανανέωσης"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr ""
+#~ "Εμφάνιση της πάνω μπάρας και της επισκόπησης ενεργειών σε αυτήν την οθόνη"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Δευτερεύουσα οθόνη"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Σύνδεση αυτής της οθόνης με μια άλλη για τη δημιουργία ενός πρόσθετου "
+#~ "χώρου εργασίας"
+
+#~ msgid "Presentation"
+#~ msgstr "Παρουσίαση"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Εμφάνιση μόνο διαφανειών και μέσων"
+
+#~ msgid "Mirror"
+#~ msgstr "Καθρέφτης"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Εμφάνιση της υπάρχουσας προβολής και στις δύο οθόνες"
+
+#~ msgid "Turn Off"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Να μη χρησιμοποιηθεί αυτή η οθόνη"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Αδυναμία λήψης πληροφοριών οθόνης"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Διάταξη συνδυασμένων οθονών"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Οθόνες"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Επιλέξτε τον τρόπο χρήσης συνδεδεμένων οθονών και προβολέων"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr ""
+#~ "Πάνελ;Προβολέας;xrandr;Οθόνη;Ανάλυση;Ανανέωση;Παρακολούθηση;Panel;"
+#~ "Projector;Screen;Resolution;Refresh;Monitor;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bit (αναγνωριστικό δόμησης: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bit (αναγνωριστικό δόμησης: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bit"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bit"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Ερώτηση για την ενέργεια"
+
+#~ msgid "Do nothing"
+#~ msgstr "Καμία ενέργεια"
+
+#~ msgid "Open folder"
+#~ msgstr "Άνοιγμα φακέλου"
+
+#~ msgid "Other Media"
+#~ msgstr "Άλλα μέσα"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Επιλέξτε μια εφαρμογή για CD ήχου"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Επιλέξτε μια εφαρμογή για DVD βίντεο"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Επιλέξτε την εφαρμογή που θα εκτελείται, όταν θα συνδέεται ένας "
+#~ "αναπαραγωγέας μουσικής"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr ""
+#~ "Επιλέξτε την εφαρμογή που θα εκτελείται, όταν θα συνδέεται μια "
+#~ "φωτογραφική μηχανή"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Επιλέξτε μια εφαρμογή για τα CD λογισμικού"
+
+#~ msgid "audio DVD"
+#~ msgstr "DVD ήχου"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Κενό Blu-ray"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Κενό CD"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Κενό DVD"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Κενό HD DVD"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Δίσκος βίντεο Blu-ray"
+
+#~ msgid "e-book reader"
+#~ msgstr "Αναγνώστης ηλεκτρονικών βιβλίων"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "Δίσκος βίντεο HD DVD"
+
+#~ msgid "Picture CD"
+#~ msgstr "CD εικόνων"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Λογισμικό Windows"
+
+#~ msgid "Section"
+#~ msgstr "Ενότητα"
+
+#~ msgid "Overview"
+#~ msgstr "Επισκόπηση"
+
+#~ msgid "Default Applications"
+#~ msgstr "Προεπιλεγμένες εφαρμογές"
+
+#~ msgid "Removable Media"
+#~ msgstr "Αφαιρούμενα μέσα"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Έκδοση %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Λεπτομέρειες"
+
+#~ msgid "View information about your system"
+#~ msgstr "Δείτε πληροφορίες για το σύστημα σας"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "συσκευή;σύστημα;πληροφορίες;μνήμη;επεξεργαστής;έκδοση;προεπιλογή;εφαρμογή;"
+#~ "προτιμώμενη;cd;dvd;usb;ήχος;βίντεο;δίσκος;αφαιρέσιμος;μέσα;αυτόματη "
+#~ "εκτέλεση;device;system;information;memory;processor;version;default;"
+#~ "application;preferred;audio;video;disc;removable;media;autorun;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Επιλογή τρόπου διαχείρισης άλλων μέσων"
+
+#~ msgid "_Action:"
+#~ msgstr "_Ενέργεια:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Τύπος:"
+
+#~ msgid "Device name"
+#~ msgstr "Όνομα συσκευής"
+
+#~ msgid "Memory"
+#~ msgstr "Μνήμη"
+
+#~ msgid "Processor"
+#~ msgstr "Επεξεργαστής"
+
+#~ msgid "Base system"
+#~ msgstr "Βασικό σύστημα"
+
+#~ msgid "Disk"
+#~ msgstr "Δίσκος"
+
+#~ msgid "Calculating…"
+#~ msgstr "Υπολογισμός…"
+
+#~ msgid "Graphics"
+#~ msgstr "Γραφικά"
+
+#~ msgid "Virtualization"
+#~ msgstr "Εικονικοποίηση"
+
+#~ msgid "Check for updates"
+#~ msgstr "Έλεγχος για ενημερώσεις"
+
+#~ msgid "_Web"
+#~ msgstr "Ι_στός"
+
+#~ msgid "_Mail"
+#~ msgstr "Αλληλογρα_φία"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Ημερολόγιο"
+
+#~ msgid "M_usic"
+#~ msgstr "_Μουσική"
+
+#~ msgid "_Video"
+#~ msgstr "_Βίντεο"
+
+#~ msgid "_Photos"
+#~ msgstr "_Φωτογραφίες"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Επιλογή τρόπου διαχείρισης μέσων"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD ή_χου"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD βίντεο"
+
+#~ msgid "_Music player"
+#~ msgstr "_Αναπαραγωγέας μουσικής"
+
+#~ msgid "_Software"
+#~ msgstr "_Λογισμικό"
+
+#~ msgid "_Other Media…"
+#~ msgstr "Ά_λλα μέσα…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr ""
+#~ "_Να μη γίνεται ποτέ ερώτηση ή εκκίνηση προγραμμάτων κατά την εισαγωγή "
+#~ "πολυμέσων"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Ήχος και πολυμέσα"
+
+#~ msgid "Volume mute"
+#~ msgstr "Σίγαση έντασης"
+
+#~ msgid "Volume down"
+#~ msgstr "Μείωση έντασης"
+
+#~ msgid "Volume up"
+#~ msgstr "Αύξηση έντασης"
+
+#~ msgid "Launch media player"
+#~ msgstr "Εκκίνηση αναπαραγωγέα πολυμέσων"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Αναπαραγωγή (ή αναπαραγωγή/παύση)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Παύση αναπαραγωγής"
+
+#~ msgid "Stop playback"
+#~ msgstr "Διακοπή αναπαραγωγής"
+
+#~ msgid "Previous track"
+#~ msgstr "Προηγούμενο κομμάτι"
+
+#~ msgid "Next track"
+#~ msgstr "Επόμενο κομμάτι"
+
+#~ msgid "Eject"
+#~ msgstr "Εξαγωγή"
+
+#~ msgid "Typing"
+#~ msgstr "Πληκτρολόγηση"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Αλλαγή στην επόμενη πηγή εισόδου"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Αλλαγή στην προηγούμενη πηγή εισόδου"
+
+#~ msgid "Launchers"
+#~ msgstr "Εκκινητές"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Εκκίνηση περιηγητή βοήθειας"
+
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Εκκίνηση αριθμομηχανής"
+
+#~ msgid "Launch email client"
+#~ msgstr "Εκκίνηση πελάτη ηλ. αλληλογραφίας"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Εκκίνηση περιηγητή ιστοσελίδων"
+
+#~ msgid "Home folder"
+#~ msgstr "Προσωπικός φάκελος"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgid "Screenshots"
+#~ msgstr "Στιγμιότυπα οθόνης"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Αποθήκευσης στιγμιότυπου στις $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Αποθήκευση στιγμιότυπου ενός παραθύρου στις $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Αποθήκευση στιγμιότυπου μιας περιοχής στις $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Αντιγραφή ενός στιγμιότυπου στο πρόχειρο"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Αντιγραφή του στιγμιότυπου ενός παραθύρου στο πρόχειρο"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Αντιγραφή του στιγμιότυπου μιας περιοχής στο πρόχειρο"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Καταγραφή ενός σύντομου στιγμιοτύπου οθόνης"
+
+#~ msgid "System"
+#~ msgstr "Σύστημα"
+
+#~ msgid "Log out"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Lock screen"
+#~ msgstr "Κλείδωμα οθόνης"
+
+#~ msgid "Universal Access"
+#~ msgstr "Γενική πρόσβαση"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Εναλλαγή λειτουργίας εστίασης"
+
+#~ msgid "Zoom in"
+#~ msgstr "Μεγέθυνση"
+
+#~ msgid "Zoom out"
+#~ msgstr "Σμίκρυνση"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Εναλλαγή λειτουργίας αναγνώστη οθόνης"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Εναλλαγή λειτουργίας πληκτρολογίου οθόνης"
+
+#~ msgid "Increase text size"
+#~ msgstr "Μεγέθυνση του κειμένου"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Σμίκρυνση του κειμένου"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Εναλλαγή ενεργοποίησης υψηλής αντίθεσης"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Προσαρμοσμένες συντομεύσεις"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Εναλλακτικό πλήκτρο χαρακτήρων"
+
+#~ msgid "Compose Key"
+#~ msgstr "Σύνθετο πλήκτρο"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Τροποποιητές-μετάβαση μόνο στην επόμενη πηγή"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Επαναφορά της συντόμευσης στην προεπιλεγμένη της τιμή"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "Το %s χρησιμοποιείται ήδη για το <b>%s</b>. Αν το αντικαταστήσετε, θα "
+#~ "απενεργοποιηθεί το %s"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Ορισμός προσαρμοσμένης συντομεύσης"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Ορισμός συντόμευσης"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Πληκτρολογήστε μια νέα συντόμευση για αλλαγή του <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Προσθήκη προσαρμοσμένης συντόμευσης"
+
+#~ msgid "Key­board"
+#~ msgstr "Πληκτρολόγιο"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Δείτε και αλλάξτε τις συντομεύσεις πληκτρολογίου και ορίστε τις "
+#~ "προτιμήσεις πληκτρολόγησης"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Συντόμευση;Επανάληψη;Αναβόσβησμα;Shortcut;Repeat;Blink;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Δε βρέθηκε συντόμευση πληκτρολογίου"
+
+#~ msgid "Try a different search"
+#~ msgstr "Δοκιμάστε μια διαφορετική αναζήτηση"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Πατήστε Esc για ακύρωση"
+
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+#~ msgid "Command"
+#~ msgstr "Εντολή"
+
+#~ msgid "Shortcut"
+#~ msgstr "Συντόμευση"
+
+#~ msgid "Edit"
+#~ msgstr "Eπεξεργασία"
+
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#~ msgid "Remove"
+#~ msgstr "Αφαίρεση"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Πληκτρολογήστε τη νέα συντόμευση"
+
+#~ msgid "Add"
+#~ msgstr "Προσθήκη"
+
+#~ msgid "Replace"
+#~ msgstr "Αντικατάσταση"
+
+#~ msgid "Set"
+#~ msgstr "Ορισμός"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Δοκιμή των ρυθμίσεων σας"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Ποντίκι & επιφάνεια αφής"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Αλλάξτε την ευαισθησία του ποντικιού ή της επιφάνειας αφής και επιλέξτε "
+#~ "λειτουργία δεξιόχειρου ή αριστερόχειρου"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Πινακίδα αφής;Δείκτης;Πάτημα;Πληκτρολόγηση;Κουμπί;Ιχνοσφαίρα;κύλιση;"
+#~ "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Primary Button"
+#~ msgstr "Πρωτεύον κουμπί"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr ""
+#~ "Ορίζει τη σειρά των φυσικών πλήκτρων στα ποντίκια και τις πινακίδες αφής."
+
+#~ msgid "Left"
+#~ msgstr "Αριστερά"
+
+#~ msgid "Right"
+#~ msgstr "Δεξιά"
+
+#~ msgid "Mouse"
+#~ msgstr "Ποντίκι"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Ταχύτητα ποντικιού"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Διάρκεια διπλού κλικ"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Φυσική κύλιση"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Η κύλιση μετακινεί το περιεχόμενο, όχι την προβολή."
+
+#~ msgid "Touchpad"
+#~ msgstr "Επιφάνεια αφής"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Ταχύτητα πινακίδας αφής"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Χτύπημα για πάτημα"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Κύλιση με δύο δάκτυλα"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Κύλιση άκρου"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Δοκιμή κλικ, διπλού κλικ, και κύλισης"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Πέντε κλικ, ώρα του GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Διπλό κλικ, πρωτεύοντος κουμπιού"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Απλό κλικ, πρωτεύοντος κουμπιού"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Διπλό κλικ, μεσαίου κουμπιού"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Μονό κλικ, μεσαίου κουμπιού"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Διπλό κλικ, δευτερεύοντος κουμπιού"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Μονό κλικ, δευτερεύοντος κουμπιού"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Λειτουργία αερο_πλάνου"
+
+#~ msgid "Network proxy"
+#~ msgstr "Διαμεσολαβητής δικτύου"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Ωχ, κάτι πήγε στραβά. Παρακαλούμε επικοινωνήστε με τον πωλητή του "
+#~ "λογισμικού σας."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "Ο διαχειριστής δικτύου πρέπει να εκτελείται."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Ασφάλεια 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "σελίδα 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Α_νώνυμη ταυτότητα"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Εσωτερική _πιστοποίηση"
+
+#~ msgid "page 2"
+#~ msgstr "σελίδα 2"
+
+#~ msgid "Security"
+#~ msgstr "Ασφάλεια"
+
+#~ msgid "automatic"
+#~ msgstr "αυτόματο"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Προφίλ %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Εταιρική"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Καμία"
+
+#~ msgid "Never"
+#~ msgstr "Ποτέ"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i ημέρα πριν"
+#~ msgstr[1] "%i ημέρες πριν"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Καθόλου"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Ασθενές"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Μέτριο"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Καλό"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Εξαιρετικό"
+
+#~ msgid "Details"
+#~ msgstr "Λεπτομέρειες"
+
+#~ msgid "Identity"
+#~ msgstr "Ταυτότητα"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "Netmask"
+#~ msgstr "Μάσκα δικτύου"
+
+#~ msgid "Gateway"
+#~ msgstr "Πύλη δικτύου"
+
+#~ msgid "Delete Address"
+#~ msgstr "Διαγραφή διεύθυνσης"
+
+#~ msgid "Server"
+#~ msgstr "Διακομιστής"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Διαγραφή διακομιστή DNS"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Μετρικό"
+
+#~ msgid "Delete Route"
+#~ msgstr "Διαγραφή δρομολογητή"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Αυτόματα (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Χειροκίνητο"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Μόνο τοπική σύνδεση"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Πρόθεμα"
+
+#~ msgid "Automatic"
+#~ msgstr "Αυτόματο"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Αυτόματα, μόνο DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Επαναφορά"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "Κλειδί WEP 40/128-bit (δεκαεξαδικό ή ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "Συνθηματικό WEP 128-bit"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Δυναμικό WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "Προσωπικό WPA & WPA2"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "Εταιρικό WPA & WPA2"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Ισχύς σήματος"
+
+#~ msgid "Link speed"
+#~ msgstr "Ταχύτητα σύνδεσης"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "Διεύθυνση IPv4"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "Διεύθυνση IPv6"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Διεύθυνση υλικού"
+
+#~ msgid "Default Route"
+#~ msgstr "Προεπιλεγμένος δρομολογητής"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Τελευταία χρησιμοποιημένο"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Συνεστραμμένο ζεύγος (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Διεπαφή μονάδας συνημμένου (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Ανεξάρτητη διεπαφή μέσου (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "Ό_νομα"
+
+#~ msgid "_MAC Address"
+#~ msgstr "Διεύθυνση _MAC"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Κλωνοποιημένη διεύθυνση"
+
+#~ msgid "bytes"
+#~ msgstr "bytes"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Να είναι διαθέσιμο σε άλλους _χρήστες"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Α_υτόματη σύνδεση"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Ζώνη τείχους προστασίας"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Προεπιλογή"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Η ζώνη ορίζει το επίπεδο εμπιστοσύνης της σύνδεσης"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Διευθύνσεις"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Αυτόματο DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Διαδρομές"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Αυτόματες διαδρομές"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Χ_ρήση αυτής της σύνδεσης μόνο για πόρους του δικτύου της"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Αποτυχία ανοίγματος επεξεργαστή σύνδεσης"
+
+#~ msgid "New Profile"
+#~ msgstr "Νέο προφίλ"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Εισαγωγή από αρχείο…"
+
+#~ msgid "Add VPN"
+#~ msgstr "Προσθήκη VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Επαναφορά"
+
+#~ msgid "_Forget"
+#~ msgstr "_Παράλειψη"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Να γίνει επαναφορά των ρυθμίσεων αυτού του δικτύου, συμπεριλαμβανομένων "
+#~ "των κωδικών πρόσβασης, αλλά να αποθηκευθεί ως προτιμώμενο δίκτυο"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Αφαίρεση όλων των λεπτομερειών που σχετίζονται με αυτό το δίκτυο και μη "
+#~ "γίνει προσπάθεια αυτόματης σύνδεσης"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Ασ_φάλεια"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Αδυναμία εισαγωγής της σύνδεσης VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Αδύνατη η ανάγνωση του αρχείου '%s', ή το αρχείο δε διαθέτει "
+#~ "αναγνωρίσιμες πληροφορίες σύνδεσης VPN\n"
+#~ "\n"
+#~ "Σφάλμα: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Επιλογή αρχείου για εισαγωγή"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Υπάρχει ήδη ένα αρχείο με όνομα \"%s\"."
+
+#~ msgid "_Replace"
+#~ msgstr "_Αντικατάσταση"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Θέλετε να αντικαταστήσετε το %s με την σύνδεση VPN που αποθηκεύετε;"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Αδύνατη η εξαγωγή της σύνδεσης VPN"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Αδύνατη η εξαγωγή της σύνδεσης VPN '%s' στο %s.\n"
+#~ "\n"
+#~ "Σφάλμα: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Εξαγωγή σύνδεσης VPN"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Σφάλμα: αδυναμία φόρτωσης επεξεργαστή σύνδεσης VPN)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Το οικιακό μου δίκτυο"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Να είναι διαθέσιμο σε ά_λλους χρήστες"
+
+#~ msgid "Net­work"
+#~ msgstr "Δίκτυο"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Ελέξτε τον τρόπο σύνδεσης με το διαδίκτυο"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;δίκτυο;ασύρματο;διαμεσολαβητής;ευρυζωνικό;"
+
+#~ msgid "never"
+#~ msgstr "ποτέ"
+
+#~ msgid "today"
+#~ msgstr "σήμερα"
+
+#~ msgid "yesterday"
+#~ msgstr "χθες"
+
+#~ msgid "IP Address"
+#~ msgstr "Διεύθυνση IP"
+
+#~ msgid "Last used"
+#~ msgstr "Τελευταία χρησιμοποιημένο"
+
+#~ msgid "Wired"
+#~ msgstr "Ενσύρματη"
+
+#~ msgid "Options…"
+#~ msgstr "Επιλογές…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Προσθήκη νέας σύνδεσης"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Αν έχετε άλλη σύνδεση στο διαδίκτυο εκτός της ασύρματης, μπορείτε να "
+#~ "ορίσετε ένα ασύρματο σημείο πρόσβασης για να διαμοιράσετε τη σύνδεση με "
+#~ "άλλους."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Η ενεργοποίηση του ασύρματου σημείου πρόσβασης θα σας αποσυνδέσει από το "
+#~ "<b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Δεν είναι δυνατή η πρόσβαση στο διαδίκτυο μέσω του ασυρμάτου σας ενώ "
+#~ "είναι ενεργό το σημείο πρόσβασης."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Διακοπή σημείου πρόσβασης και αποσύνδεση όλων των χρηστών;"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Διακοπή σημείου πρόσβασης"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Η πολιτική του συστήματος απαγορεύει τη χρήση ως σημείο πρόσβασης"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Η ασύρματη συσκευή δεν υποστηρίζει λειτουργία με σημείο πρόσβασης"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Θα χαθούν οι λεπτομέρειες των επιλεγμένων δικτύων, συμπεριλαμβανομένων "
+#~ "των κωδικών πρόσβασης και των προσαρμοσμένων ρυθμίσεων."
+
+#~ msgid "History"
+#~ msgstr "Ιστορικό"
+
+#~ msgid "_Close"
+#~ msgstr "_Κλείσιμο"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Παράλειψη"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Η αυτόματη εύρεση διαμεσολαβητή Ιστού χρησιμοποιείται όταν δεν παρέχετε "
+#~ "μια διεύθυνση ρυθμίσεων."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Αυτό δεν το συνιστούμε για δίκτυα τα οποία δεν εμπιστεύεστε."
+
+#~ msgid "Proxy"
+#~ msgstr "Διαμεσολαβητής"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Προσθήκη προφίλ…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Πάροχος"
+
+#~ msgid "Network"
+#~ msgstr "Δίκτυο"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Καμία"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Χειροκίνητο"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Αυτόματο"
+
+#~ msgid "_Method"
+#~ msgstr "_Μέθοδος"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "Διεύθυνση _ρυθμίσεων"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Διαμεσολαβητής _HTTP"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Διαμεσολαβητής H_TTPS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Διαμεσολαβητής _FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "Κεντρικός υπολογιστής _Socks"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Παράβλεψη κεντρικών υπολογιστών"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Θύρα διαμεσολαβητή HTTP"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Θύρα διαμεσολαβητή HTTPS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Θύρα διαμεσολαβητή FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Θύρα διαμεσολαβητή Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "Απενεργοποίηση συσκευής"
+
+#~ msgid "Add Device"
+#~ msgstr "Προσθήκη συσκευής"
+
+#~ msgid "Remove Device"
+#~ msgstr "Αφαίρεση συσκευής"
+
+#~ msgid "VPN Type"
+#~ msgstr "Τύπος VPN"
+
+#~ msgid "Group Name"
+#~ msgstr "Όνομα ομάδας"
+
+#~ msgid "Group Password"
+#~ msgstr "Κωδικός πρόσβασης ομάδας"
+
+#~ msgid "Username"
+#~ msgstr "Όνομα χρήστη"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Απενεργοποίηση σύνδεσης VPN"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Αυτόματη _σύνδεση"
+
+#~ msgid "details"
+#~ msgstr "λεπτομέρειες"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Εμφάνιση κ_ωδικού πρόσβασης"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Να είναι διαθέσιμο σε άλλους χρήστες"
+
+#~ msgid "identity"
+#~ msgstr "ταυτότητα"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Μόνο αυτόματες διευθύνσεις (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Μόνο τοπική σύνδεση"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Κοινή χρήση με άλλους υπολογιστές"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Παράβλεψη διαδρομών που ελήφθησαν αυτόματα"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Κλωνοποιημένη διεύθυνση MAC"
+
+#~ msgid "hardware"
+#~ msgstr "υλικό"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Να γίνει επαναφορά των ρυθμίσεων αυτής της σύνδεσης στις αρχικές "
+#~ "προεπιλογές, αλλά να αποθηκευθεί ως προτιμώμενη σύνδεση."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Αφαίρεση όλων των λεπτομερειών που σχετίζονται με αυτό το δίκτυο και μη "
+#~ "γίνει προσπάθεια αυτόματης σύνδεσης σε αυτό."
+
+#~ msgid "reset"
+#~ msgstr "επαναφορά"
+
+#~ msgid "Hardware"
+#~ msgstr "Υλικό"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Σημείο ασύρματης πρόσβασης"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Ενεργοποίηση"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Σβήσιμο Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Χρήση ως σημείο πρόσβασης…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Σύνδεση σε κρυφό δίκτυο…"
+
+#~ msgid "_History"
+#~ msgstr "_Ιστορικό"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Απενεργοποίηση για σύνδεση σε δίκτυο Wi-Fi"
+
+#~ msgid "Network Name"
+#~ msgstr "Όνομα δικτύου"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Συνδεδεμένες συσκευές"
+
+#~ msgid "Security type"
+#~ msgstr "Τύπος ασφάλειας"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Υποδομή"
+
+#~ msgid "Status unknown"
+#~ msgstr "Άγνωστη κατάσταση"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Χωρίς διαχείριση"
+
+#~ msgid "Unavailable"
+#~ msgstr "Μη διαθέσιμο"
+
+#~ msgid "Connecting"
+#~ msgstr "Γίνεται σύνδεση"
+
+#~ msgid "Authentication required"
+#~ msgstr "Απαιτείται πιστοποίηση"
+
+#~ msgid "Connected"
+#~ msgstr "Συνδεδεμένο"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Γίνεται αποσύνδεση"
+
+#~ msgid "Connection failed"
+#~ msgstr "Αποτυχία σύνδεσης"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Άγνωστη κατάσταση (απουσιάζει)"
+
+#~ msgid "Not connected"
+#~ msgstr "Δεν συνδέθηκε"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Αποτυχία ρύθμισης"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Αποτυχία ρύθμισης της IP"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Έληξε η ρυθμίση IP"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Τα μυστικά απαιτήθηκαν, αλλά δεν προσφέρθηκαν"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "αποσυνδέθηκε η αίτηση του 802.1x"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Αποτυχία ρύθμισης της αίτησης του 802.1x"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Αποτυχία της αίτησης του 802.1x"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "Η αίτηση του 802.1x πήρε αρκετή ώρα για να πιστοποιηθεί"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Αποτυχία εκκίνησης της υπηρεσίας PPP"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "Αποσυνδέθηκε η υπηρεσία PPP"
+
+#~ msgid "PPP failed"
+#~ msgstr "Αποτυχία του PPP"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Αποτυχία εκκίνησης του πελάτη DHCP"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Σφάλμα πελάτη DHCP"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Αποτυχία του πελάτη DHCP"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Αποτυχία εκκίνησης της υπηρεσίας κοινόχρηστης σύνδεσης"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Αποτυχία της υπηρεσίας κοινόχρηστης σύνδεσης"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Αποτυχία εκκίνησης της υπηρεσίας AutoIP"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Σφάλμα υπηρεσίας AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Αποτυχία υπηρεσίας AutoIP"
+
+#~ msgid "Line busy"
+#~ msgstr "Η γραμμή είναι απασχολημένη"
+
+#~ msgid "No dial tone"
+#~ msgstr "Δεν ακούγεται ο τόνος κλήσης"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Δεν είναι δυνατή η δημιουργία γραμμής"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Έληξε το αίτημα κλήσης"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Απέτυχε η προσπάθεια κλήσης"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Απέτυχε η προετοιμασία του μόντεμ"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Απέτυχε η επιλογή του συγκεκριμένου APN"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Δεν ψάχνει για δίκτυα"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Απερρίφθη η εγγραφή στο δίκτυο"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Έληξε η εγγραφή στο δίκτυο"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Αποτυχία εγγραφής στο ζητούμενο δίκτυο"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Απέτυχε ο έλεγχος του PIN"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Μπορεί να λείπει το υλικολογισμικό για τη συσκευή"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Η σύνδεση χάθηκε"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Θεωρήθηκε πως υπάρχει μια τρέχουσα σύνδεση"
+
+#~ msgid "Modem not found"
+#~ msgstr "Δεν βρέθηκε μόντεμ"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Αποτυχία σύνδεσης του Bluetooth"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "Δεν έχει τοποθετηθεί η κάρτα SIM"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Απαιτείται το Pin της SIM"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Απαιτείται το Puk της SIM"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Λάθος SIM"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Απέτυχε η εξάρτηση της σύνδεσης"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Λείπει το υλικολογισμικό"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Το καλώδιο αποσυνδέθηκε"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "Μη ορισμένο σφάλμα στην ασφάλεια 802.1x (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "Δεν έχει επιλεγεί αρχείο"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "ακαθόριστο σφάλμα στην πιστοποίηση του αρχείου eap-method"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr "Ιδιωτικά κλειδιά DER, PEM, ή PKCS#12 (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Πιστοποιητικά DER ή PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "Λείπει το αρχείο EAP-FAST PAC"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Επιλογή ενός φακέλου PAC"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "Αρχεία PAC (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Ανώνυμος"
+
+#~ msgid "Authenticated"
+#~ msgstr "Πιστοποιήθηκε"
+
+#~ msgid "Both"
+#~ msgstr "Και τα δύο"
+
+#~ msgid "PAC _file"
+#~ msgstr "Α_ρχείο PAC"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Εσωτερική πιστοποίηση"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Να επιτρέπεται η αυτόματη _παροχή PAC"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "Λείπει το όνομα χρήστη EAP-LEAP"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "Λείπει ο κωδικός πρόσβασης EAP-LEAP"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Εμ_φάνιση κωδικού πρόσβασης"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-PEAP CA: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-PEAP CA: δεν έχει καθοριστεί πιστοποιητικό"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Επιλέξτε ένα πιστοποιητικό αρχής πιστοποίησης"
+
+#~ msgid "Version 0"
+#~ msgstr "Έκδοση 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Έκδοση 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "Πιστοποιητικό C_A"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "Δεν α_παιτείται κανένα πιστοποιητικό CA"
+
+#~ msgid "PEAP _version"
+#~ msgstr "Έκ_δοση PEAP"
+
+#~ msgid "missing EAP username"
+#~ msgstr "Λείπει το όνομα χρήστη EAP"
+
+#~ msgid "missing EAP password"
+#~ msgstr "Λείπει ο κωδικός πρόσβασης EAP"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "Λείπει η ταυτότητα EAP-TLS"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-TLS CA: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-TLS CA: δεν έχει καθοριστεί πιστοποιητικό"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-TLS: λείπει"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "Άκυρο ιδιωτικό κλειδί EAP-TLS: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "Άκυρο πιστοποιητικό χρήστη EAP-TLS: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Τα μη κρυπτογραφημένα ιδιωτικά κλειδιά είναι επισφαλή"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Το επιλεγμένο ιδιωτικό κλειδί δεν φαίνεται να προστατεύεται από έναν "
+#~ "κωδικό πρόσβασης. Αυτό πιθανόν να επιτρέπει τα διαπιστευτήρια ασφάλειας "
+#~ "να κινδυνεύουν. Παρακαλούμε επιλέξτε ένα ιδιωτικό κλειδί που να "
+#~ "προστατεύεται από έναν κωδικό πρόσβασης.\n"
+#~ "\n"
+#~ "(Μπορείτε να προστατεύσετε με κωδικό πρόσβασης το ιδιωτικό σας κλειδί με "
+#~ "το openssl)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Επιλέξτε το προσωπικό σας πιστοποιητικό"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Επιλέξτε το ιδιωτικό σας κλειδί"
+
+#~ msgid "I_dentity"
+#~ msgstr "_Ταυτότητα"
+
+#~ msgid "_User certificate"
+#~ msgstr "Πιστοποιητικό _χρήστη"
+
+#~ msgid "Private _key"
+#~ msgstr "Ιδιωτικό κ_λειδί"
+
+#~ msgid "_Private key password"
+#~ msgstr "Κωδικός πρόσβασης _ιδιωτικού κλειδιού"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-TTLS CA: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "Άκυρο πιστοποιητικό EAP-TTLS CA: δεν έχει καθοριστεί πιστοποιητικό"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Άγνωστο σφάλμα κατά την πιστοποίηση της ασφάλειας 802.1x"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Διοχετευμένο TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Προστατευμένο EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "_Πιστοποίηση"
+
+#~ msgid "missing leap-username"
+#~ msgstr "Λείπει το όνομα χρήστη leap"
+
+#~ msgid "missing leap-password"
+#~ msgstr "Λείπει ο κωδικός πρόσβασης leap"
+
+#~ msgid "missing wep-key"
+#~ msgstr "Λείπει το κλειδί wep"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "Άκυρο wep-key: το κλειδί με μήκος %zu πρέπει να περιέχει μόνο δεκαεξαδικά "
+#~ "ψηφία"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "Άκυρο wep-key: το κλειδί με μήκος %zu πρέπει να περιέχει μόνο χαρακτήρες "
+#~ "ascii"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "Άκυρο wep-key: λαθεμένο μήκος κλειδιού %zu. Ένα κλειδί πρέπει να έχει "
+#~ "μήκος χαρακτήρων 5/13 (ascii) ή 10/26 (δεκαεξαδικό)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "Άκυρο wep-key: το συνθηματικό δεν πρέπει να είναι κενό"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "Άκυρο wep-key: το συνθηματικό πρέπει να είναι μικρότερο από 64 χαρακτήρες"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Προεπιλογή)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Ανοικτό σύστημα"
+
+#~ msgid "Shared Key"
+#~ msgstr "Κοινόχρηστο κλειδί"
+
+#~ msgid "_Key"
+#~ msgstr "Κ_λειδί"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Εμ_φάνιση κλειδιού"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "Δεί_κτης WEP"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "Άκυρο wpa-psk:  μη έγκυρο μήκος κλειδιού %zu. Πρέπει να είναι [8,63] "
+#~ "bytes ή 64 δεκαεξαδικά ψηφία"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "Άκυρο wpa-psk: αδυναμία μεταγλώττισης κλειδιού με 64 bytes ως δεκαεξαδικό"
+
+#~ msgid "_Type"
+#~ msgstr "_Τύπος"
+
+#~ msgid "On"
+#~ msgstr "Ενεργό"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "Ει_δοποιήσεις"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "Ηχητικές _ειδοποιήσεις"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "_Τίτλοι ειδοποίησης"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Να εμφανίζεται το π_εριεχόμενο του μηνύματος σε τίτλους"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Ειδοποιήσεις κ_λειδώματος οθόνης"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Να εμφανίζεται το _περιεχόμενο του μηνύματος στο κλείδωμα οθόνης"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Ειδοποιήσεις"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Ελέγξτε ποιες ειδοποιήσεις εμφανίζονται και τι εμφανίζουν"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr ""
+#~ "Ειδοποιήσεις;Τίτλοι;Μήνυμα;Δίσκος;Αναδυόμενο;Notifications;Banner;Message;"
+#~ "Tray;Popup;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Τίτλοι ει_δοποίησης"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "Ειδοποιήσεις _κλειδώματος οθόνης"
+
+#~ msgid "Applications"
+#~ msgstr "Εφαρμογές"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Άλλο"
+
+#~ msgid "Add Account"
+#~ msgstr "Προσθήκη λογαριασμού"
+
+#~ msgid "Mail"
+#~ msgstr "Αλληλογραφία"
+
+#~ msgid "Calendar"
+#~ msgstr "Ημερολόγιο"
+
+#~ msgid "Contacts"
+#~ msgstr "Επαφές"
+
+#~ msgid "Chat"
+#~ msgstr "Συνομιλία"
+
+#~ msgid "Resources"
+#~ msgstr "Πόροι"
+
+#~ msgid "Error creating account"
+#~ msgstr "Σφάλμα δημιουργίας λογαριασμού"
+
+#~ msgid "Error removing account"
+#~ msgstr "Σφάλμα αφαίρεσης λογαριασμού"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετε το λογαριασμό;"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Ο λογαριασμός σας δε θα διαγραφεί από τον διακομιστή."
+
+#~ msgid "_Remove"
+#~ msgstr "Α_φαίρεση"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Διαδικτυακοί λογαριασμοί"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "Συνδεθείτε με τους δικτυακούς λογαριασμούς σαε και αποφασίστε πού θα τους "
+#~ "χρησιμοποιήσετε"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Ιστός;Με σύνδεση;Συνομιλία;Ημερολόγιο;"
+#~ "Αλληλογραφία;Επαφές;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;Online;"
+#~ "Chat;Calendar;Mail;Contact;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Δεν έχουν ρυθμιστεί διαδικτυακοί λογαριασμοί"
+
+#~ msgid "Add an online account"
+#~ msgstr "Προσθήκη διαδικτυακού λογαριασμού"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Προσθέτοντας ένα λογαριασμό επιτρέπει στις εφαρμογές σας να έχουν "
+#~ "πρόσβαση σε έγγραφα, αλληλογραφία, επαφές, ημερολόγιο, συνομιλία και "
+#~ "πολλά άλλα."
+
+#~ msgid "Unknown time"
+#~ msgstr "Άγνωστος χρόνος"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i λεπτό"
+#~ msgstr[1] "%i λεπτά"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i ώρα"
+#~ msgstr[1] "%i ώρες"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "ώρα"
+#~ msgstr[1] "ώρες"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "λεπτό"
+#~ msgstr[1] "λεπτά"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s μέχρι την πλήρη φόρτιση"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Προσοχή: απομένει %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "απομένει %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Πλήρης φόρτιση"
+
+#~ msgid "Empty"
+#~ msgstr "Κενό"
+
+#~ msgid "Charging"
+#~ msgstr "Φορτίζεται"
+
+#~ msgid "Discharging"
+#~ msgstr "Εκφορτίζεται"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Κύριο"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Πρόσθετο"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Ασύρματο ποντίκι"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Ασύρματο πληκτρολόγιο"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Αδιάλειπτη παροχή ρεύματος"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Προσωπικός ψηφιακός βοηθός"
+
+#~ msgid "Cellphone"
+#~ msgstr "Κινητό τηλέφωνο"
+
+#~ msgid "Media player"
+#~ msgstr "Αναπαραγωγέας πολυμέσων"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Υπολογιστής"
+
+#~ msgid "Battery"
+#~ msgstr "Μπαταρία"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Φορτίζεται"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Προσοχή"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Χαμηλό"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Καλό"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Πλήρης φόρτιση"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Κενό"
+
+#~ msgid "Batteries"
+#~ msgstr "Μπαταρίες"
+
+#~ msgid "When _idle"
+#~ msgstr "Όταν είναι _ανενεργό"
+
+#~ msgid "Power Saving"
+#~ msgstr "Εξοικονόμηση ενέργειας"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "Φωτεινότητα _οθόνης"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Αυτόματη φωτεινότητα"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Φωτεινότητα _πληκτρολογίου"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "Α_μυδρή οθόνη όταν είναι ανενεργή"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Κενή οθόνη"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Απενεργοποιήστε το ασύρματο δίκτυο για εξοικονόμηση ισχύος."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "Ευρυζωνικό _κινητό"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Απενεργοποιήστε την ευρυζωνικότητα του κινητού (3G, 4G, LTE, κλπ.) για να "
+#~ "εξοικονομήσετε ισχύ."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Όταν τροφοδοτείται από μπαταρία"
+
+#~ msgid "When plugged in"
+#~ msgstr "Όταν είναι στην παροχή ρεύματος"
+
+#~ msgid "Suspend"
+#~ msgstr "Αναστολή"
+
+#~ msgid "Hibernate"
+#~ msgstr "Aδρανοποίηση"
+
+#~ msgid "Nothing"
+#~ msgstr "Καμία ενέργεια"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Κουμπί αναστολή & τερματισμός"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Αυτόματη αναστολή"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Αυτόματη αναστολή"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "Ό_ταν πατιέται το κουμπί τερματισμού"
+
+#~ msgid "Devices"
+#~ msgstr "Συσκευές"
+
+#~ msgid "Po­wer"
+#~ msgstr "Ενέργεια"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr ""
+#~ "Δείτε την κατάστασης της μπαταρίας σας και αλλάξτε τις ρυθμίσεις "
+#~ "αποθήκευσης ενέργειας"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Ισχύς;Ενέργεια;Ρεύμα;Ύπνωση;Αναστολή;Αδρανοποίηση;Μπαταρία;Φωτεινότητα;"
+#~ "Αμυδρό;Κενό;Οθόνη;DPMS;Αδρανές;Power;Sleep;Suspend;Hibernate;Battery;"
+#~ "Brightness;Dim;Blank;Monitor;Idle;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 λεπτά"
+
+#~ msgid "1 hour"
+#~ msgstr "1 ώρα"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 λεπτά"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 λεπτά"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 λεπτά"
+
+#~ msgid "2 hours"
+#~ msgstr "2 ώρες"
+
+#~ msgid "1 minute"
+#~ msgstr "1 λεπτό"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 λεπτά"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 λεπτά"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 λεπτά"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 λεπτά"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 λεπτά"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 λεπτά"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 λεπτά"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Αυτόματη αναστολή"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Συνδεμένο"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Με τροφοδοσία _μπαταρίας"
+
+#~ msgid "Delay"
+#~ msgstr "Καθυστέρηση"
+
+#~ msgid "Authenticate"
+#~ msgstr "Πιστοποίηση"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Απαιτείται πιστοποίηση"
+
+#~ msgid "Low on toner"
+#~ msgstr "Τελειώνει ο γραφίτης"
+
+#~ msgid "Out of toner"
+#~ msgstr "Άδειος γραφίτης"
+
+#~ msgid "Low on developer"
+#~ msgstr "Τελειώνει το υγρό εμφάνισης"
+
+#~ msgid "Out of developer"
+#~ msgstr "Τελείωσε το υγρό εμφάνισης"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Τελειώνει ένα από τα χρώματα"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Τελείωσε ένα από τα χρώματα"
+
+#~ msgid "Open cover"
+#~ msgstr "Κάλυμμα ανοικτό"
+
+#~ msgid "Open door"
+#~ msgstr "Πορτάκι ανοικτό"
+
+#~ msgid "Low on paper"
+#~ msgstr "Τελειώνει το χαρτί"
+
+#~ msgid "Out of paper"
+#~ msgstr "Τελείωσε το χαρτί"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Αποσυνδεδεμένος"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Διακόπηκε"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Το δοχείο απορριμμάτων σχεδόν γέμισε"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Το δοχείο απορριμμάτων είναι γεμάτο"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Το τύμπανο είναι σχεδόν στο τέλος της ζωής του"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Το τύμπανο δεν δουλεύει πλέον"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Γίνεται ρύθμιση"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Έτοιμο"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Δεν δέχεται εργασίες"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Γίνεται επεξεργασία"
+
+#~ msgid "Toner Level"
+#~ msgstr "Επίπεδο τόνερ"
+
+#~ msgid "Ink Level"
+#~ msgstr "Επίπεδο μελανιού"
+
+#~ msgid "Supply Level"
+#~ msgstr "Επίπεδο τροφοδοσίας"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Εγκατάσταση"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u ενεργό"
+#~ msgstr[1] "%u ενεργά"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Αποτυχία προσθήκης νέου εκτυπωτή."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Επιλεγμένο αρχείο PPD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "Αρχεία περιγραφής εκτυπωτών PostScript (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, "
+#~ "*.PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Δε βρέθηκε κατάλληλος οδηγός"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Αναζήτηση για προτιμώμενους οδηγούς…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Επιλογή από βάση δεδομένων…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Παροχή αρχείου PPD…"
+
+#~ msgid "Test page"
+#~ msgstr "Δοκιμαστική σελίδα"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Αδυναμία φόρτωσης γραφικού περιβάλλοντος: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Εκτυπωτές"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Προσθέστε εκτυπωτές, δείτες τις εργασίες ενός εκτυπωτή και καθορίστε τον "
+#~ "τρόπο εκτύπωσης"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr ""
+#~ "Εκτυπωτής;Ουρά;Εκτύπωση;Χαρτί;Μελάνι;Τόνερ;Γραφίτης;Printer;Queue;Print;"
+#~ "Paper;Ink;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Εκκαθάριση όλων"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Καμία ενεργή εργασία εκτύπωσης"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Προσθήκη νέου εκτυπωτή"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "Πισ_τοποίηση"
+
+#~ msgid "No printers detected."
+#~ msgstr "Δεν εντοπίστηκαν εκτυπωτές."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Εισάγετε μια διεύθυνση δικτύου ή αναζητήστε έναν εκτυπωτή"
+
+#~ msgid "Loading options…"
+#~ msgstr "Φόρτωση των επιλογών…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Επιλέξτε τον οδηγό του εκτυπωτή"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Φόρτωση βάσης δεδομένων των οδηγών..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "Εκτυπωτής JetDirect"
+
+#~ msgid "LPD Printer"
+#~ msgstr "Εκτυπωτής LPD"
+
+#~ msgid "One Sided"
+#~ msgstr "Μονής όψης"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Μακρύ άκρο (κανονικό)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Βραχύ άκρο (αναστροφή)"
+
+#~ msgid "Portrait"
+#~ msgstr "Κάθετα"
+
+#~ msgid "Landscape"
+#~ msgstr "Οριζόντια"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Αντίστροφα οριζόντιο"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Αντίστροφα κάθετο"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Εκκρεμεί"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Σε παύση"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Γίνεται επεξεργασία"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Διακόπηκε"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Ακυρώθηκε"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Εγκαταλείφθηκε"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Ολοκληρώθηκε"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Ενεργές εργασίες"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Σειριακή θύρα"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Παράλληλη θύρα"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Τοποθεσία: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Διεύθυνση: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Ο διακομιστής απαιτεί ταυτοποίηση"
+
+#~ msgid "Two Sided"
+#~ msgstr "Διπλής όψης"
+
+#~ msgid "Paper Type"
+#~ msgstr "Τύπος χαρτιού"
+
+#~ msgid "Paper Source"
+#~ msgstr "Πηγή χαρτιού"
+
+#~ msgid "Output Tray"
+#~ msgstr "Συρτάρι εξόδου"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Προφιλτράρισμα GhostScript"
+
+#~ msgid "Pages per side"
+#~ msgstr "Σελίδες ανά φύλλο"
+
+#~ msgid "Two-sided"
+#~ msgstr "Διπλής όψης"
+
+#~ msgid "Orientation"
+#~ msgstr "Προσανατολισμός"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Ρύθμιση σελίδας"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Εγκαταστάσιμες επιλογές"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Εργασία"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Ποιότητα εικόνας"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Χρώμα"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Ολοκληρώνεται"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Για προχωρημένους"
+
+#~ msgid "Auto Select"
+#~ msgstr "Αυτόματη επιλογή"
+
+#~ msgid "Printer Default"
+#~ msgstr "Προεπιλογή εκτυπωτή"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Ενσωμάτωση μόνο των γραμματοσειρών GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Μετατροπή σε PS επιπέδου 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Μετατροπή σε PS επιπέδου 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Χωρίς προ-φιλτράρισμα"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Κατασκευαστής"
+
+#~ msgid "Driver"
+#~ msgstr "Οδηγός"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Εισαγωγή ονόματος χρήστη και κωδικού πρόσβασης για προβολή διαθέσιμων "
+#~ "εκτυπωτών στο %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Προσθήκη εκτυπωτή"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Αφαίρεση εκτυπωτή"
+
+#~ msgid "Supply"
+#~ msgstr "Παροχή"
+
+#~ msgid "Location"
+#~ msgstr "Τοποθεσία"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Προεπιλεγμένος εκτυπωτής"
+
+#~ msgid "Jobs"
+#~ msgstr "Εργασίες"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Εμφάνιση _εργασιών"
+
+#~ msgid "Model"
+#~ msgstr "Μοντέλο"
+
+#~ msgid "label"
+#~ msgstr "ετικέτα"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Εγκατάσταση νέου οδηγού…"
+
+#~ msgid "page 3"
+#~ msgstr "σελίδα 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Εκτύπωση _δοκιμαστικής σελίδας"
+
+#~ msgid "_Options"
+#~ msgstr "Επιλ_ογές"
+
+#~ msgid "No printers"
+#~ msgstr "Χωρίς εκτυπωτές"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Προσθήκη εκτυπωτή"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Συγνώμη! Η υπηρεσία εκτύπωσης του συστήματος\n"
+#~ "φαίνεται να μην είναι διαθέσιμη."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Κλείδωμα οθόνης"
+
+#~ msgid "In use"
+#~ msgstr "Σε χρήση"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Ενεργό"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Ανενεργό"
+
+#~ msgid "Location Services"
+#~ msgstr "Υπηρεσίες τοποθεσίας"
+
+#~ msgid "Usage & History"
+#~ msgstr "Χρήση & ιστορικό"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Διαγραφή όλων των αντικειμένων από τα απορρίμματα;"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Όλα τα αντικείμενα στα απορρίμματα θα διαγραφούν οριστικά."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "Ά_δειασμα απορριμμάτων"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Διαγραφή όλων των προσωρινών αρχείων;"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Όλα τα προσωρινά αρχεία θα διαγραφούν μόνιμα."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Εκκαθάριση προσωρινών αρχείων"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Εκκαθάριση απορριμμάτων & προσωρινών αρχείων"
+
+#~ msgid "Software Usage"
+#~ msgstr "Χρήση λογισμικού"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Αναφορά προβλήματος"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Η αποστολή αναφορών των τεχνικών προβλημάτων μας βοηθά να βελτιώσουμε το "
+#~ "%s. Οι αναφορές στέλνονται ανώνυμα και αφαιρούνται τα προσωπικά δεδομένα."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Πολιτική ιδιωτικότητας"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Ιδιωτικότητα"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Προστατεύστε τις προσωπικές σας πληροφορίες και ελέγξτε τι βλέπουν οι "
+#~ "άλλοι"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "οθόνη;κλείδωμα;διάγνωση;κατάρρευση;ιδιωτικό;πρόσφατο;προσωρινό;προσωρινό;"
+#~ "ευρετήριο;όνομα;ταυτότητα;screen;lock;diagnostics;crash;private;recent;"
+#~ "temporary;tmp;index;name;network;identity;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Η οθόνη σβήνει"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 δευτερόλεπτα"
+
+#~ msgid "1 day"
+#~ msgstr "1 ημέρα"
+
+#~ msgid "2 days"
+#~ msgstr "2 ημέρες"
+
+#~ msgid "3 days"
+#~ msgstr "3 ημέρες"
+
+#~ msgid "4 days"
+#~ msgstr "4 ημέρες"
+
+#~ msgid "5 days"
+#~ msgstr "5 ημέρες"
+
+#~ msgid "6 days"
+#~ msgstr "6 ημέρες"
+
+#~ msgid "7 days"
+#~ msgstr "7 ημέρες"
+
+#~ msgid "14 days"
+#~ msgstr "14 ημέρες"
+
+#~ msgid "30 days"
+#~ msgstr "30 ημέρες"
+
+#~ msgid "Forever"
+#~ msgstr "Για πάντα"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Να θυμάστε ότι το ιστορικό διευκολύνει στην επανεύρεση. Αυτά τα στοιχεία "
+#~ "δεν διαμοιράζονται ποτέ μέσω του δικτύου."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Πρόσφατα χρησιμοποιημένα"
+
+#~ msgid "Retain _History"
+#~ msgstr "Διατήρηση _ιστορικού"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "Εκκα_θάριση πρόσφατου ιστορικού"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr ""
+#~ "Το κλείδωμα της οθόνης προστατεύει την ιδιωτικότητά σας όταν λείπετε."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Αυτόματο _κλείδωμα οθόνης"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Κλείδωμα οθόνης _μετά από κενό για"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Εμφάνιση _ειδοποιήσεων"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Αυτόματη εκκαθάριση των απορριμμάτων και των προσωρινών αρχείων για να "
+#~ "κρατήσετε τον υπολογιστή σας ελεύθερο από περιττές ευαίσθητες πληροφορίες."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Αυτόματη εκκαθάριση _απορριμμάτων"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Αυτόματη εκκαθάριση προσωρινών α_ρχείων"
+
+#~ msgid "Purge _After"
+#~ msgstr "Εκκαθάριση _μετά από"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Η αποστολή πληροφοριών για το ποιο λογισμικό χρησιμοποιείτε μας βοηθά να "
+#~ "σας παράσχουμε περισσότερο ακριβείς συστάσεις. Επίσης μας βοηθά να "
+#~ "βελτιώσουμε το λογισμικό μας.\n"
+#~ "\n"
+#~ "Όλες οι πληροφορίες που συλλέγουμε είναι ανώνυμες και δεν θα μοιράσουμε "
+#~ "ποτέ τα δεδομένα σας με τρίτους."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "Α_ποστολή στατιστικών χρήσης λογισμικού"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Οι υπηρεσίες τοποθεσίας επιτρέπουν στις εφαρμογές να καθορίσουν τη "
+#~ "γεωγραφική σας θέση. Η ακρίβεια αυξάνεται ενεργοποιώντας το Wi-Fi και το "
+#~ "ευρυζωνικό κινητό."
+
+#~ msgid "_Location Services"
+#~ msgstr "Υπηρεσίες τ_οποθεσίας"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "Α_υτόματη αναφορά προβλήματος"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Αυτοκρατορικό"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Μετρικό"
+
+#~ msgid "No regions found"
+#~ msgstr "Δε βρέθηκαν περιοχές"
+
+#~ msgid "No input sources found"
+#~ msgstr "Δε βρέθηκαν πηγές εισόδου"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Άλλο"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr ""
+#~ "Η συνεδρία σας πρέπει να επανεκκινηθεί για να εφαρμοστούν οι αλλαγές"
+
+#~ msgid "Restart Now"
+#~ msgstr "Επανεκκίνηση τώρα"
+
+#~ msgid "No input source selected"
+#~ msgstr "Δεν επιλέχτηκαν πηγές εισόδου"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Ο_θόνη σύνδεσης"
+
+#~ msgid "Formats"
+#~ msgstr "Μορφές"
+
+#~ msgid "Preview"
+#~ msgstr "Προεπισκόπηση"
+
+#~ msgid "Dates"
+#~ msgstr "Ημερομηνίες"
+
+#~ msgid "Times"
+#~ msgstr "Ώρες"
+
+#~ msgid "Numbers"
+#~ msgstr "Αριθμοί"
+
+#~ msgid "Measurement"
+#~ msgstr "Μέτρηση"
+
+#~ msgid "Paper"
+#~ msgstr "Χαρτί"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Περιοχή & γλώσσα"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Επιλέξτε γλώσσα εμφάνισης, μορφές, διατάξεις πληκτρολογίου και πηγές "
+#~ "εισόδου"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Γλώσσα;Διάταξη;Πληκτρολόγιο;Είσοδος;Language;Layout;Keyboard;Input;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Προσθήκη πηγής εισόδου"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr ""
+#~ "Οι μέθοδοι εισαγωγής δεν μπορούν να χρησιμοποιηθούν στην οθόνη σύνδεσης"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Επιλογές πηγών εισόδου"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Χρήση της ί_διας πηγής για όλα τα παράθυρα"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Να επιτρέπονται _διαφορετικές πηγές για κάθε παράθυρο"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Συντομεύσεις πληκτρολογίου"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Αλλαγή στην προηγούμενη πηγή"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Αλλαγή στην επόμενη πηγή"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+διάστημα"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr ""
+#~ "Μπορείτε να αλλάξετε αυτές τις συντομεύσεις στις ρυθμίσεις πληκτρολογίου"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Εναλλακτική αλλαγή στην επόμενη πηγή"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Αριστερό+δεξιό Alt"
+
+#~ msgid "_Language"
+#~ msgstr "Γ_λώσσα"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Αγγλικά (Ενωμένο Βασίλειο)"
+
+#~ msgid "_Formats"
+#~ msgstr "Μορ_φοποιήσεις"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Ενωμένο Βασίλειο"
+
+#~ msgid "Input Sources"
+#~ msgstr "Πηγές εισόδου"
+
+#~ msgid "Add input source"
+#~ msgstr "Προσθήκη πηγής εισόδου"
+
+#~ msgid "Remove input source"
+#~ msgstr "Αφαίρεση πηγής εισόδου"
+
+#~ msgid "Move input source up"
+#~ msgstr "Μετακίνηση πηγής εισόδου πάνω"
+
+#~ msgid "Move input source down"
+#~ msgstr "Μετακίνηση πηγής εισόδου κάτω"
+
+#~ msgid "Configure input source"
+#~ msgstr "Ρύθμιση πηγή εισόδου"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Εμφάνισης διάταξης πληκτρολογίου της πηγής εισόδου"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Οι ρυθμίσεις σύνδεσης χρησιμοποιούνται από όλους τους χρήστες κατά τη "
+#~ "σύνδεση στο σύστημα"
+
+#~ msgid "Select Location"
+#~ msgstr "Επιλογή περιοχής"
+
+#~ msgid "_OK"
+#~ msgstr "_Εντάξει"
+
+#~ msgid "No applications found"
+#~ msgstr "Δε βρέθηκαν εφαρμογές"
+
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Ελέγξτε ποιες εφαρμογές εμφανίζουν αποτελέσματα αναζήτησης στην "
+#~ "επισκόπηση Δραστηριότητες"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr ""
+#~ "Αναζήτηση;Εύρεση;Ευρετήριο;Απόκρυψη;Ιδιωτικότητα;Αποτελέσματα;Search;Find;"
+#~ "Index;Hide;Privacy;Results;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Τοποθεσίες αναζήτησης"
+
+#~ msgid "Places"
+#~ msgstr "Τοποθεσίες"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Σελιδοδείκτες"
+
+#~ msgid "Other"
+#~ msgstr "Άλλο"
+
+#~ msgid "Move Up"
+#~ msgstr "Μετακίνηση προς τα πάνω"
+
+#~ msgid "Move Down"
+#~ msgstr "Μετακίνηση προς τα κάτω"
+
+#~ msgid "Preferences"
+#~ msgstr "Προτιμήσεις"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Δεν έχουν επιλεγεί δίκτυα για κοινή χρήση"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Ενεργό"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Ανενεργό"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Ενεργοποιημένη"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Ενεργή"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Επιλογή φακέλου"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Η κοινή χρήση προσωπικών αρχείων επιτρέπει να μοιράζεστε τον δημόσιο "
+#~ "φάκελό σας με άλλους, στο υπάρχον δίκτυό σας, χρησιμοποιώντας: <a href="
+#~ "\"dav://%s\">dav://%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Όταν είναι ενεργοποιημένη η απομακρυσμένη σύνδεση, οι απομακρυσμένοι "
+#~ "χρήστες μπορούν να συνδεθούν χρησιμοποιώντας εντολή ασφαλούς κελύφους "
+#~ "(SSH):\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Η κοινή χρήση οθόνης επιτρέπει σε απομακρυσμένους χρήστες να προβάλουν ή "
+#~ "να ελέγχουν την οθόνη σας συνδεόμενοι με: <a href=\"vnc://%s\">vnc://%s</"
+#~ "a>"
+
+#~ msgid "Copy"
+#~ msgstr "Αντιγραφή"
+
+#~ msgid "Sharing"
+#~ msgstr "Κοινή χρήση"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Κοινή χρήση"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Ελέγξτε τι θέλετε να μοιράζεστε με τους άλλους"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "κοινόχρηστος;κοινή χρήση;ssh;κεντρικός υπολογιστής;όνομα;απομακρυσμένο;"
+#~ "επιφάνεια εργασίας;μέσα;ήχος;βίντεο;εικόνες;φωτογραφίες;ταινίες;"
+#~ "διακομιστής;απεικονιστής;share;sharing;ssh;host;name;remote;desktop;media;"
+#~ "audio;video;pictures;photos;movies;server;renderer;"
+
+#~ msgid "Networks"
+#~ msgstr "Δίκτυα"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Ενεργοποίηση η απενεργοποίηση της απομακρυσμένης σύνδεσης"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Απαιτείται πιστοποίηση για την ενεργοποίηση ή απενεργοποίηση της "
+#~ "απομακρυσμένης σύνδεσης"
+
+#~ msgid "_Computer Name"
+#~ msgstr "Όνομα υπολο_γιστή"
+
+#~ msgid "_File Sharing"
+#~ msgstr "_Κοινή χρήση αρχείων"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "Κοινή χρήση οθό_νης"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "Κοινή χρήση πο_λυμέσων"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Απομακρυσμένη σύνδεση"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr ""
+#~ "Μερικές υπηρεσίες είναι ανενεργές λόγω έλλειψης πρόσβασης στο δίκτυο."
+
+#~ msgid "File Sharing"
+#~ msgstr "Κοινή χρήση αρχείων"
+
+#~ msgid "_Require Password"
+#~ msgstr "Απαιτείται _κωδικός πρόσβασης"
+
+#~ msgid "Remote Login"
+#~ msgstr "Απομακρυσμένη σύνδεση"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Κοινή χρήση οθόνης"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "Να επιτ_ρέπεται στις συνδέσεις ο έλεγχος της οθόνης"
+
+#~ msgid "_Password:"
+#~ msgstr "Κω_δικός πρόσβασης:"
+
+#~ msgid "_Show Password"
+#~ msgstr "Ε_μφάνιση κωδικού πρόσβασης"
+
+#~ msgid "Access Options"
+#~ msgstr "Επιλογές πρόσβασης"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Οι _νέες συνδέσεις πρέπει να ζητούν πρόσβαση"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Απαιτείται κωδικός πρόσβασης"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Κοινή χρήση πολυμέσων"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Κοινή χρήση μουσικής, φωτογραφιών και βίντεο μέσω δικτύου."
+
+#~ msgid "Folders"
+#~ msgstr "Φάκελοι"
+
+#~ msgid "Sound"
+#~ msgstr "Ήχος"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr ""
+#~ "Αλλάξτε την ένταση ήχου, τις εισόδους, εξόδους και τις ηχητικές "
+#~ "ειδοποιήσεις"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Κάρτα;Μικρόφωνο;Ένταση;Απόσβεση;Ισορροπία;Bluetooth;Ακουστικά;Ήχος;Card;"
+#~ "Microphone;Volume;Fade;Balance;Headset;Audio;"
+
+#~ msgid "Bark"
+#~ msgstr "Γάβγισμα"
+
+#~ msgid "Drip"
+#~ msgstr "Σταγόνα"
+
+#~ msgid "Glass"
+#~ msgstr "Γυαλί"
+
+#~ msgid "Sonar"
+#~ msgstr "Σόναρ"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Αριστερά"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Δεξιά"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Πίσω"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Μπροστά"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Ελάχιστο"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Μέγιστο"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Ισοστάθμιση:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Βαθμιαία μείωση έντασης:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Subwoofer:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Χωρίς ενισχυτή"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Προφίλ:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "Έξοδος %u"
+#~ msgstr[1] "Έξοδοι %u"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "Είσοδος %u"
+#~ msgstr[1] "Είσοδοι %u"
+
+#~ msgid "System Sounds"
+#~ msgstr "Ήχοι συστήματος"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Δοκιμή ηχείων"
+
+#~ msgid "Peak detect"
+#~ msgstr "Εντοπισμός κορύφωσης"
+
+#~ msgid "Device"
+#~ msgstr "Συσκευή"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Δοκιμή ηχείου για %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Ένταση ήχου ε_ξόδου:"
+
+#~ msgid "Output"
+#~ msgstr "Έξοδος"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "Επι_λέξτε μια συσκευή για την έξοδο ήχου:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Ρυθμίσεις για την επιλεγμένη συσκευή:"
+
+#~ msgid "Input"
+#~ msgstr "Είσοδος"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Ένταση ήχου ει_σόδου:"
+
+#~ msgid "Input level:"
+#~ msgstr "Επίπεδο εισόδου:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "Επιλέ_ξτε μια συσκευή για την είσοδο ήχου:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Ηχητικά εφέ"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Έν_ταση ειδοποίησης:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Προς το παρόν καμία εφαρμογή δεν αναπαράγει ή καταγράφει ήχο."
+
+#~ msgid "Built-in"
+#~ msgstr "Ενσωματωμένο"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Προτιμήσεις ήχου"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Γίνεται δοκιμή ήχου γεγονότος"
+
+#~ msgid "Default"
+#~ msgstr "Προεπιλεγμένη"
+
+#~ msgid "From theme"
+#~ msgstr "Από θέμα"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "Επιλέ_ξτε έναν ήχο ειδοποίησης:"
+
+#~ msgid "Stop"
+#~ msgstr "Διακοπή"
+
+#~ msgid "Test"
+#~ msgstr "Δοκιμή"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Subwoofer"
+
+#~ msgid "Custom"
+#~ msgstr "Προσαρμοσμένη"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Γενική πρόσβαση"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr ""
+#~ "Κάντε πιο εύκολη την προβολή, την ακρόαση, την πληκτρολόγηση, την "
+#~ "κατάδειξη και το κλικ"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Πληκτρολόγιο;Ποντίκι;a11y;Προσιτότητα;Αντίθεση;Εστίαση;Οθόνη;Αναγνώστης;"
+#~ "κείμενο;γραμματοσειρά;μέγεθος;AccessX;Κολλημένο; Πλήκτρα;Αργά;Αναπήδηση;"
+#~ "Ποντίκι;Keyboard;Mouse;Accessibility;Contrast;Zoom;Screen;Reader;text;"
+#~ "font;size;Sticky;Keys;Slow;Bounce;Mouse;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "Να εμφανίζεται πά_ντα το καθολικό μενού πρόσβασης"
+
+#~ msgid "Seeing"
+#~ msgstr "Όραση"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Υψηλή αντίθεση"
+
+#~ msgid "_Large Text"
+#~ msgstr "Με_γάλο κείμενο"
+
+#~ msgid "_Zoom"
+#~ msgstr "Ε_στίαση"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "Ανα_γνώστης οθόνης"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "Πλήκτρα ή_χου"
+
+#~ msgid "Hearing"
+#~ msgstr "Ακοή"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "Ο_πτικές ειδοποιήσεις"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Π_ληκτρολόγιο οθόνης"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Πλήκτρα _επανάληψης"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "Ο δρομέας ανα_βοσβήνει"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "Βοήθεια πληκ_τρολόγησης (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Κατάδειξη και πάτημα"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "Πλήκτρα _ποντικιού"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Βοήθεια _κλικ"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "_Καθυστέρηση διπλού κλικ"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Καθυστέρηση διπλού κλικ"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Αναγνώστης οθόνης"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Ο αναγνώστης οθόνης διαβάζει το εμφανιζόμενο κείμενο καθώς μετακινείτε "
+#~ "την εστίαση."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Αναγνώστης ο_θόνης"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Πλήκτρα ήχου"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Ήχος κατά την ενεργοποίηση/απενεργοποίηση του Num Lock ή Caps Lock."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Οπτικές ειδοποιήσεις"
+
+#~ msgid "_Test flash"
+#~ msgstr "Δο_κιμή αναβοσβήματος"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Χρήση οπτικής ένδειξης όταν ακούγεται ήχος προειδοποίησης."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Αναβόσβημα τίτλου πα_ραθύρου"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Αναβόσβημα ολόκληρης της _οθόνης"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Πλήκτρα επανάληψης"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Επανάληψη πατήματος κατά το κράτημα ενός πλήκτρου."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Καθυστέρηση πλήκτρων επανάληψης"
+
+#~ msgid "Speed"
+#~ msgstr "Ταχύτητα"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Ταχύτητα πλήκτρων επανάληψης"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Ο δρομέας αναβοσβήνει"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Ο δρομέας αναβοσβήνει σε πεδία κειμένου."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Ταχύτητα αναβόσβησης του δρομέα"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Βοήθεια πληκτρολόγησης"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "Κο_λλώδη πλήκτρα"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Αντιμετωπίζει μια ακολουθία ειδικών πλήκτρων ως συνδυασμό"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "Α_πενεργοποίηση αν δύο πλήκτρα πατηθούν ταυτόχρονα"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Ήχος κατά το πάτημα πλήκτρου _τροποποίησης"
+
+#~ msgid "S_low Keys"
+#~ msgstr "Αρ_γά πλήκτρα"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr ""
+#~ "Εισάγει καθυστέρηση μεταξύ της πίεσης ενός πλήκτρου και της αποδοχής του"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "Κα_θυστέρηση αποδοχής:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Σύντομη"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Επιβράδυνση πληκτρολόγησης με τα αργά πλήκτρα"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Μεγάλη"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Ήχος κατά το πά_τημα πλήκτρου"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Ήχος κατά την απο_δοχή πλήκτρου"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Ήχος κατά την απόρρι_ψη πλήκτρου"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Πλήκτρα α_ναπήδησης"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Να αγνοούνται τα γρήγορα διπλά πατήματα πλήκτρων"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Σύντομη"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Επιβράδυνση πληκτρολόγησης με πλήκτρα αναπήδησης"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Μεγάλη"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Ενεργοποίηση με το πληκτρολόγιο"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr ""
+#~ "Ενεργοποίηση ή απενεργοποίηση των λειτουργιών προσιτότητας από το "
+#~ "πληκτρολόγιο"
+
+#~ msgid "Click Assist"
+#~ msgstr "Βοήθεια κλικ"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Προσομοιωμένο δευτερεύον κλικ"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Ενεργοποίηση ενός δευτερεύοντος κλικ πατώντας το πρωτεύον κουμπί"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Σύντομη"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Καθυστέρηση δευτερεύοντος κλικ"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Μεγάλη"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Πάτημα με α_ιώρηση"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Ενεργοποίηση ενός κλικ όταν αιωρείται ο δρομέας"
+
+#~ msgid "D_elay:"
+#~ msgstr "Καθυ_στέρηση:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Σύντομη"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Μεγάλη"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "_Κατώφλι κίνησης:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Μικρό"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Μεγάλο"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Σύντομο"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ της οθόνης"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ της οθόνης"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ της οθόνης"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Μακρύ"
+
+#~ msgid "Full Screen"
+#~ msgstr "Πλήρης οθόνη"
+
+#~ msgid "Top Half"
+#~ msgstr "Πάνω μισό"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Κάτω μισό"
+
+#~ msgid "Left Half"
+#~ msgstr "Αριστερό μισό"
+
+#~ msgid "Right Half"
+#~ msgstr "Δεξιό μισό"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Επιλογές εστίασης"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Μεγέθυνση:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Ακολούθησε το δρομέα του ποντικιού"
+
+#~ msgid "_Screen part:"
+#~ msgstr "Μέ_ρος της οθόνης:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "Ο μεγεθυντής _επεκτείνεται έξω από την οθόνη"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "_Κράτησε επικεντρωμένο το δρομέα του μεγεθυντή"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Ο δρομέας του μεγεθυντή _ωθεί τα περιεχόμενα"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Ο δρομέας του μεγεθυντή κινείται μαζί με τα π_εριεχόμενα"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Θέση μεγεθυντή:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Μεγεθυντής"
+
+#~ msgid "_Thickness:"
+#~ msgstr "Πά_χος:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Λεπτό"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Παχύ"
+
+#~ msgid "_Length:"
+#~ msgstr "_Διάρκεια:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "Χ_ρώμα:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "_Στόχοι:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "Επι_κάλυψη δρομέα του ποντικιού"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Στόχος"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Μαύρο σε λευκό:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Φωτεινότητα:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Αντίθεση:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "Χ_ρώμα"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Κανένα"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Πλήρες"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Χαμηλή"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Υψηλή"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Χαμηλή"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Υψηλή"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Εφέ χρώματος:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Εφέ χρώματος"
+
+#~ msgid "You are Offline"
+#~ msgstr "Αποσυνδεδεμένο"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Εγγραφή"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Διαχείριση λογαριασμών των χρηστών"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Χαρτογράφηση κουμπιών"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Χαρτογράφηση κουμπιών σε συναρτήσεις"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Για να επεξεργαστείτε μια συντόμευση, επιλέξτε την ενέργεια \"Αποστολή "
+#~ "πληκτρολόγησης\", πατήστε στο κουμπί συντόμευσης πληκτρολογίου και "
+#~ "κρατήστε πατημένα τα νέα πλήκτρα ή πατήστε οπισθοδιαγραφή για εκκαθάριση."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Παρακαλώ πατήστε τους δείκτες όπως αυτοί εμφανίζονται στην οθόνη για να "
+#~ "βαθμονομήσετε το tablet σας."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Ανιχνεύθηκε mis-click, γίνεται επανεκκίνηση..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Πάνω"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Κάτω"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Καμία"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Αποστολή πατήματος πλήκτρου"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Αλλαγή οθόνης"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Εμφάνιση βοήθειας στην οθόνη"
+
+#~ msgid "Output:"
+#~ msgstr "Έξοδος:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Διατήρηση λόγου θέασης (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Χαρτογράφηση σε μια οθόνη"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d από %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Χαρτογράφηση οθόνης"
+
+#~ msgid "Button"
+#~ msgstr "Κουμπί"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wacom Tablet"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Ορίστε τα κουμπιά και ρυθμίστε την ευαισθησία γραφίδας stylus για "
+#~ "ταμπλέτες γραφικών"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Ταμπλέτα;Wacom;Γραφίδα (Stylus);Σβήστρα (Eraser);Ποντίκι;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tablet (απόλυτη)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Επιφάνεια αφής (σχετικό)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Προτιμήσεις tablet"
+
+#~ msgid "_Help"
+#~ msgstr "_Βοήθεια"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Δεν εντοπίσθηκε tablet"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Παρακαλούμε ενεργοποιήστε ή συνδέστε το Wacom tablet"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Ρυθμίσεις Bluetooth"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom Tablet"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Χαρτογράφηση στην οθόνη…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Χαρτογράφηση κουμπιών…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Βαθμονόμηση…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Καθορισμός ανάλυσης οθόνης"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Προσαρμογή ρυθμίσεων ποντικιού"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Λειτουργία παρακολούθησης"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Προσανατολισμός για αριστερόχειρες"
+
+#~ msgid "Left Ring"
+#~ msgstr "Αριστερός δακτύλιος"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Λειτουργία αριστερού δακτυλίου #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Δεξιός δακτύλιος"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Λειτουργία δεξιού δακτυλίου #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Αριστερή λουρίδα επαφής"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Λειτουργία αριστερής λωρίδας #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Δεξιά λουρίδα επαφής"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Λειτουργία δεξιάς λουρίδας επαφής #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Λειτουργία διακόπτη αριστερού δακτυλίου"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Λειτουργία διακόπτη δεξιού δακτυλίου"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Λειτουργία διακόπτη αριστερής λουρίδας επαφής"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Λειτουργία διακόπτη δεξιάς λουρίδας επαφής"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Λειτουργία διακόπτη #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Αριστερό κουμπί #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Δεξί κουμπί #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Πάνω κουμπί #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Κάτω κουμπί #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Νέα συντόμευση…"
+
+#~ msgid "No Action"
+#~ msgstr "Καμμία ενέργεια"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Αριστερό κλικ κουμπιού του ποντικιού"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Μεσαίο κλικ κουμπιού του ποντικιού"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Δεξί κλικ κουμπιού του ποντικιού"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Κύλιση πάνω"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Κύλιση κάτω"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Κύλιση αριστερά"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Κύλιση δεξιά"
+
+#~ msgid "Back"
+#~ msgstr "Πίσω"
+
+#~ msgid "Forward"
+#~ msgstr "Μπροστά"
+
+#~ msgid "Stylus"
+#~ msgstr "Stylus"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Αίσθηση πίεσης σβήστρας"
+
+#~ msgid "Soft"
+#~ msgstr "Απαλή"
+
+#~ msgid "Firm"
+#~ msgstr "Σφιχτή"
+
+#~ msgid "Top Button"
+#~ msgstr "Πάνω κουμπί"
+
+#~ msgid "Lower Button"
+#~ msgstr "Κάτω πλήκτρο"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Αίσθηση πίεσης μύτης"
+
+#~ msgid "All Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "Κέντρου ελέγχου GNOME"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Εργαλεία για τη ρύθμιση του GNOME"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Το κέντρο ελέγχου είναι η κύρια διεπαφή του GNOME για τη ρύθμιση διάφορων "
+#~ "πτυχών της επιφάνειας εργασίας σας."
+
+#~ msgid "Display version number"
+#~ msgstr "Εμφάνιση αριθμού έκδοσης"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Ενεργοποίηση λειτουργίας εμφάνισης λεπτομερειών"
+
+#~ msgid "Show the overview"
+#~ msgstr "Εμφάνιση της επισκόπησης"
+
+#~ msgid "Search for the string"
+#~ msgstr "Αναζήτηση συμβολοσειράς"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Λίστα με τα πιθανά ονόματα πίνακα και έξοδος"
+
+#~ msgid "Panel to display"
+#~ msgstr "Πίνακας για εμφάνιση"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[ΠΙΝΑΚΑΣ] [ΟΡΙΣΜΑ…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Διαθέσιμοι πίνακες:"
+
+#~ msgid "Help"
+#~ msgstr "Βοήθεια"
+
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Προσωπικά"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Υλικό"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Σύστημα"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Προτιμήσεις;Ρυθμίσεις;Preferences;Settings;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Έξοδος"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Αναζήτηση"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Πίνακες"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Επιστροφή στην επισκόπηση"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Ακύρωση αναζήτησης"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Σημείο πρόσβασης"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Για να επεξεργασθείτε μια συντόμευση, κάντε κλικ στην αντίστοιχη σειρά "
+#~ "και κρατήστε πατημένα τα νέα πλήκτρα ή πατήστε backspace για εκκαθάριση."
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Σφάλμα σύνδεσης στο λογαριασμό"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Τα διαπιστευτήρια έχουν λήξει."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Συνδεθείτε για την ενεργοποίηση αυτού του λογαριασμού."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Σύνδεση"
+
+#~ msgid "Color"
+#~ msgstr "Χρώμα"
+
+#~ msgid "_Name:"
+#~ msgstr "Ό_νομα:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Προσθήκη συντόμευσης"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Αφαίρεση συντόμευσης"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Άγνωστη ενέργεια>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Η συντόμευση \"%s\" δεν θα χρησιμοποιηθεί γιατί θα επηρεάσει την "
+#~ "πληκτρολόγηση.\n"
+#~ "Χρησιμοποιήστε την σε συνδυασμό με πλήκτρα όπως το Control, Alt ή Shift."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Η συντόμευση \"%s\" χρησιμοποιείται ήδη για:\n"
+#~ " \"%s\""
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Αν αναθέσετε ξανά τη συντόμευση στο \"%s\", η συντόμευση \"%s\" θα "
+#~ "απενεργοποιηθεί."
+
+#~ msgid "_Reassign"
+#~ msgstr "Ανά_θεση ξανά"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "Η συντόμευση \"%s\" έχει μια συνδεόμενη συντόμευση στο \"%s\". Θέλετε να "
+#~ "την ορίσετε αυτόματα στο \"%s\";"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "Η \"%s\" συνδέεται προς το παρόν με την \"%s\" και θα απενεργοποιηθεί αν "
+#~ "προχωρήσετε."
+
+#~ msgid "_Assign"
+#~ msgstr "_Ανάθεση"
+
+#~ msgid "Bond"
+#~ msgstr "Δεσμός"
+
+#~ msgid "Team"
+#~ msgstr "Ομάδα"
+
+#~ msgid "Bridge"
+#~ msgstr "Γέφυρα"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Αδυναμία φόρτωσης προσθέτων VPN"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Προσθήκη σύνδεσης δικτύου"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Υποτελείς δεσμοί"
+
+#~ msgid "(none)"
+#~ msgstr "(κανένας)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Υποτελείς γέφυρες"
+
+#~ msgid "Team slaves"
+#~ msgstr "Υποτελείς ομάδας"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "Η συσκευή InfiniBand δεν υποστηρίζει τη λειτουργία σύνδεσης"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Δεν έχει επιλεχθεί πιστοποιητικό της αρχής πιστοποίησης"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Η έλλειψη χρήσης πιστοποιητικού αρχής πιστοποίησης (CA), μπορεί να "
+#~ "καταλήξει σε συνδέσεις σε επισφαλή και ευάλωτα δίκτυα Wi-Fi. Θέλετε να "
+#~ "επιλέξετε ένα πιστοποιητικό αρχής πιστοποίησης;"
+
+#~ msgid "Ignore"
+#~ msgstr "Παράβλεψη"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Επιλέξτε πιστοποιητικό CA"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "Ε_ρώτηση για αυτόν τον κωδικό πρόσβασης κάθε φορά"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "Να _μην προειδοποιηθώ ξανά"
+
+#~ msgid "No"
+#~ msgstr "Όχι"
+
+#~ msgid "Yes"
+#~ msgstr "Ναι"
+
+#~ msgid "Power"
+#~ msgstr "Ενέργεια"
+
+#~ msgid "Privacy"
+#~ msgstr "Ιδιωτικότητα"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Άλλο"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Κοινή χρήση προσωπικών αρχείων"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "Να επιτ_ρέπεται ο απομακρυσμένος έλεγχος"
+
+#~ msgid "_Verify"
+#~ msgstr "_Επαλήθευση"
+
+#~ msgid "Login History"
+#~ msgstr "Ιστορικό συνδέσεων"
+
+#~ msgid "Add User Account"
+#~ msgstr "Προσθήκη λογαριασμού χρήστη"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Αφαίρεση λογαριασμού χρήστη"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Υπάρχει ήδη ένας χρήστης με όνομα '%s'."
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "Χρησιμοποιείται για να καθοριστεί η γεωγραφική σας θέση"
+
+#~ msgid "Done"
+#~ msgstr "Έτοιμο"
+
+#~ msgid "Time _Zone"
+#~ msgstr "_Ζώνη ώρας"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Ενεργές εργασίες"
+
+#~ msgid "Close"
+#~ msgstr "Κλείσιμο"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Συνέχιση εκτύπωσης"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Παύση εκτύπωσης"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Ακύρωση εργασίας εκτύπωσης"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Σε αναμονή"
+
+#~ msgid "Job Title"
+#~ msgstr "Τίτλος εργασίας"
+
+#~ msgid "Job State"
+#~ msgstr "Κατάσταση εργασίας"
+
+#~ msgid "Time"
+#~ msgstr "Ώρα"
+
+#~ msgid "Options"
+#~ msgstr "Επιλογές"
+
+#~ msgid "Password:"
+#~ msgstr "Κωδικός πρόσβασης:"
+
+#~ msgid "_Repeat Keys"
+#~ msgstr "Πλήκτρα επανάλη_ψης"
+
+#~ msgid "_Cursor Blinking"
+#~ msgstr "Ο _δρομέας αναβοσβήνει"
+
+#~ msgid "Zoom"
+#~ msgstr "Εστίαση"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Χρώμα"
+
+#~ msgid "_Delay:"
+#~ msgstr "Καθυ_στέρηση:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Σύντομη"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Αργή"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Μεγάλη"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Γρήγορη"
+
+#~ msgid "S_peed:"
+#~ msgstr "Τα_χύτητα:"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Δοκιμή των ρυθμίσεων σας"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Αργό"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Γρήγορο"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "Αρ_ιστερά"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "Δ_εξιά"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "Ταχύτητα δεί_κτη"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Αργή"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Γρήγορη"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Αργή"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Γρήγορη"
+
+#~ msgid "No printers available"
+#~ msgstr "Δεν υπάρχουν διαθέσιμοι εκτυπωτές"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Προσθήκη νέου εκτυπωτή"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Το Bluetooth είναι απενεργοποιημένο"
+
+#~ msgid "Security key"
+#~ msgstr "Κλειδί ασφαλείας"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "Οι ασύρματες συσκευές απαιτούν επιπλέον ισχύ"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "Όταν η ισχύς της μπαταρίας είναι _χαμηλή"
+
+#~ msgid "Power Off"
+#~ msgstr "Τερματισμός"
+
+#~ msgid "Power off"
+#~ msgstr "Τερματισμός"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "Η κοινή χρήση Bluetooth επιτρέπει να μοιραστείτε αρχεία με άλλες ενεργές "
+#~ "συσκευές Bluetooth"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Να γίνεται λήψη μόνο από έμπιστες συσκευές"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Αποθήκευση των ληφθέντων αρχείων στον φάκελο λήψεων"
+
+#~ msgid "Show help options"
+#~ msgstr "Εμφάνιση επιλογών βοήθειας"
+
+#~ msgid "- Settings"
+#~ msgstr "- Ρυθμίσεις"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Εκτελέστε '%s --help' για να δείτε μια πλήρη λίστα με τις διαθέσιμες "
+#~ "επιλογές της γραμμής εντολών.\n"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "Απενεργοποίηση ασύρματων συσκευών"
+
+#~ msgid "United States"
+#~ msgstr "Ηνωμένες Πολιτείες Αμερικής"
+
+#~ msgid "Germany"
+#~ msgstr "Γερμανία"
+
+#~ msgid "France"
+#~ msgstr "Γαλλία"
+
+#~ msgid "Spain"
+#~ msgstr "Ισπανία"
+
+#~ msgid "China"
+#~ msgstr "Κίνα"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "Απενεργοποίηση κατά την πληκ_τρολόγηση"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr ""
+#~ "Οι υπηρεσίες δικτύου του συστήματος δεν είναι συμβατές με αυτή την έκδοση."
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Εμφάνιση αναδυόμενων τίτλων"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Εμφάνιση στο κλείδωμα οθόνης"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "Εμφάνιση αναδυόμενων τίτλων"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Εμφάνιση στο κλείδωμα οθόνης"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr ""
+#~ "Εισάγετε διεύθυνση ενός εκτυπωτή ή κείμενο για φιλτράρισμα αποτελεσμάτων"
+
+#~ msgid "Sorry"
+#~ msgstr "Συγνώμη"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "Διαμοιρασμός μέσων σε αυτό το δίκτυο"
+
+#~ msgid "Shared Folders"
+#~ msgstr "Κοινόχρηστοι φάκελοι"
+
+#~ msgid "column"
+#~ msgstr "στήλη"
+
+#~ msgid "Remove Folder"
+#~ msgstr "Αφαίρεση φακέλου"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "Διαμοιρασμός δημόσιου φακέλου σε αυτό το δίκτυο"
+
+#~ msgid "Immediately"
+#~ msgstr "Αμέσως"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Install Updates"
+#~ msgstr "Εγκατάσταση ενημερώσεων"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "Το σύστημα είναι ενημερωμένο"
+
+#~ msgid "Search for network printers or filter result"
+#~ msgstr "Αναζήτηση για δικτυακούς εκτυπωτές ή φιλτράρισμα αποτελέσματος"
+
+#~ msgid "_Default"
+#~ msgstr "Προεπι_λογή"
+
+#~ msgid "Remote View"
+#~ msgstr "Απομακρυσμένη προβολή"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "Επικύρωση όλων των συνδέσεων"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "Εγκατάσταση νέας συσκευής"
+
+#~ msgid "Connection"
+#~ msgstr "Σύνδεση"
+
+#~ msgid "Paired"
+#~ msgstr "Συζευγμένα"
+
+#~ msgid "Type"
+#~ msgstr "Τύπος"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "Ρυθμίσεις ποντικιού & πινακίδας αφής"
+
+#~ msgid "Sound Settings"
+#~ msgstr "Ρυθμίσεις ήχου"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "Ρυθμίσεις πληκτρολογίου"
+
+#~ msgid "Send Files…"
+#~ msgstr "Αποστολή αρχείων…"
+
+#~ msgid "Visibility"
+#~ msgstr "Ορατότητα"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "Ορατότητα του “%s”"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "Να αφαιρεθεί το '%s' από την λίστα των συσκευών;"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "Εάν αφαιρέσετε την συσκευή, θα πρέπει να την ρυθμίσετε ξανά την επόμενη "
+#~ "φορά που θα την χρησιμοποιήσετε."
+
+#~ msgid "Share Public Folder"
+#~ msgstr "Μερισμός δημόσιου φακέλου"
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "Μερισμός μόνο με έμπιστες συσκευές"
+
+#~ msgid "Device type:"
+#~ msgstr "Τύπος συσκευής:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "Κατασκευαστής:"
+
+#~ msgid "Model:"
+#~ msgstr "Μοντέλο:"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr ""
+#~ "Τα αρχεία εικόνων μπορούν να μεταφερθούν σε αυτό το παράθυρο για αυτόματη "
+#~ "συμπλήρωση των παραπάνω πεδίων."
+
+#~ msgid "_Region:"
+#~ msgstr "Περιο_χή:"
+
+#~ msgid "_City:"
+#~ msgstr "Πό_λη:"
+
+#~ msgid "_Network Time"
+#~ msgstr "Ώρα _δικτύου"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "Ορισμός της ώρας μια ώρα μπροστά."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "Ορισμός της ώρας μια ώρα πίσω."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "Ορισμός της ώρας ένα λεπτό μπροστά."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "Ορισμός της ώρας ένα λεπτό πίσω."
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "Εναλλαγή μεταξύ ΠΜ και ΑΜ."
+
+#~ msgid "AM/PM"
+#~ msgstr "ΠΜ/ΜΜ"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "Κανονικό"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "Δεξιόστροφα"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 μοίρες"
+
+#~ msgid "Monitor"
+#~ msgstr "Οθόνη"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "Σύρετε για να αλλάξετε την κύρια οθόνη."
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Επιλέξτε μια οθόνη για να αλλάξετε τις ιδιότητες της· μεταφέρτε την για "
+#~ "να αναδιατάξετε την θέση της."
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "Failed to apply configuration: %s"
+#~ msgstr "Αποτυχία εφαρμογής των ρυθμίσεων: %s"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Αδυναμία αποθήκευσης των ρυθμίσεων της οθόνης"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Αδυναμία εντοπισμού οθονών"
+
+#~ msgid "_Resolution"
+#~ msgstr "_Ανάλυση"
+
+#~ msgid "R_otation"
+#~ msgstr "Πε_ριστροφή"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "_Καθρεφτισμός οθονών"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "Σημείωση: πιθανότητα μείωσης επιλογών ανάλυσης"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "Α_νίχνευση οθονών"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Προτιμήσεις ποντικιού"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "Επιλογή διασύνδεσης χρήστη για την νέα υπηρεσία"
+
+#~ msgid "C_reate…"
+#~ msgstr "Δ_ημιουργία…"
+
+#~ msgid "_Interface"
+#~ msgstr "Δ_ιεπαφή"
+
+#~ msgid "Estimated battery capacity: %s"
+#~ msgstr "Εκτιμώμενη χωρητικότητα μπαταρίας: %s"
+
+#~ msgid "Hidden"
+#~ msgstr "Κρυφό"
+
+#~ msgid "Visible"
+#~ msgstr "Ορατό"
+
+#~ msgid "Name & Visibility"
+#~ msgstr "Όνομα & ορατότητα"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr "Έλεγχος εμφάνισης στην οθόνη και το δίκτυο."
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "_Πλήρες όνομα οθόνης στην πάνω γραμμή"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "Πλήρες όνομα οθόνης σε _κλείδωμα οθόνης"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "Κατάσταση _απόκρυψης"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "Καμία"
+
+#~ msgid "Show Status When _Inactive"
+#~ msgstr "Εμφάνιση κατάστασης όταν είναι α_νενεργό"
+
+#~ msgid "_Login Name"
+#~ msgstr "Όνομα ει_σόδου"
+
+#~ msgid "Login _Password"
+#~ msgstr "Κω_δικός πρόσβασης σύνδεσης"

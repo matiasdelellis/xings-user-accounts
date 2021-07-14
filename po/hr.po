@@ -1,0 +1,5355 @@
+# Translation of gnome-control-center 2.0 for Croatiann
+# Copyright (C) Croatiann team
+# Translators: Automatski Prijevod <>,Danijel Studen <dstuden@vuka.hr>,Denis Lackovic <delacko@fly.srk.fer.hr>,Robert Sedak <robert.sedak@sk.t-com.hr>,Vedran Vyroubal <vedran.vyroubal@inet.hr>,Miroslav Sabljić <civija@ubuntu-hr.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-10-10 19:59+0200\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2016-10-09 11:56+0000\n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Korisničko ime"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Puno ime"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Standardan"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "Vrsta _računa"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Lozinka"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "Dopušta korisniku postavljanje lozinke pri sljedećoj _prijavi"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Postavi lozinku _odmah"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "_Lozinka"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Potvrdi"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Poslovna prijava dopušta centralizirano upravljanje postojećim korisničkim "
+"računom kako bi se mogao koristiti na ovom uređaju. Taj račun možete "
+"koristiti isto za pristup resursima tvrtke na internetu."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Domena"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr "Morate biti povezani s internetom za dodavanje poslovnih korisnika."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Poslovno prijavljivanje"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Dodaj korisnika"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Prijava administratora domene"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Za korištenje poslovnog prijavljivanja, ovo računalo treba biti\n"
+"upisano u domenu. Neka administrator vaše mreže ovdje upiše\n"
+"lozinku njihove domene."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Administratorovo _ime"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Administratorova lozinka"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Lijevi palac"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Lijevi srednjak"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Lijevi prestenjak"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Lijevi mali prst"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Desni palac"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Desni srednjak"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Desni prestenjak"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Desni mali prst"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Omogući prijavu otiskom prsta"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Desni kažiprst"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Lijevi kažiprst"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Drugi prst:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Vaš otisak prsta je uspješno spremljen. Sada biste trebali biti u mogućnosti "
+"prijaviti se koristeći čitač otisaka prsta."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Korisnici"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Dodajte ili uklonite korisnike i promijenite svoju lozinku"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Prijava;Ime;Otisak prsta;Avatar;Logo;Lice;Lozinka;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Promijeni lozinku"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Odustani"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Pr_omijeni"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Nova lozinka"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Nova lozinka"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Trenutna _lozinka"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "Dopušta korisniku postavljanje lozinke pri sljedećoj prijavi"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Postavi lozinku odmah"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "_Dodaj korisnika..."
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Mogućnosti približenja/udaljenja"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "A_utomatska prijava"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Prijava otiskom prsta"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Ikona korisnika"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Posljednja prijava"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Ukloni račun"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Ostali računi"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Neuspjelo brisanje korisnika"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "Nemoguće je opozvati udaljeno upravljanog korisnika"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Ne možete obrisati vlastiti račun."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s je još prijavljen"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Brisanje korisnika dok su prijavljeni može ostaviti sustav u neupotrebljivom "
+"stanju."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Želite li zadržati  %s's datoteke?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Moguće je očuvati osobnu mapu, e-poštu i privremene datoteke kada se briše "
+"korisnički račun."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Obriši datoteke"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Zadrži datoteke"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Sigurno želite opozvati udaljeno upravljani %s's račun?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Obriši"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Račun onemogućen"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Biti će postavljen kod sljedeće prijave"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Nepoznata"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Prijavljeni"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Neuspjelo kontaktiranje usluge računa"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Pobrinite se da je AccountService instaliran i omogućen."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Kako bi napravili promjene\n"
+"prvo kliknite * ikonu"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Napravite korisnički račun"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Kako biste napravili korisnički račun,\n"
+"najprije kliknite na ikonu *"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Obrišite odabrani korisnički račun"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Kako biste obrisali odabrani korisnički račun,\n"
+"najprije kliknite na ikonu *"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Moj račun"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Nova lozinka mora se razlikovati od stare."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Pokušajte promijeniti neka slova i brojeve."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Pokušajte promijeniti lozinku malo više."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Lozinka bez vašeg korisničkog imena bila bi snažnija."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Pokušajte izbjeći korištenje svojeg imena u lozinici."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Pokušajte izbjeći neke riječi sadržane u lozinici."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Pokušajte izbjeći učestale riječi."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Pokušajte izbjeći preslagivanje postojećih riječi."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Pokušajte koristiti više brojeva."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Pokušajte koristiti više velikih slova."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Pokušajte koristiti više malih slova."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Pokušajte koristiti više posebnih znakova, poput interpukcija."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Pokušajte koristiti mješavinu slova, brojeva i interpukcija."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Pokušajte izbjeći iste znakove."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Pokušajte izbjeći ponavljanje istih znakova, trebate koristiti mješavinu "
+"slova, brojeva i interpukcija."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Pokušajte izbjeći slijedove poput 1234 ili abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Pokušajte koristiti mješavinu slova, brojeva i interpukcija."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr "Izmješajte velika i mala slova i dodajte slovo ili dva."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Dobra lozinka! Dodavanjem više slova, brojeva i punktacija učinit će je "
+"snažnijom."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Ovjera nije uspjela"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Nova lozinka je prekratka"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Nova lozinka je prejednostavna"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Nova i stara lozinka su preslične"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Nova lozinka je nedavno već korištena."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Nova lozinka mora sadržavati brojčane ili posebne znakove"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Stara i nova lozinka su iste"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Vaša lozinka je promijenjena otkada ste se prvotno ovjerili!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Nova lozinka ne sadrži dovoljno različitih znakova"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Nepoznata greška"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Treba se podudarati web adresa vašeg pružatelja računa."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Dodavanje računa nije upjelo"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Lozinka se ne podudara."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Registracija računa nije uspjela"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Nema podaržanog načina za ovjeru s ovom domenom"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Pridruživanje s domenom nije uspjelo"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"To ime prijave ne radi.\n"
+"Pokušajte ponovno."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Ta lozinka prijave ne radi.\n"
+"Pokušajte ponovno."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Prijava na domenu nije uspjela"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Nemoguće je pronaći domenu. Možda ste ju pogrešno upisali?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Dodaj"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standardan"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Administrator"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Nemate ovlasti pristupa ovom uređaju. Kontaktirajte svog administratora."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Ovaj se uređaj već koristi"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Dogodila se unutrašnja greška."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Onemogućen"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Obrisati registrirane otiske prsta?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Obriši otiske prsta"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Želite li obrisati svoje registrirane otiske prsta, te će prijava pomoću "
+"otiska prsta biti onemogućena?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Završeno!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Nemoguće pristupiti uređaju '%s'"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Nemoguće uzeti otiske prsta na uređaju '%s'"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Nemoguće pristupiti nijednom čitaču otiska prsta"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Za pomoć upitajte svog administratora."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Za omogućavanje prijave otiskom prsta, morate spremiti jedan od vaših "
+"otisaka prsta koristeći '%s' uređaj."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Odabiranje prsta"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Upisivanje otisaka"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Sažetak"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Ovaj tjedan"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Protekli tjedan"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Sesija omogućena"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Sesija pokrenuta"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s - Aktivnost računa"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Odaberite drugu lozinku."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Ponovo upišite vašu trenutnu lozinku."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Lozinka ne može biti promijenjena"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Odaberi"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Potraži još slika"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Otvori"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Onemogući sliku"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Uslikaj…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Pregledaj za više slika..."
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Koristio %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Nemoguće se automatski pridružiti ovoj vrsti domene"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Takva domena ili područje nije pornađeno"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Nemoguća prijava kao %s na %s domenu"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Neispravna lozinka, pokušajte ponovno"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Nemoguće povezivanje s %s domenom: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Nažalost, to korisničko ime nije dostupno. Pokušajte s drugim."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "Korisnčko ime je predugačko."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "Korisničko ime ne može početi s '-'."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Korisničko ime može sadržavati samo mala i velika slova od a-z, brojke i ove "
+"znakove: '.', '-' i '_'."
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"To će se koristiti kao naziv vaše osobne mape i ne može se promijeniti."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Danas"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Jučer"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "_Potvrdi novu lozinku"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Pokušajte dodati više slova, brojeva i simbola."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Snaga: slaba"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Snaga: mala"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Snaga: srednja"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Snaga: dobra"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Snaga: velika"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Lozinke se ne podudaraju."
+
+#~ msgid "_Background"
+#~ msgstr "_Pozadina"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Promjene u tijeku dana"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Zaključani zaslon"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Popločano"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Približavanje/Udaljavanje"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Sredina"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Prilagodba veličine"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Ispuni"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Raspon"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Pozadinske slike"
+
+#~ msgid "Colors"
+#~ msgstr "Boje"
+
+#~ msgid "Select Background"
+#~ msgstr "Odaberi pozadinu"
+
+#~ msgid "Pictures"
+#~ msgstr "Slike"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Nema pronađenih slika"
+
+#~ msgid "Home"
+#~ msgstr "Osobna mapa"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr ""
+#~ "Možete dodati slike u vašu %s mapu i zatim će se prikazati ovdje gore"
+
+#~ msgid "_Select"
+#~ msgstr "_Odaberi"
+
+#~ msgid "multiple sizes"
+#~ msgstr "višestruke veličine"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Bez pozadine radne površine"
+
+#~ msgid "Current background"
+#~ msgstr "Trenutna pozadina"
+
+#~ msgid "Back­ground"
+#~ msgstr "Pozadina"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Promijenite vašu pozadinsku sliku u sliku pozadine ili fotografiju"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Slika pozadine;Zaslon;Radna površina;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Isključi način rada u zrakoplovu"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Nema pronađenih Bluetooth uređaja"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Priključite uređaj kako bi mogli koristiti Bluetooth"
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth je isključen"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr "Uključite za povezivanje uređaja i prijenos datoteka."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Način rada u zrakoplovu je uključen"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "Bluetooth je onemogućen kada je način rada u zrakoplovu uključen."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Hardverski način rada u zrakoplovu je uključen"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr ""
+#~ "Isključite način rada u zrakoplovu kako bi mogli kristiti Bluetooth."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Blue­tooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Uključite ili isključite Bluetooth i povežite svoje uređaje"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "dijeli;dijeljenje;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Smjestite vaš uređaj za kalibraciju preko četverokuta i pritisnite "
+#~ "'Pokreni'"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Pomaknite vaš uređaj za kalibraciju na položaj kalibracije i pritisnite "
+#~ "'Nastavi'"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Pomaknite vaš uređaj za kalibraciju na položaj površine i pritisnite "
+#~ "'Nastavi'"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Spusti zaslon prijenosnika"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Dogodila se unutrašnja greška koja se ne može oporaviti."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Alati potrebni za kalibraciju nisu instalirani."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Profil se ne može stvoriti."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Odredišna bijela točka je dostižna."
+
+#~ msgid "Complete!"
+#~ msgstr "Završeno!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Kalibracija nije uspjela!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Možete ukloniti uređaj za kalibraciju."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Nemojte ometati uređaj tijekom kalibracije"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Zaslon prijenosnika"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Ugrađena web kamera"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s zaslon"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s skener"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s kamera"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s pisač"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s web kamera"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Omogući upravljanje bojom za %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Prikaži profile boje za %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Nije kalibriran"
+
+#~ msgid "Default: "
+#~ msgstr "Uobičajeno: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Raspon boja: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Testni profil: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Odaberi ICC datoteku profila"
+
+#~ msgid "_Import"
+#~ msgstr "_Uvezi"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Podržani ICC profili"
+
+#~ msgid "All files"
+#~ msgstr "Sve datoteke"
+
+#~ msgid "Screen"
+#~ msgstr "Zaslon"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Neuspjelo slanje datoteke: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Profil je poslan na:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Zapišite ovaj URL"
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Ponovno pokrenite ovo računalo i pokrenite vaš uobičajeni operativni "
+#~ "sustav."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr "Upišite URL u vaš preglednik za preuzimanje i instalaciju profila."
+
+#~ msgid "Save Profile"
+#~ msgstr "Spremi profil"
+
+#~ msgid "_Save"
+#~ msgstr "_Spremi"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Napravi profil boje za odabrani uređaj"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Mjerni uređaj nije pronađen. Provjerite je li uključen i ispravno spojen."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Mjerni uređaj ne podržava profiliranje pisača."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Vrsta uređaja trenutno nije podržana."
+
+#~ msgid "Standard Space"
+#~ msgstr "Standardan razmak"
+
+#~ msgid "Test Profile"
+#~ msgstr "Testiraj profil"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatski"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Niska kvaliteta"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Srednja kavaliteta"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Visoka kvaliteta"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Uobičajeni RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Uobičajeni CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Uobičajeno sivo"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Proizvođačem isporučeni podaci tvorničke kalibracije"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Cijelozaslonski prikaz nije moguć sa ovim profilom"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Ovaj profil možda nije više točan"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Kalibracija zaslona"
+
+#~ msgid "_Start"
+#~ msgstr "_Pokreni"
+
+#~ msgid "_Resume"
+#~ msgstr "_Nastavi"
+
+#~ msgid "_Done"
+#~ msgstr "_Završeno"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Kalibracija zaslona"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "Kalibracija će stvoriti profil koji možete koristiti za upravljanje bojom "
+#~ "vašeg zaslona. Ako dulje kalibrirate, biti će bolja kvaliteta profila "
+#~ "boje."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Nećete moći koristiti vaše računalo dok kalibracija traje."
+
+#~ msgid "Quality"
+#~ msgstr "Kvaliteta"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Približno vrijeme"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kvaliteta kalibracije"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Odaberite senzor uređaja koji želite koristiti za kalibraciju."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Uređaj kalibracije"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Odaberite vrstu zalona koji je priključen."
+
+#~ msgid "Display Type"
+#~ msgstr "Vrsta zalona"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Odaberi odredišnu bijelu točku zaslona. Veći zaslona bi trebalo "
+#~ "kalibrirati na D65 svijetlo."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profil bijele točke"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Postavite zaslon na svjetlinu koje je karakteristična vama. Upravljanje "
+#~ "bojama biti će najpreciznije na toj razini svjetline."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Alternativno, možete koristiti razinu svjetline s jednim od drugih "
+#~ "profila za ovaj uređaj."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Svjetlina zaslona"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Možete koristiti profil boja na različitim računalima ili čak stvoriti "
+#~ "profile za različite uvjete svjetline."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Naziv profila:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Naziv profila"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Profil je uspješno stvoren!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Kopiraj profil"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Zahtijeva zapisivi medij"
+
+#~ msgid "Upload profile"
+#~ msgstr "Pošalji profil"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Zahtijeva pristup Internetu"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Ove upute kako koristiti profil možete pogledati na <a href=\"linux\">GNU/"
+#~ "Linuxu</a>, <a href=\"osx\">Apple OS X</a> i <a href=\"windows"
+#~ "\">Microsoft Windows</a> upotrebljivim sustavima."
+
+#~ msgid "Add profile"
+#~ msgstr "Dodaj profil"
+
+#~ msgid "_Import File…"
+#~ msgstr "_Uvezi datoteku..."
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Otkriven je problem. Profil možda neće raditi ispravno. <a href="
+#~ "\"\">Prikaži pojedinosti.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Svaki uređaj posebno mora imati nadopunjeni profil boja kako bi se "
+#~ "upravljalo bojama na tim uređajima."
+
+#~ msgid "Learn more"
+#~ msgstr "Saznajte više"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Saznajte više o upravljanju bojama"
+
+#~ msgid "_Set for all users"
+#~ msgstr "_Postavi za sve korisnike"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Postavi ovaj profil za sve korisnike na ovom računalu"
+
+#~ msgid "_Enable"
+#~ msgstr "_Omogući"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Dodaj profil"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibriraj..."
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Kalibriraj uređaj"
+
+#~ msgid "_Remove profile"
+#~ msgstr "_Ukloni profil"
+
+#~ msgid "_View details"
+#~ msgstr "_Pogledaj pojedinosti"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr ""
+#~ "Nemoguće otkrivanje bilo kojeg uređaja kojima se može upravaljati bojom"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektor"
+
+#~ msgid "Plasma"
+#~ msgstr "Plazma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL pozadinsko osvjetljenje)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED pozadinsko osvjetljenje)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (bijelo LED pozadinsko osvjetljenje)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Širok spektar LCD (CCFL pozadinsko osvjetljenje)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Širok spektar LCD (RGB LED pozadinsko osvjetljenje)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Visoka"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 minuta"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Srednja"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 minuta"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Niska"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 minuta"
+
+#~ msgid "Native to display"
+#~ msgstr "Izvorno zaslonu"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (Ispisivanje i objava)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (Fotografija i grafika)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Boja"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "Kalibrirajte boju vašeg uređaja, poput zalona, kamera i pisača"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Boja;ICC;Profil;Kalibriraj;Pisač;Zaslon;"
+
+#~ msgid "Other…"
+#~ msgstr "Ostalo..."
+
+#~ msgid "More…"
+#~ msgstr "Više..."
+
+#~ msgid "No languages found"
+#~ msgstr "Nema pronađenih jezika"
+
+#~ msgid "Language"
+#~ msgstr "Jezik"
+
+#~ msgid "Day"
+#~ msgstr "Dan"
+
+#~ msgid "Month"
+#~ msgstr "Mjesec"
+
+#~ msgid "Year"
+#~ msgstr "Godina"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Siječanj"
+
+#~ msgid "February"
+#~ msgstr "Veljača"
+
+#~ msgid "March"
+#~ msgstr "Ožujak"
+
+#~ msgid "April"
+#~ msgstr "Travanj"
+
+#~ msgid "May"
+#~ msgstr "Svibanj"
+
+#~ msgid "June"
+#~ msgstr "Lipanj"
+
+#~ msgid "July"
+#~ msgstr "Srpanj"
+
+#~ msgid "August"
+#~ msgstr "Kolovoz"
+
+#~ msgid "September"
+#~ msgstr "Rujan"
+
+#~ msgid "October"
+#~ msgstr "Listopad"
+
+#~ msgid "November"
+#~ msgstr "Studeni"
+
+#~ msgid "December"
+#~ msgstr "Prosinac"
+
+#~ msgid "Date & Time"
+#~ msgstr "Datum i vrijeme"
+
+#~ msgid "Hour"
+#~ msgstr "Sat"
+
+#~ msgid "∶"
+#~ msgstr "∶"
+
+#~ msgid "Minute"
+#~ msgstr "Minuta"
+
+#~ msgid "Time Zone"
+#~ msgstr "Vremenska zona"
+
+#~ msgid "Search for a city"
+#~ msgstr "Potraži grad"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "Automatski _datum i vrijeme"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Zahtijeva Internet pristup"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Automatska vremenska _zona"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Datum i _vrijeme"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Vremenska z_ona"
+
+#~ msgid "Time _Format"
+#~ msgstr "Format _vremena"
+
+#~ msgid "24-hour"
+#~ msgstr "24-satno"
+
+#~ msgid "AM / PM"
+#~ msgstr "12-satno"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Promijenite datum i vrijeme, uključujući vremensku zonu"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Sat;vremenska zona;lokacija;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Promijeni postavke vremena i datuma sustava"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Morate se ovjeriti kako bi promijenili postavke vremena ili datuma."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Zaslon prijenosnika spušten"
+
+#~ msgid "Mirrored"
+#~ msgstr "Zrcaljeno"
+
+#~ msgid "Primary"
+#~ msgstr "Glavni"
+
+#~ msgid "Off"
+#~ msgstr "Isključeno"
+
+#~ msgid "Secondary"
+#~ msgstr "Pomoćni"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Raspored kombiniranih zaslona"
+
+#~ msgid "_Apply"
+#~ msgstr "_Primijeni"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Povucite zaslone za promjenu rasporeda"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Zakreni ulijevo 90°"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Zakreni za 180°"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Zakreni udesno za 90°"
+
+#~ msgid "Size"
+#~ msgstr "Veličina"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Omjer"
+
+#~ msgid "Resolution"
+#~ msgstr "Razlučivost"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "Prilagodi za TV"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Frekvencija"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Prikaži gornju traku i pregled aktivnosti na ovom zaslonu"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Pomoćni zaslon"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "Spoji ovaj zaslon s drugim, kako bi stvorili dodati radni prostor"
+
+#~ msgid "Presentation"
+#~ msgstr "Prezentacija"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Prikaži samo prezentacije i medije"
+
+#~ msgid "Mirror"
+#~ msgstr "Zrcalo"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Prikažite vaš postojeći prikaz na oba zaslona"
+
+#~ msgid "Turn Off"
+#~ msgstr "Isključi"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Ne korsiti ovaj zaslon"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Nemoguće dobivanje informacije zaslona"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Rasporedi kombinirane zaslone"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Zasloni"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Odaberite kako koristiti monitore i projektore"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Panel;Projektor;xrandr;Zaslon;Razlučivost;Osvježi;Monitor;"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Unknown"
+#~ msgstr "Nepoznato"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d-bitni (ID izgradnje: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d-bitni (ID izgradnje: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d-bitna"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-bitna"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Pitaj što učiniti"
+
+#~ msgid "Do nothing"
+#~ msgstr "Ne čini ništa"
+
+#~ msgid "Open folder"
+#~ msgstr "Otvori mapu"
+
+#~ msgid "Other Media"
+#~ msgstr "Ostali mediji"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Odaberite aplikaciju za glazbene CD-e"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Odaberite aplikaciju za video DVD-e"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Odaberite aplikaciju koja će se pokrenuti kada je glazbeni svirač spojen"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr "Odaberite aplikaciju koja će se pokrenuti kada je kamera spojena"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Odaberite aplikaciju za softverske CD-e"
+
+#~ msgid "audio DVD"
+#~ msgstr "Glazbeni DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Prazni Blu-ray disk"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Prazni CD disk"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Prazni DVD disk"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Prazni HD DVD disk"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray video disk"
+
+#~ msgid "e-book reader"
+#~ msgstr "Čitač e-knjiga"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD video disk"
+
+#~ msgid "Picture CD"
+#~ msgstr "Slikovni CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows softver"
+
+#~ msgid "Section"
+#~ msgstr "Odjeljak"
+
+#~ msgid "Overview"
+#~ msgstr "Pregled"
+
+#~ msgid "Default Applications"
+#~ msgstr "Zadane aplikacije"
+
+#~ msgid "Removable Media"
+#~ msgstr "Prijenosni mediji"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Inačica %s"
+
+#~ msgid "De­tails"
+#~ msgstr "Pojedinosti"
+
+#~ msgid "View information about your system"
+#~ msgstr "Prikaži informacije ovog sustava"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "uređaj;sustav;informacije;memorija;procesor;inačica;uobičajeno;aplikacija;"
+#~ "poželjno;cd;dvd;usb;zvuk;video;disk;prijenosni;medij;automomatsko "
+#~ "pokretanje;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Odaberite kako će se rukovati s ostalim medijima"
+
+#~ msgid "_Action:"
+#~ msgstr "_Radnja:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Vrsta:"
+
+#~ msgid "Device name"
+#~ msgstr "Naziv uređaja"
+
+#~ msgid "Memory"
+#~ msgstr "Memorija"
+
+#~ msgid "Processor"
+#~ msgstr "Procesor"
+
+#~ msgid "Base system"
+#~ msgstr "Osnovni sustav"
+
+#~ msgid "Disk"
+#~ msgstr "Disk"
+
+#~ msgid "Calculating…"
+#~ msgstr "Izračunavanje…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualizacija"
+
+#~ msgid "Check for updates"
+#~ msgstr "Provjeri nadopune"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "_Pošta"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Kalendar"
+
+#~ msgid "M_usic"
+#~ msgstr "G_lazba"
+
+#~ msgid "_Video"
+#~ msgstr "_Video"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fotografije"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Odaberite kako bi se trebalo rukovati pojedinim medijima"
+
+#~ msgid "CD _audio"
+#~ msgstr "Glazbeni _CD"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD video"
+
+#~ msgid "_Music player"
+#~ msgstr "_Glazbeni svirač"
+
+#~ msgid "_Software"
+#~ msgstr "_Softver"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Ostali mediji…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Nikad ne pitaj niti pokreći programe pri umetanju medija"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Zvuk i medij"
+
+#~ msgid "Volume mute"
+#~ msgstr "Utišaj glasnoću zvuka"
+
+#~ msgid "Volume down"
+#~ msgstr "Smanji glasnoću zvuka"
+
+#~ msgid "Volume up"
+#~ msgstr "Pojačaj glasnoću zvuka"
+
+#~ msgid "Launch media player"
+#~ msgstr "Pokreni medijski reproduktor"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Reproduciraj (ili reprodukcija/pauza)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Pauziraj reprodukciju"
+
+#~ msgid "Stop playback"
+#~ msgstr "Zaustavi reprodukciju"
+
+#~ msgid "Previous track"
+#~ msgstr "Prijašnja pjesma"
+
+#~ msgid "Next track"
+#~ msgstr "Sljedeća pjesma"
+
+#~ msgid "Eject"
+#~ msgstr "Izbaci"
+
+#~ msgid "Typing"
+#~ msgstr "Tipkanje"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Prebaci na sljedeći način unosa"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Prebaci na prijašnji način unosa"
+
+#~ msgid "Launchers"
+#~ msgstr "Pokretači"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Pokreni preglednik pomoći"
+
+#~ msgid "Settings"
+#~ msgstr "Postavke"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Pokreni kalkulator"
+
+#~ msgid "Launch email client"
+#~ msgstr "Pokreni klijent e-pošte"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Pokreni web preglednik"
+
+#~ msgid "Home folder"
+#~ msgstr "Osobna mapa"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Pretraga"
+
+#~ msgid "Screenshots"
+#~ msgstr "Slike zaslona"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Spremi sliku zaslona u $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Spremi sliku zaslona prozora u $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Spremi sliku zaslona područja u $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Kopiraj sliku zaslona u međuspremnik"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Kopiraj sliku prozora u međuspremnik"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Kopiraj sliku područja u međuspremnik"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Snimi kratak video snimak"
+
+#~ msgid "System"
+#~ msgstr "Sustav"
+
+#~ msgid "Log out"
+#~ msgstr "Odjavi se"
+
+#~ msgid "Lock screen"
+#~ msgstr "Zaključavanje zaslona"
+
+#~ msgid "Universal Access"
+#~ msgstr "Univerzalni pristup"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Uključi ili isključi približavanje"
+
+#~ msgid "Zoom in"
+#~ msgstr "Približi"
+
+#~ msgid "Zoom out"
+#~ msgstr "Udalji"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Uključi ili isključi čitač zaslona"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Uključi/Isključi zaslonsku tipkovnicu"
+
+#~ msgid "Increase text size"
+#~ msgstr "Povećaj veličinu teksta"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Smanji veličinu teksta"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Uključi ili isključi visoki kontrast"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Prilagođeni prečaci"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Zamjenska tipka znakova"
+
+#~ msgid "Compose Key"
+#~ msgstr "Tipka za sastavljanje"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Samo promjena, prebacivanje na sljedeći izvor"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "Vrati izvorne vrijednosti prečaca"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "%s se već koristi za <b>%s</b>. Ako ga zamjenjujete, %s biti će onemogućen"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Postavi prilagođen prečac"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Postavi prečac"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Upišite novi prečac za promjenu <b>%s</b>."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Dodaj prilagođeni prečac"
+
+#~ msgid "Key­board"
+#~ msgstr "Tipkovnica"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Pogledajte i promijenite prečace tipkovnice i postavite osobitosti "
+#~ "tipkanja"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Prečac;Ponovi;Treptanje;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Nema pronađenih prečaca tipkovnice"
+
+#~ msgid "Try a different search"
+#~ msgstr "Pokušaj drugačiju pretragu"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Pritisni Esc za prekidanje."
+
+#~ msgid "Name"
+#~ msgstr "Naziv"
+
+#~ msgid "Command"
+#~ msgstr "Naredba"
+
+#~ msgid "Shortcut"
+#~ msgstr "Prečac"
+
+#~ msgid "Edit"
+#~ msgstr "Uredi"
+
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgid "Remove"
+#~ msgstr "Ukloni"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Upišite novi prečac"
+
+#~ msgid "Add"
+#~ msgstr "Dodaj"
+
+#~ msgid "Replace"
+#~ msgstr "Zamijeni"
+
+#~ msgid "Set"
+#~ msgstr "Postavi"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "Testirajte svoje _postavke"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "Miš i touchpad"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Promijenite osjetljivost touchpada i miša i odaberite lijevu ili desnu "
+#~ "ruku"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Klizna površina;Pokazivač;Klik;Dodir;Dvostruk;Tipka;Klizna kugla;Pomakni;"
+
+#~ msgid "General"
+#~ msgstr "Općenito"
+
+#~ msgid "Primary Button"
+#~ msgstr "Glavna tipka"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Postavite poredak za fizičke tipke miša i touchpada."
+
+#~ msgid "Left"
+#~ msgstr "Lijevo"
+
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#~ msgid "Mouse"
+#~ msgstr "Miš"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Brzina miša"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Istek vremena dvostrukog klika"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Prirodno pomicanje"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "Pomicanje pomiče sadržaj, a ne pogled."
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Brzina touchpada"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Dodirni za klik"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Pomicanje s dva prsta"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Rubno pomicanje"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Pokušajte kliknuti, dvostruko kliknuti, pomicati"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Pet klika, vrijeme je za GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Dvostruki klik, glavna tipka"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Jednostruki klik, glavna tipka"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Dvostruki klik, srednja tipka"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Jednostruki klik, srednja tipka"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Dvostruki klik, druga tipka"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Jednostruki klik, druga tipka"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Način _rada u zrakoplovu"
+
+#~ msgid "Network proxy"
+#~ msgstr "Mrežni proxy"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Ups, nešto je pošlo po krivu. Kontaktirajte svojeg dobavljača softvera."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "Mrežni upravitelj mora biti pokrenut."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x _sigurnost"
+
+#~ msgid "page 1"
+#~ msgstr "stranica 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "Anoni_man identitet"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Unutrašnja _ovjera"
+
+#~ msgid "page 2"
+#~ msgstr "stranica 2"
+
+#~ msgid "Security"
+#~ msgstr "Sigurnost"
+
+#~ msgid "automatic"
+#~ msgstr "automatski"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Profil %d"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Poslovanje"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgid "Never"
+#~ msgstr "Nikada"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "prije %i dan"
+#~ msgstr[1] "prije %i dana"
+#~ msgstr[2] "prije %i dana"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Slaba"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "U redu"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Dobra"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Izvrsna"
+
+#~ msgid "Details"
+#~ msgstr "Pojedinosti"
+
+#~ msgid "Identity"
+#~ msgstr "Identitet"
+
+#~ msgid "Address"
+#~ msgstr "Adresa"
+
+#~ msgid "Netmask"
+#~ msgstr "Mrežna maska"
+
+#~ msgid "Gateway"
+#~ msgstr "Pristupnik"
+
+#~ msgid "Delete Address"
+#~ msgstr "Obriši adrese"
+
+#~ msgid "Server"
+#~ msgstr "Poslužitelj"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Obriši DNS poslužitelja"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrički"
+
+#~ msgid "Delete Route"
+#~ msgstr "Obriši rutu"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatski (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Ručno"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Samo Lokalno-povezivanje"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Prefiks"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatski"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatski, samo DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Vrati izvorno"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128-bitni ključ (Heks. ili ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128-bitna lozinka"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Promjenjivi WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA i WPA2 osobni"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA i WPA2 poslovni"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Jačina signala"
+
+#~ msgid "Link speed"
+#~ msgstr "Brzina povezivanja"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4 adresa"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6 adresa"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Hardverska adresa"
+
+#~ msgid "Default Route"
+#~ msgstr "Uobičajena ruta"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Zadnje korišteno"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Upleteni par (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Dodatna jedinica sučelja (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Medijski nezavisno sučelje (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Naziv"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC adresa"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Klonirana adresa"
+
+#~ msgid "bytes"
+#~ msgstr "bajtova"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Učini dostupnim ostalim _korisnicima"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "Poveži se _automatski"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "Vatrozid _zona"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Uobičajena"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Zona određuje pouzdanu razinu povezivanja"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Adrese"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Automatski DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Rute"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Automatske rute"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "Koristi ovo povezivanje _samo za resurse na svojoj mreži"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Nemoguće otvaranje uređivača povezivanja"
+
+#~ msgid "New Profile"
+#~ msgstr "Novi profil"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Uvezi iz datoteke..."
+
+#~ msgid "Add VPN"
+#~ msgstr "Dodaj VPN"
+
+#~ msgid "_Reset"
+#~ msgstr "_Vrati izvorno"
+
+#~ msgid "_Forget"
+#~ msgstr "_Zaboravi"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Vraćanje izvornih postavki za ovu mrežu, uključujući lozinke, ali kao "
+#~ "prioritetnu mrežu."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr "Ukloni sve pojedinosti ove mreže i nemoj se povezati automatski"
+
+#~ msgid "S_ecurity"
+#~ msgstr "S_igurnost"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Nemoguć uvoz VPN povezivanja"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Datoteka '%s' nije mogla biti pročitana ili ne sadrži poznate informacije "
+#~ "VPN povezivanja\n"
+#~ "\n"
+#~ "Greška: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Odaberi datoteku za uvoz"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Datoteka naziva \"% s\" već postoji."
+
+#~ msgid "_Replace"
+#~ msgstr "_Zamijeni"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Želite li zamijeniti %s s VPN povezivanjem kojeg spremate?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Nemoguć izvoz VPN povezivanja"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "VPN povezivanje '%s' nije moglo biti izvezeno u %s.\n"
+#~ "\n"
+#~ "Greška: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "Izvezi VPN povezivanje"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Greška: nemoguće učitavanje uređivača VPN povezivanja)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Moja kućna mreža"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Učini dostupnim _ostalim korisnicima"
+
+#~ msgid "Net­work"
+#~ msgstr "Mreža"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Upravljajte načinom povezivanja na Internet"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Mreža;Bežično;IP;Žično;Proxy;WAN;Širokopojasni internet;Modem;Bluetooth;"
+#~ "vpn;vlan;most;povezano;DNS;"
+
+#~ msgid "never"
+#~ msgstr "nikada"
+
+#~ msgid "today"
+#~ msgstr "danas"
+
+#~ msgid "yesterday"
+#~ msgstr "jučer"
+
+#~ msgid "IP Address"
+#~ msgstr "IP adresa"
+
+#~ msgid "Last used"
+#~ msgstr "Zadnje korištena"
+
+#~ msgid "Wired"
+#~ msgstr "Žična mreža"
+
+#~ msgid "Options…"
+#~ msgstr "Mogućnosti…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Dodaj novu mrežu"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Ako niste povezani na Internet bežičnim putem, možete postaviti bežičnu "
+#~ "pristupnu točku za dijeljenje povezivanja s ostalim korisnicima."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "Prebacivanje na bežičnu pristupnu točku odspojiti će vas s <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Pristup Internetu nije moguć putem vašeg bežičnog povezivanja dok je "
+#~ "pristupna točka aktivna."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Zaustaviti pristupnu točku i odspojiti sve korisnike?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Zaustavi pristupnu točku"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Pravila sustava ne dopuštaju korištenje kao pristupne točke"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Bežični uređaj ne podržava način pristupne točke"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Mrežne pojedinosti za odabrane mreže, uključujući lozinke i sve "
+#~ "prilagođene postavke će biti izgubljene."
+
+#~ msgid "History"
+#~ msgstr "Povijest"
+
+#~ msgid "_Close"
+#~ msgstr "_Zatvori"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Zaboravi"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Automatsko otkrivanje web proxyja se koristi kada URL podešavanja nije "
+#~ "omogućen."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Ovo nije preporučljivo za javne mreže kojima se ne vjeruje."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Dodaj profil…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Pružatelj usluge"
+
+#~ msgid "Network"
+#~ msgstr "Mreža"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Ručno"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatski"
+
+#~ msgid "_Method"
+#~ msgstr "_Način"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_URL podešavanja"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP proxy"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS proxy"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP Proxy"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Socks računalo"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "_Zanemari računala"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP proxy ulaz"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS proxy ulaz"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP proxy ulaz"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Socks proxy ulaz"
+
+#~ msgid "Turn device off"
+#~ msgstr "Isključi uređaj"
+
+#~ msgid "Add Device"
+#~ msgstr "Dodaj uređaj"
+
+#~ msgid "Remove Device"
+#~ msgstr "Ukloni uređaj"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN vrsta"
+
+#~ msgid "Group Name"
+#~ msgstr "Naziv grupe"
+
+#~ msgid "Group Password"
+#~ msgstr "Lozinka grupe"
+
+#~ msgid "Username"
+#~ msgstr "Korisničko ime"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Isključi VPN podešavanje"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "Automatsko _povezivanje"
+
+#~ msgid "details"
+#~ msgstr "pojedinosti"
+
+#~ msgid "Show P_assword"
+#~ msgstr "Prikaži l_ozinku"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Učini dostupnim ostalim korisnicima"
+
+#~ msgid "identity"
+#~ msgstr "identitet"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Samo automatske (DHCP) adrese"
+
+#~ msgid "Link-local only"
+#~ msgstr "Samo poveži lokalno"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Podijeli s ostalim računalima"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "_Zanemari automatski dobivene rute"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Klonirana MAC adresa"
+
+#~ msgid "hardware"
+#~ msgstr "hardver"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Vraćanje postavki za ovu mrežu na izvorne vrijednosti, ali kao "
+#~ "prioritetnu mrežu."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Uklanjanje svih pojedinosti povezanih s ovom mrežom i nemojte se pokušati "
+#~ "automatski povezati s njom."
+
+#~ msgid "reset"
+#~ msgstr "vrati izvorno"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardver"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Bežična pristupna točka"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Uključi"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Bežična mreža"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Isključi bežičnu mrežu"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Koristi kao pristupnu točku..."
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Poveži se na skrivenu mrežu..."
+
+#~ msgid "_History"
+#~ msgstr "_Povijest"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Isključi povezivanje s bežičnom mrežom"
+
+#~ msgid "Network Name"
+#~ msgstr "Naziv mreže"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Povezani uređaji"
+
+#~ msgid "Security type"
+#~ msgstr "Vrsta sigurnosti"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Infrastruktura"
+
+#~ msgid "Status unknown"
+#~ msgstr "Nepoznato stanje"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Neupravljano"
+
+#~ msgid "Unavailable"
+#~ msgstr "Nedostupno"
+
+#~ msgid "Connecting"
+#~ msgstr "Povezivanje"
+
+#~ msgid "Authentication required"
+#~ msgstr "Potrebna je ovjera"
+
+#~ msgid "Connected"
+#~ msgstr "Povezano"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Prekidanje povezivanja"
+
+#~ msgid "Connection failed"
+#~ msgstr "Neuspješno povezivanje"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Nepoznato stanje (nedostaje)"
+
+#~ msgid "Not connected"
+#~ msgstr "Nije povezano"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Neuspjelo podešavanja"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "IP podešavanje neuspjelo"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "IP podešavanje isteklo"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Tajne su zahtijevane, ali ne i pružane"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x opskrbitelj nije povezan"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "802.1x opskrbitelj neuspjelo podešavanje"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "802.1x opskrbitelj neuspio"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x opskrbitelj predugo trajanje ovjere"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "PPP usluga se nije uspjela pokrenuti"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP usluga je prekinula povezivanje"
+
+#~ msgid "PPP failed"
+#~ msgstr "PPP je neuspio"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "DHCP klijent se nije uspio pokrenuti"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Greška DHCP klijenta"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "DHCP kijent je neuspio"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Usluga dijeljenja povezivanja se nije uspjela pokrenuti"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Usluga dijeljenja povezivanja je neuspjela"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "AutoIP usluga se nije uspjela pokrenuti"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Greška AutoIP usluge"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "AutoIP usluga nije uspjela"
+
+#~ msgid "Line busy"
+#~ msgstr "Linija zauzeta"
+
+#~ msgid "No dial tone"
+#~ msgstr "Nema tona biranja"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Nije pronađen nijedan operater"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Biranje zahtijeva čekanje"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Pokušaj biranja neuspio"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Pokretanje modema nije uspjelo"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Odabir određenog APN-a nije uspjelo"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Mreže se ne traže"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Mrežna registracija odbijena"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Isteklo vrijeme mrežne registracije"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Registracija sa zatraženom mrežnom nije uspjela"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Provjera PIN-a nije uspjela"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Firmver uređaja možda nedostaje"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Povezivanje je nestalo"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Postojeće povezivanje je predpostavljeno"
+
+#~ msgid "Modem not found"
+#~ msgstr "Modem nije pronađen"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Bluetooth povezivanje neuspjelo"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM kartica nije umetnuta"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "SIM Pin je potreban"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "SIM Puk je potreban"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Pogrešan SIM"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Neuspjelo povezivanje zavisnosti"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Nedostaje firmver"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kabel je odspojen"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "neodređena greška u 802.1x sigurnosti (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "nema odabrane datoteke"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "neodređena greška provjeravanja datoteke eap-načina"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr ""
+#~ "DER, PEM, ili PKCS#12 privatni ključevi (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER ili PEM vjerodajnice (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "nedostaje EAP-FAST PAC datoteka"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Odaberite PAC datoteku"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC datoteke (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonimno"
+
+#~ msgid "Authenticated"
+#~ msgstr "Ovjereno"
+
+#~ msgid "Both"
+#~ msgstr "Oboje"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC _datoteka"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Unutrašnja ovjera"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Dopusti automatsko PAC dod_jeljivanje"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "nedostaje EAP-LEAP korisničko ime"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "nedostaje EAP-LEAP lozinka"
+
+#~ msgid "Sho_w password"
+#~ msgstr "Pri_kaži lozinku"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "nevaljana EAP-PEAP CA vjerodajnica: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "nevaljana EAP-PEAP CA vjerodajnica: vjerodajnica nije određena"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Odaberite vjerodajnicu izdavatelja vjerodajnice"
+
+#~ msgid "Version 0"
+#~ msgstr "Inačica 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Inačica 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "C_A vjerodajnica"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "CA vjerodajnica nije _potrebna"
+
+#~ msgid "PEAP _version"
+#~ msgstr "PEAP _inačica"
+
+#~ msgid "missing EAP username"
+#~ msgstr "nedostaje EAP korisničko ime"
+
+#~ msgid "missing EAP password"
+#~ msgstr "nedostaje EAP lozinka"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "nedostaje EAP-TLS identitet"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "nevaljana EAP-TLS CA vjerodajnica: %s"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "nevaljana EAP-TLS CA vjerodajnica: vjerodajnica nije određena"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "nevaljana EAP-TLS lozinka: nedostaje"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "nevaljani EAP-TLS privatni ključ: %s"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "nevaljana EAP-TLS CA korisnička-vjerodajnica: %s"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Nešifriani privatni ključevi su nesigurni"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Čini se da odabrani privatni ključ nije zaštićen lozinkom.  Ovo može "
+#~ "dopustiti kompromitiranje vaših sigurnosnih podataka. Odaberite lozinkom "
+#~ "zaštićeni privatni ključ.\n"
+#~ "\n"
+#~ "(Svoj privatni ključ možete zaštititi lozinkom pomoću openssla)"
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Odaberite svoju osobnu vjerodajnicu"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Odaberite svoj privatni ključ"
+
+#~ msgid "I_dentity"
+#~ msgstr "I_dentitet"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Korisnikova vjerodajnica"
+
+#~ msgid "Private _key"
+#~ msgstr "Privatni _ključ"
+
+#~ msgid "_Private key password"
+#~ msgstr "_Lozinka privatnog ključa"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "nevaljana EAP-TTLS CA vjerodajnica: %s"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "nevaljana EAP-TTLS CA vjerodajnica: vjerodajnica nije određena"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Nepoznata greška provjere 802.1x sigurnosti"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "LOZINKA"
+
+#~ msgid "FAST"
+#~ msgstr "BRZO"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Tunelirani TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Zaštićeni EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Ov_jera"
+
+#~ msgid "missing leap-username"
+#~ msgstr "nedostaje leap korisničko ime"
+
+#~ msgid "missing leap-password"
+#~ msgstr "nedostaje leap lozinka"
+
+#~ msgid "missing wep-key"
+#~ msgstr "nedostaje wep ključ"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "nevaljani wep ključ: ključ duljine %zu mora sadržavati samo heks. znamenke"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "nevaljani wep ključ: ključ duljine %zu mora sadržavati samo ascii znamenke"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "nevaljani wep ključ: pogrešna duljina ključa %zu. Ključ mora biti 5/13 "
+#~ "(ascii) ili 10/26 (heks.)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "nevaljani wep ključ: lozinka ne smije biti prazna"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr "nevaljani wep ključ: lozinka mora sadržavati manje od 64 znamenaka"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Zadano)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Otvoreni sustav"
+
+#~ msgid "Shared Key"
+#~ msgstr "Dijeljeni ključ"
+
+#~ msgid "_Key"
+#~ msgstr "_Ključ"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Prika_ži ključ"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP sadr_žaj"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "nevaljani wpa-psk: nevaljana duljina ključa %zu. Mora biti [8,63] bajtova "
+#~ "ili 64 heks. znamenke"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "nevaljani wpa-psk: ne može se interpretirati ključ sa 64 bajtova kao heks."
+
+#~ msgid "_Type"
+#~ msgstr "_Vrsta"
+
+#~ msgid "On"
+#~ msgstr "Uključeno"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "_Obavijesti"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "Zvučna _upozorenja"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "Transparenti _obavijesti"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Prikaži sadržaj _poruke u transparentima"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Obavijesti zaključanog zaslona"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Prikaži sadržaj _poruke na zaključanom zaslonu"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Obavijesti"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Upravljajte koje će poruke biti prikazane i što će prikazivati"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Obavijesti;Transparent;Poruka;Statusna traka;Skočni prozor;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Transparenti _obavijesti"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Obavijesti zaključanog zaslona"
+
+#~ msgid "Applications"
+#~ msgstr "Aplikacije"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Ostalo"
+
+#~ msgid "Add Account"
+#~ msgstr "Dodaj račun"
+
+#~ msgid "Mail"
+#~ msgstr "Pošta"
+
+#~ msgid "Calendar"
+#~ msgstr "Kalendar"
+
+#~ msgid "Contacts"
+#~ msgstr "Kontakti"
+
+#~ msgid "Chat"
+#~ msgstr "Razgovor"
+
+#~ msgid "Resources"
+#~ msgstr "Resursi"
+
+#~ msgid "Error creating account"
+#~ msgstr "Greška pri stvaranju računa"
+
+#~ msgid "Error removing account"
+#~ msgstr "Greška pri uklanjanju računa"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Sigurno želite ukloniti ovaj račun?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Ovo neće ukloniti račun na poslužitelju."
+
+#~ msgid "_Remove"
+#~ msgstr "_Ukloni"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "Mrežni računi"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr ""
+#~ "Povežite se sa svojim mrežnim računima i odredite za što ih želite "
+#~ "koristiti"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Mreža;Razgovor;Kalendar;Pošta;Kontakt;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Nema podešenih mrežnih računa"
+
+#~ msgid "Add an online account"
+#~ msgstr "Dodaj mrežni račun"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Dodavanje računa dopušta vašim aplikacijama pristup dokumentima, pošti, "
+#~ "kontaktima, kalendaru, razgovorima i još mnogo toga."
+
+#~ msgid "Unknown time"
+#~ msgstr "Nepoznato vrijeme"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i minuta"
+#~ msgstr[1] "%i minute"
+#~ msgstr[2] "%i minuta"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i sat"
+#~ msgstr[1] "%i sata"
+#~ msgstr[2] "%i sati"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "sat"
+#~ msgstr[1] "sata"
+#~ msgstr[2] "sati"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minuta"
+#~ msgstr[1] "minute"
+#~ msgstr[2] "minuta"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s do potpune napunjenosti"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Upozorenje: %s preostalo"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s preostalo"
+
+#~ msgid "Fully charged"
+#~ msgstr "Potpuno napunjeno"
+
+#~ msgid "Empty"
+#~ msgstr "Prazna"
+
+#~ msgid "Charging"
+#~ msgstr "Punjenje"
+
+#~ msgid "Discharging"
+#~ msgstr "Pražnjenje"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Glavna"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Dodatna"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Bežični miš"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Bežična tipkovnica"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Neprekinuta opskrba energijom (UPS)"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Osobni digitalni pomagač (PDA)"
+
+#~ msgid "Cellphone"
+#~ msgstr "Mobitel"
+
+#~ msgid "Media player"
+#~ msgstr "Medijski reproduktor"
+
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "Computer"
+#~ msgstr "Računalo"
+
+#~ msgid "Battery"
+#~ msgstr "Baterija"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Punjenje"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Upozorenje"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Niska"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Dobra"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Potpuno napunjeno"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Prazna"
+
+#~ msgid "Batteries"
+#~ msgstr "Baterije"
+
+#~ msgid "When _idle"
+#~ msgstr "Pri _mirovanju"
+
+#~ msgid "Power Saving"
+#~ msgstr "Štednja energije"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Svjetlina zaslona"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Automatska svjetlina"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "_Svjetlina tipkovnice"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Zatamni zaslon kada je neaktivan"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Zatamni zaslon"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Bežična mreža"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Isključi bežičnu mrežu u svrhu štednje energije."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobilni širokopojasni internet"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Isključi mobilni širokopojasni internet (3G, 4G, LTE, itd.) u svrhu "
+#~ "štednje energije."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Na bateriji"
+
+#~ msgid "When plugged in"
+#~ msgstr "Na napajanju"
+
+#~ msgid "Suspend"
+#~ msgstr "Suspendiraj"
+
+#~ msgid "Hibernate"
+#~ msgstr "Hiberniraj"
+
+#~ msgid "Nothing"
+#~ msgstr "Ništa"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Suspenzija i tipka isključivanja"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Automatska suspenzija"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Automatska suspenzija"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "_Kada je tipka isključivanja pritisnuta"
+
+#~ msgid "Devices"
+#~ msgstr "Uređaji"
+
+#~ msgid "Po­wer"
+#~ msgstr "Energija"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr ""
+#~ "Pogledajte svoje stanje baterije i promijenite postavke štednje energije"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Energija;Spavanje;Suspenzija;Hibernacija;Baterija;Svjetlina;Zatamnjenje;"
+#~ "Tamno;Zaslon;DPMS;Mirovanje;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 minuta"
+
+#~ msgid "1 hour"
+#~ msgstr "1 sat"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 minuta"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 minuta"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 minuta"
+
+#~ msgid "2 hours"
+#~ msgstr "2 sata"
+
+#~ msgid "1 minute"
+#~ msgstr "1 minute"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 minute"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 minute"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 minute"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 minuta"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 minuta"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 minuta"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 minuta"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Automatska suspenzija"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Priključeno"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "Na _bateriji"
+
+#~ msgid "Delay"
+#~ msgstr "Odgoda"
+
+#~ msgid "Authenticate"
+#~ msgstr "Ovjera"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Potrebna je ovjera"
+
+#~ msgid "Low on toner"
+#~ msgstr "Ponestaje tinte u toneru"
+
+#~ msgid "Out of toner"
+#~ msgstr "Ponestalo tinte u toneru"
+
+#~ msgid "Low on developer"
+#~ msgstr "Razvijatelj nizak"
+
+#~ msgid "Out of developer"
+#~ msgstr "Ponestalo razvijatelja"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Ponestaje tinte"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Ponestalo tinte"
+
+#~ msgid "Open cover"
+#~ msgstr "Otvoren je poklopac"
+
+#~ msgid "Open door"
+#~ msgstr "Otvorena su vratašca"
+
+#~ msgid "Low on paper"
+#~ msgstr "Ponestaje papira"
+
+#~ msgid "Out of paper"
+#~ msgstr "Ponestalo papira"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Nije povezan"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Zaustavljen"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Pisačeva kantica za otpad je skoro puna"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Pisačeva kantica za otpad je puna"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Optički fotografski vodič je pri kraju vijeka trajanja"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Optički fotografski vodič je istrošen"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Podešavanje"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Spreman"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Ne prihvaća zadatke"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Obrada"
+
+#~ msgid "Toner Level"
+#~ msgstr "Razina tonera"
+
+#~ msgid "Ink Level"
+#~ msgstr "Razina tinte"
+
+#~ msgid "Supply Level"
+#~ msgstr "Razina opskrbe"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Instalacija"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktivan"
+#~ msgstr[1] "%u aktivna"
+#~ msgstr[2] "%u aktivnih"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Neuspjelo dodavanje novoga pisača"
+
+#~ msgid "Select PPD File"
+#~ msgstr "Odaberi PPD datoteku"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "Datoteka opisa PostSkripta pisača (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Nije pronađen odgovarajući upravljački program"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Pretraživanje odgovarajućih upravljačkih programa..."
+
+#~ msgid "Select from database…"
+#~ msgstr "Odaberi iz baze podataka..."
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Dodaj PPD datoteku..."
+
+#~ msgid "Test page"
+#~ msgstr "Testna stranica"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Nemoguće učitati kor. sučelje: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Pisači"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Dodajte pisače, pogledajte zadatke ispisivanja i odredite kakav ispis "
+#~ "želite."
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Pisač;Red;Ispis;Papir;Tinta;Toner;"
+
+#~ msgid "Clear All"
+#~ msgstr "Ukloni sve"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Nema aktivnih zadataka ispisa"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Dodaj novi pisač"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "O_vjeri"
+
+#~ msgid "No printers detected."
+#~ msgstr "Nema otkrivenih pisača."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Upišite mrežnu adresu ili pretražite pisač"
+
+#~ msgid "Loading options…"
+#~ msgstr "Učitavanje mogućnosti..."
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Odaberi upravljački program za pisač"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Učitavanje baze podataka upravljačkih programa..."
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect pisač"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD pisač"
+
+#~ msgid "One Sided"
+#~ msgstr "Jednostrano"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Dugom stranom (standardno)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Kratkom stranom (okrenuto)"
+
+#~ msgid "Portrait"
+#~ msgstr "Uspravno"
+
+#~ msgid "Landscape"
+#~ msgstr "Položeno"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Obrnuto položeno"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Obrnuto uspravno"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Na čekanju"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Pauzirano"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Obrada"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Zaustavljen"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Otkazan"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Prekinut"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Završen"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s aktivnih zadataka"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Serijski priključak"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Paralelni priključak"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Lokacija: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Adresa: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Poslužitelj zahtijeva ovjeru"
+
+#~ msgid "Two Sided"
+#~ msgstr "Obostrano"
+
+#~ msgid "Paper Type"
+#~ msgstr "Vrsta papira"
+
+#~ msgid "Paper Source"
+#~ msgstr "Izvor papira"
+
+#~ msgid "Output Tray"
+#~ msgstr "Izlazna ladica"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostSkripta predfiltriranja"
+
+#~ msgid "Pages per side"
+#~ msgstr "Stranica po listu"
+
+#~ msgid "Two-sided"
+#~ msgstr "Obostrano"
+
+#~ msgid "Orientation"
+#~ msgstr "Orijentacija"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Općenito"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Postavke ispisa"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Mogućnosti instaliranja"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Zadatak"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Kvaliteta slike"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Boja"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Završavanje"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Napredno"
+
+#~ msgid "Auto Select"
+#~ msgstr "Automatski odabir"
+
+#~ msgid "Printer Default"
+#~ msgstr "Zadani pisač"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Ugradi samo Ghostskript slova"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Prevedi u PS razine 1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Prevedi u PS razine 2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Bez prevođenja"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Proizvođač"
+
+#~ msgid "Driver"
+#~ msgstr "Upravljački program"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Upišite svoje korisničko ime i lozinku kako bi vidjeli pisače dostupne na "
+#~ "%s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Dodaj pisač"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Ukloni pisač"
+
+#~ msgid "Supply"
+#~ msgstr "Opskrba"
+
+#~ msgid "Location"
+#~ msgstr "Lokacija"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Zadani pisač"
+
+#~ msgid "Jobs"
+#~ msgstr "Zadaci"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Prikaži _zadatke"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "label"
+#~ msgstr "oznaka"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Postavljanje novog upravljačkog programa..."
+
+#~ msgid "page 3"
+#~ msgstr "stranica 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "_Ispis probne stranice"
+
+#~ msgid "_Options"
+#~ msgstr "_Mogućnosti"
+
+#~ msgid "No printers"
+#~ msgstr "Nema otkrivenih pisača"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Dodaj novi pisač"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Nažalost!  Usluga ispisa sustava\n"
+#~ "nije dostupna."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Zaključavanje zaslona"
+
+#~ msgid "In use"
+#~ msgstr "Koristi se"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Uključeno"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Isključeno"
+
+#~ msgid "Location Services"
+#~ msgstr "Usluge lokacije"
+
+#~ msgid "Usage & History"
+#~ msgstr "Upotreba i povijest"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Želite li isprazniti sve stavke iz smeća?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Sve stavke u smeću biti će trajno obrisane."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Isprazni smeće"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Želite li obrisati sve privremene datoteke?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Sve privremene datoteke će biti trajno obrisane."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Ukloni privremene datoteke"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Ukloni smeće i privremene datoteke"
+
+#~ msgid "Software Usage"
+#~ msgstr "Upotreba softvera"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Prijava problema"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "Slanje izvještaja tehničkih problema pomaže nam poboljšati %s. Izvještaji "
+#~ "su poslani anonimno i ne sadrže osobne podatke."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Pravila privatnosti"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "Privatnost"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Zaštitite svoje osobne informacije i postavite što drugi korisnici mogu "
+#~ "vidjeti"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "zaslon;zaključaj;dijagnostika;rušenje;privatno;nedavno;privremeno;tmp;"
+#~ "sadržaj;naziv;mreža;identitet;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Odmah"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 sekundi"
+
+#~ msgid "1 day"
+#~ msgstr "1 dan"
+
+#~ msgid "2 days"
+#~ msgstr "2 dana"
+
+#~ msgid "3 days"
+#~ msgstr "3 dana"
+
+#~ msgid "4 days"
+#~ msgstr "4 dana"
+
+#~ msgid "5 days"
+#~ msgstr "5 dana"
+
+#~ msgid "6 days"
+#~ msgstr "6 dana"
+
+#~ msgid "7 days"
+#~ msgstr "7 dana"
+
+#~ msgid "14 days"
+#~ msgstr "14 dana"
+
+#~ msgid "30 days"
+#~ msgstr "30 dana"
+
+#~ msgid "Forever"
+#~ msgstr "Zauvijek"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Pamćenje vaše povijesti čini stvari lakšima za ponovno pretraživanje. Te "
+#~ "stavke se nikada ne dijele putem mreže."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Nedavno korišteno"
+
+#~ msgid "Retain _History"
+#~ msgstr "Zadrži _povijest"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "Ob_riši nedavnu povijest"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "Zaključavanje zaslona štiti vašu privatnost kada ste odsutni."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "Automatsko zaključavanje _zaslona"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Zaključaj zaslon _nakon zatamnjenja za"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Prikaži _obavijesti"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Automatski ukloni smeće i privremene datoteke kako bi uklonili s vašeg "
+#~ "računala nepotrebne osjetljive informacije."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Automatski isprazni _smeće"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Automatski ukloni privremene _datoteke"
+
+#~ msgid "Purge _After"
+#~ msgstr "Ukloni _nakon"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Slanjem informacije o tome koji softver koristite pomaže nam da vam "
+#~ "pružimo bolje preporuke. Isto tako nam pomaže da poboljšamo naš softver.\n"
+#~ "\n"
+#~ "Sve informacije koje prikupimo su anonimne, i nikada nećemo podijeliti "
+#~ "vaše podatke s trećom stranom."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "_Pošalji statistiku korištenja softvera"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "Usluge lokacije dopuštaju aplikacijama da saznaju vašu lokaciju. Upotreba "
+#~ "bežične mreže i mobilnog širokopojasnog interneta povećava točnost "
+#~ "lociranja "
+
+#~ msgid "_Location Services"
+#~ msgstr "_Usluge lokacije"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Automatsko prijavljivanje problema"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Imperijalne"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrički"
+
+#~ msgid "No regions found"
+#~ msgstr "Nema pronađenih regija"
+
+#~ msgid "No input sources found"
+#~ msgstr "Nema pronađenih načina unosa"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Ostalo"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Vaša sesija se mora ponovno pokrenuti za primjenu promjena"
+
+#~ msgid "Restart Now"
+#~ msgstr "Ponovno pokreni odmah"
+
+#~ msgid "No input source selected"
+#~ msgstr "Nema odabranih načina unosa"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Zaslon _prijave"
+
+#~ msgid "Formats"
+#~ msgstr "Formati"
+
+#~ msgid "Preview"
+#~ msgstr "Pretpregled"
+
+#~ msgid "Dates"
+#~ msgstr "Datumi"
+
+#~ msgid "Times"
+#~ msgstr "Vremena"
+
+#~ msgid "Numbers"
+#~ msgstr "Brojevi"
+
+#~ msgid "Measurement"
+#~ msgstr "Mjere"
+
+#~ msgid "Paper"
+#~ msgstr "Papir"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Jezik i regija"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Odaberite vaš jezik prikaza, formate, rasporede tipkovnice i ulazne "
+#~ "izvore."
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Jezik;Raspored;Tipkovnica;ulaz;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Dodaj izvor ulaza"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Način unosa ne mož se se koristi na zaslonu prijave"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Mogućnosti načina unosa"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Koristi _isti način unosa za sve prozore"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "Dopusti _drugačiji način unosa za pojedini prozor"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Prečaci tipkovnice"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Prebaci na prijašnji način unosa"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Space"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Prebaci na slijedeći način unosa"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Space"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Možete promijeniti ove prečace u postavkama tipkovnice"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Zamjensko prebacivanje na sljedeći način unosa"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Left+Right Alt"
+
+#~ msgid "_Language"
+#~ msgstr "_Jezik"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Engleski (Ujedinjeno Kraljevstvo)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formati"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Ujedinjeno Kraljevstvo"
+
+#~ msgid "Input Sources"
+#~ msgstr "Ulazni načini unosa"
+
+#~ msgid "Add input source"
+#~ msgstr "Dodaj način unosa"
+
+#~ msgid "Remove input source"
+#~ msgstr "Ukloni način unosa"
+
+#~ msgid "Move input source up"
+#~ msgstr "Pomakni način unosa gore"
+
+#~ msgid "Move input source down"
+#~ msgstr "Pomakni način unosa dolje"
+
+#~ msgid "Configure input source"
+#~ msgstr "Podesi način unosa"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Prikaži način unosa rasporeda tipkovnice"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr "Postavke prijave koriste svi korisnici prilikom prijave u sustav"
+
+#~ msgid "Select Location"
+#~ msgstr "Odaberi lokaciju"
+
+#~ msgid "_OK"
+#~ msgstr "_U redu"
+
+#~ msgid "No applications found"
+#~ msgstr "Aplikacije nisu pronađene"
+
+#~ msgid "Search"
+#~ msgstr "Pretraga"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Upravljajte koje će aplikacije prikazati rezultate pretrage u pregledu "
+#~ "aktivnosti"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Pretraga;Pretraži;Sadržaj;Sakrij;Privatnost;Rezultati;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Pretraži lokacije"
+
+#~ msgid "Places"
+#~ msgstr "Lokacije"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Zabilješke"
+
+#~ msgid "Other"
+#~ msgstr "Ostalo"
+
+#~ msgid "Move Up"
+#~ msgstr "Pomakni gore"
+
+#~ msgid "Move Down"
+#~ msgstr "Pomakni dolje"
+
+#~ msgid "Preferences"
+#~ msgstr "Osobitosti"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Nema odabranih mreža za dijeljenje"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Uključeno"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Isključeno"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Omogućeno"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktivno"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Odaberi mapu"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Dijeljenje osobnih datoteka omogućuje vam dijeljenje Javne mape s ostalim "
+#~ "korisnicima vaše trenutne mrežie koristeći: <a href=\"dav://%s\">dav://"
+#~ "%s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Kada je udaljena prijava omogućena, udaljeni korisnici mogu se povezati "
+#~ "koristeći naredbu sigurne ljuske (SSH):\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Dijeljenje zaslona dopušta udaljenim korisnicima da vide ili upravljaju "
+#~ "vašim zaslonom povezivanjem na: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Kopiraj"
+
+#~ msgid "Sharing"
+#~ msgstr "Dijeljenje"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Dijeljenje"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Postavite što želite dijeliti s ostalim korisnicima"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "dijeli;dijeljenje;ssh;računalo;naziv;udaljeno;radna površina;medija;zvuk;"
+#~ "snimka;slika;fotografije;filmovi;poslužitelj;prikazivanje;"
+
+#~ msgid "Networks"
+#~ msgstr "Mreže"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Omogući ili onemogući udaljenu prijavu"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Potrebna je ovjera za omogućavanje ili onemogućavanje udaljene prijave"
+
+#~ msgid "_Computer Name"
+#~ msgstr "_Naziv računala"
+
+#~ msgid "_File Sharing"
+#~ msgstr "_Dijeljenje datoteka"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "_Dijeljenje zaslona"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "_Dijeljenje medija"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Udaljena prijava"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Neke usluge su onemogućene zbog nedostupnog mrežnog pristupa."
+
+#~ msgid "File Sharing"
+#~ msgstr "Dijeljenje datoteka"
+
+#~ msgid "_Require Password"
+#~ msgstr "_Potrebna je lozinka"
+
+#~ msgid "Remote Login"
+#~ msgstr "Udaljena prijava"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Dijeljenje zaslona"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "_Dopusti povezivanjima da upravljaju zaslonom"
+
+#~ msgid "_Password:"
+#~ msgstr "_Lozinka:"
+
+#~ msgid "_Show Password"
+#~ msgstr "_Prikaži lozinku"
+
+#~ msgid "Access Options"
+#~ msgstr "Mogućnosti pristupa"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "_Nova povezivanja moraju upitati za pristup"
+
+#~ msgid "_Require a password"
+#~ msgstr "_Potrebna je lozinka"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Dijeljenje medija"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Dijelite glazbu, fotografije i video snimke diljem mreže."
+
+#~ msgid "Folders"
+#~ msgstr "Mape"
+
+#~ msgid "Sound"
+#~ msgstr "Zvuk"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Promijenite glasnoću zvuka, ulaze, izlaze i zvukove upozorenja."
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Kartica;Mikrofon;Glasnoća zvuka;Isčezni;Uravnoteženje;Bluetooth;Slušalice "
+#~ "s mikrofonom;Zvuk;"
+
+#~ msgid "Bark"
+#~ msgstr "Lavež"
+
+#~ msgid "Drip"
+#~ msgstr "Kapanje"
+
+#~ msgid "Glass"
+#~ msgstr "Staklo"
+
+#~ msgid "Sonar"
+#~ msgstr "Sonar"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Lijevo"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Straga"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Sprijeda"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Najmanje"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Najviše"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Uravnoteženje:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Iščezavanje"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Dubokotonac:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Nepojačano"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u izlaz"
+#~ msgstr[1] "%u izlaza"
+#~ msgstr[2] "%u izlaza"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u ulaz"
+#~ msgstr[1] "%u ulaza"
+#~ msgstr[2] "%u ulaza"
+
+#~ msgid "System Sounds"
+#~ msgstr "Zvukovi sustava"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Testiranje zvučnika"
+
+#~ msgid "Peak detect"
+#~ msgstr "Otkrivanje vrhunca"
+
+#~ msgid "Device"
+#~ msgstr "Uređaj"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Testiranje zvučnika za %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "_Izlazna glasnoća zvuka:"
+
+#~ msgid "Output"
+#~ msgstr "Izlaz"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "O_daberite uređaj za izlaz zvuka:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Postavke za odabrani uređaj:"
+
+#~ msgid "Input"
+#~ msgstr "Ulaz"
+
+#~ msgid "_Input volume:"
+#~ msgstr "_Ulazna glasnoća zvuka:"
+
+#~ msgid "Input level:"
+#~ msgstr "Ulazna razina:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "O_daberite uređaj za ulaz zvuka:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Zvučni efekti"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Glasnoća zvuka _upozorenja:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Nijedna aplikacija se trenutno ne reproducira niti snima zvuk."
+
+#~ msgid "Built-in"
+#~ msgstr "Ugrađen"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Osobitosti zvuka"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Testiranje zvuka događaja"
+
+#~ msgid "Default"
+#~ msgstr "Uobičajena"
+
+#~ msgid "From theme"
+#~ msgstr "Iz teme"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "O_daberite zvuk upozorenja:"
+
+#~ msgid "Stop"
+#~ msgstr "Zaustavi"
+
+#~ msgid "Test"
+#~ msgstr "Isprobaj"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Dubokotonac"
+
+#~ msgid "Custom"
+#~ msgstr "Prilagođeno"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "Univerzalni pristup"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "Make it easier to see, hear, type, point and click"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Tipkovnica;Miš;a11y;Pristupačnost;Kontrast;Uvećanje;Zaslon;Čitač;tekst;"
+#~ "slova;veličina;AccessX;Pričvrstiv;Tipke;Sporo;Odbijanje;Miš;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Uvijek prikaži izbornik univerzalnog pristupa"
+
+#~ msgid "Seeing"
+#~ msgstr "Gledanje"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Visok kontrast"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Velik tekst"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Uvećanje"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "Čitač _zaslona"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Zvučne tipke"
+
+#~ msgid "Hearing"
+#~ msgstr "Slušanje"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Vizualna upozorenja"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Zaslonska _tipkovnica"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "T_ipke ponavljanja"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "Treptanje _pokazivača"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Pomoć tipkanja (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Usmjeravanje i klikanje"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Tipke miša"
+
+#~ msgid "_Click Assist"
+#~ msgstr "_Pomoć klikanja"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "_Odgoda dvostrukog klika"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Odgoda dvostrukog klika"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Čitač zaslona"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr "Čitač zaslona čita prikazani tekst kako se pomičete fokus"
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Čitač zaslona"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Zvučne tipke"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr ""
+#~ "Oglasi zvučni signal pri uključivanju ili isključivanju velikih slova."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Vizualna upozorenja"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Testiraj bljeskanje"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Koristi vizualno upozorenje kada zvuk upozorenja nastane."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Zabljeni _naslov prozora"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Zabljeni _cijeli zaslon"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Ponovljene tipke"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "Pritisak tipke se ponavlja kada je tipka pritisnuta"
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Odgoda ponavljanja tipka"
+
+#~ msgid "Speed"
+#~ msgstr "Brzina"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Brzina ponavljanja znakova"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Treptanje pokazivača"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "Pokazivač treperi u tekstnim poljima"
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Brzina treptanja pokazivača"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Pomoć tipkanja"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Pričvrstive tipke"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "Tretira niz promjenjivih tipki kao kombinaciju tipki"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Onemogući ako su dvije tipke istodobno pritisnute"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Oglasi zvučni signal kada se pritisne _promjenjiva tipka"
+
+#~ msgid "S_low Keys"
+#~ msgstr "S_pore tipke"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr ""
+#~ "Stavlja odgodu između vremena kada se tipka pritisne i kada se prihvati "
+#~ "signal tipke"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "O_dgoda prihvaćanja:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Kratko"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Odgoda tipkanja za spore tipke"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Dugo"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Oglasi zvčni signal kada je p_ritisnuta tipka"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Oglasi zvčni signal kada je tipka _prihvačena"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Oglasi zvučni signal kada je tipka _odbijena"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Odbijanje tipki"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Zanemaruje brze dvostruke pritiske tipki"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Kratko"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Odgoda tipkanja za odbijene tipke"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Dugo"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Omogući tipkovnicom"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr ""
+#~ "Uključi mogućnosti isključivanja i uključivanja pristupačnosti koristeći "
+#~ "tipkovnicu"
+
+#~ msgid "Click Assist"
+#~ msgstr "Pomoć klikanja"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Simuliraj drugi klik"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Pokreni drugi klik držeći prvu tipku"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Kratko"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Odgoda drugog klika"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Dugo"
+
+#~ msgid "_Hover Click"
+#~ msgstr "_Klik lebdenja"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Obavi klik kada pokazivač prijeđe preko"
+
+#~ msgid "D_elay:"
+#~ msgstr "O_dgoda:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Kratko"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Dugo"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "Prag _pomicanja:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Mala"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Velika"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Kratko"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ zaslona"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ zaslona"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ zaslona"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Dugo"
+
+#~ msgid "Full Screen"
+#~ msgstr "Cijeli zaslon"
+
+#~ msgid "Top Half"
+#~ msgstr "Gornja polovina"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Donja polovina"
+
+#~ msgid "Left Half"
+#~ msgstr "Lijeva polovina"
+
+#~ msgid "Right Half"
+#~ msgstr "Desna polovina"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Uvećavanje:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "_Prati pokazivač miša"
+
+#~ msgid "_Screen part:"
+#~ msgstr "_Dio zaslona:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "_Povećalo se proteže van zaslona"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "_Drži pokazivač povećala u središtu"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "Pokazivač povećala _gura sadržaj okolo"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "Pokazivač povećala se pomiče sa _sadržajem"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Položaj povećala:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Povećalo"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Debljina:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Tanko"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Debelo"
+
+#~ msgid "_Length:"
+#~ msgstr "_Duljina:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "Bo_ja:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "_Nišan:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "_Preklapa pokazivač miša"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Nišan"
+
+#~ msgid "_White on black:"
+#~ msgstr "_Bijelo na crno:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Svjetlina:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Kontrast:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "Bo_ja"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Potpuna"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Niska"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Visoka"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Niska"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Visoka"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Efekti boje:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Efekti boje"
+
+#~ msgid "You are Offline"
+#~ msgstr "Niste povezanni"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Upiši"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Upravljanje korisničkim računima"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Potrebna je ovjera za promjenu podataka korisnika"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Mapiraj tipke"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Mapiraj tipke na funkcije"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Kako bi uredili prečac, odaberite \"Pošalji pritisak tipke\" radnju, "
+#~ "pritisnite tipku prečaca i držite pritisnutim nove tipke ili pritisnite "
+#~ "Backspace za uklanjanje tipke prečaca."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Dodirnite ciljne markere kako se oni pojavljuju na zaslonu za kalibraciju "
+#~ "tableta."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Loš klik otkriven, ponovno pokretanje..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Gore"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Dolje"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Nepoznata"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Pošalji pritisak tipke"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Prebaci zaslon"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Prikaži zaslonsku pomoć"
+
+#~ msgid "Output:"
+#~ msgstr "Izlaz:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Zadrži omjer slike (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Mapiraj na jedan zaslon"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d od %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Prikaži mapiranje"
+
+#~ msgid "Button"
+#~ msgstr "Tipka"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wa­com tab­let"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Postavi tipke mapiranja i prilagodi osjetljivost igle grafičkih tableta"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Wacom;Stylus;Gumica;Miš;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Tablet (apsolutno)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Touchpad (relativno)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Osobitosti tableta"
+
+#~ msgid "_Help"
+#~ msgstr "_Pomoć"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Nema prepoznatog tableta"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Priključite ili upalite vaš Wacom tablet"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth postavke"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom tablet"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Mapiraj na zaslon..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Mapiraj tipke..."
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibriraj..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Prilagodi razlučivost zaslona"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Prilagodi postavke miša"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Način praćenja"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Lijeva orijentacija"
+
+#~ msgid "Left Ring"
+#~ msgstr "Lijevi prsten"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Način lijevog prstena #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Desni prsten"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Način desnog prstena #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Lijeva dodirna traka"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Način lijeve dodirne trake #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Desna dodirna traka"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Način desne dodirne trake #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Način prebacivanja lijevog dodirnog prstena"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Način prebacivanja desnog dodirnog prstena"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Način prebacivanja lijeve dodirne trake"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Način prebacivanja desne dodirne trake"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Način prebacivanja #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Lijeva tipka #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Desna tipka #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Gornja tipka #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Donja tipka #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Novi prečac..."
+
+#~ msgid "No Action"
+#~ msgstr "Bez radnje"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Klik lijevom tipkom miša"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Klik srednjom tipkom miša"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Klik desnom tipkom miša"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Klizi prema gore"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Klizi prema dolje"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Klizi lijevo"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Klizi desno"
+
+#~ msgid "Back"
+#~ msgstr "Natrag"
+
+#~ msgid "Forward"
+#~ msgstr "Naprijed"
+
+#~ msgid "Stylus"
+#~ msgstr "Olovka"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Osjet pritiska gumice brisanja"
+
+#~ msgid "Soft"
+#~ msgstr "Mekan"
+
+#~ msgid "Firm"
+#~ msgstr "Čvrst"
+
+#~ msgid "Top Button"
+#~ msgstr "Gornja tipka"
+
+#~ msgid "Lower Button"
+#~ msgstr "Donja tipka"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Osjet pritiska vrha"
+
+#~ msgid "All Settings"
+#~ msgstr "Sve postavke"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "GNOME središte upravljanja"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Pomagalo za podaešavanje GNOME radne površine"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "Središte upravljanja je GNOME glavno sučelje za podešavanje vaše radne "
+#~ "površine."
+
+#~ msgid "Display version number"
+#~ msgstr "Prikaži broj inačice"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Omogući opširni opisni način rada"
+
+#~ msgid "Show the overview"
+#~ msgstr "Prikaži pregled"
+
+#~ msgid "Search for the string"
+#~ msgstr "Pretraživanje niza"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Prikaži moguće nazive panela i izađi"
+
+#~ msgid "Panel to display"
+#~ msgstr "Panel za prikaz"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENT…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Dostupni paneli:"
+
+#~ msgid "Help"
+#~ msgstr "Pomoć"
+
+#~ msgid "Quit"
+#~ msgstr "Zatvori"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Osobno"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardver"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Sustav"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Osobitosti;Postavke;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Općenito"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Zatvori"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Pretraga"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Paneli"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Idi natrag na pregled"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Prekini pretragu"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Pristupna točka"

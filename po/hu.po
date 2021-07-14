@@ -1,0 +1,6801 @@
+# Hungarian translation of gnome-control-center.
+# Copyright (C) 1998-2016 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Szabolcs Ban <shooby at gnome dot hu>, 1998, 1999, 2000.
+# Emese Kovacs <emese at gnome dot hu>, 2001.
+# Peter Doma <zelin at pointernet dot hu>, 2002.
+# Andras Timar <timar at gnome dot hu>, 2001, 2002, 2003.
+# Gabor Sari <saga at gnome dot hu>, 2003.
+# Laszlo Dvornik <dvornik at gnome dot hu>, 2004.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016.
+# Mate ORY <orymate at gmail d0t com>, 2006.
+# Richard Somloi <ricsipontaz at gmail dot com>, 2011, 2012.
+# Peter Trombitas <trombipeti at gmail dot com>, 2012.
+# Balázs Úr <urbalazs at gmail dot com>, 2013, 2014, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2016-10-28 09:26+0200\n"
+"Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
+"Language-Team: Hungarian <openscope at gmail dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "_Felhasználónév"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Teljes név"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+msgid "Standard"
+msgstr "Általános"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr "Rendszergazda"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Fióktípus"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Jelszó"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr "A felhasználó beállíthat jelszót a következő _bejelentkezéskor"
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr "Jelszó beállítása _most"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "Jels_zó"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr "_Megerősítés"
+
+#: ../data/account-dialog.ui.h:11
+#, fuzzy
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"A vállalati bejelentkezés lehetővé teszi egy meglévő, központilag felügyelt "
+"felhasználói fiók használatát ezen az eszközön. A fiókot arra is "
+"használhatja, hogy céges erőforrásokhoz férjen hozzá az interneten."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Tartomány"
+
+#: ../data/account-dialog.ui.h:13
+#, fuzzy
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"Csatlakoznia kell az internetre a vállalati felhasználók hozzáadásához."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Vállalati bejelentkezés"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Felhasználó hozzáadása"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Tartományadminisztrátori bejelentkezés"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"A vállalati bejelentkezések használatához a számítógépet be kell\n"
+"jegyezni a tartományba. Kérje meg a hálózati rendszergazdát,\n"
+"hogy írja be itt a tartomány jelszavát."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "Rendszergazda _neve"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Rendszergazdai jelszó"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Bal hüvelykujj"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Bal középső ujj"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Bal gyűrűsujj"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Bal kisujj"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Jobb hüvelykujj"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Jobb középső ujj"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Jobb gyűrűsujj"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Jobb kisujj"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Ujjlenyomatos bejelentkezés engedélyezése"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Jobb mutatóujj"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Bal mutatóujj"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "_Más ujj:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Az ujjlenyomata sikeresen mentve. Mostantól bejelentkezhet az ujjlenyomat-"
+"olvasója segítségével."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Felhasználók"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Felhasználók hozzáadása vagy eltávolítása és jelszómódosítás"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr "Bejelentkezés;Név;Ujjlenyomat;Avatar;Logó;Arckép;Jelszó;"
+
+#: ../data/password-dialog.ui.h:1
+msgid "Change Password"
+msgstr "Jelszó megváltoztatása"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "Mé_gse"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "Mó_dosítás"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "Új jelszó mege_rősítése"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "Új jels_zó"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "Jele_nlegi jelszó"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr "A felhasználó módosíthatja a jelszót a következő bejelentkezéskor"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Jelszó beállítása most"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr "Felhasználó hozzá_adása…"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Bejelentkezési beállítások"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "A_utomatikus bejelentkezés"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Ujjlenyomatos bejelentkezés"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Felhasználói ikon"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Utolsó bejelentkezés"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Fiók eltávolítása"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Más fiókok"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "A felhasználó törlése meghiúsult"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr "A távmenedzselt felhasználó visszavonása meghiúsult"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Nem törölheti saját fiókját."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s még be van jelentkezve"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"A bejelentkezett felhasználók törlése a rendszert inkonzisztens állapotban "
+"hagyhatja."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Meg szeretné tartani %s fájljait?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Felhasználói fiók törlésekor lehetősége van a saját könyvtár, a levelezési "
+"várólista és az ideiglenes fájlok megtartására."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "Fájlok _törlése"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "Fájlok _megtartása"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Biztosan vissza szeretné vonni a távmenedzselt %s fiókját?"
+
+#: ../src/cc-user-panel.c:715
+msgid "_Delete"
+msgstr "_Törlés"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Fiók letiltva"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Következő belépéskor állítandó be"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Nincs"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "Bejelentkezve"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k.%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "A fiókszolgáltatás nem érhető el"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Győződjön meg róla, hogy az AccountService telepítve van és fut."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"A módosítások végrehajtásához\n"
+"előbb kattintson a * ikonra"
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Felhasználói fiók létrehozása"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Felhasználói fiók létrehozásához\n"
+"először kattintson a * ikonra"
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Kijelölt felhasználói fiók törlése"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"A kijelölt felhasználói fiók törléséhez\n"
+"először kattintson a * ikonra"
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Saját fiók"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Az új jelszó nem lehet azonos a régivel."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Próbáljon megváltoztatni néhány betűt és számot."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Próbálja jobban megváltoztatni a jelszót."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "A felhasználói neve nélkül a jelszava erősebb."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Próbálja meg kihagyni a felhasználónevét a jelszóból."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Próbálja meg kerülni a jelszóban lévő szavak egy részét."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Próbálja meg kerülni a gyakori szavakat."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Próbálja meg kerülni a meglévő szavak átrendezését."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Próbáljon meg több számot használni."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Próbáljon meg több nagybetűt használni."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Próbáljon meg több kisbetűt használni."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Próbáljon meg több speciális karaktert, például írásjeleket használni."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Próbálja meg betűk, számok és írásjelek keverékét használni."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Próbálja meg kerülni ugyanannak a karakternek az ismétlését."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Próbálja meg kerülni ugyanazon típusú karakterek ismétlését: keverjen "
+"betűket, számokat és írásjeleket. "
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Próbálja meg kerülni az 1234 vagy abcd-szerű egyszerű sorozatokat."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Próbálja meg betűk, számok és írásjelek keverékét használni."
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+"Használjon vegyesen kis- és nagybetűket, és tegyen közéjük egy-két számot is."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr "Jó jelszó! Több betű, szám és írásjel hozzáadásával erősebbé teheti."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "A hitelesítés meghiúsult"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Az új jelszó túl rövid"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Az új jelszó túl egyszerű"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "A régi és az új jelszó túlságosan hasonlít egymáshoz"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Az új jelszót nemrég használta."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+"Az új jelszónak számokat vagy speciális karaktereket is tartalmaznia kell"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "A régi és az új jelszó ugyanaz"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "A jelszava megváltozott az első hitelesítés óta."
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Az új jelszó nem tartalmaz elég eltérő karaktert"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Ismeretlen hiba"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr "Egyeznie kell a bejelentkezés szolgáltatójának webcímével."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "A fiók hozzáadása sikertelen"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "A jelszavak nem egyeznek."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "A fiók regisztrálása sikertelen"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Nincs támogatott módszer a tartományban való hitelesítésre"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Nem sikerült a tartományhoz csatlakozni"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"A bejelentkezési név nem működik.\n"
+"Próbálja újra."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"A bejelentkezési jelszó nem működik.\n"
+"Próbálja újra."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Nem sikerült bejelentkezni a tartományba"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "A tartomány nem található. Lehet, hogy elgépelte?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Mégse"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Hozzáadás"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Általános"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Rendszergazda"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr "Nem jogosult az eszköz elérésére. Keresse meg a rendszergazdáját."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Az eszköz már használatban van."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Belső hiba történt."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Tiltva"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Törli a regisztrált ujjlenyomatokat?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "Ujjlenyomatok _törlése"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Törölni kívánja a regisztrált ujjlenyomatokat, ezzel letiltva az "
+"ujjlenyomatos bejelentkezést?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Kész!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Az eszköz („%s”) nem érhető el"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Nem indítható az ujjak beolvasása az eszközön („%s”)"
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Nem érhető el ujjlenyomat-olvasó"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Segítségért keresse meg rendszergazdáját."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Az ujjlenyomatos bejelentkezés engedélyezéséhez a(z) „%s” eszköz "
+"segítségével el kell mentenie az egyik ujjlenyomatát."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Ujj kiválasztása"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Ujjlenyomatok regisztrálása"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Összegzés"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "Ezen a héten"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "Múlt héten"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b. %e."
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%Y. %b. %e."
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s – %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Munkamenet befejeződött"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Munkamenet elkezdődött"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr "%s – Fiókaktivitás"
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Válasszon másik jelszót."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Írja be újra jelenlegi jelszavát."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "A jelszót nem sikerült megváltoztatni"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Kijelölés"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "További képek tallózása"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Megnyitás"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Tiltva"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Fénykép készítése…"
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "További képek tallózása…"
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "%s használja"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Ilyen típusú tartományhoz nem lehet automatikusan csatlakozni"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Nem található ilyen tartomány vagy zóna"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Nem lehet bejelentkezni %s néven a(z) %s tartományba"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Érvénytelen jelszó, próbálja újra"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Nem lehet csatlakozni a(z) %s tartományhoz: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr "Ez a felhasználónév nem érhető el. Próbáljon egy másikat."
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr "A felhasználónév túl hosszú."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr "A felhasználónév nem kezdődhet „-” karakterrel."
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"A felhasználónév csak a-z közötti kis- és nagybetűket, számjegyeket, és a "
+"következő karaktereket tartalmazhatja: . - _"
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Ez a saját mappájának elnevezésére lesz használva, és nem lehet "
+"megváltoztatni."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Ma"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Tegnap"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%b. %e."
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%Y. %b. %e."
+
+#~ msgid "_Verify New Password"
+#~ msgstr "Új j_elszó ellenőrzése"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Próbáljon meg több betűt, számot és írásjelet megadni."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Erősség: Gyenge"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Erősség: Alacsony"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Erősség: Közepes"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Erősség: Jó"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Erősség: Magas"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Nem egyeznek a megadott jelszavak."
+
+#~ msgid "_Background"
+#~ msgstr "_Háttér"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Nap közben változik"
+
+#~ msgid "_Lock Screen"
+#~ msgstr "_Zárolási képernyő"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Mozaik"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Nagyítás"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Középre"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Méretezés"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Kitöltés"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Nyújtás"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Háttérképek"
+
+#~ msgid "Colors"
+#~ msgstr "Színek"
+
+#~ msgid "Select Background"
+#~ msgstr "Válasszon hátteret"
+
+#~ msgid "Pictures"
+#~ msgstr "Képek"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Nem találhatók képek"
+
+#~ msgid "Home"
+#~ msgstr "Saját mappa"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "A %s mappába felvett képek itt megjelennek"
+
+#~ msgid "_Select"
+#~ msgstr "_Kijelölés"
+
+#~ msgid "multiple sizes"
+#~ msgstr "több méret"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Nincs asztalháttér"
+
+#~ msgid "Current background"
+#~ msgstr "Jelenlegi háttér"
+
+#~ msgid "Back­ground"
+#~ msgstr "Hát­tér"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Háttérkép módosítása tapétára vagy fényképre"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Háttérkép;Képernyő;Asztal;"
+
+#~ msgid "Turn Off Airplane Mode"
+#~ msgstr "Repülőgép üzemmód kikapcsolása"
+
+#~ msgid "No Bluetooth Found"
+#~ msgstr "Nem található Bluetooth"
+
+#~ msgid "Plug in a dongle to use Bluetooth."
+#~ msgstr "Csatlakoztasson egy dongle-t a Bluetooth használatához"
+
+#~ msgid "Bluetooth Turned Off"
+#~ msgstr "Bluetooth kikapcsolva"
+
+#~ msgid "Turn on to connect devices and receive file transfers."
+#~ msgstr ""
+#~ "Kapcsolja be eszközök csatlakoztatásához és fájlátvitelek fogadásához."
+
+#~ msgid "Airplane Mode is on"
+#~ msgstr "Repülőgép üzemmód be"
+
+#~ msgid "Bluetooth is disabled when airplane mode is on."
+#~ msgstr "A Bluetooth ki van kapcsolva repülőgép üzemmódban."
+
+#~ msgid "Hardware Airplane Mode is on"
+#~ msgstr "Hardver repülőgép üzemmódja be"
+
+#~ msgid "Turn off the Airplane mode switch to enable Bluetooth."
+#~ msgstr ""
+#~ "Kapcsolja ki a Repülőgép üzemmód kapcsolót a Bluetooth bekapcsolásához."
+
+#~ msgid "Blue­tooth"
+#~ msgstr "Blue­tooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Kapcsolja be és ki a Bluetooth-t, majd csatlakoztassa eszközeit"
+
+#~ msgid "share;sharing;bluetooth;obex;"
+#~ msgstr "share;megosztás;bluetooth;obex;"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Helyezze a kalibrációs eszköz a négyzetre, és nyomja meg a „Kezdés” gombot"
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Vigye a kalibrálóeszközt a kalibrálási pozícióba, és nyomja meg a "
+#~ "„Tovább” gombot"
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Vigye a kalibrálóeszközt a felület pozícióba, és nyomja meg a „Tovább” "
+#~ "gombot"
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Zárja le a laptop fedelét"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Belső hiba történt, a folytatás nem lehetséges."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "A kalibráláshoz szükséges eszközök nincsenek telepítve."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "A profil nem állítható elő."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "A cél fehér pont nem szerezhető be."
+
+#~ msgid "Complete!"
+#~ msgstr "Kész!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "A kalibrálás sikertelen!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Eltávolíthatja a kalibrálóeszközt."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Ne zavarja a kalibrálóeszközt a folyamat során"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Laptop képernyő"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Beépített webkamera"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s monitor"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s szkenner"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s fényképezőgép"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s nyomtató"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s webkamera"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Színkezelés bekapcsolása ehhez: %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Színprofilok megjelenítése ehhez: %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Nem kalibrált"
+
+#~ msgid "Default: "
+#~ msgstr "Alapértelmezett: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Színtér: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Tesztprofil: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Válasszon ICC profilfájlt"
+
+#~ msgid "_Import"
+#~ msgstr "_Importálás"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Támogatott ICC profilok"
+
+#~ msgid "All files"
+#~ msgstr "Minden fájl"
+
+#~ msgid "Screen"
+#~ msgstr "Képernyő"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "A fájl feltöltése meghiúsult: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "A profil feltöltve ide:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Írja le ezt az URL-címet."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Indítsa újra a számítógépet, és indítsa el az általában használt "
+#~ "operációs rendszerét."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Írja be az URL-címet a böngészőjébe a profil letöltéséhez és "
+#~ "telepítéséhez."
+
+#~ msgid "Save Profile"
+#~ msgstr "Profil mentése"
+
+#~ msgid "_Save"
+#~ msgstr "M_entés"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Színprofil létrehozása a kiválasztott eszközhöz"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "A mérőkészülék nem található. Ellenőrizze, hogy be van-e kapcsolva, és "
+#~ "megfelelően van-e csatlakoztatva."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "A mérőkészülék nem támogatja a nyomtatóprofilozást."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Az eszköztípus jelenleg nem támogatott."
+
+#~ msgid "Standard Space"
+#~ msgstr "Szabványos színtér"
+
+#~ msgid "Test Profile"
+#~ msgstr "Tesztprofil"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Automatikus"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Alacsony minőség"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Közepes minőség"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Magas minőség"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Alapértelmezett RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Alapértelmezett CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Alapértelmezett szürke"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Gyártó által biztosított gyári kalibrálási adatok"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr ""
+#~ "Ezzel a profillal nem lehetséges a teljes képernyős kijelzőkorrekció"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Ez a profil már nem feltétlenül pontos"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Kijelző kalibrálása"
+
+#~ msgid "_Start"
+#~ msgstr "_Kezdés"
+
+#~ msgid "_Resume"
+#~ msgstr "_Folytatás"
+
+#~ msgid "_Done"
+#~ msgstr "_Kész"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Képernyő kalibrálása"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "A kalibrálás a képernyő színkezelésére használható profilt fog "
+#~ "előállítani. Minél tovább tart a kalibrálás, a színprofil minősége annál "
+#~ "jobb lesz."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "A számítógépét nem fogja tudni használni a kalibrálás során."
+
+#~ msgid "Quality"
+#~ msgstr "Minőség"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Becsült idő"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Kalibrálási minőség"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Válassza ki a kalibráláshoz használni kívánt érzékelőeszközt."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Kalibrálóeszköz"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Válassza ki a csatlakoztatott kijelző típusát."
+
+#~ msgid "Display Type"
+#~ msgstr "Kijelző típusa"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Válasszon egy cél fehér pontot. A legtöbb kijelzőt D65 fényforráshoz kell "
+#~ "kalibrálni."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Profil fehér pontja"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Állítsa be a kijelzőt az általában használt fényerőre. A színkezelés ezen "
+#~ "a fényerőn lesz a legpontosabb."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Ennek alternatívájaként használhatja az eszköz valamely másik profiljához "
+#~ "használt fényerőt."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Kijelző fényereje"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "A színprofilt használhatja különböző számítógépeken, vagy akár különböző "
+#~ "fényviszonyokhoz is létrehozhat profilokat."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Profil neve:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Profil neve"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "A profil sikeresen létrehozva!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Profil másolása"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Írható adathordozót igényel"
+
+#~ msgid "Upload profile"
+#~ msgstr "Profil feltöltése"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Internetkapcsolatot igényel"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "A profil használatával kapcsolatos ezen utasításokat <a href=\"linux"
+#~ "\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> és <a href=\"windows"
+#~ "\">Microsoft Windows</a> rendszereken is használhatja."
+
+#~ msgid "Add profile"
+#~ msgstr "Profil hozzáadása"
+
+#~ msgid "_Import File…"
+#~ msgstr "Fájl _importálása…"
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Problémák találhatók. A profil esetleg nem fog megfelelően működni. <a "
+#~ "href=\"\">Részletek megjelenítése.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr "Minden eszköz esetén a színkezeléshez friss színprofil szükséges."
+
+#~ msgid "Learn more"
+#~ msgstr "További információk"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Tudjon meg többet a színkezelésről"
+
+#~ msgid "_Set for all users"
+#~ msgstr "_Beállítás minden felhasználónak"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Profil beállítása a számítógép összes felhasználójának"
+
+#~ msgid "_Enable"
+#~ msgstr "_Engedélyezés"
+
+#~ msgid "_Add profile"
+#~ msgstr "_Profil hozzáadása"
+
+#~ msgid "_Calibrate…"
+#~ msgstr "_Kalibrálás…"
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Eszköz kalibrálása"
+
+#~ msgid "_Remove profile"
+#~ msgstr "Profil _eltávolítása"
+
+#~ msgid "_View details"
+#~ msgstr "_Részletek megjelenítése"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Nem találhatók eszközök a színkezeléshez"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Projektor"
+
+#~ msgid "Plasma"
+#~ msgstr "Plazma"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (CCFL háttérvilágítás)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (RGB LED háttérvilágítás)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (fehér LED háttérvilágítás)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Széles skálájú LCD (CCFL háttérvilágítás)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Széles skálájú LCD (RGB LED háttérvilágítás)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Nagy"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 perc"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Közepes"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 perc"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Alacsony"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 perc"
+
+#~ msgid "Native to display"
+#~ msgstr "Kijelző natív értéke"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (nyomtatás és közzététel)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (fényképészet és grafika)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Co­lor"
+#~ msgstr "Színek"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr "Kijelzők, fényképezőgépek vagy nyomtatók színeinek kalibrálása"
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Szín;ICC;Színek;Profilozás;Kalibrálás;Nyomtató;Kijelző;"
+
+#~ msgid "Other…"
+#~ msgstr "Egyéb…"
+
+#~ msgid "More…"
+#~ msgstr "Tovább…"
+
+#~ msgid "No languages found"
+#~ msgstr "Nem találhatók nyelvek"
+
+#~ msgid "Language"
+#~ msgstr "Nyelv"
+
+#~ msgid "Day"
+#~ msgstr "Nap"
+
+#~ msgid "Month"
+#~ msgstr "Hónap"
+
+#~ msgid "Year"
+#~ msgstr "Év"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%Y. %B %e, %I.%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%Y. %B %e, %H.%M"
+
+#, c-format
+#~ msgctxt "timezone loc"
+#~ msgid "%s, %s"
+#~ msgstr "%s, %s"
+
+#, c-format
+#~ msgctxt "timezone desc"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%I.%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%H.%M"
+
+#, c-format
+#~ msgctxt "timezone map"
+#~ msgid "%s (%s)"
+#~ msgstr "%s (%s)"
+
+#~ msgid "January"
+#~ msgstr "Január"
+
+#~ msgid "February"
+#~ msgstr "Február"
+
+#~ msgid "March"
+#~ msgstr "Március"
+
+#~ msgid "April"
+#~ msgstr "Április"
+
+#~ msgid "May"
+#~ msgstr "Május"
+
+#~ msgid "June"
+#~ msgstr "Június"
+
+#~ msgid "July"
+#~ msgstr "Július"
+
+#~ msgid "August"
+#~ msgstr "Augusztus"
+
+#~ msgid "September"
+#~ msgstr "Szeptember"
+
+#~ msgid "October"
+#~ msgstr "Október"
+
+#~ msgid "November"
+#~ msgstr "November"
+
+#~ msgid "December"
+#~ msgstr "December"
+
+#~ msgid "Date & Time"
+#~ msgstr "Dátum és idő"
+
+#~ msgid "Hour"
+#~ msgstr "Óra"
+
+#~ msgid "∶"
+#~ msgstr "."
+
+#~ msgid "Minute"
+#~ msgstr "Perc"
+
+#~ msgid "Time Zone"
+#~ msgstr "Időzóna"
+
+#~ msgid "Search for a city"
+#~ msgstr "Város keresése"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "A_utomatikus dátum és idő"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Internet-hozzáférést igényel"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Automatikus idő_zóna"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Dátu_m és idő"
+
+#~ msgid "Time Z_one"
+#~ msgstr "Idő_zóna"
+
+#~ msgid "Time _Format"
+#~ msgstr "Idő_formátum"
+
+#~ msgid "24-hour"
+#~ msgstr "24 órás"
+
+#~ msgid "AM / PM"
+#~ msgstr "12 órás"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Dátum, idő és időzóna módosítása"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Óra;Időzóna;Hely;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Rendszer dátum- és időbeállításainak módosítása"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Hitelesítés szükséges a dátum- és időbeállítások módosításához."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Fedél lezárva"
+
+#~ msgid "Mirrored"
+#~ msgstr "Tükrözött"
+
+#~ msgid "Primary"
+#~ msgstr "Elsődleges"
+
+#~ msgid "Off"
+#~ msgstr "Ki"
+
+#~ msgid "Secondary"
+#~ msgstr "Másodlagos"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Kombinált kijelzők elrendezése"
+
+#~ msgid "_Apply"
+#~ msgstr "_Alkalmaz"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Húzza a kijelzőket az átrendezésükhöz"
+
+#, c-format
+#~ msgid "%d Hz (NTSC)"
+#~ msgstr "%d Hz (NTSC)"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Rotate counterclockwise by 90°"
+#~ msgstr "Forgatás balra 90°-kal"
+
+#~ msgid "Rotate by 180°"
+#~ msgstr "Forgatás 180°-kal"
+
+#~ msgid "Rotate clockwise by 90°"
+#~ msgstr "Forgatás jobbra 90°-kal"
+
+#~ msgid "Size"
+#~ msgstr "Méret"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Méretarány"
+
+#~ msgid "Resolution"
+#~ msgstr "Felbontás"
+
+#~ msgid "Adjust for TV"
+#~ msgstr "TV-hez igazítás"
+
+#~ msgid "Refresh Rate"
+#~ msgstr "Frissítés gyakorisága"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr ""
+#~ "A felső sáv és a Tevékenységek áttekintés megjelenítése ezen a kijelzőn"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Másodlagos kijelző"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr ""
+#~ "Ezen kijelző összekapcsolása egy másikkal extra munkaterület "
+#~ "létrehozásához"
+
+#~ msgid "Presentation"
+#~ msgstr "Bemutató"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Csak bemutatók és média megjelenítése"
+
+#~ msgid "Mirror"
+#~ msgstr "Tükrözés"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Meglévő nézet megjelenítése mindkét kijelzőn"
+
+#~ msgid "Turn Off"
+#~ msgstr "Kikapcsolás"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Ne használja ezt a kijelzőt"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "A képernyő-információk nem kérhetők le"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Kombinált kijelzők elrendezése"
+
+#~ msgid "Dis­plays"
+#~ msgstr "Ki­jel­zők"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Csatlakoztatott monitorok és projektorok beállítása"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;Monitor;"
+#~ msgstr "Panel;Projektor;xrandr;Képernyő;Felbontás;Frissítés;Monitor;"
+
+#~ msgid "Unknown"
+#~ msgstr "Ismeretlen"
+
+#, c-format
+#~ msgid "%s %d-bit (Build ID: %s)"
+#~ msgstr "%s %d bites (Építés azonosító: %s)"
+
+#, c-format
+#~ msgid "%d-bit (Build ID: %s)"
+#~ msgstr "%d bites (Építés azonosító: %s)"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s %d bites"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d bites"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Kérdezze meg, mi a teendő"
+
+#~ msgid "Do nothing"
+#~ msgstr "Ne tegyen semmit"
+
+#~ msgid "Open folder"
+#~ msgstr "Mappa megnyitása"
+
+#~ msgid "Other Media"
+#~ msgstr "Egyéb média"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Válasszon alkalmazást CD-khez"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Válasszon alkalmazást videó DVD-khez"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr ""
+#~ "Válassza ki a zenelejátszó csatlakoztatásakor futtatandó alkalmazást"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr ""
+#~ "Válassza ki a fényképezőgép csatlakoztatásakor futtatandó alkalmazást"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Válasszon alkalmazást szoftver CD-khez"
+
+#~ msgid "audio DVD"
+#~ msgstr "Hang DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Üres Blu-Ray lemez"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Üres CD-lemez"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Üres DVD-lemez"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Üres HD DVD-lemez"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray videolemez"
+
+#~ msgid "e-book reader"
+#~ msgstr "E-könyvolvasó"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD videolemez"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows-szoftver"
+
+#~ msgid "Section"
+#~ msgstr "Szakasz"
+
+#~ msgid "Overview"
+#~ msgstr "Áttekintés"
+
+#~ msgid "Default Applications"
+#~ msgstr "Alap alkalmazások"
+
+#~ msgid "Removable Media"
+#~ msgstr "Külső adathordozók"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "%s verzió"
+
+#~ msgid "De­tails"
+#~ msgstr "Rész­le­tek"
+
+#~ msgid "View information about your system"
+#~ msgstr "Információk megjelenítése a rendszeréről"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "eszköz;rendszer;információk;memória;processzor;verzió;alapértelmezett;"
+#~ "alkalmazás;előnyben részesített;cd;dvd;usb;hang;video;lemez;eltávolítható;"
+#~ "cserélhető;média;automatikus futtatás;autorun;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Válassza ki az egyéb adathordozók kezelésének módját"
+
+#~ msgid "_Action:"
+#~ msgstr "_Művelet:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Típus:"
+
+#~ msgid "Device name"
+#~ msgstr "Eszköz neve"
+
+#~ msgid "Memory"
+#~ msgstr "Memória"
+
+#~ msgid "Processor"
+#~ msgstr "Processzor"
+
+#~ msgid "Base system"
+#~ msgstr "Alaprendszer"
+
+#~ msgid "Disk"
+#~ msgstr "Lemez"
+
+#~ msgid "Calculating…"
+#~ msgstr "Számítás…"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "Virtualization"
+#~ msgstr "Virtualizáció"
+
+#~ msgid "Check for updates"
+#~ msgstr "Frissítések keresése"
+
+#~ msgid "_Web"
+#~ msgstr "_Web"
+
+#~ msgid "_Mail"
+#~ msgstr "_Levelezés"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Naptár"
+
+#~ msgid "M_usic"
+#~ msgstr "_Zene"
+
+#~ msgid "_Video"
+#~ msgstr "_Videó"
+
+#~ msgid "_Photos"
+#~ msgstr "_Fényképek"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Válassza ki az adathordozók kezelésének módját"
+
+#~ msgid "CD _audio"
+#~ msgstr "CD _hang"
+
+#~ msgid "_DVD video"
+#~ msgstr "_DVD videó"
+
+#~ msgid "_Music player"
+#~ msgstr "_Zenelejátszó"
+
+#~ msgid "_Software"
+#~ msgstr "Sz_oftver"
+
+#~ msgid "_Other Media…"
+#~ msgstr "_Egyéb adathordozók…"
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr ""
+#~ "Soha _ne kérdezzen vagy indítson programokat adathordozó behelyezésekor"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Hang és média"
+
+#~ msgid "Volume mute"
+#~ msgstr "Némítás"
+
+#~ msgid "Volume down"
+#~ msgstr "Halkítás"
+
+#~ msgid "Volume up"
+#~ msgstr "Hangosítás"
+
+#~ msgid "Launch media player"
+#~ msgstr "Médialejátszó indítása"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Lejátszás (vagy lejátszás/szünet)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Lejátszás szüneteltetése"
+
+#~ msgid "Stop playback"
+#~ msgstr "Lejátszás leállítása"
+
+#~ msgid "Previous track"
+#~ msgstr "Előző szám"
+
+#~ msgid "Next track"
+#~ msgstr "Következő szám"
+
+#~ msgid "Eject"
+#~ msgstr "Kiadás"
+
+#~ msgid "Typing"
+#~ msgstr "Gépelés"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Váltás a következő bemeneti forrásra"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Váltás az előző bemeneti forrásra"
+
+#~ msgid "Launchers"
+#~ msgstr "Parancsikonok"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Súgóböngésző indítása"
+
+#~ msgid "Settings"
+#~ msgstr "Beállítások"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Számológép indítása"
+
+#~ msgid "Launch email client"
+#~ msgstr "E-mail kliens indítása"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Webböngésző indítása"
+
+#~ msgid "Home folder"
+#~ msgstr "Saját mappa"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Keresés"
+
+#~ msgid "Screenshots"
+#~ msgstr "Képernyőképek"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Képernyőkép mentése a $PICTURES mappába"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Képernyőkép mentése egy ablakról a $PICTURES mappába"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Képernyőkép mentése egy területről a $PICTURES mappába"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Képernyőkép másolása a vágólapra"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Ablakról készült képernyőkép másolása a vágólapra"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Területről készült képernyőkép másolása a vágólapra"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Rövid képernyővideó felvétele"
+
+#~ msgid "System"
+#~ msgstr "Rendszer"
+
+#~ msgid "Log out"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "Lock screen"
+#~ msgstr "Képernyő zárolása"
+
+#~ msgid "Universal Access"
+#~ msgstr "Akadály­mentesítés"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Nagyító be- vagy kikapcsolása"
+
+#~ msgid "Zoom in"
+#~ msgstr "Nagyítás"
+
+#~ msgid "Zoom out"
+#~ msgstr "Kicsinyítés"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Képernyőolvasó be- vagy kikapcsolása"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Képernyő-billentyűzet be- vagy kikapcsolása"
+
+#~ msgid "Increase text size"
+#~ msgstr "Szövegméret növelése"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Szövegméret csökkentése"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Nagy kontraszt be- vagy kikapcsolása"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Egyéni gyorsbillentyűk"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Alternatív karakterek billentyű"
+
+#~ msgid "Compose Key"
+#~ msgstr "Kombináló billentyű"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Módosítók csak a következő forrásra váltanak"
+
+#~ msgid "Reset the shortcut to its default value"
+#~ msgstr "A gyorsbillentyű visszaállítása az alapértelmezett értékre"
+
+#, c-format
+#~ msgid ""
+#~ "%s is already being used for <b>%s</b>. If you replace it, %s will be "
+#~ "disabled"
+#~ msgstr ""
+#~ "A(z) %s már használatban van ennél: <b>%s</b>. Ha lecseréli, akkor a(z) "
+#~ "%s letiltásra kerül"
+
+#~ msgid "Set Custom Shortcut"
+#~ msgstr "Egyéni gyorsbillentyű beállítása"
+
+#~ msgid "Set Shortcut"
+#~ msgstr "Gyorsbillentyű beállítása"
+
+#, c-format
+#~ msgid "Enter new shortcut to change <b>%s</b>."
+#~ msgstr "Adja meg az új gyorsbillentyűt a(z) <b>%s</b> megváltoztatásához."
+
+#~ msgid "Add Custom Shortcut"
+#~ msgstr "Egyéni gyorsbillentyű hozzáadása"
+
+#~ msgid "Key­board"
+#~ msgstr "Bil­len­tyű­zet"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr ""
+#~ "Gyorsbillentyűk megjelenítése és módosítása, gépelési beállítások megadása"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Gyorsbillentyű;Ismétlés;Villogás;"
+
+#~ msgid "No keyboard shortcut found"
+#~ msgstr "Nem található gyorsbillentyű"
+
+#~ msgid "Try a different search"
+#~ msgstr "Próbáljon valami mást keresni"
+
+#~ msgid "Press Esc to cancel."
+#~ msgstr "Nyomja meg az Esc gombot a megszakításhoz."
+
+#~ msgid "Name"
+#~ msgstr "Név"
+
+#~ msgid "Command"
+#~ msgstr "Parancs"
+
+#~ msgid "Shortcut"
+#~ msgstr "Gyorsbillentyű"
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztés"
+
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "Remove"
+#~ msgstr "Eltávolítás"
+
+#~ msgid "Enter the new shortcut"
+#~ msgstr "Adja meg az új gyorsbillentyűt"
+
+#~ msgid "Add"
+#~ msgstr "Hozzáadás"
+
+#~ msgid "Replace"
+#~ msgstr "Csere"
+
+#~ msgid "Set"
+#~ msgstr "Beállítás"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "Beállítás_ok tesztelése"
+
+#~ msgid "Mouse & Touch­pad"
+#~ msgstr "E­gér és é­rin­tő­táb­la"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Egér vagy érintőtábla érzékenységének, bal vagy jobb kezességének "
+#~ "módosítása"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Érintőtábla;Tapipad;Mutató;Kattintás;Koppintás;Dupla;Gomb;Hanyattegér;"
+#~ "Görgetés;Gördítés;"
+
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgid "Primary Button"
+#~ msgstr "Elsődleges gomb"
+
+#~ msgid "Sets the order of physical buttons on mice and touchpads."
+#~ msgstr "Beállítja a fizikai gombok sorrendjét egereken és érintőtáblákon."
+
+#~ msgid "Left"
+#~ msgstr "Bal"
+
+#~ msgid "Right"
+#~ msgstr "Jobb"
+
+#~ msgid "Mouse"
+#~ msgstr "Egér"
+
+#~ msgid "Mouse Speed"
+#~ msgstr "Egér sebessége"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Dupla kattintás időköze"
+
+#~ msgid "Natural Scrolling"
+#~ msgstr "Természetes görgetés"
+
+#~ msgid "Scrolling moves the content, not the view."
+#~ msgstr "A görgetés a tartalmat mozgatja, nem a nézetet."
+
+#~ msgid "Touchpad"
+#~ msgstr "Érintőtábla"
+
+#~ msgid "Touchpad Speed"
+#~ msgstr "Érintőtábla sebessége"
+
+#~ msgid "Tap to Click"
+#~ msgstr "Koppintás a kattintáshoz"
+
+#~ msgid "Two-finger Scrolling"
+#~ msgstr "Kétujjas görgetés"
+
+#~ msgid "Edge Scrolling"
+#~ msgstr "Görgetés a szélen"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr "Próbáljon kattintani, duplán kattintani, görgetni"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Öt kattintás, ez a GEGL ideje!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Dupla kattintás, elsődleges gomb"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Egy kattintás, elsődleges gomb"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Dupla kattintás, középső gomb"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Egy kattintás, középső gomb"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Dupla kattintás, másodlagos gomb"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Egy kattintás, másodlagos gomb"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "_Repülő mód"
+
+#~ msgid "Network proxy"
+#~ msgstr "Hálózati proxy"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "Oops, something has gone wrong. Please contact your software vendor."
+#~ msgstr ""
+#~ "Hoppá, valami elromlott. Lépjen kapcsolatba a szoftver szállítójával."
+
+#~ msgid "NetworkManager needs to be running."
+#~ msgstr "A Hálózatkezelőnek futnia kell."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "802.1x _biztonság"
+
+#~ msgid "page 1"
+#~ msgstr "1. oldal"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "_Névtelen személyazonosság"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "Belső _hitelesítés"
+
+#~ msgid "page 2"
+#~ msgstr "2. oldal"
+
+#~ msgid "Security"
+#~ msgstr "Biztonság"
+
+#~ msgid "automatic"
+#~ msgstr "automatikus"
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "%d. profil"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "Never"
+#~ msgstr "Soha"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i napja"
+#~ msgstr[1] "%i napja"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Mb/s"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Gyenge"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Jó"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Kitűnő"
+
+#~ msgid "Details"
+#~ msgstr "Részletek"
+
+#~ msgid "Identity"
+#~ msgstr "Személyazonosság"
+
+#~ msgid "Address"
+#~ msgstr "Cím"
+
+#~ msgid "Netmask"
+#~ msgstr "Hálózati maszk"
+
+#~ msgid "Gateway"
+#~ msgstr "Átjáró"
+
+#~ msgid "Delete Address"
+#~ msgstr "Cím törlése"
+
+#~ msgid "Server"
+#~ msgstr "Kiszolgáló"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "DNS-kiszolgáló törlése"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Metrika"
+
+#~ msgid "Delete Route"
+#~ msgstr "Útvonal törlése"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Automatikus (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Kézi"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Csak közvetlen kapcsolat"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Előtag"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatikus"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Automatikus, csak DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Visszaállítás"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP 40/128 bites kulcs (Hex vagy ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP 128 bites jelmondat"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Dinamikus WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA és WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA és WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Jelerősség"
+
+#~ msgid "Link speed"
+#~ msgstr "Kapcsolat sebessége"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4-cím"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6-cím"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Hardvercím"
+
+#~ msgid "Default Route"
+#~ msgstr "Alapértelmezett útvonal"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Utolsó használat"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Csavart érpár (TP)"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Mb/s"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Mb/s"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Gb/s"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Gb/s"
+
+#~ msgid "_Name"
+#~ msgstr "_Név"
+
+#~ msgid "_MAC Address"
+#~ msgstr "_MAC cím"
+
+#~ msgid "M_TU"
+#~ msgstr "M_TU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Klónozott cím"
+
+#~ msgid "bytes"
+#~ msgstr "bájt"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "_Elérhetővé tétel más felhasználóknak"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "A_utomatikus csatlakozás"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "Tűzfal _zóna"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Alapértelmezett"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "A zóna határozza meg a kapcsolat megbízhatósági szintjét"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Cím"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Automatikus DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Útvonalak"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Automatikus útvonalak"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "A kapcsolat _használata csak a hálózatán lévő erőforrásokhoz"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "A kapcsolatszerkesztő megnyitása sikertelen"
+
+#~ msgid "New Profile"
+#~ msgstr "Új profil"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Import from file…"
+#~ msgstr "Importálás fájlból…"
+
+#~ msgid "Add VPN"
+#~ msgstr "VPN hozzáadása"
+
+#~ msgid "_Reset"
+#~ msgstr "_Visszaállítás"
+
+#~ msgid "_Forget"
+#~ msgstr "_Elfelejtés"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "A hálózat beállításainak visszaállítása a jelszavakkal együtt, de "
+#~ "maradjon előnyben részesített"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "A hálózattal kapcsolatos minden adat eltávolítása, és ne próbáljon "
+#~ "automatikusan csatlakozni"
+
+#~ msgid "S_ecurity"
+#~ msgstr "Bi_ztonság"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Nem lehet importálni a VPN kapcsolatot"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "A fájl („%s”) nem olvasható vagy nem tartalmaz ismert VPN "
+#~ "kapcsolatinformációkat\n"
+#~ "\n"
+#~ "Hiba: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Válassza ki az importálandó fájlt"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Már létezik „%s” nevű fájl."
+
+#~ msgid "_Replace"
+#~ msgstr "_Csere"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Le kívánja cserélni a(z) %s fájlt a mentendő VPN kapcsolatra?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Nem lehet exportálni a VPN kapcsolatot"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "A VPN kapcsolat („%s”) nem exportálható ide: %s.\n"
+#~ "\n"
+#~ "Hiba: %s."
+
+#~ msgid "Export VPN connection"
+#~ msgstr "VPN kapcsolat exportálása"
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Hiba: a VPN kapcsolatszerkesztő nem tölthető be)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "BSS_ID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Otthoni hálózat"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Elérhetővé tétel más _felhasználóknak"
+
+#~ msgid "Net­work"
+#~ msgstr "Há­ló­zat"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Internetkapcsolatok beállítása"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;DNS;"
+#~ msgstr ""
+#~ "Hálózat;Vezeték nélküli;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Széles sáv;Szélessáv;"
+#~ "Modem;Bluetooth;vpn;DNS;"
+
+#~ msgid "never"
+#~ msgstr "soha"
+
+#~ msgid "today"
+#~ msgstr "ma"
+
+#~ msgid "yesterday"
+#~ msgstr "tegnap"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-cím"
+
+#~ msgid "Last used"
+#~ msgstr "Utolsó használat"
+
+#~ msgid "Wired"
+#~ msgstr "Vezetékes"
+
+#~ msgid "Options…"
+#~ msgstr "Beállítások…"
+
+#~ msgid "Add new connection"
+#~ msgstr "Új kapcsolat hozzáadása"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Ha nem csak vezeték nélküli internetkapcsolata van, akkor vezeték nélküli "
+#~ "hotspot létrehozásával megoszthatja a kapcsolatot másokkal."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr ""
+#~ "A vezeték nélküli hotspot bekapcsolása le fogja választani erről: <b>%s</"
+#~ "b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Az internetet nem érheti el a vezeték nélküli kapcsolaton, mialatt a "
+#~ "hotspot aktív."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Leállítja a hotspotot, és leválasztja a felhasználókat?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "H_otspot leállítása"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "A rendszer házirendje megtiltja a hotspotként való használatot"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "A vezeték nélküli eszköz nem támogatja a hotspot módot"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "A kijelölt hálózatok adatai elvesznek, beleértve a jelszavakat és az "
+#~ "egyedi beállításokat is."
+
+#~ msgid "History"
+#~ msgstr "Előzmények"
+
+#~ msgid "_Close"
+#~ msgstr "_Bezárás"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Felejtse el"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Az automatikus webproxy-felderítés akkor használatos, ha nincs megadva "
+#~ "konfigurációs URL."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr "Ez nem javasolt nyilvános, nem biztonságos hálózatokon."
+
+#~ msgid "Proxy"
+#~ msgstr "Proxy"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Profil hozzáadása…"
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Szolgáltató"
+
+#~ msgid "Network"
+#~ msgstr "Hálózat"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Kézi"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Automatikus"
+
+#~ msgid "_Method"
+#~ msgstr "_Módszer"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_Konfigurációs URL"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "_HTTP-proxy"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "H_TTPS-proxy"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "_FTP-proxy"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Socks kiszolgáló"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "Gépek _figyelmen kívül hagyása"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "HTTP proxy port"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "HTTPS proxy port"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "FTP proxy port"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "SOCKS proxy port"
+
+#~ msgid "Turn device off"
+#~ msgstr "Eszköz kikapcsolása"
+
+#~ msgid "Add Device"
+#~ msgstr "Eszköz hozzáadása"
+
+#~ msgid "Remove Device"
+#~ msgstr "Eszköz eltávolítása"
+
+#~ msgid "VPN Type"
+#~ msgstr "VPN típusa"
+
+#~ msgid "Group Name"
+#~ msgstr "Csoportnév"
+
+#~ msgid "Group Password"
+#~ msgstr "Csoportjelszó"
+
+#~ msgid "Username"
+#~ msgstr "Felhasználónév"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "VPN kapcsolat kikapcsolása"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "A_utomatikus csatlakozás"
+
+#~ msgid "details"
+#~ msgstr "részletek"
+
+#~ msgid "Show P_assword"
+#~ msgstr "J_elszó megjelenítése"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Elérhetővé tétel más felhasználóknak"
+
+#~ msgid "identity"
+#~ msgstr "személyazonosság"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Csak automatikus (DHCP) címek"
+
+#~ msgid "Link-local only"
+#~ msgstr "Csak közvetlen kapcsolat"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Más gépekkel megosztott"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "A_utomatikusan lekért utak mellőzése"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Klónozott MAC-cím"
+
+#~ msgid "hardware"
+#~ msgstr "hardware"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "A kapcsolat beállításainak visszaállítása az alapértelmezésekre, de "
+#~ "megjegyzés előnyben részesítettként."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "A hálózattal kapcsolatos minden adat eltávolítása, és ne próbáljon "
+#~ "automatikusan csatlakozni."
+
+#~ msgid "reset"
+#~ msgstr "visszaállítás"
+
+#~ msgid "Hardware"
+#~ msgstr "Hardver"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wi-Fi hotspot"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Bekapcsolás"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Wi-Fi kikapcsolása"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "H_asználat hotspotként…"
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "Kapcsolódás _rejtett hálózathoz…"
+
+#~ msgid "_History"
+#~ msgstr "_Előzmények"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Kapcsolja ki a Wi-Fi hálózathoz kapcsolódáshoz"
+
+#~ msgid "Network Name"
+#~ msgstr "Hálózat neve"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Kapcsolódott eszközök"
+
+#~ msgid "Security type"
+#~ msgstr "Biztonsági típus"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Eseti"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Kiépített"
+
+#~ msgid "Status unknown"
+#~ msgstr "Ismeretlen állapot"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Felügyeletlen"
+
+#~ msgid "Unavailable"
+#~ msgstr "Nem érhető el"
+
+#~ msgid "Connecting"
+#~ msgstr "Kapcsolódás"
+
+#~ msgid "Authentication required"
+#~ msgstr "Hitelesítés szükséges"
+
+#~ msgid "Connected"
+#~ msgstr "Kapcsolódva"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Bontás"
+
+#~ msgid "Connection failed"
+#~ msgstr "Kapcsolódás meghiúsult"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Ismeretlen állapot (hiányzik)"
+
+#~ msgid "Not connected"
+#~ msgstr "Nincs kapcsolódva"
+
+#~ msgid "Configuration failed"
+#~ msgstr "A beállítás sikertelen"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Az IP-beállítás sikertelen"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Az IP-beállítás lejárt"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Titkos információkra volt szükség, de nem lettek megadva"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "A 802.1x-kliens bontotta a kapcsolatot"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "A 802.1x-kliens beállítása meghiúsult"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "A 802.1x-kliens sikertelen"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "A 802.1x-kliens hitelesítése túl sokáig tartott"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "A PPP szolgáltatás nem indult el"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP szolgáltatás leválasztva"
+
+#~ msgid "PPP failed"
+#~ msgstr "A PPP sikertelen"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "A DHCP kliens nem indult el"
+
+#~ msgid "DHCP client error"
+#~ msgstr "DHCP-klienshiba"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "A DHCP-kliens sikertelen"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "A megosztott kapcsolat szolgáltatás nem indult el"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "A megosztott kapcsolat szolgáltatás sikertelen"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Az AutoIP szolgáltatás nem indult el"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "AutoIP szolgáltatáshiba"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Az AutoIP szolgáltatás sikertelen"
+
+#~ msgid "Line busy"
+#~ msgstr "A vonal foglalt"
+
+#~ msgid "No dial tone"
+#~ msgstr "Nincs tárcsahang"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Nem hozható létre hívás"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "A tárcsázási kérés túllépte az időkorlátot"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "A tárcsázási kísérlet meghiúsult"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "A modem előkészítése sikertelen"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "A megadott APN kiválasztása meghiúsult"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Nem keres hálózatokat"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Hálózatregisztráció megtagadva"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "A hálózatregisztráció túllépte az időkorlátot"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "A kért hálózaton való regisztráció sikertelen"
+
+#~ msgid "PIN check failed"
+#~ msgstr "A PIN ellenőrzése sikertelen"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Az eszközhöz firmware hiányozhat"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "A kapcsolat eltűnt"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "A meglévő kapcsolat felvéve"
+
+#~ msgid "Modem not found"
+#~ msgstr "Nem található modem"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "A Bluetooth kapcsolódás sikertelen"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "A SIM kártya nincs behelyezve"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "A SIM Pin szükséges"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "A SIM Puk szükséges"
+
+#~ msgid "SIM wrong"
+#~ msgstr "A SIM hibás"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Kapcsolódás függősége meghiúsult"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Hiányzó firmware"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Kábel kihúzva"
+
+#~ msgid "undefined error in 802.1x security (wpa-eap)"
+#~ msgstr "meghatározatlan hiba a 802.1x biztonságban (wpa-eap)"
+
+#~ msgid "no file selected"
+#~ msgstr "nincs fájl kiválasztva"
+
+#~ msgid "unspecified error validating eap-method file"
+#~ msgstr "meghatározatlan hiba az eap-method fájl ellenőrzése közben"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12, *.key)"
+#~ msgstr ""
+#~ "DER, PEM vagy PKCS#12 személyes kulcsok (*.der, *.pem, *.p12, *.key)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "DER vagy PEM tanúsítványok (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "missing EAP-FAST PAC file"
+#~ msgstr "hiányzó EAP-FAST PAC fájl"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file"
+#~ msgstr "Válasszon PAC fájlt"
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC fájlok (*.pac)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Anonymous"
+
+#~ msgid "Authenticated"
+#~ msgstr "Hitelesített"
+
+#~ msgid "Both"
+#~ msgstr "Mindkettő"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC _fájl"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "Belső _hitelesítés"
+
+#~ msgid "Allow automatic PAC pro_visioning"
+#~ msgstr "Automatikus PA_C létesítés engedélyezése"
+
+#~ msgid "missing EAP-LEAP username"
+#~ msgstr "hiányzó EAP-LEAP felhasználónév"
+
+#~ msgid "missing EAP-LEAP password"
+#~ msgstr "hiányzó EAP-LEAP jelszó"
+
+#~ msgid "Sho_w password"
+#~ msgstr "_Jelszó megjelenítése"
+
+#, c-format
+#~ msgid "invalid EAP-PEAP CA certificate: %s"
+#~ msgstr "érvénytelen EAP-PEAP CA tanúsítvány: %s"
+
+#~ msgid "invalid EAP-PEAP CA certificate: no certificate specified"
+#~ msgstr "érvénytelen EAP-PEAP CA tanúsítvány: nincs tanúsítvány megadva"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate"
+#~ msgstr "Válasszon hitelesítésszolgáltatói tanúsítványt"
+
+#~ msgid "Version 0"
+#~ msgstr "0. verzió"
+
+#~ msgid "Version 1"
+#~ msgstr "1. verzió"
+
+#~ msgid "C_A certificate"
+#~ msgstr "_CA tanúsítvány"
+
+#~ msgid "No CA certificate is _required"
+#~ msgstr "CA tanúsítvány nem _szükséges"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_PEAP verzió:"
+
+#~ msgid "missing EAP username"
+#~ msgstr "hiányzó EAP felhasználónév"
+
+#~ msgid "missing EAP password"
+#~ msgstr "hiányzó EAP jelszó"
+
+#~ msgid "missing EAP-TLS identity"
+#~ msgstr "hiányzó EAP-TLS személyazonosság"
+
+#, c-format
+#~ msgid "invalid EAP-TLS CA certificate: %s"
+#~ msgstr "érvénytelen EAP-TLS CA tanúsítvány: „%s”"
+
+#~ msgid "invalid EAP-TLS CA certificate: no certificate specified"
+#~ msgstr "érvénytelen EAP-TLS CA tanúsítvány: nincs tanúsítvány megadva"
+
+#~ msgid "invalid EAP-TLS password: missing"
+#~ msgstr "érvénytelen EAP-TLS jelszó: hiányzik"
+
+#, c-format
+#~ msgid "invalid EAP-TLS private-key: %s"
+#~ msgstr "érvénytelen EAP-TLS személyes kulcs: „%s”"
+
+#, c-format
+#~ msgid "invalid EAP-TLS user-certificate: %s"
+#~ msgstr "érvénytelen EAP-TLS felhasználói tanúsítvány: „%s”"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "A nem titkosított személyes kulcsok nem biztonságosak"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Úgy tűnik, hogy a kiválasztott személyes kulcsot nem védi jelszó. Ez "
+#~ "lehetővé teszi a hitelesítési adatok kompromittálását. Válasszon "
+#~ "jelszóval védett személyes kulcsot.\n"
+#~ "\n"
+#~ "Személyes kulcsát az OpenSSL segítségével teheti jelszóval védetté."
+
+#~ msgid "Choose your personal certificate"
+#~ msgstr "Válassza ki a személyes tanúsítványát"
+
+#~ msgid "Choose your private key"
+#~ msgstr "Válassza ki a személyes kulcsát"
+
+#~ msgid "I_dentity"
+#~ msgstr "S_zemélyazonosság"
+
+#~ msgid "_User certificate"
+#~ msgstr "_Felhasználói tanúsítvány"
+
+#~ msgid "Private _key"
+#~ msgstr "Személyes k_ulcs"
+
+#~ msgid "_Private key password"
+#~ msgstr "S_zemélyes kulcs jelszava"
+
+#, c-format
+#~ msgid "invalid EAP-TTLS CA certificate: %s"
+#~ msgstr "Érvénytelen EAP-TTLS CA tanúsítvány: „%s”"
+
+#~ msgid "invalid EAP-TTLS CA certificate: no certificate specified"
+#~ msgstr "érvénytelen EAP-TTLS CA tanúsítvány: nincs tanúsítvány megadva"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Unknown error validating 802.1x security"
+#~ msgstr "Ismeretlen hiba a 802.1x biztonság ellenőrzésekor"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "PWD"
+#~ msgstr "PWD"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Alagutazott TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Védett EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "_Hitelesítés"
+
+#~ msgid "missing leap-username"
+#~ msgstr "hiányzó leap felhasználónév"
+
+#~ msgid "missing leap-password"
+#~ msgstr "hiányzó leap jelszó"
+
+#~ msgid "missing wep-key"
+#~ msgstr "hiányzó wep-kulcs"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only hex-digits"
+#~ msgstr ""
+#~ "érvénytelen wep-kulcs: egy %zu hosszú kulcsban csak hexadecimális "
+#~ "számjegyek lehetnek"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: key with a length of %zu must contain only ascii "
+#~ "characters"
+#~ msgstr ""
+#~ "érvénytelen wep-kulcs: egy %zu hosszú kulcsban csak ascii karakterek "
+#~ "lehetnek"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wep-key: wrong key length %zu. A key must be either of length "
+#~ "5/13 (ascii) or 10/26 (hex)"
+#~ msgstr ""
+#~ "érvénytelen wep-kulcs: hibás kulcshossz: %zu. A kulcs hossza 5/13 (ascii) "
+#~ "vagy 10/26 lehet (hex)"
+
+#~ msgid "invalid wep-key: passphrase must be non-empty"
+#~ msgstr "érvénytelen wep-kulcs: a jelmondat nem lehet üres"
+
+#~ msgid "invalid wep-key: passphrase must be shorter than 64 characters"
+#~ msgstr ""
+#~ "érvénytelen wep-kulcs: a jelmondatnak 64 karakternél rövidebbnek kell "
+#~ "lennie"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (Alapértelmezett)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Nyílt rendszer"
+
+#~ msgid "Shared Key"
+#~ msgstr "Megosztott kulcs"
+
+#~ msgid "_Key"
+#~ msgstr "_Kulcs"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Kul_cs megjelenítése"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP inde_x"
+
+#, c-format
+#~ msgid ""
+#~ "invalid wpa-psk: invalid key-length %zu. Must be [8,63] bytes or 64 hex "
+#~ "digits"
+#~ msgstr ""
+#~ "érvénytelen wpa-psk: érvénytelen kulcshossz: %zu. [8,63] bájtnak, vagy 64 "
+#~ "hexadecimális számjegynek kell lennie"
+
+#~ msgid "invalid wpa-psk: cannot interpret key with 64 bytes as hex"
+#~ msgstr ""
+#~ "érvénytelen wpa-psk: a 64 bájtos kulcs nem értelmezhető hexadecimálisként"
+
+#~ msgid "_Type"
+#~ msgstr "_Típus"
+
+#~ msgid "On"
+#~ msgstr "Be"
+
+#~ msgctxt "notifications"
+#~ msgid "_Notifications"
+#~ msgstr "É_rtesítések"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound _Alerts"
+#~ msgstr "Figyelmeztető _hangok"
+
+#~ msgctxt "notifications"
+#~ msgid "Notification _Banners"
+#~ msgstr "Értesítési _csíkok"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message _Content in Banners"
+#~ msgstr "Üzenettartalom _megjelenítése a csíkokban"
+
+#~ msgctxt "notifications"
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Zárolási képernyő értesítések"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Message C_ontent on Lock Screen"
+#~ msgstr "Üzenet_tartalom megjelenítése a zárolási képernyőn"
+
+#~ msgid "No­ti­fi­ca­tions"
+#~ msgstr "Ér­te­sí­té­sek"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Az értesítések megjelenítésének és tartalmuk beállítása"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr "Értesítések;Felugró sáv;Üzenet;Sáv;Tálca;Figyelmeztetés;"
+
+#~ msgid "Notification _Banners"
+#~ msgstr "Értesítési _csíkok"
+
+#~ msgid "_Lock Screen Notifications"
+#~ msgstr "_Zárolási képernyő értesítések"
+
+#~ msgid "Applications"
+#~ msgstr "Alkalmazások"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Egyéb"
+
+#~ msgid "Add Account"
+#~ msgstr "Fiók hozzáadása"
+
+#~ msgid "Mail"
+#~ msgstr "Levelek"
+
+#~ msgid "Calendar"
+#~ msgstr "Naptár"
+
+#~ msgid "Contacts"
+#~ msgstr "Névjegyek"
+
+#~ msgid "Chat"
+#~ msgstr "Csevegés"
+
+#~ msgid "Resources"
+#~ msgstr "Erőforrások"
+
+#~ msgid "Error creating account"
+#~ msgstr "Hiba a fiók létrehozásakor"
+
+#~ msgid "Error removing account"
+#~ msgstr "Hiba a fiók eltávolításakor"
+
+#~ msgid "Are you sure you want to remove the account?"
+#~ msgstr "Biztos benne, hogy el kívánja távolítani a fiókot?"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Ez nem törli a kiszolgálón a fiókot."
+
+#~ msgid "_Remove"
+#~ msgstr "_Eltávolítás"
+
+#~ msgid "On­line Accounts"
+#~ msgstr "On­line fi­ó­kok"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Kapcsolódás online fiókjaihoz, és felhasználási módjuk kiválasztása"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Csevegés;Chat;Naptár;E-mail;"
+#~ "Levél;Levelezés;Névjegyek;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Nincsenek beállítva online fiókok"
+
+#~ msgid "Add an online account"
+#~ msgstr "Online fiók hozzáadása"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Az itt felvett fiókok használatával alkalmazásai dokumentumokat, "
+#~ "leveleket, névjegyeket, naptárat, csevegést és sok más szolgáltatást "
+#~ "érhetnek el."
+
+#~ msgid "Unknown time"
+#~ msgstr "Ismeretlen idő"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i perc"
+#~ msgstr[1] "%i perc"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i óra"
+#~ msgstr[1] "%i óra"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s, %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "óra"
+#~ msgstr[1] "óra"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "perc"
+#~ msgstr[1] "perc"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s a teljes feltöltésig"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Figyelem: %s van hátra"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "%s van hátra"
+
+#~ msgid "Fully charged"
+#~ msgstr "Teljesen feltöltve"
+
+#~ msgid "Empty"
+#~ msgstr "Lemerült"
+
+#~ msgid "Charging"
+#~ msgstr "Töltés"
+
+#~ msgid "Discharging"
+#~ msgstr "Kisülés"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Elsődleges"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Vezeték nélküli egér"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Vezeték nélküli billentyűzet"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Szünetmentes tápegység (UPS)"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Személyes digitális asszisztens"
+
+#~ msgid "Cellphone"
+#~ msgstr "Mobiltelefon"
+
+#~ msgid "Media player"
+#~ msgstr "Médialejátszó"
+
+#~ msgid "Tablet"
+#~ msgstr "Táblagép"
+
+#~ msgid "Computer"
+#~ msgstr "Számítógép"
+
+#~ msgid "Battery"
+#~ msgstr "Akkumulátor"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Töltés"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Figyelem"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Alacsony"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Jó"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Teljesen feltöltve"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Üres"
+
+#~ msgid "Batteries"
+#~ msgstr "Akkumulátorok"
+
+#~ msgid "When _idle"
+#~ msgstr "Ü_resjáratban"
+
+#~ msgid "Power Saving"
+#~ msgstr "Energiatakarékosság"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Képernyő fényereje"
+
+#~ msgid "Automatic brightness"
+#~ msgstr "Automatikus fényerő"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Billentyűzet _fényereje"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "Képer_nyő elhalványítása, ha inaktív"
+
+#~ msgid "_Blank screen"
+#~ msgstr "Képernyő _elsötétítése"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turn off Wi-Fi to save power."
+#~ msgstr "Wi-Fi kikapcsolása az energiatakarékosság érdekében."
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Mobil széles sáv"
+
+#~ msgid "Turn off mobile broadband (3G, 4G, LTE, etc.) to save power."
+#~ msgstr ""
+#~ "Mobil széles sáv (3G, 4G, LTE stb.) kikapcsolása az energiatakarékosság "
+#~ "érdekében."
+
+#~ msgid "_Bluetooth"
+#~ msgstr "Bl_uetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Akkumulátoron"
+
+#~ msgid "When plugged in"
+#~ msgstr "Ha csatlakoztatva van"
+
+#~ msgid "Suspend"
+#~ msgstr "Felfüggesztés"
+
+#~ msgid "Hibernate"
+#~ msgstr "Hibernálás"
+
+#~ msgid "Nothing"
+#~ msgstr "Ne tegyen semmit"
+
+#~ msgid "Suspend & Power Button"
+#~ msgstr "Felfüggesztés és kikapcsolás gombok"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Automatikus felfüggesztés"
+
+#~ msgid "Automatic suspend"
+#~ msgstr "Automatikus felfüggesztés"
+
+#~ msgid "_When the Power Button is pressed"
+#~ msgstr "A _bekapcsológomb megnyomásakor"
+
+#~ msgid "Devices"
+#~ msgstr "Eszközök"
+
+#~ msgid "Po­wer"
+#~ msgstr "E­ner­gi­agaz­dál­kod­ás"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr ""
+#~ "Akkumulátorállapot megjelenítése és energiagazdálkodási beállítások "
+#~ "módosítása"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Energia;Energiagazdálkodás;Alvás;Felfüggesztés;Hibernálás;Akkumulátor;"
+#~ "Telep;Elsötétítés;Elhalványítás;Monitor;DPMS;Üresjárat;"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 perc"
+
+#~ msgid "1 hour"
+#~ msgstr "1 óra"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 perc"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 perc"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 perc"
+
+#~ msgid "2 hours"
+#~ msgstr "2 óra"
+
+#~ msgid "1 minute"
+#~ msgstr "1 perc"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 perc"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 perc"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 perc"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 perc"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 perc"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 perc"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 perc"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Automatikus felfüggesztés"
+
+#~ msgid "_Plugged In"
+#~ msgstr "_Csatlakoztatva"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "_Akkumulátoron"
+
+#~ msgid "Delay"
+#~ msgstr "Késleltetés"
+
+#~ msgid "Authenticate"
+#~ msgstr "Hitelesítés"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Hitelesítés szükséges"
+
+#~ msgid "Low on toner"
+#~ msgstr "A festékkazetta kifogyóban"
+
+#~ msgid "Out of toner"
+#~ msgstr "A festékkazetta kifogyott"
+
+#~ msgid "Low on developer"
+#~ msgstr "Az előhívó kifogyóban"
+
+#~ msgid "Out of developer"
+#~ msgstr "Az előhívó kifogyott"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "A tintapatron kifogyóban"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "A tintapatron kifogyott"
+
+#~ msgid "Open cover"
+#~ msgstr "Fedél nyitva"
+
+#~ msgid "Open door"
+#~ msgstr "Ajtó nyitva"
+
+#~ msgid "Low on paper"
+#~ msgstr "Kevés a papír"
+
+#~ msgid "Out of paper"
+#~ msgstr "Kifogyott a papír"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Kikapcsolva"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Leállítva"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "A hulladékgyűjtő majdnem tele"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "A hulladékgyűjtő tele"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Az optikai fotovezető közel jár az élete végéhez"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Az optikai fotovezető már nem működik"
+
+#~ msgctxt "printer state"
+#~ msgid "Configuring"
+#~ msgstr "Beállítás"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Kész"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Nem fogad feladatokat"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Feldolgozás"
+
+#~ msgid "Toner Level"
+#~ msgstr "Festékkazettaszint"
+
+#~ msgid "Ink Level"
+#~ msgstr "Tintaszint"
+
+#~ msgid "Supply Level"
+#~ msgstr "Kellékszint"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Telepítés"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u aktív"
+#~ msgstr[1] "%u aktív"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Az új nyomtató hozzáadása meghiúsult."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Válasszon PPD fájlt"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "PostScript nyomtatóleíró fájlok (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *.PPD."
+#~ "GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Nem található megfelelő illesztőprogram"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Előnyben részesített illesztőprogramok keresése…"
+
+#~ msgid "Select from database…"
+#~ msgstr "Kiválasztás adatbázisból…"
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "PPD-fájl megadása…"
+
+#~ msgid "Test page"
+#~ msgstr "Tesztoldal"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "A felület nem tölthető be: %s"
+
+#~ msgid "Prin­ters"
+#~ msgstr "Nyom­tatók"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr ""
+#~ "Nyomtatók hozzáadása, nyomtatási feladatok megjelenítése és nyomtatás "
+#~ "beállítása"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Nyomtató;Sor;Nyomtatás;Papír;Tinta;Festékkazetta;"
+
+#~ msgid "Clear All"
+#~ msgstr "Összes törlése"
+
+#~ msgid "No Active Printer Jobs"
+#~ msgstr "Nincsenek aktív nyomtatási feladatok"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Új nyomtató hozzáadása"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "_Hitelesítés"
+
+#~ msgid "No printers detected."
+#~ msgstr "Nem található nyomtató."
+
+#~ msgid "Enter a network address or search for a printer"
+#~ msgstr "Adja meg a hálózati címet vagy keressen egy nyomtatót"
+
+#~ msgid "Loading options…"
+#~ msgstr "Beállítások betöltése…"
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Válassza ki a nyomtató-illesztőprogramot"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Illesztőprogram-adatbázis betöltése…"
+
+#~ msgid "JetDirect Printer"
+#~ msgstr "JetDirect nyomtató"
+
+#~ msgid "LPD Printer"
+#~ msgstr "LPD nyomtató"
+
+#~ msgid "One Sided"
+#~ msgstr "Egyoldalas"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Hosszú él (szabványos)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Rövid él (fordított)"
+
+#~ msgid "Portrait"
+#~ msgstr "Álló"
+
+#~ msgid "Landscape"
+#~ msgstr "Fekvő"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Fordított fekvő"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Fordított álló"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "Függőben"
+
+#~ msgctxt "print job"
+#~ msgid "Paused"
+#~ msgstr "Szüneteltetve"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Feldolgozás"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Leállítva"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Megszakítva"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Félbeszakítva"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Befejezve"
+
+#, c-format
+#~ msgctxt "Printer jobs dialog title"
+#~ msgid "%s - Active Jobs"
+#~ msgstr "%s - Aktív feladatok"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Soros port"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Párhuzamos port"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Hely: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Cím: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "A kiszolgáló hitelesítést igényel"
+
+#~ msgid "Two Sided"
+#~ msgstr "Kétoldalas"
+
+#~ msgid "Paper Type"
+#~ msgstr "Papírtípus"
+
+#~ msgid "Paper Source"
+#~ msgstr "Papírforrás"
+
+#~ msgid "Output Tray"
+#~ msgstr "Kimeneti tálca"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "GhostScript előszűrés"
+
+#~ msgid "Pages per side"
+#~ msgstr "Oldalak laponként"
+
+#~ msgid "Two-sided"
+#~ msgstr "Kétoldalas"
+
+#~ msgid "Orientation"
+#~ msgstr "Tájolás"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Oldalbeállítás"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Telepíthető beállítások"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Feladat"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Képminőség"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Szín"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Befejezés"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Speciális"
+
+#~ msgid "Auto Select"
+#~ msgstr "Automatikus kiválasztás"
+
+#~ msgid "Printer Default"
+#~ msgstr "Nyomtató alapértelmezése"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Csak GhostScript betűkészletek beágyazása"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Átalakítás 1. PS szintre"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Átalakítás 2. PS szintre"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Nincs előszűrés"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Gyártó"
+
+#~ msgid "Driver"
+#~ msgstr "Illesztőprogram"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Adja meg felhasználónevét és jelszavát az elérhető nyomtatók "
+#~ "megjelenítéséhez ezen: %s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Nyomtató hozzáadása"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Nyomtató eltávolítása"
+
+#~ msgid "Supply"
+#~ msgstr "Kellékek"
+
+#~ msgid "Location"
+#~ msgstr "Hely"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Alapértelmezett nyomtató"
+
+#~ msgid "Jobs"
+#~ msgstr "Feladatok"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "_Feladatok megjelenítése"
+
+#~ msgid "Model"
+#~ msgstr "Modell"
+
+#~ msgid "label"
+#~ msgstr "címke"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Új illesztőprogram beállítása…"
+
+#~ msgid "page 3"
+#~ msgstr "3. oldal"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "T_esztoldal nyomtatása"
+
+#~ msgid "_Options"
+#~ msgstr "_Beállítások"
+
+#~ msgid "No printers"
+#~ msgstr "Nincsenek nyomtatók"
+
+#~ msgid "Add a Printer"
+#~ msgstr "Nyomtató hozzáadása"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Elnézést, a rendszer nyomtatószolgáltatása\n"
+#~ "nem tűnik elérhetőnek."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Képernyőzár"
+
+#~ msgid "In use"
+#~ msgstr "Használatban"
+
+#~ msgctxt "Location services status"
+#~ msgid "On"
+#~ msgstr "Be"
+
+#~ msgctxt "Location services status"
+#~ msgid "Off"
+#~ msgstr "Ki"
+
+#~ msgid "Location Services"
+#~ msgstr "Helymeghatározó szolgáltatások"
+
+#~ msgid "Usage & History"
+#~ msgstr "Használat és előzmények"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Törölni kívánja az összes elemet a Kukából?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "A Kuka összes eleme véglegesen törölve lesz."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Kuka ürítése"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Törli az összes ideiglenes fájlt?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Minden ideiglenes fájl véglegesen törlésre kerül."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Ideiglenes fájlok törlése"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Kuka és ideiglenes fájlok törlése"
+
+#~ msgid "Software Usage"
+#~ msgstr "Szoftverhasználat"
+
+#~ msgid "Problem Reporting"
+#~ msgstr "Hiba jelentése"
+
+#, c-format
+#~ msgid ""
+#~ "Sending reports of technical problems helps us improve %s. Reports are "
+#~ "sent anonymously and are scrubbed of personal data."
+#~ msgstr ""
+#~ "A technikai problémák jelentéseinek elküldése segít nekünk a(z) %s "
+#~ "továbbfejlesztésében. A jelentések névtelenül és személyes adatoktól "
+#~ "mentesen lesznek elküldve."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Adatvédelmi irányelv"
+
+#~ msgid "Pri­va­cy"
+#~ msgstr "A­dat­vé­de­lem"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr "Védje személyes adatait és ellenőrizze, mit láthatnak mások"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "képernyő;zárolás;diagnosztika;összeomlás;magán;privát;legutóbbi;nemrégi;"
+#~ "ideiglenes;temp;index;név;hálózat;azonosság;identitás;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Képernyő kikapcsol"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 másodperc"
+
+#~ msgid "1 day"
+#~ msgstr "1 nap"
+
+#~ msgid "2 days"
+#~ msgstr "2 nap"
+
+#~ msgid "3 days"
+#~ msgstr "3 nap"
+
+#~ msgid "4 days"
+#~ msgstr "4 nap"
+
+#~ msgid "5 days"
+#~ msgstr "5 nap"
+
+#~ msgid "6 days"
+#~ msgstr "6 nap"
+
+#~ msgid "7 days"
+#~ msgstr "7 nap"
+
+#~ msgid "14 days"
+#~ msgstr "14 nap"
+
+#~ msgid "30 days"
+#~ msgstr "30 nap"
+
+#~ msgid "Forever"
+#~ msgstr "Örökké"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Előzményeinek megjegyzése egyszerűbbé teszi a fájlok ismételt "
+#~ "megtalálását. Ezek az elemek soha nem lesznek megosztva a hálózaton."
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Nemrég használt"
+
+#~ msgid "Retain _History"
+#~ msgstr "Előzmények _megtartása"
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "_Előzmények törlése"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr "A képernyőzárolás védi magánszféráját, amikor távol van."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "A_utomatikus képernyőzárolás"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "Képernyő _zárolása ennyi elsötétítés után:"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "É_rtesítések megjelenítése"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "A Kuka ürítésének és az ideiglenes fájlok törlésének automatizálása "
+#~ "segíti a számítógépen fölösleges érzékeny adatok felhalmozódásának "
+#~ "elkerülését."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "K_uka automatikus ürítése"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "_Ideiglenes fájlok automatikus törlése"
+
+#~ msgid "Purge _After"
+#~ msgstr "_Törlés ennyi után:"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Ha elküldi nekünk azokat az információkat, hogy milyen szoftvereket "
+#~ "használ, azzal segít nekünk abban, hogy még pontosabb javaslatokat adjunk "
+#~ "önnek. Továbbá segítségünkre lesz a szoftver továbbfejlesztésében.\n"
+#~ "\n"
+#~ "Minden összegyűjtött információt névtelenül kezelünk és soha nem adjuk ki "
+#~ "az adatait harmadik fél számára."
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "_Szoftverhasználati statisztikák küldése"
+
+#~ msgid ""
+#~ "Location services allow applications to know your location. Using Wi-Fi "
+#~ "and mobile broadband increases accuracy."
+#~ msgstr ""
+#~ "A helymeghatározó szolgáltatások lehetővé teszik az alkalmazások számára, "
+#~ "hogy megtudják a földrajzi helyzetét. A Wi-Fi és a mobil széles sáv "
+#~ "használata javítja a pontosságot."
+
+#~ msgid "_Location Services"
+#~ msgstr "_Helymeghatározó szolgáltatások"
+
+#~ msgid "_Automatic Problem Reporting"
+#~ msgstr "_Automatikus hibajelentés"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Angolszász"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Metrikus"
+
+#~ msgid "No regions found"
+#~ msgstr "Nem találhatók régiók"
+
+#~ msgid "No input sources found"
+#~ msgstr "Nem találhatók bemeneti források"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Egyéb"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "A változtatások életbe léptetéséhez lépjen ki, majd újra be"
+
+#~ msgid "Restart Now"
+#~ msgstr "Újraindítás most"
+
+#~ msgid "No input source selected"
+#~ msgstr "Nincs kiválasztva bemeneti forrás"
+
+#~ msgid "Login _Screen"
+#~ msgstr "Bejelentkezési _képernyő"
+
+#~ msgid "Formats"
+#~ msgstr "Formátumok"
+
+#~ msgid "Preview"
+#~ msgstr "Előnézet"
+
+#~ msgid "Dates"
+#~ msgstr "Dátumok"
+
+#~ msgid "Times"
+#~ msgstr "Idők"
+
+#~ msgid "Numbers"
+#~ msgstr "Számok"
+
+#~ msgid "Measurement"
+#~ msgstr "Mértékegység"
+
+#~ msgid "Paper"
+#~ msgstr "Papír"
+
+#~ msgid "Re­gion & Lan­guage"
+#~ msgstr "Te­rü­let és nyelv"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Válassza ki a felület nyelvét, az adatformátumokat, billentyűkiosztásokat "
+#~ "és beviteli forrásokat"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Nyelv;kiosztás;billentyűzet;bevitel;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Bemeneti forrás hozzáadása"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Nem használhatók bemeneti módszerek a bejelentkezési képernyőn"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Bemeneti forrás beállításai"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "_Azonos forrás használata minden ablakhoz"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "_Különböző források engedélyezése minden ablakhoz"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Gyorsbillentyűk"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Váltás az előző forrásra"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Szóköz"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Váltás a következő forrásra"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Szóköz"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr ""
+#~ "Ezeket a gyorsbillentyűket a billentyűzet beállításai között módosíthatja"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Alternatív váltás a következő forrásra"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Bal+jobb Alt"
+
+#~ msgid "_Language"
+#~ msgstr "_Nyelv"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Angol (Egyesült Királyság)"
+
+#~ msgid "_Formats"
+#~ msgstr "_Formátumok"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Egyesült Királyság"
+
+#~ msgid "Input Sources"
+#~ msgstr "Bemeneti források"
+
+#~ msgid "Add input source"
+#~ msgstr "Bemeneti forrás hozzáadása"
+
+#~ msgid "Remove input source"
+#~ msgstr "Bemeneti forrás eltávolítása"
+
+#~ msgid "Move input source up"
+#~ msgstr "Bemeneti forrás mozgatása fel"
+
+#~ msgid "Move input source down"
+#~ msgstr "Bemeneti forrás mozgatása le"
+
+#~ msgid "Configure input source"
+#~ msgstr "Bemeneti forrás beállítása"
+
+#~ msgid "Show input source keyboard layout"
+#~ msgstr "Bemeneti forrás billentyűzetkiosztásának megjelenítése"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "A bejelentkezési beállításokat minden felhasználó használja a rendszerre "
+#~ "való belépéskor"
+
+#~ msgid "Select Location"
+#~ msgstr "Válasszon régiót"
+
+#~ msgid "_OK"
+#~ msgstr "_OK"
+
+#~ msgid "No applications found"
+#~ msgstr "Nem találhatók alkalmazások"
+
+#~ msgid "Search"
+#~ msgstr "Keresés"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "A Tevékenységek áttekintésben találatokat megjelenítő alkalmazások "
+#~ "beállítása"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Keresés;Indexelés;Elrejtés;Magánszféra;Találatok;Eredmények;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Keresési helyek"
+
+#~ msgid "Places"
+#~ msgstr "Helyek"
+
+#~ msgid "Bookmarks"
+#~ msgstr "Könyvjelzők"
+
+#~ msgid "Other"
+#~ msgstr "Egyéb"
+
+#~ msgid "Move Up"
+#~ msgstr "Mozgatás felfelé"
+
+#~ msgid "Move Down"
+#~ msgstr "Mozgatás lefelé"
+
+#~ msgid "Preferences"
+#~ msgstr "Beállítások"
+
+#~ msgid "No networks selected for sharing"
+#~ msgstr "Nincs kiválasztott hálózat a megosztáshoz"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Be"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Ki"
+
+#~ msgctxt "service is enabled"
+#~ msgid "Enabled"
+#~ msgstr "Engedélyezve"
+
+#~ msgctxt "service is active"
+#~ msgid "Active"
+#~ msgstr "Aktív"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Válasszon mappát"
+
+#, c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "A Személyes fájlmegosztás lehetővé teszi a Nyilvános mappájának "
+#~ "megosztását másokkal a jelenlegi hálózaton <a href=\"dav://%s\">dav://%s</"
+#~ "a> használatával."
+
+#, c-format
+#~ msgid ""
+#~ "When remote login is enabled, remote users can connect using the Secure "
+#~ "Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Ha a távoli bejelentkezés engedélyezett, akkor a távoli felhasználók a "
+#~ "következő parancs használatával kapcsolódhatnak:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, c-format
+#~ msgid ""
+#~ "Screen sharing allows remote users to view or control your screen by "
+#~ "connecting to <a href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Távoli felhasználók megnézhetik és vezérelhetik a képernyőt a "
+#~ "következőhöz csatlakozással: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Copy"
+#~ msgstr "Másolás"
+
+#~ msgid "Sharing"
+#~ msgstr "Megosztás"
+
+#~ msgid "Sha­ring"
+#~ msgstr "Meg­osz­tás"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Megosztások beállítása"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;media;audio;video;pictures;"
+#~ "photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "megosztás;ssh;host;név;távoli;asztal;média;audio;hang;video;kép;fénykép;"
+#~ "filmek;kiszolgáló;szerver;"
+
+#~ msgid "Networks"
+#~ msgstr "Hálózatok"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Távoli bejelentkezés engedélyezése vagy tiltása"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Hitelesítés szükséges a távoli bejelentkezés engedélyezéséhez vagy "
+#~ "tiltásához"
+
+#~ msgid "_Computer Name"
+#~ msgstr "_Számítógép neve"
+
+#~ msgid "_File Sharing"
+#~ msgstr "_Fájlmegosztás"
+
+#~ msgid "_Screen Sharing"
+#~ msgstr "_Képernyőmegosztás"
+
+#~ msgid "_Media Sharing"
+#~ msgstr "_Médiamegosztás"
+
+#~ msgid "_Remote Login"
+#~ msgstr "_Távoli bejelentkezés"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr ""
+#~ "Egyes szolgáltatások le vannak tiltva, mert nincs hálózati kapcsolat"
+
+#~ msgid "File Sharing"
+#~ msgstr "Fájlmegosztás"
+
+#~ msgid "_Require Password"
+#~ msgstr "Jelszó _kérése"
+
+#~ msgid "Remote Login"
+#~ msgstr "Távoli bejelentkezés"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Képernyőmegosztás"
+
+#~ msgid "_Allow connections to control the screen"
+#~ msgstr "A kapcsolatok képernyővezérlésének _engedélyezése"
+
+#~ msgid "_Password:"
+#~ msgstr "Jels_zó:"
+
+#~ msgid "_Show Password"
+#~ msgstr "Jelszó meg_jelenítése"
+
+#~ msgid "Access Options"
+#~ msgstr "Hozzáférési beállítások"
+
+#~ msgid "_New connections must ask for access"
+#~ msgstr "Az új kapcsolatoknak rá kell kérdezniük a _hozzáférésre"
+
+#~ msgid "_Require a password"
+#~ msgstr "Jelszó _kérése"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Médiamegosztás"
+
+#~ msgid "Share music, photos and videos over the network."
+#~ msgstr "Zenék, fényképek és videók megosztása a hálózaton."
+
+#~ msgid "Folders"
+#~ msgstr "Mappák"
+
+#~ msgid "Sound"
+#~ msgstr "Hang"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr "Hangerő, bemenetek, kimenetek és riasztáshangok módosítása"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Kártya;Mikrofon;Hangerő;Elhalás;Egyensúly;Bluetooth;Fejhallgató;Audio;"
+#~ "Hang;"
+
+#~ msgid "Bark"
+#~ msgstr "Ugatás"
+
+#~ msgid "Drip"
+#~ msgstr "Vízcsepp"
+
+#~ msgid "Glass"
+#~ msgstr "Üveg"
+
+#~ msgid "Sonar"
+#~ msgstr "Szonár"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Bal"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Jobb"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Hátsó"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Első"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Minimum"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Maximum"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Egyensúly:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Elhalás:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "_Mélysugárzó:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Erősítetlen"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Profil:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u kimenet"
+#~ msgstr[1] "%u kimenet"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u bemenet"
+#~ msgstr[1] "%u bemenet"
+
+#~ msgid "System Sounds"
+#~ msgstr "Rendszerhangok"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "Hangszórók _tesztelése"
+
+#~ msgid "Peak detect"
+#~ msgstr "Csúcsérzékelés"
+
+#~ msgid "Device"
+#~ msgstr "Eszköz"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Hangszóróteszt ehhez: %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "Ki_meneti hangerő:"
+
+#~ msgid "Output"
+#~ msgstr "Kimenet"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "Válasszon ha_ngkimeneti eszközt:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Kiválasztott eszköz beállításai:"
+
+#~ msgid "Input"
+#~ msgstr "Bemenet"
+
+#~ msgid "_Input volume:"
+#~ msgstr "_Bemeneti hangerő:"
+
+#~ msgid "Input level:"
+#~ msgstr "Bemeneti szint:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "Válasszon _hangbemeneti eszközt:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Hangeffektusok"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "_Riasztás hangereje:"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "Jelenleg nincs hangot lejátszó vagy felvevő alkalmazás."
+
+#~ msgid "Built-in"
+#~ msgstr "Beépített"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Hangok beállításai"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Eseményhang tesztelése"
+
+#~ msgid "Default"
+#~ msgstr "Alapértelmezett"
+
+#~ msgid "From theme"
+#~ msgstr "Témából"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "Válasszon _riasztáshangot:"
+
+#~ msgid "Stop"
+#~ msgstr "Leállítás"
+
+#~ msgid "Test"
+#~ msgstr "Teszt"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Mélysugárzó"
+
+#~ msgid "Custom"
+#~ msgstr "Egyéni"
+
+#~ msgid "Uni­ver­sal Access"
+#~ msgstr "A­ka­dály­men­te­sí­tés"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr "A látás, hallás, gépelés, mutatás és kattintás egyszerűbbé tétele"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Billentyűzet;Egér;a11y;Akadálymentesítés;Kontraszt;Nagyítás;Képernyő;"
+#~ "Olvasó;szöveg;betű;méret;AccessX;Ragadós;Billentyűk;Lassú;Pattogó;Egér;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Akadálymentesítés menü megjelenítése mindig"
+
+#~ msgid "Seeing"
+#~ msgstr "Látás"
+
+#~ msgid "_High Contrast"
+#~ msgstr "Nagy k_ontraszt"
+
+#~ msgid "_Large Text"
+#~ msgstr "Nagy s_zöveg"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Nagyítás"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Képernyőolvasó"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "Billentyű_hangok"
+
+#~ msgid "Hearing"
+#~ msgstr "Hallás"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Vizuális figyelmeztetések"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "Képe_rnyő-billentyűzet"
+
+#~ msgid "R_epeat Keys"
+#~ msgstr "Billentyűk _ismétlése"
+
+#~ msgid "Cursor _Blinking"
+#~ msgstr "_Villogó kurzor"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "_Gépelési segéd (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Mutatás és kattintás"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Egérbillentyűk"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Kattintássegé_d"
+
+#~ msgid "_Double-Click Delay"
+#~ msgstr "_Dupla kattintás késleltetése"
+
+#~ msgid "Double-Click Delay"
+#~ msgstr "Dupla kattintás késleltetése"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Képernyőolvasó"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "A képernyőolvasó felolvassa a megjelenített szöveget a fókusz mozgatása "
+#~ "közben."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "Képernyőol_vasó"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Billentyűhangok"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on or off."
+#~ msgstr "Hangjelzés a Num Lock vagy Caps Lock ki- és bekapcsolásakor."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Vizuális figyelmeztetések"
+
+#~ msgid "_Test flash"
+#~ msgstr "_Villanás tesztelése"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Vizuális jelzés használata figyelmeztető hang esetén."
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Ablak _címsorának megvillantása"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "_Teljes képernyő megvillantása"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Billentyűk ismétlése"
+
+#~ msgid "Key presses repeat when key is held down."
+#~ msgstr "A billentyűlenyomások ismétlése a gomb nyomva tartásakor."
+
+#~ msgid "Repeat keys delay"
+#~ msgstr "Billentyűk ismétlésének késleltetése"
+
+#~ msgid "Speed"
+#~ msgstr "Sebesség"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Billentyűk ismétlésének sebessége"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Villogó kurzor"
+
+#~ msgid "Cursor blinks in text fields."
+#~ msgstr "A kurzor villog a szövegmezőkben."
+
+#~ msgid "Cursor blinking speed"
+#~ msgstr "Kurzor villogásának sebessége"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Gépelési segéd"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Ragadós billentyűk"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr "A módosítóbillentyűk sorozatát billentyűkombinációként kezeli"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "Letiltás két billentyű egyi_dejű lenyomásakor"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Hangjelzés _módosító billentyű lenyomásakor"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Lassú billentyűk"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Késleltetés a billentyűk lenyomása és elfogadása között"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "_Elfogadás késleltetése:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Lassú billentyűk késleltetése"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Hangjelzés billentyű le_nyomásakor"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Hangjelzés billentyű _elfogadásakor"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Hangjelzés billentyű el_utasításakor"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "Billentyűs_zűrés"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ismételt leütések figyelmen kívül hagyása"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Billentyűszűrés késleltetése"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "Enge_délyezés billentyűzetről"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr ""
+#~ "Akadálymentesítési szolgáltatások be- és kikapcsolása a billentyűzetről"
+
+#~ msgid "Click Assist"
+#~ msgstr "Kattintássegéd"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "Szim_ulált másodlagos kattintás"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr ""
+#~ "Másodlagos kattintás aktiválása az elsődleges gomb nyomva tartásával"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Másodlagos kattintás késleltetése"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "_Hover Click"
+#~ msgstr "_Rámutatási kattintás"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Kattintás kezdeményezése a mutató mozgásának megállásakor"
+
+#~ msgid "D_elay:"
+#~ msgstr "Késlel_tetés:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "M_ozgás küszöbszintje:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Alacsony"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Magas"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ képernyő"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ képernyő"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ képernyő"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "Full Screen"
+#~ msgstr "Teljes képernyő"
+
+#~ msgid "Top Half"
+#~ msgstr "Felső fél"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Alsó fél"
+
+#~ msgid "Left Half"
+#~ msgstr "Bal fél"
+
+#~ msgid "Right Half"
+#~ msgstr "Jobb fél"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Nagyító beállításai"
+
+#~ msgid "_Magnification:"
+#~ msgstr "_Nagyítás:"
+
+#~ msgid "_Follow mouse cursor"
+#~ msgstr "Egérkurzor _követése"
+
+#~ msgid "_Screen part:"
+#~ msgstr "Képernyő_részlet:"
+
+#~ msgid "Magnifier _extends outside of screen"
+#~ msgstr "A nagyító _kiterjed a képernyőn kívülre is"
+
+#~ msgid "_Keep magnifier cursor centered"
+#~ msgstr "A nagyítókurzor középen _tartása"
+
+#~ msgid "Magnifier cursor _pushes contents around"
+#~ msgstr "A nagyítókurzor _eltolja a tartalmakat"
+
+#~ msgid "Magnifier cursor moves with _contents"
+#~ msgstr "A nagyítókurzor a tartalmakkal együtt _mozog"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Nagyító pozíciója:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Nagyító"
+
+#~ msgid "_Thickness:"
+#~ msgstr "_Vastagság:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Vékony"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Vastag"
+
+#~ msgid "_Length:"
+#~ msgstr "_Hossz:"
+
+#~ msgid "Co_lor:"
+#~ msgstr "_Szín:"
+
+#~ msgid "_Crosshairs:"
+#~ msgstr "Szál_keresztek:"
+
+#~ msgid "_Overlaps mouse cursor"
+#~ msgstr "Át_fedi az egérkurzort"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Szálkeresztek"
+
+#~ msgid "_White on black:"
+#~ msgstr "F_ehér a feketén:"
+
+#~ msgid "_Brightness:"
+#~ msgstr "_Fényerő:"
+
+#~ msgid "_Contrast:"
+#~ msgstr "_Kontraszt:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Co_lor"
+#~ msgstr "_Szín"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Teljes"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Alacsony"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Magas"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Alacsony"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Nagy"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Színeffektusok:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Színeffektusok"
+
+#~ msgid "You are Offline"
+#~ msgstr "Kapcsolat nélkül"
+
+#~ msgid "_Enroll"
+#~ msgstr "B_ejegyzés"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Felhasználói fiókok kezelése"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Hitelesítés szükséges a felhasználói adatok módosításához"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Gombok leképezése"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Gombok leképezése funkciókra"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Gyorsbillentyű szerkesztéséhez válassza a „Billentyűleütés küldése” "
+#~ "műveletet, nyomja meg a gyorsbillentyű gombot, majd nyomja le az új "
+#~ "billentyűket vagy a Backspace billentyűt a törléshez."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr "Érintse meg a céljelölőket a képernyőn a táblagép kalibrálásához."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Félrekattintás észlelve, újraindítás…"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Fel"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Le"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Billentyűleütés küldése"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Monitorváltás"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Súgó megjelenítése"
+
+#~ msgid "Output:"
+#~ msgstr "Kimenet:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Méretarány megtartása („postaláda”):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Leképezés egyetlen monitorra"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d / %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Leképezés megjelenítése"
+
+#~ msgid "Button"
+#~ msgstr "Gomb"
+
+#~ msgid "Wa­com Tab­let"
+#~ msgstr "Wa­com rajz­táb­la"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr ""
+#~ "Rajztáblák gombleképezéseinek beállítása és a stylus érzékenységének "
+#~ "módosítása"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Tablet;Rajztábla;Wacom;Stylus;Toll;Eraser;Radír;Egér;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Rajztábla (abszolút)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Érintőtábla (relatív)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Rajztábla beállításai"
+
+#~ msgid "_Help"
+#~ msgstr "_Súgó"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Nem található rajztábla"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Csatlakoztassa vagy kapcsolja be Wacom rajztábláját"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Bluetooth beállítások"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Wacom rajztábla"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Leképezés monitorra…"
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Gombok leképezése…"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Kalibrálás…"
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Kijelző felbontásának módosítása"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Egérbeállítások módosítása"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Követési mód"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Balkezes tájolás"
+
+#~ msgid "Left Ring"
+#~ msgstr "Bal gyűrű"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Bal gyűrű %d. módja "
+
+#~ msgid "Right Ring"
+#~ msgstr "Jobb gyűrű"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Jobb gyűrű %d. módja "
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Bal érintősáv"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Bal érintősáv %d. módja"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Jobb érintősáv"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Jobb érintősáv %d. módja"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Bal érintőgyűrű módkapcsolója"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Jobb érintőgyűrű módkapcsolója"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Bal érintősáv módkapcsolója"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Jobb érintősáv módkapcsolója"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "%d. módkapcsoló"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "%d. bal gomb"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "%d. jobb gomb"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "%d. felső gomb"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "%d. alsó gomb"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Új gyorsbillentyű…"
+
+#~ msgid "No Action"
+#~ msgstr "Nincs művelet"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Kattintás a bal egérgombbal"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Kattintás a középső egérgombbal"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Kattintás a jobb egérgombbal"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Görgetés felfelé"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Görgetés lefelé"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Görgetés balra"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Görgetés jobbra"
+
+#~ msgid "Back"
+#~ msgstr "Vissza"
+
+#~ msgid "Forward"
+#~ msgstr "Előre"
+
+#~ msgid "Stylus"
+#~ msgstr "Toll"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Radír nyomásérzékenysége"
+
+#~ msgid "Soft"
+#~ msgstr "Lágy"
+
+#~ msgid "Firm"
+#~ msgstr "Kemény"
+
+#~ msgid "Top Button"
+#~ msgstr "Felső gomb"
+
+#~ msgid "Lower Button"
+#~ msgstr "Alsó gomb"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Hegy nyomásérzékenysége"
+
+#~ msgid "All Settings"
+#~ msgstr "Minden beállítás"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "GNOME Vezérlőközpont"
+
+#~ msgid "Utilities to configure the GNOME desktop"
+#~ msgstr "Segédprogramok a GNOME asztali környezet személyre szabásához"
+
+#~ msgid ""
+#~ "The control center is GNOME's main interface for configuration of various "
+#~ "aspects of your desktop."
+#~ msgstr ""
+#~ "A vezérlőközpont a GNOME elsődleges felülete az asztali környezet "
+#~ "különböző jellemzőinek beállításához."
+
+#~ msgid "Display version number"
+#~ msgstr "Verziószám kiírása"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Részletes mód engedélyezése"
+
+#~ msgid "Show the overview"
+#~ msgstr "Áttekintés megjelenítése"
+
+#~ msgid "Search for the string"
+#~ msgstr "Karakterlánc keresése"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Lehetséges panelnevek felsorolása és kilépés"
+
+#~ msgid "Panel to display"
+#~ msgstr "Megjelenítendő panel"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[PANEL] [ARGUMENTUM…]"
+
+#~ msgid "Available panels:"
+#~ msgstr "Elérhető panelek:"
+
+#~ msgid "Help"
+#~ msgstr "Súgó"
+
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Személyes"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Hardver"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Rendszer"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Tulajdonságok;Beállítások;"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Általános"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Search"
+#~ msgstr "Keresés"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Panels"
+#~ msgstr "Panelek"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Go back to the overview"
+#~ msgstr "Vissza az áttekintéshez"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Cancel search"
+#~ msgstr "Keresés megszakítása"
+
+#~ msgctxt "hotspot"
+#~ msgid "Hotspot"
+#~ msgstr "Hotspot"
+
+#~ msgid "No results found"
+#~ msgstr "Nincs találat"
+
+#~ msgid "Wayland"
+#~ msgstr "Wayland"
+
+#~ msgid "Keyboard shortcut for <b>%s</b>. Enter new shortcut to change."
+#~ msgstr ""
+#~ "Gyorsbillentyű ehhez: <b>%s</b>. Adja meg egy új gyorsbillentyűt a "
+#~ "megváltoztatásához."
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Gyorsbillentyű szerkesztéséhez kattintson a sorra, és nyomja le az új "
+#~ "billentyűket, vagy a Backspace billentyűt a törléshez."
+
+#~ msgid "_Name:"
+#~ msgstr "_Név:"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Gyorsbillentyű hozzáadása"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Gyorsbillentyű eltávolítása"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Ismeretlen művelet>"
+
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "A gyorsbillentyű („%s”) nem használható, mivel a gépelés lehetetlenné "
+#~ "válna a billentyű használatával.\n"
+#~ "Próbálkozzon a Control, Alt vagy Shift billentyűk valamelyikének egyidejű "
+#~ "lenyomásával."
+
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "A gyorsbillentyű („%s”) már használatban van erre:\n"
+#~ "„%s”"
+
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Ha a gyorsbillentyűt újra a(z) „%s” funkcióhoz rendeli, akkor a(z) „%s” "
+#~ "gyorsbillentyű letiltásra kerül."
+
+#~ msgid "_Reassign"
+#~ msgstr "Új_ra hozzárendelés"
+
+#~ msgid ""
+#~ "The \"%s\" shortcut has an associated \"%s\" shortcut. Do you want to "
+#~ "automatically set it to \"%s\"?"
+#~ msgstr ""
+#~ "A(z) „%s” gyorsbillentyű egy hozzárendelt „%s” gyorsbillentyűvel "
+#~ "rendelkezik. Szeretné automatikusan beállítani erre: „%s”?"
+
+#~ msgid ""
+#~ "\"%s\" is currently associated with \"%s\", this shortcut will be "
+#~ "disabled if you move forward."
+#~ msgstr ""
+#~ "A(z) „%s” jelenleg a(z) „%s” funkcióhoz van hozzárendelve, ez "
+#~ "gyorsbillentyű letiltásra kerül, ha továbblép."
+
+#~ msgid "_Assign"
+#~ msgstr "_Hozzárendelés"
+
+#~ msgid "Bond"
+#~ msgstr "Bond"
+
+#~ msgid "Team"
+#~ msgstr "Team"
+
+#~ msgid "Bridge"
+#~ msgstr "Bridge"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "A VPN bővítmények nem tölthetők be"
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Hálózati kapcsolat hozzáadása"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Bond alárendeltek"
+
+#~ msgid "(none)"
+#~ msgstr "(nincs)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Bridge alárendeltek"
+
+#~ msgid "Team slaves"
+#~ msgstr "Team alárendeltek"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "Az InfiniBand eszköz nem támogatja a csatlakoztatott módot"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Nincs kiválasztva hitelesítésszolgáltatói tanúsítvány"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Ha nem használ hitelesítésszolgáltatói (CA) tanúsítványt, akkor nem "
+#~ "biztonságos Wi-Fi hálózatokhoz is kapcsolódhat. Ki kíván választani egy "
+#~ "hitelesítésszolgáltatói tanúsítványt?"
+
+#~ msgid "Ignore"
+#~ msgstr "Mellőzés"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "CA tanúsítvány kiválasztása"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "Jelszó bekérése min_den alkalommal"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "_Ne figyelmeztessen újra"
+
+#~ msgid "No"
+#~ msgstr "Nem"
+
+#~ msgid "Yes"
+#~ msgstr "Igen"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Hiba lépett fel a fiókba bejelentkezéskor"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "A hitelesítési adatok lejártak."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Jelentkezzen be a fiók engedélyezéséhez."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Bejelentkezés"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Egyéb"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Személyes fájlmegosztás"
+
+#~ msgid "_Allow Remote Control"
+#~ msgstr "_Távoli vezérlés engedélyezése"
+
+#~ msgid "_Verify"
+#~ msgstr "_Ellenőrzés"
+
+#~ msgid "Login History"
+#~ msgstr "Bejelentkezési előzmények"
+
+#~ msgid "Add User Account"
+#~ msgstr "Felhasználói fiók hozzáadása"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Felhasználói fiók eltávolítása"
+
+#~ msgid "A user with the username '%s' already exists."
+#~ msgstr "Már létezik „%s” felhasználónevű felhasználó."
+
+#~ msgid "Color"
+#~ msgstr "Színek"
+
+#~ msgid "Power"
+#~ msgstr "Energia­gazdálkodás"
+
+#~ msgid "Privacy"
+#~ msgstr "Adatvédelem"
+
+#~ msgid "Used to determine your geographical location"
+#~ msgstr "A földrajzi helyzetének meghatározásához használják"
+
+#~ msgid "Done"
+#~ msgstr "Kész"
+
+#~ msgid "Time _Zone"
+#~ msgstr "Időzó_na"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Késleltetés:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~ msgid "S_peed:"
+#~ msgstr "S_ebesség:"
+
+#~ msgid "For mice and touchpads."
+#~ msgstr "Egerekhez és érintőtáblákhoz"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Aktív feladatok"
+
+#~ msgid "Close"
+#~ msgstr "Bezárás"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Nyomtatás folytatása"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Nyomtatás felfüggesztése"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Nyomtatási feladat leállítása"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Visszatartva"
+
+#~ msgid "Job Title"
+#~ msgstr "Feladat neve"
+
+#~ msgid "Job State"
+#~ msgstr "Feladat állapota"
+
+#~ msgid "Time"
+#~ msgstr "Idő"
+
+#~ msgid "Options"
+#~ msgstr "Beállítások"
+
+#~ msgid "Password:"
+#~ msgstr "Jelszó:"
+
+#~ msgid "Zoom"
+#~ msgstr "Nagyítás"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Színes"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Beállítások tesztelése"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "_Balra"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Jobbra"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "M_utató sebessége"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~ msgid "No printers available"
+#~ msgstr "Nem állnak rendelkezésre nyomtatók"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Új nyomtató hozzáadása"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth letiltva"
+
+#~ msgid "Security key"
+#~ msgstr "Biztonsági kulcs"
+
+#~ msgid "Wireless devices require extra power"
+#~ msgstr "A vezeték nélküli eszközök további energiát igényelnek"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "A Bluetooth megosztás lehetővé teszi fájlok megosztását más Bluetooth-"
+#~ "képes eszközökkel"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Fogadás csak megbízható eszközökről"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Fogadott fájlok mentése a Letöltések mappába"
+
+#~ msgid "Show help options"
+#~ msgstr "Súgólehetőségek megjelenítése"
+
+#~ msgid "- Settings"
+#~ msgstr "- Beállítások"
+
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Adja ki a(z) „%s --help” parancsot az elérhető parancssori kapcsolók "
+#~ "teljes listájáért.\n"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "Ha az akkumulátor _kritikusan gyenge"
+
+#~ msgid "Power Off"
+#~ msgstr "Kikapcsolás"
+
+#~ msgid "Power off"
+#~ msgstr "Kikapcsolás"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "_Kikapcsolás gépelés közben"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr ""
+#~ "A rendszer hálózati szolgáltatásai nem kompatibilisek ezzel a verzióval."
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Felugró sávok megjelenítése"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Megjelenítés a zárolási képernyőn"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "Felugró sávok megjelenítése"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Megjelenítés a zárolási képernyőn"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "Kikapcsolja a vezeték nélküli eszközöket"
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr ""
+#~ "Adja meg egy nyomtató címét, vagy egy szöveget a találatok szűréséhez"
+
+#~ msgid "Sorry"
+#~ msgstr "Elnézést"
+
+#~ msgid "United States"
+#~ msgstr "Egyesült Államok"
+
+#~ msgid "Germany"
+#~ msgstr "Németország"
+
+#~ msgid "France"
+#~ msgstr "Franciaország"
+
+#~ msgid "Spain"
+#~ msgstr "Spanyolország"
+
+#~ msgid "China"
+#~ msgstr "Kína"
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "Média megosztása ezen a hálózaton"
+
+#~ msgid "Shared Folders"
+#~ msgstr "Megosztott mappák"
+
+#~ msgid "column"
+#~ msgstr "Oszlop"
+
+#~ msgid "Remove Folder"
+#~ msgstr "Mappa eltávolítása"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "Nyilvános mappa megosztása ezen a hálózaton"
+
+#~ msgid "Immediately"
+#~ msgstr "Azonnal"
+
+#~ msgid "Flickr"
+#~ msgstr "Flickr"
+
+#~ msgid "Set Up New Device"
+#~ msgstr "Új eszköz beállítása"
+
+#~ msgid "Connection"
+#~ msgstr "Kapcsolat"
+
+#~ msgid "Paired"
+#~ msgstr "Párosítva"
+
+#~ msgid "Type"
+#~ msgstr "Típus"
+
+#~ msgid "Mouse & Touchpad Settings"
+#~ msgstr "Egér és érintőtábla beállításai"
+
+#~ msgid "Sound Settings"
+#~ msgstr "Hangbeállítások"
+
+#~ msgid "Keyboard Settings"
+#~ msgstr "Billentyűzetbeállítások"
+
+#~ msgid "Send Files…"
+#~ msgstr "Fájlok küldése…"
+
+#~ msgid "Visibility"
+#~ msgstr "Láthatóság"
+
+#~ msgid "Visibility of “%s”"
+#~ msgstr "„%s” láthatósága"
+
+#~ msgid "Remove '%s' from the list of devices?"
+#~ msgstr "Eltávolítja a(z) „%s” eszközt az eszközök listájából?"
+
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "Ha eltávolítja az eszközt, a következő használat előtt újra be kell majd "
+#~ "állítania."
+
+#~ msgid "Device type:"
+#~ msgstr "Eszköz típusa:"
+
+#~ msgid "Manufacturer:"
+#~ msgstr "Gyártó:"
+
+#~ msgid "Model:"
+#~ msgstr "Modell:"
+
+#~ msgid ""
+#~ "Image files can be dragged on this window to auto-complete the above "
+#~ "fields."
+#~ msgstr ""
+#~ "A képfájlok ide ejtésével automatikusan kitöltetheti a fenti mezőket."
+
+#~ msgid "Show your primary display on this screen also"
+#~ msgstr "Az elsődleges kijelző megjelenítése ezen a képernyőn is"
+
+#~ msgid "Combine"
+#~ msgstr "Kombinálás"
+
+#~ msgid "Join with the primary display to create an extra space"
+#~ msgstr ""
+#~ "Összekapcsolás az elsődleges kijelzővel extra munkaterület létrehozásához"
+
+#~ msgid "Don't use the display"
+#~ msgstr "Ne használja a kijelzőt"
+
+#~ msgid "Install Updates"
+#~ msgstr "Frissítések telepítése"
+
+#~ msgid "System Up-To-Date"
+#~ msgstr "A rendszer naprakész"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Egér beállításai"
+
+#~ msgid "Select the interface to use for the new service"
+#~ msgstr "Válassza ki az új szolgáltatáshoz használandó csatolót"
+
+#~ msgid "C_reate…"
+#~ msgstr "_Létrehozás…"
+
+#~ msgid "_Interface"
+#~ msgstr "_Csatoló"
+
+#~ msgid "Search for network printers or filter result"
+#~ msgstr "Hálózati nyomtatók keresése, vagy találatok szűrése"
+
+#~ msgid "_Default"
+#~ msgstr "_Alapértelmezett"
+
+#~ msgctxt "Language"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "Share Public Folder"
+#~ msgstr "Nyilvános mappa megosztása"
+
+#~ msgid "Only share with Trusted Devices"
+#~ msgstr "Megosztás csak megbízható eszközökkel"
+
+#~ msgid "Remote View"
+#~ msgstr "Távoli nézet"
+
+#~ msgid "Approve All Connections"
+#~ msgstr "Az összes kapcsolat engedélyezése"
+
+#~ msgid "Changing photo for:"
+#~ msgstr "Fénykép módosítása:"
+
+#~ msgid ""
+#~ "Choose a picture that will be shown at the login screen for this account."
+#~ msgstr ""
+#~ "Válasszon egy képet, amely a bejelentkezési képernyőn ehhez a fiókhoz "
+#~ "megjelenik."
+
+#~ msgid "Gallery"
+#~ msgstr "Galéria"
+
+#~ msgid "Take a photograph"
+#~ msgstr "Fénykép készítése"
+
+#~ msgid "Browse"
+#~ msgstr "Tallózás"
+
+#~ msgid "Photograph"
+#~ msgstr "Fénykép"
+
+#~ msgid "Account Information"
+#~ msgstr "Fiókinformációk"
+
+#~ msgid "Switch between AM and PM."
+#~ msgstr "Váltás délelőtt és délután között."
+
+#~ msgid "Estimated battery capacity: %s"
+#~ msgstr "Becsült akkumulátorkapacitás: %s"
+
+#~ msgid "_Region:"
+#~ msgstr "_Régió:"
+
+#~ msgid "_City:"
+#~ msgstr "_Város:"
+
+#~ msgid "_Network Time"
+#~ msgstr "_Hálózati idő"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid "Set the time one hour ahead."
+#~ msgstr "Idő előreállítása egy órával."
+
+#~ msgid "Set the time one hour back."
+#~ msgstr "Idő visszaállítása egy órával."
+
+#~ msgid "Set the time one minute ahead."
+#~ msgstr "Idő előreállítása egy perccel."
+
+#~ msgid "Set the time one minute back."
+#~ msgstr "Idő visszaállítása egy perccel."
+
+#~ msgid "AM/PM"
+#~ msgstr "12 órás"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Normal"
+#~ msgstr "Normál"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "Clockwise"
+#~ msgstr "Óra járása szerinti"
+
+#~ msgctxt "display panel, rotation"
+#~ msgid "180 Degrees"
+#~ msgstr "180 fok"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "Drag to change primary display."
+#~ msgstr "Húzza az elsődleges kijelző módosításához."
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Válassza ki a monitort a tulajdonságai módosításához, húzza az "
+#~ "elhelyezésének megváltoztatásához."
+
+#~ msgid "%a %R"
+#~ msgstr "%a %R"
+
+#~ msgid "Failed to apply configuration: %s"
+#~ msgstr "Hiba a következő beállítás alkalmazása közben: %s"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "A monitor beállításai nem menthetők"
+
+#~ msgid "_Resolution"
+#~ msgstr "_Felbontás"
+
+#~ msgid "R_otation"
+#~ msgstr "_Forgatás"
+
+#~ msgid "_Mirror displays"
+#~ msgstr "Kijelzők _tükrözése"
+
+#~ msgid "Note: may limit resolution options"
+#~ msgstr "Megjegyzés: a felbontási lehetőségeket korlátozhatja"
+
+#~ msgid "_Detect Displays"
+#~ msgstr "_Kijelzők felismerése"
+
+#~ msgid "Hidden"
+#~ msgstr "Rejtett"
+
+#~ msgid "Visible"
+#~ msgstr "Látható"
+
+#~ msgid "Name & Visibility"
+#~ msgstr "Név és láthatóság"
+
+#~ msgid "Control how you appear on the screen and the network."
+#~ msgstr "A képernyőn és a hálózaton való megjelenésének vezérlése."
+
+#~ msgid "Display _full name in top bar"
+#~ msgstr "_Teljes név megjelenítése a felső sávon"
+
+#~ msgid "Display full name in _lock screen"
+#~ msgstr "Teljes név megjelenítése a _zárolási képernyőn"
+
+#~ msgid "_Stealth Mode"
+#~ msgstr "_Láthatatlan mód"
+
+#~ msgid "Show Status When _Inactive"
+#~ msgstr "Állapot _megjelenítése ha inaktív"
+
+#~ msgid "_Confirm Password"
+#~ msgstr "Jelszó _megerősítése"
+
+#~ msgid "_Login Name"
+#~ msgstr "Bejelentkezési _név"
+
+#~ msgid "Login _Password"
+#~ msgstr "Bejelentkezési jels_zó"
+
+#~ msgid "Passwords do not match"
+#~ msgstr "A jelszavak nem egyeznek"
+
+#~ msgid ""
+#~ "Login not recognized.\n"
+#~ "Please try again."
+#~ msgstr ""
+#~ "A bejelentkezés ismeretlen.\n"
+#~ "Próbálja újra."
+
+#~ msgid "Domain not found."
+#~ msgstr "Nem található a tartomány."
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more characters."
+#~ msgstr "Próbáljon meg több karaktert hozzáadni."
+
+#~ msgid "Export"
+#~ msgstr "Exportálás"
+
+#~ msgid "Left Shift"
+#~ msgstr "Bal Shift"
+
+#~ msgid "Left Alt"
+#~ msgstr "Bal Alt"
+
+#~ msgid "Left Ctrl"
+#~ msgstr "Bal Ctrl"
+
+#~ msgid "Right Shift"
+#~ msgstr "Jobb Shift"
+
+#~ msgid "Right Alt"
+#~ msgstr "Jobb Alt"
+
+#~ msgid "Right Ctrl"
+#~ msgstr "Jobb Ctrl"
+
+#~ msgid "Left Alt+Shift"
+#~ msgstr "Bal Alt+Shift"
+
+#~ msgid "Right Alt+Shift"
+#~ msgstr "Jobb Alt+Shift"
+
+#~ msgid "Left Ctrl+Shift"
+#~ msgstr "Bal Ctrl+Shift"
+
+#~ msgid "Right Ctrl+Shift"
+#~ msgstr "Jobb Ctrl+Shift"
+
+#~ msgid "Left+Right Shift"
+#~ msgstr "Bal+jobb Shift"
+
+#~ msgid "Left+Right Ctrl"
+#~ msgstr "Bal+jobb Ctrl"
+
+#~ msgid "Alt+Shift"
+#~ msgstr "Alt+Shift"
+
+#~ msgid "Ctrl+Shift"
+#~ msgstr "Ctrl+Shift"
+
+#~ msgid "Alt+Ctrl"
+#~ msgstr "Alt+Ctrl"
+
+#~ msgid "Caps"
+#~ msgstr "Caps"
+
+#~ msgid "Shift+Caps"
+#~ msgstr "Shift+Caps"
+
+#~ msgid "Alt+Caps"
+#~ msgstr "Alt+Caps"
+
+#~ msgid "Ctrl+Caps"
+#~ msgstr "Ctrl+Caps"
+
+#~ msgid "C_ontent sticks to fingers"
+#~ msgstr "Ujjak_hoz tapadó tartalom"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Normal"
+#~ msgstr "Normál"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High/Inverse"
+#~ msgstr "Nagy/inverz"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Képernyő-billentyűzet"
+
+#~ msgid "OnBoard"
+#~ msgstr "OnBoard"
+
+#~ msgid "75%"
+#~ msgstr "75%"
+
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Normal"
+#~ msgstr "Normál"
+
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgctxt "universal access, text size"
+#~ msgid "Larger"
+#~ msgstr "Nagyobb"
+
+#~ msgid "Beep on Caps and Num Lock"
+#~ msgstr "Hangjelzés a Caps és Num Lock használatakor"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Be- vagy kikapcsolás:"
+
+#~ msgctxt "universal access, zoom"
+#~ msgid "Zoom"
+#~ msgstr "Nagyítás"
+
+#~ msgid "Zoom in:"
+#~ msgstr "Nagyítás:"
+
+#~ msgid "Zoom out:"
+#~ msgstr "Kicsinyítés:"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "Zárt feliratozás"
+
+#~ msgid "Display a textual description of speech and sounds"
+#~ msgstr "A beszéd és hangok szöveges leírásának megjelenítése"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Short"
+#~ msgstr "Rövid"
+
+#~ msgctxt "universal access, delay"
+#~ msgid "Long"
+#~ msgstr "Hosszú"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "Hangjelzés billentyű"
+
+#~ msgid "pressed"
+#~ msgstr "lenyomásakor"
+
+#~ msgid "accepted"
+#~ msgstr "elfogadásakor"
+
+#~ msgid "rejected"
+#~ msgstr "visszautasításakor"
+
+#~ msgid "Acc_eptance delay:"
+#~ msgstr "El_fogadás késleltetése:"
+
+#~ msgid "Control the pointer using the keypad"
+#~ msgstr "A mutató irányítása a numerikus billentyűzetről"
+
+#~ msgid "Video Mouse"
+#~ msgstr "Videoegér"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "A mutató irányítása a videokamera használatával."
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Small"
+#~ msgstr "Kicsi"
+
+#~ msgctxt "universal access, threshold"
+#~ msgid "Large"
+#~ msgstr "Nagy"
+
+#~ msgid "Add account"
+#~ msgstr "Fiók hozzáadása"
+
+#~ msgid "_Local Account"
+#~ msgstr "_Helyi fiók"
+
+#~ msgid "Tip: Enterprise domain or realm name"
+#~ msgstr "Tipp: Vállalati tartomány- vagy zónanév"
+
+#~ msgid "C_ontinue"
+#~ msgstr "_Folytatás"
+
+#~ msgid "Previous Week"
+#~ msgstr "Előző hét"
+
+#~ msgid "Next Week"
+#~ msgstr "Következő hét"
+
+#~ msgid "Next week"
+#~ msgstr "Jövő hét"
+
+#~ msgid "Log in without a password"
+#~ msgstr "Bejelentkezés jelszó nélkül"
+
+#~ msgid "Disable this account"
+#~ msgstr "Ezen fiók letiltása"
+
+#~ msgid "Enable this account"
+#~ msgstr "Ezen fiók engedélyezése"
+
+#~ msgid "Generate a password"
+#~ msgstr "Jelszó generálása"
+
+#~ msgid "_Action"
+#~ msgstr "_Művelet"
+
+#~ msgid "_Show password"
+#~ msgstr "J_elszó megjelenítése"
+
+#~ msgid "How to choose a strong password"
+#~ msgstr "Hogyan választhat erős jelszót"
+
+#~ msgctxt "Password strength"
+#~ msgid "Too short"
+#~ msgstr "Túl rövid"
+
+#~ msgctxt "Password strength"
+#~ msgid "Not good enough"
+#~ msgstr "Nem elég jó"
+
+#~ msgctxt "Password strength"
+#~ msgid "Weak"
+#~ msgstr "Gyenge"
+
+#~ msgctxt "Password strength"
+#~ msgid "Fair"
+#~ msgstr "Elfogadható"
+
+#~ msgctxt "Password strength"
+#~ msgid "Good"
+#~ msgstr "Jó"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strong"
+#~ msgstr "Erős"
+
+#~ msgid "_Generate a password"
+#~ msgstr "_Jelszó generálása"
+
+#~ msgid "You need to enter a new password"
+#~ msgstr "Meg kell adnia egy új jelszót"
+
+#~ msgid "The new password is not strong enough"
+#~ msgstr "Az új jelszó nem elég erős"
+
+#~ msgid "You need to confirm the password"
+#~ msgstr "Meg kell erősítenie a jelszót"
+
+#~ msgid "You need to enter your current password"
+#~ msgstr "Újra be kell írnia jelenlegi jelszavát"
+
+#~ msgid "The current password is not correct"
+#~ msgstr "A jelenlegi jelszó helytelen"
+
+#~ msgid "Switch Modes"
+#~ msgstr "Módváltás"
+
+#~ msgid "Action"
+#~ msgstr "Művelet"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Slow"
+#~ msgstr "Lassú"
+
+#~ msgctxt "mouse, speed"
+#~ msgid "Fast"
+#~ msgstr "Gyors"
+
+#~ msgid "blablabla"
+#~ msgstr "blablabla"
+
+#~ msgid ""
+#~ "Address\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "Address\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+
+#~ msgid ""
+#~ "DNS\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "DNS\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+
+#~ msgid ""
+#~ "Routes\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+#~ msgstr ""
+#~ "Routes\n"
+#~ "section\n"
+#~ "goes\n"
+#~ "here"
+
+#~ msgid "00:24:16:31:8G:7A"
+#~ msgstr "00:24:16:31:8G:7A"
+
+#~| msgid "_Options"
+#~ msgid "_Options…"
+#~ msgstr "_Beállítások…"
+
+#~| msgid "None"
+#~ msgctxt "Input source"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "Change the background"
+#~ msgstr "Háttér megváltoztatása"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "Bluetooth beállítások módosítása"
+
+#~ msgid "Browse Files..."
+#~ msgstr "Fájlok tallózása…"
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Create virtual device"
+#~ msgstr "Virtuális eszköz létrehozása"
+
+#~ msgid "Available Profiles for Displays"
+#~ msgstr "Elérhető profilok kijelzőkhöz"
+
+#~ msgid "Available Profiles for Scanners"
+#~ msgstr "Elérhető lapolvasóprofilok"
+
+#~ msgid "Available Profiles for Printers"
+#~ msgstr "Elérhető nyomtatóprofilok"
+
+#~ msgid "Available Profiles for Cameras"
+#~ msgstr "Elérhető fényképezőgép-profilok"
+
+#~ msgid "Available Profiles for Webcams"
+#~ msgstr "Elérhető webkameraprofilok"
+
+#~ msgid "%i year"
+#~ msgid_plural "%i years"
+#~ msgstr[0] "%i év"
+#~ msgstr[1] "%i év"
+
+#~ msgid "%i month"
+#~ msgid_plural "%i months"
+#~ msgstr[0] "%i hónap"
+#~ msgstr[1] "%i hónap"
+
+#~ msgid "%i week"
+#~ msgid_plural "%i weeks"
+#~ msgstr[0] "%i hét"
+#~ msgstr[1] "%i hét"
+
+#~ msgid "Less than 1 week"
+#~ msgstr "Kevesebb, mint 1 hét"
+
+#~ msgid "This device is not color managed."
+#~ msgstr "Az eszköz nem támogatja a színkezelést."
+
+#~ msgid "This device is using manufacturing calibrated data."
+#~ msgstr "Ez az eszköz gyárilag kalibrált adatokat használ."
+
+#~ msgid ""
+#~ "This device does not have a profile suitable for whole-screen color "
+#~ "correction."
+#~ msgstr ""
+#~ "Ez az eszköz nem rendelkezik a teljes kijelzős színkorrekcióhoz megfelelő "
+#~ "profillal."
+
+#~ msgid "Not specified"
+#~ msgstr "Nincs megadva"
+
+#~ msgid "No devices supporting color management detected"
+#~ msgstr "Nem találhatók színkezelést támogató eszközök"
+
+#~ msgid "Add device"
+#~ msgstr "Eszköz hozzáadása"
+
+#~ msgid "Add a virtual device"
+#~ msgstr "Virtuális eszköz hozzáadása"
+
+#~ msgid "Remove a device"
+#~ msgstr "Eszköz eltávolítása"
+
+#~ msgid "Color management settings"
+#~ msgstr "Színkezelési beállítások"
+
+#~ msgid "English"
+#~ msgstr "Angol"
+
+#~ msgid "British English"
+#~ msgstr "Brit angol"
+
+#~ msgid "German"
+#~ msgstr "Német"
+
+#~ msgid "French"
+#~ msgstr "Francia"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanyol"
+
+#~ msgid "Chinese (simplified)"
+#~ msgstr "Egyszerűsített kínai"
+
+#~ msgid "Russian"
+#~ msgstr "Orosz"
+
+#~ msgid "Arabic"
+#~ msgstr "Arab"
+
+#~ msgid "Unspecified"
+#~ msgstr "Nincs megadva"
+
+#~ msgid "Select a language"
+#~ msgstr "Válasszon nyelvet"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Dátum és idő beállításai"
+
+#~ msgid "%d x %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "VESA: %s"
+#~ msgstr "VESA: %s"
+
+#~ msgid "Unknown model"
+#~ msgstr "Ismeretlen modell"
+
+#~ msgid "The next login will attempt to use the standard experience."
+#~ msgstr ""
+#~ "A következő bejelentkezés az általános megjelenést próbálja majd "
+#~ "használni."
+
+#~ msgid ""
+#~ "The next login will use the fallback mode intended for unsupported "
+#~ "graphics hardware."
+#~ msgstr ""
+#~ "A következő bejelentkezés a nem támogatott hardverhez tervezett tartalék "
+#~ "megjelenést próbálja majd használni."
+
+#~ msgctxt "Experience"
+#~ msgid "Fallback"
+#~ msgstr "Tartalék"
+
+#~ msgid "System Information"
+#~ msgstr "Rendszer-információk"
+
+#~ msgid "OS type"
+#~ msgstr "Operációs rendszer"
+
+#~ msgid "_Other Media..."
+#~ msgstr "_Egyéb adathordozók…"
+
+#~ msgid "Experience"
+#~ msgstr "Felület"
+
+#~ msgid "Forced _Fallback Mode"
+#~ msgstr "_Tartalék mód kényszerítése"
+
+#~ msgid "Change keyboard settings"
+#~ msgstr "Billentyűzetbeállítások módosítása"
+
+#~ msgid "Layout Settings"
+#~ msgstr "Kiosztás beállításai"
+
+#~ msgid "Network settings"
+#~ msgstr "Hálózati beállítások"
+
+#~ msgid "Network;Wireless;IP;LAN;Proxy;"
+#~ msgstr "Hálózat;Vezeték nélküli;IP;LAN;Proxy;"
+
+#~ msgid "Out of range"
+#~ msgstr "Kívül esik a tartományon"
+
+#~ msgid "_Options..."
+#~ msgstr "B_eállítások…"
+
+#~ msgid "C_reate..."
+#~ msgstr "_Létrehozás…"
+
+#~ msgid "Wireless"
+#~ msgstr "Vezeték nélküli"
+
+#~ msgid "_Disconnect"
+#~ msgstr "_Bontás"
+
+#~ msgid "_Connect"
+#~ msgstr "_Kapcsolódás"
+
+#~ msgid "Mesh"
+#~ msgstr "Háló"
+
+#~ msgid "Disconnected"
+#~ msgstr "Bontva"
+
+#~ msgid "Carrier/link changed"
+#~ msgstr "A vivőjel/kapcsolat megváltozott"
+
+#~ msgid "Expired credentials. Please log in again."
+#~ msgstr "A hitelesítési adatok lejártak. Jelentkezzen be újra."
+
+#~ msgid "_Log In"
+#~ msgstr "_Bejelentkezés"
+
+#~ msgid "Manage online accounts"
+#~ msgstr "Online fiókok kezelése"
+
+#~ msgid "Caution low battery, %s remaining"
+#~ msgstr "Az akkumulátor lemerülőben, %s van hátra"
+
+#~ msgid "Using battery power - %s remaining"
+#~ msgstr "Akkumulátor használata – %s van hátra"
+
+#~ msgid "Using battery power"
+#~ msgstr "Akkumulátor használata"
+
+#~ msgid "Charging - fully charged"
+#~ msgstr "Töltés – teljesen feltöltve"
+
+#~ msgid "Using UPS power - %s remaining"
+#~ msgstr "UPS használata – %s van hátra"
+
+#~ msgid "Caution low UPS"
+#~ msgstr "Az UPS lemerülőben"
+
+#~ msgid "Using UPS power"
+#~ msgstr "UPS használata"
+
+#~ msgid "Your secondary battery is fully charged"
+#~ msgstr "A másodlagos akkumulátor teljesen feltöltve"
+
+#~ msgid "Your secondary battery is empty"
+#~ msgstr "A másodlagos akkumulátor lemerült"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging - fully charged"
+#~ msgstr "Töltés – teljesen feltöltve"
+
+#~ msgid ""
+#~ "Tip: <a href=\"screen\">screen brightness</a> affects how much power is "
+#~ "used"
+#~ msgstr ""
+#~ "Tipp: A <a href=\"screen\">képernyő fényereje</a> befolyásolja az "
+#~ "energiafelhasználást."
+
+#~ msgid "Power management settings"
+#~ msgstr "Energiagazdálkodás beállításai"
+
+#~ msgid "Suspend when inactive for"
+#~ msgstr "Felfüggesztés, ha ennyi ideig inaktív"
+
+#~ msgid "Change printer settings"
+#~ msgstr "Nyomtatóbeállítások módosítása"
+
+#~ msgid "Manufacturers"
+#~ msgstr "Gyártók"
+
+#~ msgid "Drivers"
+#~ msgstr "Illesztőprogramok"
+
+#~ msgid "_Show"
+#~ msgstr "_Megjelenítés"
+
+#~ msgid "Change your region and language settings"
+#~ msgstr "Területi és nyelvi beállítások módosítása"
+
+#~ msgid "Select an input source to add"
+#~ msgstr "Válasszon egy hozzáadni kívánt beviteli forrást"
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings."
+#~ msgstr ""
+#~ "A bejelentkezési képernyő, a rendszerfiókok és az új felhasználói fiókok "
+#~ "a rendszerszintű területi és nyelvi beállításokat használják."
+
+#~ msgid ""
+#~ "The login screen, system accounts and new user accounts use the system-"
+#~ "wide Region and Language settings. You may change the system settings to "
+#~ "match yours."
+#~ msgstr ""
+#~ "A bejelentkezési képernyő, a rendszerfiókok és az új felhasználói fiókok "
+#~ "a rendszerszintű területi és nyelvi beállításokat használják. A "
+#~ "rendszerbeállítások megváltoztatásával a sajátjaihoz igazíthatja azokat."
+
+#~ msgid "Copy Settings"
+#~ msgstr "Beállítások másolása"
+
+#~ msgid "Copy Settings..."
+#~ msgstr "Beállítások másolása…"
+
+#~ msgid "Region and Language"
+#~ msgstr "Terület és nyelv"
+
+#~ msgid ""
+#~ "Select a display language (change will be applied next time you log in)"
+#~ msgstr ""
+#~ "Válassza ki a felület nyelvét (a következő bejelentkezéskor lép életbe)"
+
+#~ msgid "Add Language"
+#~ msgstr "Nyelv hozzáadása"
+
+#~ msgid "Remove Language"
+#~ msgstr "Nyelv eltávolítása"
+
+#~ msgid "Install languages..."
+#~ msgstr "Nyelvek telepítése…"
+
+#~ msgid "Select a region (change will be applied the next time you log in)"
+#~ msgstr ""
+#~ "Válasszon régiót (a változások csak a következő bejelentkezéskor lépnek "
+#~ "életbe)"
+
+#~ msgid "Add Region"
+#~ msgstr "Terület hozzáadása"
+
+#~ msgid "Currency"
+#~ msgstr "Pénznem"
+
+#~ msgid "Examples"
+#~ msgstr "Példák"
+
+#~ msgid "Select keyboards or other input sources"
+#~ msgstr "Válasszon billentyűzeteket vagy más beviteli forrásokat"
+
+#~ msgid "Ctrl+Alt+Space"
+#~ msgstr "Ctrl+Alt+Szóköz"
+
+#~ msgid "Shortcut Settings"
+#~ msgstr "Gyorsbillentyű-beállítások"
+
+#~ msgid "Display language:"
+#~ msgstr "Megjelenő nyelv:"
+
+#~ msgid "Input source:"
+#~ msgstr "Bemeneti forrás:"
+
+#~ msgid "Format:"
+#~ msgstr "Formátum:"
+
+#~ msgid "Your settings"
+#~ msgstr "Az Ön beállításai"
+
+#~ msgid "System settings"
+#~ msgstr "Rendszerbeállítások"
+
+#~ msgid "Brightness & Lock"
+#~ msgstr "Fényerő és zárolás"
+
+#~ msgid "Screen brightness and lock settings"
+#~ msgstr "Képernyő fényerő- és zárolási beállításai"
+
+#~ msgid "Brightness;Lock;Dim;Blank;Monitor;"
+#~ msgstr "Fényerő;Zárolás;Halványítás;Elsötétítés;Monitor;"
+
+#~ msgid "_Dim screen to save power"
+#~ msgstr "Energiaspórolás a kép_ernyő elhalványításával"
+
+#~ msgid "Don't lock when at home"
+#~ msgstr "Ne zárolja, ha otthon vagyok"
+
+#~ msgid "Locations..."
+#~ msgstr "Helyek…"
+
+#~ msgid "Lock"
+#~ msgstr "Zárolás"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "Hibakeresési kód engedélyezése"
+
+#~ msgid "Version of this application"
+#~ msgstr "Ezen alkalmazás verziója"
+
+#~ msgid " — GNOME Volume Control Applet"
+#~ msgstr " – GNOME hangerőszabályzó kisalkalmazás"
+
+#~ msgid "Show desktop volume control"
+#~ msgstr "Hangerőszabályzó megjelenítése"
+
+#~ msgid "Sound Output Volume"
+#~ msgstr "Hangkimenet hangereje"
+
+#~ msgid "Microphone Volume"
+#~ msgstr "Mikrofon hangereje"
+
+#~ msgid "Failed to start Sound Preferences: %s"
+#~ msgstr "A Hangbeállítások indítása meghiúsult: %s"
+
+#~ msgid "_Mute"
+#~ msgstr "_Némítás"
+
+#~ msgid "_Sound Preferences"
+#~ msgstr "_Hangbeállítások"
+
+#~ msgid "Muted"
+#~ msgstr "Némítva"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Akadálymentesítés beállításai"
+
+#~ msgid "Options..."
+#~ msgstr "Beállítások…"
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "Color"
+#~ msgstr "Szín"
+
+#~ msgctxt "Zoom Grayscale"
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "User Accounts"
+#~ msgstr "Felhasználói fiókok"
+
+#~ msgid "_Hint"
+#~ msgstr "_Javaslat"
+
+#~ msgid ""
+#~ "This hint may be displayed at the login screen.  It will be visible to "
+#~ "all users of this system.  Do <b>not</b> include the password here."
+#~ msgstr ""
+#~ "Ez a tipp megjelenhet a bejelentkezési képernyőn. A rendszer minden "
+#~ "felhasználója számára látható lesz. A jelszót <b>ne</b> írja bele."
+
+#~ msgid "Fair"
+#~ msgstr "Elfogadható"
+
+#~ msgid "Browse for more pictures..."
+#~ msgstr "További képek tallózása…"
+
+#~ msgid "No user with the name '%s' exists."
+#~ msgstr "Nem létezik „%s” nevű felhasználó."
+
+#~ msgid "This user does not exist."
+#~ msgstr "Ez a felhasználó nem létezik."
+
+#~ msgid "Set your Wacom tablet preferences"
+#~ msgstr "Wacom rajztábla beállításainak megadása"
+
+#~ msgid "Map Buttons..."
+#~ msgstr "Gombok leképezése…"
+
+#~ msgid "Calibrate..."
+#~ msgstr "Kalibrálás…"
+
+#~ msgid "- System Settings"
+#~ msgstr "– Rendszerbeállítások"
+
+#~ msgid "System Settings"
+#~ msgstr "Rendszerbeállítások"

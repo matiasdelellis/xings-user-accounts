@@ -1,0 +1,3221 @@
+# Zulu translation of gnome-control-center.
+# Copyright (C) 2004 Zuza Software Foundation (Translate.org.za)
+# This file is distributed under the same license as the gnome-control-center package.
+#
+# Zuza Software Foundation <info@translate.org.za>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2004-12-13 19:02+0200\n"
+"Last-Translator: Zuza Software Foundation <info@translate.org.za>\n"
+"Language-Team: Zulu <translate-discuss-zu@lists.sourceforge.net>\n"
+"Language: zu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "I_gamamsebemzi:"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "_Igcwele"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Isixhumi X esejwayekile"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+msgid "Administrator"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Faka uhlobo lwehele"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Igama lokungena:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_Igama lokungena:"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Igama lokungena:"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Shintsha uhlelo"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+#, fuzzy
+msgid "Ch_ange"
+msgstr "Shintsha uhlelo"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Igama lokungena:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Igama lokungena:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Shintsha uhlelo"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_Igama lokungena:"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "Ukhetha umumo"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "I_gamamsebemzi:"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+#, fuzzy
+msgid "Other Accounts"
+msgstr "Abanye"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, fuzzy, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Ufuna ukugcina lesisinqumo?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "Susa"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "Ihele elisha"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Susa"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "_Lutho"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr ""
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Ukufakwa kwendikima"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Isikhombisi esingaziwa"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "Hlanganisa..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Isixhumi X esejwayekile"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+#, fuzzy
+msgid "The device is already in use."
+msgstr "Ukuphetha inkinombho (%s) iyasebenziswa\n"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Ayinamandla"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Ayinamandla"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "_Khetha"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+#, fuzzy
+msgid "Please choose another password."
+msgstr "_Igama lokungena:"
+
+#: ../src/um-password-dialog.c:160
+#, fuzzy
+msgid "Please type your current password again."
+msgstr "_Igama lokungena:"
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_Khetha"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Vula"
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Ayinamandla"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Igama lokungena:"
+
+#, fuzzy
+#~ msgid "The type of alert"
+#~ msgstr "Uhlobo lwesigijimi."
+
+#, fuzzy
+#~ msgid "Alert Buttons"
+#~ msgstr "Amankinombho"
+
+#, fuzzy
+#~ msgid "Show more _details"
+#~ msgstr "_Imniningwane yendikima"
+
+#, fuzzy
+#~ msgid "About Me"
+#~ msgstr "_Nge"
+
+#, fuzzy
+#~ msgid "Set your personal information"
+#~ msgstr "Uhlobo lolwazi MIME"
+
+#, fuzzy
+#~ msgid "No Image"
+#~ msgstr "Izithombe"
+
+#, fuzzy, c-format
+#~ msgid "About %s"
+#~ msgstr "_Nge"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#, fuzzy
+#~ msgid "<b>Email</b>"
+#~ msgstr "<i>Ncanel</i>"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Ijubane</b>"
+
+#, fuzzy
+#~ msgid "<b>Instant Messaging</b>"
+#~ msgstr "<b>Ukutyelekana isiqwema</b>"
+
+#, fuzzy
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Sekela</b>"
+
+#, fuzzy
+#~ msgid "<b>Telephone</b>"
+#~ msgstr "<b>Izihlushulelo zokugqoka</b>"
+
+#, fuzzy
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Ijubane</b>"
+
+#, fuzzy
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Sekela</b>"
+
+#, fuzzy
+#~ msgid "A_ddress:"
+#~ msgstr "_Hlanganisa:"
+
+#, fuzzy
+#~ msgid "Address"
+#~ msgstr "_ipotshoziwe"
+
+#, fuzzy
+#~ msgid "C_ity:"
+#~ msgstr "_Inhlobo:"
+
+#, fuzzy
+#~ msgid "C_ompany:"
+#~ msgstr "Umy_alo:"
+
+#, fuzzy
+#~ msgid "Cale_ndar:"
+#~ msgstr "Uhla_ngothi..."
+
+#, fuzzy
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Shintsha uhlelo"
+
+#, fuzzy
+#~ msgid "Ci_ty:"
+#~ msgstr "_Inhlobo:"
+
+#, fuzzy
+#~ msgid "Co_untry:"
+#~ msgstr "Lawula"
+
+#, fuzzy
+#~ msgid "Contact"
+#~ msgstr "_Iziqikili"
+
+#, fuzzy
+#~ msgid "Cou_ntry:"
+#~ msgstr "Lawula"
+
+#, fuzzy
+#~ msgid "Hom_e:"
+#~ msgstr "_Igama:"
+
+#, fuzzy
+#~ msgid "Old pa_ssword:"
+#~ msgstr "_Igama lokungena:"
+
+#, fuzzy
+#~ msgid "Personal Info"
+#~ msgstr "_Isixhumi siqwema:"
+
+#, fuzzy
+#~ msgid "_Address:"
+#~ msgstr "_Hlanganisa:"
+
+#, fuzzy
+#~ msgid "_Home page:"
+#~ msgstr "_Igama lendikimba:"
+
+#, fuzzy
+#~ msgid "_Home:"
+#~ msgstr "_Igama:"
+
+#, fuzzy
+#~ msgid "_Manager:"
+#~ msgstr "_Inkulisa"
+
+#, fuzzy
+#~ msgid "_Mobile:"
+#~ msgstr "_Ihele"
+
+#, fuzzy
+#~ msgid "_Profession:"
+#~ msgstr "Umlandiso:"
+
+#, fuzzy
+#~ msgid "_Retype new password:"
+#~ msgstr "_Igama lokungena:"
+
+#, fuzzy
+#~ msgid "_Title:"
+#~ msgstr "_Inhlobo:"
+
+#~ msgid "<b>Applications</b>"
+#~ msgstr "<b> Izithobo</b>"
+
+#~ msgid "<b>Support</b>"
+#~ msgstr "<b>Sekela</b>"
+
+#~ msgid ""
+#~ "<small><i><b>Note:</b> Changes to this setting will not take effect until "
+#~ "you next log in.</i></small>"
+#~ msgstr ""
+#~ "<small><i><b>Qaphela:</b> Ushintsho kuloluhlelo angeke lwenzeke uze "
+#~ "uphinde ungene futhi ngaphakathi.</i></small>"
+
+#~ msgid "Assistive Technology Preferences"
+#~ msgstr "Usizo lwesayensi yemisebenzi ethile oluthandekayo"
+
+#~ msgid "Close and _Log Out"
+#~ msgstr "Vala futhi _uphume"
+
+#~ msgid "Start these assistive technologies every time you log in:"
+#~ msgstr "Qala lolusizo lwesayensi ethile ngazo zonke izikhathi uma ungena:"
+
+#~ msgid "_Enable assistive technologies"
+#~ msgstr "_Nika amandla kusizo lwesayensi ethile"
+
+#~ msgid "_Magnifier"
+#~ msgstr "_Inkulisa"
+
+#~ msgid "_On-screen keyboard"
+#~ msgstr "_Ebusweni besiga-nyezi kwindawo yokushaya uma ubhala"
+
+#~ msgid "_Screenreader"
+#~ msgstr "_Isifundi ebusweni besiga-nyezi"
+
+#~ msgid "Assistive Technology Support"
+#~ msgstr "Usizo lwesayensi yemisebenzi ethile oluthandekayo"
+
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr ""
+#~ "Nika amandla ngokusekela I GNOME uma ungena kusizo lwesayensi yemisebenzi "
+#~ "ethile"
+
+#~ msgid ""
+#~ "No Assistive Technology is available on your system.  The 'gok' package "
+#~ "must be installed in order to get on-screen keyboard support, and the "
+#~ "'gnopernicus' package must be installed for screenreading and magnifying "
+#~ "capabilities."
+#~ msgstr ""
+#~ "Usizo lobugciko alukho phakathi kohlelo lwakho. Umthwalo we-'gok' imelwe "
+#~ "ukufakwa ukuze uthole inxaso yobuso besiga-nyezi kwindawo yokushaya uma "
+#~ "ubhala, nomthwalo we 'gnopernicus' kumelwe ufakwe ukuze ufundwe ebusweni "
+#~ "besiga-nyezi namakhono okukhulisa."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gok' package must be installed in order to get on-screen keyboard "
+#~ "support."
+#~ msgstr ""
+#~ "Akusilo lonke usizo olutholakalayo lwesayensi ethile olufakiwe phakathi "
+#~ "komshini wakho. Isithungu se 'gok' kumelwe sifakwe ukuze kutholwe "
+#~ "ukusekelwa kwindawo yokusahya uma ubhala ebusweni besiga-nyezi."
+
+#~ msgid ""
+#~ "Not all available assistive technologies are installed on your system.  "
+#~ "The 'gnopernicus' package must be installed for screenreading and "
+#~ "magnifying capabilities."
+#~ msgstr ""
+#~ "Usizo lwesayensi yemisebenzi ethile oluthandekayo alufakiwe phakathi "
+#~ "emshinini wakho. Isishuqulu se 'gnopernicus' kumelwe sifakwe ukuze "
+#~ "kufundwe ebusweni besiga-nyezi nokukhulisa okukhoekayo."
+
+#, c-format
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr ""
+#~ "Kube khona iphutha elenzikile uma kungeniswa ingoso oluthandekayo "
+#~ "lokushaya: %s"
+
+#, c-format
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "Ihlulekile ukuthwebula izinhlelo zemvumeX phakathi kwehele '%s'"
+
+#~ msgid "Import Feature Settings File"
+#~ msgstr "Ingqondo yokuhlela imininingwane yehele"
+
+#~ msgid "_Import"
+#~ msgstr "_Ngenisa okuvela ngaphandle"
+
+#~ msgid "Keyboard"
+#~ msgstr "Indawo yokushaya uma ubhala"
+
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "Hlela indawo yakho yokubhala ngezimvume ezithandekayo"
+
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "Lomshini awutshengise njengonendawo yangaphandle ye XKB. Imininingwane "
+#~ "yendawo yokushaya uma ubhala ngeke isebenze ngaphandle kwayo."
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "<b>Enable Bo_unce Keys</b>"
+#~ msgstr "<b>Nika amandla Qha_sha Izihluthulelo</b>"
+
+#~ msgid "<b>Enable Slo_w Keys</b>"
+#~ msgstr "<b>Nika amandla Kan_cane Izihluthulelo</b>"
+
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>Nika amandla _Ingoso Izihluthulelo</b>"
+
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>Nika amandla _Phinda Izihluthulelo</b>"
+
+#~ msgid "<b>Enable _Sticky Keys</b>"
+#~ msgstr "<b>Nika amandla _Namathelayo Izihluthulelo</b>"
+
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>Umumo</b>"
+
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>Izihlushulelo zokugqoka</b>"
+
+#~ msgid "Basic"
+#~ msgstr "Isisekelo"
+
+#~ msgid "Beep if key is re_jected"
+#~ msgstr "Khala uma isihluthulelo sali_we"
+
+#~ msgid "Beep when _features turned on or off from keyboard"
+#~ msgstr ""
+#~ "Khala uma _umumo ucishiwe noma ukhanyisiwe kwindawo yokushaya uma ubhala"
+
+#~ msgid "Beep when _modifier is pressed"
+#~ msgstr "Khala uma _isilungisi sipotshozwa"
+
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "Khala uma LED ikhanyisiwe futhi ikhale kabili uma enye icishiwe."
+
+#~ msgid "Beep when key is:"
+#~ msgstr "Khala uma isihluthulelo siyi:"
+
+#~ msgid "Del_ay:"
+#~ msgstr "Chitha Isi_khathi:"
+
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr ""
+#~ "Chitha isikhathi phakathi kokupotshoza ikinombho nokuha_mba kwesikhombi:"
+
+#~ msgid "Disa_ble if two keys pressed together"
+#~ msgstr "Cis_ha uma amakinombho amabili epotshozwe kanye kanye"
+
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "Nika ama_ndla amakinombho wokugqoka"
+
+#~ msgid "Filters"
+#~ msgstr "Izisefo"
+
+#~ msgid "I_gnore duplicate keypresses within:"
+#~ msgstr "Ungan_aki ukupotsozwa kabili kwangaphakathi:"
+
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr ""
+#~ "Unganaki ukupotsozwa kaningi kwekinombho ngokufanayo umakwenzeka "
+#~ "mgomsebenzisi okukhethwa isikhala sesikhathi."
+
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "Ukuthandeka nemvume yendawo yokushaya ethandekayo (AccessX)"
+
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "Ukushesha okuphele_le kokukhomba:"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Amakinombho engoso"
+
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "_Okuthandekayo kwengoso..."
+
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "Vumela amankinobho kuphela emuva kokupotshozwa abanjwa ukusebenziswa "
+#~ "ngokuhlelwa kwesikhathi."
+
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "Yenza ngokupotshoza amankonombho amaningi ukusebenzisa amankinobho "
+#~ "okulungisa ngokohlelo."
+
+#~ msgid "S_peed:"
+#~ msgstr "I_jubane:"
+
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "Isikhakthi sokukhu_phula ijubane eliphezulu:"
+
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr ""
+#~ "Khanyisela inkinombho lokubala phakathi kweqweqwe lokulawula lwengoso."
+
+#~ msgid "_Disable if unused for:"
+#~ msgstr "_Cisha uma ingasebenzisiwe:"
+
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "_Nika amandla umumo wemvume yendawo yokushaya"
+
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "_Ngenisa okuvela ngaphandle kwehlelo lomumo..."
+
+#~ msgid "_Only accept keys held for:"
+#~ msgstr "_Vuma kuphela amankinombho abanjelwe lokhu:"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Bhala ukuhlola uhelo:"
+
+#~ msgid "_accepted"
+#~ msgstr "_yamukelekile"
+
+#~ msgid "_pressed"
+#~ msgstr "_ipotshoziwe"
+
+#~ msgid "_rejected"
+#~ msgstr "_yaliwe"
+
+#~ msgid "characters/second"
+#~ msgstr "imibhalo/umzuzwana"
+
+#~ msgid "milliseconds"
+#~ msgstr "imizuzwana"
+
+#~ msgid "pixels/second"
+#~ msgstr "amachaphaza/umzuzu"
+
+#~ msgid "seconds"
+#~ msgstr "imizuzwana"
+
+#~ msgid "Change your Desktop Background settings"
+#~ msgstr "Shintsha uhlelo lwesizinda sesiga-nyezi sakho"
+
+#~ msgid "Desktop Background"
+#~ msgstr "Isizinda sesiganyezi"
+
+#~ msgid "<b>Desktop _Wallpaper</b>"
+#~ msgstr "<b>_Iphepha elihlotsisiwe lwesizinda sesiga-nyezi</b>"
+
+#~ msgid "<b>_Desktop Colors</b>"
+#~ msgstr "<b>Imibala yobuso be _Siga-nyezi</b>"
+
+#~ msgid "Desktop Background Preferences"
+#~ msgstr "Isizinda sesiga-nyezi esithandekayo"
+
+#~ msgid "_Add Wallpaper"
+#~ msgstr "_Faka iphepha elihlotshisiweyo"
+
+#~ msgid "_Style:"
+#~ msgstr "_Inhlobo:"
+
+#, c-format
+#~ msgid "There was an error displaying help: %s"
+#~ msgstr "Kube khona iphutha elibonisa usizo: %s"
+
+#~ msgid "Centered"
+#~ msgstr "Ngaphakathi"
+
+#~ msgid "Fill Screen"
+#~ msgstr "Gcwalisa ubuso besiga-nyezi"
+
+#~ msgid "Scaled"
+#~ msgstr "Ilinganisiwe"
+
+#~ msgid "Tiled"
+#~ msgstr "Ihlotshisiwe"
+
+#~ msgid "Solid Color"
+#~ msgstr "Umbala ongenelele"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "Ubukhulu bokukhuphuka obuqondile buthe ndindilizi"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "Ubukhulu bokukhuphuka obuqondile buthe ndindilizi obumile"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Faka iphepha elihlotsisiwe"
+
+#~ msgid "No Wallpaper"
+#~ msgstr "Alikho iphepha elihlotshisiwe"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Ihlulekile ukuqala umphathi hlelo 'gnome-settings-daemon'.\n"
+#~ "Ngaphandle kohlelo lomphathi weGNOME esebenza, ezinye ezithandekayo "
+#~ "ngekhe zisebenze. Lokhu kungaveza inkinga nge bonobo, noma i-GNOME "
+#~ "engekho (isibonelo KDE) umphathi wohlelo angahle sekaya sebenza abuye "
+#~ "aphikisane nomphathi hlelo weGNOME."
+
+#, c-format
+#~ msgid "Unable to load capplet stock icon '%s'\n"
+#~ msgstr "Ihlulekile ukufaka uphawu capplet stock '%s'\n"
+
+#~ msgid "Just apply settings and quit"
+#~ msgstr "Faka uhlelo uphume"
+
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "Buyisa futhi ugcine uhlelo lobucebi"
+
+#~ msgid "From URI"
+#~ msgstr "Iphuma URI"
+
+#~ msgid "URI currently transferring from"
+#~ msgstr "Okwamanje URI idlulisela okuphuma"
+
+#~ msgid "To URI"
+#~ msgstr "Iya URI"
+
+#~ msgid "URI currently transferring to"
+#~ msgstr "URI okwamanje edlulisela ku"
+
+#~ msgid "Fraction completed"
+#~ msgstr "Isigamu sesibalo siqhediwe"
+
+#~ msgid "Fraction of transfer currently completed"
+#~ msgstr "Ukudluliselwa kwesigamu sesibalo kuqediwe"
+
+#~ msgid "Current URI index"
+#~ msgstr "Inkomba yamanje ye URI"
+
+#~ msgid "Current URI index - starts from 1"
+#~ msgstr "Inkomba yamanje ye URI - iqala ku 1"
+
+#~ msgid "Total URIs"
+#~ msgstr "URIs eziphelele"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Inani eliphelele le URIs"
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "Iphuma: %s"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Iya: %s"
+
+#~ msgid "Connecting..."
+#~ msgstr "Isaxhumana..."
+
+#~ msgid "Key"
+#~ msgstr "Inkinombho"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "Inkinombo Gconf lapho lesisakhi sokuhlela sinamatheliswe khona"
+
+#~ msgid "Callback"
+#~ msgstr "Bizela emuva"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr ""
+#~ "Kipha lesisimemo sokubuyela emuva uma inani elithintekayo kumankinombho "
+#~ "lishintshwa"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "Gconf ishintsha uhlelo olukhungethe ulwazi olumelwe luthunyelwe "
+#~ "kwikhasimende ye gconf ekuyingeniseni"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Ukuguqulwa kwewidget ebizela emuva"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr ""
+#~ "Isibizo sangemuva sizokhishwa uma imniningo imelwe ukushintshwa ukusuka "
+#~ "ku Gconf ukuya kwiwidget"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Ukuguqulwa kwewidget ebizela emuva"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr ""
+#~ "Isibizo sangemuva sizokhishwa uma imniningo imelwe ukushintshwa ukusuka "
+#~ "ku Gconf ukuya kwiwidget"
+
+#~ msgid "UI Control"
+#~ msgstr "Ukulawula UI"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Into elawula leso sakha (okwejwayelekile yiwidget)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Umhleli wezakha into yemniningo"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "Imniningo yesiko icelwa yisakha esithize somhleli"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Umhleli wesakha ukhulula imniningo yokushaya ngasemuva"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Kuzo khishwa isibizo ngasemuva uma umhleli wesakha wento yomniningo "
+#~ "ekhululwa"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Yehlulekile ukuthola ihele '%s'.\n"
+#~ "\n"
+#~ "Sicela uqiniseke ukuba yikhona uphinde uzame futhi, noma khetha isithombe "
+#~ "esehlukile sesizinda sesiga-nyezi."
+
+#, c-format
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Angikwazi ukuvula ihele '%s'.\n"
+#~ "Mhlambe yinhlobo yesithombe esingakaxhaswa.\n"
+#~ "\n"
+#~ "Sicela ukhethe isithombe esihlukile kunalokho."
+
+#~ msgid "Please select an image."
+#~ msgstr "Sicela ukhethe isithombe."
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Izithobo ezithandekayo"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Khetha izithobo zakho ezinephutha"
+
+#, fuzzy
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Isiyaluzi solwembu esinephutha"
+
+#~ msgid "Epiphany"
+#~ msgstr "Epiphany"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#, fuzzy
+#~ msgid "Firebird"
+#~ msgstr "Firebird/FireFox"
+
+#, fuzzy
+#~ msgid "Mozilla"
+#~ msgstr "Umyalezo we Mozilla"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Umxhumanisi we Netscape"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "W3M Text Browser"
+#~ msgstr "W3M Isiyaluzi setekisi"
+
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx Isiyaluzi setekisi"
+
+#~ msgid "Links Text Browser"
+#~ msgstr "Links Isiyaluzi setekisi"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Umfundi miyalezo we-Evolution"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "KMail"
+#~ msgstr "Kmail"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Umyalezo we Mozilla"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#, fuzzy
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Isixhumanisi esinephutha"
+
+#, fuzzy
+#~ msgid "GNOME Terminal"
+#~ msgstr "Isixhumanisi"
+
+#~ msgid "NXterm"
+#~ msgstr "Nxterm"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#, fuzzy
+#~ msgid "aterm"
+#~ msgstr "Nxterm"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Please specify a name and a command for this editor."
+#~ msgstr "Sicela uchaze igama nomyalo walombhali."
+
+#~ msgid "Add..."
+#~ msgstr "Hlanganisa..."
+
+#, fuzzy
+#~ msgid "C_ustom"
+#~ msgstr "Isiko"
+
+#, fuzzy
+#~ msgid "C_ustom:"
+#~ msgstr "Isiko"
+
+#, fuzzy
+#~ msgid "Can open multiple _files"
+#~ msgstr "Lesisithobo singavula ohele _abaningi"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Umy_alo:"
+
+#~ msgid "Custom Editor Properties"
+#~ msgstr "Izakhi zomhleli zesiko"
+
+#~ msgid "Default Mail Reader"
+#~ msgstr "Umfundi miyalezo onephutha"
+
+#~ msgid "Default Terminal"
+#~ msgstr "Isixhumanisi esinephutha"
+
+#~ msgid "Default Text Editor"
+#~ msgstr "Umhleli wetekisi onephutha"
+
+#~ msgid "Default Web Browser"
+#~ msgstr "Isiyaluzi solwembu esinephutha"
+
+#~ msgid "Default Window Manager"
+#~ msgstr "Umphathi wefasitela onephutha"
+
+#~ msgid "E_xec Flag:"
+#~ msgstr "E_exc iflagi:"
+
+#~ msgid "Edit..."
+#~ msgstr "Hlela..."
+
+#~ msgid "Mail Reader"
+#~ msgstr "Umfundi milayezo"
+
+#, fuzzy
+#~ msgid "Run in a _terminal"
+#~ msgstr "Hambisa phakathi koku_xhuma"
+
+#, fuzzy
+#~ msgid "Run in a t_erminal"
+#~ msgstr "Hambisa phakathi koku_xhuma"
+
+#~ msgid ""
+#~ "Select the window manager you want.  You will need to hit apply, wave the "
+#~ "magic wand, and do a magic dance for it to work."
+#~ msgstr ""
+#~ "Khetha umphathi wefasitela omfunayo. Kumele ushaye usebenzisa, uthinte "
+#~ "iwandi elizenzekelayo, ubuye wenze umdanso ukuze isebenze."
+
+#~ msgid "Terminal"
+#~ msgstr "Isixhumanisi"
+
+#~ msgid "Text Editor"
+#~ msgstr "Uhele wetekisi"
+
+#~ msgid "Understands _Netscape Remote Control"
+#~ msgstr "Yiqonda ukulawulwa ngongesi yi _Netscape"
+
+#~ msgid "Use this _editor to open text files in the file manager"
+#~ msgstr ""
+#~ "Sebenzisa lo_mhleli ukuvula ihele letekisi phakathi komphathi wehele"
+
+#~ msgid "Web Browser"
+#~ msgstr "Isiyaluzi solwembu"
+
+#~ msgid "Window Manager"
+#~ msgstr "Umphathi wefasitela"
+
+#, fuzzy
+#~ msgid "_Command:"
+#~ msgstr "Umy_alo:"
+
+#~ msgid "_Name:"
+#~ msgstr "_Igama:"
+
+#~ msgid "_Properties..."
+#~ msgstr "_Izakhi..."
+
+#, fuzzy
+#~ msgid "_Select:"
+#~ msgstr "_Khetha"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Shintsa isinqumo sobuso besiga-nyezi"
+
+#~ msgid "Screen Resolution"
+#~ msgstr "Isinqumo sobuso besiga-nyezi"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Isinqumo:"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Ijubane eliphinde kabu_sha:"
+
+#~ msgid "Default Settings"
+#~ msgstr "Izinhlelo ezinephutha"
+
+#, c-format
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "Ubuso besiga-nyezi %d Izinhlelo\n"
+
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "Isinqumo esithandekayo sobuso besiga-nyezi"
+
+#, c-format
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "_Yenza iphutha lwesiga-nyezi (%s) kuphela"
+
+#~ msgid "Options"
+#~ msgstr "Ukhetho"
+
+#, c-format
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "Ukuhlolwa kwezinhlelo ezintsha. Uma ungaphendule %d emzuzwaneni izinhlelo "
+#~ "ezidlulile zizophindwa zibuyiswe."
+#~ msgstr[1] ""
+#~ "Ukuhlolwa kwezinhlelo ezintsha. Uma ungaphendule %d emizuzwaneni "
+#~ "izinhlelo ezidlulile zizophindwa zibuyiswe."
+
+#~ msgid "Keep Resolution"
+#~ msgstr "Gcina isinqumo"
+
+#~ msgid "Use _previous resolution"
+#~ msgstr "Sebenzisa isinqumo _esidlulile"
+
+#~ msgid "_Keep resolution"
+#~ msgstr "_Gcina isinqumo"
+
+#~ msgid ""
+#~ "The X Server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "Isisebenzi X asixhasi XRandR yangaphandle. Isikhathi sokusebenza "
+#~ "sesinqumo sishintsha isilinganiso somboniso azitholakali."
+
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "Ukulandisa kwe XRandR yangaphandle akusebenzi kuloluhlelo. Isikhathi "
+#~ "sokusebenza sishintsha isilinganiso sokubonisa azitholakali."
+
+#~ msgid "Font"
+#~ msgstr "Isiqwema"
+
+#~ msgid "Select fonts for the desktop"
+#~ msgstr "Khetha isiqwema sesiga-nyezi"
+
+#~ msgid "<b>Font Rendering</b>"
+#~ msgstr "<b>Ukutyelekana isiqwema</b>"
+
+#~ msgid "<b>Hinting</b>:"
+#~ msgstr "<b>Isexwayiso</b>:"
+
+#~ msgid "<b>Smoothing</b>:"
+#~ msgstr "<b>Bushelezi</b>:"
+
+#~ msgid "<b>Subpixel order</b>:"
+#~ msgstr "<b>Umyalo wechashazana</b>:"
+
+#~ msgid "Best _shapes"
+#~ msgstr "_Isimo esibalasele"
+
+#~ msgid "Best co_ntrast"
+#~ msgstr "Ukukha_nya okubalasele"
+
+#~ msgid "D_etails..."
+#~ msgstr "Im_niningwane..."
+
+#~ msgid "Font Preferences"
+#~ msgstr "Isiqwema esithandekayo"
+
+#~ msgid "Font Rendering Details"
+#~ msgstr "Imininingwane yokutyelekana isiqwema"
+
+#~ msgid "Go _to font folder"
+#~ msgstr "Hamba _kwi sibaya sesiqwema"
+
+#~ msgid "Gra_yscale"
+#~ msgstr "Isilinganiso esi_gray"
+
+#~ msgid "N_one"
+#~ msgstr "L_utho"
+
+#~ msgid "R_esolution:"
+#~ msgstr "I_siqumo:"
+
+#~ msgid "Sub_pixel (LCDs)"
+#~ msgstr "Ama_chashazana (LCDs)"
+
+#~ msgid "Sub_pixel smoothing (LCDs)"
+#~ msgstr "Ukushelela kwama_chashazana (LCDs)"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "_Application font:"
+#~ msgstr "Isiqwema _sesithobo:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Desktop font:"
+#~ msgstr "_Isiqwema sesiga-nyezi:"
+
+#~ msgid "_Medium"
+#~ msgstr "_Iphakathi"
+
+#~ msgid "_Monochrome"
+#~ msgstr "_Isiqalo esiphathele sodwa"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Slight"
+#~ msgstr "_Cishe"
+
+#~ msgid "_Terminal font:"
+#~ msgstr "_Isixhumi siqwema:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Isihloko sombhalo wefasitela:"
+
+#~ msgid "dots per inch"
+#~ msgstr "amabala ngobude"
+
+#~ msgid "Font may be too large"
+#~ msgstr "Iisqqwema singaba sikhulu kakhulu"
+
+#, c-format
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a size "
+#~ "smaller than %d."
+#~ msgstr[0] ""
+#~ "Isiqwema esikhethiwe si %d sikhomba kakhulu, singenza kubelikhuni "
+#~ "ukusebenzisa isiga-nyezi. Kuyakhuthazwa ukuba ukhethe isayizi encane kune "
+#~ "%d."
+#~ msgstr[1] ""
+#~ "Isiqwema esikhethiwe si %d sikhomba kakhulu, singenza kubelikhuni "
+#~ "ukusebenzisa isiga-nyezi. Kuyakhuthazwa ukuba ukhethe isayizi encane kune "
+#~ "%d."
+
+#, c-format
+#~ msgid ""
+#~ "The font selected is %d point large, and may make it difficult to "
+#~ "effectively use the computer.  It is recommended that you select a "
+#~ "smaller sized font."
+#~ msgid_plural ""
+#~ "The font selected is %d points large, and may make it difficult to "
+#~ "effectively use the computer. It is recommended that you select a smaller "
+#~ "sized font."
+#~ msgstr[0] ""
+#~ "Isiqwema esikhethiwe si %d sikhomba kakhulu, singenza kubelikhuni "
+#~ "ukusebenzisa isiga-nyezi. Kuyakhuthazwa ukuba ukhethe isayizi encane."
+#~ msgstr[1] ""
+#~ "Isiqwema esikhethiwe si %d sikhomba kakhulu, singenza kebe likhuni "
+#~ "ukusebenzisa isiga-nyezi. Kuya khuthazwa ukuba ukhethe isayizi encane."
+
+#~ msgid "New accelerator..."
+#~ msgstr "Isigijimi esisha..."
+
+#~ msgid "Accelerator key"
+#~ msgstr "Inkinombho yesigijimi"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Izilungisi zesigijimi"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Inkinombho lekhodi lesigijimi"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Uhlu Accel"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Uhlobo lwesigijimi."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Isenzo esingaziwa>"
+
+#~ msgid "Desktop"
+#~ msgstr "Isiga-nyezi"
+
+#~ msgid "Sound"
+#~ msgstr "Umsindo"
+
+#~ msgid "Window Management"
+#~ msgstr "Ukuphathwa kwefasitela"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for:\n"
+#~ " \"%s\"\n"
+#~ msgstr ""
+#~ "Indlela emfishane \"%s\" sele yisebenziselwe uku:\n"
+#~ " \"%s\"\n"
+
+#, c-format
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "Iphutha lihlelela isigijimi esisha kumumo wokulonda: %s\n"
+
+#, c-format
+#~ msgid "Error unsetting accelerator in configuration database: %s\n"
+#~ msgstr "Iphutha alihleli isigijimi kumumo wokulonda: %s\n"
+
+#~ msgid "Action"
+#~ msgstr "Isenzo"
+
+#~ msgid "Shortcut"
+#~ msgstr "Ukunqamula"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Izinqamulo zendawo yokushaya uma ubhala"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new "
+#~ "accelerator, or press backspace to clear."
+#~ msgstr ""
+#~ "Ukuhlela inkinombho enqamulayo, potshoza emugqeni ongale ubhale isigijimi "
+#~ "esisha, okanye potshoza inkinombho lokubuyisela isikhala emuva ukusula."
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Nikela iinkinombho kwimilayezo"
+
+#~ msgid "Unknown"
+#~ msgstr "Ayaziwa"
+
+#~ msgid "Layout"
+#~ msgstr "Ukubonakala ngaphandle"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Isikhombi esinephutha"
+
+#~ msgid "Models"
+#~ msgstr "Izifanekiso"
+
+#, c-format
+#~ msgid "There was an error launching the keyboard capplet : %s"
+#~ msgstr ""
+#~ "Kube khona iphutha uma kungeniswa i-capplet yendawo yokushaya uma ubhala: "
+#~ "%s"
+
+#~ msgid "_Accessibility"
+#~ msgstr "_Ukutholakala"
+
+#~ msgid ""
+#~ "Just apply settings and quit (compatibility only; now handled by daemon)"
+#~ msgstr "Sebenzisa uhlelo uphe (ingacinwa kuphela; manje iphethwe yi-daemon)"
+
+#~ msgid "Start the page with the typing break settings showing"
+#~ msgstr "Qala ikhasi ngokubhala ngokunqamula ukhombisa izinhlelo"
+
+#~ msgid "..."
+#~ msgstr "..."
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Isikhombi siyajampajampa</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>Phinda amankinombho</b>"
+
+#~ msgid "<b>_Lock screen to enforce typing break</b>"
+#~ msgstr "<b>_Vala ubusos ukufaka ngenkani umbhalo onqamulayo</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Shesha</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Inde</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Imfisha</i></ismall>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Nwabuza</i></small>"
+
+#~ msgid "A_vailable layouts:"
+#~ msgstr "Umphandle o_tholakalayo:"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "V_umela ukubuyiselwa emuva kwezinqamuli"
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Qaphela ukuba izinqamuli zivunyelwe ukuhlehliswa"
+
+#, fuzzy
+#~ msgid "Choose A Keyboard Model"
+#~ msgstr "Khetha isifanekiso sendawo yokushaya uma ubhala"
+
+#, fuzzy
+#~ msgid "Choose A Layout"
+#~ msgstr "Vala futhi _uphume"
+
+#~ msgid "Cursor _blinks in text boxes and fields"
+#~ msgstr "Isikhombi _sijampajampa phakathi kwebhokisi letekisi nemibhalo"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Isikhathi sokunqamula uma ukubhala kungavumelekile"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Isikhathi somsebenzi phambi kokufaka isinqamuli ngenkani"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Inkinombho lipotshozwa _phinda uma lipotshozelwe phantsi"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Okuthandekayo endaweni yokushaya uma ubhala"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "_Isifanekiso sendawo yokushaya uma ubhala:"
+
+#~ msgid "Layouts"
+#~ msgstr "Umumo"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Vala ubuso besiga-nyezi emuva kwesikhathi esithile ukusiza ukuvimba "
+#~ "ukuziphinda ukusebenzisa izingozi"
+
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "Indawo yokushaya uma ubhala yendalo ye-Microsoft"
+
+#, fuzzy
+#~ msgid "Preview:"
+#~ msgstr "_Buka futhi"
+
+#, fuzzy
+#~ msgid "Reset To De_faults"
+#~ msgstr "Hlela kabusha emaphu_theni"
+
+#~ msgid "Typing Break"
+#~ msgstr "Ukunqamula ukubhala"
+
+#~ msgid "_Accessibility..."
+#~ msgstr "_Ukungenisela..."
+
+#~ msgid "_Break interval lasts:"
+#~ msgstr "_Umkhawulo wokugina wokunqamula:"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Bambezela:"
+
+#, fuzzy
+#~ msgid "_Models:"
+#~ msgstr "_Izifanekiso"
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "_Umumo okhethiwe:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Ijubane:"
+
+#~ msgid "_Work interval lasts:"
+#~ msgstr "_Umsebenzi womkhawulo ekugcineni:"
+
+#~ msgid "minutes"
+#~ msgstr "imizuzu"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Hlela indawo zakho ozithandayo kwindawo yokushaya uma ubhala"
+
+#~ msgid "Default Cursor"
+#~ msgstr "Isikhombi esinephutha"
+
+#~ msgid "Default Cursor - Current"
+#~ msgstr "Isikhombi esinephutha - Manje"
+
+#~ msgid "The default cursor that ships with X"
+#~ msgstr "Isikhombi esinephutha esihambisana no-X"
+
+#~ msgid "White Cursor"
+#~ msgstr "Isikhombi esimhlophe"
+
+#~ msgid "White Cursor - Current"
+#~ msgstr "Isikhombi esimhlophe - okwamanje"
+
+#~ msgid "The default cursor inverted"
+#~ msgstr "Isikhombi esinephuthat sifakiwe"
+
+#~ msgid "Large Cursor"
+#~ msgstr "Isikhombi esikhulu"
+
+#~ msgid "Large Cursor - Current"
+#~ msgstr "Isikhombi esikhulu - okwamanje"
+
+#~ msgid "Large version of normal cursor"
+#~ msgstr "Umlandiso omkhulu wesikhombi esejwayelekile"
+
+#~ msgid "Large White Cursor - Current"
+#~ msgstr "Isikhombi esimhlophe esikhulu - okwamanje"
+
+#~ msgid "Large White Cursor"
+#~ msgstr "Isikhombi esimhlophe esikhulu"
+
+#~ msgid "Large version of white cursor"
+#~ msgstr "Umlandisi omkhulu wesikhombi esimhlophe"
+
+#~ msgid "Cursor Theme"
+#~ msgstr "Indikimba yesikhombi"
+
+#~ msgid "<b>Double-Click Timeout </b>"
+#~ msgstr "<b>Potshoza-kabili isikhathi siphelile </b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Dontsa futhi uphontse</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Beka isikhombisi endaweni</b>"
+
+#~ msgid "<b>Mouse Orientation</b>"
+#~ msgstr "<b>Ukuhanjiswa kwesingoso</b>"
+
+#~ msgid "<b>Speed</b>"
+#~ msgstr "<b>Ijubane</b>"
+
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>Shesha</i>"
+
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>Phezulu</i>"
+
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>Okukhulu</i>"
+
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>Okuphantsi</i>"
+
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>Nwazayo</i>"
+
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>Ncanel</i>"
+
+#~ msgid "Buttons"
+#~ msgstr "Amankinombho"
+
+#, fuzzy
+#~ msgid "Cursor Size:"
+#~ msgstr "Isayizi yesikhombi"
+
+#~ msgid "Cursors"
+#~ msgstr "Izikhombi"
+
+#~ msgid "Highlight the _pointer when you press Ctrl"
+#~ msgstr "Khanyisela _isikhombisi uma upotshoza Ctrl"
+
+#, fuzzy
+#~ msgid "Large"
+#~ msgstr "_Okukhulu"
+
+#, fuzzy
+#~ msgid "Medium"
+#~ msgstr "_Iphakathi"
+
+#~ msgid "Motion"
+#~ msgstr "Intshukumo"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Okuthandekayo kwesingoso"
+
+#, fuzzy
+#~ msgid "Small"
+#~ msgstr "_Okuncane"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Ukusheshisa:"
+
+#~ msgid "_Left-handed mouse"
+#~ msgstr "_Isingoso sesandla sasebunxele"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Binyekile:"
+
+#~ msgid "_Threshold:"
+#~ msgstr "_Umnyango:"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Isikhathi siphelile:"
+
+#~ msgid "Mouse"
+#~ msgstr "Isingoso"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Hlela okuthandekayo kwesingoso"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Proxy yokuxhumana"
+
+#, fuzzy
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Okuthandekayo kwe-proxy yokuxhumana"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "<b>D_irect internet connection</b>"
+#~ msgstr "<b>_Ukuxhumana ngqo kolwembu</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Umumo wozenzakalelayo we-proxy</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Ukulungisa umumo we-proxy ngesandla</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Sebenzisa izifungo</b>"
+
+#, fuzzy
+#~ msgid "Advanced Configuration"
+#~ msgstr "Ukulungisa ngokuzenzekela _URL:"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Ukulungisa ngokuzenzekela _URL:"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "Imniningwane emileyo ye-HTTP"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP ezimele:"
+
+#, fuzzy
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Okuthandekayo kwe-proxy yokuxhumana"
+
+#~ msgid "Port:"
+#~ msgstr "Itheku:"
+
+#, fuzzy
+#~ msgid "Proxy Configuration"
+#~ msgstr "Ukulingasa umumo wokuxhumana okuzimele"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "Umhathi weso_kisi:"
+
+#~ msgid "_Details"
+#~ msgstr "_Imniningwane"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP ezimele:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Vikela i-HTTP ezimele:"
+
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "Nika amandla umsindo futhi ujwayeze imisindo nemicimbi"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Imisindo ethandekayo"
+
+#~ msgid "E_nable sound server startup"
+#~ msgstr "Ni_ka amandla uphathi womsindo ukuqala"
+
+#~ msgid "Flash _entire screen"
+#~ msgstr "Khanyisa _bonke ubuso"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "Khanyisa _ifasitela lohlu"
+
+#~ msgid "General"
+#~ msgstr "Jikelele"
+
+#~ msgid "Sound Events"
+#~ msgstr "Imicimbi yomsindo"
+
+#~ msgid "System Bell"
+#~ msgstr "Insimbi yohlelo"
+
+#~ msgid "_Sound an audible bell"
+#~ msgstr "_Khalisa insimbi ezakalayo"
+
+#~ msgid "_Sounds for events"
+#~ msgstr "_Umsindo wemicimbi"
+
+#~ msgid "_Visual feedback:"
+#~ msgstr "_Impendulo ebonakalayo:"
+
+#~ msgid ""
+#~ "No themes could be found on your system.  This probably means that your "
+#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
+#~ "installed the \"gnome-themes\" package."
+#~ msgstr ""
+#~ "Azikho indikima ezitholakele kuhlelo lwakho. Mhalbe lokhu kuchaza ukuthi "
+#~ "\"Indikima ezithandekayo\" ibhokisana lifakwe kabi, noma mhlambe "
+#~ "awukalifaki \"gnome-themes\" umthwalo."
+
+#, fuzzy
+#~ msgid "The file format is invalid"
+#~ msgstr "Ihele %s asiyilo ihele elifanele"
+
+#~ msgid "No theme file location specified to install"
+#~ msgstr "Akukho ihele lendikima elinendawo elifakiwe"
+
+#~ msgid "The theme file location specified to install is invalid"
+#~ msgstr "Indikima yehele echaziwe ukuthi ifakwe ayifanele"
+
+#, fuzzy
+#~ msgid "The file format is invalid."
+#~ msgstr "Ihele %s asiyilo ihele elifanele"
+
+#, c-format
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s yindlela lapho indikima zohele zizofakwa khona. Lokhu ngeke kukhethwe "
+#~ "ngenje ndawo eyimvelo"
+
+#~ msgid "Custom theme"
+#~ msgstr "Indikima yesiko"
+
+#~ msgid "You can save this theme by pressing the Save Theme button."
+#~ msgstr ""
+#~ "Ungahlenga lendikima ngokupotshoza inkinombho lokuhlenga eliyindikima."
+
+#~ msgid ""
+#~ "The default theme schemas could not be found on your system.  This means "
+#~ "that you probably don't have metacity installed, or that your gconf is "
+#~ "configured incorrectly."
+#~ msgstr ""
+#~ "Indikima eziyiphutha ezingamaqembu azitholakalanga phakathi kohlu. Lokhu "
+#~ "kuchaza ukuthi awuna imetacity efakiwe, noma i-gconf yakho ifakwe kabi."
+
+#~ msgid "Theme name must be present"
+#~ msgstr "Igama lendikima kumele libe khona"
+
+#~ msgid "The theme already exists. Would you like to replace it?"
+#~ msgstr "Indikima sele yikhona. Ingabe uthanda ukufaka enye kunale?"
+
+#~ msgid "Select themes for various parts of the desktop"
+#~ msgstr "Khetha indikima zamalungu ahlukile esiga-nyezi"
+
+#~ msgid "Theme"
+#~ msgstr "Indikima"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Install a Theme</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Faka indikima</span>"
+
+#~ msgid "Theme Installation"
+#~ msgstr "Ukufakwa kwendikima"
+
+#~ msgid "_Install"
+#~ msgstr "_Faka"
+
+#~ msgid "_Location:"
+#~ msgstr "_Indawo:"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Save Theme to Disk</span>"
+#~ msgstr ""
+#~ "<span size=\"larger\" weight=\"bold\">Hlenga indikima phakathi kwecwecwe</"
+#~ "span>"
+
+#~ msgid "Apply _Background"
+#~ msgstr "Sebenzisa _Isizinda"
+
+#~ msgid "Apply _Font"
+#~ msgstr "Sebenzisa _Isiqwema"
+
+#~ msgid "Controls"
+#~ msgstr "Abalawuli"
+
+#~ msgid "Icons"
+#~ msgstr "Amaphawu"
+
+#~ msgid "New themes can also be installed by dragging them into the window."
+#~ msgstr "Indikima ezinsha zinga fakwa ngokuzidontsela efasitileni."
+
+#~ msgid "Save Theme"
+#~ msgstr "Hlenga indikima"
+
+#~ msgid "Select theme for the desktop"
+#~ msgstr "Khetha indikima yesiga-nyezi"
+
+#~ msgid "Short _description:"
+#~ msgstr "_Umlandiso omfishane:"
+
+#~ msgid "Theme Details"
+#~ msgstr "Imniningwane yendikima"
+
+#~ msgid "Theme Preferences"
+#~ msgstr "Indikima ezithandekayo"
+
+#~ msgid "Theme _Details"
+#~ msgstr "_Imniningwane yendikima"
+
+#~ msgid "This theme does not suggest any particular font or background."
+#~ msgstr "Lendikima ayibonisi isiqwema esikhethekile noma isizinda."
+
+#~ msgid "This theme suggests a background:"
+#~ msgstr "Lendikima ibonisa isizinda:"
+
+#~ msgid "This theme suggests a font and a background:"
+#~ msgstr "Lendikima ibonisa isiqwema nesizinda:"
+
+#~ msgid "This theme suggests a font:"
+#~ msgstr "Lendikima ibonisa isiqwqema:"
+
+#~ msgid "Window Border"
+#~ msgstr "Isiyaluzi Window"
+
+#~ msgid "_Go To Theme Folder"
+#~ msgstr "_Hamba kwisibaya sendikimba"
+
+#~ msgid "_Install Theme..."
+#~ msgstr "_Faka indikimba..."
+
+#~ msgid "_Revert"
+#~ msgstr "_Buyisela"
+
+#~ msgid "_Save Theme..."
+#~ msgstr "_Hlenga indikimba..."
+
+#~ msgid "_Theme name:"
+#~ msgstr "_Igama lendikimba:"
+
+#~ msgid "theme selection tree"
+#~ msgstr "isihlahla sokukhetha indikimba"
+
+#~ msgid "Customize the appearance of toolbars and menubars in applications"
+#~ msgstr ""
+#~ "Hlela ngokwesiko ukubonakala kwehlu lwamathuluzi nohlu phakathi kwezithobo"
+
+#~ msgid "Menus & Toolbars"
+#~ msgstr "Uhlu & amathuluzi"
+
+#~ msgid "<b>Behavior and Appearance</b>"
+#~ msgstr "<b>Ukuziphatha nokubonakala</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Buka kuqala</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "S_ika"
+
+#~ msgid "Icons only"
+#~ msgstr "Amaphawu wodwa"
+
+#~ msgid "Menu and Toolbar Preferences"
+#~ msgstr "Uhlu namathuluzi athandekayo"
+
+#~ msgid "Open File"
+#~ msgstr "Vula ihele"
+
+#~ msgid "Save File"
+#~ msgstr "Hlenga ihele"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Bonisa _amaphawu phakathi kohlu"
+
+#~ msgid "Text below icons"
+#~ msgstr "Itekisi ngaphantsi kwamaphawu"
+
+#~ msgid "Text beside icons"
+#~ msgstr "Itekisi eceleni namaphawu"
+
+#~ msgid "Text only"
+#~ msgstr "Itekisi lodwa"
+
+#, fuzzy
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "Ilebhula _lekinombho lamathuluzi: "
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopisha"
+
+#~ msgid "_Detachable toolbars"
+#~ msgstr "_Amathulusi anganamatheli"
+
+#~ msgid "_Edit"
+#~ msgstr "_Hlela"
+
+#~ msgid "_File"
+#~ msgstr "_Ihele"
+
+#~ msgid "_New"
+#~ msgstr "_Okusha"
+
+#~ msgid "_Paste"
+#~ msgstr "_Namthelisa"
+
+#~ msgid "_Print"
+#~ msgstr "_Bhala"
+
+#~ msgid "_Quit"
+#~ msgstr "_Phuma"
+
+#~ msgid "_Save"
+#~ msgstr "_Hlenga"
+
+#, c-format
+#~ msgid ""
+#~ "<b>Cannot start the preferences application for your window manager</b>\n"
+#~ "\n"
+#~ "%s"
+#~ msgstr ""
+#~ "<b>Ayikhoni ukuqala izithobo ezithandekayo zomphathi wefasitela wakho</"
+#~ "b>\n"
+#~ "\n"
+#~ "%s"
+
+#~ msgid "Control"
+#~ msgstr "Lawula"
+
+#~ msgid "Alt"
+#~ msgstr "Alt"
+
+#~ msgid "Hyper"
+#~ msgstr "Isiqalo esiphathelene nokweqisa"
+
+#~ msgid "Super (or \"Windows logo\")"
+#~ msgstr "Phezulu (noma \"Windows yesihlokondaba\")"
+
+#~ msgid "Meta"
+#~ msgstr "Meta"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Inkinombho lokuhamba</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Isenzo sesihloko sohlu</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Ukhetho Window</b>"
+
+#~ msgid "To _move a window, press-and-hold this key then grab the window:"
+#~ msgstr ""
+#~ "Uku_hambisa ifasitela, potshoza-ubuye-ubambe lenkinombho uphinde ubambe "
+#~ "ifasitela:"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Okuthadekayo kwe-Windows"
+
+#~ msgid "_Double-click titlebar to perform this action:"
+#~ msgstr "_Potshoza-kabili uhlu lwesihloko ukwenza lesisenzo:"
+
+#~ msgid "_Interval before raising:"
+#~ msgstr "_Umkhathi phambi kokuphakama:"
+
+#~ msgid "_Raise selected windows after an interval"
+#~ msgstr "_Phakamisa amafasitela akhethiwe emuva komkhawulo"
+
+#~ msgid "_Select windows when the mouse moves over them"
+#~ msgstr "_Khetha amafasitela uma isingoso sihamba phezu kwawo"
+
+#, fuzzy
+#~ msgid "Set your window properties"
+#~ msgstr "Izakhi Windows"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "Isizinda sesiga-nyezi esithandekayo"
+
+#~ msgid "GNOME Control Center"
+#~ msgstr "GNOME umlawuli ophakathi"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "Ithulusi lokumisa lwe-GNOME"
+
+#~ msgid "Volume"
+#~ msgstr "Ivolumu"
+
+#~ msgid "Could not initialize Bonobo"
+#~ msgstr "Ihlukile ukuqala u-Bonobo"
+
+#~ msgid "Slow Keys Alert"
+#~ msgstr "Amankinombho angasheshi isexwayiso"
+
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Uqeda ukubambela phantsi inkinombho Shift imizuzwana 8. Le yindlela "
+#~ "emfishane yemniningo engasheshi yamankinombho, leyo ethinta indlela "
+#~ "indawo yokushaya uma ubhala esebenza ngayo."
+
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "Ingabe ufuna ukukhanyisa amankinombho angasheshi?"
+
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "Ingabe ufuna ukucisha amankinombho angasheshi?"
+
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "Ukwexwayiswa ngamankinombho angasheshi"
+
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "Uqeda ukupotshozela inkinombho Shift 5 emugqeni. Le yindlela emfishane "
+#~ "yemniningo yamankinombho anamathelayo, lawo athinta indlela indawo yakho "
+#~ "yokushaya uma ubhala esebenza ngayo."
+
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "Uqeda ukupotsoza amankinombho amabili kanye, noma upotshoze inkinombho "
+#~ "Shift izihlanhlo 5 emugqeni. Lokhu kucisha imniningwane yamankinombho "
+#~ "anamathelayo, athintana nendlela indawo yakho yokushaya uma ubhala "
+#~ "isebenza ngayo."
+
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "Ingabe ufuna ukukhanyisa amankinombho anamathelayo?"
+
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "Ingabe ufuna ukucisha amankinombho anmathelayo?"
+
+#, c-format
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "Ihlulekile ukudala indlela yamakheli \"%s\".\n"
+#~ "Lokhu kuyadingeka ukuvumela izikhombi ezishintshayo."
+
+#, c-format
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "Ukuphetha inkinombho (%s) inesenzo sayo esichaziwe kaningi\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "Ukuphetha inkinombho (%s) inokuphethao kwayo okuchaziwe kaningi\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "Ukuphetha inkinombho (%s) ayiphelele\n"
+
+#, c-format
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "Ukuphetha inkinombho (%s) akufanele\n"
+
+#, c-format
+#~ msgid "It seems that another application already has access to key '%d'."
+#~ msgstr ""
+#~ "Ikhombisa sengathi esinye isithobo sinemvume vele kwinkinombho '%d'."
+
+#, c-format
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "Iphutha lenzekile uma usazama ukusebenza (%s)\n"
+#~ "elixhunyanyiswe kwisihlushulelo (%s)"
+
+#, fuzzy, c-format
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "Iphutha liyakhanyiswa uma kuhlelwa isimo XKB.\n"
+#~ "Mhalmbe ngaphakathi kwesisekeli X senkinga.\n"
+#~ "\n"
+#~ "imniningwane yesisekeli somhumusho:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "Uma ubika loludaba njengephutha, sicela ufake:\n"
+#~ "- Umphumela we <b>xprop -root | grep XKB</b>\n"
+#~ "- Umphumela we <b>gconftool-2 -R /desktop/gnome/peripherals/keyboard/xkb</"
+#~ "b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "Usebenzisa Xfree 4.3.0 \n"
+#~ "Kunezinkinga ezaziwayo ngokuhlangene XKB komumo wohlelo.\n"
+#~ "Zama ukusebenzisa umumo olula noma thatha umhumusho wamanje wesoftware "
+#~ "yeXFree."
+
+#, fuzzy
+#~ msgid "Do _not show this warning again"
+#~ msgstr "_Unga khombisi lomyalezo futhi"
+
+#~ msgid ""
+#~ "The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.  Which set would you like to use?"
+#~ msgstr ""
+#~ "Uhlelo X lwendawo yokushaya uma ubhala uhlelo luhlukile kule yamanje ye-"
+#~ "GNOME. Ingabe ufuna ukusebenzisa uhlelo oluphi?"
+
+#~ msgid "Use X settings"
+#~ msgstr "Sebenzisa uhlelo X"
+
+#~ msgid "Use GNOME settings"
+#~ msgstr "Sebenzisa uhleo GNOME"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this command exists."
+#~ msgstr ""
+#~ "Ihlulekile ukubhala umyalo: %s\n"
+#~ "Qiniseka ukuba lomyalo usukhona."
+
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "Ihlulekile ukulalisa umashini.\n"
+#~ "Bhekisisa ukuba umashini uhlelwe kahle."
+
+#, c-format
+#~ msgid "Permissions on the file %s are broken\n"
+#~ msgstr "Imvume phezu kwehele %s zinqamukile\n"
+
+#~ msgid ""
+#~ "Couldn't load the Glade file.\n"
+#~ "Make sure that this daemon is properly installed."
+#~ msgstr ""
+#~ "Ihlulekile ukufaka ihele le-Glade.\n"
+#~ "Qiniseka ukuba le-daemon ifakwe ngokufanele."
+
+#, c-format
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "Kube khona iphutha makuqalwa isigcini sobuso besiga-nyezi:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Ukusebenza kwesigcini sobuso besiga-nyezi ngekhe kusebenze kulesiqephu."
+
+#~ msgid "_Do not show this message again"
+#~ msgstr "_Unga khombisi lomyalezo futhi"
+
+#, c-format
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "Ihlulekile ukufaka ihele lomsindo %s njenge sibonelo %s"
+
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "Ihlulekile ukuthola ikheli lomsebenzisi"
+
+#, c-format
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "Inkinombho GConf %s lihlelelwe ukubhala %s kepha ukubhala okulindelekile "
+#~ "bekuyi %s\n"
+
+#, fuzzy
+#~ msgid "A_vailable files:"
+#~ msgstr "Umphandle o_tholakalayo:"
+
+#, fuzzy
+#~ msgid "Do _not show this warning again."
+#~ msgstr "_Unga khombisi lomyalezo futhi"
+
+#, fuzzy
+#~ msgid "_Loaded files:"
+#~ msgstr "_Izifanekiso"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "Iphutha lidala ithumbu lezimpawu."
+
+#~ msgid "Type"
+#~ msgstr "Uhlobo"
+
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "Uhlobo le bg_sebenzisa: BG_APPLIER_ROOT lempande yefasitela noma "
+#~ "BG_APPLIER_PREVIEW ukubukwa kabusha"
+
+#~ msgid "Preview Width"
+#~ msgstr "Bheka kabusha ububanzi"
+
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "Dontsa kabanzi uma isisebenzisi siphinda: Amaphutha ku 64."
+
+#~ msgid "Preview Height"
+#~ msgstr "Hlolisisa ubude"
+
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "Ubude uma isesebenzisi siphinda: Amaphutha ku 48."
+
+#~ msgid "Screen"
+#~ msgstr "Ubuso besiga-nyezi"
+
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "Ubuso besiga-nyezi lapho I-BGApllier izokhipha"
+
+#, fuzzy, c-format
+#~ msgid "There was an error loading an image: %s"
+#~ msgstr "Kube khona iphutha elibonisa usizo: %s"
+
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "Ihele lomsindo lwalomcimbi alikho sanhlobo."
+
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package\n"
+#~ "for a set of default sounds."
+#~ msgstr ""
+#~ "Ihele lomsindo lwalomcimbi alikho sanhlobo.\n"
+#~ "Ungafuna ukufaka isisakazi-gnome somthwalo\n"
+#~ "kumahlelo emniningwane yomsindo enephutha."
+
+#, c-format
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "Ihele %s asiyilo ihele elifanele"
+
+#~ msgid "Event"
+#~ msgstr "Umcimbi"
+
+#~ msgid "Sound File"
+#~ msgstr "Ihele lomsindo"
+
+#~ msgid "_Sounds:"
+#~ msgstr "_Umsindo:"
+
+#~ msgid "Sound _file:"
+#~ msgstr "Ihele _lomsindo:"
+
+#~ msgid "Select Sound File"
+#~ msgstr "Khetha ihele lomsindo"
+
+#~ msgid "_Play"
+#~ msgstr "_Dlala"
+
+#~ msgid "_Remove"
+#~ msgstr "_Susa"
+
+#, c-format
+#~ msgid "Window manager \"%s\" has not registered a configuration tool\n"
+#~ msgstr ""
+#~ "Umphathi wefasitela \"%s\" akabhalisile ithulusi lokulungisa umumo\n"
+
+#~ msgid "Maximize"
+#~ msgstr "Khulisa"
+
+#~ msgid "Roll up"
+#~ msgstr "Yaluzisela phezulu"
+
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr ""
+#~ "Uma kuyiqiniso, abaphathi be-mime text/plain and text/* lizogcinwa "
+#~ "phakathi kwe-sync"
+
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "Sync text/plain and text/* abaphathi"
+
+#~ msgid "Brightness down"
+#~ msgstr "Ukukhanya phantsi"
+
+#~ msgid "Brightness down's shortcut."
+#~ msgstr "Ukunqamula kokukhanya okuphantsi."
+
+#~ msgid "Brightness up"
+#~ msgstr "Ukukhanya phezulu"
+
+#~ msgid "Brightness up's shortcut."
+#~ msgstr "Ukunqamula kokukhanya okuphezulu."
+
+#~ msgid "E-mail"
+#~ msgstr "Umyalezo-kagesi"
+
+#~ msgid "E-mail's shortcut."
+#~ msgstr "Ukunqamula komyalezo-kagesi."
+
+#~ msgid "Eject"
+#~ msgstr "Khipa"
+
+#~ msgid "Eject's shortcut."
+#~ msgstr "Ukunqamula kokukhipha."
+
+#~ msgid "Home folder"
+#~ msgstr "Isibaya sasekhaya"
+
+#~ msgid "Home folder's shortcut."
+#~ msgstr "Ukunqamula kwesibaya sasekhaya."
+
+#~ msgid "Launch help browser"
+#~ msgstr "Ngenisa usizo lwesiyaluzi"
+
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "Ngenisa usizo lokunqamula isiyaluzi."
+
+#~ msgid "Launch web browser"
+#~ msgstr "Ngenisa isiyaluzi solwembu"
+
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "Ngenisa ukunqamula kwesiyaluzi solwembu."
+
+#~ msgid "Lock screen"
+#~ msgstr "Vala ubuso besiga-nyezi"
+
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "Vala ukunqamula kobuso besi-nyezi."
+
+#~ msgid "Log out"
+#~ msgstr "Phuma"
+
+#~ msgid "Log out's shortcut."
+#~ msgstr "Phuma ngokunqamula."
+
+#~ msgid "Next track key's shortcut."
+#~ msgstr "Okulandela kokunqamula kwenkinombho."
+
+#~ msgid "Pause"
+#~ msgstr "Yima isikhashana"
+
+#~ msgid "Pause key's shortcut."
+#~ msgstr "Inkinombho lokunqamula kokuma isikhashana."
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Dlala (noma dlala/misa isikhashana)"
+
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "Dlala (noma dlala/misa isikhashana) inkinombho lokunqamula."
+
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "Ingoma edlulile inkinombho lokunqamula."
+
+#~ msgid "Search"
+#~ msgstr "Hlola"
+
+#~ msgid "Search's shortcut."
+#~ msgstr "Ukuqamula uma uhlola."
+
+#~ msgid "Skip to next track"
+#~ msgstr "Dlulela engomeni elandelayo"
+
+#~ msgid "Skip to previous track"
+#~ msgstr "Buyela engomeni edlulile"
+
+#~ msgid "Sleep"
+#~ msgstr "Cisha"
+
+#~ msgid "Sleep's shortcut."
+#~ msgstr "Ukunqamula uma ucisha."
+
+#~ msgid "Stop playback key"
+#~ msgstr "Inkinombho lokunmisa ukudlala"
+
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "Inkinombho lokumisa elinqamulayo."
+
+#~ msgid "Volume down"
+#~ msgstr "Ivolumu ephantsi"
+
+#~ msgid "Volume down's shortcut."
+#~ msgstr "Ukunqamula kwevolumu ephantsi."
+
+#~ msgid "Volume mute"
+#~ msgstr "Ukucisha ivolumu okwesikhashana"
+
+#~ msgid "Volume mute's shortcut"
+#~ msgstr "Ukunqamula kokucisha ivolumu okwesikhashana"
+
+#~ msgid "Volume step"
+#~ msgstr "Inyathelo lwevolumu"
+
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "Inyathelo lwevolumu njengamaphesenti."
+
+#~ msgid "Volume up"
+#~ msgstr "Ivolumu ephezulu"
+
+#~ msgid "Volume up's shortcut."
+#~ msgstr "Ukuqamula ivolumu ephezulu."
+
+#, fuzzy
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr "Bonisa ibhokisi uma kukho amaphutha akhona XScreenSaver"
+
+#, fuzzy
+#~ msgid "Run screensaver at login"
+#~ msgstr "Sebenzisa XSreenSaver uma ungena"
+
+#~ msgid "Show Startup Errors"
+#~ msgstr "Khombisa amaphutha okungena"
+
+#, fuzzy
+#~ msgid "Start screensaver"
+#~ msgstr "Qala XScreenSaver"
+
+#, fuzzy
+#~ msgid "Keyboard Update Handlers"
+#~ msgstr "_Isifanekiso sendawo yokushaya uma ubhala:"
+
+#, fuzzy
+#~ msgid "Keyboard layout"
+#~ msgstr "Umphandle wendawo yokushaya uma ubhala XKB"
+
+#, fuzzy
+#~ msgid "Keyboard model"
+#~ msgstr "_Isifanekiso sendawo yokushaya uma ubhala:"
+
+#, fuzzy
+#~ msgid "Keyboard options"
+#~ msgstr "Izinqamulo zendawo yokushaya uma ubhala"
+
+#, fuzzy
+#~ msgid ""
+#~ "Keyboard settings in gconf will be overridden from the system ASAP "
+#~ "(deprecated)"
+#~ msgstr ""
+#~ "Uhlelo lwe-XKB phakathi kwe-gconf lizonyatheliswa emshinini masinya ASAP"
+
+#, fuzzy
+#~ msgid "keyboard layout"
+#~ msgstr "Umphandle wendawo yokushaya uma ubhala XKB"
+
+#, fuzzy
+#~ msgid "keyboard model"
+#~ msgstr "Isifanekiso sendawo yokushaya uma ubhala XKB"
+
+#~ msgid "_Postpone break"
+#~ msgstr "_Buyisela ukunqamuka emuva"
+
+#~ msgid "Take a break!"
+#~ msgstr "Thatha ikhefu"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Okuthandayo"
+
+#~ msgid "/_About"
+#~ msgstr "/_Nge"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Thatha ikhefu"
+
+#, c-format
+#~ msgid "%d minute until the next break"
+#~ msgid_plural "%d minutes until the next break"
+#~ msgstr[0] "%d umzuzu kude kufike elinye ikhefu"
+#~ msgstr[1] "%d imizuzu kude kufike elinye ikhefu"
+
+#~ msgid "Less than one minute until the next break"
+#~ msgstr "Ngaphantsi komzuzu kude kufike enye ikhefu"
+
+#, c-format
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Ihlulekile ukuletha umbhalo wokunqamula nezakha zebhokisi kulokhu "
+#~ "okulandelayo nephutha: %s"
+
+#~ msgid "About GNOME Typing Monitor"
+#~ msgstr "Ngobuso besiga-nyezi bokubhala nge-GNOME"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Isinqamulo sesiga-nyezi esikhumbuzayo."
+
+#~ msgid "Written by Richard Hult &lt;richard@imendio.com&gt;"
+#~ msgstr "Ibhalwe ngu Richard Hult &It;richard@imendio.com&gt;"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Iso lonezelela ngo Anders Carlsson"
+
+#~ msgid "Break reminder"
+#~ msgstr "Isikhumbuzi ngokunqamuka"
+
+#~ msgid "The typing monitor is already running."
+#~ msgstr "Ubuso besiga-nyezi bokubhala sebuyasebenza."
+
+#, fuzzy
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Ubuso besiganyezi bokubhala busebenzisa indawo yokwaziswa ukubonisa "
+#~ "ulwazi. Kubonakala sengathi awunayo indawo yokwazisa kwihlu lakho. Unga "
+#~ "yifaka ngokupotshoza ngakwesokudla kwihlu lakho ubuye ukhethe 'Faka kuhlu "
+#~ "-> Isisebenziswa -> Indawo yokwaziswa'."
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr ""
+#~ "Impungushe esheshayo embala womhlabathi yenqa phezu kwenja evilaphayo. "
+#~ "0123456789"
+
+#~ msgid "Name:"
+#~ msgstr "Igama:"
+
+#~ msgid "Style:"
+#~ msgstr "Indlela:"
+
+#~ msgid "Type:"
+#~ msgstr "Uhlobo:"
+
+#~ msgid "Size:"
+#~ msgstr "Isayizi:"
+
+#~ msgid "Version:"
+#~ msgstr "Umlandiso:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Ilungelo lombhali:"
+
+#~ msgid "Description:"
+#~ msgstr "Ukulanda:"
+
+#, c-format
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "ukusebenziswa: %s iqwemahele\n"
+
+#~ msgid "Set as Application Font"
+#~ msgstr "Hlela njenge siqwema sesithobo"
+
+#, fuzzy
+#~ msgid "Sets the default application font"
+#~ msgstr "Khetha izithobo zakho ezinephutha"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Uma ihlelwe ukuba yiqiniso, ngakho ke OpenType amaqwema azogcizelelwa."
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Uma ihlelwe ukuba yiqiniso, ngakho ke PCF amaqwema azogcizelelwa."
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Uma ihlelwe ukuba yiqiniso, ngakho ke TrueType amaqwema azogcizelelwa."
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Uma ihlelwe ukuba yiqiniso, ngakho ke Type1 amaqwema azogcizelelwa."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-"
+#~ "OpenType."
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-"
+#~ "PCF."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-"
+#~ "TrueType."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo zesiqwema se-"
+#~ "Type1."
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Gcizelela umyalo wesiqwema se-OpenType"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Gcizelela umyalo wesiqwema se-PCF"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Gcizelela umyalo wesiqwema se-TrueType"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Gcizelela umyalo wesiqwema se-Type1"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Mhlambe ukugcizelela iziqwema ze-OpenType"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Mhlambe ukugcizelela iziqwema ze-PCF"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Mhlambe ukugcizelela iziqwema ze-TrueType"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Mhlambe ukugcizelela iziqwema ze-Type1"
+
+#, fuzzy
+#~ msgid "GNOME Font Viewer"
+#~ msgstr "GNOME umlawuli ophakathi"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Sebenzisa isiqwema esisha?</span>"
+
+#~ msgid "Do _not apply font"
+#~ msgstr "Unga_sebenzisi isiqwema"
+
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "Indikima oyikhethile ibonisa isiqwema esisha. Ukubukwa kabusha "
+#~ "kwalesosiqwema sibonisiwe ngezantsi."
+
+#~ msgid "_Apply font"
+#~ msgstr "_Sebenzisa isiqwema"
+
+#~ msgid "Themes"
+#~ msgstr "Iindikima"
+
+#~ msgid "Description"
+#~ msgstr "Ukulanda"
+
+#~ msgid "Control theme"
+#~ msgstr "Lawula indikima"
+
+#~ msgid "Window border theme"
+#~ msgstr "Indikima ehlulayo yefasitela"
+
+#~ msgid "Icon theme"
+#~ msgstr "Indikima yophawu"
+
+#~ msgid "ABCDEFG"
+#~ msgstr "ABCDEFG"
+
+#, fuzzy
+#~ msgid "Apply theme"
+#~ msgstr "_Sebenzisa isiqwema"
+
+#, fuzzy
+#~ msgid "Sets the default theme"
+#~ msgstr "Hlela kabusha emaphu_theni"
+
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "Uma ihlelelwe iqiniso, manje indikima ezifakiwe zizogcizelelwa."
+
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "Uma ihlelelwe iqiniso, manje indikima zizogcizelelwa."
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo kwindikima "
+#~ "ezifakiwe."
+
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr ""
+#~ "Hlela lenkinombho kumyalo osebenzisiwe ukudala izigcizelelo kwindikima."
+
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "Umyalo wokugcizelela wendikima ezifakiwe"
+
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "Umyalo wokugcizelela wendikima"
+
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "Ngabe uzogcizelela izihloko ngesithupha ezifakiwe"
+
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "Ngabe uzogcizelela izihloko ngesithupha"

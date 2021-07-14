@@ -1,0 +1,1979 @@
+# Low German translation for gnome-control-center.
+# Copyright (C) 2009 gnome-control-center's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-control-center package.
+# Nils-Christoph Fiedler <fiedler@medienkompanie.de>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center gnome-2-28\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2009-11-23 00:53+0100\n"
+"Last-Translator: Nils-Christoph Fiedler <fiedler@medienkompanie.de>\n"
+"Language-Team: Low German <nds-lowgerman@lists.sourceforge.net>\n"
+"Language: nds\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "B_rukernaam:"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "Vor- un Tonaam"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Standard XTerminal"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Terminator"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#, fuzzy
+msgid "Account _Type"
+msgstr "Alarmtyp"
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Passwoord:"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "_Nejes Passwoord:"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Passwoord:"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Passwoord ännern"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+#, fuzzy
+msgid "Ch_ange"
+msgstr "Tosammenstellens ännern"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Nejes Passwoord:"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Nejes Passwoord:"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "Aktuelles _Passwoord:"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password now"
+msgstr "_Nejes Passwoord:"
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "_Fingerprint Login"
+msgstr "Fingeravdrücken_s löschen"
+
+#: ../data/user-accounts-dialog.ui.h:10
+#, fuzzy
+msgid "User Icon"
+msgstr "Brukernaam:"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr ""
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "Fingeravdrücken_s löschen"
+
+#: ../src/cc-user-panel.c:697
+#, fuzzy
+msgid "_Keep Files"
+msgstr "_Datei"
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "Löschen"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "Keen"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr ""
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+#, fuzzy
+msgid "My Account"
+msgstr "Nah _Land"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+#, fuzzy
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Dat Passwoord is to kort."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+#, fuzzy
+msgid "Authentication failed"
+msgstr "_Bewiesen, dat je du sülvst büst"
+
+#: ../src/run-passwd.c:493
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Dat Passwoord is to kort."
+
+#: ../src/run-passwd.c:501
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Dat Passwoord is to eenfach."
+
+#: ../src/run-passwd.c:509
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Dat Passwoord is to eenfach."
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Unbekannt"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+#, fuzzy
+msgid "The passwords do not match."
+msgstr "Dat Passwoord is to kort."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "_Hentofögen..."
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Standard XTerminal"
+
+#: ../src/um-account-type.c:36
+#, fuzzy
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Terminator"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:143
+#, fuzzy
+msgid "An internal error occurred."
+msgstr "Een interner Fehler is optreten"
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Deaktivert"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Deaktivert"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "Fingeravdrücken_s löschen"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Fertig!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+#, fuzzy
+msgid "Selecting finger"
+msgstr "Finger wählen"
+
+#: ../src/um-fingerprint-dialog.c:736
+#, fuzzy
+msgid "Enrolling fingerprints"
+msgstr "Fingeravdrücken_s löschen"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+#, fuzzy
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%b %d %Y"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+#, fuzzy
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%b %d %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr ""
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_utwählen"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Deaktivert"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "Dat Passwoord is to kort."
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+#, fuzzy
+msgid "Yesterday"
+msgstr "Güstern %l:%M %p"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+#, fuzzy
+msgid "%b %e"
+msgstr "%b %d %Y"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+#, fuzzy
+msgid "%b %e, %Y"
+msgstr "%b %d %Y"
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Nejes Passwoord:"
+
+#, fuzzy
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Wieder maken"
+
+#~ msgid "Current network location"
+#~ msgstr "Aktueller Netwarkort"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Mehr Achtergründe URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "Mehr Themen URL"
+
+#~ msgid "The type of alert"
+#~ msgstr "Alarmtyp"
+
+#~ msgid "Alert Buttons"
+#~ msgstr "Alarmknöppe"
+
+#~ msgid "The buttons shown in the alert dialog"
+#~ msgstr "Alarmknöppe im Alarmdialog"
+
+#~ msgid "Show more _details"
+#~ msgstr "Mehr _Details opwiesen"
+
+#~ msgid "Select Image"
+#~ msgstr "Bill utwählen"
+
+#~ msgid "No Image"
+#~ msgstr "Keen Bill"
+
+#~ msgid "Images"
+#~ msgstr "Billers"
+
+#~ msgid "All Files"
+#~ msgstr "All Dateien"
+
+#~ msgid "Unable to open address book"
+#~ msgstr "Nich möglich, Anskrivtenbook optomaken"
+
+#, c-format
+#~ msgid "About %s"
+#~ msgstr "Över %s"
+
+#~ msgid "A_IM/iChat:"
+#~ msgstr "A_IM/iChat:"
+
+#~ msgid "A_ddress:"
+#~ msgstr "An_skrivt"
+
+#~ msgid "A_ssistant:"
+#~ msgstr "H_ölper:"
+
+#~ msgid "About Me"
+#~ msgstr "Över mik"
+
+#~ msgid "Address"
+#~ msgstr "Anskrivt"
+
+#~ msgid "C_ity:"
+#~ msgstr "St_adt:"
+
+#~ msgid "C_ompany:"
+#~ msgstr "F_irma:"
+
+#~ msgid "Cale_ndar:"
+#~ msgstr "Kale_nner:"
+
+#~ msgid "Change Passwo_rd..."
+#~ msgstr "Passwoo_rd ännern..."
+
+#~ msgid "Ci_ty:"
+#~ msgstr "St_adt:"
+
+#~ msgid "Co_untry:"
+#~ msgstr "Lan_d:"
+
+#~ msgid "Contact"
+#~ msgstr "Kontakt"
+
+#~ msgid "Cou_ntry:"
+#~ msgstr "_Land:"
+
+#~ msgid "Email"
+#~ msgstr "E-Post"
+
+#~ msgid "Hom_e:"
+#~ msgstr "Heima_t:"
+
+#~ msgid "Home"
+#~ msgstr "Heimat"
+
+#~ msgid "IC_Q:"
+#~ msgstr "IC_Q:"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Foortsnahrichtendeenst"
+
+#~ msgid "Job"
+#~ msgstr "Arbeid"
+
+#~ msgid "M_SN:"
+#~ msgstr "M_SN:"
+
+#~ msgid "P.O. _box:"
+#~ msgstr "P.O. _box:"
+
+#~ msgid "P._O. box:"
+#~ msgstr "P._O. box:"
+
+#~ msgid "Personal Info"
+#~ msgstr "Persönliche Informatschoonen"
+
+#~ msgid "Select your photo"
+#~ msgstr "Wähl dien Bill ut"
+
+#~ msgid "State/Pro_vince:"
+#~ msgstr "Land/Re_gion:"
+
+#~ msgid "Telephone"
+#~ msgstr "Klönkassen"
+
+#~ msgid "Web"
+#~ msgstr "Net"
+
+#~ msgid "Web _log:"
+#~ msgstr "Dageboo_k:"
+
+#~ msgid "Wor_k:"
+#~ msgstr "Arbei_d:"
+
+#~ msgid "Work"
+#~ msgstr "Arbeid"
+
+#~ msgid "Work _fax:"
+#~ msgstr "Arbeid _FAX:"
+
+#~ msgid "Zip/_Postal code:"
+#~ msgstr "Zip/_Postleittaal:"
+
+#~ msgid "_Address:"
+#~ msgstr "_Anskrivt:"
+
+#~ msgid "_Department:"
+#~ msgstr "_Kontor:"
+
+#~ msgid "_Groupwise:"
+#~ msgstr "_Groupwise:"
+
+#~ msgid "_Home page:"
+#~ msgstr "_Hemsiet:"
+
+#~ msgid "_Home:"
+#~ msgstr "_Heimat:"
+
+#~ msgid "_Jabber:"
+#~ msgstr "_Jabber:"
+
+#~ msgid "_Manager:"
+#~ msgstr "_Oppasser:"
+
+#~ msgid "_Mobile:"
+#~ msgstr "_Unnerwegs:"
+
+#~ msgid "_Profession:"
+#~ msgstr "_Beroop:"
+
+#~ msgid "_State/Province:"
+#~ msgstr "_Land/Region:"
+
+#~ msgid "_Title:"
+#~ msgstr "_Titel:"
+
+#~ msgid "_Work:"
+#~ msgstr "_Arbeid:"
+
+#~ msgid "_Yahoo:"
+#~ msgstr "_Yahoo:"
+
+#~ msgid "_Zip/Postal code:"
+#~ msgstr "_Zip/Postleittaal:"
+
+#~ msgid "Set your personal information"
+#~ msgstr "Giv dien persönliche Informatschoonen in"
+
+#, c-format
+#~ msgid "System error: %s."
+#~ msgstr "Systemfehler: %s."
+
+#~ msgid "A system error has occurred"
+#~ msgstr "Een Systemfehler is optreten"
+
+#~ msgid "Checking password..."
+#~ msgstr "Kiek mi dat Passwoord an..."
+
+#~ msgid "Change pa_ssword"
+#~ msgstr "Pa_sswoord ännern"
+
+#~ msgid "Change your password"
+#~ msgstr "Dien Passwoord ännern"
+
+#~ msgid "_Retype new password:"
+#~ msgstr "_Nejes Passwoord ingeven:"
+
+#~ msgid "Preferences"
+#~ msgstr "Instellens"
+
+#~ msgid "Add Wallpaper"
+#~ msgstr "Achtergrund hentofögen"
+
+#~ msgid "All files"
+#~ msgstr "All Dateien"
+
+#~ msgid "filename"
+#~ msgstr "Dateinaam"
+
+#~ msgid "page"
+#~ msgstr "Siet"
+
+#~ msgid "[WALLPAPER...]"
+#~ msgstr "[WALLPAPER...]"
+
+#~ msgid "Default Pointer"
+#~ msgstr "Standardmuuswieser"
+
+#~ msgid "Install"
+#~ msgstr "Installeren"
+
+#~ msgid "Apply Background"
+#~ msgstr "Düssem Achtergrund tostimmen"
+
+#~ msgid "Apply Font"
+#~ msgstr "Düsser Schriftart tostimmen"
+
+#~ msgid "Custom"
+#~ msgstr "Anpasst"
+
+#~ msgid "Appearance Preferences"
+#~ msgstr "Utsehninstellens"
+
+#~ msgid "Background"
+#~ msgstr "Achtergrund"
+
+#~ msgid "C_olors:"
+#~ msgstr "K_löörs:"
+
+#~ msgid "C_ustomize..."
+#~ msgstr "A_npassen..."
+
+#~ msgid "Center"
+#~ msgstr "Inne Midde"
+
+#~ msgid "Colors"
+#~ msgstr "Klöörs"
+
+#~ msgid "Controls"
+#~ msgstr "Kontroll"
+
+#~ msgid "Customize Theme"
+#~ msgstr "Thema anpassen"
+
+#~ msgid "D_etails..."
+#~ msgstr "D_etails..."
+
+#~ msgid "Des_ktop font:"
+#~ msgstr "Schrievdis_kschriftart:"
+
+#~ msgid "Fonts"
+#~ msgstr "Schriftart"
+
+#~ msgid "Hinting"
+#~ msgstr "Wiesen"
+
+#~ msgid "Horizontal gradient"
+#~ msgstr "Horizontaler Verlööp"
+
+#~ msgid "Icons"
+#~ msgstr "Symbole"
+
+#~ msgid "Icons only"
+#~ msgstr "Just Symbole"
+
+#~ msgid "Large"
+#~ msgstr "Groot"
+
+#~ msgid "N_one"
+#~ msgstr "K_eene"
+
+#~ msgid "Pointer"
+#~ msgstr "Muuswieser"
+
+#~ msgid "R_esolution:"
+#~ msgstr "_Oplösens:"
+
+#~ msgid "Save Theme As..."
+#~ msgstr "Thema spieker as..."
+
+#~ msgid "Save _As..."
+#~ msgstr "Spiekern _as..."
+
+#~ msgid "Save _background image"
+#~ msgstr "Achter_grundbill spiekern"
+
+#~ msgid "Scale"
+#~ msgstr "Gröte ännern"
+
+#~ msgid "Small"
+#~ msgstr "Lüttj"
+
+#~ msgid "Solid color"
+#~ msgstr "Solide Klöör"
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "Text below items"
+#~ msgstr "Text unner Elemente"
+
+#~ msgid "Text beside items"
+#~ msgstr "Text neben de Elemente"
+
+#~ msgid "Text only"
+#~ msgstr "Just text"
+
+#~ msgid "Theme"
+#~ msgstr "Thema"
+
+#~ msgid "VB_GR"
+#~ msgstr "VB_GR"
+
+#~ msgid "Vertical gradient"
+#~ msgstr "Vertikaler Verlööp"
+
+#~ msgid "Window Border"
+#~ msgstr "Finsterkant"
+
+#~ msgid "Zoom"
+#~ msgstr "Gröte"
+
+#~ msgid "_Application font:"
+#~ msgstr "_Programmschriftart:"
+
+#~ msgid "_BGR"
+#~ msgstr "_BGR"
+
+#~ msgid "_Description:"
+#~ msgstr "B_eschrieven:"
+
+#~ msgid "_Document font:"
+#~ msgstr "Dokumentschriftart:"
+
+#~ msgid "_Full"
+#~ msgstr "_Full"
+
+#~ msgid "_Install..."
+#~ msgstr "_Installeren..."
+
+#~ msgid "_Medium"
+#~ msgstr "_Middig"
+
+#~ msgid "_Name:"
+#~ msgstr "_Naam:"
+
+#~ msgid "_None"
+#~ msgstr "_Keen"
+
+#~ msgid "_RGB"
+#~ msgstr "_RGB"
+
+#~ msgid "_Reset to Defaults"
+#~ msgstr "_To Originale torüggsetten"
+
+#~ msgid "_Selected items:"
+#~ msgstr "_Utwählte Elemente:"
+
+#~ msgid "_Size:"
+#~ msgstr "_Gröte:"
+
+#~ msgid "_Style:"
+#~ msgstr "_Stil:"
+
+#~ msgid "_Tooltips:"
+#~ msgstr "_Lütte Henwiese:"
+
+#~ msgid "_VRGB"
+#~ msgstr "_VRGB"
+
+#~ msgid "_Window title font:"
+#~ msgstr "_Finstertitelschriftart:"
+
+#~ msgid "_Windows:"
+#~ msgstr "_Finsters:"
+
+#~ msgid "dots per inch"
+#~ msgstr "Punkt per Inch"
+
+#~ msgid "Appearance"
+#~ msgstr "utsehn"
+
+#~ msgid "Customize the look of the desktop"
+#~ msgstr "Schrievdiskutsehn anpassen"
+
+#~ msgid "Theme Installer"
+#~ msgstr "Themen installerer"
+
+#~ msgid "Gnome Theme Package"
+#~ msgstr "GNOME-Themen Pack"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Keen Schrievdiskachtergrund"
+
+#~ msgid "Image"
+#~ msgstr "Bill"
+
+#~ msgid "pixel"
+#~ msgid_plural "pixels"
+#~ msgstr[0] "Pixel"
+#~ msgstr[1] "Pixels"
+
+#~ msgid "Cannot install theme"
+#~ msgstr "Künn dat Thema nich installeren"
+
+#~ msgid "Keep Current Theme"
+#~ msgstr "Aktuelles Thema behollen"
+
+#~ msgid "Apply New Theme"
+#~ msgstr "Nejem Thema tostimmen"
+
+#, c-format
+#~ msgid "GNOME Theme %s correctly installed"
+#~ msgstr "GNOME-Thema %s akerat installert"
+
+#~ msgid "Select Theme"
+#~ msgstr "Thema wählen"
+
+#~ msgid "Theme Packages"
+#~ msgstr "Themenpacks"
+
+#~ msgid "_Overwrite"
+#~ msgstr "_Överschrieven"
+
+#~ msgid "Theme cannot be deleted"
+#~ msgstr "Thema künn nich löscht werrn"
+
+#, c-format
+#~ msgid "Copying file: %u of %u"
+#~ msgstr "Kopere Datei: %u of %u"
+
+#, c-format
+#~ msgid "Copying '%s'"
+#~ msgstr "Kopere '%s'"
+
+#~ msgid "Copying files"
+#~ msgstr "Kopere Dateien"
+
+#~ msgid "Parent Window"
+#~ msgstr "Ollenfinster"
+
+#~ msgid "From URI"
+#~ msgstr "Vun URI"
+
+#~ msgid "To URI"
+#~ msgstr "To URI"
+
+#~ msgid "Total URIs"
+#~ msgstr "All URIs"
+
+#~ msgid "Total number of URIs"
+#~ msgstr "Totale Taal vun URIs"
+
+#~ msgid "_Skip"
+#~ msgstr "_Överhüppen"
+
+#~ msgid "Overwrite _All"
+#~ msgstr "_Allens överschrieven"
+
+#~ msgid "Key"
+#~ msgstr "Slötel"
+
+#~ msgid "Callback"
+#~ msgstr "Torüggröpen"
+
+#~ msgid "UI Control"
+#~ msgstr "UI Kontroll"
+
+#~ msgid "Please select an image."
+#~ msgstr "Bidde een Bill utwählen."
+
+#~ msgid "White Pointer"
+#~ msgstr "Witter Muuswieser"
+
+#~ msgid "Large Pointer"
+#~ msgstr "Groter Muuswieser"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Leevste Programme"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Visueller Hölper"
+
+#~ msgid "- GNOME Default Applications"
+#~ msgstr "- GNOME-Standardprogramme"
+
+#~ msgid "Accessibility"
+#~ msgstr "Togangelikheit"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Order:"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Or_der:"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Billopwieser"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Foortsnahrichtenschriever"
+
+#~ msgid "Internet"
+#~ msgstr "Innernet"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Postleser"
+
+#~ msgid "Mobility"
+#~ msgstr "Unnerwegs allens dorbi"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Multimediaspeeler"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Verknüppen in nejer _Registerkoort opmaken"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Verknüppen in nejem _Finster opmaken"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Bi'm Start lööpen laten"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Im T_erminal lööpen laten"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Text Editor"
+#~ msgstr "Textbewarker"
+
+#~ msgid "Video Player"
+#~ msgstr "Filmspeeler"
+
+#~ msgid "Visual"
+#~ msgstr "Visuell"
+
+#~ msgid "Web Browser"
+#~ msgstr "Netkieker"
+
+#~ msgid "Balsa"
+#~ msgstr "Balsa"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee Tonspeeler"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Sensible Browser"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian Terminal Emulator"
+
+#~ msgid "ETerm"
+#~ msgstr "Debian Terminal Emulator"
+
+#~ msgid "Encompass"
+#~ msgstr "Encompass"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany Netkieker"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution Postleser"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME Terminal"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus mit Vergröterer"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape Post"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux Billschirmleser"
+
+#~ msgid "Listen"
+#~ msgstr "Tohören"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla Post"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine Tonspeeler"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape Kommunikator"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca mit Vergröterer"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox Tonspeeler"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey Post"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem Filmspeeler"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Billschirminstellens"
+
+#~ msgid "Include _panel"
+#~ msgstr "_Balken insluten"
+
+#~ msgid "Left"
+#~ msgstr "Links"
+
+#~ msgid "Monitor"
+#~ msgstr "Billschirm"
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Off"
+#~ msgstr "Ut"
+
+#~ msgid "On"
+#~ msgstr "An"
+
+#~ msgid "Panel icon"
+#~ msgstr "Balkensymbol"
+
+#~ msgid "R_otation:"
+#~ msgstr "R_otatschoon:"
+
+#~ msgid "Right"
+#~ msgstr "Rechts"
+
+#~ msgid "Upside-down"
+#~ msgstr "Boven nah unnen"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Oplösens:"
+
+#~ msgid "Display"
+#~ msgstr "Billschirm"
+
+#~ msgid "Upside Down"
+#~ msgstr "Boven nah unnen"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#, c-format
+#~ msgid "Monitor: %s"
+#~ msgstr "Billschirm: %s"
+
+#, c-format
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Spegelbillschirms"
+
+#~ msgid "Sound"
+#~ msgstr "Ton"
+
+#~ msgid "Desktop"
+#~ msgstr "Schrievdisk"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Nejer Kortsnied..."
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Unbekannte Aktschoon>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Anpasste Kortsnieds"
+
+#~ msgid "Action"
+#~ msgstr "Aktschoon"
+
+#~ msgid "Shortcut"
+#~ msgstr "Kortsnied"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Anpasster Kortsnied"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Knöppboord Kortsnieds"
+
+#~ msgid "General"
+#~ msgstr "Allgemeen"
+
+#~ msgid "Fast"
+#~ msgstr "Fix"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Knöppboordinstellens"
+
+#~ msgid "Layouts"
+#~ msgstr "Utsehn"
+
+#~ msgid "Long"
+#~ msgstr "lang"
+
+#~ msgid "Short"
+#~ msgstr "Koort"
+
+#~ msgid "_Options..."
+#~ msgstr "_Optschoonen..."
+
+#~ msgid "minutes"
+#~ msgstr "Minuuten"
+
+#~ msgid "By _language"
+#~ msgstr "Nah _Sprak"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Utsehn wählen"
+
+#~ msgid "Preview:"
+#~ msgstr "Utblick:"
+
+#~ msgid "_Country:"
+#~ msgstr "_Land:"
+
+#~ msgid "_Language:"
+#~ msgstr "_Sprak:"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Wähl een Knöppboordutsehn"
+
+#~ msgid "_Models:"
+#~ msgstr "_Modelle:"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Knöppboordutsehnoptschoonen"
+
+#~ msgid "Layout"
+#~ msgstr "Utsehn"
+
+#~ msgid "Models"
+#~ msgstr "Modelle"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "Keyboard"
+#~ msgstr "Knöppboord"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Knöppboordinstellens setten"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Trecken un loslaten"
+
+#~ msgid "High"
+#~ msgstr "Hoch"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Muusinstellens"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Twe_jter Klick:"
+
+#~ msgid "Touchpad"
+#~ msgstr "Touchpad"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Deaktivert"
+
+#~ msgid "Mouse"
+#~ msgstr "Muus"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Netwark-Proxy"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Netwark-Proxy-Instellens setten"
+
+#~ msgid "C_reate"
+#~ msgstr "E_rstellen"
+
+#~ msgid "Location:"
+#~ msgstr "Ort:"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Netwark-Proxy-Instellens"
+
+#~ msgid "Port:"
+#~ msgstr "Port:"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Proxy-Konfiguratschoon"
+
+#~ msgid "_Delete Location"
+#~ msgstr "_Ort löschen"
+
+#~ msgid "_Details"
+#~ msgstr "_Details"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP Proxy:"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Ortnaam:"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Seker HTTP Proxy:"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_De sülvigen Proxy för all Protokolls bruken"
+
+#~ msgid "C_ontrol"
+#~ msgstr "K_ontroll"
+
+#~ msgid "_Alt"
+#~ msgstr "_Alt"
+
+#~ msgid "H_yper"
+#~ msgstr "H_yper"
+
+#~ msgid "_Meta"
+#~ msgstr "_Meta"
+
+#~ msgid "Titlebar Action"
+#~ msgstr "Titelbalkenaktschoon"
+
+#~ msgid "Window Preferences"
+#~ msgstr "Finsterinstellens"
+
+#~ msgid "Window Selection"
+#~ msgstr "Finsterwähler"
+
+#~ msgid "seconds"
+#~ msgstr "Sekunnen"
+
+#~ msgid "Windows"
+#~ msgstr "Finsters"
+
+#~ msgid "Maximize"
+#~ msgstr "Vergrötern"
+
+#~ msgid "Minimize"
+#~ msgstr "Lütter maken"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Groups"
+#~ msgstr "Gruppen"
+
+#~ msgid "Control Center"
+#~ msgstr "Kontrollzentrum"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME-Konfiguratschoonswarktügg"
+
+#~ msgid "Take a break!"
+#~ msgstr "Tied för'n Tee?"
+
+#~ msgid "_Take a Break"
+#~ msgstr "_Tied för'n Tee?"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Schrieven vun Richard Hult <richard@imendio.com>"
+
+#~ msgid "translator-credits"
+#~ msgstr "Nils-Christoph Fiedler <fiedler@medienkompanie.de>"
+
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "Style:"
+#~ msgstr "Stil:"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Size:"
+#~ msgstr "Gröte:"
+
+#~ msgid "Version:"
+#~ msgstr "Verschoon:"
+
+#~ msgid "Copyright:"
+#~ msgstr "Koperschod:"
+
+#~ msgid "Description:"
+#~ msgstr "Beschrievens:"
+
+#~ msgid "Installed"
+#~ msgstr "Installert"
+
+#~ msgid "Install Failed"
+#~ msgstr "Installatschoon fehlslagen"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Schriftart _installeren"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Schriftartwieser"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Schriftartutblick"
+
+#~ msgid "TEXT"
+#~ msgstr "TEXT"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Schriftartgröte (Standard: 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "SIZE"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "FONT-FILE OUTPUT-FILE"
+
+#~ msgid "No matches found."
+#~ msgstr "Nix funnen, wat passt."
+
+#~ msgid "Other"
+#~ msgstr "Annere"
+
+#, c-format
+#~ msgid "Start %s"
+#~ msgstr "Starte %s"
+
+#~ msgid "Help"
+#~ msgstr "Hölp"
+
+#~ msgid "Upgrade"
+#~ msgstr "Upgrade"
+
+#~ msgid "Uninstall"
+#~ msgstr "Deinstalleren"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Ut Leevsten löschen"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "To Leevsten hentofögen"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "To Startprogramme hentofögen"
+
+#~ msgid "New Document"
+#~ msgstr "Nejes Dokument"
+
+#~ msgid "Documents"
+#~ msgstr "Dokumente"
+
+#~ msgid "File System"
+#~ msgstr "Dateisystem"
+
+#~ msgid "Network Servers"
+#~ msgstr "Netwark Servers"
+
+#~ msgid "Search"
+#~ msgstr "Sök"
+
+#, c-format
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Opmaken</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Annern Naam geven..."
+
+#~ msgid "Send To..."
+#~ msgstr "Sennen an..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "In'n Papierkörv verschuven"
+
+#, c-format
+#~ msgid "Open with \"%s\""
+#~ msgstr "Opmaken mit \"%s\""
+
+#~ msgid "Open in File Manager"
+#~ msgstr "In Dateioppasser opmaken"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Vandag %l:%M %p"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %l:%M %p"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%b %d %l:%M %p"
+
+#~ msgid "Find Now"
+#~ msgstr "Nu finnen"
+
+#, c-format
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s opmaken</b>"
+
+#, c-format
+#~ msgid "Remove from System Items"
+#~ msgstr "Ut Systemelementen löschen"
+
+#~ msgid "Show help options"
+#~ msgstr "Hölpoptschoonen opwiesen"
+
+#~ msgid "Fill screen"
+#~ msgstr "Billschirm full maken"
+
+#~ msgid "Edit"
+#~ msgstr "Bewarken"
+
+#~ msgid "Interface"
+#~ msgstr "Bovensied"
+
+#~ msgid "Menus and Toolbars"
+#~ msgstr "Menüs un Warktüggbalkens"
+
+#, fuzzy
+#~ msgid "Selected _layouts:"
+#~ msgstr "_Utwählte Utsehn:"
+
+#~ msgid "Preview"
+#~ msgstr "Utblick"

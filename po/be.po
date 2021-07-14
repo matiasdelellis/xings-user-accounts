@@ -1,0 +1,5217 @@
+# Vital Khilko <dojlid@mova.org>, 2003.
+# Ales Nyakhaychyk <nab@mail.by>, 2003, 2004.
+# Yuri Matsuk <yuri@matsuk.net>, 2011.
+# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2012, 2013, 2014.
+# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2012-09-21 20:04+0300\n"
+"Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Virtaal 0.7.0\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/account-dialog.ui.h:1
+msgid "_Username"
+msgstr "І_мя карыстальніка"
+
+#: ../data/account-dialog.ui.h:2
+msgid "_Full Name"
+msgstr "_Поўнае імя"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Звычайны"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Адміністратар"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr "_Тып конта"
+
+#: ../data/account-dialog.ui.h:6
+msgid "Password"
+msgstr "Пароль"
+
+#: ../data/account-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to set a password when they next _login"
+msgstr "Дазволіць карыстальніку наставіць пароль пры наступным уваходзе"
+
+#: ../data/account-dialog.ui.h:8
+#, fuzzy
+msgid "Set a password _now"
+msgstr "Зараз жа наставіць пароль"
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+msgid "_Password"
+msgstr "Пар_оль"
+
+#: ../data/account-dialog.ui.h:10
+#, fuzzy
+msgid "_Confirm"
+msgstr "Настройка"
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+"Карпаратыўны ўваход дазваляе выкарыстоўваць на гэтым прыстасаванні наяўны "
+"конт, якім цэнтралізавана кіруе адміністратар сеткі."
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr "_Дамен"
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+"Перайдзіце ў сеціўны рэжым,\n"
+"каб дадаць карпаратыўныя конты."
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr "_Карпаратыўны ўваход"
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr "Дадаць карыстальніка"
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr "Імя адміністратара дамена"
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+"Для карыстання сістэмай карпаратыўнага ўваходу ў сеанс спачатку\n"
+"трэба ўвесці гэты камп'ютар у дамен. Папрасіце сістэмнага адміністратара\n"
+"ўвесці пароль для дамена."
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr "І_мя адміністратара"
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr "Пароль адміністратара"
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr "Левы вялікі палец"
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr "Левы сярэдні палец"
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr "Левы безыменны палец"
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Левы мезены палец"
+
+#: ../data/account-fingerprint.ui.h:5
+msgid "Right thumb"
+msgstr "Правы вялікі палец"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr "Правы сярэдні палец"
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr "Правы безыменны палец"
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr "Правы мезены палец"
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr "Уключэнне ўваходу з дапамогай сканера адбіткаў пальцаў"
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr "_Правы ўказальны палец"
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr "_Левы ўказальны палец"
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr "Іншы па_лец:"
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Вашы адбіткі пальцаў паспяхова захаваныя. Цяпер вы можаце ўвайсці ў сеанс з "
+"дапамогай сканера адбіткаў."
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr "Карыстальнікі"
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr "Стварэнне і выдаленне карыстальнікаў, а таксама змяненне пароля"
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+"Уваход;Сеанс;Імя карыстальніка;Адбітак пальцаў;Сканер;Аватар;Лагатып;Выява;"
+"Твар;Вобраз;Пароль;"
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "Паказваць пароль"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr "_Скасаваць"
+
+#: ../data/password-dialog.ui.h:3
+msgid "Ch_ange"
+msgstr "_Змяніць"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Новы пароль"
+
+#: ../data/password-dialog.ui.h:5
+msgid "_New Password"
+msgstr "_Новы пароль"
+
+#: ../data/password-dialog.ui.h:6
+msgid "Current _Password"
+msgstr "_Бягучы пароль"
+
+#: ../data/password-dialog.ui.h:7
+#, fuzzy
+msgid "Allow user to change their password on next login"
+msgstr "Дазволіць карыстальніку наставіць пароль пры наступным уваходзе"
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr "Зараз жа наставіць пароль"
+
+#: ../data/user-accounts-dialog.ui.h:1
+#, fuzzy
+msgid "_Add User…"
+msgstr "Дадаць карыстальніка"
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+msgid "Login Options"
+msgstr "Параметры ўваходу"
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr "_Аўтаматычны ўваход"
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr "_Уваход з дапамогай адбіткаў пальцаў"
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr "Значок карыстальніка"
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr "Настройкі з папярэдняга ўваходу"
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr "Выдаліць конт"
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr "Іншыя конты"
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr "Не ўдалося выдаліць карыстальніка"
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+#, fuzzy
+msgid "Failed to revoke remotely managed user"
+msgstr "Не ўдалося выдаліць карыстальніка"
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr "Немагчыма выдаліць уласны конт."
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr "%s яшчэ карыстаецца сеансам"
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+"Калі вы выдаліце карыстальніка, які дасюль карыстаецца сеансам, гэта можа "
+"прывесці да няўзгодненага стану сістэмы."
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr "Ці вы хочаце пакінуць файлы карыстальніка %s?"
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+"Пры выдаленні конта карыстальніка можна пакінуць яго хатні каталог, пошту і "
+"часовыя файлы."
+
+#: ../src/cc-user-panel.c:696
+msgid "_Delete Files"
+msgstr "_Выдаліць файлы"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr "_Пакінуць файлы"
+
+#: ../src/cc-user-panel.c:711
+#, fuzzy, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr "Ці вы насамрэч хочаце выдаліць гэты конт?"
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "_Выдаліць файлы"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr "Конт выключаны"
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr "Мусіць быць вызначаны пры ўваходзе"
+
+#: ../src/cc-user-panel.c:778
+msgctxt "Password mode"
+msgid "None"
+msgstr "Няма"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr "У сістэме"
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr "%k:%M"
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr "%s, %s"
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr "Не ўдалося звязацца са службай контаў"
+
+#: ../src/cc-user-panel.c:1115
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Праверце, што AccountService усталяваны і ўключаны."
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+"Каб учыніць змены,\n"
+"спачатку пстрыкніце ў значок \"*\""
+
+#: ../src/cc-user-panel.c:1197
+msgid "Create a user account"
+msgstr "Стварыць конт карыстальніка"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+"Каб стварыць конт карыстальніка,\n"
+"спачатку пстрыкніце ў значок \"*\""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr "Выдаліць вылучаны конт карыстальніка"
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+"Каб выдаліць вылучаны конт карыстальніка,\n"
+"спачатку пстрыкніце ў значок \"*\""
+
+#: ../src/cc-user-panel.c:1408
+msgid "My Account"
+msgstr "Мой конт"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr "Новы пароль мусіць адрознівацца ад старога."
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr "Паспрабуйце змяніць некалькі літар ці лічбаў."
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr "Паспрабуйце яшчэ больш змяніць пароль."
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr "Пароль, які б не ўключаў вашага імені карыстальніка, быў бы мацнейшым."
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr "Прыбярыце сваё імя карыстальніка з пароля."
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr "Паспрабуйце прыбраць некаторыя словы з пароля."
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr "Пазбягайце агульнавядомых слоў."
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr "Пазбягайце перастановак у існуючых словах."
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr "Паспрабуйце ўжыць болей лічбаў."
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr "Паспрабуйце ўжыць больш літар верхняга рэгістра."
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr "Паспрабуйце ўжыць больш літар ніжняга рэгістра."
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr "Паспрабуйце ўжыць больш асаблівых знакаў, напрыклад, пунктуацыйных."
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr "Паспрабуйце мяшанку з літар, лічбаў і пунктуацыйных знакаў."
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr "Не паўтарайце адзін і той жа знак."
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+"Паспрабуйце зрабіць тыпы ўжытых знакаў больш разнастайнымі: перамяшайце "
+"літары, лічбы і пунктуацыйныя знакі."
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr "Пазбягайце такіх паслядоўнасцяў, як 1234 ці abcd."
+
+#: ../src/pw-utils.c:115
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr "Паспрабуйце мяшанку з літар, лічбаў і пунктуацыйных знакаў."
+
+#: ../src/pw-utils.c:117
+#, fuzzy
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+"Перамяшайце літары верхняга і ніжняга рэгістра, ужыйце адну ці некалькі "
+"лічбаў."
+
+#: ../src/pw-utils.c:119
+#, fuzzy
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+"Добры пароль! Але дадаўшы яшчэ літар, лічбаў і пунктуацыйных знакаў, вы "
+"зробіце яго яшчэ мацнейшым."
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr "Не ўдалося ідэнтыфікавацца"
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr "Новы пароль надта кароткі"
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr "Новы пароль надта просты"
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Стары і новы паролі надта падобныя"
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr "Новы пароль ужо нядаўна выкарыстоўваўся."
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Новы пароль мусіць змяшчаць лічбы ці спецыяльныя знакі"
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Стары і новы паролі аднолькавыя"
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Ваш пароль змяніўся пасля апошняй ідэнтыфікацыі ў сістэме!"
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Новы пароль не змяшчае дастатковай колькасці разнастайных знакаў"
+
+#: ../src/run-passwd.c:539
+#, c-format
+msgid "Unknown error"
+msgstr "Невядомая памылка"
+
+#: ../src/um-account-dialog.c:34
+#, fuzzy
+msgid "Should match the web address of your login provider."
+msgstr "Павінна адпавядаць сеціўнаму адрасу правайдара вашага конта."
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr "Не ўдалося дадаць конт"
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr "Паролі адрозніваюцца."
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr "Не ўдалося зарэгістраваць конт"
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr "Адсутнічае магчымасць ідэнтыфікацыі ў гэтым дамене"
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr "Не ўдалося далучыцца да дамена"
+
+#: ../src/um-account-dialog.c:1045
+#, fuzzy
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+"Хібнае імя для ўваходу.\n"
+"Паспрабуйце яшчэ раз."
+
+#: ../src/um-account-dialog.c:1051
+#, fuzzy
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+"Хібны пароль для ўваходу.\n"
+"Паспрабуйце яшчэ раз."
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr "Не ўдалося ўвайсці ў дамен"
+
+#: ../src/um-account-dialog.c:1116
+#, fuzzy
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr "Не ўдалося адшукаць дамен. Можа, вы памыліліся ў яго напісанні?"
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr "Скасаваць"
+
+#: ../src/um-account-dialog.c:1477
+msgid "_Add"
+msgstr "_Дадаць"
+
+#: ../src/um-account-type.c:34
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Звычайны"
+
+#: ../src/um-account-type.c:36
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Адміністратар"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"Вам не дазволена даступацца да гэтага прыстасавання. Звярніцеся да "
+"сістэмнага адміністратара."
+
+#: ../src/um-fingerprint-dialog.c:141
+msgid "The device is already in use."
+msgstr "Прыстасаванне ўжо выкарыстоўваецца."
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr "Узнікла ўнутраная памылка."
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Выключана"
+
+#: ../src/um-fingerprint-dialog.c:218
+msgid "Enabled"
+msgstr "Уключана"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr "Выдаліць зарэгістраваныя адбіткі пальцаў?"
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr "_Выдаліць адбіткі пальцаў"
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Ці вы хочаце выдаліць вашы зарэгістраваныя адбіткі пальцаў і такім чынам "
+"выключыць магчымасць уваходу з дапамогай адпаведнага прыстасавання?"
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr "Зроблена!"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, c-format
+msgid "Could not access '%s' device"
+msgstr "Не ўдалося атрымаць доступ да прыстасавання \"%s\""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr "Не ўдалося пачаць запіс адбіткаў пальцаў з прыстасавання \"%s\""
+
+#: ../src/um-fingerprint-dialog.c:642
+msgid "Could not access any fingerprint readers"
+msgstr "Не ўдалося даступіцца ні да аднаго сканера адбіткаў пальцаў"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr "Звярніцеся да сістэмнага адміністратара па дапамогу."
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Каб магчы ўвайсці ў сеанс з дапамогай адбіткаў пальцаў, спачатку трэба "
+"захаваць іх, выкарыстаўшы прыстасаванне \"%s\"."
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr "Выбар пальца"
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr "Запіс адбіткаў пальцаў"
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr "Рэзюмэ"
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr "На гэтым тыдні"
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr "На мінулым тыдні"
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr "%s - %s"
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr "Сеанс закончаны"
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr "Сеанс запушчаны"
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr "Вызначыце іншы пароль."
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr "Паўтарыце ўвод вашага бягучага пароля."
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr "Не ўдалося змяніць пароль"
+
+#: ../src/um-photo-dialog.c:95
+msgid "Select"
+msgstr "Выбраць"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr "Знайсці болей выяў"
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr "_Адкрыць"
+
+#: ../src/um-photo-dialog.c:945
+msgid "Disable image"
+msgstr "Выключыць выяву"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr "Зрабіць фотаздымак..."
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr "Знайсці болей выяў..."
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr "Выкарыстоўваецца: %s"
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr "Немагчыма аўтаматычна далучыцца да дамена такога тыпу"
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr "Дамен ці рэгіён не знойдзены"
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr "Не ўдалося ўвайсці як %s у дамен %s"
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr "Хібны пароль, паўтарыце спробу"
+
+#: ../src/um-realm-manager.c:753
+#, fuzzy, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr "Не ўдалося злучыцца з даменам %s: %s"
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, fuzzy, c-format
+msgid "The username is too long."
+msgstr "Імя карыстальніка надта доўгае"
+
+#: ../src/um-utils.c:569
+#, fuzzy
+msgid "The username cannot start with a '-'."
+msgstr "Імя карыстальніка не можа пачынацца са знака \"-\""
+
+#: ../src/um-utils.c:572
+#, fuzzy
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+"Імя карыстальніка мусіць складацца толькі з літар англійскага алфавіта, "
+"лічбаў і знакаў \".\", \"-\" ці \"_\"."
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+"Гэта назва будзе ўжыта для дамашняй папкі і не можа быць зменена пазней."
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr "Сёння"
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr "Учора"
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr "%e %b"
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr "%e %b, %Y"
+
+#~ msgid "_Verify New Password"
+#~ msgstr "П_ацвярджэнне новага пароля"
+
+#~ msgctxt "Password hint"
+#~ msgid "Try to add more letters, numbers and symbols."
+#~ msgstr "Дадайце больш літар, лічбаў і спецыяльных знакаў."
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Weak"
+#~ msgstr "Трываласць: слабая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Low"
+#~ msgstr "Трываласць: нізкая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Medium"
+#~ msgstr "Трываласць: сярэдняя"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: Good"
+#~ msgstr "Трываласць: добрая"
+
+#~ msgctxt "Password strength"
+#~ msgid "Strength: High"
+#~ msgstr "Трываласць: высокая"
+
+#~ msgid "Passwords do not match."
+#~ msgstr "Паролі адрозніваюцца."
+
+#~ msgid "Background"
+#~ msgstr "Абрус"
+
+#~ msgid "Changes throughout the day"
+#~ msgstr "Змяняецца цягам дня"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Заблакіраваць экран"
+
+#~ msgctxt "background, style"
+#~ msgid "Tile"
+#~ msgstr "Кафля"
+
+#~ msgctxt "background, style"
+#~ msgid "Zoom"
+#~ msgstr "Набліжэнне"
+
+#~ msgctxt "background, style"
+#~ msgid "Center"
+#~ msgstr "Пасярэдзіне"
+
+#~ msgctxt "background, style"
+#~ msgid "Scale"
+#~ msgstr "Маштабаванне"
+
+#~ msgctxt "background, style"
+#~ msgid "Fill"
+#~ msgstr "Запаўненне"
+
+#~ msgctxt "background, style"
+#~ msgid "Span"
+#~ msgstr "Ад краю да краю"
+
+#~ msgid "Select Background"
+#~ msgstr "Выбар абрусу"
+
+#~ msgid "Wallpapers"
+#~ msgstr "Абрусы"
+
+#~ msgid "Pictures"
+#~ msgstr "Выявы"
+
+#~ msgid "Colors"
+#~ msgstr "Колеры"
+
+#~ msgid "No Pictures Found"
+#~ msgstr "Выявы не знойдзены"
+
+#~ msgid "Home"
+#~ msgstr "Дом"
+
+#, c-format
+#~ msgid "You can add images to your %s folder and they will show up here"
+#~ msgstr "Тут вы зможаце ўбачыць выявы, якія змесціце ў папку %s"
+
+#~ msgid "multiple sizes"
+#~ msgstr "некалькі памераў"
+
+#, c-format
+#~ msgid "%d × %d"
+#~ msgstr "%d × %d"
+
+#~ msgid "No Desktop Background"
+#~ msgstr "Без настольнага абруса"
+
+#~ msgid "Current background"
+#~ msgstr "Цяперашні абрус"
+
+#~ msgid "Change your background image to a wallpaper or photo"
+#~ msgstr "Настройка фонавай выявы"
+
+#~ msgid "Wallpaper;Screen;Desktop;"
+#~ msgstr "Абрус;Экран;Стол;"
+
+#~ msgid "Bluetooth is disabled"
+#~ msgstr "Bluetooth выключаны"
+
+#~ msgid "No Bluetooth adapters found"
+#~ msgstr "Адаптары Bluetooth не знойдзены"
+
+#~ msgid "Bluetooth is disabled by hardware switch"
+#~ msgstr "Bluetooth выключаны з дапамогай апаратнага пераключальніка"
+
+#~ msgid "Bluetooth"
+#~ msgstr "Bluetooth"
+
+#~ msgid "Turn Bluetooth on and off and connect your devices"
+#~ msgstr "Уключэнне Bluetooth і падлучэнне прыстасаванняў"
+
+#~ msgid "Place your calibration device over the square and press 'Start'"
+#~ msgstr ""
+#~ "Змясціце ваша калібравальнае прыстасаванне ў квадраце і націсніце \"Пачаць"
+#~ "\""
+
+#~ msgid ""
+#~ "Move your calibration device to the calibrate position and press "
+#~ "'Continue'"
+#~ msgstr ""
+#~ "Перамясціце калібравальнае прыстасаванне ў адпаведнае становішча і "
+#~ "націсніце \"Працягнуць\""
+
+#~ msgid ""
+#~ "Move your calibration device to the surface position and press 'Continue'"
+#~ msgstr ""
+#~ "Перамясціце калібравальнае прыстасаванне ў становішча на паверхні і "
+#~ "націсніце \"Працягнуць\""
+
+#~ msgid "Shut the laptop lid"
+#~ msgstr "Зачыніце вечка ноўтбука"
+
+#~ msgid "An internal error occurred that could not be recovered."
+#~ msgstr "Узнікла непапраўная ўнутраная памылка."
+
+#~ msgid "Tools required for calibration are not installed."
+#~ msgstr "Калібравальныя прылады не ўсталяваныя."
+
+#~ msgid "The profile could not be generated."
+#~ msgstr "Не ўдалося ўтварыць профіль."
+
+#~ msgid "The target whitepoint was not obtainable."
+#~ msgstr "Немагчыма задзейнічаць мэтавы белы пункт."
+
+#~ msgid "Complete!"
+#~ msgstr "Усё!"
+
+#~ msgid "Calibration failed!"
+#~ msgstr "Няўдалае калібраванне!"
+
+#~ msgid "You can remove the calibration device."
+#~ msgstr "Цяпер можна адлучыць калібравальнае прыстасаванне."
+
+#~ msgid "Do not disturb the calibration device while in progress"
+#~ msgstr "Падчас працы не чапайце калібравальнае прыстасаванне"
+
+#~ msgid "Laptop Screen"
+#~ msgstr "Экран ноўтбука"
+
+#~ msgid "Built-in Webcam"
+#~ msgstr "Убудаваная сеціўная камера"
+
+#, c-format
+#~ msgid "%s Monitor"
+#~ msgstr "%s, манітор"
+
+#, c-format
+#~ msgid "%s Scanner"
+#~ msgstr "%s, сканер"
+
+#, c-format
+#~ msgid "%s Camera"
+#~ msgstr "%s, камера"
+
+#, c-format
+#~ msgid "%s Printer"
+#~ msgstr "%s, прынтар"
+
+#, c-format
+#~ msgid "%s Webcam"
+#~ msgstr "%s, сеціўная камера"
+
+#, c-format
+#~ msgid "Enable color management for %s"
+#~ msgstr "Уключыць кіраванне колерамі для %s"
+
+#, c-format
+#~ msgid "Show color profiles for %s"
+#~ msgstr "Паказаць профілі колераў для %s"
+
+#~ msgid "Not calibrated"
+#~ msgstr "Не адкалібравана"
+
+#~ msgid "Default: "
+#~ msgstr "Прадвызначаны: "
+
+#~ msgid "Colorspace: "
+#~ msgstr "Прастора колераў: "
+
+#~ msgid "Test profile: "
+#~ msgstr "Тэставы профіль: "
+
+#~ msgid "Select ICC Profile File"
+#~ msgstr "Выбар файла профілю ICC"
+
+#~ msgid "_Import"
+#~ msgstr "І_мпартаваць"
+
+#~ msgid "Supported ICC profiles"
+#~ msgstr "Вядомыя профілі ICC"
+
+#~ msgid "All files"
+#~ msgstr "Усе файлы"
+
+#~ msgid "Screen"
+#~ msgstr "Экран"
+
+#, c-format
+#~ msgid "Failed to upload file: %s"
+#~ msgstr "Не ўдалося загрузіць файл на сервер: %s"
+
+#~ msgid "The profile has been uploaded to:"
+#~ msgstr "Профіль быў загружаны на:"
+
+#~ msgid "Write down this URL."
+#~ msgstr "Запішыце дзе-небудзь гэты URL-адрас."
+
+#~ msgid "Restart this computer and boot your normal operating system."
+#~ msgstr ""
+#~ "Перазапусціце камп'ютар і загрузіце вашу звычайную аперацыйную сістэму."
+
+#~ msgid "Type the URL into your browser to download and install the profile."
+#~ msgstr ""
+#~ "Увядзіце гэты URL-адрас у вашым сеціўным аглядальніку і, сцягнуўшы "
+#~ "профіль, усталюйце яго."
+
+#~ msgid "Save Profile"
+#~ msgstr "Захаваць профіль"
+
+#~ msgid "_Save"
+#~ msgstr "_Захаваць"
+
+#~ msgid "Create a color profile for the selected device"
+#~ msgstr "Стварыць профіль колераў для вылучанага прыстасавання"
+
+#~ msgid ""
+#~ "The measuring instrument is not detected. Please check it is turned on "
+#~ "and correctly connected."
+#~ msgstr ""
+#~ "Прылада вымярэння не апазнаная. Праверце, што яна ўключана і правільна "
+#~ "падлучана."
+
+#~ msgid "The measuring instrument does not support printer profiling."
+#~ msgstr "Прылада вымярэння не падтрымлівае прафілявання прынтараў."
+
+#~ msgid "The device type is not currently supported."
+#~ msgstr "Тып прыстасавання не падтрымліваецца."
+
+#~ msgid "Standard Space"
+#~ msgstr "Стандартная прастора"
+
+#~ msgid "Test Profile"
+#~ msgstr "Выпрабоўчы профіль"
+
+#~ msgctxt "Automatically generated profile"
+#~ msgid "Automatic"
+#~ msgstr "Аўтаматычны"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Low Quality"
+#~ msgstr "Нізкая якасць"
+
+#~ msgctxt "Profile quality"
+#~ msgid "Medium Quality"
+#~ msgstr "Сярэдняя якасць"
+
+#~ msgctxt "Profile quality"
+#~ msgid "High Quality"
+#~ msgstr "Высокая якасць"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default RGB"
+#~ msgstr "Прадвызначаны RGB"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default CMYK"
+#~ msgstr "Прадвызначаны CMYK"
+
+#~ msgctxt "Colorspace fallback"
+#~ msgid "Default Gray"
+#~ msgstr "Прадвызначаны шэры"
+
+#~ msgid "Vendor supplied factory calibration data"
+#~ msgstr "Калібравальныя даныя ад вытворцы"
+
+#~ msgid "Full-screen display correction not possible with this profile"
+#~ msgstr "Поўнаэкранная карэкцыя дысплея немагчыма для гэтага профілю"
+
+#~ msgid "This profile may no longer be accurate"
+#~ msgstr "Гэты профіль ужо можа быць недакладным"
+
+#~ msgid "Display Calibration"
+#~ msgstr "Калібраванне дысплея"
+
+#~ msgid "Start"
+#~ msgstr "Пачаць"
+
+#~ msgid "Resume"
+#~ msgstr "Узнавіць"
+
+#~ msgid "Done"
+#~ msgstr "Зроблена"
+
+#~ msgid "Screen Calibration"
+#~ msgstr "Калібраванне экрана"
+
+#~ msgid ""
+#~ "Calibration will produce a profile that you can use to color manage your "
+#~ "screen. The longer you spend on calibration, the better the quality of "
+#~ "the color profile."
+#~ msgstr ""
+#~ "У выніку калібравання будзе ўтвораны профіль, прыдатны для кіравання "
+#~ "колерамі экрана. Чым болей часу выдаткавана на калібраванне, тым лепшая "
+#~ "якасць выніковага профілю колераў."
+
+#~ msgid ""
+#~ "You will not be able to use your computer while calibration takes place."
+#~ msgstr "Падчас калібравання вы не зможаце карыстацца камп'ютарам."
+
+#~ msgid "Quality"
+#~ msgstr "Якасць"
+
+#~ msgid "Approximate Time"
+#~ msgstr "Прыблізны час"
+
+#~ msgid "Calibration Quality"
+#~ msgstr "Якасць калібравання"
+
+#~ msgid "Select the sensor device you want to use for calibration."
+#~ msgstr "Выберыце датчык для калібравання."
+
+#~ msgid "Calibration Device"
+#~ msgstr "Калібравальнае прыстасаванне"
+
+#~ msgid "Select the type of display that is connected."
+#~ msgstr "Выберыце тып падлучанага дысплея."
+
+#~ msgid "Display Type"
+#~ msgstr "Тып дысплея"
+
+#~ msgid ""
+#~ "Select a display target white point. Most displays should be calibrated "
+#~ "to a D65 illuminant."
+#~ msgstr ""
+#~ "Выберыце мэтавы белы пункт дысплея. Большасць дысплеяў патрэбна "
+#~ "калібраваць адносна асвятлення D65."
+
+#~ msgid "Profile Whitepoint"
+#~ msgstr "Белы пункт профілю"
+
+#~ msgid ""
+#~ "Please set the display to a brightness that is typical for you. Color "
+#~ "management will be most accurate at this brightness level."
+#~ msgstr ""
+#~ "Настаўце звыклую для вас яркасць дысплея. Кіраванне колерамі будзе "
+#~ "найбольш дакладным на такім узроўні яркасці."
+
+#~ msgid ""
+#~ "Alternatively, you can use the brightness level used with one of the "
+#~ "other profiles for this device."
+#~ msgstr ""
+#~ "Як варыянт, вы можаце ўжыць узровень яркасці з аднаго з іншых профіляў да "
+#~ "гэтага прыстасавання."
+
+#~ msgid "Display Brightness"
+#~ msgstr "Яркасць дысплея"
+
+#~ msgid ""
+#~ "You can use a color profile on different computers, or even create "
+#~ "profiles for different lighting conditions."
+#~ msgstr ""
+#~ "Профіль колераў можа быць выкарыстаны на розных камп'ютарах. Таксама вы "
+#~ "можаце стварыць розныя профілі для рознага асвятлення."
+
+#~ msgid "Profile Name:"
+#~ msgstr "Назва профілю:"
+
+#~ msgid "Profile Name"
+#~ msgstr "Назва профілю"
+
+#~ msgid "Profile successfully created!"
+#~ msgstr "Профіль паспяхова створаны!"
+
+#~ msgid "Copy profile"
+#~ msgstr "Скапіраваць профіль"
+
+#~ msgid "Requires writable media"
+#~ msgstr "Патрабуецца носьбіт з магчымасцю запісу"
+
+#~ msgid "Upload profile"
+#~ msgstr "Загрузіць профіль на сервер"
+
+#~ msgid "Requires Internet connection"
+#~ msgstr "Патрабуецца сеціўнае злучэнне"
+
+#~ msgid ""
+#~ "You may find these instructions on how to use the profile on <a href="
+#~ "\"linux\">GNU/Linux</a>, <a href=\"osx\">Apple OS X</a> and <a href="
+#~ "\"windows\">Microsoft Windows</a> systems useful."
+#~ msgstr ""
+#~ "Вам могуць прыдацца наступныя інструкцыі аб тым, як можна выкарыстаць "
+#~ "гэты профіль на сістэмах <a href=\"linux\">GNU/Linux</a>, <a href=\"osx"
+#~ "\">Apple OS X</a> і <a href=\"windows\">Microsoft Windows</a>"
+
+#~ msgid "Import File…"
+#~ msgstr "Імпартаваць файл..."
+
+#~ msgid ""
+#~ "Problems detected. The profile may not work correctly. <a href=\"\">Show "
+#~ "details.</a>"
+#~ msgstr ""
+#~ "Узніклі праблемы. Профіль не будзе працаваць як мае быць. <a href="
+#~ "\"\">Падрабязнасці.</a>"
+
+#~ msgid "Each device needs an up to date color profile to be color managed."
+#~ msgstr ""
+#~ "Каб кіраваць колерамі прыстасавання, яно павінна мець свежы профіль."
+
+#~ msgid "Learn more"
+#~ msgstr "Больш інфармацыі"
+
+#~ msgid "Learn more about color management"
+#~ msgstr "Больш інфармацыі аб кіраванні колерамі"
+
+#~ msgid "Set for all users"
+#~ msgstr "Ужыць для ўсіх карыстальнікаў"
+
+#~ msgid "Set this profile for all users on this computer"
+#~ msgstr "Прызначыць профіль для ўсіх карыстальнікаў гэтага камп'ютара"
+
+#~ msgid "Enable"
+#~ msgstr "Уключыць"
+
+#~ msgid "Add profile"
+#~ msgstr "Дадаць профіль"
+
+#~ msgid "Calibrate…"
+#~ msgstr "Адкалібраваць..."
+
+#~ msgid "Calibrate the device"
+#~ msgstr "Адкалібраваць прыстасаванне"
+
+#~ msgid "Remove profile"
+#~ msgstr "Выдаліць профіль"
+
+#~ msgid "View details"
+#~ msgstr "Паказаць падрабязнасці"
+
+#~ msgid "Unable to detect any devices that can be color managed"
+#~ msgstr "Не ўдалося апазнаць прыстасаванні з магчымасцю кіравання колерамі"
+
+#~ msgid "LCD"
+#~ msgstr "LCD"
+
+#~ msgid "LED"
+#~ msgstr "LED"
+
+#~ msgid "CRT"
+#~ msgstr "CRT"
+
+#~ msgid "Projector"
+#~ msgstr "Праектар"
+
+#~ msgid "Plasma"
+#~ msgstr "Плазма"
+
+#~ msgid "LCD (CCFL backlight)"
+#~ msgstr "LCD (падсветка CCFL)"
+
+#~ msgid "LCD (RGB LED backlight)"
+#~ msgstr "LCD (падсветка RGB LED)"
+
+#~ msgid "LCD (white LED backlight)"
+#~ msgstr "LCD (белая падсветка LED)"
+
+#~ msgid "Wide gamut LCD (CCFL backlight)"
+#~ msgstr "Wide gamut LCD (падсветка CCFL)"
+
+#~ msgid "Wide gamut LCD (RGB LED backlight)"
+#~ msgstr "Wide gamut LCD (падсветка RGB LED)"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "High"
+#~ msgstr "Высокая"
+
+#~ msgid "40 minutes"
+#~ msgstr "40 хвілін"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Medium"
+#~ msgstr "Сярэдняя"
+
+#~ msgid "30 minutes"
+#~ msgstr "30 хвілін"
+
+#~ msgctxt "Calibration quality"
+#~ msgid "Low"
+#~ msgstr "Нізкая"
+
+#~ msgid "15 minutes"
+#~ msgstr "15 хвілін"
+
+#~ msgid "Native to display"
+#~ msgstr "Родная для гэтага дысплея"
+
+#~ msgid "D50 (Printing and publishing)"
+#~ msgstr "D50 (друк і публікацыі)"
+
+#~ msgid "D55"
+#~ msgstr "D55"
+
+#~ msgid "D65 (Photography and graphics)"
+#~ msgstr "D65 (фатаграфіі і графіка)"
+
+#~ msgid "D75"
+#~ msgstr "D75"
+
+#~ msgid "Color"
+#~ msgstr "Колер"
+
+#~ msgid ""
+#~ "Calibrate the color of your devices, such as displays, cameras or printers"
+#~ msgstr ""
+#~ "Калібраванне колераў прыстасаванняў: дысплеяў, камер, прынтараў і інш."
+
+#~ msgid "Color;ICC;Profile;Calibrate;Printer;Display;"
+#~ msgstr "Колер;ICC;Профіль;Калібраванне;Прынтар;Друк;Манітор;Экран;"
+
+#~ msgid "United States"
+#~ msgstr "Злучаныя Штаты Амерыкі"
+
+#~ msgid "Germany"
+#~ msgstr "Германія"
+
+#~ msgid "France"
+#~ msgstr "Францыя"
+
+#~ msgid "Spain"
+#~ msgstr "Іспанія"
+
+#~ msgid "China"
+#~ msgstr "Кітай"
+
+#~ msgid "Other…"
+#~ msgstr "Яшчэ..."
+
+#~ msgid "More…"
+#~ msgstr "Болей..."
+
+#~ msgid "No languages found"
+#~ msgstr "Мовы не знойдзены"
+
+#~ msgid "Language"
+#~ msgstr "Мова"
+
+#~ msgid "_Done"
+#~ msgstr "_Зроблена"
+
+#~ msgid "%e %B %Y, %l:%M %p"
+#~ msgstr "%e %B %Y, %l:%M %p"
+
+#~ msgid "%e %B %Y, %R"
+#~ msgstr "%e %B %Y, %R"
+
+#~ msgid "UTC%:::z"
+#~ msgstr "UTC%:::z"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%l:%M %p"
+
+#~ msgid "%R"
+#~ msgstr "%R"
+
+#~ msgid "January"
+#~ msgstr "Студзень"
+
+#~ msgid "February"
+#~ msgstr "Люты"
+
+#~ msgid "March"
+#~ msgstr "Сакавік"
+
+#~ msgid "April"
+#~ msgstr "Красавік"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Чэрвень"
+
+#~ msgid "July"
+#~ msgstr "Ліпень"
+
+#~ msgid "August"
+#~ msgstr "Жнівень"
+
+#~ msgid "September"
+#~ msgstr "Верасень"
+
+#~ msgid "October"
+#~ msgstr "Кастрычнік"
+
+#~ msgid "November"
+#~ msgstr "Лістапад"
+
+#~ msgid "December"
+#~ msgstr "Снежань"
+
+#~ msgid "Date & Time"
+#~ msgstr "Дата і час"
+
+#~ msgid "Hour"
+#~ msgstr "Гадзіна"
+
+#~ msgid "∶"
+#~ msgstr ":"
+
+#~ msgid "Minute"
+#~ msgstr "Хвіліна"
+
+#~ msgid "Day"
+#~ msgstr "Дзень"
+
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgid "Year"
+#~ msgstr "Год"
+
+#~ msgid "Time Zone"
+#~ msgstr "Часавы пояс"
+
+#~ msgid "Search for a city"
+#~ msgstr "Пошук горада"
+
+#~ msgid "Automatic _Date & Time"
+#~ msgstr "_Аўтаматычная настройка даты і часу"
+
+#~ msgid "Requires internet access"
+#~ msgstr "Патрабуецца доступ да Інтэрнэту"
+
+#~ msgid "Automatic Time _Zone"
+#~ msgstr "Аўтаматычны _выбар часавага пояса"
+
+#~ msgid "Date & _Time"
+#~ msgstr "Дата і _час"
+
+#~ msgid "Time _Zone"
+#~ msgstr "_Часавы пояс"
+
+#~ msgid "Time _Format"
+#~ msgstr "_Фармат часу"
+
+#~ msgid "24-hour"
+#~ msgstr "24 гадзіны"
+
+#~ msgid "AM / PM"
+#~ msgstr "AM / PM"
+
+#~ msgid "Change the date and time, including time zone"
+#~ msgstr "Настройка даты і часу, а таксама часавага пояса"
+
+#~ msgid "Clock;Timezone;Location;"
+#~ msgstr "Гадзіннік;Часавы пояс;Месцазнаходжанне;Месца;"
+
+#~ msgid "Change system time and date settings"
+#~ msgstr "Змяненне сістэмных настроек часу і даты"
+
+#~ msgid "To change time or date settings, you need to authenticate."
+#~ msgstr "Каб змяняць настройкі часу і даты, трэба ідэнтыфікаваць сябе."
+
+#~ msgid "Lid Closed"
+#~ msgstr "Вечка зачынена"
+
+#~ msgid "Mirrored"
+#~ msgstr "Адлюстроўванне"
+
+#~ msgid "Primary"
+#~ msgstr "_Галоўны"
+
+#~ msgid "Off"
+#~ msgstr "Выкл."
+
+#~ msgid "Secondary"
+#~ msgstr "Другасны"
+
+#~ msgid "Arrange Combined Displays"
+#~ msgstr "Упарадкаванне спалучаных дысплеяў"
+
+#~ msgid "_Apply"
+#~ msgstr "_Ужыць"
+
+#~ msgid "Drag displays to rearrange them"
+#~ msgstr "Каб змяніць парадак дысплеяў, перацягвайце іх з дапамогай мышы"
+
+#~ msgid "Size"
+#~ msgstr "Памер"
+
+#~ msgid "Aspect Ratio"
+#~ msgstr "Прапорцыі"
+
+#~ msgid "Resolution"
+#~ msgstr "Распазнавальнасць"
+
+#~ msgid "Show the top bar and Activities Overview on this display"
+#~ msgstr "Паказваць на гэтым дысплеі верхнюю паласу і Агляд Заняткаў"
+
+#~ msgid "Secondary Display"
+#~ msgstr "Другасны дысплей"
+
+#~ msgid "Join this display with another to create an extra workspace"
+#~ msgstr "Спалучыць гэты дысплей з іншым дзеля аб'яднання працоўнай прасторы"
+
+#~ msgid "Presentation"
+#~ msgstr "Прэзентацыя"
+
+#~ msgid "Show slideshows and media only"
+#~ msgstr "Паказваць толькі слайды і медыі"
+
+#~ msgid "Mirror"
+#~ msgstr "Адлюстроўваць"
+
+#~ msgid "Show your existing view on both displays"
+#~ msgstr "Паказваць адзін відарыс на абодвух дысплеях"
+
+#~ msgid "Turn Off"
+#~ msgstr "Выключыць"
+
+#~ msgid "Don't use this display"
+#~ msgstr "Не выкарыстоўваць гэты дысплей"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Не ўдалося атрымаць звесткі аб экране"
+
+#~ msgid "_Arrange Combined Displays"
+#~ msgstr "_Упарадкаваць спалучаныя дысплеі"
+
+#~ msgid "Displays"
+#~ msgstr "Маніторы"
+
+#~ msgid "Choose how to use connected monitors and projectors"
+#~ msgstr "Настройка выкарыстання падлучаных манітораў і праектараў"
+
+#~ msgid "Panel;Projector;xrandr;Screen;Resolution;Refresh;"
+#~ msgstr "Панэль;Праектар;xrandr;Экран;Распазнавальнасць;Абнаўленне экрана;"
+
+#~ msgid "Unknown"
+#~ msgstr "Невядома"
+
+#, c-format
+#~ msgid "%s %d-bit"
+#~ msgstr "%s, %d-бітная"
+
+#, c-format
+#~ msgid "%d-bit"
+#~ msgstr "%d-бітная"
+
+#~ msgid "Ask what to do"
+#~ msgstr "Спытаць аб патрэбным дзеянні"
+
+#~ msgid "Do nothing"
+#~ msgstr "Нічога не рабіць"
+
+#~ msgid "Open folder"
+#~ msgstr "Адкрыць папку"
+
+#~ msgid "Other Media"
+#~ msgstr "Іншыя носьбіты"
+
+#~ msgid "Select an application for audio CDs"
+#~ msgstr "Выберыце праграму для Audio CD"
+
+#~ msgid "Select an application for video DVDs"
+#~ msgstr "Выберыце праграму для Video CD"
+
+#~ msgid "Select an application to run when a music player is connected"
+#~ msgstr "Выберыце праграму для запуску пры падлучэнні музычнага плэера"
+
+#~ msgid "Select an application to run when a camera is connected"
+#~ msgstr ""
+#~ "Выберыце праграму для запуску пры падлучэнні фотаапарата ці відэакамеры"
+
+#~ msgid "Select an application for software CDs"
+#~ msgstr "Выберыце праграму для дыскаў з апраграмаваннем"
+
+#~ msgid "audio DVD"
+#~ msgstr "Audio DVD"
+
+#~ msgid "blank Blu-ray disc"
+#~ msgstr "Пусты Blu-ray дыск"
+
+#~ msgid "blank CD disc"
+#~ msgstr "Пусты CD-дыск"
+
+#~ msgid "blank DVD disc"
+#~ msgstr "Пусты DVD-дыск"
+
+#~ msgid "blank HD DVD disc"
+#~ msgstr "Пусты HD DVD-дыск"
+
+#~ msgid "Blu-ray video disc"
+#~ msgstr "Blu-ray відэадыск"
+
+#~ msgid "e-book reader"
+#~ msgstr "Электронная кніга"
+
+#~ msgid "HD DVD video disc"
+#~ msgstr "HD DVD-відэадыск"
+
+#~ msgid "Picture CD"
+#~ msgstr "Picture CD"
+
+#~ msgid "Super Video CD"
+#~ msgstr "Super Video CD"
+
+#~ msgid "Video CD"
+#~ msgstr "Video CD"
+
+#~ msgid "Windows software"
+#~ msgstr "Windows-апраграмаванне"
+
+#~ msgid "Section"
+#~ msgstr "Раздзел"
+
+#~ msgid "Overview"
+#~ msgstr "Агляд"
+
+#~ msgid "Default Applications"
+#~ msgstr "Прадвызначаныя праграмы"
+
+#~ msgid "Removable Media"
+#~ msgstr "Зменныя носьбіты"
+
+#, c-format
+#~ msgid "Version %s"
+#~ msgstr "Версія %s"
+
+#~ msgid "Details"
+#~ msgstr "Падрабязнасці"
+
+#~ msgid "View information about your system"
+#~ msgstr "Прагляд звестак аб сістэме"
+
+#~ msgid ""
+#~ "device;system;information;memory;processor;version;default;application;"
+#~ "preferred;cd;dvd;usb;audio;video;disc;removable;media;autorun;"
+#~ msgstr ""
+#~ "прыстасаванне;сістэма;інфармацыя;звесткі;памяць;працэсар;версія;"
+#~ "прадвызначанае;праграма;упадабанае;cd;dvd;usb;гук;аўдыя;відэа;дыск;зменны;"
+#~ "носьбіт;аўтазапуск;аўтаматычны запуск;"
+
+#~ msgid "Select how other media should be handled"
+#~ msgstr "Вызначыце, што трэба рабіць з іншымі носьбітамі даных"
+
+#~ msgid "_Action:"
+#~ msgstr "_Дзеянне:"
+
+#~ msgid "_Type:"
+#~ msgstr "_Тып:"
+
+#~ msgid "Device name"
+#~ msgstr "Назва камп'ютара"
+
+#~ msgid "Memory"
+#~ msgstr "Памяць"
+
+#~ msgid "Processor"
+#~ msgstr "Працэсар"
+
+#~ msgid "Base system"
+#~ msgstr "Базавая сістэма"
+
+#~ msgid "Disk"
+#~ msgstr "Дыск"
+
+#~ msgid "Calculating…"
+#~ msgstr "Разлік..."
+
+#~ msgid "Graphics"
+#~ msgstr "Графіка"
+
+#~ msgid "Virtualization"
+#~ msgstr "Віртуалізацыя"
+
+#~ msgid "Check for updates"
+#~ msgstr "Праверыць наяўнасць абновак"
+
+#~ msgid "_Web"
+#~ msgstr "_Сеціва"
+
+#~ msgid "_Mail"
+#~ msgstr "_Пошта"
+
+#~ msgid "_Calendar"
+#~ msgstr "_Каляндар"
+
+#~ msgid "M_usic"
+#~ msgstr "_Музыка"
+
+#~ msgid "_Video"
+#~ msgstr "_Відэа"
+
+#~ msgid "_Photos"
+#~ msgstr "_Фатаграфіі"
+
+#~ msgid "Select how media should be handled"
+#~ msgstr "Вызначыце, што трэба рабіць з носьбітамі даных"
+
+#~ msgid "CD _audio"
+#~ msgstr "_Гукавы CD"
+
+#~ msgid "_DVD video"
+#~ msgstr "_Відэа DVD"
+
+#~ msgid "_Music player"
+#~ msgstr "_Музычны плэер"
+
+#~ msgid "_Software"
+#~ msgstr "_Апраграмаванне"
+
+#~ msgid "_Other Media…"
+#~ msgstr "І_ншыя носьбіты..."
+
+#~ msgid "_Never prompt or start programs on media insertion"
+#~ msgstr "_Ніколі нічога не рабіць пры ўстаўцы новых носьбітаў даных"
+
+#~ msgid "Sound and Media"
+#~ msgstr "Гук і мультымедыі"
+
+#~ msgid "Volume mute"
+#~ msgstr "Абязгучыць"
+
+#~ msgid "Volume down"
+#~ msgstr "Паменшыць гучнасць"
+
+#~ msgid "Volume up"
+#~ msgstr "Павялічыць гучнасць"
+
+#~ msgid "Launch media player"
+#~ msgstr "Запусціць медыяпрайгравальнік"
+
+#~ msgid "Play (or play/pause)"
+#~ msgstr "Зайграць (ці зайграць/прыпыніць)"
+
+#~ msgid "Pause playback"
+#~ msgstr "Прыпыніць прайграванне"
+
+#~ msgid "Stop playback"
+#~ msgstr "Спыніць прайграванне"
+
+#~ msgid "Previous track"
+#~ msgstr "Да папярэдняга трэка"
+
+#~ msgid "Next track"
+#~ msgstr "Да наступнага трэка"
+
+#~ msgid "Eject"
+#~ msgstr "Выняць"
+
+#~ msgid "Typing"
+#~ msgstr "Пісьмо"
+
+#~ msgid "Switch to next input source"
+#~ msgstr "Пераключыць на наступную крыніцу ўводу"
+
+#~ msgid "Switch to previous input source"
+#~ msgstr "Пераключыць на папярэднюю крыніцу ўводу"
+
+#~ msgid "Launchers"
+#~ msgstr "Клавішы запуску"
+
+#~ msgid "Launch help browser"
+#~ msgstr "Запусціць аглядальнік даведкі"
+
+#~ msgid "Launch calculator"
+#~ msgstr "Запусціць калькулятар"
+
+#~ msgid "Launch email client"
+#~ msgstr "Запусціць паштовую праграму"
+
+#~ msgid "Launch web browser"
+#~ msgstr "Запусціць сеціўны аглядальнік"
+
+#~ msgid "Home folder"
+#~ msgstr "Хатняя папка"
+
+#~ msgctxt "keybinding"
+#~ msgid "Search"
+#~ msgstr "Пошук"
+
+#~ msgid "Screenshots"
+#~ msgstr "Экранныя здымкі"
+
+#~ msgid "Save a screenshot to $PICTURES"
+#~ msgstr "Захаваць здымак экрана ў папцы $PICTURES"
+
+#~ msgid "Save a screenshot of a window to $PICTURES"
+#~ msgstr "Захаваць здымак акна ў папцы $PICTURES"
+
+#~ msgid "Save a screenshot of an area to $PICTURES"
+#~ msgstr "Захаваць здымак часткі экрана ў папцы $PICTURES"
+
+#~ msgid "Copy a screenshot to clipboard"
+#~ msgstr "Скапіраваць экранны здымак у буфер абмену"
+
+#~ msgid "Copy a screenshot of a window to clipboard"
+#~ msgstr "Скапіраваць экранны здымак акна ў буфер абмену"
+
+#~ msgid "Copy a screenshot of an area to clipboard"
+#~ msgstr "Скапіраваць здымак часткі экрана ў буфер абмену"
+
+#~ msgid "Record a short screencast"
+#~ msgstr "Запісаць кароткі скрынкаст"
+
+#~ msgid "System"
+#~ msgstr "Сістэма"
+
+#~ msgid "Log out"
+#~ msgstr "Скончыць сеанс"
+
+#~ msgid "Lock screen"
+#~ msgstr "Заблакіраваць экран"
+
+#~ msgid "Universal Access"
+#~ msgstr "Універсальны доступ"
+
+#~ msgid "Turn zoom on or off"
+#~ msgstr "Уключыць/выключыць маштабаванне"
+
+#~ msgid "Zoom in"
+#~ msgstr "Набліжэнне"
+
+#~ msgid "Zoom out"
+#~ msgstr "Аддаленне"
+
+#~ msgid "Turn screen reader on or off"
+#~ msgstr "Уключыць/выключыць чытача экрана"
+
+#~ msgid "Turn on-screen keyboard on or off"
+#~ msgstr "Уключыць/выключыць экранную клавіятуру"
+
+#~ msgid "Increase text size"
+#~ msgstr "Павялічыць памер тэксту"
+
+#~ msgid "Decrease text size"
+#~ msgstr "Паменшыць памер тэксту"
+
+#~ msgid "High contrast on or off"
+#~ msgstr "Уключыць/выключыць высокую кантраснасць"
+
+#~ msgid "Alternative Characters Key"
+#~ msgstr "Клавіша альтэрнатыўных сімвалаў"
+
+#~ msgid "Compose Key"
+#~ msgstr "Compose-клавіша"
+
+#~ msgid "Modifiers-only switch to next source"
+#~ msgstr "Пераключэнне на наступную крыніцу ўводу толькі мадыфікатарамі"
+
+#~ msgid "Keyboard"
+#~ msgstr "Клавіятура"
+
+#~ msgid "View and change keyboard shortcuts and set your typing preferences"
+#~ msgstr "Настройка клавіятурных скаротаў і ўводу тэксту"
+
+#~ msgid "Shortcut;Repeat;Blink;"
+#~ msgstr "Клавіятурны скарот;Паўтор;Мільганне курсора;"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Уласны клавіятурны скарот"
+
+#~ msgid "_Name:"
+#~ msgstr "_Назва:"
+
+#~ msgid "C_ommand:"
+#~ msgstr "_Загад:"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Паўтор клавіш"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "_Уціснутыя клавішы паўтараюць увод"
+
+#~ msgid "_Delay:"
+#~ msgstr "_Затрымка:"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Хуткасць:"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Short"
+#~ msgstr "Кароткая"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Slow"
+#~ msgstr "Павольна"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Хуткасць паўтарэння клавіш"
+
+#~ msgctxt "keyboard, delay"
+#~ msgid "Long"
+#~ msgstr "Доўгая"
+
+#~ msgctxt "keyboard, speed"
+#~ msgid "Fast"
+#~ msgstr "Хутка"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Мільганне курсора"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Курсор _мільгае ў тэкставых графах"
+
+#~ msgid "S_peed:"
+#~ msgstr "_Хуткасць:"
+
+#~ msgid "Cursor blink speed"
+#~ msgstr "Хуткасць мільгання курсора"
+
+#~ msgid "Input Sources"
+#~ msgstr "Крыніцы ўводу"
+
+#~ msgid "Add Shortcut"
+#~ msgstr "Дадаць клавіятурны скарот"
+
+#~ msgid "Remove Shortcut"
+#~ msgstr "Выдаліць клавіятурны скарот"
+
+#~ msgid ""
+#~ "To edit a shortcut, click the row and hold down the new keys or press "
+#~ "Backspace to clear."
+#~ msgstr ""
+#~ "Каб змяніць скарот, пстрыкніце ў адпаведны радок і ўвядзіце новы скарот. "
+#~ "Каб ачысціць яго, проста націсніце Backspace."
+
+#~ msgid "Shortcuts"
+#~ msgstr "Клавіятурныя скароты"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Уласныя клавіятурныя скароты"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Невядомае дзеянне>"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "Немагчыма выкарыстаць клавіятурны скарот \"%s\", таму што гэта зробіць "
+#~ "немагчымым увод адпаведнага знака.\n"
+#~ "Паспрабуйце гэтую клавішу разам з Control, Alt ці Shift."
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "Клавіятурны скарот \"%s\" ужо заняты для\n"
+#~ " \"%s\""
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Клавіятурны скарот \"%2$s\" будзе выключаны, калі вы перапрызначыце гэты "
+#~ "скарот для \"%1$s\"."
+
+#~ msgid "_Reassign"
+#~ msgstr "_Перапрызначыць"
+
+#~ msgid "Test Your _Settings"
+#~ msgstr "_Выпрабаваць настройкі"
+
+#~ msgid "Test Your Settings"
+#~ msgstr "Выпрабаванне настроек"
+
+#~ msgid "Mouse & Touchpad"
+#~ msgstr "Мыш і чулая панэль"
+
+#~ msgid ""
+#~ "Change your mouse or touchpad sensitivity and select right or left-handed"
+#~ msgstr ""
+#~ "Настройка чуласці мышы і чулай панэлі, а таксама падгонка мышы пад ляўшу"
+
+#~ msgid "Trackpad;Pointer;Click;Tap;Double;Button;Trackball;Scroll;"
+#~ msgstr ""
+#~ "Чулая панэль;Паказальнік;Пстрычка;Дотык;Падвойная пстрычка;Кнопка;Трэкбол;"
+#~ "Пракрутка;"
+
+#~ msgid "General"
+#~ msgstr "Агульныя настройкі"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Slow"
+#~ msgstr "Павольна"
+
+#~ msgid "Double-click timeout"
+#~ msgstr "Затрымка падвойнай пстрычкі"
+
+#~ msgctxt "double click, speed"
+#~ msgid "Fast"
+#~ msgstr "Хутка"
+
+#~ msgid "_Double-click"
+#~ msgstr "_Падвойная пстрычка"
+
+#~ msgid "Primary _button"
+#~ msgstr "_Галоўная кнопка"
+
+#~ msgctxt "mouse, left button as primary"
+#~ msgid "_Left"
+#~ msgstr "_Левая"
+
+#~ msgctxt "mouse, right button as primary"
+#~ msgid "_Right"
+#~ msgstr "_Правая"
+
+#~ msgid "Mouse"
+#~ msgstr "Мыш"
+
+#~ msgid "_Pointer speed"
+#~ msgstr "_Хуткасць паказальніка"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Павольна"
+
+#~ msgctxt "mouse pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Хутка"
+
+#~ msgid "Touchpad"
+#~ msgstr "Чулая панэль"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Slow"
+#~ msgstr "Павольна"
+
+#~ msgctxt "touchpad pointer, speed"
+#~ msgid "Fast"
+#~ msgstr "Хутка"
+
+#~ msgid "Disable while _typing"
+#~ msgstr "В_ыключаць падчас пісання"
+
+#~ msgid "Tap to _click"
+#~ msgstr "_Дотык як пстрычка"
+
+#~ msgid "Two _finger scroll"
+#~ msgstr "Пракрутка д_вума пальцамі"
+
+#~ msgid "_Natural scrolling"
+#~ msgstr "_Натуральная пракрутка"
+
+#~ msgid "Try clicking, double clicking, scrolling"
+#~ msgstr ""
+#~ "Паспрабуйце папстрыкаць (адзін раз і двойчы), а таксама пракруціць "
+#~ "змесціва"
+
+#~ msgid "Five clicks, GEGL time!"
+#~ msgstr "Пяць пстрычак, час на GEGL!"
+
+#~ msgid "Double click, primary button"
+#~ msgstr "Падвойная пстрычка, галоўная кнопка"
+
+#~ msgid "Single click, primary button"
+#~ msgstr "Адна пстрычка, галоўная кнопка"
+
+#~ msgid "Double click, middle button"
+#~ msgstr "Падвойная пстрычка, сярэдняя кнопка"
+
+#~ msgid "Single click, middle button"
+#~ msgstr "Адна пстрычка, сярэдняя кнопка"
+
+#~ msgid "Double click, secondary button"
+#~ msgstr "Падвойная пстрычка, дадатковая кнопка"
+
+#~ msgid "Single click, secondary button"
+#~ msgstr "Адна пстрычка, дадатковая кнопка"
+
+#~ msgid "Air_plane Mode"
+#~ msgstr "Рэжым \"у сама_лёце\""
+
+#~ msgid "Network proxy"
+#~ msgstr "Сеткавы проксі-сервер"
+
+#, c-format
+#~ msgid "%s VPN"
+#~ msgstr "%s VPN"
+
+#~ msgid "The system network services are not compatible with this version."
+#~ msgstr "Сістэмная сеткавая служба не сумяшчальная з гэтай версіяй."
+
+#~ msgid "802.1x _Security"
+#~ msgstr "_Бяспека 802.1x"
+
+#~ msgid "page 1"
+#~ msgstr "аркуш 1"
+
+#~ msgid "Anony_mous identity"
+#~ msgstr "_Ананімная ідэнтычнасць"
+
+#~ msgid "Inner _authentication"
+#~ msgstr "_Унутраная ідэнтыфікацыя"
+
+#~ msgid "page 2"
+#~ msgstr "аркуш 2"
+
+#~ msgid "Security"
+#~ msgstr "Бяспека"
+
+#~ msgid "automatic"
+#~ msgstr "аўтаматычна"
+
+#~ msgid "WEP"
+#~ msgstr "WEP"
+
+#~ msgid "WPA"
+#~ msgstr "WPA"
+
+#~ msgid "WPA2"
+#~ msgstr "WPA2"
+
+#~ msgid "Enterprise"
+#~ msgstr "Enterprise"
+
+#~ msgctxt "Wifi security"
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgid "Never"
+#~ msgstr "Ніколі"
+
+#, c-format
+#~ msgid "%i day ago"
+#~ msgid_plural "%i days ago"
+#~ msgstr[0] "%i дзень таму"
+#~ msgstr[1] "%i дні таму"
+#~ msgstr[2] "%i дзён таму"
+
+#, c-format
+#~ msgid "%d Mb/s"
+#~ msgstr "%d Мб/с"
+
+#~ msgctxt "Signal strength"
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Weak"
+#~ msgstr "Слабы"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Ok"
+#~ msgstr "Здавальняючы"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Good"
+#~ msgstr "Добры"
+
+#~ msgctxt "Signal strength"
+#~ msgid "Excellent"
+#~ msgstr "Выдатны"
+
+#~ msgid "Identity"
+#~ msgstr "Ідэнтычнасць"
+
+#~ msgid "Address"
+#~ msgstr "Адрас"
+
+#~ msgid "Netmask"
+#~ msgstr "Сеткавая маска"
+
+#~ msgid "Gateway"
+#~ msgstr "Сеткавая брама"
+
+#~ msgid "Delete Address"
+#~ msgstr "Выдаліць адрас"
+
+#~ msgid "Add"
+#~ msgstr "Дадаць"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Delete DNS Server"
+#~ msgstr "Выдаліць DNS-сервер"
+
+#~ msgctxt "network parameters"
+#~ msgid "Metric"
+#~ msgstr "Метрыка"
+
+#~ msgid "Delete Route"
+#~ msgstr "Выдаліць маршрут"
+
+#~ msgid "Automatic (DHCP)"
+#~ msgstr "Аўтаматычна (DHCP)"
+
+#~ msgid "Manual"
+#~ msgstr "Уручную"
+
+#~ msgid "Link-Local Only"
+#~ msgstr "Толькі лакальна"
+
+#~ msgid "IPv4"
+#~ msgstr "IPv4"
+
+#~ msgid "Prefix"
+#~ msgstr "Прэфікс"
+
+#~ msgid "Automatic"
+#~ msgstr "Аўтаматычна"
+
+#~ msgid "Automatic, DHCP only"
+#~ msgstr "Аўтаматычна, толькі DHCP"
+
+#~ msgid "IPv6"
+#~ msgstr "IPv6"
+
+#~ msgid "Reset"
+#~ msgstr "Ануляваць"
+
+#~ msgctxt "Wi-Fi/Ethernet security"
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgid "WEP 40/128-bit Key (Hex or ASCII)"
+#~ msgstr "WEP, 40/128-бітны ключ (Hex ці ASCII)"
+
+#~ msgid "WEP 128-bit Passphrase"
+#~ msgstr "WEP, 128-бітная парольная фраза"
+
+#~ msgid "LEAP"
+#~ msgstr "LEAP"
+
+#~ msgid "Dynamic WEP (802.1x)"
+#~ msgstr "Дынамічны WEP (802.1x)"
+
+#~ msgid "WPA & WPA2 Personal"
+#~ msgstr "WPA & WPA2 Personal"
+
+#~ msgid "WPA & WPA2 Enterprise"
+#~ msgstr "WPA & WPA2 Enterprise"
+
+#~ msgid "Signal Strength"
+#~ msgstr "Магутнасць сігналу"
+
+#~ msgid "Link speed"
+#~ msgstr "Хуткасць злучэння"
+
+#~ msgid "IPv4 Address"
+#~ msgstr "IPv4-адрас"
+
+#~ msgid "IPv6 Address"
+#~ msgstr "IPv6-адрас"
+
+#~ msgid "Hardware Address"
+#~ msgstr "Апаратны адрас"
+
+#~ msgid "Default Route"
+#~ msgstr "Прадвызначаны маршрут"
+
+#~ msgid "DNS"
+#~ msgstr "DNS"
+
+#~ msgid "Last Used"
+#~ msgstr "Апошняе выкарыстанне"
+
+#~ msgid "Twisted Pair (TP)"
+#~ msgstr "Вітая пара"
+
+#~ msgid "Attachment Unit Interface (AUI)"
+#~ msgstr "Attachment Unit Interface (AUI)"
+
+#~ msgid "BNC"
+#~ msgstr "BNC"
+
+#~ msgid "Media Independent Interface (MII)"
+#~ msgstr "Media Independent Interface (MII)"
+
+#~ msgid "10 Mb/s"
+#~ msgstr "10 Мбіт/с"
+
+#~ msgid "100 Mb/s"
+#~ msgstr "100 Мбіт/с"
+
+#~ msgid "1 Gb/s"
+#~ msgstr "1 Гбіт/с"
+
+#~ msgid "10 Gb/s"
+#~ msgstr "10 Гб/с"
+
+#~ msgid "_Name"
+#~ msgstr "_Назва"
+
+#~ msgid "_MAC Address"
+#~ msgstr "MAC-_адрас"
+
+#~ msgid "M_TU"
+#~ msgstr "_MTU"
+
+#~ msgid "_Cloned Address"
+#~ msgstr "_Кланіраваны адрас"
+
+#~ msgid "bytes"
+#~ msgstr "байтаў"
+
+#~ msgid "Make available to other _users"
+#~ msgstr "Падзяліцца з іншымі _карыстальнікамі"
+
+#~ msgid "Connect _automatically"
+#~ msgstr "_Злучаць аўтаматычна"
+
+#~ msgid "Firewall _Zone"
+#~ msgstr "_Зона брандмаўэра"
+
+#~ msgctxt "Firewall zone"
+#~ msgid "Default"
+#~ msgstr "Прадвызначаная"
+
+#~ msgid "The zone defines the trust level of the connection"
+#~ msgstr "Зона вызначае ўзровень даверу да злучэння"
+
+#~ msgid "IPv_4"
+#~ msgstr "IPv_4"
+
+#~ msgid "_Addresses"
+#~ msgstr "_Адрасы"
+
+#~ msgid "Automatic DNS"
+#~ msgstr "Аўтаматычны DNS"
+
+#~ msgid "Routes"
+#~ msgstr "Маршруты"
+
+#~ msgid "Automatic Routes"
+#~ msgstr "Аўтаматычныя маршруты"
+
+#~ msgid "Use this connection _only for resources on its network"
+#~ msgstr "_Ужыць гэта злучэнне толькі для рэсурсаў гэтай сеткі"
+
+#~ msgid "IPv_6"
+#~ msgstr "IPv_6"
+
+#~ msgid "Unable to open connection editor"
+#~ msgstr "Не ўдалося адкрыць рэдактар злучэння"
+
+#~ msgid "New Profile"
+#~ msgstr "Новы профіль"
+
+#~ msgid "VPN"
+#~ msgstr "VPN"
+
+#~ msgid "Bond"
+#~ msgstr "Bond"
+
+#~ msgid "Team"
+#~ msgstr "Каманда"
+
+#~ msgid "Bridge"
+#~ msgstr "Мост"
+
+#~ msgid "VLAN"
+#~ msgstr "VLAN"
+
+#~ msgid "Could not load VPN plugins"
+#~ msgstr "Не ўдалося загрузіць VPN-плугіны"
+
+#~ msgid "Import from file…"
+#~ msgstr "Імпартаваць з файла..."
+
+#~ msgid "Add Network Connection"
+#~ msgstr "Дадаць сеткавае злучэнне"
+
+#~ msgid "_Reset"
+#~ msgstr "_Ануляваць"
+
+#~ msgid "_Forget"
+#~ msgstr "_Забыць"
+
+#~ msgid ""
+#~ "Reset the settings for this network, including passwords, but remember it "
+#~ "as a preferred network"
+#~ msgstr ""
+#~ "Ануляваць настройкі гэтай сеткі, у тым ліку паролі, але запомніць, што "
+#~ "яна была ў спісе ўпадабаных сетак"
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect"
+#~ msgstr ""
+#~ "Выдаліць усе падрабязнасці аб гэтай сетцы і больш не злучацца з ёй "
+#~ "аўтаматычна"
+
+#~ msgid "S_ecurity"
+#~ msgstr "_Бяспека"
+
+#~ msgid "Cannot import VPN connection"
+#~ msgstr "Не ўдалося імпартаваць VPN-злучэнне"
+
+#, c-format
+#~ msgid ""
+#~ "The file '%s' could not be read or does not contain recognized VPN "
+#~ "connection information\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Файл \"%s\" нечытэльны або не змяшчае зразумелай інфармацыі аб VPN-"
+#~ "злучэнні\n"
+#~ "\n"
+#~ "Памылка: %s."
+
+#~ msgid "Select file to import"
+#~ msgstr "Выберыце файл для імпартавання"
+
+#, c-format
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Файл з назвай \"%s\" ужо існуе."
+
+#~ msgid "_Replace"
+#~ msgstr "_Замяніць"
+
+#, c-format
+#~ msgid "Do you want to replace %s with the VPN connection you are saving?"
+#~ msgstr "Замяніць %s новым VPN-злучэннем?"
+
+#~ msgid "Cannot export VPN connection"
+#~ msgstr "Не ўдалося экспартаваць VPN-злучэнне"
+
+#, c-format
+#~ msgid ""
+#~ "The VPN connection '%s' could not be exported to %s.\n"
+#~ "\n"
+#~ "Error: %s."
+#~ msgstr ""
+#~ "Не ўдалося экспартаваць VPN-злучэнне \"%s\" у %s.\n"
+#~ "\n"
+#~ "Памылка: %s."
+
+#~ msgid "Export VPN connection..."
+#~ msgstr "Экспартаваць VPN-злучэнне..."
+
+#~ msgid "(Error: unable to load VPN connection editor)"
+#~ msgstr "(Памылка: не ўдалося загрузіць рэдактар VPN-злучэння)"
+
+#~ msgid "_SSID"
+#~ msgstr "_SSID"
+
+#~ msgid "_BSSID"
+#~ msgstr "_BSSID"
+
+#~ msgid "My Home Network"
+#~ msgstr "Мая дамашняя сетка"
+
+#~ msgid "Make available to _other users"
+#~ msgstr "Падзяліцца з іншымі _карыстальнікамі"
+
+#~ msgid "Network"
+#~ msgstr "Сетка"
+
+#~ msgid "Control how you connect to the Internet"
+#~ msgstr "Настройка злучэння з сецівам"
+
+#~ msgid ""
+#~ "Network;Wireless;Wi-Fi;Wifi;IP;LAN;Proxy;WAN;Broadband;Modem;Bluetooth;"
+#~ "vpn;vlan;bridge;bond;"
+#~ msgstr ""
+#~ "Сетка;Бесправадная сетка;Wi-Fi;Wifi;IP;LAN;Проксі;WAN;Шырокапалосны "
+#~ "доступ;Мадэм;Bluetooth;vpn;vlan;bridge;bond;"
+
+#~ msgid "Bond slaves"
+#~ msgstr "Звязаць падпарадкаваныя інтэрфейсы"
+
+#~ msgid "(none)"
+#~ msgstr "(нічога)"
+
+#~ msgid "Bridge slaves"
+#~ msgstr "Інтэрфейсы моста"
+
+#~ msgid "never"
+#~ msgstr "ніколі"
+
+#~ msgid "today"
+#~ msgstr "сёння"
+
+#~ msgid "yesterday"
+#~ msgstr "учора"
+
+#~ msgid "IP Address"
+#~ msgstr "IP-адрас"
+
+#~ msgid "Last used"
+#~ msgstr "Апошняе выкарыстанне"
+
+#~ msgid "Wired"
+#~ msgstr "Правадное злучэнне"
+
+#~ msgid "Options…"
+#~ msgstr "Параметры..."
+
+#, c-format
+#~ msgid "Profile %d"
+#~ msgstr "Профіль %d"
+
+#~ msgid "Add new connection"
+#~ msgstr "Дадаць новае злучэнне"
+
+#~ msgid "Team slaves"
+#~ msgstr "Інтэрфейсы каманды"
+
+#~ msgid ""
+#~ "If you have a connection to the Internet other than wireless, you can set "
+#~ "up a wireless hotspot to share the connection with others."
+#~ msgstr ""
+#~ "Калі вы маеце правадное злучэнне з сецівам, вы можаце настроіць "
+#~ "бесправадны хотспот, каб падзяліцца злучэннем з астатнімі."
+
+#, c-format
+#~ msgid ""
+#~ "Switching on the wireless hotspot will disconnect you from <b>%s</b>."
+#~ msgstr "Уключэнне хотспота патрабуе адлучэння ад <b>%s</b>."
+
+#~ msgid ""
+#~ "It is not possible to access the Internet through your wireless while the "
+#~ "hotspot is active."
+#~ msgstr ""
+#~ "Вы не можаце атрымаць доступ да бесправаднога сеціва, пакуль уключаны "
+#~ "хотспот."
+
+#~ msgid "Stop hotspot and disconnect any users?"
+#~ msgstr "Спыніць хотспот і адлучыць усіх карыстальнікаў?"
+
+#~ msgid "_Stop Hotspot"
+#~ msgstr "_Спыніць хотспот"
+
+#~ msgid "System policy prohibits use as a Hotspot"
+#~ msgstr "Палітыка сістэмы забараняе рэжым хотспота"
+
+#~ msgid "Wireless device does not support Hotspot mode"
+#~ msgstr "Бесправадное прыстасаванне не падтрымлівае рэжыму хотспот"
+
+#~ msgid ""
+#~ "Network details for the selected networks, including passwords and any "
+#~ "custom configuration will be lost."
+#~ msgstr ""
+#~ "Інфармацыя аб вылучаных сетках, у тым ліку паролі і разнастайныя "
+#~ "настройкі, будзе незваротна страчана."
+
+#~ msgid "History"
+#~ msgstr "Гісторыя"
+
+#~ msgid "_Close"
+#~ msgstr "_Закрыць"
+
+#~ msgctxt "Wi-Fi Network"
+#~ msgid "_Forget"
+#~ msgstr "_Забыць"
+
+#~ msgid ""
+#~ "Web Proxy Autodiscovery is used when a Configuration URL is not provided."
+#~ msgstr ""
+#~ "Калі URL-адрас настройкі не вызначаны, выкарыстоўваецца механізм "
+#~ "аўтаматычнага пошуку сеціўнага проксі-сервера."
+
+#~ msgid "This is not recommended for untrusted public networks."
+#~ msgstr ""
+#~ "Гэтая опцыя не рэкамендавана для публічных сетак, да якіх няма даверу."
+
+#~ msgid "Proxy"
+#~ msgstr "Проксі-сервер"
+
+#~ msgid "_Add Profile…"
+#~ msgstr "_Дадаць профіль..."
+
+#~ msgid "IMEI"
+#~ msgstr "IMEI"
+
+#~ msgid "Provider"
+#~ msgstr "Правайдар"
+
+#~ msgctxt "proxy method"
+#~ msgid "None"
+#~ msgstr "Ніякі"
+
+#~ msgctxt "proxy method"
+#~ msgid "Manual"
+#~ msgstr "Ручны"
+
+#~ msgctxt "proxy method"
+#~ msgid "Automatic"
+#~ msgstr "Аўтаматычны"
+
+#~ msgid "_Method"
+#~ msgstr "_Спосаб настройкі"
+
+#~ msgid "_Configuration URL"
+#~ msgstr "_URL-адрас настройкі"
+
+#~ msgid "_HTTP Proxy"
+#~ msgstr "Прок_сі-сервер НТТР"
+
+#~ msgid "H_TTPS Proxy"
+#~ msgstr "Пр_оксі-сервер НТТРS"
+
+#~ msgid "_FTP Proxy"
+#~ msgstr "Про_ксі-сервер FTP"
+
+#~ msgid "_Socks Host"
+#~ msgstr "_Вузел Socks"
+
+#~ msgid "_Ignore Hosts"
+#~ msgstr "І_гнараваць хосты"
+
+#~ msgid "HTTP proxy port"
+#~ msgstr "Порт проксі-сервера НТТР"
+
+#~ msgid "HTTPS proxy port"
+#~ msgstr "Порт проксі-сервера НТТРS"
+
+#~ msgid "FTP proxy port"
+#~ msgstr "Порт проксі-сервера FTP"
+
+#~ msgid "Socks proxy port"
+#~ msgstr "Порт проксі-сервера Socks"
+
+#~ msgid "Turn device off"
+#~ msgstr "Выключыць прыстасаванне"
+
+#~ msgid "Add Device"
+#~ msgstr "Дадаць прыстасаванне"
+
+#~ msgid "Remove Device"
+#~ msgstr "Выдаліць прыстасаванне"
+
+#~ msgid "VPN Type"
+#~ msgstr "Тып VPN-злучэння"
+
+#~ msgid "Group Name"
+#~ msgstr "Назва групы"
+
+#~ msgid "Group Password"
+#~ msgstr "Пароль групы"
+
+#~ msgid "Username"
+#~ msgstr "Імя карыстальніка"
+
+#~ msgid "Turn VPN connection off"
+#~ msgstr "Выключыць VPN-злучэнне"
+
+#~ msgid "Automatic _Connect"
+#~ msgstr "_Аўтаматычнае злучэнне"
+
+#~ msgid "details"
+#~ msgstr "падрабязнасці"
+
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgid "Show P_assword"
+#~ msgstr "_Паказваць пароль"
+
+#~ msgid "Make available to other users"
+#~ msgstr "Падзяліцца з іншымі карыстальнікамі"
+
+#~ msgid "identity"
+#~ msgstr "ідэнтычнасць"
+
+#~ msgid "Automatic (DHCP) addresses only"
+#~ msgstr "Толькі аўтаматычныя адрасы (DHCP)"
+
+#~ msgid "Link-local only"
+#~ msgstr "Толькі лакальна"
+
+#~ msgid "Shared with other computers"
+#~ msgstr "Даступна іншым камп'ютарам"
+
+#~ msgid "_Ignore automatically obtained routes"
+#~ msgstr "І_гнараваць аўтаматычна атрыманыя маршруты"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
+
+#~ msgid "ipv6"
+#~ msgstr "ipv6"
+
+#~ msgid "_Cloned MAC Address"
+#~ msgstr "_Кланіраваны MAC-адрас"
+
+#~ msgid "hardware"
+#~ msgstr "апаратура"
+
+#~ msgid ""
+#~ "Reset the settings for this connection to their defaults, but remember as "
+#~ "a preferred connection."
+#~ msgstr ""
+#~ "Ануляваць змены ў настройках гэтага злучэнне, вярнуўшы прадвызначаную "
+#~ "канфігурацыю, але запомніць, што гэтаму злучэнню была аддадзена перавага."
+
+#~ msgid ""
+#~ "Remove all details relating to this network and do not try to "
+#~ "automatically connect to it."
+#~ msgstr ""
+#~ "Выдаліць усе падрабязнасці аб гэтай сетцы і перастаць аўтаматычна "
+#~ "злучацца з ёй."
+
+#~ msgid "reset"
+#~ msgstr "ануляваць"
+
+#~ msgid "Hardware"
+#~ msgstr "Апаратура"
+
+#~ msgid "Wi-Fi Hotspot"
+#~ msgstr "Wi-Fi хотспот"
+
+#~ msgid "_Turn On"
+#~ msgstr "_Уключыць"
+
+#~ msgid "Wi-Fi"
+#~ msgstr "Wi-Fi"
+
+#~ msgid "Turn Wi-Fi off"
+#~ msgstr "Выключыць Wi-Fi"
+
+#~ msgid "_Use as Hotspot…"
+#~ msgstr "_Ужыць для хотспота..."
+
+#~ msgid "_Connect to Hidden Network…"
+#~ msgstr "_Злучыцца са схаванай сеткай..."
+
+#~ msgid "_History"
+#~ msgstr "_Гісторыя"
+
+#~ msgid "Switch off to connect to a Wi-Fi network"
+#~ msgstr "Выключыце, каб злучыцца з сеткай Wi-Fi"
+
+#~ msgid "Network Name"
+#~ msgstr "Назва сеткі"
+
+#~ msgid "Connected Devices"
+#~ msgstr "Далучаныя прыстасаванні"
+
+#~ msgid "Security type"
+#~ msgstr "Тып бяспекі"
+
+#~ msgid "Security key"
+#~ msgstr "Ключ бяспекі"
+
+#~ msgid "Ad-hoc"
+#~ msgstr "Ad-hoc"
+
+#~ msgid "Infrastructure"
+#~ msgstr "Інфраструктура"
+
+#~ msgid "Status unknown"
+#~ msgstr "Невядомы стан"
+
+#~ msgid "Unmanaged"
+#~ msgstr "Не кіруецца"
+
+#~ msgid "Unavailable"
+#~ msgstr "Недаступна"
+
+#~ msgid "Connecting"
+#~ msgstr "Злучэнне"
+
+#~ msgid "Authentication required"
+#~ msgstr "Патрабуецца ідэнтыфікацыя"
+
+#~ msgid "Connected"
+#~ msgstr "Злучана"
+
+#~ msgid "Disconnecting"
+#~ msgstr "Адлучэнне"
+
+#~ msgid "Connection failed"
+#~ msgstr "Не ўдалося злучыцца"
+
+#~ msgid "Status unknown (missing)"
+#~ msgstr "Невядомы стан (адсутнічае)"
+
+#~ msgid "Not connected"
+#~ msgstr "Не злучана"
+
+#~ msgid "Configuration failed"
+#~ msgstr "Не ўдалося настроіць прыстасаванне"
+
+#~ msgid "IP configuration failed"
+#~ msgstr "Не ўдалося настроіць IP"
+
+#~ msgid "IP configuration expired"
+#~ msgstr "Настройка IP састарэла"
+
+#~ msgid "Secrets were required, but not provided"
+#~ msgstr "Патрабуюцца сакрэтныя паролі, але яны не былі пададзеныя"
+
+#~ msgid "802.1x supplicant disconnected"
+#~ msgstr "802.1x-агент адлучаны"
+
+#~ msgid "802.1x supplicant configuration failed"
+#~ msgstr "Не ўдалося настроіць 802.1x-агента"
+
+#~ msgid "802.1x supplicant failed"
+#~ msgstr "Памылка 802.1x-агента"
+
+#~ msgid "802.1x supplicant took too long to authenticate"
+#~ msgstr "802.1x-агент надта доўга ідэнтыфікаваў сябе"
+
+#~ msgid "PPP service failed to start"
+#~ msgstr "Не ўдалося запусціць PPP-службу"
+
+#~ msgid "PPP service disconnected"
+#~ msgstr "PPP-службу адлучана"
+
+#~ msgid "PPP failed"
+#~ msgstr "Памылка PPP"
+
+#~ msgid "DHCP client failed to start"
+#~ msgstr "Не ўдалося запусціць DHCP-кліента"
+
+#~ msgid "DHCP client error"
+#~ msgstr "Памылка DHCP-кліента"
+
+#~ msgid "DHCP client failed"
+#~ msgstr "Памылка DHCP-кліента"
+
+#~ msgid "Shared connection service failed to start"
+#~ msgstr "Не ўдалося запусціць службу супольнага выкарыстання злучэння"
+
+#~ msgid "Shared connection service failed"
+#~ msgstr "Памылка службы супольнага выкарыстання злучэння"
+
+#~ msgid "AutoIP service failed to start"
+#~ msgstr "Не ўдалося запусціць службу AutoIP"
+
+#~ msgid "AutoIP service error"
+#~ msgstr "Памылка службы AutoIP"
+
+#~ msgid "AutoIP service failed"
+#~ msgstr "Памылка службы AutoIP"
+
+#~ msgid "Line busy"
+#~ msgstr "Лінія занята"
+
+#~ msgid "No dial tone"
+#~ msgstr "Няма гудка"
+
+#~ msgid "No carrier could be established"
+#~ msgstr "Не ўдалося ўсталяваць канал сувязі"
+
+#~ msgid "Dialing request timed out"
+#~ msgstr "Скончыўся тэрмін чакання адказу на набор нумару"
+
+#~ msgid "Dialing attempt failed"
+#~ msgstr "Не ўдалося набраць нумар"
+
+#~ msgid "Modem initialization failed"
+#~ msgstr "Не ўдалося ініцыяваць мадэм"
+
+#~ msgid "Failed to select the specified APN"
+#~ msgstr "Не ўдалося выбраць вызначаны APN"
+
+#~ msgid "Not searching for networks"
+#~ msgstr "Пошук сетак не ажыццяўляецца"
+
+#~ msgid "Network registration denied"
+#~ msgstr "Адмоўлена ў сеткавай рэгістрацыі"
+
+#~ msgid "Network registration timed out"
+#~ msgstr "Скончыўся тэрмін чакання сеткавай рэгістрацыі"
+
+#~ msgid "Failed to register with the requested network"
+#~ msgstr "Не ўдалося зарэгістравацца ў патрэбнай сетцы"
+
+#~ msgid "PIN check failed"
+#~ msgstr "Не ўдалося спраўдзіць PIN-код"
+
+#~ msgid "Firmware for the device may be missing"
+#~ msgstr "Адсутнічае апаратнае апраграмаванне прыстасавання"
+
+#~ msgid "Connection disappeared"
+#~ msgstr "Злучэнне раптоўна знікла"
+
+#~ msgid "Existing connection was assumed"
+#~ msgstr "Меркавалася наяўнасць злучэння"
+
+#~ msgid "Modem not found"
+#~ msgstr "Мадэм не знойдзены"
+
+#~ msgid "Bluetooth connection failed"
+#~ msgstr "Памылка Bluetooth-злучэння"
+
+#~ msgid "SIM Card not inserted"
+#~ msgstr "SIM-картка не ўстаўлена"
+
+#~ msgid "SIM Pin required"
+#~ msgstr "Патрэбны PIN-код SIM-карткі"
+
+#~ msgid "SIM Puk required"
+#~ msgstr "Патрэбны PUK-код SIM-карткі"
+
+#~ msgid "SIM wrong"
+#~ msgstr "Хібная SIM-картка"
+
+#~ msgid "InfiniBand device does not support connected mode"
+#~ msgstr "Прыстасаванне InfiniBand не падтрымлівае рэжыму злучэння"
+
+#~ msgid "Connection dependency failed"
+#~ msgstr "Не ўдалося задаволіць перадумову злучэння"
+
+#~ msgid "Firmware missing"
+#~ msgstr "Адсутнічае апаратнае апраграмаванне"
+
+#~ msgid "Cable unplugged"
+#~ msgstr "Кабель адлучаны"
+
+#~ msgid "No Certificate Authority certificate chosen"
+#~ msgstr "Сертыфікат цэнтра сертыфікацыі не выбраны"
+
+#~ msgid ""
+#~ "Not using a Certificate Authority (CA) certificate can result in "
+#~ "connections to insecure, rogue Wi-Fi networks.  Would you like to choose "
+#~ "a Certificate Authority certificate?"
+#~ msgstr ""
+#~ "Без сертыфіката цэнтра сертыфікацыі (CA) магчыма злучэнне з небяспечнымі, "
+#~ "падазронымі сеткамі Wi-Fi. Хочаце выбраць сертыфікат?"
+
+#~ msgid "Ignore"
+#~ msgstr "Ігнараваць"
+
+#~ msgid "Choose CA Certificate"
+#~ msgstr "Выберыце сертыфікат CA"
+
+#~ msgid "DER, PEM, or PKCS#12 private keys (*.der, *.pem, *.p12)"
+#~ msgstr "Закрытыя ключы DER, PEM і PKCS#12 (*.der, *.pem, *.p12)"
+
+#~ msgid "DER or PEM certificates (*.der, *.pem, *.crt, *.cer)"
+#~ msgstr "Сертыфікаты DER і PEM (*.der, *.pem, *.crt, *.cer)"
+
+#~ msgid "GTC"
+#~ msgstr "GTC"
+
+#~ msgid "MSCHAPv2"
+#~ msgstr "MSCHAPv2"
+
+#~ msgid "Choose a PAC file..."
+#~ msgstr "Выбраць PAC-файл..."
+
+#~ msgid "PAC files (*.pac)"
+#~ msgstr "PAC-файлы (*.pac)"
+
+#~ msgid "PAC _file"
+#~ msgstr "PAC-ф_айл"
+
+#~ msgid "_Inner authentication"
+#~ msgstr "_Унутраная ідэнтыфікацыя"
+
+#~ msgid "PAC pro_visioning"
+#~ msgstr "_Забеспячэнне PAC"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anonymous"
+#~ msgstr "Ананімна"
+
+#~ msgid "Authenticated"
+#~ msgstr "Паспяховая ідэнтыфікацыя"
+
+#~ msgid "Both"
+#~ msgstr "Абодва"
+
+#~ msgid "Sho_w password"
+#~ msgstr "_Паказваць пароль"
+
+#~ msgid "MD5"
+#~ msgstr "MD5"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Выбраць сертыфікат цэнтра сертыфікацыі..."
+
+#~ msgid "Version 0"
+#~ msgstr "Версія 0"
+
+#~ msgid "Version 1"
+#~ msgstr "Версія 1"
+
+#~ msgid "C_A certificate"
+#~ msgstr "_Сертыфікат CA"
+
+#~ msgid "PEAP _version"
+#~ msgstr "_Версія PEAP"
+
+#~ msgid "As_k for this password every time"
+#~ msgstr "_Штораз патрабаваць уводу гэтага пароля"
+
+#~ msgid "Unencrypted private keys are insecure"
+#~ msgstr "Незашыфраваныя закрытыя ключы небяспечныя"
+
+#~ msgid ""
+#~ "The selected private key does not appear to be protected by a password.  "
+#~ "This could allow your security credentials to be compromised.  Please "
+#~ "select a password-protected private key.\n"
+#~ "\n"
+#~ "(You can password-protect your private key with openssl)"
+#~ msgstr ""
+#~ "Выбраны закрыты ключ не абаронены паролем. Гэта азначае, што ваш мандат "
+#~ "бяспекі можа быць выкрыты зламыснікам. Выберыце закрыты ключ, абаронены "
+#~ "паролем.\n"
+#~ "\n"
+#~ "(Вы можаце абараніць ваш закрыты ключ паролем з дапамогай openssl)"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Выбраць асабісты сертыфікат..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Выбраць закрыты ключ..."
+
+#~ msgid "I_dentity"
+#~ msgstr "Ід_энтычнасць"
+
+#~ msgid "_User certificate"
+#~ msgstr "Сертыфікат _карыстальніка"
+
+#~ msgid "Private _key"
+#~ msgstr "_Закрыты ключ"
+
+#~ msgid "_Private key password"
+#~ msgstr "_Пароль да закрытага ключа"
+
+#~ msgid "PAP"
+#~ msgstr "PAP"
+
+#~ msgid "MSCHAP"
+#~ msgstr "MSCHAP"
+
+#~ msgid "CHAP"
+#~ msgstr "CHAP"
+
+#~ msgid "Don't _warn me again"
+#~ msgstr "_Больш не папярэджваць"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "Yes"
+#~ msgstr "Так"
+
+#~ msgid "TLS"
+#~ msgstr "TLS"
+
+#~ msgid "FAST"
+#~ msgstr "FAST"
+
+#~ msgid "Tunneled TLS"
+#~ msgstr "Тунэльны TLS"
+
+#~ msgid "Protected EAP (PEAP)"
+#~ msgstr "Абаронены EAP (PEAP)"
+
+#~ msgid "Au_thentication"
+#~ msgstr "Ід_энтыфікацыя"
+
+#~ msgid "1 (Default)"
+#~ msgstr "1 (прадвызначана)"
+
+#~ msgid "2"
+#~ msgstr "2"
+
+#~ msgid "3"
+#~ msgstr "3"
+
+#~ msgid "4"
+#~ msgstr "4"
+
+#~ msgid "Open System"
+#~ msgstr "Адкрытая сістэма"
+
+#~ msgid "Shared Key"
+#~ msgstr "Супольны ключ"
+
+#~ msgid "_Key"
+#~ msgstr "_Ключ"
+
+#~ msgid "Sho_w key"
+#~ msgstr "Паказаць к_люч"
+
+#~ msgid "WEP inde_x"
+#~ msgstr "WEP-і_ндэкс"
+
+#~ msgid "_Type"
+#~ msgstr "_Тып"
+
+#~ msgctxt "notifications"
+#~ msgid "Notifications"
+#~ msgstr "Апавяшчэнні"
+
+#~ msgctxt "notifications"
+#~ msgid "Sound Alerts"
+#~ msgstr "Гукавыя сігналы"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Popup Banners"
+#~ msgstr "Паказваць выплыўныя банеры"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Banners"
+#~ msgstr "Паказваць падрабязнасці ў банерах"
+
+#~ msgctxt "notifications"
+#~ msgid "View in Lock Screen"
+#~ msgstr "Паказваць на экране блакіравання"
+
+#~ msgctxt "notifications"
+#~ msgid "Show Details in Lock Screen"
+#~ msgstr "Паказваць падрабязнасці на экране блакіравання"
+
+#~ msgid "On"
+#~ msgstr "Укл"
+
+#~ msgid "Notifications"
+#~ msgstr "Апавяшчэнні"
+
+#~ msgid "Control which notifications are displayed and what they show"
+#~ msgstr "Настройка апавяшчэнняў, якія трэба паказваць, і што ў іх відаць"
+
+#~ msgid "Notifications;Banner;Message;Tray;Popup;"
+#~ msgstr ""
+#~ "Апавяшчэнні;Нагадванні;Банер;Шыльда;Паведамленне;Трэй;Абшар;Выплыўное "
+#~ "акенца;"
+
+#~ msgid "Show Pop Up Banners"
+#~ msgstr "Паказваць выплыўныя банеры"
+
+#~ msgid "Show in Lock Screen"
+#~ msgstr "Паказваць на экране блакіравання"
+
+#~ msgctxt "Online Account"
+#~ msgid "Other"
+#~ msgstr "Іншы"
+
+#~ msgid "Add Account"
+#~ msgstr "Новы конт"
+
+#~ msgid "Mail"
+#~ msgstr "Пошта"
+
+#~ msgid "Contacts"
+#~ msgstr "Кантакты"
+
+#~ msgid "Chat"
+#~ msgstr "Чат"
+
+#~ msgid "Resources"
+#~ msgstr "Рэсурсы"
+
+#~ msgid "Error logging into the account"
+#~ msgstr "Памылка ўваходу ў сеанс"
+
+#~ msgid "Credentials have expired."
+#~ msgstr "Мандатныя даныя састарэлі."
+
+#~ msgid "Sign in to enable this account."
+#~ msgstr "Увайдзіце, каб уключыць гэты конт."
+
+#~ msgid "_Sign In"
+#~ msgstr "_Увайсці"
+
+#~ msgid "Error creating account"
+#~ msgstr "Памылка стварэння конта"
+
+#~ msgid "Error removing account"
+#~ msgstr "Памылка выдалення конта"
+
+#~ msgid "This will not remove the account on the server."
+#~ msgstr "Гэтая аперацыя не выдаліць конт на серверы."
+
+#~ msgid "_Remove"
+#~ msgstr "_Выдаліць"
+
+#~ msgid "Online Accounts"
+#~ msgstr "Сеціўныя конты"
+
+#~ msgid "Connect to your online accounts and decide what to use them for"
+#~ msgstr "Злучэнне з сеціўнымі контамі і іх прызначэнне"
+
+#~ msgid ""
+#~ "Google;Facebook;Twitter;Yahoo;Web;Online;Chat;Calendar;Mail;Contact;"
+#~ "ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+#~ msgstr ""
+#~ "Google;Facebook;Twitter;Yahoo;Сеціва;Інтэрнэт;Чат;Каляндар;Календары;"
+#~ "Пошта;Кантакты;Сувязь;ownCloud;Kerberos;IMAP;SMTP;Pocket;ReadItLater;"
+
+#~ msgid "No online accounts configured"
+#~ msgstr "Адсутнічаюць настроеныя сеціўныя конты"
+
+#~ msgid "Add an online account"
+#~ msgstr "Дадаць сеціўны конт"
+
+#~ msgid ""
+#~ "Adding an account allows your applications to access it for documents, "
+#~ "mail, contacts, calendar, chat and more."
+#~ msgstr ""
+#~ "Калі вы дадасце конт, гэта дазволіць праграмам атрымаць доступ да "
+#~ "дакументаў, пошты, кантактаў, календара, чату і іншых магчымасцяў."
+
+#~ msgid "Unknown time"
+#~ msgstr "Невядомы час"
+
+#, c-format
+#~ msgid "%i minute"
+#~ msgid_plural "%i minutes"
+#~ msgstr[0] "%i хвіліна"
+#~ msgstr[1] "%i хвіліны"
+#~ msgstr[2] "%i хвілін"
+
+#, c-format
+#~ msgid "%i hour"
+#~ msgid_plural "%i hours"
+#~ msgstr[0] "%i гадзіна"
+#~ msgstr[1] "%i гадзіны"
+#~ msgstr[2] "%i гадзін"
+
+#, c-format
+#~ msgid "%i %s %i %s"
+#~ msgstr "%i %s %i %s"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "гадзіна"
+#~ msgstr[1] "гадзіны"
+#~ msgstr[2] "гадзін"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "хвіліна"
+#~ msgstr[1] "хвіліны"
+#~ msgstr[2] "хвілін"
+
+#, c-format
+#~ msgid "%s until fully charged"
+#~ msgstr "%s да поўнага зараду"
+
+#, c-format
+#~ msgid "Caution: %s remaining"
+#~ msgstr "Увага! засталося: %s"
+
+#, c-format
+#~ msgid "%s remaining"
+#~ msgstr "засталося: %s"
+
+#~ msgid "Fully charged"
+#~ msgstr "Поўнасцю зараджана"
+
+#~ msgid "Empty"
+#~ msgstr "Няма зараду"
+
+#~ msgid "Charging"
+#~ msgstr "Зарадка"
+
+#~ msgid "Discharging"
+#~ msgstr "Разрадка"
+
+#~ msgctxt "Battery name"
+#~ msgid "Main"
+#~ msgstr "Галоўная"
+
+#~ msgctxt "Battery name"
+#~ msgid "Extra"
+#~ msgstr "Дадатковая"
+
+#~ msgid "Wireless mouse"
+#~ msgstr "Бесправадная мыш"
+
+#~ msgid "Wireless keyboard"
+#~ msgstr "Бесправадная клавіятура"
+
+#~ msgid "Uninterruptible power supply"
+#~ msgstr "Крыніца бесперабойнага сілкавання"
+
+#~ msgid "Personal digital assistant"
+#~ msgstr "Асабісты лічбавы памочнік"
+
+#~ msgid "Cellphone"
+#~ msgstr "Мабільны тэлефон"
+
+#~ msgid "Media player"
+#~ msgstr "Медыяплэер"
+
+#~ msgid "Tablet"
+#~ msgstr "Планшэт"
+
+#~ msgid "Computer"
+#~ msgstr "Камп'ютар"
+
+#~ msgid "Battery"
+#~ msgstr "Батарэя"
+
+#~ msgctxt "Battery power"
+#~ msgid "Charging"
+#~ msgstr "Зарадка"
+
+#~ msgctxt "Battery power"
+#~ msgid "Caution"
+#~ msgstr "Увага"
+
+#~ msgctxt "Battery power"
+#~ msgid "Low"
+#~ msgstr "Нізкі"
+
+#~ msgctxt "Battery power"
+#~ msgid "Good"
+#~ msgstr "Добра"
+
+#~ msgctxt "Battery power"
+#~ msgid "Fully charged"
+#~ msgstr "Поўнасцю зараджана"
+
+#~ msgctxt "Battery power"
+#~ msgid "Empty"
+#~ msgstr "Няма зараду"
+
+#~ msgid "Batteries"
+#~ msgstr "Батарэі"
+
+#~ msgid "When _idle"
+#~ msgstr "У _бяздзейнасці"
+
+#~ msgid "Power Saving"
+#~ msgstr "Захаванне энергіі"
+
+#~ msgid "_Screen brightness"
+#~ msgstr "_Яркасць экрана"
+
+#~ msgid "_Keyboard brightness"
+#~ msgstr "Яркасць _клавіятуры"
+
+#~ msgid "_Dim screen when inactive"
+#~ msgstr "_Зацяняць экран у бяздзейнасці"
+
+#~ msgid "_Blank screen"
+#~ msgstr "_Ачышчаць экран"
+
+#~ msgid "_Wi-Fi"
+#~ msgstr "_Wi-Fi"
+
+#~ msgid "Turns off wireless devices"
+#~ msgstr "Выключыць бесправадныя прыстасаванні"
+
+#~ msgid "_Mobile broadband"
+#~ msgstr "_Мабільнае шырокапалоснае злучэнне"
+
+#~ msgid "Turns off mobile broadband (3G, 4G, WiMax, etc.) devices"
+#~ msgstr ""
+#~ "Выключыць мабільныя прыстасаванні шырокапалоснага Інтэрнэту (3G, 4G, "
+#~ "WiMax і інш.)"
+
+#~ msgid "_Bluetooth"
+#~ msgstr "_Bluetooth"
+
+#~ msgid "When on battery power"
+#~ msgstr "Сілкуючыся з батарэі"
+
+#~ msgid "When plugged in"
+#~ msgstr "Сілкуючыся ад блока сілкавання"
+
+#~ msgid "Suspend & Power Off"
+#~ msgstr "Супынак і выключэнне"
+
+#~ msgid "_Automatic suspend"
+#~ msgstr "_Аўтаматычны супынак"
+
+#~ msgid "When battery power is _critical"
+#~ msgstr "Калі _батарэя крытычна блізкая да вычарпання энергіі"
+
+#~ msgid "Power Off"
+#~ msgstr "Выключэнне камп'ютара"
+
+#~ msgid "Devices"
+#~ msgstr "Прыстасаванні"
+
+#~ msgid "Power"
+#~ msgstr "Энергія"
+
+#~ msgid "View your battery status and change power saving settings"
+#~ msgstr "Прагляд стану акумулятара і настройка ашчаджэння энергіі"
+
+#~ msgid ""
+#~ "Power;Sleep;Suspend;Hibernate;Battery;Brightness;Dim;Blank;Monitor;DPMS;"
+#~ "Idle;"
+#~ msgstr ""
+#~ "Энергія;Сілкаванне;Сон;Супынак;Гібернацыя;Батарэя;Акумулятар;Яркасць;"
+#~ "Зацяненне;Ачыстка;Манітор;DPMS;Бяздзейнасць;"
+
+#~ msgid "Hibernate"
+#~ msgstr "Гібернацыя"
+
+#~ msgid "Power off"
+#~ msgstr "Выключыць камп'ютар"
+
+#~ msgid "45 minutes"
+#~ msgstr "45 хвілін"
+
+#~ msgid "1 hour"
+#~ msgstr "1 гадзіна"
+
+#~ msgid "80 minutes"
+#~ msgstr "80 хвілін"
+
+#~ msgid "90 minutes"
+#~ msgstr "90 хвілін"
+
+#~ msgid "100 minutes"
+#~ msgstr "100 хвілін"
+
+#~ msgid "2 hours"
+#~ msgstr "2 гадзіны"
+
+#~ msgid "1 minute"
+#~ msgstr "1 хвіліна"
+
+#~ msgid "2 minutes"
+#~ msgstr "2 хвіліны"
+
+#~ msgid "3 minutes"
+#~ msgstr "3 хвіліны"
+
+#~ msgid "4 minutes"
+#~ msgstr "4 хвіліны"
+
+#~ msgid "5 minutes"
+#~ msgstr "5 хвілін"
+
+#~ msgid "8 minutes"
+#~ msgstr "8 хвілін"
+
+#~ msgid "10 minutes"
+#~ msgstr "10 хвілін"
+
+#~ msgid "12 minutes"
+#~ msgstr "12 хвілін"
+
+#~ msgid "Automatic Suspend"
+#~ msgstr "Аўтаматычны супынак"
+
+#~ msgid "_Plugged In"
+#~ msgstr "Ад б_лока сілкавання"
+
+#~ msgid "On _Battery Power"
+#~ msgstr "З _батарэі"
+
+#~ msgid "Delay"
+#~ msgstr "Затрымка"
+
+#~ msgid "Authenticate"
+#~ msgstr "Ідэнтыфікавацца"
+
+#~ msgid "Authentication Required"
+#~ msgstr "Патрабуецца ідэнтыфікацыя"
+
+#~ msgid "Low on toner"
+#~ msgstr "Амаль няма тонеру"
+
+#~ msgid "Out of toner"
+#~ msgstr "Няма тонеру"
+
+#~ msgid "Low on developer"
+#~ msgstr "Амаль няма праяўляльніка"
+
+#~ msgid "Out of developer"
+#~ msgstr "Няма праяўляльніка"
+
+#~ msgid "Low on a marker supply"
+#~ msgstr "Амаль няма фарбы аднаго з колераў"
+
+#~ msgid "Out of a marker supply"
+#~ msgstr "Няма фарбы аднаго з колераў"
+
+#~ msgid "Open cover"
+#~ msgstr "Адчыненае вечка"
+
+#~ msgid "Open door"
+#~ msgstr "Адчыненыя дзверцы"
+
+#~ msgid "Low on paper"
+#~ msgstr "Амаль няма паперы"
+
+#~ msgid "Out of paper"
+#~ msgstr "Няма паперы"
+
+#~ msgctxt "printer state"
+#~ msgid "Offline"
+#~ msgstr "Адлучаны"
+
+#~ msgctxt "printer state"
+#~ msgid "Stopped"
+#~ msgstr "Спынены"
+
+#~ msgid "Waste receptacle almost full"
+#~ msgstr "Кантэйнер для лішкаў фарбы амаль поўны"
+
+#~ msgid "Waste receptacle full"
+#~ msgstr "Кантэйнер для лішкаў фарбы поўны"
+
+#~ msgid "The optical photo conductor is near end of life"
+#~ msgstr "Аптычны фотарэзістар амаль вычарпаў свой рэсурс"
+
+#~ msgid "The optical photo conductor is no longer functioning"
+#~ msgstr "Аптычны фотарэзістар больш не працуе"
+
+#~ msgctxt "printer state"
+#~ msgid "Ready"
+#~ msgstr "Гатовы"
+
+#~ msgctxt "printer state"
+#~ msgid "Does not accept jobs"
+#~ msgstr "Не прымае заданняў"
+
+#~ msgctxt "printer state"
+#~ msgid "Processing"
+#~ msgstr "Апрацоўванне"
+
+#~ msgid "Toner Level"
+#~ msgstr "Узровень тонеру"
+
+#~ msgid "Ink Level"
+#~ msgstr "Узровень чарніла"
+
+#~ msgid "Supply Level"
+#~ msgstr "Узровень рэсурса"
+
+#~ msgctxt "printer state"
+#~ msgid "Installing"
+#~ msgstr "Усталяванне"
+
+#~ msgid "No printers available"
+#~ msgstr "Няма прынтараў"
+
+#, c-format
+#~ msgid "%u active"
+#~ msgid_plural "%u active"
+#~ msgstr[0] "%u актыўнае заданне"
+#~ msgstr[1] "%u актыўныя заданні"
+#~ msgstr[2] "%u актыўных заданняў"
+
+#~ msgid "Failed to add new printer."
+#~ msgstr "Не ўдалося дадаць новы прынтар."
+
+#~ msgid "Select PPD File"
+#~ msgstr "Выбар файла PDD"
+
+#~ msgid ""
+#~ "PostScript Printer Description files (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+#~ msgstr ""
+#~ "Файлы апісання прынтараў PostScript (*.ppd, *.PPD, *.ppd.gz, *.PPD.gz, *."
+#~ "PPD.GZ)"
+
+#~ msgid "No suitable driver found"
+#~ msgstr "Прыдатны драйвер не знойдзены"
+
+#~ msgid "Searching for preferred drivers…"
+#~ msgstr "Пошук найлепшага драйвера..."
+
+#~ msgid "Select from database…"
+#~ msgstr "Выбраць з базы даных..."
+
+#~ msgid "Provide PPD File…"
+#~ msgstr "Падаць PPD-файл..."
+
+#~ msgid "Test page"
+#~ msgstr "Тэставая старонка"
+
+#, c-format
+#~ msgid "Could not load ui: %s"
+#~ msgstr "Не ўдалося загрузіць інтэрфейс: %s"
+
+#~ msgid "Printers"
+#~ msgstr "Прынтары"
+
+#~ msgid "Add printers, view printer jobs and decide how you want to print"
+#~ msgstr "Падлучэнне прынтараў, прагляд іх заданняў і настройка друку"
+
+#~ msgid "Printer;Queue;Print;Paper;Ink;Toner;"
+#~ msgstr "Прынтар;Чарга;Друк;Папера;Аркуш;Чарніла;Тонер;"
+
+#~ msgid "Active Jobs"
+#~ msgstr "Актыўныя заданні"
+
+#~ msgid "Close"
+#~ msgstr "Закрыць"
+
+#~ msgid "Resume Printing"
+#~ msgstr "Працягнуць друк"
+
+#~ msgid "Pause Printing"
+#~ msgstr "Прыпыніць друк"
+
+#~ msgid "Cancel Print Job"
+#~ msgstr "Скасаваць заданне друку"
+
+#~ msgid "Add a New Printer"
+#~ msgstr "Даданне новага прынтара"
+
+#~ msgid "A_uthenticate"
+#~ msgstr "Ід_энтыфікавацца"
+
+#~ msgid "No printers detected."
+#~ msgstr "Прынтары не апазнаныя."
+
+#~ msgid "Enter address of a printer or a text to filter results"
+#~ msgstr "Увядзіце адрас прынтара або тэкставы фільтр для пошуку"
+
+#~ msgid "Loading options…"
+#~ msgstr "Загрузка опцый..."
+
+#~ msgid "Select Printer Driver"
+#~ msgstr "Выбар драйвера прынтара"
+
+#~ msgid "Loading drivers database..."
+#~ msgstr "Загрузка базы даных драйвераў..."
+
+#~ msgid "One Sided"
+#~ msgstr "З аднаго боку"
+
+#~ msgid "Long Edge (Standard)"
+#~ msgstr "Доўгі край (звычайна)"
+
+#~ msgid "Short Edge (Flip)"
+#~ msgstr "Кароткі край (перакулена)"
+
+#~ msgid "Portrait"
+#~ msgstr "Партрэт"
+
+#~ msgid "Landscape"
+#~ msgstr "Пейзаж"
+
+#~ msgid "Reverse landscape"
+#~ msgstr "Перакулены пейзаж"
+
+#~ msgid "Reverse portrait"
+#~ msgstr "Перакулены партрэт"
+
+#~ msgctxt "print job"
+#~ msgid "Pending"
+#~ msgstr "У чаканні"
+
+#~ msgctxt "print job"
+#~ msgid "Held"
+#~ msgstr "Затрымана"
+
+#~ msgctxt "print job"
+#~ msgid "Processing"
+#~ msgstr "Апрацоўванне"
+
+#~ msgctxt "print job"
+#~ msgid "Stopped"
+#~ msgstr "Спынена"
+
+#~ msgctxt "print job"
+#~ msgid "Canceled"
+#~ msgstr "Скасавана"
+
+#~ msgctxt "print job"
+#~ msgid "Aborted"
+#~ msgstr "Перарвана"
+
+#~ msgctxt "print job"
+#~ msgid "Completed"
+#~ msgstr "Скончана"
+
+#~ msgid "Job Title"
+#~ msgstr "Назва задання"
+
+#~ msgid "Job State"
+#~ msgstr "Стан задання"
+
+#~ msgid "Time"
+#~ msgstr "Час"
+
+#, c-format
+#~ msgid "%s Active Jobs"
+#~ msgstr "Актыўныя заданні %s"
+
+#~ msgid "USB"
+#~ msgstr "USB"
+
+#~ msgid "Serial Port"
+#~ msgstr "Паслядоўны порт"
+
+#~ msgid "Parallel Port"
+#~ msgstr "Паралельны порт"
+
+#, c-format
+#~ msgid "Location: %s"
+#~ msgstr "Месцазнаходжанне: %s"
+
+#, c-format
+#~ msgid "Address: %s"
+#~ msgstr "Адрас: %s"
+
+#~ msgid "Server requires authentication"
+#~ msgstr "Сервер патрабуе ідэнтыфікацыі"
+
+#~ msgid "Two Sided"
+#~ msgstr "З двух бакоў"
+
+#~ msgid "Paper Type"
+#~ msgstr "Тып паперы"
+
+#~ msgid "Paper Source"
+#~ msgstr "Крыніца паперы"
+
+#~ msgid "Output Tray"
+#~ msgstr "Выхадны трэй"
+
+#~ msgid "GhostScript pre-filtering"
+#~ msgstr "Папярэдняя GhostScript-фільтрацыя"
+
+#~ msgid "Pages per side"
+#~ msgstr "Старонак на бачыне"
+
+#~ msgid "Two-sided"
+#~ msgstr "Двухбаковы"
+
+#~ msgid "Orientation"
+#~ msgstr "Арыентацыя"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "General"
+#~ msgstr "Агульнае"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Page Setup"
+#~ msgstr "Наладка аркушаў"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Installable Options"
+#~ msgstr "Магчымыя опцыі"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Job"
+#~ msgstr "Заданне"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Image Quality"
+#~ msgstr "Якасць выявы"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Color"
+#~ msgstr "Колер"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Finishing"
+#~ msgstr "Аздабленне"
+
+#~ msgctxt "Printer Option Group"
+#~ msgid "Advanced"
+#~ msgstr "Адмысловае"
+
+#~ msgid "Auto Select"
+#~ msgstr "Аўтаматычна"
+
+#~ msgid "Printer Default"
+#~ msgstr "Прадвызначана для прынтара"
+
+#~ msgid "Embed GhostScript fonts only"
+#~ msgstr "Укараняць толькі шрыфты GhostScript"
+
+#~ msgid "Convert to PS level 1"
+#~ msgstr "Пераўтварыць у PS-1"
+
+#~ msgid "Convert to PS level 2"
+#~ msgstr "Пераўтварыць у PS-2"
+
+#~ msgid "No pre-filtering"
+#~ msgstr "Без папярэдняга фільтравання"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Вытворца"
+
+#~ msgid "Driver"
+#~ msgstr "Драйвер"
+
+#, c-format
+#~ msgid "Enter your username and password to view printers available on %s."
+#~ msgstr ""
+#~ "Увядзіце імя карыстальніка і пароль для прагляду прынтараў, даступных на "
+#~ "%s."
+
+#~ msgid "Add Printer"
+#~ msgstr "Дадаць прынтар"
+
+#~ msgid "Remove Printer"
+#~ msgstr "Выдаліць прынтар"
+
+#~ msgid "Supply"
+#~ msgstr "Рэсурс"
+
+#~ msgid "Location"
+#~ msgstr "Месцазнаходжанне"
+
+#~ msgid "_Default printer"
+#~ msgstr "_Прадвызначаны прынтар"
+
+#~ msgid "Jobs"
+#~ msgstr "Заданні"
+
+#~ msgid "Show _Jobs"
+#~ msgstr "Паглядзець _заданні"
+
+#~ msgid "Model"
+#~ msgstr "Мадэль"
+
+#~ msgid "label"
+#~ msgstr "подпіс"
+
+#~ msgid "Setting new driver…"
+#~ msgstr "Прызначэнне новага драйвера..."
+
+#~ msgid "page 3"
+#~ msgstr "аркуш 3"
+
+#~ msgid "Print _Test Page"
+#~ msgstr "Надрукаваць _тэставую старонку"
+
+#~ msgid "_Options"
+#~ msgstr "_Параметры"
+
+#~ msgid "Add New Printer"
+#~ msgstr "Дадаць новы прынтар"
+
+#~ msgid ""
+#~ "Sorry! The system printing service\n"
+#~ "doesn't seem to be available."
+#~ msgstr ""
+#~ "Сістэмная служба друку\n"
+#~ "недаступная."
+
+#~ msgid "Screen Lock"
+#~ msgstr "Блакіраванне экрана"
+
+#~ msgid "Usage & History"
+#~ msgstr "Выкарыстанне і журнал гісторыі"
+
+#~ msgid "Empty all items from Trash?"
+#~ msgstr "Ачысціць сметніцу ад усяго яе змесціва?"
+
+#~ msgid "All items in the Trash will be permanently deleted."
+#~ msgstr "Усё змесціва сметніцы будзе незваротна выдалена."
+
+#~ msgid "_Empty Trash"
+#~ msgstr "_Ачысціць сметніцу"
+
+#~ msgid "Delete all the temporary files?"
+#~ msgstr "Выдаліць усе часовыя файлы?"
+
+#~ msgid "All the temporary files will be permanently deleted."
+#~ msgstr "Усе часовыя файлы будуць незваротна выдаленыя."
+
+#~ msgid "_Purge Temporary Files"
+#~ msgstr "_Выдаліць часовыя файлы"
+
+#~ msgid "Purge Trash & Temporary Files"
+#~ msgstr "Ачысціць сметніцу і часовыя файлы"
+
+#~ msgid "Software Usage"
+#~ msgstr "Выкарыстанне апраграмавання"
+
+#~ msgid "Privacy"
+#~ msgstr "Прыватнасць"
+
+#~ msgid "Protect your personal information and control what others might see"
+#~ msgstr ""
+#~ "Абарона асабістых звестак і кіраванне дазволамі на прагляд для іншых "
+#~ "карыстальнікаў"
+
+#~ msgid ""
+#~ "screen;lock;diagnostics;crash;private;recent;temporary;tmp;index;name;"
+#~ "network;identity;"
+#~ msgstr ""
+#~ "экран;блакіраванне;дыягностыка;аварыя;прыватны;нядаўні;часовы;назва;імя;"
+#~ "сетка;сеціва;ідэнтыфікацыя;асоба;"
+
+#~ msgid "Screen Turns Off"
+#~ msgstr "Выключэнне экрана"
+
+#~ msgid "30 seconds"
+#~ msgstr "30 секунд"
+
+#~ msgid "Immediately"
+#~ msgstr "Не чакаючы"
+
+#~ msgid "1 day"
+#~ msgstr "1 дзень"
+
+#~ msgid "2 days"
+#~ msgstr "2 дні"
+
+#~ msgid "3 days"
+#~ msgstr "3 дні"
+
+#~ msgid "4 days"
+#~ msgstr "4 дні"
+
+#~ msgid "5 days"
+#~ msgstr "5 дзён"
+
+#~ msgid "6 days"
+#~ msgstr "6 дзён"
+
+#~ msgid "7 days"
+#~ msgstr "7 дзён"
+
+#~ msgid "14 days"
+#~ msgstr "14 дзён"
+
+#~ msgid "30 days"
+#~ msgstr "30 дзён"
+
+#~ msgid "Forever"
+#~ msgstr "Заўсёды"
+
+#~ msgid ""
+#~ "Remembering your history makes things easier to find again. These items "
+#~ "are never shared over the network."
+#~ msgstr ""
+#~ "Калі камп'ютар захоўвае гісторыю, прасцей знайсці што-небудзь патрэбнае. "
+#~ "Такая інфармацыя ніколі не робіцца даступнай у сетцы."
+
+#~ msgid "Cl_ear Recent History"
+#~ msgstr "Ачысціць _гісторыю нядаўніх наведванняў"
+
+#~ msgid "_Recently Used"
+#~ msgstr "_Нядаўняе"
+
+#~ msgid "Retain _History"
+#~ msgstr "Захоўваць _гісторыю"
+
+#~ msgid "The Screen Lock protects your privacy when you are away."
+#~ msgstr ""
+#~ "Экран блакіравання захоўвае таемнасць вашых даных у час вашай адсутнасці."
+
+#~ msgid "Automatic Screen _Lock"
+#~ msgstr "_Аўтаматычнае блакіраванне экрана"
+
+#~ msgid "Lock screen _after blank for"
+#~ msgstr "_Блакіраваць ачышчаны экран праз"
+
+#~ msgid "Show _Notifications"
+#~ msgstr "Паказваць _апавяшчэнні"
+
+#~ msgid ""
+#~ "Automatically purge the Trash and temporary files to help keep your "
+#~ "computer free of unnecessary sensitive information."
+#~ msgstr ""
+#~ "Аўтаматычная ачыстка сметніцы і часовых файлаў дапаможа ў час пазбаўляцца "
+#~ "ад непатрэбных, але таемных даных."
+
+#~ msgid "Automatically empty _Trash"
+#~ msgstr "Аўтаматычная а_чыстка сметніцы"
+
+#~ msgid "Automatically purge Temporary _Files"
+#~ msgstr "Аўтаматычная ач_ыстка часовых файлаў"
+
+#~ msgid "Purge _After"
+#~ msgstr "Ачышчаць пра_з"
+
+#~ msgid ""
+#~ "Sending us information about which software you use helps us provide you "
+#~ "with more accurate recommendations. It also helps us to improve our "
+#~ "software.\n"
+#~ "\n"
+#~ "All the information we collect is made anonymous, and we will never share "
+#~ "your data with third parties."
+#~ msgstr ""
+#~ "Дасюлаючы нам звесткі аб апраграмаванні, якое вы выкарыстоўваеце, вы "
+#~ "дапаможаце нам у падачы больш актуальных парад. Такім жа чынам вы "
+#~ "дапаможаце нам ва ўдасканальванні апраграмавання.\n"
+#~ "\n"
+#~ "Усе сабраныя звесткі ананімныя, і мы абяцаем, што ніколі не перададзім іх "
+#~ "іншым асобам ці арганізацыям."
+
+#~ msgid "Privacy Policy"
+#~ msgstr "Палітыка прыватнасці"
+
+#~ msgid "_Send software usage statistics"
+#~ msgstr "_Пасылаць статыстычныя даныя аб выкарыстанні апраграмавання"
+
+#~ msgctxt "measurement format"
+#~ msgid "Imperial"
+#~ msgstr "Імперская"
+
+#~ msgctxt "measurement format"
+#~ msgid "Metric"
+#~ msgstr "Метрычная"
+
+#~ msgid "No regions found"
+#~ msgstr "Рэгіёны не знойдзены"
+
+#~ msgid "No input sources found"
+#~ msgstr "Крыніцы ўводу не знойдзены"
+
+#~ msgctxt "Input Source"
+#~ msgid "Other"
+#~ msgstr "Іншая"
+
+#~ msgid "Your session needs to be restarted for changes to take effect"
+#~ msgstr "Каб задзейнічаць змены, перазапусціце сеанс"
+
+#~ msgid "Restart Now"
+#~ msgstr "Зараз жа перазапусціць"
+
+#~ msgid "No input source selected"
+#~ msgstr "Крыніца ўводу не вылучана"
+
+#~ msgid "Sorry"
+#~ msgstr "Прабачце"
+
+#~ msgid "Input methods can't be used on the login screen"
+#~ msgstr "Крыніцы ўводу недаступныя для выкарыстання на экране ўваходу"
+
+#~ msgid "Login Screen"
+#~ msgstr "Экран уваходу"
+
+#~ msgid "Formats"
+#~ msgstr "Фармат"
+
+#~ msgid "Preview"
+#~ msgstr "Папярэдні агляд"
+
+#~ msgid "Dates"
+#~ msgstr "Даты"
+
+#~ msgid "Times"
+#~ msgstr "Час"
+
+#~ msgid "Numbers"
+#~ msgstr "Лікі"
+
+#~ msgid "Measurement"
+#~ msgstr "Сістэма мер"
+
+#~ msgid "Paper"
+#~ msgstr "Папера"
+
+#~ msgid "Region & Language"
+#~ msgstr "Мясцовасць і мова"
+
+#~ msgid ""
+#~ "Select your display language, formats, keyboard layouts and input sources"
+#~ msgstr ""
+#~ "Выбар мовы інтэрфейсу, фарматаў даных, клавіятурных раскладак і крыніц "
+#~ "уводу"
+
+#~ msgid "Language;Layout;Keyboard;Input;"
+#~ msgstr "Мова;Раскладка;Клавіятура;Увод;"
+
+#~ msgid "Add an Input Source"
+#~ msgstr "Новая крыніца ўводу"
+
+#~ msgid "Input Source Options"
+#~ msgstr "Параметры крыніцы ўводу"
+
+#~ msgid "Use the _same source for all windows"
+#~ msgstr "Ужыць _адну крыніцу ўводу для ўсіх вокнаў"
+
+#~ msgid "Allow _different sources for each window"
+#~ msgstr "_Дазволіць розным вокнам мець розныя крыніцы ўводу"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Клавіятурныя скароты"
+
+#~ msgid "Switch to previous source"
+#~ msgstr "Уключыць папярэднюю крыніцу ўводу"
+
+#~ msgid "Super+Shift+Space"
+#~ msgstr "Super+Shift+Прабел"
+
+#~ msgid "Switch to next source"
+#~ msgstr "Уключыць наступную крыніцу ўводу"
+
+#~ msgid "Super+Space"
+#~ msgstr "Super+Прабел"
+
+#~ msgid "You can change these shortcuts in the keyboard settings"
+#~ msgstr "Гэтыя скароты даступныя для змянення ў настройках клавіятуры"
+
+#~ msgid "Alternative switch to next source"
+#~ msgstr "Альтэрнатыўнае пераключэнне на наступную крыніцу"
+
+#~ msgid "Left+Right Alt"
+#~ msgstr "Левы+правы Alt"
+
+#~ msgid "English (United Kingdom)"
+#~ msgstr "Англійская (Вялікабрытанія)"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Вялікабрытанія"
+
+#~ msgid "Options"
+#~ msgstr "Опцыі"
+
+#~ msgid "Login settings are used by all users when logging into the system"
+#~ msgstr ""
+#~ "Настройкі ўваходу выкарыстоўваюцца для ўсіх карыстальнікаў пры ўваходзе ў "
+#~ "сістэму"
+
+#~ msgctxt "Search Location"
+#~ msgid "Places"
+#~ msgstr "Месцы"
+
+#~ msgctxt "Search Location"
+#~ msgid "Bookmarks"
+#~ msgstr "Закладкі"
+
+#~ msgctxt "Search Location"
+#~ msgid "Other"
+#~ msgstr "Іншае"
+
+#~ msgid "Select Location"
+#~ msgstr "Выбар мясцовасці"
+
+#~ msgid "_OK"
+#~ msgstr "_Добра"
+
+#~ msgid "No applications found"
+#~ msgstr "Праграмы не знойдзены"
+
+#~ msgid "Search"
+#~ msgstr "Пошук"
+
+#~ msgid ""
+#~ "Control which applications show search results in the Activities Overview"
+#~ msgstr ""
+#~ "Вызначэнне праграм, якія паказваюць вынікі пошуку ў Аглядзе Заняткаў"
+
+#~ msgid "Search;Find;Index;Hide;Privacy;Results;"
+#~ msgstr "Пошук;Індэкс;Схаваць;Прыватнасць;Асабістыя даныя;Вынікі;"
+
+#~ msgid "Search Locations"
+#~ msgstr "Пошук месцазнаходжанняў"
+
+#~ msgid "Move Up"
+#~ msgstr "Пасунуць вышэй"
+
+#~ msgid "Move Down"
+#~ msgstr "Пасунуць ніжэй"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройкі"
+
+#~ msgctxt "service is enabled"
+#~ msgid "On"
+#~ msgstr "Укл"
+
+#~ msgctxt "service is disabled"
+#~ msgid "Off"
+#~ msgstr "Выкл"
+
+#~ msgid "Choose a Folder"
+#~ msgstr "Выбар папкі"
+
+#~ msgid "Copy"
+#~ msgstr "Скапіраваць"
+
+#~ msgid "Sharing"
+#~ msgstr "Супольны доступ"
+
+#~ msgid "Control what you want to share with others"
+#~ msgstr "Настройка супольнага доступу да вашых даных"
+
+#~ msgid ""
+#~ "share;sharing;ssh;host;name;remote;desktop;bluetooth;obex;media;audio;"
+#~ "video;pictures;photos;movies;server;renderer;"
+#~ msgstr ""
+#~ "супольны доступ;рэсурс;ssh;хост;машына;аддалены;стол;bluetooth;obex;медыя;"
+#~ "гук;аўдыя;відэа;выявы;малюнкі;рысункі;фатаграфіі;фотаздымкі;фільмы;стужкі;"
+#~ "сервер;рэндэрынг;"
+
+#~ msgid "Enable or disable remote login"
+#~ msgstr "Уключыць ці выключыць аддалены ўваход у сістэму"
+
+#~ msgid "Authentication is required to enable or disable remote login"
+#~ msgstr ""
+#~ "Для ўключэння і выключэння аддаленага ўваходу ў сістэму патрабуецца "
+#~ "ідэнтыфікацыя"
+
+#~ msgid "Bluetooth Sharing"
+#~ msgstr "Публікацыя праз Bluetooth"
+
+#~ msgid ""
+#~ "Bluetooth Sharing allows you to share files with other Bluetooth enabled "
+#~ "devices"
+#~ msgstr ""
+#~ "Падтрымка публікацыі праз Bluetooth дазваляе перадаваць файлы на іншыя "
+#~ "Bluetooth-прыстасаванні"
+
+#~ msgid "Only Receive From Trusted Devices"
+#~ msgstr "Атрымліваць даныя толькі з пэўных прыстасаванняў"
+
+#~ msgid "Save Received Files to Downloads Folder"
+#~ msgstr "Захоўваць атрыманыя файлы ў папцы для сцягнутых файлаў"
+
+#~ msgid "Computer Name"
+#~ msgstr "Назва камп'ютара"
+
+#~ msgid "Personal File Sharing"
+#~ msgstr "Публікацыя асабістых файлаў"
+
+#~ msgid "Screen Sharing"
+#~ msgstr "Супольны доступ да экрана"
+
+#~ msgid "Media Sharing"
+#~ msgstr "Супольны доступ да медыфайлаў"
+
+#~ msgid "Remote Login"
+#~ msgstr "Аддалены ўваход у сістэму"
+
+#~ msgid "Some services are disabled because of no network access."
+#~ msgstr "Некаторыя службы выключаныя, бо ўсё роўна няма доступу да сеткі."
+
+#~ msgid "Share Music, Photos and Videos with others on the current network."
+#~ msgstr ""
+#~ "Вы можаце дазволіць іншым карыстальнікамі сеткі доступ да вашай музыкі, "
+#~ "фатаграфій і відэафайлаў."
+
+#~ msgid "Share Media On This Network"
+#~ msgstr "Дазволіць доступ да медыяфайлаў у гэтай сетцы"
+
+#~ msgid "Shared Folders"
+#~ msgstr "Супольна даступныя папкі"
+
+#~ msgid "column"
+#~ msgstr "слупок"
+
+#~ msgid "Add Folder"
+#~ msgstr "Дадаць папку"
+
+#~ msgid "Remove Folder"
+#~ msgstr "Выдаліць папку"
+
+#, no-c-format
+#~ msgid ""
+#~ "Personal File Sharing allows you to share your Public folder with others "
+#~ "on your current network using: <a href=\"dav://%s\">dav://%s</a>"
+#~ msgstr ""
+#~ "Публікацыя асабістых файлаў дазволіць вам даць іншым карыстальнікам сеткі "
+#~ "доступ да вашай папкі Публічнае праз: <a href=\"dav://%s\">dav://%s</a>"
+
+#~ msgid "Share Public Folder On This Network"
+#~ msgstr "Публікацыя папкі публічных файлаў у сетцы"
+
+#~ msgid "Require Password"
+#~ msgstr "Патрабаваць пароль"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to connect using the Secure Shell command:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+#~ msgstr ""
+#~ "Вы можаце дазволіць аддаленым карыстальнікам далучацца да гэтай сістэмы з "
+#~ "дапамогай наступнага загаду SSH:\n"
+#~ "<a href=\"ssh %s\">ssh %s</a>"
+
+#, no-c-format
+#~ msgid ""
+#~ "Allow remote users to view or control your screen by connecting to: <a "
+#~ "href=\"vnc://%s\">vnc://%s</a>"
+#~ msgstr ""
+#~ "Вы можаце дазволіць аддаленым карыстальнікам кіраваць вашым экранам, "
+#~ "далучыўшыся да: <a href=\"vnc://%s\">vnc://%s</a>"
+
+#~ msgid "Allow Remote Control"
+#~ msgstr "Дазволіць аддаленае кіраванне"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Access Options"
+#~ msgstr "Параметры доступу"
+
+#~ msgid "New connections must ask for access"
+#~ msgstr "Патрабаваць пацвярджэння доступу для новых злучэнняў"
+
+#~ msgid "Require a password"
+#~ msgstr "Патрабаваць пароль"
+
+#~ msgid "Sound"
+#~ msgstr "Гук"
+
+#~ msgid "Change sound levels, inputs, outputs, and alert sounds"
+#~ msgstr ""
+#~ "Змяненне гучнасці, уваходаў і выхадаў для гуку, а таксама прызначэнне "
+#~ "гукаў для падзей"
+
+#~ msgid "Card;Microphone;Volume;Fade;Balance;Bluetooth;Headset;Audio;"
+#~ msgstr ""
+#~ "Карта;Мікрафон;Гучнасць;Гук;Затуханне;Баланс;Bluetooth;Навушнікі;"
+#~ "Аўдыягарнітура;Аўдыя;"
+
+#~ msgid "Bark"
+#~ msgstr "Брэх"
+
+#~ msgid "Drip"
+#~ msgstr "Кропля"
+
+#~ msgid "Glass"
+#~ msgstr "Шкло"
+
+#~ msgid "Sonar"
+#~ msgstr "Гідралакатар"
+
+#~ msgctxt "balance"
+#~ msgid "Left"
+#~ msgstr "Левы"
+
+#~ msgctxt "balance"
+#~ msgid "Right"
+#~ msgstr "Правы"
+
+#~ msgctxt "balance"
+#~ msgid "Rear"
+#~ msgstr "Задні"
+
+#~ msgctxt "balance"
+#~ msgid "Front"
+#~ msgstr "Пярэдні"
+
+#~ msgctxt "balance"
+#~ msgid "Minimum"
+#~ msgstr "Мінімум"
+
+#~ msgctxt "balance"
+#~ msgid "Maximum"
+#~ msgstr "Максімум"
+
+#~ msgid "_Balance:"
+#~ msgstr "_Баланс:"
+
+#~ msgid "_Fade:"
+#~ msgstr "_Затуханне:"
+
+#~ msgid "_Subwoofer:"
+#~ msgstr "Саб_вуфер:"
+
+#~ msgctxt "volume"
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#~ msgctxt "volume"
+#~ msgid "Unamplified"
+#~ msgstr "Без узмацнення"
+
+#~ msgid "_Profile:"
+#~ msgstr "_Профіль:"
+
+#, c-format
+#~ msgid "%u Output"
+#~ msgid_plural "%u Outputs"
+#~ msgstr[0] "%u выхад"
+#~ msgstr[1] "%u выхады"
+#~ msgstr[2] "%u выхадаў"
+
+#, c-format
+#~ msgid "%u Input"
+#~ msgid_plural "%u Inputs"
+#~ msgstr[0] "%u уваход"
+#~ msgstr[1] "%u уваходы"
+#~ msgstr[2] "%u уваходаў"
+
+#~ msgid "System Sounds"
+#~ msgstr "Сістэмныя гукі"
+
+#~ msgid "_Test Speakers"
+#~ msgstr "_Праверыць дынамікі"
+
+#~ msgid "Peak detect"
+#~ msgstr "Дэтэктар пікаў"
+
+#~ msgid "Name"
+#~ msgstr "Назва"
+
+#~ msgid "Device"
+#~ msgstr "Прыстасаванне"
+
+#, c-format
+#~ msgid "Speaker Testing for %s"
+#~ msgstr "Праверка дынамікаў для %s"
+
+#~ msgid "_Output volume:"
+#~ msgstr "_Гучнасць вываду:"
+
+#~ msgid "Output"
+#~ msgstr "Вывад"
+
+#~ msgid "C_hoose a device for sound output:"
+#~ msgstr "Вы_бар прыстасавання для вываду гуку:"
+
+#~ msgid "Settings for the selected device:"
+#~ msgstr "Настройкі выбранага прыстасавання:"
+
+#~ msgid "Input"
+#~ msgstr "Увод"
+
+#~ msgid "_Input volume:"
+#~ msgstr "Гучнасць у_воду:"
+
+#~ msgid "Input level:"
+#~ msgstr "Узровень уводу:"
+
+#~ msgid "C_hoose a device for sound input:"
+#~ msgstr "В_ыбар прыстасавання для ўводу гуку:"
+
+#~ msgid "Sound Effects"
+#~ msgstr "Гукавыя эфекты"
+
+#~ msgid "_Alert volume:"
+#~ msgstr "Гу_чнасць сігналаў:"
+
+#~ msgid "Applications"
+#~ msgstr "Праграмы"
+
+#~ msgid "No application is currently playing or recording audio."
+#~ msgstr "У гэты момант ні адна праграма не грае і не запісвае гук."
+
+#~ msgid "Built-in"
+#~ msgstr "Убудаваны"
+
+#~ msgid "Sound Preferences"
+#~ msgstr "Настройкі гуку"
+
+#~ msgid "Testing event sound"
+#~ msgstr "Праверка гуку для падзей"
+
+#~ msgid "Default"
+#~ msgstr "Прадвызначана"
+
+#~ msgid "From theme"
+#~ msgstr "З матыва"
+
+#~ msgid "C_hoose an alert sound:"
+#~ msgstr "_Выбар гуку сігналу:"
+
+#~ msgid "Stop"
+#~ msgstr "Спыніць"
+
+#~ msgid "Test"
+#~ msgstr "Праверыць"
+
+#~ msgid "Subwoofer"
+#~ msgstr "Сабвуфер"
+
+#~ msgid "Custom"
+#~ msgstr "Уласны"
+
+#~ msgid "Make it easier to see, hear, type, point and click"
+#~ msgstr ""
+#~ "Дапамога для зроку, слыху, уводу, а таксама кіравання паказальнікам мышы"
+
+#~ msgid ""
+#~ "Keyboard;Mouse;a11y;Accessibility;Contrast;Zoom;Screen;Reader;text;font;"
+#~ "size;AccessX;Sticky;Keys;Slow;Bounce;Mouse;"
+#~ msgstr ""
+#~ "Клавіятура;Мыш;a11y;Даступнасць;Абмежаваныя магчымасці;Інвалід;"
+#~ "Кантраснасць;Маштабаванне;Чытач;Экран;тэкст;шрыфт;памер;AccessX;Грузкія;"
+#~ "Клавішы;Марудныя;Рыкашэтныя;Мыш;"
+
+#~ msgid "_Always Show Universal Access Menu"
+#~ msgstr "_Заўжды паказваць меню ўніверсальнага доступу"
+
+#~ msgid "Seeing"
+#~ msgstr "Зрок"
+
+#~ msgid "_High Contrast"
+#~ msgstr "_Высокая кантраснасць"
+
+#~ msgid "_Large Text"
+#~ msgstr "_Павелічэнне тэксту"
+
+#~ msgid "_Zoom"
+#~ msgstr "_Маштабаванне"
+
+#~ msgid "Screen _Reader"
+#~ msgstr "_Чытач з экрана"
+
+#~ msgid "_Sound Keys"
+#~ msgstr "_Гучныя клавішы"
+
+#~ msgid "Hearing"
+#~ msgstr "Слых"
+
+#~ msgid "_Visual Alerts"
+#~ msgstr "_Візуалізацыя сігналаў"
+
+#~ msgid "Screen _Keyboard"
+#~ msgstr "_Экранная клавіятура"
+
+#~ msgid "_Typing Assist (AccessX)"
+#~ msgstr "Пам_очнік для пісьма (AccessX)"
+
+#~ msgid "Pointing & Clicking"
+#~ msgstr "Паказальнік і пстрычкі"
+
+#~ msgid "_Mouse Keys"
+#~ msgstr "_Мышыныя клавішы"
+
+#~ msgid "_Click Assist"
+#~ msgstr "Памо_чнік для пстрыкання"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Чытач з экрана"
+
+#~ msgid "The screen reader reads displayed text as you move the focus."
+#~ msgstr ""
+#~ "Чытач з экрана прамаўляе тэкст, паказаны ў фокусе паказальніка мышы."
+
+#~ msgid "_Screen Reader"
+#~ msgstr "_Чытач з экрана"
+
+#~ msgid "Sound Keys"
+#~ msgstr "Гучныя клавішы"
+
+#~ msgid "Beep when Num Lock or Caps Lock are turned on."
+#~ msgstr "Пішчаць пры ўключэнні Num Lock ці Caps Lock."
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Візуалізацыя сігналаў"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Візуальна азначаць гукавы сігнал."
+
+#~ msgid "_Test flash"
+#~ msgstr "_Праверыць успышку"
+
+#~ msgid "Flash the _window title"
+#~ msgstr "Мільгаць _загалоўкам акна"
+
+#~ msgid "Flash the entire _screen"
+#~ msgstr "Мільгаць усім _экранам"
+
+#~ msgid "Typing Assist"
+#~ msgstr "Памочнік для пісьма"
+
+#~ msgid "_Sticky Keys"
+#~ msgstr "_Грузкія клавішы"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination"
+#~ msgstr ""
+#~ "Лічыць паслядоўна націснутыя клавішы-мадыфікатары адзіным спалучэннем"
+
+#~ msgid "_Disable if two keys are pressed together"
+#~ msgstr "_Выключаць пры адначасовым націску дзвюх клавіш"
+
+#~ msgid "Beep when a _modifer key is pressed"
+#~ msgstr "Звінець пры націску клавішы-_мадыфікатара"
+
+#~ msgid "S_low Keys"
+#~ msgstr "_Марудныя клавішы"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted"
+#~ msgstr "Затрымка паміж націскам клавішы і яе прыняццем"
+
+#~ msgid "A_cceptance delay:"
+#~ msgstr "_Прымальная затрымка:"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Short"
+#~ msgstr "Кароткая"
+
+#~ msgid "Slow keys typing delay"
+#~ msgstr "Затрымка ўводу для марудных клавіш"
+
+#~ msgctxt "slow keys delay"
+#~ msgid "Long"
+#~ msgstr "Доўгая"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Звінець пры націску _клавішы"
+
+#~ msgid "Beep when a key is _accepted"
+#~ msgstr "Звінець, калі клавіша _прынята"
+
+#~ msgid "Beep when a key is _rejected"
+#~ msgstr "Звінець, калі клавіша не _прынята"
+
+#~ msgid "_Bounce Keys"
+#~ msgstr "_Рыкашэтныя клавішы"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Ігнараванне паўторных націскаў клавіш"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Short"
+#~ msgstr "Кароткая"
+
+#~ msgid "Bounce keys typing delay"
+#~ msgstr "Затрымка ўводу для рыкашэтных клавіш"
+
+#~ msgctxt "bounce keys delay"
+#~ msgid "Long"
+#~ msgstr "Доўгая"
+
+#~ msgid "_Enable by Keyboard"
+#~ msgstr "_Уключэнне з дапамогай клавіятуры"
+
+#~ msgid "Turn accessibility features on and off using the keyboard"
+#~ msgstr "Уключаць і выключаць функцыі даступнасці з дапамогай клавіятуры"
+
+#~ msgid "Click Assist"
+#~ msgstr "Памочнік для пстрыкання"
+
+#~ msgid "_Simulated Secondary Click"
+#~ msgstr "_Сімуляцыя паўторнай пстрычкі"
+
+#~ msgid "Trigger a secondary click by holding down the primary button"
+#~ msgstr "Выклік паўторнай пстрычкі пры зацісканні галоўнай кнопкі"
+
+#~ msgctxt "secondary click"
+#~ msgid "Short"
+#~ msgstr "Кароткая"
+
+#~ msgid "Secondary click delay"
+#~ msgstr "Затрымка паўторнай пстрычкі"
+
+#~ msgctxt "secondary click delay"
+#~ msgid "Long"
+#~ msgstr "Доўгая"
+
+#~ msgid "_Hover Click"
+#~ msgstr "Пстрычка з _затрымкай"
+
+#~ msgid "Trigger a click when the pointer hovers"
+#~ msgstr "Выклік пстрычкі пры заміранні паказальніка"
+
+#~ msgid "D_elay:"
+#~ msgstr "_Затрымка:"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Short"
+#~ msgstr "Кароткая"
+
+#~ msgctxt "dwell click delay"
+#~ msgid "Long"
+#~ msgstr "Доўгая"
+
+#~ msgid "Motion _threshold:"
+#~ msgstr "_Парог руху:"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Small"
+#~ msgstr "Малы"
+
+#~ msgctxt "dwell click threshold"
+#~ msgid "Large"
+#~ msgstr "Вялікі"
+
+#~ msgctxt "Distance"
+#~ msgid "Short"
+#~ msgstr "Малая"
+
+#~ msgctxt "Distance"
+#~ msgid "¼ Screen"
+#~ msgstr "¼ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "½ Screen"
+#~ msgstr "½ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "¾ Screen"
+#~ msgstr "¾ экрана"
+
+#~ msgctxt "Distance"
+#~ msgid "Long"
+#~ msgstr "Вялікая"
+
+#~ msgid "Full Screen"
+#~ msgstr "На ўвесь экран"
+
+#~ msgid "Top Half"
+#~ msgstr "Верхняя палавіна"
+
+#~ msgid "Bottom Half"
+#~ msgstr "Ніжняя палавіна"
+
+#~ msgid "Left Half"
+#~ msgstr "Левая палавіна"
+
+#~ msgid "Right Half"
+#~ msgstr "Правая палавіна"
+
+#~ msgid "Zoom Options"
+#~ msgstr "Опцыі маштабавання"
+
+#~ msgid "Zoom"
+#~ msgstr "Маштабаванне"
+
+#~ msgid "Magnification:"
+#~ msgstr "Павелічэнне:"
+
+#~ msgid "Follow mouse cursor"
+#~ msgstr "Следаваць за паказальнікам мышы"
+
+#~ msgid "Screen part:"
+#~ msgstr "Частка экрана:"
+
+#~ msgid "Magnifier extends outside of screen"
+#~ msgstr "Лупа распаўсюджваецца за межы экрана"
+
+#~ msgid "Keep magnifier cursor centered"
+#~ msgstr "Заўсёды трымаць паказальнік лупы ў цэнтры"
+
+#~ msgid "Magnifier cursor pushes contents around"
+#~ msgstr "Паказальнік лупы ссоўвае змест экрана навокал"
+
+#~ msgid "Magnifier cursor moves with contents"
+#~ msgstr "Паказальнік лупы перамяшчаецца разам са зместам экрана"
+
+#~ msgid "Magnifier Position:"
+#~ msgstr "Размяшчэнне лупы:"
+
+#~ msgid "Magnifier"
+#~ msgstr "Лупа"
+
+#~ msgid "Thickness:"
+#~ msgstr "Таўшчыня:"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thin"
+#~ msgstr "Тонка"
+
+#~ msgctxt "universal access, thickness"
+#~ msgid "Thick"
+#~ msgstr "Тоўста"
+
+#~ msgid "Length:"
+#~ msgstr "Даўжыня:"
+
+#~ msgid "Color:"
+#~ msgstr "Колер:"
+
+#~ msgid "Crosshairs:"
+#~ msgstr "Перакрыжаванне:"
+
+#~ msgid "Overlaps mouse cursor"
+#~ msgstr "Закрывае паказальнік мышы"
+
+#~ msgid "Crosshairs"
+#~ msgstr "Перакрыжаванне"
+
+#~ msgid "White on black:"
+#~ msgstr "Белы на чорным:"
+
+#~ msgid "Brightness:"
+#~ msgstr "Яркасць:"
+
+#~ msgid "Contrast:"
+#~ msgstr "Кантраснасць:"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Color"
+#~ msgstr "Колер"
+
+#~ msgctxt "universal access, color"
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgctxt "universal access, color"
+#~ msgid "Full"
+#~ msgstr "Цалкам"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "Low"
+#~ msgstr "Нізкая"
+
+#~ msgctxt "universal access, brightness"
+#~ msgid "High"
+#~ msgstr "Высокая"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "Low"
+#~ msgstr "Нізкая"
+
+#~ msgctxt "universal access, contrast"
+#~ msgid "High"
+#~ msgstr "Высокая"
+
+#~ msgid "Color Effects:"
+#~ msgstr "Каляровыя эфекты:"
+
+#~ msgid "Color Effects"
+#~ msgstr "Каляровыя эфекты"
+
+#~ msgid "_Verify"
+#~ msgstr "_Праверыць"
+
+#~ msgid "_Enroll"
+#~ msgstr "_Увесці ў дамен"
+
+#~ msgid "Login History"
+#~ msgstr "Гісторыя ўваходаў"
+
+#~ msgid "Add User Account"
+#~ msgstr "Дадаць конт карыстальніка"
+
+#~ msgid "Remove User Account"
+#~ msgstr "Выдаліць конт карыстальніка"
+
+#~ msgid "_Language"
+#~ msgstr "_Мова"
+
+#~ msgid "Manage user accounts"
+#~ msgstr "Настройка карыстальніцкіх контаў"
+
+#~ msgid "Authentication is required to change user data"
+#~ msgstr "Для змянення карыстальніцкіх даных патрабуецца ідэнтыфікацыя"
+
+#, c-format
+#~ msgid "A user with the username '%s' already exists"
+#~ msgstr "Карыстальнік з імем \"%s\" ужо існуе"
+
+#~ msgid "Map Buttons"
+#~ msgstr "Прызначыць кнопкі"
+
+#~ msgid "Map buttons to functions"
+#~ msgstr "Прызначыць функцыі кнопкам"
+
+#~ msgid ""
+#~ "To edit a shortcut, choose the \"Send Keystroke\" action, press the "
+#~ "keyboard shortcut button and hold down the new keys or press Backspace to "
+#~ "clear."
+#~ msgstr ""
+#~ "Каб змяніць скарот, выберыце \"Націск кнопкі\", націсніце спалучэнне "
+#~ "клавіш і затрымайце іх у такім стане. Каб выдаліць гэты скарот, проста "
+#~ "націсніце Backspace."
+
+#~ msgid ""
+#~ "Please tap the target markers as they appear on screen to calibrate the "
+#~ "tablet."
+#~ msgstr ""
+#~ "Кранайце мэтавыя маркеры, якія ўзнікаюць на экране, каб адкалібраваць "
+#~ "планшэт."
+
+#~ msgid "Mis-click detected, restarting..."
+#~ msgstr "Апазнаны памылковы дотык, перазапуск калібравання..."
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Up"
+#~ msgstr "Уверх"
+
+#~ msgctxt "Wacom tablet button"
+#~ msgid "Down"
+#~ msgstr "Уніз"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "None"
+#~ msgstr "Нічога"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Send Keystroke"
+#~ msgstr "Націск кнопкі"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Switch Monitor"
+#~ msgstr "Пераключэнне манітора"
+
+#~ msgctxt "Wacom action-type"
+#~ msgid "Show On-Screen Help"
+#~ msgstr "Паказаваць экранную даведку"
+
+#~ msgid "Output:"
+#~ msgstr "Вывад:"
+
+#~ msgid "Keep aspect ratio (letterbox):"
+#~ msgstr "Захоўваць прапорцыі (letterbox):"
+
+#~ msgid "Map to single monitor"
+#~ msgstr "Прывязаць да аднаго манітора"
+
+#, c-format
+#~ msgid "%d of %d"
+#~ msgstr "%d з %d"
+
+#~ msgid "Display Mapping"
+#~ msgstr "Прывязка да манітора"
+
+#~ msgid "Button"
+#~ msgstr "Кнопка"
+
+#~ msgid "Wacom Tablet"
+#~ msgstr "Планшэт Wacom"
+
+#~ msgid ""
+#~ "Set button mappings and adjust stylus sensitivity for graphics tablets"
+#~ msgstr "Настройка кнопак і чуласці стыла графічных планшэтаў"
+
+#~ msgid "Tablet;Wacom;Stylus;Eraser;Mouse;"
+#~ msgstr "Планшэт;Wacom;Стыло;Сцірка;Мыш;"
+
+#~ msgid "Tablet (absolute)"
+#~ msgstr "Планшэт (абсалютныя каардынаты)"
+
+#~ msgid "Touchpad (relative)"
+#~ msgstr "Чулая панэль (адносныя каардынаты)"
+
+#~ msgid "Tablet Preferences"
+#~ msgstr "Настройкі планшэта"
+
+#~ msgid "No tablet detected"
+#~ msgstr "Планшэт не апазнаны"
+
+#~ msgid "Please plug in or turn on your Wacom tablet"
+#~ msgstr "Падлучыце або ўключыце ваш планшэт Wacom"
+
+#~ msgid "Bluetooth Settings"
+#~ msgstr "Настройкі Bluetooth"
+
+#~ msgid "Map to Monitor…"
+#~ msgstr "Прывязаць да манітора..."
+
+#~ msgid "Map Buttons…"
+#~ msgstr "Прызначыць кнопкі..."
+
+#~ msgid "Adjust display resolution"
+#~ msgstr "Дапасаванне распазнавальнасці манітора"
+
+#~ msgid "Adjust mouse settings"
+#~ msgstr "Дапасаваць настройкі мышы"
+
+#~ msgid "Tracking Mode"
+#~ msgstr "Рэжым адсочвання перамяшчэнняў"
+
+#~ msgid "Left-Handed Orientation"
+#~ msgstr "Арыентацыя на ляўшу"
+
+#~ msgid "Left Ring"
+#~ msgstr "Левае кола"
+
+#, c-format
+#~ msgid "Left Ring Mode #%d"
+#~ msgstr "Левае дотыкавае кола, рэжым #%d"
+
+#~ msgid "Right Ring"
+#~ msgstr "Правае кола"
+
+#, c-format
+#~ msgid "Right Ring Mode #%d"
+#~ msgstr "Правае дотыкавае кола, рэжым #%d"
+
+#~ msgid "Left Touchstrip"
+#~ msgstr "Левая дотыкавая паласа"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode #%d"
+#~ msgstr "Левая дотыкавая паласа, рэжым #%d"
+
+#~ msgid "Right Touchstrip"
+#~ msgstr "Правая дотыкавая паласа"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode #%d"
+#~ msgstr "Правая дотыкавая паласа, рэжым #%d"
+
+#, c-format
+#~ msgid "Left Touchring Mode Switch"
+#~ msgstr "Пераключальнік рэжыму левага дотыкавага кола"
+
+#, c-format
+#~ msgid "Right Touchring Mode Switch"
+#~ msgstr "Пераключальнік рэжыму правага дотыкавага кола"
+
+#, c-format
+#~ msgid "Left Touchstrip Mode Switch"
+#~ msgstr "Пераключальнік рэжыму левай дотыкавай паласы"
+
+#, c-format
+#~ msgid "Right Touchstrip Mode Switch"
+#~ msgstr "Пераключальнік рэжыму правай дотыкавай паласы"
+
+#, c-format
+#~ msgid "Mode Switch #%d"
+#~ msgstr "Пераключальнік рэжыму #%d"
+
+#, c-format
+#~ msgid "Left Button #%d"
+#~ msgstr "Левая кнопка #%d"
+
+#, c-format
+#~ msgid "Right Button #%d"
+#~ msgstr "Правая кнопка #%d"
+
+#, c-format
+#~ msgid "Top Button #%d"
+#~ msgstr "Верхняя кнопка #%d"
+
+#, c-format
+#~ msgid "Bottom Button #%d"
+#~ msgstr "Ніжняя кнопка #%d"
+
+#~ msgid "New shortcut…"
+#~ msgstr "Новы клавіятурны скарот..."
+
+#~ msgid "No Action"
+#~ msgstr "Няма дзеяння"
+
+#~ msgid "Left Mouse Button Click"
+#~ msgstr "Левая пстрычка"
+
+#~ msgid "Middle Mouse Button Click"
+#~ msgstr "Сярэдняя пстрычка"
+
+#~ msgid "Right Mouse Button Click"
+#~ msgstr "Правая пстрычка"
+
+#~ msgid "Scroll Up"
+#~ msgstr "Пракрутка ўверх"
+
+#~ msgid "Scroll Down"
+#~ msgstr "Пракрутка ўніз"
+
+#~ msgid "Scroll Left"
+#~ msgstr "Пракрутка ўлева"
+
+#~ msgid "Scroll Right"
+#~ msgstr "Пракрутка ўправа"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Forward"
+#~ msgstr "Наперад"
+
+#~ msgid "Stylus"
+#~ msgstr "Стыло"
+
+#~ msgid "Eraser Pressure Feel"
+#~ msgstr "Адчувальнасць ціску сціркі"
+
+#~ msgid "Soft"
+#~ msgstr "Высокая"
+
+#~ msgid "Firm"
+#~ msgstr "Нізкая"
+
+#~ msgid "Top Button"
+#~ msgstr "Верхняя кнопка"
+
+#~ msgid "Lower Button"
+#~ msgstr "Ніжняя кнопка"
+
+#~ msgid "Tip Pressure Feel"
+#~ msgstr "Адчувальнасць ціску кончыка стыла"
+
+#~ msgid "Enable verbose mode"
+#~ msgstr "Уключыць падрабязны рэжым"
+
+#~ msgid "Show the overview"
+#~ msgstr "Паказаць кароткі агляд"
+
+#~ msgid "Search for the string"
+#~ msgstr "Тэкставы пошук"
+
+#~ msgid "List possible panel names and exit"
+#~ msgstr "Паказаць назвы панэляў і выйсці"
+
+#~ msgid "Show help options"
+#~ msgstr "Паказаць опцыі дапамогі"
+
+#~ msgid "Panel to display"
+#~ msgstr "Патрэбная панэль настройкі"
+
+#~ msgid "[PANEL] [ARGUMENT…]"
+#~ msgstr "[ПАНЭЛЬ] [АРГУМЕНТ...]"
+
+#~ msgid "- Settings"
+#~ msgstr "- Настройкі"
+
+#, c-format
+#~ msgid ""
+#~ "%s\n"
+#~ "Run '%s --help' to see a full list of available command line options.\n"
+#~ msgstr ""
+#~ "%s\n"
+#~ "Каб убачыць поўны спіс наяўных опцый загаднага радка, выканайце \"%s --"
+#~ "help\".\n"
+
+#~ msgid "Available panels:"
+#~ msgstr "Наяўныя панэлі:"
+
+#~ msgid "Help"
+#~ msgstr "Дапамога"
+
+#~ msgid "Quit"
+#~ msgstr "Выйсці"
+
+#~ msgid "All Settings"
+#~ msgstr "Усе настройкі"
+
+#~ msgctxt "category"
+#~ msgid "Personal"
+#~ msgstr "Асабістыя настройкі"
+
+#~ msgctxt "category"
+#~ msgid "Hardware"
+#~ msgstr "Апаратура"
+
+#~ msgctxt "category"
+#~ msgid "System"
+#~ msgstr "Сістэма"
+
+#~ msgid "Settings"
+#~ msgstr "Настройкі"
+
+#~ msgid "Preferences;Settings;"
+#~ msgstr "Настройкі;"

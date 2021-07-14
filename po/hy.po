@@ -1,0 +1,2394 @@
+# translation of gnome-control-center.HEAD.hy.po to armenian
+# Copyright (C) 2010
+# This file is distributed under the same license as the PACKAGE package.
+# Narine Martirosyan <training@instigate.am>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-control-center.HEAD.hy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"PO-Revision-Date: 2010-09-02 11:06+0400\n"
+"Last-Translator: Nune <nune@instigatedesign.com>\n"
+"Language-Team:  <norayr@arnet.am>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: ../data/account-dialog.ui.h:1
+#, fuzzy
+msgid "_Username"
+msgstr "Օ_գտագործողի անունը՝"
+
+#: ../data/account-dialog.ui.h:2
+#, fuzzy
+msgid "_Full Name"
+msgstr "_Անվանում՝"
+
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#, fuzzy
+msgid "Standard"
+msgstr "Ստանդարտ X–տերմինալ"
+
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Administrator"
+msgstr "Terminator"
+
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+msgid "Account _Type"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:6
+#, fuzzy
+msgid "Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/account-dialog.ui.h:7
+msgid "Allow user to set a password when they next _login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:8
+msgid "Set a password _now"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#, fuzzy
+msgid "_Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/account-dialog.ui.h:10
+msgid "_Confirm"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:11
+msgid ""
+"Enterprise login allows an existing centrally managed user account to be "
+"used on this device."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:12
+msgid "_Domain"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:13
+msgid ""
+"Go online to add\n"
+"enterprise login accounts."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:15
+msgid "_Enterprise Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:16 ../src/um-account-dialog.c:1466
+msgid "Add User"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:17
+msgid "Domain Administrator Login"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:18
+msgid ""
+"In order to use enterprise logins, this computer needs to be\n"
+"enrolled in the domain. Please have your network administrator\n"
+"type their domain password here."
+msgstr ""
+
+#: ../data/account-dialog.ui.h:21
+msgid "Administrator _Name"
+msgstr ""
+
+#: ../data/account-dialog.ui.h:22
+msgid "Administrator Password"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:1
+msgid "Left thumb"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:2
+msgid "Left middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:3
+msgid "Left ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:5
+#, fuzzy
+msgid "Right thumb"
+msgstr "Աջ"
+
+#: ../data/account-fingerprint.ui.h:6
+msgid "Right middle finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:7
+msgid "Right ring finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:8
+msgid "Right little finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:9 ../src/um-fingerprint-dialog.c:694
+msgid "Enable Fingerprint Login"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:10
+msgid "_Right index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:11
+msgid "_Left index finger"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:12
+msgid "_Other finger:"
+msgstr ""
+
+#: ../data/account-fingerprint.ui.h:13
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:1
+msgid "Users"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:2
+msgid "Add or remove users and change your password"
+msgstr ""
+
+#: ../data/xings-user-accounts.desktop.in.h:3
+msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:1
+#, fuzzy
+msgid "Change Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
+#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+msgid "_Cancel"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:3
+#, fuzzy
+msgid "Ch_ange"
+msgstr "Փոխել կարգավորումը"
+
+#: ../data/password-dialog.ui.h:4
+#, fuzzy
+msgid "_Confirm New Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/password-dialog.ui.h:5
+#, fuzzy
+msgid "_New Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/password-dialog.ui.h:6
+#, fuzzy
+msgid "Current _Password"
+msgstr "_Գաղտնաբառ՝"
+
+#: ../data/password-dialog.ui.h:7
+msgid "Allow user to change their password on next login"
+msgstr ""
+
+#: ../data/password-dialog.ui.h:8
+msgid "Set a password now"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:1
+msgid "_Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to Add Users and Change Setting"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:6
+#, fuzzy
+msgid "Login Options"
+msgstr "_Ընտրանքներ..."
+
+#: ../data/user-accounts-dialog.ui.h:8
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:10
+msgid "User Icon"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
+msgid "Remove Account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:228
+msgid "Other Accounts"
+msgstr ""
+
+#: ../src/cc-user-panel.c:438
+msgid "Failed to delete user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
+#: ../src/cc-user-panel.c:612
+msgid "Failed to revoke remotely managed user"
+msgstr ""
+
+#: ../src/cc-user-panel.c:667
+msgid "You cannot delete your own account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:676
+#, c-format
+msgid "%s is still logged in"
+msgstr ""
+
+#: ../src/cc-user-panel.c:680
+msgid ""
+"Deleting a user while they are logged in can leave the system in an "
+"inconsistent state."
+msgstr ""
+
+#: ../src/cc-user-panel.c:689
+#, c-format
+msgid "Do you want to keep %s's files?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:693
+msgid ""
+"It is possible to keep the home directory, mail spool and temporary files "
+"around when deleting a user account."
+msgstr ""
+
+#: ../src/cc-user-panel.c:696
+#, fuzzy
+msgid "_Delete Files"
+msgstr "_Ջնջել տեղակայությունը"
+
+#: ../src/cc-user-panel.c:697
+msgid "_Keep Files"
+msgstr ""
+
+#: ../src/cc-user-panel.c:711
+#, c-format
+msgid "Are you sure you want to revoke remotely managed %s's account?"
+msgstr ""
+
+#: ../src/cc-user-panel.c:715
+#, fuzzy
+msgid "_Delete"
+msgstr "_Ջնջել տեղակայությունը"
+
+#: ../src/cc-user-panel.c:767
+msgctxt "Password mode"
+msgid "Account disabled"
+msgstr ""
+
+#: ../src/cc-user-panel.c:775
+msgctxt "Password mode"
+msgid "To be set at next login"
+msgstr ""
+
+#: ../src/cc-user-panel.c:778
+#, fuzzy
+msgctxt "Password mode"
+msgid "None"
+msgstr "Ոչ մի"
+
+#: ../src/cc-user-panel.c:827
+msgid "Logged in"
+msgstr ""
+
+#. Translators: This is a time format string in the style of "22:58".
+#. It indicates a login time which follows a date.
+#. Translators: This is a time format string in the style of "22:58".
+#. * It indicates a login time which follows a date.
+#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+msgctxt "login date-time"
+msgid "%k:%M"
+msgstr ""
+
+#. Translators: This indicates a login date-time.
+#. The first %s is a date, and the second %s a time.
+#. Translators: This indicates a login date-time.
+#. * The first %s is a date, and the second %s a time.
+#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#, c-format
+msgctxt "login date-time"
+msgid "%s, %s"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1113
+msgid "Failed to contact the accounts service"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1115
+#, fuzzy
+msgid "Please make sure that the AccountService is installed and enabled."
+msgstr "Խնդրում ենք համոզվել, որ ապլետը ճիշտ է տեղադրված"
+
+#: ../src/cc-user-panel.c:1156
+msgid ""
+"To make changes,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1197
+#, fuzzy
+msgid "Create a user account"
+msgstr "Ստեղծել նոր տեղակայություն"
+
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+msgid ""
+"To create a user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1218
+msgid "Delete the selected user account"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+msgid ""
+"To delete the selected user account,\n"
+"click the * icon first"
+msgstr ""
+
+#: ../src/cc-user-panel.c:1408
+#, fuzzy
+msgid "My Account"
+msgstr "Երկրով"
+
+#: ../src/pw-utils.c:81
+msgctxt "Password hint"
+msgid "The new password needs to be different from the old one."
+msgstr ""
+
+#: ../src/pw-utils.c:83
+msgctxt "Password hint"
+msgid "Try changing some letters and numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:85 ../src/pw-utils.c:93
+msgctxt "Password hint"
+msgid "Try changing the password a bit more."
+msgstr ""
+
+#: ../src/pw-utils.c:87
+msgctxt "Password hint"
+msgid "A password without your user name would be stronger."
+msgstr ""
+
+#: ../src/pw-utils.c:89
+msgctxt "Password hint"
+msgid "Try to avoid using your name in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:91
+msgctxt "Password hint"
+msgid "Try to avoid some of the words included in the password."
+msgstr ""
+
+#: ../src/pw-utils.c:95
+msgctxt "Password hint"
+msgid "Try to avoid common words."
+msgstr ""
+
+#: ../src/pw-utils.c:97
+msgctxt "Password hint"
+msgid "Try to avoid reordering existing words."
+msgstr ""
+
+#: ../src/pw-utils.c:99
+msgctxt "Password hint"
+msgid "Try to use more numbers."
+msgstr ""
+
+#: ../src/pw-utils.c:101
+msgctxt "Password hint"
+msgid "Try to use more uppercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:103
+msgctxt "Password hint"
+msgid "Try to use more lowercase letters."
+msgstr ""
+
+#: ../src/pw-utils.c:105
+msgctxt "Password hint"
+msgid "Try to use more special characters, like punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:107
+msgctxt "Password hint"
+msgid "Try to use a mixture of letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:109
+msgctxt "Password hint"
+msgid "Try to avoid repeating the same character."
+msgstr ""
+
+#: ../src/pw-utils.c:111
+msgctxt "Password hint"
+msgid ""
+"Try to avoid repeating the same type of character: you need to mix up "
+"letters, numbers and punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:113
+msgctxt "Password hint"
+msgid "Try to avoid sequences like 1234 or abcd."
+msgstr ""
+
+#: ../src/pw-utils.c:115
+msgctxt "Password hint"
+msgid ""
+"Password needs to be longer. Try to add more letters, numbers and "
+"punctuation."
+msgstr ""
+
+#: ../src/pw-utils.c:117
+msgctxt "Password hint"
+msgid "Mix uppercase and lowercase and try to use a number or two."
+msgstr ""
+
+#: ../src/pw-utils.c:119
+msgctxt "Password hint"
+msgid ""
+"Adding more letters, numbers and punctuation will make the password stronger."
+msgstr ""
+
+#: ../src/run-passwd.c:414
+msgid "Authentication failed"
+msgstr ""
+
+#: ../src/run-passwd.c:493
+#, c-format
+msgid "The new password is too short"
+msgstr ""
+
+#: ../src/run-passwd.c:501
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../src/run-passwd.c:509
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../src/run-passwd.c:514
+#, c-format
+msgid "The new password has already been used recently."
+msgstr ""
+
+#: ../src/run-passwd.c:519
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../src/run-passwd.c:525
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../src/run-passwd.c:530
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../src/run-passwd.c:535
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../src/run-passwd.c:539
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Անհայտ"
+
+#: ../src/um-account-dialog.c:34
+msgid "Should match the web address of your login provider."
+msgstr ""
+
+#: ../src/um-account-dialog.c:228
+msgid "Failed to add account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:468 ../src/um-password-dialog.c:295
+msgid "The passwords do not match."
+msgstr ""
+
+#: ../src/um-account-dialog.c:739 ../src/um-account-dialog.c:783
+#: ../src/um-account-dialog.c:804
+msgid "Failed to register account"
+msgstr ""
+
+#: ../src/um-account-dialog.c:927
+msgid "No supported way to authenticate with this domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:986
+msgid "Failed to join domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1045
+msgid ""
+"That login name didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1051
+msgid ""
+"That login password didn’t work.\n"
+"Please try again."
+msgstr ""
+
+#: ../src/um-account-dialog.c:1058
+msgid "Failed to log into domain"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1116
+msgid "Unable to find the domain. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1476
+msgid "Cancel"
+msgstr ""
+
+#: ../src/um-account-dialog.c:1477
+#, fuzzy
+msgid "_Add"
+msgstr "_Ավելացնել…"
+
+#: ../src/um-account-type.c:34
+#, fuzzy
+msgctxt "Account type"
+msgid "Standard"
+msgstr "Ստանդարտ X–տերմինալ"
+
+#: ../src/um-account-type.c:36
+#, fuzzy
+msgctxt "Account type"
+msgid "Administrator"
+msgstr "Terminator"
+
+#: ../src/um-fingerprint-dialog.c:139
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:141
+#, fuzzy
+msgid "The device is already in use."
+msgstr "Տեղանքն արդեն գոյություն ունի։"
+
+#: ../src/um-fingerprint-dialog.c:143
+msgid "An internal error occurred."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:215
+msgid "Disabled"
+msgstr "Ապաակտիվացված է"
+
+#: ../src/um-fingerprint-dialog.c:218
+#, fuzzy
+msgid "Enabled"
+msgstr "Ապաակտիվացված է"
+
+#: ../src/um-fingerprint-dialog.c:267
+msgid "Delete registered fingerprints?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:271
+msgid "_Delete Fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:277
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:447
+msgid "Done!"
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:508 ../src/um-fingerprint-dialog.c:551
+#, fuzzy, c-format
+msgid "Could not access '%s' device"
+msgstr "Չի հաջողվել բացել %s/%s. %s\n"
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../src/um-fingerprint-dialog.c:592
+#, c-format
+msgid "Could not start finger capture on '%s' device"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:642
+#, fuzzy
+msgid "Could not access any fingerprint readers"
+msgstr "Չի հաջողվել բեռնել գլխավոր ինտերֆեյսը"
+
+#: ../src/um-fingerprint-dialog.c:643
+msgid "Please contact your system administrator for help."
+msgstr ""
+
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#.
+#: ../src/um-fingerprint-dialog.c:728
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:735
+msgid "Selecting finger"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:736
+msgid "Enrolling fingerprints"
+msgstr ""
+
+#: ../src/um-fingerprint-dialog.c:737
+msgid "Summary"
+msgstr ""
+
+#: ../src/um-history-dialog.c:70
+msgid "This Week"
+msgstr ""
+
+#: ../src/um-history-dialog.c:73
+msgid "Last Week"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 18",
+#. * shown as the first day of a week on login history dialog.
+#. Translators: This is a date format string in the style of "Feb 24",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:79 ../src/um-history-dialog.c:83
+msgctxt "login history week label"
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013",
+#. * shown as the last day of a week on login history dialog.
+#: ../src/um-history-dialog.c:88
+msgctxt "login history week label"
+msgid "%b %e, %Y"
+msgstr ""
+
+#. Translators: This indicates a week label on a login history.
+#. * The first %s is the first day of a week, and the second %s the last day.
+#: ../src/um-history-dialog.c:93
+#, c-format
+msgctxt "login history week label"
+msgid "%s - %s"
+msgstr ""
+
+#: ../src/um-history-dialog.c:250
+msgid "Session Ended"
+msgstr ""
+
+#: ../src/um-history-dialog.c:256
+msgid "Session Started"
+msgstr ""
+
+#. Translators: This is the title of the "Account Activity" dialog.
+#. * The %s is the user real name.
+#: ../src/um-history-dialog.c:299
+#, c-format
+msgid "%s - Account Activity"
+msgstr ""
+
+#: ../src/um-password-dialog.c:151
+msgid "Please choose another password."
+msgstr ""
+
+#: ../src/um-password-dialog.c:160
+msgid "Please type your current password again."
+msgstr ""
+
+#: ../src/um-password-dialog.c:166
+msgid "Password could not be changed"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:95
+#, fuzzy
+msgid "Select"
+msgstr "_Ընտրել"
+
+#: ../src/um-photo-dialog.c:711
+msgid "Browse for more pictures"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:715
+msgid "_Open"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:945
+#, fuzzy
+msgid "Disable image"
+msgstr "Ապաակտիվացված է"
+
+#: ../src/um-photo-dialog.c:963
+msgid "Take a photo…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:981
+msgid "Browse for more pictures…"
+msgstr ""
+
+#: ../src/um-photo-dialog.c:1209
+#, c-format
+msgid "Used by %s"
+msgstr ""
+
+#: ../src/um-realm-manager.c:308
+msgid "Cannot automatically join this type of domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:311
+msgid "No such domain or realm found"
+msgstr ""
+
+#: ../src/um-realm-manager.c:734 ../src/um-realm-manager.c:748
+#, c-format
+msgid "Cannot log in as %s at the %s domain"
+msgstr ""
+
+#: ../src/um-realm-manager.c:740
+msgid "Invalid password, please try again"
+msgstr ""
+
+#: ../src/um-realm-manager.c:753
+#, c-format
+msgid "Couldn’t connect to the %s domain: %s"
+msgstr ""
+
+#: ../src/um-utils.c:563
+msgid "Sorry, that user name isn't available. Please try another."
+msgstr ""
+
+#: ../src/um-utils.c:566
+#, c-format
+msgid "The username is too long."
+msgstr ""
+
+#: ../src/um-utils.c:569
+msgid "The username cannot start with a '-'."
+msgstr ""
+
+#: ../src/um-utils.c:572
+msgid ""
+"The username should only consist of upper and lower case letters from a-z, "
+"digits and the following characters: . - _"
+msgstr ""
+
+#: ../src/um-utils.c:576
+msgid "This will be used to name your home folder and can't be changed."
+msgstr ""
+
+#: ../src/um-utils.c:815
+msgid "Today"
+msgstr ""
+
+#: ../src/um-utils.c:818
+msgid "Yesterday"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24".
+#: ../src/um-utils.c:823
+msgid "%b %e"
+msgstr ""
+
+#. Translators: This is a date format string in the style of "Feb 24, 2013".
+#: ../src/um-utils.c:827
+msgid "%b %e, %Y"
+msgstr ""
+
+#, fuzzy
+#~ msgid "_Verify New Password"
+#~ msgstr "_Գաղտնաբառ՝"
+
+#~ msgid "Current network location"
+#~ msgstr "Ընթացիկ ցանցի տեղակայություն"
+
+#~ msgid "More backgrounds URL"
+#~ msgstr "Ավելի շատ ֆոների URL"
+
+#~ msgid "More themes URL"
+#~ msgstr "Ավելի շատ թեմաների URL"
+
+#~ msgid ""
+#~ "Set this to your current location name. This is used to determine the "
+#~ "appropriate network proxy configuration."
+#~ msgstr ""
+#~ "Կարգավորել սա ընթացիկ տեղակայության անվանման համար։ Սա օգտագործվում է "
+#~ "համապատասխան ցանցի պրոքսի կոնֆիգուրացիան որոշելու համար։"
+
+#~ msgid ""
+#~ "URL for where to get more desktop backgrounds. If set to an empty string "
+#~ "the link will not appear."
+#~ msgstr ""
+#~ "URL որտեղից ստանալ աշխատասեղանի ավելի շատ ֆոների համար։ Եթե կարգավորված է "
+#~ "դատարկ ծրագրատողում տողը չի երևա։"
+
+#~ msgid ""
+#~ "URL for where to get more desktop themes. If set to an empty string the "
+#~ "link will not appear."
+#~ msgstr ""
+#~ "URL՝ ավելի շատ աշխատանքային սեղանի թեմաներ գտնելու համար։ Դատարկ տողի "
+#~ "դեպքում հղումը չի հայտնվի։"
+
+#~ msgid "Key"
+#~ msgstr "Ստեղն"
+
+#~ msgid "GConf key to which this property editor is attached"
+#~ msgstr "GConf ստեղն, որին կցված է հատկությունների այս խմբագիրը "
+
+#~ msgid "Callback"
+#~ msgstr "Մշակող"
+
+#~ msgid "Issue this callback when the value associated with key gets changed"
+#~ msgstr "Գործարկել այս մշակողը, երբ ստեղնի հետ կապված արժեքը փոխվում է"
+
+#~ msgid ""
+#~ "GConf change set containing data to be forwarded to the gconf client on "
+#~ "apply"
+#~ msgstr ""
+#~ "gconf հաճախորդին իր դիմումի համաձայն ուղարկվղ GConf փոփոխություն "
+#~ "պարունակող տվյալ"
+
+#~ msgid "Conversion to widget callback"
+#~ msgstr "Փոփոխություն վիջեթ մշակողում"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted from GConf to the "
+#~ "widget"
+#~ msgstr "Գործարկել մշակողը, երբ տվյալները GConf–ից վերածվում են վիջեթի"
+
+#~ msgid "Conversion from widget callback"
+#~ msgstr "Փոխակերպում վիջեթից մշակողի"
+
+#~ msgid ""
+#~ "Callback to be issued when data are to be converted to GConf from the "
+#~ "widget"
+#~ msgstr "Գործարկել մշակողը, երբ տվյալները GConf–ից վերածվում են վիջեթի"
+
+#~ msgid "UI Control"
+#~ msgstr "UI ղեկավարում"
+
+#~ msgid "Object that controls the property (normally a widget)"
+#~ msgstr "Օբյեկտ, որ ղեկավարում է հատկույունը (սովորաբար վիջեթ)"
+
+#~ msgid "Property editor object data"
+#~ msgstr "Հատկությունների խմբագրի օբյեկտի տվյալ"
+
+#~ msgid "Custom data required by the specific property editor"
+#~ msgstr "հատուկ հատկությունների խմբագրի սովորական տվյալ"
+
+#~ msgid "Property editor data freeing callback"
+#~ msgstr "Հատկության խմբագրի տվյալները ազատում են մշակողը"
+
+#~ msgid ""
+#~ "Callback to be issued when property editor object data is to be freed"
+#~ msgstr ""
+#~ "Գործարկել մշակողը, երբ պետք է ազատվեն հատկության խմբագրի օբյեկտի տվյալները"
+
+#, c-format
+#~ msgid ""
+#~ "Couldn't find the file '%s'.\n"
+#~ "\n"
+#~ "Please make sure it exists and try again, or choose a different "
+#~ "background picture."
+#~ msgstr ""
+#~ "Չի հաջողվել գտնել '%s' ֆայլը։\n"
+#~ "\n"
+#~ "Խնդրում ենք հաստատել, որ այն գոյություն ունի և նորից փորձել կամ ընտրել "
+#~ "ֆոնի այլ նկար։"
+
+#, c-format
+#~ msgid ""
+#~ "I don't know how to open the file '%s'.\n"
+#~ "Perhaps it's a kind of picture that is not yet supported.\n"
+#~ "\n"
+#~ "Please select a different picture instead."
+#~ msgstr ""
+#~ "Ես չգիտեմ, թե ինչպես բացել '%s' ֆայլը։\n"
+#~ "Հավանաբար այն նկարի մի տեսակ է, որը դեռ ապահովված չէ։\n"
+#~ "\n"
+#~ "Խնդրում ենք փոխարենն այլ նկար ընտրել։"
+
+#~ msgid "Please select an image."
+#~ msgstr "Խնդրում ենք նկար ընտրել։"
+
+#~ msgid "Date And Time"
+#~ msgstr "Ամսաթիվ և Ժամանակ"
+
+#~ msgid "Date and Time preferences panel"
+#~ msgstr "Ամսաթիվը և Ժամանակի նախընտրությունների վահանակ"
+
+#~ msgid "Preferred Applications"
+#~ msgstr "Նախընտրելի ծրագրեր"
+
+#~ msgid "Select your default applications"
+#~ msgstr "Ընտրել նախնական ծրագրերը"
+
+#~ msgid "Start the preferred visual assistive technology"
+#~ msgstr "Սկսել նախընտրելի տեսողական աջակցող տեխնոլոգիան"
+
+#~ msgid "Visual Assistance"
+#~ msgstr "Տեսողական օգնություն"
+
+#, c-format
+#~ msgid "Error saving configuration: %s"
+#~ msgstr "Սխալ՝ %s կոնֆիգուրացիան պահպանելիս"
+
+#~ msgid "Custom"
+#~ msgstr "Սովորական"
+
+#~ msgid "Accessibility"
+#~ msgstr "Հասանելիություն"
+
+#, no-c-format
+#~ msgid "All %s occurrences will be replaced with actual link"
+#~ msgstr "Բոլոր %s դեպքերը կտեղափոխվեն իրական տողերով"
+
+#~ msgid "C_ommand:"
+#~ msgstr "Հ_րաման՝"
+
+#~ msgid "Co_mmand:"
+#~ msgstr "Հ_րաման՝"
+
+#~ msgid "E_xecute flag:"
+#~ msgstr "Գ_ործարկել դրոշակը՝"
+
+#~ msgid "Image Viewer"
+#~ msgstr "Նկարի դիտակ"
+
+#~ msgid "Instant Messenger"
+#~ msgstr "Ակնթարթային հաղորդագրող"
+
+#~ msgid "Internet"
+#~ msgstr "Համացանց"
+
+#~ msgid "Mail Reader"
+#~ msgstr "Էլ–փոստ ընթերցող"
+
+#~ msgid "Mobility"
+#~ msgstr "Շարժունություն"
+
+#~ msgid "Multimedia"
+#~ msgstr "Մուլտիմեդիա"
+
+#~ msgid "Multimedia Player"
+#~ msgstr "Մուլտիմեդիա նվագարկիչ"
+
+#~ msgid "Open link in new _tab"
+#~ msgstr "Բացել տողը նոր _ներդիրով"
+
+#~ msgid "Open link in new _window"
+#~ msgstr "Բացել տողը նոր _պատուհանով"
+
+#~ msgid "Open link with web browser _default"
+#~ msgstr "Բացել տողը նոր վեբ զննիչով _նախնական"
+
+#~ msgid "Run at st_art"
+#~ msgstr "Սկսել սկ_զբից"
+
+#~ msgid "Run in t_erminal"
+#~ msgstr "Սկսել տ_երմինալում"
+
+#~ msgid "System"
+#~ msgstr "Համակարգ"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Տերմինալի էմուլյատոր"
+
+#~ msgid "Text Editor"
+#~ msgstr "Տեքստային խմբագիր"
+
+#~ msgid "Video Player"
+#~ msgstr "Վիդեո նվագարկիչ"
+
+#~ msgid "Visual"
+#~ msgstr "Տեսողական"
+
+#~ msgid "Web Browser"
+#~ msgstr "Վեբ զննիչ "
+
+#~ msgid "_Run at start"
+#~ msgstr "_Սկսել սկզբից"
+
+#~ msgid "Balsa"
+#~ msgstr "Բալսա"
+
+#~ msgid "Banshee Music Player"
+#~ msgstr "Banshee երաժշտական նվագարկիչ"
+
+#~ msgid "Claws Mail"
+#~ msgstr "Claws Mail"
+
+#~ msgid "Dasher"
+#~ msgstr "Dasher"
+
+#~ msgid "Debian Sensible Browser"
+#~ msgstr "Debian Զգայուն զննիչ"
+
+#~ msgid "Debian Terminal Emulator"
+#~ msgstr "Debian Տերմինալի էմուլյատոր"
+
+#~ msgid "ETerm"
+#~ msgstr "ETerm"
+
+#~ msgid "Encompass"
+#~ msgstr "Շրջապատել"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Epiphany վեբ զննիչ"
+
+#~ msgid "Evolution Mail Reader"
+#~ msgstr "Evolution փոստային ընթերցող"
+
+#~ msgid "Firebird"
+#~ msgstr "Firebird"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"
+
+#~ msgid "GNOME Magnifier without Screen Reader"
+#~ msgstr "GNOME խոշորացույց առանց էկրանի ընթերցող սարքի"
+
+#~ msgid "GNOME OnScreen Keyboard"
+#~ msgstr "GNOME OnScreen ստեղնաշար"
+
+#~ msgid "GNOME Terminal"
+#~ msgstr "GNOME տերմինալ"
+
+#~ msgid "Galeon"
+#~ msgstr "Galeon"
+
+#~ msgid "Gnopernicus"
+#~ msgstr "Gnopernicus"
+
+#~ msgid "Gnopernicus with Magnifier"
+#~ msgstr "Gnopernicus խոշորացույցով"
+
+#~ msgid "Iceape"
+#~ msgstr "Iceape"
+
+#~ msgid "Iceape Mail"
+#~ msgstr "Iceape էլ–փոստ"
+
+#~ msgid "Icedove"
+#~ msgstr "Icedove"
+
+#~ msgid "Iceweasel"
+#~ msgstr "Iceweasel"
+
+#~ msgid "KDE Magnifier without Screen Reader"
+#~ msgstr "KDE խոշորացույց առանց էկրանի ընթերցող սարքի"
+
+#~ msgid "KMail"
+#~ msgstr "KMail"
+
+#~ msgid "Konqueror"
+#~ msgstr "Konqueror"
+
+#~ msgid "Konsole"
+#~ msgstr "Konsole"
+
+#~ msgid "Linux Screen Reader"
+#~ msgstr "Linux էկրանի ընթերցող սարք"
+
+#~ msgid "Linux Screen Reader with Magnifier"
+#~ msgstr "Linux–ի էկրանի ընթերցող սարք խոշորացույցով"
+
+#~ msgid "Listen"
+#~ msgstr "Լսել"
+
+#~ msgid "Midori"
+#~ msgstr "Midori"
+
+#~ msgid "Mozilla"
+#~ msgstr "Mozilla"
+
+#~ msgid "Mozilla 1.6"
+#~ msgstr "Mozilla 1.6"
+
+#~ msgid "Mozilla Mail"
+#~ msgstr "Mozilla էլ–փոստ"
+
+#~ msgid "Mozilla Thunderbird"
+#~ msgstr "Mozilla Thunderbird"
+
+#~ msgid "Muine Music Player"
+#~ msgstr "Muine երաժշտական նվագարկիչ"
+
+#~ msgid "Mutt"
+#~ msgstr "Mutt"
+
+#~ msgid "NXterm"
+#~ msgstr "NXterm"
+
+#~ msgid "Netscape Communicator"
+#~ msgstr "Netscape հաղորդակցվող"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Orca"
+#~ msgstr "Orca"
+
+#~ msgid "Orca with Magnifier"
+#~ msgstr "Orca խոշորացույցով"
+
+#~ msgid "RXVT"
+#~ msgstr "RXVT"
+
+#~ msgid "Rhythmbox Music Player"
+#~ msgstr "Rhythmbox նվագարկիչ"
+
+#~ msgid "SeaMonkey"
+#~ msgstr "SeaMonkey"
+
+#~ msgid "SeaMonkey Mail"
+#~ msgstr "SeaMonkey էլ–փոստ"
+
+#~ msgid "Sylpheed"
+#~ msgstr "Sylpheed"
+
+#~ msgid "Sylpheed-Claws"
+#~ msgstr "Sylpheed-Claws"
+
+#~ msgid "Thunderbird"
+#~ msgstr "Thunderbird"
+
+#~ msgid "Totem Movie Player"
+#~ msgstr "Totem նվագարկիչ"
+
+#~ msgid "aterm"
+#~ msgstr "aterm"
+
+#~ msgid "Include _panel"
+#~ msgstr "Ընդգրկել _վահանակը"
+
+#~ msgid "Left"
+#~ msgstr "Ձախ"
+
+#~ msgid "Make Default"
+#~ msgstr "Դարձնել Լռելյայն"
+
+#~ msgid "Monitor"
+#~ msgstr "Մոնիտոր"
+
+#~ msgid "Normal"
+#~ msgstr "Նորմալ"
+
+#~ msgid "Off"
+#~ msgstr "Անջատել"
+
+#~ msgid "On"
+#~ msgstr "Միացնել"
+
+#~ msgid "Panel icon"
+#~ msgstr "վահանակի պատկերանիշ"
+
+#~ msgid "R_otation:"
+#~ msgstr "Շ_րջում՝"
+
+#~ msgid "Re_fresh rate:"
+#~ msgstr "Թարմացման արագություն."
+
+#~ msgid "Sa_me image in all monitors"
+#~ msgstr "Նույն պատկերը բորոր մոնիտորներում"
+
+#~ msgid "Upside-down"
+#~ msgstr "Վերից վար"
+
+#~ msgid "_Detect monitors"
+#~ msgstr "_Հայտնաբերել մոնիտորները"
+
+#~ msgid "_Resolution:"
+#~ msgstr "_Որոշում՝"
+
+#~ msgid "_Show monitors in panel"
+#~ msgstr "_Մոնիտորները ցույց տալ վահանակի վրա"
+
+#~ msgid "Change resolution and position of monitors"
+#~ msgstr "Փոխել մոնիտորների բաժանումը և դիրքը"
+
+#~ msgid "Monitors"
+#~ msgstr "Մոնիտորներ"
+
+#, c-format
+#~ msgid ""
+#~ "Usage: %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "This program installs a RANDR profile for multi-monitor setups into\n"
+#~ "a systemwide location.  The resulting profile will get used when\n"
+#~ "the RANDR plug-in gets run in gnome-settings-daemon.\n"
+#~ "\n"
+#~ "SOURCE_FILE - a full pathname, typically /home/username/.config/monitors."
+#~ "xml\n"
+#~ "\n"
+#~ "DEST_NAME - relative name for the installed file.  This will get put in\n"
+#~ "            the systemwide directory for RANDR configurations,\n"
+#~ "            so the result will typically be %s/DEST_NAME\n"
+#~ msgstr ""
+#~ "Օգտագործում․ %s SOURCE_FILE DEST_NAME\n"
+#~ "\n"
+#~ "Այս ծրագիրը տեղադրում է RANDR պրոֆիլը բազմակի մոնիտորային ռեժիմի համար "
+#~ "նշված\n"
+#~ "համակարգային տարածքում։ Վերջնական պրոֆիլը կդառնա սովոր սովորական, երբ\n"
+#~ "RANDR plug-in գործարկվում է gnome-settings-daemon -ում։\n"
+#~ "\n"
+#~ "SOURCE_FILE - ամբողջական ճանապարհն է, տիպիկ /home/username/.config/"
+#~ "monitors.xml\n"
+#~ "\n"
+#~ "DEST_NAME - տեղադրված ֆայլի հարաբերական անունը. Այն կդրվի նշված տեղում\n"
+#~ "            RANDR կոնֆիգուրացիաների համար՝ իր համակարգի պանակում,\n"
+#~ "            այնպես որ արդյունքը տիպիկ կլինի %s/DEST_NAME\n"
+
+#~ msgid "This program can only be used by the root user"
+#~ msgstr "Այս ծրագիրը կարող է օգտագործվել միայն արմատային օգտագործողի կողմից"
+
+#~ msgid "The source filename must be absolute"
+#~ msgstr "Պետք է նշված լինի ֆայլի բացարձակ անունը"
+
+#~ msgid "Could not open %s: %s\n"
+#~ msgstr "Չի հաջողվել բացել %s. %s\n"
+
+#~ msgid "Could not get information for %s: %s\n"
+#~ msgstr "Չի հաջողվել ստանալ %s -ի վերաբերյալ տեղեկատվություն․ %s\n"
+
+#, c-format
+#~ msgid "%s must be a regular file\n"
+#~ msgstr "%s պետք է լինի ռեգուլյար ֆայլ\n"
+
+#~ msgid "This program must only be run through pkexec(1)"
+#~ msgstr "Այս ծրագիրը պետք է գործարկվի միայն pkexec(1) - ի միջոցով"
+
+#~ msgid "PKEXEC_UID must be set to an integer value"
+#~ msgstr "PKEXEC_UID պետք է սահմանվի ամբողջ արժեք"
+
+#, c-format
+#~ msgid "%s must be owned by you\n"
+#~ msgstr "%s -ը պետք է լինի ձեր սեփականությունը\n"
+
+#, c-format
+#~ msgid "%s must not have any directory components\n"
+#~ msgstr "%s -ը պետք է չունենա որևէ պանակ-կոմպոնոնտներ\n"
+
+#, c-format
+#~ msgid "%s must be a directory\n"
+#~ msgstr "%s -ը պետք է լինի պանակ\n"
+
+#, c-format
+#~ msgid "Could not rename %s to %s: %s\n"
+#~ msgstr "Չի հաջողվել անվանափոխել %s -ը %s -ով․ %s\n"
+
+#~ msgid ""
+#~ "Authentication is required to install multi-monitor settings for all users"
+#~ msgstr ""
+#~ "Բոլոր օգտագործողների բազմակի մոնիտորային պարամետրերը տեղադրելու համար "
+#~ "վավերացում է անհրաժեշտ"
+
+#~ msgid "Install multi-monitor settings for the whole system"
+#~ msgstr "Տեղադրել բազմակի մոնիտորային պարամետրերը ամբողջ համակարգի համար"
+
+#~ msgid "Upside Down"
+#~ msgstr "Վերից վար"
+
+#, c-format
+#~ msgid "%d Hz"
+#~ msgstr "%d Hz"
+
+#~ msgid "Mirror Screens"
+#~ msgstr "Հայելային էկրաններ"
+
+#, c-format
+#~ msgid "Monitor: %s"
+#~ msgstr "Մոնիտոր. %s"
+
+#, c-format
+#~ msgid "%d x %d"
+#~ msgstr "%d x %d"
+
+#~ msgid ""
+#~ "Select a monitor to change its properties; drag it to rearrange its "
+#~ "placement."
+#~ msgstr ""
+#~ "Ընտրել մոնիտոր՝ հատկությունները փոխելու համար. քաշել այն դիրքի "
+#~ "փոփոխության համար։"
+
+#~ msgid "Could not save the monitor configuration"
+#~ msgstr "Չհաջողվեց պահել մոնիտորի կոնֆիգուրացումը"
+
+#~ msgid "Could not get session bus while applying display configuration"
+#~ msgstr "Չի հաջողվել ստանալ կապուղին էկրանի կոնֆիգուրացիան կիրառելու ժամանակ"
+
+#~ msgid "Could not detect displays"
+#~ msgstr "Էկրաններ հայտնաբերումը չի հաջողվել"
+
+#~ msgid "The monitor configuration has been saved"
+#~ msgstr "Մոնիտորի կոնֆիգուրացիան պահպանվել է"
+
+#~ msgid "This configuration will be used the next time someone logs in."
+#~ msgstr ""
+#~ "Այս կոնֆիգուրացիան կօգտագործվի հաջորդ անգամ, երբ ինչ-որ մեկը մուտք գործի "
+#~ "համակարգ"
+
+#~ msgid "Could not set the default configuration for monitors"
+#~ msgstr "Չհաջողվեց մոնիտորի համար սահմանել լռելյայն կոնֆիգուրացիա"
+
+#~ msgid "Could not get screen information"
+#~ msgstr "Չի հաջողվել ստանալ էկրանի տվյալները"
+
+#~ msgid "Sound"
+#~ msgstr "Ձայն"
+
+#~ msgid "Desktop"
+#~ msgstr "Աշխատասեղան"
+
+#~ msgid "New shortcut..."
+#~ msgstr "Նոր ստեղների համադրություն…"
+
+#~ msgid "Accelerator key"
+#~ msgstr "Արագացուցչի ստեղն"
+
+#~ msgid "Accelerator modifiers"
+#~ msgstr "Արագացուցչի ձևափոխիչ"
+
+#~ msgid "Accelerator keycode"
+#~ msgstr "Արագացնող ստեղնի գաղտնագիր"
+
+#~ msgid "Accel Mode"
+#~ msgstr "Արագացման ռեժիմ"
+
+#~ msgid "The type of accelerator."
+#~ msgstr "Արագացուցչի տեսակը։"
+
+#~ msgid "<Unknown Action>"
+#~ msgstr "<Անհայտ գործողություն>"
+
+#~ msgid "Custom Shortcuts"
+#~ msgstr "Սովորական ստեղների համադրություն"
+
+#~ msgid "Error saving the new shortcut"
+#~ msgstr "Սխալ՝ ստեղների համադրությունը պահպանելիս"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" cannot be used because it will become impossible to "
+#~ "type using this key.\n"
+#~ "Please try with a key such as Control, Alt or Shift at the same time."
+#~ msgstr ""
+#~ "\"%s\" ստեղների համադրությունը չի հաջողվել գործածել, որովհետև "
+#~ "մեքենագրելու ժամանակ այս ստեղնի օգտագործումը անհնար կլինի։\n"
+#~ "Խնդրում ենք փորձել այնպիսի ստեղներով ինչպիսիք են Control, Alt կամ Shift–ը "
+#~ "միաժամանակ։"
+
+#, c-format
+#~ msgid ""
+#~ "The shortcut \"%s\" is already used for\n"
+#~ "\"%s\""
+#~ msgstr ""
+#~ "\"%s\" ստեղների համադրությունն արդեն օգտագործված է՝\n"
+#~ "\"%s\""
+
+#, c-format
+#~ msgid ""
+#~ "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be "
+#~ "disabled."
+#~ msgstr ""
+#~ "Եթե \"%s\" ստեղների համադրությունը վերանշանակեք, \"%s\" ստեղների "
+#~ "համադրությունը կապաակտիվացվի։"
+
+#~ msgid "_Reassign"
+#~ msgstr "_Վերանշանակել"
+
+#, c-format
+#~ msgid "Error unsetting accelerator in configuration database: %s"
+#~ msgstr "Սխալ՝ կոնֆիգուրացիայի տվյալների բազայում արագացուցիչն անջատելիս՝ %s"
+
+#~ msgid "Too many custom shortcuts"
+#~ msgstr "Չափազանց շատ սովորական ստեղների համադրություն"
+
+#~ msgid "Action"
+#~ msgstr "Գործողություն"
+
+#~ msgid "Shortcut"
+#~ msgstr "Ստեղների համադրություն"
+
+#~ msgid "Custom Shortcut"
+#~ msgstr "Սովորական ստեղների համադրություն"
+
+#~ msgid "Keyboard Shortcuts"
+#~ msgstr "Ստեղնաշարի ստեղների համադրություն"
+
+#~ msgid ""
+#~ "To edit a shortcut key, click on the corresponding row and type a new key "
+#~ "combination, or press backspace to clear."
+#~ msgstr ""
+#~ "Ստեղների համադրությունը խմբագրելու համար կտտացրեք համապատասխան տողի վրա և "
+#~ "մեքենագրեք ստեղների նոր համադրություն կամ սեղմեք backspace–ը ջնջելու "
+#~ "համար։"
+
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Նշանակել ստեղների համադրություն հրամանների համար"
+
+#~ msgid "Beep when _accessibility features are turned on or off"
+#~ msgstr "Ազդանշանել, երբ _հասանելիությունը միացված կամ անջատված է"
+
+#~ msgid "Beep when a _modifier key is pressed"
+#~ msgstr "Ազդանշանել, երբ _մոդիֆիկատորի ստեղնը միացված է"
+
+#~ msgid "Beep when a _toggle key is pressed"
+#~ msgstr "Ազդանշանել, երբ _փոխանջատչի ստեղնը սեղմված է"
+
+#~ msgid "Beep when a key is pr_essed"
+#~ msgstr "Ազդանշանել, երբ _ստեղնը սեղմված է"
+
+#~ msgid "Beep when a key is reje_cted"
+#~ msgstr "Ազդանշանել, երբ ստեղնը մերժ_ված է"
+
+#~ msgid "Beep when key is _accepted"
+#~ msgstr "Ազդանշանել, երբ ստեղնն _ընդունված է"
+
+#~ msgid "Beep when key is _rejected"
+#~ msgstr "Ազդանշանել, երբ ստեղնը _մերժված է"
+
+#~ msgid "Bounce Keys"
+#~ msgstr "Անցման ստեղներ"
+
+#~ msgid "Flash _window titlebar"
+#~ msgstr "_Պատուհանի վերնագրի տողի թարթում"
+
+#~ msgid "Flash entire _screen"
+#~ msgstr "Ամբողջ _էկրանի թարթում"
+
+#~ msgid "General"
+#~ msgstr "Ընդհանուր"
+
+#~ msgid "Keyboard Accessibility Audio Feedback"
+#~ msgstr "Ստեղնաշարի հասանելիության ձայնային հետդարձ կապ"
+
+#~ msgid "Show _visual feedback for the alert sound"
+#~ msgstr "Ցույց տալ _տեսողական հետդարձ կապ զգուշացման ազդանշանի ձայնի համար"
+
+#~ msgid "Slow Keys"
+#~ msgstr "Դանդաղ ստեղներ"
+
+#~ msgid "Sticky Keys"
+#~ msgstr "Կպչուն ստեղներ"
+
+#~ msgid "Visual cues for sounds"
+#~ msgstr "Տեսողական հուշում ձայների համար"
+
+#~ msgid "All_ow postponing of breaks"
+#~ msgstr "Թու_յլատրել ընդմիջումների հետաձգումը"
+
+#~ msgid "Audio _Feedback..."
+#~ msgstr "Ձայնային _հետդարձ կապ..."
+
+#~ msgid "Check if breaks are allowed to be postponed"
+#~ msgstr "Ստուգել, երբ թույլատրվում է ընդմիջումներն հետաձգել"
+
+#~ msgid "Cursor Blinking"
+#~ msgstr "Կուրսորի թարթում"
+
+#~ msgid "Cursor _blinks in text fields"
+#~ msgstr "Կուրսորը _թարթում է տեքստի շրջանում"
+
+#~ msgid "Cursor blinks speed"
+#~ msgstr "Կուրսորի թարթման արագություն"
+
+#~ msgid "D_elay:"
+#~ msgstr "Հ_ետաձգում՝"
+
+#~ msgid "Disa_ble sticky keys if two keys are pressed together"
+#~ msgstr ""
+#~ "Ապաա_կտիվացնել կպչուն ստեղները, եթե երկու ստեղները սեղմվում են միաժամանակ"
+
+#~ msgid "Duration of the break when typing is disallowed"
+#~ msgstr "Ընդմիջման ժամանակը, երբ չի թույլատրվում մեքենագրելը"
+
+#~ msgid "Duration of work before forcing a break"
+#~ msgstr "Աշխատանքի տևողությունը նախքան ստիպողական ընդմիջումը"
+
+#~ msgid "Fast"
+#~ msgstr "Արագ"
+
+#~ msgid "Key presses _repeat when key is held down"
+#~ msgstr "Սեղմած ստեղնի նորից սեղմում"
+
+#~ msgid "Keyboard Preferences"
+#~ msgstr "Ստեղնաշարի նախընտրություններ"
+
+#~ msgid "Keyboard _model:"
+#~ msgstr "Ստեղնաշարի _մոդել՝"
+
+#~ msgid "Layouts"
+#~ msgstr "Դասավորություններ"
+
+#~ msgid "List of keyboard layouts selected for usage"
+#~ msgstr "Օգտագործման համար ընտրված ստեղնաշարային դասավորությունների ցուցակը"
+
+#~ msgid ""
+#~ "Lock screen after a certain duration to help prevent repetitive keyboard "
+#~ "use injuries"
+#~ msgstr ""
+#~ "Որոշակի ժամանակ անց արգելափակել էկրանը՝ ստեղնաշարի անընդհատ օգտագործոման "
+#~ "հետևանքով բարդություններից խուսափելու համար"
+
+#~ msgid "Long"
+#~ msgstr "Երկար"
+
+#~ msgid "Mouse Keys"
+#~ msgstr "Մկնիկի ստեղներ"
+
+#~ msgid "Move _Down"
+#~ msgstr "Շարժել _ներքև"
+
+#~ msgid "Move _Up"
+#~ msgstr "Շարժել _վերև"
+
+#~ msgid "Move the selected keyboard layout down in the list"
+#~ msgstr ""
+#~ "Ընտրված ստեղնաշարային դասավորությունը տեղափոխել ցուցակում դեպի ներքև"
+
+#~ msgid "Move the selected keyboard layout up in the list"
+#~ msgstr "Ընտրված ստեղնաշարային դասավորությունը տեղափոխել ցուցակում դեպի վերև"
+
+#~ msgid "New windows u_se active window's layout"
+#~ msgstr "Նոր պատուհաններն օգտագործում են ակտիվ պատուհանի ծրագիրը"
+
+#~ msgid "Print a diagram of the selected keyboard layout"
+#~ msgstr "Ընտրված ստեղնաշարային դասավորության համար տպել սխեմա"
+
+#~ msgid "Remove the selected keyboard layout from the list"
+#~ msgstr "Հեռացնել ընտրված ստեղնաշարային դասավորությունը ցուցակից"
+
+#~ msgid "Repeat Keys"
+#~ msgstr "Կրկնել ստեղները"
+
+#~ msgid "Repeat keys speed"
+#~ msgstr "Կրկնել ստեղների արագությունը"
+
+#~ msgid ""
+#~ "Replace the current keyboard layout settings with the\n"
+#~ "default settings"
+#~ msgstr ""
+#~ "Փոխարինել ընթացիկ ստեղնաշարային դասավորության պարամետրերը\n"
+#~ "լռելյայն պարամետրերով"
+
+#~ msgid "Reset to De_faults"
+#~ msgstr "Վերադարձնել լռելյայն վիճակին"
+
+#~ msgid "S_peed:"
+#~ msgstr "Ա_րագություն՝"
+
+#~ msgid "Select a keyboard layout to be added to the list"
+#~ msgstr "Ընտրեք ցուցակին ավելացվող ստեղնաշարային դասավորությունը"
+
+#~ msgid "Short"
+#~ msgstr "Կարճ"
+
+#~ msgid "Slow"
+#~ msgstr "Դանդաղ"
+
+#~ msgid "Typing Break"
+#~ msgstr "Աշխատանքային ընդմիջում"
+
+#~ msgid "View and edit keyboard layout options"
+#~ msgstr "Դիտել և խմբագրել ստեղնաշարի դասավորության ընտրանքները"
+
+#~ msgid "_Acceleration:"
+#~ msgstr "_Արագացում՝"
+
+#~ msgid "_Accessibility features can be toggled with keyboard shortcuts"
+#~ msgstr ""
+#~ "_Օժանդակ հատկությունները կարելի է փոփոխել ստեղների համադրություններով"
+
+#~ msgid "_Break interval lasts:"
+#~ msgstr "_Ընդմիջման տևողությունը."
+
+#~ msgid "_Delay:"
+#~ msgstr "_Հետաձգում՝"
+
+#~ msgid "_Ignore fast duplicate keypresses"
+#~ msgstr "_Անտեսել ստեղների սեղմման արագ կրկնումները"
+
+#~ msgid "_Lock screen to enforce typing break"
+#~ msgstr "_Արգելափակել էկրանը աշխատանքային ընդմիջման համար"
+
+#~ msgid "_Only accept long keypresses"
+#~ msgstr "_Ընդունել միայն ստեղների երկար սեղմումները"
+
+#~ msgid "_Options..."
+#~ msgstr "_Ընտրացանկ..."
+
+#~ msgid "_Pointer can be controlled using the keypad"
+#~ msgstr "_Ցուցիչը կարող է կառավարվել ստեղնխմբով"
+
+#~ msgid "_Separate layout for each window"
+#~ msgstr "_Առանձին դասավորություն ամեն մի պատուհանի համար"
+
+#~ msgid "_Simulate simultaneous keypresses"
+#~ msgstr "_Մոդելավորել ստեղների միաժամանակյա սեղմումները"
+
+#~ msgid "_Speed:"
+#~ msgstr "_Արագություն՝"
+
+#~ msgid "_Type to test settings:"
+#~ msgstr "_Մեքենագրել պարամետրերը ստուգելու համար՝"
+
+#~ msgid "_Work interval lasts:"
+#~ msgstr "_Աշխատանքի ընդմիջումը տևում է՝"
+
+#~ msgid "minutes"
+#~ msgstr "րոպեներ"
+
+#~ msgid "By _language"
+#~ msgstr "Լեզվով"
+
+#~ msgid "Choose a Layout"
+#~ msgstr "Ընտրել դասավորություն"
+
+#~ msgid "Preview:"
+#~ msgstr "Նախնական տեսք՝"
+
+#~ msgid "_Country:"
+#~ msgstr "_Երկիր՝"
+
+#~ msgid "_Language:"
+#~ msgstr "_Լեզու՝"
+
+#~ msgid "_Variants:"
+#~ msgstr "_Տարբերակներ՝"
+
+#~ msgid "Choose a Keyboard Model"
+#~ msgstr "Ընտրել ստեղնաշարի մոդելը"
+
+#~ msgid "_Models:"
+#~ msgstr "_Մոդելներ՝"
+
+#~ msgid "_Vendors:"
+#~ msgstr "_Վաճառող՝"
+
+#~ msgid "Keyboard Layout Options"
+#~ msgstr "Ստեղնաշարի դասավորության ընտրանքներ"
+
+#~ msgid "Layout"
+#~ msgstr "Դասավորություն"
+
+#~ msgid "Vendors"
+#~ msgstr "Վաճառողներ"
+
+#~ msgid "Models"
+#~ msgstr "Մոդելներ"
+
+#~ msgid "Default"
+#~ msgstr "Նախնական"
+
+#~ msgid "Keyboard"
+#~ msgstr "Ստեղնաշար"
+
+#~ msgid "Set your keyboard preferences"
+#~ msgstr "Կարգավորել ստեղնաշարի նախընտրությունները"
+
+#, c-format
+#~ msgid "Unable to load stock icon '%s'\n"
+#~ msgstr "Հնարավոր չէ բեռնել '%s' պատկերանիշը\n"
+
+#~ msgid "gesture|Move left"
+#~ msgstr "շարժում|դեպի ձախ"
+
+#~ msgid "gesture|Move right"
+#~ msgstr "շարժում|դեպի աջ"
+
+#~ msgid "gesture|Move up"
+#~ msgstr "շարժում|դեպի վեր"
+
+#~ msgid "gesture|Move down"
+#~ msgstr "շարժում|դեպի վար"
+
+#~ msgid "gesture|Disabled"
+#~ msgstr "շարժում|ապաակտիվացված է"
+
+#~ msgid "Choose type of click _beforehand"
+#~ msgstr "Ընտրել կտտացնելու տեսակը _նախապես"
+
+#~ msgid "Choose type of click with mo_use gestures"
+#~ msgstr "Ընտրել կտտացնելու տեսակը մկն_իկի շարժումներով"
+
+#~ msgid "D_ouble click:"
+#~ msgstr "Կ_րկնակի կտտոց՝"
+
+#~ msgid "D_rag click:"
+#~ msgstr "Ա_րգելակի կտտոց՝"
+
+#~ msgid "Disable _touchpad while typing"
+#~ msgstr "Ապաակտիվացնել _սենսորային վահանակը մեքենագրելու ժամանակ"
+
+#~ msgid "Double-Click Timeout"
+#~ msgstr "Հապաղում կրկնակի կտտոցի դեպքում"
+
+#~ msgid "Drag and Drop"
+#~ msgstr "Քաշել և գցել"
+
+#~ msgid "Dwell Click"
+#~ msgstr "Կրկնակի կտտոց"
+
+#~ msgid "Enable _mouse clicks with touchpad"
+#~ msgstr "Ակտիվացնել _մկնիկի կտտոցը սենսորային վահանակի հետ միաժամանակ"
+
+#~ msgid "Enable h_orizontal scrolling"
+#~ msgstr "Ակտիվացնել հ_որիզոնական ոլորումը"
+
+#~ msgid "High"
+#~ msgstr "Բարձր"
+
+#~ msgid "Large"
+#~ msgstr "Մեծ"
+
+#~ msgid "Locate Pointer"
+#~ msgstr "Տեղակայել ցուցիչը"
+
+#~ msgid "Low"
+#~ msgstr "Ցածր"
+
+#~ msgid "Mouse Orientation"
+#~ msgstr "Մկնիկի ուղղությունը"
+
+#~ msgid "Mouse Preferences"
+#~ msgstr "Մկնիկի նախընտրություններ"
+
+#~ msgid "Pointer Speed"
+#~ msgstr "Ցուցչի արագություն"
+
+#~ msgid "Scrolling"
+#~ msgstr "Ոլորում"
+
+#~ msgid "Seco_ndary click:"
+#~ msgstr "Երկր_որդական կտտոց՝"
+
+#~ msgid "Sh_ow position of pointer when the Control key is pressed"
+#~ msgstr "Ցու_յց տալ ցուցչի դիրքը, երբ ղեկավարման ստեղնը սեղմված է"
+
+#~ msgid "Show click type _window"
+#~ msgstr "Ցույց տալ պատուհանի կտտոցի _տեսակը"
+
+#~ msgid "Simulated Secondary Click"
+#~ msgstr "Մոդելավորված երկրորդական կտտոց"
+
+#~ msgid "Small"
+#~ msgstr "Փոքր"
+
+#~ msgid "Thr_eshold:"
+#~ msgstr "Սահմանային _արժեք՝"
+
+#~ msgid ""
+#~ "To test your double-click settings, try to double-click on the light bulb."
+#~ msgstr ""
+#~ "Կրկնակի կտտոցի պարամետրերը ստուգելու համար փորձեք կրկնակի կտտացնել վառվող "
+#~ "լույսի վրա։"
+
+#~ msgid "Touchpad"
+#~ msgstr "Սենսորային վահանակ"
+
+#~ msgid "Two-_finger scrolling"
+#~ msgstr "Ոլորում երկու _մատով"
+
+#~ msgid ""
+#~ "You can also use the Dwell Click panel applet to choose the click type."
+#~ msgstr ""
+#~ "Կարող եք նաև օգտագործել հապաղումով կտտոցը վահանակի ապլետի կտտոցի տեսակը "
+#~ "ընտրելու համար։"
+
+#~ msgid "_Disabled"
+#~ msgstr "_Ապաակտիվացված է"
+
+#~ msgid "_Edge scrolling"
+#~ msgstr "_Եզրային ոլորում"
+
+#~ msgid "_Initiate click when stopping pointer movement"
+#~ msgstr "_Գործարկել կտտոցը, երբ դադարեցվում է ցուցչի շարժումը"
+
+#~ msgid "_Left-handed"
+#~ msgstr "_Ձախ ձեռքով"
+
+#~ msgid "_Motion threshold:"
+#~ msgstr "_Շարժման սահմանային արժեք՝"
+
+#~ msgid "_Right-handed"
+#~ msgstr "_Աջ ձեռքով"
+
+#~ msgid "_Sensitivity:"
+#~ msgstr "_Զգայունություն՝"
+
+#~ msgid "_Single click:"
+#~ msgstr "_Մեկ կտտոց՝"
+
+#~ msgid "_Timeout:"
+#~ msgstr "_Ժամանակը լրացել է՝"
+
+#~ msgid "_Trigger secondary click by holding down the primary button"
+#~ msgstr "_Իրականցնել երկրորդական կտտոցը՝ պահելով հիմնական կոճակը"
+
+#~ msgid "Mouse"
+#~ msgstr "Մկնիկ"
+
+#~ msgid "Set your mouse preferences"
+#~ msgstr "Կարգավորել մկնիկի նախընտրությունները"
+
+#~ msgid "New Location..."
+#~ msgstr "Նոր տեղակայություն..."
+
+#~ msgid "Location already exists"
+#~ msgstr "Տեղակայությունն արդեն գոյություն ունի"
+
+#~ msgid "Network Proxy"
+#~ msgstr "Ցանցի պրոքսի"
+
+#~ msgid "Set your network proxy preferences"
+#~ msgstr "Կարգավորել ցանցի պրոքսիի նախընտրությունները"
+
+#~ msgid "<b>Di_rect internet connection</b>"
+#~ msgstr "<b>Ու_ղիղ համացանցային կապ</b>"
+
+#~ msgid "<b>_Automatic proxy configuration</b>"
+#~ msgstr "<b>_Ավտոմատ պրոքսի կոնֆիգուրացիա</b>"
+
+#~ msgid "<b>_Manual proxy configuration</b>"
+#~ msgstr "<b>_Ձեռքով պրոքսի կոնֆիգուրացիա</b>"
+
+#~ msgid "<b>_Use authentication</b>"
+#~ msgstr "<b>_Օգտագործել վավերացումը</b>"
+
+#~ msgid "Autoconfiguration _URL:"
+#~ msgstr "Վավերացում _URL՝"
+
+#~ msgid "C_reate"
+#~ msgstr "Ս_տեղծել"
+
+#~ msgid "HTTP Proxy Details"
+#~ msgstr "HTTP պրոքսի մանրամասներ"
+
+#~ msgid "H_TTP proxy:"
+#~ msgstr "H_TTP պրոքսի՝"
+
+#~ msgid "Ignore Host List"
+#~ msgstr "Անտեսել հոսթի ցուցակը"
+
+#~ msgid "Ignored Hosts"
+#~ msgstr "Անտեսված հոսթեր"
+
+#~ msgid "Location:"
+#~ msgstr "Տեղակայություն՝"
+
+#~ msgid "Network Proxy Preferences"
+#~ msgstr "Ցանցի պրոքսիի նախընտրություններ"
+
+#~ msgid "Port:"
+#~ msgstr "Պորտ՝"
+
+#~ msgid "Proxy Configuration"
+#~ msgstr "Պրոքսի կոնֆիգուրացիա"
+
+#~ msgid "S_ocks host:"
+#~ msgstr "S_ocks հոսթ՝"
+
+#~ msgid "_Details"
+#~ msgstr "_Մանրամասներ"
+
+#~ msgid "_FTP proxy:"
+#~ msgstr "_FTP պրոքսի՝"
+
+#~ msgid "_Location name:"
+#~ msgstr "_Տեղակայության անվանումը՝"
+
+#~ msgid "_Secure HTTP proxy:"
+#~ msgstr "_Ապահովել HTTP պրոքսի՝"
+
+#~ msgid "_Use the same proxy for all protocols"
+#~ msgstr "_Միևնույն պրոքսին օգտագործել բոլոր պրոտոկոլների համար"
+
+#~ msgid "Universal Access"
+#~ msgstr "Համընդհանուր Հասանելիություն"
+
+#~ msgid "Universal Access Preferences"
+#~ msgstr "Համընդհանուր հասանելիության նախընտրություններ"
+
+#, no-c-format
+#~ msgid "100%"
+#~ msgstr "100%"
+
+#, no-c-format
+#~ msgid "125%"
+#~ msgstr "125%"
+
+#, no-c-format
+#~ msgid "150%"
+#~ msgstr "150%"
+
+#~ msgid "<span size=\"x-large\">High/Inverse</span>"
+#~ msgstr "<span size=\"x-large\">Բարձր/Հետադարձ</span>"
+
+#~ msgid "<span size=\"x-large\">High</span>"
+#~ msgstr "<span size=\"x-large\">Բարձր</span>"
+
+#~ msgid "<span size=\"x-large\">Low</span>"
+#~ msgstr "<span size=\"x-large\">Ցածր</span>"
+
+#~ msgid "<span size=\"x-large\">Normal</span>"
+#~ msgstr "<span size=\"x-large\">Նորմալ</span>"
+
+#~ msgid "Acceptance delay:"
+#~ msgstr "Ընդունման հապաղում"
+
+#~ msgid ""
+#~ "Accessibility features can be turned on or off with keyboard shortcuts"
+#~ msgstr ""
+#~ "Մատչելիության հատկությունները կարելի է միացնել կամ անջատել ստեղների "
+#~ "համադրություններով"
+
+#~ msgid "Beep when Caps and Num Lock are used"
+#~ msgstr "Ազդանշանել, երբ Caps և Num Lock-ը օգտագործված են"
+
+#~ msgid "Beep when a key is"
+#~ msgstr "Ազդանշանել, երբ ստեղնը սեղմված է"
+
+#~ msgid "Beep when a key is rejected"
+#~ msgstr "Ազդանշանել, երբ ստեղնը մերժված է"
+
+#~ msgid "Beep when a modifer key is pressed"
+#~ msgstr "Ազդանշանել, երբ մոդիֆիկատորի ստեղնը միացված է"
+
+#~ msgid "Caribou"
+#~ msgstr "Կարիբու"
+
+#~ msgid "Change constrast:"
+#~ msgstr "Փոխել հակադրությունը"
+
+#~ msgid "Closed Captioning"
+#~ msgstr "Փակված տակագրում"
+
+#~ msgid "Contrast:"
+#~ msgstr "Հակադրություն"
+
+#~ msgid "Control the pointer using the keypad."
+#~ msgstr "Կառավարել ցուցիչը՝ օգտագործելով ստեղնախումբ։"
+
+#~ msgid "Control the pointer using the video camera."
+#~ msgstr "Կառավարել ցուցիչը՝ օգտագործելով տեսախցիկ։"
+
+#~ msgid "Ctrl+Alt+-"
+#~ msgstr "Ctrl+Alt+-"
+
+#~ msgid "Ctrl+Alt+0"
+#~ msgstr "Ctrl+Alt+0"
+
+#~ msgid "Ctrl+Alt+4"
+#~ msgstr "Ctrl+Alt+4"
+
+#~ msgid "Ctrl+Alt+8"
+#~ msgstr "Ctrl+Alt+8"
+
+#~ msgid "Ctrl+Alt+="
+#~ msgstr "Ctrl+Alt+="
+
+#~ msgid "Decrease size:"
+#~ msgstr "Նվազեցնել չափը"
+
+#~ msgid "Disable if two keys are pressed together"
+#~ msgstr "Ապաակտիվացնել, եթե երկու ստեղները սեղմվում են միաժամանակ"
+
+#~ msgid "Display"
+#~ msgstr "Ցուցադրել"
+
+#~ msgid "Display a textual description of speech and sounds."
+#~ msgstr "Ցուցադրել խոսքի և ձայնի տեքստային նկարագրությունը"
+
+#~ msgid "Flash the entire screen"
+#~ msgstr "Ամբողջ էկրանի թարթում"
+
+#~ msgid "Flash the window title"
+#~ msgstr "Պատուհանի վերնագրի թարթում"
+
+#~ msgid "GOK"
+#~ msgstr "GOK"
+
+#~ msgid "Hearing"
+#~ msgstr "Լսում"
+
+#~ msgid "High/Inverse"
+#~ msgstr "Բարձր/Հակադարձ"
+
+#~ msgid "HighContrast"
+#~ msgstr "Մեծ Հակադրություն"
+
+#~ msgid "HighContrastInverse"
+#~ msgstr "Մեծ Հակադրության Հակադարձ"
+
+#~ msgid "Hover Click"
+#~ msgstr "Կտտոց վրայով անցնելիս"
+
+#~ msgid "I need assistance with:"
+#~ msgstr "Ես կարիք ունեմ այսպիսի օգնականի․"
+
+#~ msgid "Ignores fast duplicate keypresses"
+#~ msgstr "Անտեսել ստեղների սեղմման արագ կրկնումները"
+
+#~ msgid "Increase size:"
+#~ msgstr "Աճեցնել չափը"
+
+#~ msgid "Keyboard Settings..."
+#~ msgstr "Ստեղնաշարի պարամետրեր․․․"
+
+#~ msgid "Larger"
+#~ msgstr "Ավելի Մեծ"
+
+#~ msgid "LowContrast"
+#~ msgstr "Փոքր Հակադրություն"
+
+#~ msgid "Mouse Settings..."
+#~ msgstr "Մկնիկի Պարամետրերը․․․"
+
+#~ msgid "Nomon"
+#~ msgstr "Nomon"
+
+#~ msgid "On screen keyboard"
+#~ msgstr "Gnome-ի On screen ստեղնաշար"
+
+#~ msgid "OnBoard"
+#~ msgstr "Ներդրված"
+
+#~ msgid "Pointing and Clicking"
+#~ msgstr "Հղվել և Սեղմել"
+
+#~ msgid "Puts a delay between when a key is pressed and when it is accepted."
+#~ msgstr "Ստեղնի սեղմման և նրա ընդունման միջև դնում է հապաղում"
+
+#~ msgid "Screen Reader"
+#~ msgstr "Էկրանի ընթերցող սարք"
+
+#~ msgid "Seeing"
+#~ msgstr "Դիտում է"
+
+#~ msgid "Shift+Ctrl+Alt+-"
+#~ msgstr "Shift+Ctrl+Alt+-"
+
+#~ msgid "Shift+Ctrl+Alt+="
+#~ msgstr "Shift+Ctrl+Alt+="
+
+#~ msgid "Show Universal Access status"
+#~ msgstr "Ցուցադրում է Համընդհանուր Հասանելիության վիճակը"
+
+#~ msgid "Sound Settings..."
+#~ msgstr "Ձայնի Պարամետրեր․․․"
+
+#~ msgid "Test flash"
+#~ msgstr "Տեստավորել թարթումը"
+
+#~ msgid "Test:"
+#~ msgstr "Տեստ."
+
+#~ msgid "Text size:"
+#~ msgstr "Տեքստի չափ․"
+
+#~ msgid "Treats a sequence of modifier keys as a key combination."
+#~ msgstr ""
+#~ "Բանալիների մոդիֆիկատորների հաջորդականությունը դիտարկում է որպես "
+#~ "բանալիների հաջորդականություն։"
+
+#~ msgid "Trigger a click when the pointer hovers."
+#~ msgstr "Գործարկել կտտոցը, երբ ցուցիչը անցնում է վրայով"
+
+#~ msgid "Trigger a secondary click by holding down the primary button."
+#~ msgstr "Գործարկել երկրորդական կտտոց՝ պահելով հիմնական կոճակը"
+
+#~ msgid "Turn on or off:"
+#~ msgstr "Միացնել կամ անջատել․"
+
+#~ msgid "Type here to test settings"
+#~ msgstr "Տպել այստեղ՝ պարամետրերը ստուգելու համար․"
+
+#~ msgid "Typing"
+#~ msgstr "Տպվում է"
+
+#~ msgid "Typing Assistant"
+#~ msgstr "Տպման Օ_գնական՝"
+
+#~ msgid "Use a visual indication when an alert sound occurs."
+#~ msgstr "Օգտագործել տեսողական ցուցումները, երբ զգուշացման ձայներ են լսվում։"
+
+#~ msgid "Use an alternative form of text input"
+#~ msgstr "Տեքստի մուտքագրման համար օգտագործել ալտերնատիվ ձև"
+
+#~ msgid "Video Mouse"
+#~ msgstr "ՏեսաՄկնիկ"
+
+#~ msgid "Visual Alerts"
+#~ msgstr "Տեսողական ահազանգեր"
+
+#~ msgid "Zoom"
+#~ msgstr "Մեծացնել"
+
+#~ msgid "Zoom in:"
+#~ msgstr "Մեծացնել."
+
+#~ msgid "Zoom out:"
+#~ msgstr "Փոքրացնել․"
+
+#~ msgid "accepted"
+#~ msgstr "ընդունված է"
+
+#~ msgid "pressed"
+#~ msgstr "սեղմված է"
+
+#~ msgid "rejected"
+#~ msgstr "մերժված է"
+
+#~ msgid "Control Center"
+#~ msgstr "Կառավարման կենտրոն"
+
+#~ msgid "The GNOME configuration tool"
+#~ msgstr "GNOME-ի կոնֆիգուրացման գործիք"
+
+#~ msgid "_Postpone Break"
+#~ msgstr "_Հետաձգել ընդմիջումը"
+
+#~ msgid "Take a break!"
+#~ msgstr "Ընդմիջում անել։"
+
+#~ msgid "_Take a Break"
+#~ msgstr "_Ընդմիջում անել"
+
+#, c-format
+#~ msgid "Take a break now (next in %dm)"
+#~ msgstr "Ընդմիջում կատարել հիմա (հաջորդը %dm ժամանակից)"
+
+#, c-format
+#~ msgid "%d minute until the next break"
+#~ msgid_plural "%d minutes until the next break"
+#~ msgstr[0] "%d րոպե նախքան ընդմիջումը"
+#~ msgstr[1] "%d րոպե նախքան ընդմիջումը"
+
+#, c-format
+#~ msgid "Take a break now (next in less than one minute)"
+#~ msgstr "Ընդմիջում կատարել հիմա (հաջորդը մեկ րոպեից էլ քիչ ժամանակից)"
+
+#, c-format
+#~ msgid "Less than one minute until the next break"
+#~ msgstr "Հաջորդ ընդմիջմանը մեկ րոպեից քիչ է մնացել"
+
+#, c-format
+#~ msgid ""
+#~ "Unable to bring up the typing break properties dialog with the following "
+#~ "error: %s"
+#~ msgstr ""
+#~ "Չի հաջողվել բերել մեքենագրման նախընտրությունների երկխոսությունը հետևյալ "
+#~ "սխալի պատճառով՝ %s"
+
+#~ msgid "Written by Richard Hult <richard@imendio.com>"
+#~ msgstr "Գրել է Ռիչարդ Հալթը <richard@imendio.com>"
+
+#~ msgid "Eye candy added by Anders Carlsson"
+#~ msgstr "Գրավիչ արտաքին, որն ավելացրել է Անդերս Քարլսոնը"
+
+#~ msgid "A computer break reminder."
+#~ msgstr "Ընդիմիջման մասին հիշեցնող ծրագիր։"
+
+#~ msgid "translator-credits"
+#~ msgstr "թարգմանչի կրեդիտներ"
+
+#~ msgid "Enable debugging code"
+#~ msgstr "Ակտիվացնել վրիպազերծման կոդը"
+
+#~ msgid "Don't check whether the notification area exists"
+#~ msgstr "Չստուգել՝ ծանուցման տարածք կա, թե՞ ոչ"
+
+#~ msgid "Typing Monitor"
+#~ msgstr "Մեքենագրելու մոնիտոր"
+
+#~ msgid ""
+#~ "The typing monitor uses the notification area to display information. You "
+#~ "don't seem to have a notification area on your panel. You can add it by "
+#~ "right-clicking on your panel and choosing 'Add to panel', selecting "
+#~ "'Notification area' and clicking 'Add'."
+#~ msgstr ""
+#~ "Տեղեկությունը ցույց տալու համար մեքենագրման մոնիտորն օգտագործում է "
+#~ "տեղեկացման տարածքը։ Դուք վահանակի վրա չունեք տեղեկացման տարածք։ Այն "
+#~ "ավելացնելու համար աջ ստեղնով կտտացրեք վահանակի վրա և ընտրեք 'Add to "
+#~ "panel', ապա՝ 'Notification area' և հետո՝ 'Add'։"
+
+#~ msgid "If set to true, then OpenType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Եթե դրված է որպես ճշմարիտ, ապա OpenType տառատեսակը կդառնա մանրապատկեր։"
+
+#~ msgid "If set to true, then PCF fonts will be thumbnailed."
+#~ msgstr "Եթե դրված է որպես ճշմարիտ, ապա PCF տառատեսակը կդառնա մանրապատկեր։"
+
+#~ msgid "If set to true, then TrueType fonts will be thumbnailed."
+#~ msgstr ""
+#~ "Եթե դրված է որպես ճշմարիտ, ապա TrueType տառատեսակը կդառնա մանրապատկեր։"
+
+#~ msgid "If set to true, then Type1 fonts will be thumbnailed."
+#~ msgstr "Եթե դրված է որպես ճշմարիտ, ապա Type1 տառատեսակը կդառնա մանրապատկեր։"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for OpenType fonts."
+#~ msgstr ""
+#~ "Կարգավորել այս ստեղնը OpenType տառատեսակի մանրապատկերի հրաման ստեղծելու "
+#~ "համար։"
+
+#~ msgid "Set this key to the command used to create thumbnails for PCF fonts."
+#~ msgstr ""
+#~ "Կարգավորել ստեղնը PCF տառատեսակի մանրապատկերի հրաման ստեղծելու համար։"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for TrueType fonts."
+#~ msgstr ""
+#~ "Դնել այս ստեղնը TrueType տառատեսակի մանրապատկերի ստեղծելու համար հրամանի "
+#~ "վրա։"
+
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for Type1 fonts."
+#~ msgstr ""
+#~ "Դնել այս ստեղնը այն հրամանի վրա, որն օգտագործվում է առաջին խմբի "
+#~ "տառատեսակների մանրապատկեր ստեղծելու համար։"
+
+#~ msgid "Thumbnail command for OpenType fonts"
+#~ msgstr "Մանրապատկերի հրաման OpenType տառատեսակի համար"
+
+#~ msgid "Thumbnail command for PCF fonts"
+#~ msgstr "Մանրապատկերի հրաման PCF տառատեսակի համար"
+
+#~ msgid "Thumbnail command for TrueType fonts"
+#~ msgstr "Մանրապատկերի հրաման TrueType տառատեսակի համար"
+
+#~ msgid "Thumbnail command for Type1 fonts"
+#~ msgstr "Մանրապատկերի հրաման Type1 տառատեսակի համար"
+
+#~ msgid "Whether to thumbnail OpenType fonts"
+#~ msgstr "Ստեղծե՞լ OpenType տառատեսակի մանրապատկեր։"
+
+#~ msgid "Whether to thumbnail PCF fonts"
+#~ msgstr "Ստեղծե՞լ PCF տառատեսակի մանրապատկեր։"
+
+#~ msgid "Whether to thumbnail TrueType fonts"
+#~ msgstr "Ստեղծե՞լ TrueType տառատեսակի մանրապատկեր։"
+
+#~ msgid "Whether to thumbnail Type1 fonts"
+#~ msgstr "Ստեղծե՞լ Type1 տառատեսակի մանրապատկեր։"
+
+#~ msgid "Name:"
+#~ msgstr "Անվանում."
+
+#~ msgid "Style:"
+#~ msgstr "Ոճ՝"
+
+#~ msgid "Type:"
+#~ msgstr "Տեսակ՝"
+
+#~ msgid "Size:"
+#~ msgstr "Չափ՝"
+
+#~ msgid "Version:"
+#~ msgstr "Տարբերակ՝"
+
+#~ msgid "Copyright:"
+#~ msgstr "Հեղինակային իրավունք՝"
+
+#~ msgid "Description:"
+#~ msgstr "Նկարագրություն՝"
+
+#~ msgid "Installed"
+#~ msgstr "Տեղադրված է"
+
+#~ msgid "Install Failed"
+#~ msgstr "Տեղադրումը ձախողվել է"
+
+#, c-format
+#~ msgid "usage: %s fontfile\n"
+#~ msgstr "օգտագործում. %s ֆոնտֆայլ\n"
+
+#~ msgid "I_nstall Font"
+#~ msgstr "Տեղադրել տառատեսակ"
+
+#~ msgid "Font Viewer"
+#~ msgstr "Տառատեսակ ցուցադրող"
+
+#~ msgid "Preview fonts"
+#~ msgstr "Ցուցադրել տառատեսակները"
+
+#~ msgid "Text to thumbnail (default: Aa)"
+#~ msgstr "Տեքստը մանրապատկերով (նախնական։ Aa)"
+
+#~ msgid "TEXT"
+#~ msgstr "ՏԵՔՍՏ"
+
+#~ msgid "Font size (default: 64)"
+#~ msgstr "Տառատեսակի չափ (լռելյայն՝ 64)"
+
+#~ msgid "SIZE"
+#~ msgstr "ՉԱՓ"
+
+#~ msgid "FONT-FILE OUTPUT-FILE"
+#~ msgstr "ՏԱՌԱՏԵՍԱԿԻ ՖԱՅԼ, ԱՐՏԱԾՄԱՆ ՖԱՅԼ"
+
+#, c-format
+#~ msgid "Error parsing arguments: %s\n"
+#~ msgstr "Սխալը վերլուծող փաստարկումներ. %s\n"
+
+#~ msgid "Example Panel"
+#~ msgstr "Վահանակի Օրինակ"
+
+#~ msgid "Example preferences panel"
+#~ msgstr "Նախընտրությունների վահանակի օրինակ"
+
+#~ msgid "System Settings"
+#~ msgstr "Համակարգի Պարամետրեր"
+
+#~ msgid "_All Settings"
+#~ msgstr "_Բոլոր Պարամետրերը"
+
+#~ msgid "Show help options"
+#~ msgstr "Ցուցադրել Ձեռնարկի հատկությունները"

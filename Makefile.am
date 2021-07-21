@@ -1,7 +1,7 @@
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = data po src
-DIST_SUBDIRS = data po src
+SUBDIRS = data man po src
+DIST_SUBDIRS = data man po src
 
 MAINTAINERCLEANFILES = \
 	$(srcdir)/INSTALL \

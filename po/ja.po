@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-03-21 11:46+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -42,12 +42,12 @@ msgstr "フルネーム(_F)"
 msgid "Standard"
 msgstr "標準"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "管理者"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "アカウントの種類(_T)"
 
@@ -63,7 +63,7 @@ msgstr "次回ログイン時にユーザー自身でパスワードを設定さ
 msgid "Set a password _now"
 msgstr "いまパスワードを設定する(_N)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "パスワード(_P)"
 
@@ -245,27 +245,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "ユーザーの追加"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "ログインオプション"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "認証(_T)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "自動ログイン(_U)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "指紋認証ログイン(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ユーザーアイコン"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "最終ログイン"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "アカウントの削除"
 
@@ -888,6 +899,9 @@ msgstr "%Y年%m月%d日"
 #, fuzzy
 msgid "User Accounts"
 msgstr "他のアカウント"
+
+#~ msgid "Login Options"
+#~ msgstr "ログインオプション"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3178,9 +3192,6 @@ msgstr "他のアカウント"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "保護つき EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "認証(_T)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (デフォルト)"

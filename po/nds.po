@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center gnome-2-28\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2009-11-23 00:53+0100\n"
 "Last-Translator: Nils-Christoph Fiedler <fiedler@medienkompanie.de>\n"
 "Language-Team: Low German <nds-lowgerman@lists.sourceforge.net>\n"
@@ -32,12 +32,12 @@ msgstr "Vor- un Tonaam"
 msgid "Standard"
 msgstr "Standard XTerminal"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Terminator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "Alarmtyp"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "_Nejes Passwoord:"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "_Passwoord:"
@@ -230,29 +230,40 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Bewiesen, dat je du sülvst büst"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "_Fingerprint Login"
 msgstr "Fingeravdrücken_s löschen"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "Brukernaam:"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr ""
 

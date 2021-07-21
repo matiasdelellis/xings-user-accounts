@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-30 11:00+0100\n"
 "Last-Translator: Marko M. Kostić <marko.m.kostic@gmail.com>\n"
 "Language-Team: srpski <gnome-sr@googlegroups.org>\n"
@@ -36,11 +36,11 @@ msgstr "_Ime i prezime"
 msgid "Standard"
 msgstr "Standardni"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Vrsta naloga"
 
@@ -56,7 +56,7 @@ msgstr "Dozvoli korisniku da podesi _lozinku prilikom sledećeg prijavljivanja"
 msgid "Set a password _now"
 msgstr "Postavi lozinku sa_da"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Lozinka"
 
@@ -235,27 +235,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Dodaj korisnika…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opcije prijavljivanja"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Potvrđivanje _identiteta"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Automatsko _prijavljivanje"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Prijavljivanje _otiskom prsta"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ikonica korisnika"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Poslednje prijavljivanje"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Podaci o nalogu"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Ukloni nalog"
 
@@ -878,6 +890,9 @@ msgstr "%e. %b, %Y."
 #, fuzzy
 msgid "User Accounts"
 msgstr "Ostali nalozi"
+
+#~ msgid "Login Options"
+#~ msgstr "Opcije prijavljivanja"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3176,9 +3191,6 @@ msgstr "Ostali nalozi"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Zaštićeni EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Potvrđivanje _identiteta"
 
 #~ msgid "missing leap-username"
 #~ msgstr "nedostaje leap korisničko ime"
@@ -6215,9 +6227,6 @@ msgstr "Ostali nalozi"
 
 #~ msgid "Photograph"
 #~ msgstr "Fotografija"
-
-#~ msgid "Account Information"
-#~ msgstr "Podaci o nalogu"
 
 #~ msgctxt "Password strength"
 #~ msgid "Too short"

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-18 12:59+0200\n"
 "Last-Translator: David King <amigadave@amigadave.com>\n"
 "Language-Team: British English <en@li.org>\n"
@@ -34,11 +34,11 @@ msgstr "_Full Name"
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Account _Type"
 
@@ -54,7 +54,7 @@ msgstr "Allow user to set a password when they next _login"
 msgid "Set a password _now"
 msgstr "Set a password _now"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Password"
 
@@ -234,27 +234,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Add User…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Login Options"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_thentication"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatic Login"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Fingerprint Login"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "User Icon"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Last Login"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "System Information"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Remove Account"
 
@@ -874,6 +886,9 @@ msgstr "%e %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Add User Account"
+
+#~ msgid "Login Options"
+#~ msgstr "Login Options"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3159,9 +3174,6 @@ msgstr "Add User Account"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Protected EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_thentication"
 
 #~ msgid "missing leap-username"
 #~ msgstr "missing leap-username"
@@ -6385,9 +6397,6 @@ msgstr "Add User Account"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "Fallback"
-
-#~ msgid "System Information"
-#~ msgstr "System Information"
 
 #~ msgid "OS type"
 #~ msgstr "OS type"

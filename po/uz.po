@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center-2.0 trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2007-11-12 09:36+0500\n"
 "Last-Translator: Nurali Abdurahmonov <mavnur@gmail.com>\n"
 "Language-Team: Uzbek\n"
@@ -33,11 +33,11 @@ msgstr "Toʻliq ism"
 msgid "Standard"
 msgstr "Andoza X-terminali"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "Ogohlantirish turi"
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "_Yangi maxfiy soʻz:"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "_Maxfiy soʻz:"
@@ -229,30 +229,40 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Parametrlar"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Tasdiqlandi!"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "Foydalanuvchi nomi:"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 #, fuzzy
 msgid "Last Login"
 msgstr "Kirish"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr ""
 
@@ -861,6 +871,10 @@ msgstr ""
 #, fuzzy
 msgid "User Accounts"
 msgstr "Foydalanuvchi nomi:"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Parametrlar"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

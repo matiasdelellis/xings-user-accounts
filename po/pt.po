@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-07-27 08:36+0100\n"
 "Last-Translator: Tiago Santos <tiagofsantos81@sapo.pt>\n"
 "Language-Team: Português\n"
@@ -38,11 +38,11 @@ msgstr "_Nome completo"
 msgid "Standard"
 msgstr "Padrão"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tipo de conta"
 
@@ -59,7 +59,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Definir uma senha _agora"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Senha"
 
@@ -240,28 +240,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "Adicionar utilizador"
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Opções de ampliação"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tenticação"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Início de sessão a_utomático"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Início de sessão com _impressão digital"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ícone de utilizador"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Última sessão"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Remover conta"
 
@@ -885,6 +895,10 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Outras contas"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Opções de ampliação"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3192,9 +3206,6 @@ msgstr "Outras contas"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP protegido (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tenticação"
 
 #~ msgid "missing leap-username"
 #~ msgstr "utilizador-leap em falta"

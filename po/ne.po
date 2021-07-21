@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.gnome-3.14\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-11-22 08:32+0400\n"
 "Last-Translator: Pawan Chitrakar <chautari@gmail.com>\n"
 "Language-Team: Nepali Translation Team <chautari@gmail.com>\n"
@@ -34,12 +34,12 @@ msgstr "पूरा नाम..."
 msgid "Standard"
 msgstr "मानक"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "प्रशासक"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "खाता: प्रकार"
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "पासवर्ड सेट गर्नुहोस्"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "पासवर्ड :"
 
@@ -237,27 +237,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "प्रयोगकर्ता थप्नुहोस्"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "लगइन विकल्पहरू"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "प्रमाणीकरण"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "स्वतः लगईन"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "लगइन अंगुठाछाप"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "प्रयोगकर्ता "
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "अन्तिम लगइन"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "खाता हटाउनुहोस्"
 
@@ -859,6 +870,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "अन्य खाताहरू"
+
+#~ msgid "Login Options"
+#~ msgstr "लगइन विकल्पहरू"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -2835,9 +2849,6 @@ msgstr "अन्य खाताहरू"
 #, fuzzy
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "PEAP संस्करण"
-
-#~ msgid "Au_thentication"
-#~ msgstr "प्रमाणीकरण"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1=पूर्वनिश्चित"

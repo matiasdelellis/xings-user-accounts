@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-13 18:02+0430\n"
 "Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
 "Language-Team: Persian <>\n"
@@ -38,11 +38,11 @@ msgstr "_نام کامل"
 msgid "Standard"
 msgstr "استاندارد"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "مدیر"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_نوع حساب"
 
@@ -58,7 +58,7 @@ msgstr "اجازه می‌دهد تا کاربران در زمان _ورود ب�
 msgid "Set a password _now"
 msgstr "_هم‌اکنون یک گذرواژه تنظیم کنید"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_گذرواژه"
 
@@ -240,27 +240,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "ا_ضافه کردن کاربر…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "گزینه‌های ورود به سیستم"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "تایید_هویت"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "ورود _خودکار"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "ورود به سیستم از طریق اثر _انگشت"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "شمایل کاربر"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "آخرین ورود"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "اطلاعات حساب"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "حذف حساب"
 
@@ -881,6 +893,9 @@ msgstr "%b %Oe، %OY"
 #, fuzzy
 msgid "User Accounts"
 msgstr "اضافه‌کردن حساب کاربر"
+
+#~ msgid "Login Options"
+#~ msgstr "گزینه‌های ورود به سیستم"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3174,9 +3189,6 @@ msgstr "اضافه‌کردن حساب کاربر"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "‫EAP محافظت شده (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "تایید_هویت"
 
 #~ msgid "missing leap-username"
 #~ msgstr "گزینه leap-username فراهم نشده است"
@@ -6451,9 +6463,6 @@ msgstr "اضافه‌کردن حساب کاربر"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "یدکی"
-
-#~ msgid "System Information"
-#~ msgstr "اطلاعات حساب"
 
 #~ msgid "OS type"
 #~ msgstr "نوع سیستم‌عامل"

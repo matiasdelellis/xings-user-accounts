@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-11 09:37+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -42,11 +42,11 @@ msgstr "_Nom complet"
 msgid "Standard"
 msgstr "Estàndard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tipus de compte"
 
@@ -62,7 +62,7 @@ msgstr "_Permet a l'usuari establir la contrasenya a l'entrada següent"
 msgid "Set a password _now"
 msgstr "_Estableix una contrasenya ara"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Contrasenya"
 
@@ -241,27 +241,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Afegir usuari..."
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opcions d'entrada"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tenticació"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Entrada a_utomàtica"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Entrada amb _empremta dactilar"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Icona d'usuari"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Última entrada"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Suprimeix el compte"
 
@@ -886,6 +897,9 @@ msgstr "%e de %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Altres comptes"
+
+#~ msgid "Login Options"
+#~ msgstr "Opcions d'entrada"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3193,9 +3207,6 @@ msgstr "Altres comptes"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP protegit (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tenticació"
 
 #~ msgid "missing leap-username"
 #~ msgstr "manca el mom d'usuari LEAP"

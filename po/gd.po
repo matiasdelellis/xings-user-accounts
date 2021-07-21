@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2017-03-07 10:26+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -34,11 +34,11 @@ msgstr "Ainm _slàn"
 msgid "Standard"
 msgstr "Stannardach"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Rianaire"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Seòrsa a' chunntais"
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Suidhich facal-faire a_n-dràsta"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Facal-faire"
 
@@ -242,27 +242,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "Cuir cle_achdaiche ris…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Roghainnean a' chlàraidh a-steach"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "D_earbhadh"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Clàradh a-steach fèin-_obrachail"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Clàradh a-steach le _meur-lorg"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ìomhaigheag a' chleachdaiche"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "An clàradh a-steach mu dheireadh"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Thoir air falbh an cunntas"
 
@@ -902,6 +913,9 @@ msgstr "%e %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Cunntasan eile"
+
+#~ msgid "Login Options"
+#~ msgstr "Roghainnean a' chlàraidh a-steach"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3259,9 +3273,6 @@ msgstr "Cunntasan eile"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Protected EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "D_earbhadh"
 
 #~ msgid "missing leap-username"
 #~ msgstr "tha ainm-cleachdaiche leap a dhìth"

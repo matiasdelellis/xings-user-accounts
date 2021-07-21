@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-11-18 17:43+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -48,11 +48,11 @@ msgstr "_Volledige naam"
 msgid "Standard"
 msgstr "Standaard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Beheerder"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Account-_type"
 
@@ -68,7 +68,7 @@ msgstr "Gebruiker kan wachtwoord instellen bij de volgende keer _aanmelden"
 msgid "Set a password _now"
 msgstr "_Nu een wachtwoord instellen"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Wachtwoord"
 
@@ -250,28 +250,44 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Gebruiker toevoegen…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Zoomopties"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+# dit is de knop die naast het veld 'huidige wachtwoord' staat
+# als je je huidige wachtwoord hebt ingevuld en op 'Authenticate'
+# klikt (en het wachtwoord is juist) kun je je huidige wachtwoord
+# gaan wijzigen.
+# Dus letterlijke vertaling is 'Aanmeldingscontrole' maar in dit
+# geval houden we het kort en gebruiken we alleen 'Controle' (tino)
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Controleren"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatisch aanmelden"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Aanmelden met _vingerafdruk"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Gebruikerspictogram"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Laatste keer aangemeld"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Account verwijderen"
 
@@ -900,6 +916,10 @@ msgstr "%d %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Andere accounts"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Zoomopties"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3245,15 +3265,6 @@ msgstr "Andere accounts"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Beveiligde EAP (PEAP)"
-
-# dit is de knop die naast het veld 'huidige wachtwoord' staat
-# als je je huidige wachtwoord hebt ingevuld en op 'Authenticate'
-# klikt (en het wachtwoord is juist) kun je je huidige wachtwoord
-# gaan wijzigen.
-# Dus letterlijke vertaling is 'Aanmeldingscontrole' maar in dit
-# geval houden we het kort en gebruiken we alleen 'Controle' (tino)
-#~ msgid "Au_thentication"
-#~ msgstr "_Controleren"
 
 #~ msgid "missing leap-username"
 #~ msgstr "leap-gebruikersnaam ontbreekt"

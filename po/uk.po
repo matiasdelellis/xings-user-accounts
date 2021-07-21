@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-15 21:21+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -33,11 +33,11 @@ msgstr "_Повне ім'я"
 msgid "Standard"
 msgstr "Стандартно"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Адміністратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Тип облікового запису"
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Вкажіть пароль _зараз"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Пароль"
 
@@ -234,27 +234,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Додати користувача…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Параметри входу"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "За_свідчення"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "_Автоматичний вхід"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Вхід через відбитки _пальців"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Піктограма користувача"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Останній вхід"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Системна інформація"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Вилучити обліковий запис"
 
@@ -876,6 +888,9 @@ msgstr "%e %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Додати обліковий запис користувача"
+
+#~ msgid "Login Options"
+#~ msgstr "Параметри входу"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3191,9 +3206,6 @@ msgstr "Додати обліковий запис користувача"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Захищений EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "За_свідчення"
 
 #~ msgid "missing leap-username"
 #~ msgstr "бракує користувача LEAP"
@@ -6469,9 +6481,6 @@ msgstr "Додати обліковий запис користувача"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "Запас"
-
-#~ msgid "System Information"
-#~ msgstr "Системна інформація"
 
 #~ msgid "OS type"
 #~ msgstr "Тип ОС"

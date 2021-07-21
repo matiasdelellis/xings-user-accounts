@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-28 12:30-0200\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
@@ -55,11 +55,11 @@ msgstr "Nome _completo"
 msgid "Standard"
 msgstr "Padrão"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tipo de conta"
 
@@ -75,7 +75,7 @@ msgstr "Permitir aos usuários definirem uma senha no próximo _início de sess�
 msgid "Set a password _now"
 msgstr "Definir uma senha _agora"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Senha"
 
@@ -255,27 +255,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Adicionar usuário…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opções de início de sessão"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tenticação"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Início a_utomático de sessão"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Início de sessão por _impressão digital"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ícone do usuário"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Última sessão"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Informações da conta"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Remover conta"
 
@@ -902,6 +914,9 @@ msgstr "%e de %b de %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Outras contas"
+
+#~ msgid "Login Options"
+#~ msgstr "Opções de início de sessão"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3230,9 +3245,6 @@ msgstr "Outras contas"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP protegido (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tenticação"
 
 #~ msgid "missing leap-username"
 #~ msgstr "faltando nome de usuário leap"
@@ -5993,9 +6005,6 @@ msgstr "Outras contas"
 
 #~ msgid "Photograph"
 #~ msgstr "Fotografia"
-
-#~ msgid "Account Information"
-#~ msgstr "Informações da conta"
 
 #~ msgid "Switch between AM and PM."
 #~ msgstr "Alternar entre AM e PM."

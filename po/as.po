@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: as\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-08-20 13:00+0530\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: Assamese <kde-i18n-doc@kde.org>\n"
@@ -34,12 +34,12 @@ msgstr "সম্পূৰ্ণ নাম (_F)"
 msgid "Standard"
 msgstr "প্ৰামাণিক"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "প্ৰশাসক"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "একাওন্টৰ ধৰণ (_T)"
 
@@ -57,7 +57,7 @@ msgstr "ব্যৱহাৰকাৰীক পৰৱৰ্তী লগিন�
 msgid "Set a password _now"
 msgstr "এটা নতুন পাছৱৰ্ড এতিয়া সংহতি কৰক"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "পাছৱৰ্ড (_P)"
 
@@ -237,27 +237,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "ব্যৱহাৰকাৰী যোগ কৰক"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "লগিন বিকল্পসমূহ"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "প্ৰমাণীকৰণ (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "স্বচালিত লগিন (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "আঙ্গুলিৰ ছাপ লগিন (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ব্যৱহাৰকাৰী আইকন"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "সৰ্বশেষ লগিন"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "চিস্টেম তথ্য"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "একাওন্ট আতৰাওক"
 
@@ -882,6 +894,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "ব্যৱহাৰকাৰী একাওন্ট যোগ কৰক"
+
+#~ msgid "Login Options"
+#~ msgstr "লগিন বিকল্পসমূহ"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3188,9 +3203,6 @@ msgstr "ব্যৱহাৰকাৰী একাওন্ট যোগ কৰ
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "সুৰক্ষিত EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "প্ৰমাণীকৰণ (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "১ (অবিকল্পিত)"
@@ -5843,9 +5855,6 @@ msgstr "ব্যৱহাৰকাৰী একাওন্ট যোগ কৰ
 
 #~ msgid "Date and Time preferences panel"
 #~ msgstr "তাৰিখ আৰু সময় পছন্দসমূহ পেনেল"
-
-#~ msgid "System Information"
-#~ msgstr "চিস্টেম তথ্য"
 
 #~ msgid "Change keyboard settings"
 #~ msgstr "কিবৰ্ড সংহতিসমূহ পৰিবৰ্তন কৰক"

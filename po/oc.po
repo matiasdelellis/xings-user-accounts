@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-05-06 20:37+0200\n"
 "Last-Translator: Cédric Valmary (totenoc.eu) <cvalmary@yahoo.fr>\n"
 "Language-Team: Tot En Òc\n"
@@ -32,12 +32,12 @@ msgstr "_Nom complet"
 msgid "Standard"
 msgstr "Normal"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tipe de compte"
 
@@ -53,7 +53,7 @@ msgstr "Autorizar _l'utilizaire a definir un senhal a la connexion que ven"
 msgid "Set a password _now"
 msgstr "Definir _un senhal ara"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "Se_nhal"
 
@@ -233,27 +233,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Apondre un utilizaire"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opcions de connexion"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tentificacion"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Connexion a_utomatica"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Connexion per _reconeissença d'emprentas"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Icòna d'utilizaire"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Darrièra connexion"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Informacions sistèma"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Suprimir lo compte"
 
@@ -879,6 +891,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Apondre un compte d'utilizaire"
+
+#~ msgid "Login Options"
+#~ msgstr "Opcions de connexion"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3151,9 +3166,6 @@ msgstr "Apondre un compte d'utilizaire"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP securizat (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tentificacion"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (per defaut)"
@@ -6351,9 +6363,6 @@ msgstr "Apondre un compte d'utilizaire"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "Restrent"
-
-#~ msgid "System Information"
-#~ msgstr "Informacions sistèma"
 
 #~ msgid "OS type"
 #~ msgstr "Tipe d'OS"

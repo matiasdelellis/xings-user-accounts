@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2013-02-16 10:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -33,12 +33,12 @@ msgstr "تولۇق ئاتى(_F):"
 msgid "Standard"
 msgstr "ئۆلچەملىك"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "باشقۇرغۇچى"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "ھېسابات تىپ(_T)"
 
@@ -56,7 +56,7 @@ msgstr "كېيىنكى قېتىم تىزىمغا كىرگەندە تاللا"
 msgid "Set a password _now"
 msgstr "ھازىر ئىم تەڭشە"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "ئىم(_P)"
 
@@ -239,27 +239,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "سەپلىمە ھۆججەت قوش(_A)…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "تىزىمغا كىرىش تاللانمىسى"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "كىملىك دەلىللەش(_T)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "ئۆزلۈكىدىن تىزىمغا كىرىش(_U)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "بارماق ئىزىدا تىزىمغا كىرىش(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ئىشلەتكۈچى سىنبەلگىسى"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "ئەڭ ئاخىرقى قېتىم كىرگەن ۋاقىت"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "سىستېما ئۇچۇرى"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ھېساباتنى چىقىرىۋېتىش"
 
@@ -879,6 +891,9 @@ msgstr ""
 #, fuzzy
 msgid "User Accounts"
 msgstr "باشقا ھېساباتلار"
+
+#~ msgid "Login Options"
+#~ msgstr "تىزىمغا كىرىش تاللانمىسى"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -1696,9 +1711,6 @@ msgstr "باشقا ھېساباتلار"
 
 #~ msgid "Details"
 #~ msgstr "تەپسىلاتلار"
-
-#~ msgid "System Information"
-#~ msgstr "سىستېما ئۇچۇرى"
 
 #~ msgid ""
 #~ "device;system;information;memory;processor;version;default;application;"
@@ -3144,9 +3156,6 @@ msgstr "باشقا ھېساباتلار"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "قوغدىلىدىغان EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "كىملىك دەلىللەش(_T)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (كۆڭۈلدىكى)"

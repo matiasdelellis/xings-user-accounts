@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-09-03 20:11+0630\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
@@ -44,12 +44,12 @@ msgstr "పూర్తి నామము (_F)"
 msgid "Standard"
 msgstr "ప్రామాణికం"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "నిర్వాహకుడు"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "ఖాతా రకం (_T)"
 
@@ -67,7 +67,7 @@ msgstr "తరువాత ప్రవేశంలో సంకేతపదా�
 msgid "Set a password _now"
 msgstr "ఒక కొత్త సంకేతపదాన్ని అమర్చు"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "సంకేతపదం (_P)"
 
@@ -247,27 +247,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "వాడుకరిని జతచేయండి"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "ప్రవేశ ఐచ్ఛికాలు"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "ధృవీకరణ (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "స్వయంచాలక ప్రవేశం (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "వేలిముద్ర ప్రవేశం (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "వాడుకరి ప్రతీక"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "చివరి ప్రవేశం"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "వ్యవస్థ సమాచారం"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ఖాతాను తీసివేయండి"
 
@@ -883,6 +895,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "వాడుకరి ఖాతాను జతచేయి"
+
+#~ msgid "Login Options"
+#~ msgstr "ప్రవేశ ఐచ్ఛికాలు"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3219,9 +3234,6 @@ msgstr "వాడుకరి ఖాతాను జతచేయి"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "రక్షిత EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "ధృవీకరణ (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (అప్రమేయం)"
@@ -5975,9 +5987,6 @@ msgstr "వాడుకరి ఖాతాను జతచేయి"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "పాల్‌బ్యాక్"
-
-#~ msgid "System Information"
-#~ msgstr "వ్యవస్థ సమాచారం"
 
 #~ msgid "OS type"
 #~ msgstr "ఒయస్ రకం"

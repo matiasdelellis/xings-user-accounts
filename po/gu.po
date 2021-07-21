@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-09-22 11:54+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -65,12 +65,12 @@ msgstr "સંપૂર્ણ નામ (_F)"
 msgid "Standard"
 msgstr "પ્રમાણભૂત"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "વહીવટકર્તા"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "ખાતા પ્રકાર (_T)"
 
@@ -88,7 +88,7 @@ msgstr "પાસવર્ડને સુયોજિત કરવા વપર
 msgid "Set a password _now"
 msgstr "હવે પાસવર્ડને સુયોજિત કરો"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "પાસવર્ડ (_P)"
 
@@ -269,27 +269,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "વપરાશકર્તાને ઉમેરો"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "પ્રવેશ વિકલ્પો"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "સત્તાધિકરણ (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "સ્વયં પ્રવેશ (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "આંગળીછાપન પ્રવેશ (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "વપરાશકર્તા ચિહ્ન"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "છેલ્લો પ્રવેશ"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "સિસ્ટમ જાણકારી"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ખાતુ દૂર કરો"
 
@@ -917,6 +929,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
+
+#~ msgid "Login Options"
+#~ msgstr "પ્રવેશ વિકલ્પો"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3442,10 +3457,6 @@ msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "સુરક્ષિત EAP (PEAP)"
 
-#~| msgid "Authentication failed"
-#~ msgid "Au_thentication"
-#~ msgstr "સત્તાધિકરણ (_t)"
-
 #~| msgid "Default"
 #~ msgid "1 (Default)"
 #~ msgstr "1 (મૂળભૂત)"
@@ -5922,9 +5933,6 @@ msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
 
 #~ msgid "System Up-To-Date"
 #~ msgstr "સિસ્ટમ અદ્યતન"
-
-#~ msgid "System Information"
-#~ msgstr "સિસ્ટમ જાણકારી"
 
 #~ msgid "OS type"
 #~ msgstr "OS પ્રકાર"

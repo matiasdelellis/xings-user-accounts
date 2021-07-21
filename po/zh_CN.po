@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 3.22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-30 22:10+0800\n"
 "Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
 "Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
@@ -54,11 +54,11 @@ msgstr "全名(_F)"
 msgid "Standard"
 msgstr "标准"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "管理员"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "帐号类型(_T)"
 
@@ -74,7 +74,7 @@ msgstr "允许用户下次登录时更改密码(_L)"
 msgid "Set a password _now"
 msgstr "现在设置密码(_N)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "密码(_P)"
 
@@ -252,27 +252,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "添加用户(_A)…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "登录选项"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "认证(_T)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "自动登录(_U)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "指纹登录(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "用户图标"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "最近登录"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "移除帐号"
 
@@ -873,6 +884,9 @@ msgstr " %Y %b %e"
 #, fuzzy
 msgid "User Accounts"
 msgstr "其他帐号"
+
+#~ msgid "Login Options"
+#~ msgstr "登录选项"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3125,9 +3139,6 @@ msgstr "其他帐号"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "受保护的 EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "认证(_T)"
 
 #~ msgid "missing leap-username"
 #~ msgstr "缺失 leap-username"

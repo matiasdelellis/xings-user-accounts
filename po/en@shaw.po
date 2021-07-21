@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2010-05-18 10:04 -0400\n"
 "Last-Translator: Thomas Thurman <tthurman@gnome.org>\n"
 "Language-Team: Shavian <ubuntu-l10n-en-shaw@launchpad.net>\n"
@@ -30,12 +30,12 @@ msgstr "𐑓𐑫𐑤 𐑯𐑱𐑥"
 msgid "Standard"
 msgstr "𐑕𐑑𐑨𐑯𐑛𐑼𐑛 XTerminal"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "·𐑑𐑻𐑥𐑩𐑯𐑱𐑑𐑻"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "𐑩𐑤𐑻𐑑 𐑑𐑲𐑐"
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "_𐑯𐑿 𐑐𐑭𐑕𐑢𐑼𐑛:"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "_𐑐𐑭𐑕𐑢𐑼𐑛:"
@@ -234,29 +234,40 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "𐑷𐑔𐑧𐑯𐑑𐑦𐑒𐑱𐑑𐑩𐑛!"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "_Fingerprint Login"
 msgstr "𐑦𐑯𐑱𐑚𐑩𐑤 𐑓𐑦𐑙𐑜𐑼𐑐𐑮𐑦𐑯𐑑 𐑤𐑪𐑜𐑦𐑯"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "𐑿𐑟𐑼 𐑯𐑱𐑥:"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr ""
 

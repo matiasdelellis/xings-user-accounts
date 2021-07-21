@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-31 14:02+0200\n"
 "Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lietuvių <gnome-lt@lists.akl.lt>\n"
@@ -41,11 +41,11 @@ msgstr "_Pilnas vardas"
 msgid "Standard"
 msgstr "Standartinis"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administratorius"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Paskyros _tipas"
 
@@ -61,7 +61,7 @@ msgstr "Leisti naudotojui nustatyti slaptažodį kito _prisijungimo metu"
 msgid "Set a password _now"
 msgstr "_Nustatyti slaptažodį dabar"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Slaptažodis"
 
@@ -242,27 +242,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Pridėti naudotoją…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Prisijungimo parametrai"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Tapatybės patvirtinimas"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatinis prisijungimas"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Prisijungimas _piršto atspaudu"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Naudotojo piktograma"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Paskutinis prisijungimas"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Pašalinti paskyrą"
 
@@ -881,6 +892,9 @@ msgstr "%Y %B %e"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Kitos paskyros"
+
+#~ msgid "Login Options"
+#~ msgstr "Prisijungimo parametrai"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3169,9 +3183,6 @@ msgstr "Kitos paskyros"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Apsaugotas EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Tapatybės patvirtinimas"
 
 #~ msgid "missing leap-username"
 #~ msgstr "trūksta leap naudotojo vardo"

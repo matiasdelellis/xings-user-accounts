@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-12-24 15:59+0530\n"
 "Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -33,12 +33,12 @@ msgstr "ಪೂರ್ಣ ಹೆಸರು (_F)"
 msgid "Standard"
 msgstr "ಶಿಷ್ಟ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "ವ್ಯವಸ್ಥಾಪಕ"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "ಖಾತೆಯ ಬಗೆ (_T):"
 
@@ -56,7 +56,7 @@ msgstr "ಬಳಕೆದಾರರು ಮುಂದಿನ ಬಾರಿ ಪ್ರವ
 msgid "Set a password _now"
 msgstr "ಈಗಲೆ ಗುಪ್ತಪದವನ್ನು ಹೊಂದಿಸಿ"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "ದಾಟುಪದ (_P)"
 
@@ -236,27 +236,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸು"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "ಪ್ರವೇಶದ ಆಯ್ಕೆಗಳು"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "ದೃಢೀಕರಣ (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "ಸ್ವಯಂಚಾಲಿತ ಪ್ರವೇಶ (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "ಬೆರಳಗುರುತಿನೊಂದಿಗೆ ಪ್ರವೇಶ (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ಬಳಕೆದಾರನ ಚಿಹ್ನೆ"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "ಕೊನೆಯ ಪ್ರವೇಶ"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "ಖಾತೆಯ ಮಾಹಿತಿ"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕು"
 
@@ -881,6 +893,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "ಇತರೆ ಖಾತೆಗಳು"
+
+#~ msgid "Login Options"
+#~ msgstr "ಪ್ರವೇಶದ ಆಯ್ಕೆಗಳು"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3184,9 +3199,6 @@ msgstr "ಇತರೆ ಖಾತೆಗಳು"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "ಪ್ರೊಟೆಕ್ಟೆಡ್ EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "ದೃಢೀಕರಣ (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (ಪೂರ್ವನಿಯೋಜಿತ)"
@@ -5692,9 +5704,6 @@ msgstr "ಇತರೆ ಖಾತೆಗಳು"
 
 #~ msgid "Photograph"
 #~ msgstr "ಚಿತ್ರ"
-
-#~ msgid "Account Information"
-#~ msgstr "ಖಾತೆಯ ಮಾಹಿತಿ"
 
 #~ msgctxt "Password strength"
 #~ msgid "Too short"

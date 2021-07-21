@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-16 02:15+0200\n"
 "Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -53,11 +53,11 @@ msgstr "_Fulde navn"
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Konto_type"
 
@@ -73,7 +73,7 @@ msgstr "Tillad bruger at angive en adgangskode ved næste _login"
 msgid "Set a password _now"
 msgstr "Angiv en adgangskode _nu"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Adgangskode"
 
@@ -252,27 +252,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Tilføj bruger…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Indstillinger for login"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Godkendelse"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatisk login"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Login med _fingeraftryk"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Brugerikon"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Sidste login"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Fjern konto"
 
@@ -896,6 +907,9 @@ msgstr "%e. %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Andre konti"
+
+#~ msgid "Login Options"
+#~ msgstr "Indstillinger for login"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3198,9 +3212,6 @@ msgstr "Andre konti"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Beskyttet EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Godkendelse"
 
 #~ msgid "missing leap-username"
 #~ msgstr "mangler leap-brugernavn"

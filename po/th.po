@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-13 10:42+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -36,11 +36,11 @@ msgstr "ชื่_อเต็ม"
 msgid "Standard"
 msgstr "มาตรฐาน"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "ผู้ดูแลระบบ"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_ชนิดของบัญชี:"
 
@@ -56,7 +56,7 @@ msgstr "อนุญาตให้ผู้ใช้ตั้งรหัสผ
 msgid "Set a password _now"
 msgstr "ตั้งรหัสผ่านเ_ดี๋ยวนี้"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_รหัสผ่าน"
 
@@ -232,27 +232,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "เ_พิ่มผู้ใช้…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "ตัวเลือกของการเข้าระบบ"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "การ_ยืนยันตัวบุคคล"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "การเข้าระบบ_อัตโนมัติ"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "การเข้าระบบด้วย_ลายนิ้วมือ"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ไอคอนบัญชีผู้ใช้"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "เข้าระบบล่าสุด"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "ข้อมูลเกี่ยวกับระบบ"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ลบบัญชี"
 
@@ -860,6 +872,9 @@ msgstr "%e %b %Ey"
 #, fuzzy
 msgid "User Accounts"
 msgstr "เพิ่มบัญชีผู้ใช้"
+
+#~ msgid "Login Options"
+#~ msgstr "ตัวเลือกของการเข้าระบบ"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3112,9 +3127,6 @@ msgstr "เพิ่มบัญชีผู้ใช้"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP ที่มีการปกป้อง (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "การ_ยืนยันตัวบุคคล"
 
 #~ msgid "missing leap-username"
 #~ msgstr "ขาดชื่อผู้ใช้ leap"
@@ -6215,9 +6227,6 @@ msgstr "เพิ่มบัญชีผู้ใช้"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "สำรอง"
-
-#~ msgid "System Information"
-#~ msgstr "ข้อมูลเกี่ยวกับระบบ"
 
 #~ msgid "OS type"
 #~ msgstr "ชนิด OS"

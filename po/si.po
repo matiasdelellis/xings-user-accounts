@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: si\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2007-08-08 14:58+0530\n"
 "Last-Translator: Danishka Navin <snavin@redhat.com>\n"
 "Language-Team: Sinhala <en@li.org>\n"
@@ -31,11 +31,11 @@ msgstr "සම්පූර්ණ නම"
 msgid "Standard"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "විපරම් වර්ගය"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "රහස්පදය: (_P)"
@@ -226,28 +226,37 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "විකල්ප"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
-msgid "A_utomatic Login"
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "Authentication & Login"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:11
-msgid "_Fingerprint Login"
+msgid "A_utomatic Login"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:12
-msgid "User Icon"
+msgid "_Fingerprint Login"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:13
-msgid "Last Login"
+msgid "User Icon"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:14
+msgid "Last Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr ""
 
@@ -846,6 +855,10 @@ msgstr ""
 #: ../src/xings-user-accounts.c:66
 msgid "User Accounts"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "විකල්ප"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

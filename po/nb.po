@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 3.22.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2017-01-30 07:30+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
@@ -32,11 +32,11 @@ msgstr "_Fullt navn"
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Type konto"
 
@@ -52,7 +52,7 @@ msgstr "La bruker sette et passord ved neste på_logging"
 msgid "Set a password _now"
 msgstr "Sett et passord _nå"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Passord"
 
@@ -230,28 +230,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Legg til bruker …"
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Alternativer for zoom"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tentisering"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatisk pålogging"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Innlogging med _fingeravtrykk"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ikon for bruker"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Siste pålogging"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Fjern konto"
 
@@ -871,6 +881,10 @@ msgstr "%e. %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Andre kontoer"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Alternativer for zoom"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3114,9 +3128,6 @@ msgstr "Andre kontoer"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Beskyttet EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tentisering"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (forvalg)"

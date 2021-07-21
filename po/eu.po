@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-18 13:15+0100\n"
 "Last-Translator: dooteo <dooteo@zundan.com>\n"
 "Language-Team: Basque <librezale@librezale.org>\n"
@@ -34,11 +34,11 @@ msgstr "_Izen osoa"
 msgid "Standard"
 msgstr "Arrunta"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Administratzailea"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Kontu _mota"
 
@@ -54,7 +54,7 @@ msgstr "Baimendu erabiltzaileei _hurrengo saio-hasieran pasahitza ezartzea"
 msgid "Set a password _now"
 msgstr "Ezarri pasahitza _orain"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Pasahitza"
 
@@ -236,27 +236,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Gehitu erabiltzailea…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Saioa hasteko aukerak"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Autentifikazioa"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Saio-hasiera _automatikoa"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Hatz-markarekin saioa-hastea"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Erabiltzailearen ikonoa"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Azken saio-hasiera"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Sistemaren informazioa"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Kendu kontua"
 
@@ -883,6 +895,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Gehitu erabiltzailearen kontua"
+
+#~ msgid "Login Options"
+#~ msgstr "Saioa hasteko aukerak"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3213,9 +3228,6 @@ msgstr "Gehitu erabiltzailearen kontua"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Babestutako EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Autentifikazioa"
 
 #~ msgid "missing leap-username"
 #~ msgstr "'leap'en erabiltzaile-izena falta da"
@@ -6433,9 +6445,6 @@ msgstr "Gehitu erabiltzailearen kontua"
 
 #~ msgid "Date and Time preferences panel"
 #~ msgstr "Data eta orduaren hobespenen panela"
-
-#~ msgid "System Information"
-#~ msgstr "Sistemaren informazioa"
 
 #~ msgid "Change keyboard settings"
 #~ msgstr "Aldatu teklatuaren ezarpenak"

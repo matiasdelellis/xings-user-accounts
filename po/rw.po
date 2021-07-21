@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2005-03-31 20:55-0700\n"
 "Last-Translator: Steve Murphy <murf@e-tools.com>\n"
 "Language-Team: Kinyarwanda <translation-team-rw@lists.sourceforge.net>\n"
@@ -40,11 +40,11 @@ msgstr "Izina:"
 msgid "Standard"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr ""
 
@@ -65,7 +65,7 @@ msgid "Set a password _now"
 msgstr "Ijambobanga..."
 
 # basctl/source\basicide\moduldlg.src:RID_TP_LIBS.RID_PB_PASSWORD.text
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "Ijambobanga..."
@@ -242,30 +242,38 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-# basctl/source\basicide\moduldlg.src:RID_DLG_LIBS.RID_FL_OPTIONS.text
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Amahitamo"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
-msgid "A_utomatic Login"
+#: ../data/user-accounts-dialog.ui.h:9
+msgid "Authentication & Login"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:11
-msgid "_Fingerprint Login"
+msgid "A_utomatic Login"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:12
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "Izina ry'ukoresha"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr ""
 
@@ -887,6 +895,11 @@ msgstr ""
 #, fuzzy
 msgid "User Accounts"
 msgstr "Ibindi"
+
+# basctl/source\basicide\moduldlg.src:RID_DLG_LIBS.RID_FL_OPTIONS.text
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Amahitamo"
 
 # starmath/source\smres.src:RID_TOOLBOXWINDOW.10.RID_MISC_CAT.text
 #, fuzzy

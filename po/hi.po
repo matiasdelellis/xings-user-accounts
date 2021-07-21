@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-09-23 15:25+0630\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -49,12 +49,12 @@ msgstr "पूरा नाम (_F)"
 msgid "Standard"
 msgstr "मानक"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "प्रशासक"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "खाता प्रकार (_T)"
 
@@ -72,7 +72,7 @@ msgstr "अगले लॉगिन में कूटशब्द सेट �
 msgid "Set a password _now"
 msgstr "अभी कूटशब्द निर्धारित करें"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "कूटशब्द (_P)"
 
@@ -253,28 +253,40 @@ msgstr ""
 msgid "Add User…"
 msgstr "उपयोक्ता जोड़ें"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "लॉगिन विकल्प"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "सत्यापन (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "स्वचालित लॉगिन (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "फिंगरप्रिंट लॉगिन (_F)"
 
 #  set the timeout value  label with correct value of timeout
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "उपयोक्ता प्रतीक"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "अंतिम लॉगिन"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "तंत्र जानकारी"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "खाता मिटाएँ"
 
@@ -905,6 +917,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "उपयोगकर्ता खाता जोड़ें"
+
+#~ msgid "Login Options"
+#~ msgstr "लॉगिन विकल्प"
 
 #  set the timeout value  label with correct value of timeout
 #, fuzzy
@@ -3295,9 +3310,6 @@ msgstr "उपयोगकर्ता खाता जोड़ें"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "संरक्षित EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "सत्यापन (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1(तयशुदा)"
@@ -6144,9 +6156,6 @@ msgstr "उपयोगकर्ता खाता जोड़ें"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "फालबैक"
-
-#~ msgid "System Information"
-#~ msgstr "तंत्र जानकारी"
 
 #~ msgid "OS type"
 #~ msgstr "OS प्रकार"

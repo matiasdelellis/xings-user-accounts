@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2013-11-03 15:14+0530\n"
 "Last-Translator: Balasankar C <c.balasankar@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -42,12 +42,12 @@ msgstr "മുഴു_വന്‍ പേരു്"
 msgid "Standard"
 msgstr "നിലവാരമുള്ള"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "അഡ്മിനിസ്ട്രേറ്റര്‍"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "അക്കൌണ്ട് _തരം"
 
@@ -65,7 +65,7 @@ msgstr "അടുത്ത തവണ പ്രവേശിയ്ക്കുമ�
 msgid "Set a password _now"
 msgstr "ഉടന്‍ ഒരു രഹസ്യവാക്ക് സജ്ജമാക്കുക"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_രഹസ്യവാക്ക്"
 
@@ -244,27 +244,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "ഉപയോക്താവിനെ ചേര്‍ക്കുക"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "പ്രവേശന ഐച്ഛികങ്ങള്‍"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_തിരിച്ചറിയല്‍"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "ഓട്ടോമാറ്റിക് പ്രവേശനം"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "ഫിം_ ഗര്‍പിന്റ് ലോഗിന്‍"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ഉപയോക്തൃ ചിഹ്നം"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "അവസാന പ്രവേശനം"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "സിസ്റ്റത്തെക്കുറിച്ചുള്ള വിവരം"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "എക്കൗണ്ട് നീക്കം ചെയ്യുക"
 
@@ -886,6 +898,9 @@ msgstr "%b %d %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് ചേര്‍ക്കുക"
+
+#~ msgid "Login Options"
+#~ msgstr "പ്രവേശന ഐച്ഛികങ്ങള്‍"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3203,9 +3218,6 @@ msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് �
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "സുരക്ഷിതമായ EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_തിരിച്ചറിയല്‍"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (സഹജം)"
@@ -5771,9 +5783,6 @@ msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് �
 
 #~ msgid "Date and Time preferences panel"
 #~ msgstr "തീയതിയും സമയവും മുന്‍ഗണനാ പാനല്‍"
-
-#~ msgid "System Information"
-#~ msgstr "സിസ്റ്റത്തെക്കുറിച്ചുള്ള വിവരം"
 
 #~ msgid "Change keyboard settings"
 #~ msgstr "കീബോര്‍ഡ് ക്രമീകരണങ്ങള്‍ മാറ്റുക"

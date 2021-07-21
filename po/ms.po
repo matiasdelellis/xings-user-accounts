@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2015-04-12 02:15+0730\n"
 "Last-Translator: Umarzuki Bin Mochlis Moktar <umar@umarzuki.org>\n"
 "Language-Team: GNOME Malaysia <gnome-ms@googlegroups.com>\n"
@@ -30,12 +30,12 @@ msgstr "Nama _Penuh"
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Pengurus"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Jenis Akaun "
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Tetapkan katalaluan "
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "_Password"
 msgstr "Katalaluan:"
@@ -229,32 +229,42 @@ msgstr ""
 msgid "Add User…"
 msgstr "Tambah Pengguna"
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Pilihan Capaian"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "<b>_Guna authentikasi</b>"
+
+#: ../data/user-accounts-dialog.ui.h:11
 #, fuzzy
 msgid "A_utomatic Login"
 msgstr "Skrin Log Masuk"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "_Fingerprint Login"
 msgstr "Skrin Log Masuk"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "Cipta satu akaun pengguna"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 #, fuzzy
 msgid "Last Login"
 msgstr "Skrin Log Masuk"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 #, fuzzy
 msgid "Remove Account"
 msgstr "Akaun dilumpuhkan"
@@ -855,6 +865,10 @@ msgstr "%e %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Lain-lain Akaun"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Pilihan Capaian"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -2605,11 +2619,6 @@ msgstr "Lain-lain Akaun"
 #~| msgid "None"
 #~ msgid "No"
 #~ msgstr "Tiada Tindakan"
-
-#, fuzzy
-#~| msgid "<b>_Use authentication</b>"
-#~ msgid "Au_thentication"
-#~ msgstr "<b>_Guna authentikasi</b>"
 
 #, fuzzy
 #~| msgid "Default"

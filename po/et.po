@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GNOME Control Center MASTER\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-05-13 10:38+0300\n"
 "Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
 "Language-Team: Estonian <gnome-et@linux.ee>\n"
@@ -40,12 +40,12 @@ msgstr "_Täisnimi"
 msgid "Standard"
 msgstr "Tavaline"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Administraator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Konto _liik"
 
@@ -63,7 +63,7 @@ msgstr "Kasutajal lubatakse järgmisel sisselogimisel parooli valida"
 msgid "Set a password _now"
 msgstr "Parooli kohene muutmine"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Parool"
 
@@ -243,27 +243,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Lisa kasutaja"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Sisselogimise valikud"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Autentimine"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomaatne sisselogimine"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Sisselogimine _sõrmejäljega"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Kasutajaikoon"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Viimane sisselogimine"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Konto andmed"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Konto eemaldamine"
 
@@ -890,6 +902,9 @@ msgstr "%e. %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Teised kontod"
+
+#~ msgid "Login Options"
+#~ msgstr "Sisselogimise valikud"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3169,9 +3184,6 @@ msgstr "Teised kontod"
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Kaitstud EAP (PEAP)"
 
-#~ msgid "Au_thentication"
-#~ msgstr "_Autentimine"
-
 #~ msgid "1 (Default)"
 #~ msgstr "1 (vaikimisi)"
 
@@ -5338,9 +5350,6 @@ msgstr "Teised kontod"
 
 #~ msgid "Photograph"
 #~ msgstr "Foto"
-
-#~ msgid "Account Information"
-#~ msgstr "Konto andmed"
 
 #~ msgid "Switch between AM and PM."
 #~ msgstr "Vaheta EL ja PL vahel."

@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: control-center-2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2011-10-23 19:59+0100\n"
 "Last-Translator: ivarela <ivarela@softastur.org>\n"
 "Language-Team: Softastur <alministradores@softastur.org>\n"
@@ -38,12 +38,12 @@ msgstr "Nome Completu"
 msgid "Standard"
 msgstr "Estándar"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Alministrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "Triba de cuenta:"
@@ -63,7 +63,7 @@ msgstr "Escoyer una contraseña nel siguiente aniciu de sesión"
 msgid "Set a password _now"
 msgstr "Afitar agora una contraseña"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "C_ontraseña"
 
@@ -246,29 +246,41 @@ msgstr ""
 msgid "Add User…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opciones d'aniciu de sesión"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Falló l'autenticación"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "_Aniciu automáticu de sesión"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Aniciu de sesión con _buelga"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "User Icon"
 msgstr "Cuentes d'usuariu"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 #, fuzzy
 msgid "Last Login"
 msgstr "_Aniciu automáticu de sesión"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Información del sistema"
+
+#: ../data/user-accounts-dialog.ui.h:16
 #, fuzzy
 msgid "Remove Account"
 msgstr "La mio cuenta"
@@ -901,6 +913,9 @@ msgstr "%d %b %Y"
 msgid "User Accounts"
 msgstr "Otres cuentes"
 
+#~ msgid "Login Options"
+#~ msgstr "Opciones d'aniciu de sesión"
+
 #, fuzzy
 #~ msgid "Xings User Accounts"
 #~ msgstr "Cuentes en llinia"
@@ -1390,9 +1405,6 @@ msgstr "Otres cuentes"
 
 #~ msgid "System Info"
 #~ msgstr "Información del sistema"
-
-#~ msgid "System Information"
-#~ msgstr "Información del sistema"
 
 #~ msgid ""
 #~ "device;system;information;memory;processor;version;default;application;"

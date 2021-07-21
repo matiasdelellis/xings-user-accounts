@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2015-10-18 00:30+0200\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian <dev-l10n-web@lists.mozilla.org>\n"
@@ -42,12 +42,12 @@ msgstr "Nume _complet"
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tip cont"
 
@@ -65,7 +65,7 @@ msgstr "Permite alegerea unei parole folosită la următoarea autentificare"
 msgid "Set a password _now"
 msgstr "Definește o parolă nouă"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Parolă"
 
@@ -247,27 +247,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Adaugă utilizator"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Opțiuni autentificare"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tentificare"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Autentificare a_utomată"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Autenti_ficare cu amprentă digitală"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Iconiță utilizator"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Ultimul login"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Informații de sistem"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Ștergere cont"
 
@@ -893,6 +905,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Adăugare cont utilizator"
+
+#~ msgid "Login Options"
+#~ msgstr "Opțiuni autentificare"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3239,9 +3254,6 @@ msgstr "Adăugare cont utilizator"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Protejată EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tentificare"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (implicit)"
@@ -5785,9 +5797,6 @@ msgstr "Adăugare cont utilizator"
 #~ msgctxt "Experience"
 #~ msgid "Standard"
 #~ msgstr "Standard"
-
-#~ msgid "System Information"
-#~ msgstr "Informații de sistem"
 
 #~ msgid "Experience"
 #~ msgstr "Experiență"

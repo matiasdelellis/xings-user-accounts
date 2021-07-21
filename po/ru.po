@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-12-30 00:49+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
@@ -46,11 +46,11 @@ msgstr "_Полное имя"
 msgid "Standard"
 msgstr "Обычный"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Тип учётной записи"
 
@@ -67,7 +67,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "_Установите пароль сейчас"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Пароль"
 
@@ -248,27 +248,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Добавить пользователя…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Параметры входа в систему"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "А_утентификация"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Автоматический в_ход"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Вход по отпечатку"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Значок пользователя"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Последний вход"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Удалить учётную запись"
 
@@ -891,6 +902,9 @@ msgstr "%e %b. %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Другие учётные записи"
+
+#~ msgid "Login Options"
+#~ msgstr "Параметры входа в систему"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3195,9 +3209,6 @@ msgstr "Другие учётные записи"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Защищённый EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "А_утентификация"
 
 #~ msgid "missing leap-username"
 #~ msgstr "отсутствует leap-имя пользователя"

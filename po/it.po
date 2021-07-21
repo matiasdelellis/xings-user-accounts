@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-11-02 11:47+0100\n"
 "Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
@@ -35,11 +35,11 @@ msgstr "Nome _completo"
 msgid "Standard"
 msgstr "Normale"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Amministratore"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Tipo di account"
 
@@ -55,7 +55,7 @@ msgstr "_Permettere all'utente di impostare una password al prossimo accesso"
 msgid "Set a password _now"
 msgstr "Impostare una pass_word adesso"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "Pass_word"
 
@@ -235,28 +235,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "A_ggiungi utente…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-#, fuzzy
-msgid "Login Options"
-msgstr "Opzioni di ingrandimento"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Au_tenticazione"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Accesso a_utomatico"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Accesso con i_mpronta"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Icona utente"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Ultimo accesso"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Rimuovi account"
 
@@ -885,6 +895,10 @@ msgstr "%e %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Altri account"
+
+#, fuzzy
+#~ msgid "Login Options"
+#~ msgstr "Opzioni di ingrandimento"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3206,9 +3220,6 @@ msgstr "Altri account"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "PEAP (Protected EAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Au_tenticazione"
 
 #~ msgid "missing leap-username"
 #~ msgstr "manca leap-username"

@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-09-15 16:11+0000\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -44,12 +44,12 @@ msgid "Standard"
 msgstr "প্রমিত"
 
 # auto translated by TM merge from project: gnome-shell, version: 3.8.4, DocId: gnome-shell
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "প্রশাসক"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "অ্যাকাউন্ট ধরন (_T)"
 
@@ -70,7 +70,7 @@ msgid "Set a password _now"
 msgstr "এখনই একটি পাসওয়ার্ড সেট করুন"
 
 # auto translated by TM merge from project: gnome-boxes, version: 3.8.3, DocId: gnome-boxes
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "পাসওয়ার্ড (_P)"
 
@@ -266,27 +266,40 @@ msgstr ""
 msgid "Add User…"
 msgstr "ব্যবহারকারী যোগ করুন"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "লগিন বিকল্প"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "প্রমাণীকরণ (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "স্বয়ংক্রিয় লগিন (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "ফিংগারপ্রিন্ট লগিন (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ব্যবহারকারী অাইকন"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "সর্বশেষ লগিন"
 
-#: ../data/user-accounts-dialog.ui.h:14
+# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "অ্যাকাউন্ট সরান"
 
@@ -945,6 +958,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "অন্যান্য অ্যাকাউন্ট"
+
+#~ msgid "Login Options"
+#~ msgstr "লগিন বিকল্প"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3440,9 +3456,6 @@ msgstr "অন্যান্য অ্যাকাউন্ট"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "সুরক্ষিত EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "প্রমাণীকরণ (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "১ (ডিফল্ট)"
@@ -6214,10 +6227,6 @@ msgstr "অন্যান্য অ্যাকাউন্ট"
 
 #~ msgid "Photograph"
 #~ msgstr "ফটোগ্র্যাফ"
-
-# auto translated by TM merge from project: evolution, version: el6, DocId: evolution-2.32
-#~ msgid "Account Information"
-#~ msgstr "অ্যাকাউন্ট সংক্রান্ত তথ্য"
 
 # auto translated by TM merge from project: gnome-initial-setup, version: 0.12, DocId: gnome-initial-setup
 #~ msgctxt "Password strength"

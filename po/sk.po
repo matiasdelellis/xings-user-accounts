@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-30 08:44+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
@@ -40,12 +40,12 @@ msgid "Standard"
 msgstr "Štandardný"
 
 # GtkListStore item
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Správca"
 
 # GtkLabel
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Typ účtu:"
 
@@ -65,7 +65,7 @@ msgid "Set a password _now"
 msgstr "Nastaviť heslo _teraz"
 
 # GtkLabel label
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Heslo"
 
@@ -274,33 +274,44 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Pridať používateľa…"
 
-# GtkLabel
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Možnosti prihlásenia"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
+
+# GtkLabel label
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Overenie totožnosti"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatické prihlásenie"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Prihlásenie _odtlačkom prsta"
 
 # AtkObject
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Ikona používateľa"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Posledné prihlásenie"
 
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
 # GtkToolButton label
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Odstrániť účet"
 
@@ -952,6 +963,10 @@ msgstr "%e. %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Iné účty"
+
+# GtkLabel
+#~ msgid "Login Options"
+#~ msgstr "Možnosti prihlásenia"
 
 # GtkToolButton label
 #, fuzzy
@@ -3743,10 +3758,6 @@ msgstr "Iné účty"
 # litstore item
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Chránený EAP (PEAP)"
-
-# GtkLabel label
-#~ msgid "Au_thentication"
-#~ msgstr "_Overenie totožnosti"
 
 #~ msgid "missing leap-username"
 #~ msgstr "chýba používateľské meno protokolu leap"

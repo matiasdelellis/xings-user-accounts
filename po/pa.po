@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-05 07:22-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@list.sf.net>\n"
@@ -34,11 +34,11 @@ msgstr "ਪੂਰਾ ਨਾਂ(_F)"
 msgid "Standard"
 msgstr "ਸਟੈਂਡਰਡ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "ਪਰਸ਼ਾਸ਼ਕ"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "ਅਕਾਊਂਟ ਕਿਸਮ(_T)"
 
@@ -54,7 +54,7 @@ msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਪਾਸਵਰਡ ਸੈੱਟ ਕ�
 msgid "Set a password _now"
 msgstr "ਹੁਣੇ ਪਾਸਵਰਡ ਦਿਓ(_n)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "ਪਾਸਵਰਡ(_P)"
 
@@ -233,27 +233,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਜੋੜੋ(_A)..."
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "ਲਾਗਇਨ ਚੋਣ"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "ਪਰਮਾਣਿਕਤਾ(_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "ਆਟੋਮੈਟਿਕ ਲਾਗਇਨ(_u)"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "ਫਿੰਗਰਪਰਿੰਟ ਲਾਗਇਨ(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "ਯੂਜ਼ਰ ਆਈਕਾਨ"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "ਆਖਰੀ ਲਾਗਇਨ"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "ਸਿਸਟਮ ਜਾਣਕਾਰੀ"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "ਅਕਾਊਂਟ ਹਟਾਓ"
 
@@ -867,6 +879,9 @@ msgstr "%e %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
+
+#~ msgid "Login Options"
+#~ msgstr "ਲਾਗਇਨ ਚੋਣ"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3069,9 +3084,6 @@ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "ਸੁਰੱਖਿਅਤ EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "ਪਰਮਾਣਿਕਤਾ(_t)"
 
 #~| msgid "Wrong password"
 #~ msgid "missing leap-password"
@@ -6207,9 +6219,6 @@ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
 
 #~ msgid "Date and Time preferences panel"
 #~ msgstr "ਮਿਤੀ ਤੇ ਸਮਾਂ ਪਸੰਦ ਪੈਨਲ"
-
-#~ msgid "System Information"
-#~ msgstr "ਸਿਸਟਮ ਜਾਣਕਾਰੀ"
 
 #~ msgid "Change keyboard settings"
 #~ msgstr "ਕੀਬੋਰਡ ਸੈਟਿੰਗ ਬਦਲੋ"

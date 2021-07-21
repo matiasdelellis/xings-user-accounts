@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2015-05-28 11:09+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <tg@li.org>\n"
@@ -32,12 +32,12 @@ msgstr "_Номи пурра"
 msgid "Standard"
 msgstr "Стандартӣ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Маъмур"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Намуди ҳисоб"
 
@@ -56,7 +56,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Паролро ҳозир таъин кунед"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Парол"
 
@@ -237,27 +237,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Илова кардани корбар"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Имконоти воридшавӣ"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Санҷиши ҳаққоният"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "_Воридшавии худкор"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Воридшавӣ бо нақши ангушт"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Нишонаи корбар"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Воридшавии охирин"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Иттилооти ҳисоб"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Тоза кардани ҳисоб"
 
@@ -888,6 +900,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Ҳисобҳои дигар"
+
+#~ msgid "Login Options"
+#~ msgstr "Имконоти воридшавӣ"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3222,9 +3237,6 @@ msgstr "Ҳисобҳои дигар"
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "EAP-и муҳофизатшуда (PEAP)"
 
-#~ msgid "Au_thentication"
-#~ msgstr "_Санҷиши ҳаққоният"
-
 #~ msgid "1 (Default)"
 #~ msgstr "1 (Пешфарз)"
 
@@ -5542,9 +5554,6 @@ msgstr "Ҳисобҳои дигар"
 
 #~ msgid "Photograph"
 #~ msgstr "Суратгирӣ"
-
-#~ msgid "Account Information"
-#~ msgstr "Иттилооти ҳисоб"
 
 #~ msgid "Switch between AM and PM."
 #~ msgstr "Табдил додан дар байни AM ва PM."

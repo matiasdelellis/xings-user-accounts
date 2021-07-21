@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-09-12 11:34+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
@@ -65,11 +65,11 @@ msgstr "_Πλήρες όνομα"
 msgid "Standard"
 msgstr "Τυπικός"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Διαχειριστής"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Τύπος λογαριασμού"
 
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Καθο_ρισμός κωδικού πρόσβασης"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "Κω_δικός πρόσβασης"
 
@@ -273,27 +273,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "Π_ροσθήκη χρήστη…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Επιλογές σύνδεσης"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Πιστοποίηση"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Α_υτόματη σύνδεση"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Είσοδος με _δακτυλικό αποτύπωμα"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Εικονίδιο χρήστη"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Τελευταία σύνδεση"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Αφαίρεση λογαριασμού"
 
@@ -937,6 +948,9 @@ msgstr "%e %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Άλλοι λογαριασμοί"
+
+#~ msgid "Login Options"
+#~ msgstr "Επιλογές σύνδεσης"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3274,9 +3288,6 @@ msgstr "Άλλοι λογαριασμοί"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Προστατευμένο EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Πιστοποίηση"
 
 #~ msgid "missing leap-username"
 #~ msgstr "Λείπει το όνομα χρήστη leap"

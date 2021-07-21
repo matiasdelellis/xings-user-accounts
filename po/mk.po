@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2011-12-10 20:46+0100\n"
 "Last-Translator: Jovan N\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -41,12 +41,12 @@ msgstr "_Цело име"
 msgid "Standard"
 msgstr "Стандардна"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Account _Type"
 msgstr "Тип на сметка"
@@ -66,7 +66,7 @@ msgstr "Изберете лозинка на следното најавувањ
 msgid "Set a password _now"
 msgstr "Изберете лозинка сега"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Лозинка"
 
@@ -250,28 +250,40 @@ msgstr ""
 msgid "Add User…"
 msgstr "Нов корисник"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Опции за најавување"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Автентикацијата не успеа"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "А_втоматска најава"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Најава со _отпечаток"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Корисничка икона"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 #, fuzzy
 msgid "Last Login"
 msgstr "А_втоматска најава"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Информации за системот"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Избриши ја сметката"
 
@@ -898,6 +910,9 @@ msgstr "%b %d %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Додај корисничка сметка"
+
+#~ msgid "Login Options"
+#~ msgstr "Опции за најавување"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -1693,9 +1708,6 @@ msgstr "Додај корисничка сметка"
 #~| msgid "_Details"
 #~ msgid "Details"
 #~ msgstr "Детали"
-
-#~ msgid "System Information"
-#~ msgstr "Информации за системот"
 
 #~ msgid ""
 #~ "device;system;information;memory;processor;version;default;application;"

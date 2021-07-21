@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2015-09-23 15:39-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -32,12 +32,12 @@ msgstr "Ainm _Iomlán"
 msgid "Standard"
 msgstr "Gnáthchuntas"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Riarthóir"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Cineál Cun_tais"
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Socraigh focal faire anois"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Focal Faire"
 
@@ -231,27 +231,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "Cuir Úsáideoir Leis"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Roghanna Logála Isteach"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "Fío_rdheimniú"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "Logáil Isteach _Uathoibríoch"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Logáil Isteach _Méarloirg"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Deilbhín Úsáideora"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Logáil Isteach Is Déanaí"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Bain Cuntas"
 
@@ -864,6 +875,9 @@ msgstr "%e %b, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Cuntais Eile"
+
+#~ msgid "Login Options"
+#~ msgstr "Roghanna Logála Isteach"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -2575,9 +2589,6 @@ msgstr "Cuntais Eile"
 
 #~ msgid "FAST"
 #~ msgstr "FAST"
-
-#~ msgid "Au_thentication"
-#~ msgstr "Fío_rdheimniú"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (Réamhshocrú)"

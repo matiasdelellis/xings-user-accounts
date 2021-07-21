@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-10-28 09:26+0200\n"
 "Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at gmail dot com>\n"
@@ -40,11 +40,11 @@ msgstr "_Teljes név"
 msgid "Standard"
 msgstr "Általános"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Rendszergazda"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_Fióktípus"
 
@@ -60,7 +60,7 @@ msgstr "A felhasználó beállíthat jelszót a következő _bejelentkezéskor"
 msgid "Set a password _now"
 msgstr "Jelszó beállítása _most"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "Jels_zó"
 
@@ -240,27 +240,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Felhasználó hozzá_adása…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Bejelentkezési beállítások"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Hitelesítés"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomatikus bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Ujjlenyomatos bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Felhasználói ikon"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Utolsó bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Rendszer-információk"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Fiók eltávolítása"
 
@@ -881,6 +893,9 @@ msgstr "%Y. %b. %e."
 #, fuzzy
 msgid "User Accounts"
 msgstr "Felhasználói fiók hozzáadása"
+
+#~ msgid "Login Options"
+#~ msgstr "Bejelentkezési beállítások"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3182,9 +3197,6 @@ msgstr "Felhasználói fiók hozzáadása"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Védett EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Hitelesítés"
 
 #~ msgid "missing leap-username"
 #~ msgstr "hiányzó leap felhasználónév"
@@ -6507,9 +6519,6 @@ msgstr "Felhasználói fiók hozzáadása"
 #~ msgctxt "Experience"
 #~ msgid "Fallback"
 #~ msgstr "Tartalék"
-
-#~ msgid "System Information"
-#~ msgstr "Rendszer-információk"
 
 #~ msgid "OS type"
 #~ msgstr "Operációs rendszer"

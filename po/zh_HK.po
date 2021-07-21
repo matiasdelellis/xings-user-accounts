@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 3.3.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-08-25 14:05+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -37,12 +37,12 @@ msgstr "全名(_F)"
 msgid "Standard"
 msgstr "標準"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "管理員"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "帳號類型(_T)"
 
@@ -60,7 +60,7 @@ msgstr "允許使用者在下次登入時選擇密碼"
 msgid "Set a password _now"
 msgstr "立刻設定密碼"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "密碼(_P)"
 
@@ -238,27 +238,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "加入使用者"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "登入選項"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "核對(_T)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "自動登入(_U)："
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "指紋登入(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "使用者圖示"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "上次登入"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "系統資訊"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "移除帳號"
 
@@ -870,6 +882,9 @@ msgstr "%Y年%b%e日"
 #, fuzzy
 msgid "User Accounts"
 msgstr "其他帳號"
+
+#~ msgid "Login Options"
+#~ msgstr "登入選項"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3152,9 +3167,6 @@ msgstr "其他帳號"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "保護式 EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "核對(_T)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (預設值)"
@@ -5799,9 +5811,6 @@ msgstr "其他帳號"
 
 #~ msgid "Date and Time preferences panel"
 #~ msgstr "日期和時刻偏好設定面板"
-
-#~ msgid "System Information"
-#~ msgstr "系統資訊"
 
 #~ msgid "Change keyboard settings"
 #~ msgstr "改變鍵盤設定值"

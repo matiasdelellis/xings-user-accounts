@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-11-01 20:43+0200\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
 "Language-Team: suomi <lokalisointi-lista@googlegroups.com>\n"
@@ -50,11 +50,11 @@ msgstr "K_oko nimi"
 msgid "Standard"
 msgstr "Normaali"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 msgid "Administrator"
 msgstr "Ylläpitäjä"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Tilin _tyyppi"
 
@@ -70,7 +70,7 @@ msgstr "Salli käyttäjän vaihtaa salasana seuraavalla ki_rjautumiskerralla"
 msgid "Set a password _now"
 msgstr "_Aseta salasana nyt"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Salasana"
 
@@ -251,27 +251,38 @@ msgstr ""
 msgid "Add User…"
 msgstr "_Lisää käyttäjä…"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Sisäänkirjautumisvalinnat"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "_Tunnistautuminen"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "A_utomaattinen kirjautuminen"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_Sormenjäljellä kirjautuminen"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Käyttäjän kuvake"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Viimeisin kirjautuminen"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+msgid "Basic Information"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Poista tili"
 
@@ -894,6 +905,9 @@ msgstr "%e. %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Muut tilit"
+
+#~ msgid "Login Options"
+#~ msgstr "Sisäänkirjautumisvalinnat"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3165,9 +3179,6 @@ msgstr "Muut tilit"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Suojattu EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "_Tunnistautuminen"
 
 #~ msgid "missing leap-username"
 #~ msgstr "puuttuva leap-käyttäjätunnus"

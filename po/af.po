@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.6-branch\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2016-02-29 20:57+0200\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -32,12 +32,12 @@ msgstr "_Volle naam"
 msgid "Standard"
 msgstr "Gewoon"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "Administrateur"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "Rekening_tipe"
 
@@ -53,7 +53,7 @@ msgstr "_Laat gebruiker toe om 'n wagwoord in te stel met volgende aanmelding"
 msgid "Set a password _now"
 msgstr "Stel 'n wagwoord _nou in"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "_Wagwoord"
 
@@ -233,27 +233,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "Voeg gebruiker by"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "Aanmeldkeuses"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "<b>_Gebruik verifiëring</b>"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "O_utomatiese aanmelding"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "Aanmelding met vingera_fdruk"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "Gebruikerikoon"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "Laas aangemeld"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "Stelselinligting"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "Verwyder rekening"
 
@@ -884,6 +896,9 @@ msgstr "%e %b %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "Ander rekeninge"
+
+#~ msgid "Login Options"
+#~ msgstr "Aanmeldkeuses"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3069,11 +3084,6 @@ msgstr "Ander rekeninge"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "Beskermde EAP (PEAP)"
-
-#, fuzzy
-#~| msgid "<b>_Use authentication</b>"
-#~ msgid "Au_thentication"
-#~ msgstr "<b>_Gebruik verifiëring</b>"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (verstek)"
@@ -5595,9 +5605,6 @@ msgstr "Ander rekeninge"
 #~ msgstr "Standaard"
 
 #~ msgid "System Info"
-#~ msgstr "Stelselinligting"
-
-#~ msgid "System Information"
 #~ msgstr "Stelselinligting"
 
 #~ msgid "Experience"

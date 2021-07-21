@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 10:49-0300\n"
+"POT-Creation-Date: 2021-07-21 12:54-0300\n"
 "PO-Revision-Date: 2014-09-15 16:27+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -50,12 +50,12 @@ msgstr "முழுப் பெயர் (_F)"
 msgid "Standard"
 msgstr "செந்தரம்"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Administrator"
 msgstr "நிர்வாகி"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:8
 msgid "Account _Type"
 msgstr "_T கணக்கு வகை"
 
@@ -73,7 +73,7 @@ msgstr "பயனர் அடுத்த புகுபதிவில் க
 msgid "Set a password _now"
 msgstr "கடவுச்சொல்லை இப்போது அமை"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:10
 msgid "_Password"
 msgstr "கடவுச்சொல் (_P)"
 
@@ -254,27 +254,39 @@ msgstr ""
 msgid "Add User…"
 msgstr "பயனர் சேர்"
 
-#: ../data/user-accounts-dialog.ui.h:8
-msgid "Login Options"
-msgstr "புகு பதிகை தேர்வுகள்"
+#: ../data/user-accounts-dialog.ui.h:6
+msgid ""
+"Administrators can add and remove other users, and can change settings for "
+"all users."
+msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:9
+#, fuzzy
+msgid "Authentication & Login"
+msgstr "அங்கீகாரம் (_t)"
+
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "A_utomatic Login"
 msgstr "_u தானியங்கி உள்நுழைவு"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "_Fingerprint Login"
 msgstr "_F கைரேகை புகுபதிவு:"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "User Icon"
 msgstr "பயனர் சின்னம்"
 
-#: ../data/user-accounts-dialog.ui.h:13
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Last Login"
 msgstr "கடந்த புகுபதிவு"
 
-#: ../data/user-accounts-dialog.ui.h:14
+#: ../data/user-accounts-dialog.ui.h:15
+#, fuzzy
+msgid "Basic Information"
+msgstr "கணினி தகவல்"
+
+#: ../data/user-accounts-dialog.ui.h:16
 msgid "Remove Account"
 msgstr "கணக்கு நீக்கு"
 
@@ -899,6 +911,9 @@ msgstr "%b %e, %Y"
 #, fuzzy
 msgid "User Accounts"
 msgstr "பயனர் கணக்கு சேர்"
+
+#~ msgid "Login Options"
+#~ msgstr "புகு பதிகை தேர்வுகள்"
 
 #, fuzzy
 #~ msgid "Xings User Accounts"
@@ -3232,9 +3247,6 @@ msgstr "பயனர் கணக்கு சேர்"
 
 #~ msgid "Protected EAP (PEAP)"
 #~ msgstr "பாதுகாக்கப்பட்ட EAP (PEAP)"
-
-#~ msgid "Au_thentication"
-#~ msgstr "அங்கீகாரம் (_t)"
 
 #~ msgid "1 (Default)"
 #~ msgstr "1 (முன்னிருப்பு)"
@@ -6011,9 +6023,6 @@ msgstr "பயனர் கணக்கு சேர்"
 #~ msgctxt "Experience"
 #~ msgid "Standard"
 #~ msgstr "செந்தரம்"
-
-#~ msgid "System Information"
-#~ msgstr "கணினி தகவல்"
 
 #~ msgid "Experience"
 #~ msgstr "அனுபவம்"

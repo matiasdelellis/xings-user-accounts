@@ -168,7 +168,7 @@ get_real_or_user_name (ActUser *user)
 static char *
 get_name_col_str (ActUser *user)
 {
-	return g_markup_printf_escaped ("<b>%s</b>\n<small>%s</small>",
+	return g_markup_printf_escaped ("<b>%s</b>\n%s",
 	                                get_real_or_user_name (user),
 	                                act_user_get_user_name (user));
 }
@@ -225,7 +225,7 @@ user_added (ActUserManager *um, ActUser *user, CcUserPanel *d)
 
         /* Show heading for other accounts if new one have been added. */
         if (d->other_accounts == 1 && sort_key == 3) {
-		title = g_strdup_printf ("<small><span foreground=\"#555555\">%s</span></small>", _("Other Accounts"));
+		title = g_strdup_printf ("<b><span foreground=\"#555555\">%s</span></b>", _("Other Accounts"));
 		gtk_list_store_append (store, &iter);
 		gtk_list_store_set (store, &iter,
 		                    TITLE_COL, title,
@@ -1189,7 +1189,7 @@ on_permission_changed (GPermission *permission,
 	is_authorized = g_permission_get_allowed (G_PERMISSION (d->permission));
 	self_selected = act_user_get_uid (user) == geteuid ();
 
-	gtk_stack_set_visible_child_name (GTK_STACK (get_widget (d, "headerbar-buttons")), is_authorized ? PAGE_ADDUSER : PAGE_LOCK);
+	gtk_info_bar_set_revealed (GTK_INFO_BAR (get_widget (d, "infobar")), !is_authorized);
 
 	widget = get_widget (d, "add-user-toolbutton");
 	gtk_widget_set_sensitive (widget, is_authorized);
@@ -1405,7 +1405,7 @@ setup_main_window (CcUserPanel *d)
 	gtk_widget_style_get (userlist, "expander-size", &expander_size, NULL);
 	gtk_tree_view_set_level_indentation (GTK_TREE_VIEW (userlist), - (expander_size + 6));
 
-	title = g_strdup_printf ("<small><span foreground=\"#555555\">%s</span></small>", _("My Account"));
+	title = g_strdup_printf ("<b><span foreground=\"#555555\">%s</span></b>", _("My Account"));
 	gtk_list_store_append (store, &iter);
 	gtk_list_store_set (store, &iter,
 	                    TITLE_COL, title,
@@ -1418,17 +1418,21 @@ setup_main_window (CcUserPanel *d)
 	d->other_iter = NULL;
 
 	column = gtk_tree_view_column_new ();
+
 	cell = um_cell_renderer_user_image_new (userlist);
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (column), cell, FALSE);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "user", USER_COL);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "visible", USER_ROW_COL);
+
 	cell = gtk_cell_renderer_text_new ();
 	g_object_set (cell, "ellipsize", PANGO_ELLIPSIZE_END, NULL);
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (column), cell, TRUE);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "markup", NAME_COL);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "visible", USER_ROW_COL);
+
 	cell = gtk_cell_renderer_text_new ();
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (column), cell, TRUE);
+	gtk_cell_renderer_set_padding(cell, 2.0f, 4.0f);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "markup", TITLE_COL);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "visible", HEADING_ROW_COL);
 

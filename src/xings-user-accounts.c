@@ -63,7 +63,7 @@ main (int    argc,
 	/* Debug options */
 
 	context = g_option_context_new (NULL);
-	g_option_context_set_summary (context, _("Xings User Accounts"));
+	g_option_context_set_summary (context, _("User Accounts"));
 	g_option_context_parse (context, &argc, &argv, NULL);
 	g_option_context_free (context);
 

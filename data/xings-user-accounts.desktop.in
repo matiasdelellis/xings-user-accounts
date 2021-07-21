@@ -9,4 +9,4 @@ Type=Application
 StartupNotify=true
 Categories=System;Settings;X-XFCE-SettingsDialog;X-XFCE-SystemSettings;
 NotShowIn=GNOME;KDE;Unity;
-X-XfcePluggable=true
+X-XfcePluggable=false

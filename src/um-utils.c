@@ -116,7 +116,7 @@ create_shape_attr_list_for_layout (PangoLayout   *layout,
 	const gchar *text;
 	gint placeholder_len;
 
-        /* Get font metrics and prepare fancy shape size */
+	/* Get font metrics and prepare fancy shape size */
 	metrics = pango_context_get_metrics (pango_layout_get_context (layout),
 	                                     pango_layout_get_font_description (layout),
 	                                     NULL);
@@ -508,11 +508,11 @@ is_valid_name (const gchar *name)
 
 		unichar = g_utf8_get_char_validated (c, -1);
 
-                /* Partial UTF-8 sequence or end of string */
+		/* Partial UTF-8 sequence or end of string */
 		if (unichar == (gunichar) -1 || unichar == (gunichar) -2)
 			break;
 
-                /* Check for non-space character */
+		/* Check for non-space character */
 		if (!g_unichar_isspace (unichar)) {
 			is_empty = FALSE;
 			break;
@@ -962,7 +962,7 @@ render_user_icon (ActUser     *user,
                   gint         icon_size,
                   gint         scale)
 {
-	GdkPixbuf    *pixbuf;
+	GdkPixbuf    *source_pixbuf = NULL, *pixbuf = NULL;
 	GdkPixbuf    *framed;
 	gboolean      res;
 	GError       *error;
@@ -977,10 +977,12 @@ render_user_icon (ActUser     *user,
 	if (icon_file) {
 		res = check_user_file (icon_file, MAX_FILE_SIZE);
 		if (res) {
-			pixbuf = gdk_pixbuf_new_from_file_at_size (icon_file,
-			                                           icon_size * scale,
-			                                           icon_size * scale,
-			                                           NULL);
+			source_pixbuf = gdk_pixbuf_new_from_file_at_size (icon_file,
+			                                                  icon_size * scale,
+			                                                  icon_size * scale,
+			                                                  NULL);
+			pixbuf = round_image (source_pixbuf);
+			g_object_unref (source_pixbuf);
 		}
 		else {
 			pixbuf = NULL;
@@ -1027,6 +1029,33 @@ out:
 	}
 
 	return surface;
+}
+
+GdkPixbuf *
+round_image (GdkPixbuf *pixbuf)
+{
+	GdkPixbuf *dest = NULL;
+	cairo_surface_t *surface;
+	cairo_t *cr;
+	gint size;
+
+	size = gdk_pixbuf_get_width (pixbuf);
+	surface = cairo_image_surface_create (CAIRO_FORMAT_ARGB32, size, size);
+	cr = cairo_create (surface);
+
+	/* Clip a circle */
+	cairo_arc (cr, size/2, size/2, size/2, 0, 2 * G_PI);
+	cairo_clip (cr);
+	cairo_new_path (cr);
+
+	gdk_cairo_set_source_pixbuf (cr, pixbuf, 0, 0);
+	cairo_paint (cr);
+
+	dest = gdk_pixbuf_get_from_surface (surface, 0, 0, size, size);
+	cairo_surface_destroy (surface);
+	cairo_destroy (cr);
+
+	return dest;
 }
 
 void

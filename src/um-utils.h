@@ -80,6 +80,8 @@ cairo_surface_t *render_user_icon         (ActUser         *user,
                                            gint             icon_size,
                                            gint             scale);
 
+GdkPixbuf *round_image                    (GdkPixbuf  *pixbuf);
+
 void     set_user_icon_data               (ActUser         *user,
                                            GdkPixbuf       *pixbuf);
 

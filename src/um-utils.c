@@ -866,47 +866,6 @@ check_user_file (const char *filename,
 }
 
 static GdkPixbuf *
-frame_pixbuf (GdkPixbuf *source, gint scale)
-{
-	GdkPixbuf       *dest;
-	cairo_t         *cr;
-	cairo_surface_t *surface;
-	guint            w;
-	guint            h;
-	int              frame_width;
-	double           radius;
-
-	frame_width = 2 * scale;
-
-	w = gdk_pixbuf_get_width (source) + frame_width * 2;
-	h = gdk_pixbuf_get_height (source) + frame_width * 2;
-	radius = w / 10;
-
-	surface = cairo_image_surface_create (CAIRO_FORMAT_ARGB32,
-	                                      w, h);
-	cr = cairo_create (surface);
-	cairo_surface_destroy (surface);
-
-	/* set up image */
-	cairo_rectangle (cr, 0, 0, w, h);
-	cairo_set_source_rgba (cr, 1.0, 1.0, 1.0, 0.0);
-	cairo_fill (cr);
-
-	rounded_rectangle (cr, 1.0, 0.5, 0.5, radius, w - 1, h - 1);
-	cairo_set_source_rgba (cr, 0.5, 0.5, 0.5, 0.3);
-	cairo_fill_preserve (cr);
-
-	gdk_cairo_set_source_pixbuf (cr, source, frame_width, frame_width);
-	cairo_fill (cr);
-
-	dest = gdk_pixbuf_get_from_surface (surface, 0, 0, w, h);
-
-	cairo_destroy (cr);
-
-	return dest;
-}
-
-static GdkPixbuf *
 logged_in_pixbuf (GdkPixbuf *pixbuf, gint scale)
 {
 	cairo_format_t format;
@@ -962,8 +921,8 @@ render_user_icon (ActUser     *user,
                   gint         icon_size,
                   gint         scale)
 {
-	GdkPixbuf    *source_pixbuf = NULL, *pixbuf = NULL;
-	GdkPixbuf    *framed;
+	GdkPixbuf    *pixbuf = NULL;
+	GdkPixbuf    *rounded = NULL, *logged = NULL;
 	gboolean      res;
 	GError       *error;
 	const gchar  *icon_file;
@@ -977,12 +936,10 @@ render_user_icon (ActUser     *user,
 	if (icon_file) {
 		res = check_user_file (icon_file, MAX_FILE_SIZE);
 		if (res) {
-			source_pixbuf = gdk_pixbuf_new_from_file_at_size (icon_file,
+			pixbuf = gdk_pixbuf_new_from_file_at_size (icon_file,
 			                                                  icon_size * scale,
 			                                                  icon_size * scale,
 			                                                  NULL);
-			pixbuf = round_image (source_pixbuf);
-			g_object_unref (source_pixbuf);
 		}
 		else {
 			pixbuf = NULL;
@@ -1007,19 +964,19 @@ render_user_icon (ActUser     *user,
 
 out:
 
-	if (pixbuf != NULL && (style & UM_ICON_STYLE_FRAME)) {
-		framed = frame_pixbuf (pixbuf, scale);
-		if (framed != NULL) {
+	if (pixbuf != NULL && (style & UM_ICON_STYLE_ROUNDED)) {
+		rounded = round_image (pixbuf);
+		if (rounded != NULL) {
 			g_object_unref (pixbuf);
-			pixbuf = framed;
+			pixbuf = rounded;
 		}
 	}
 
 	if (pixbuf != NULL && (style & UM_ICON_STYLE_STATUS) && act_user_is_logged_in (user)) {
-		framed = logged_in_pixbuf (pixbuf, scale);
-		if (framed != NULL) {
+		logged = logged_in_pixbuf (pixbuf, scale);
+		if (logged != NULL) {
 			g_object_unref (pixbuf);
-			pixbuf = framed;
+			pixbuf = logged;
 		}
 	}
 

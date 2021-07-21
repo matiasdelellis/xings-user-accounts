@@ -223,8 +223,8 @@ user_added (ActUserManager *um, ActUser *user, CcUserPanel *d)
 		gtk_tree_selection_select_iter (selection, &iter);
 	}
 
-        /* Show heading for other accounts if new one have been added. */
-        if (d->other_accounts == 1 && sort_key == 3) {
+	/* Show heading for other accounts if new one have been added. */
+	if (d->other_accounts == 1 && sort_key == 3) {
 		title = g_strdup_printf ("<b><span foreground=\"#555555\">%s</span></b>", _("Other Accounts"));
 		gtk_list_store_append (store, &iter);
 		gtk_list_store_set (store, &iter,
@@ -1421,12 +1421,14 @@ setup_main_window (CcUserPanel *d)
 
 	cell = um_cell_renderer_user_image_new (userlist);
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (column), cell, FALSE);
+	gtk_cell_renderer_set_padding(cell, 4.0f, 0.0);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "user", USER_COL);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "visible", USER_ROW_COL);
 
 	cell = gtk_cell_renderer_text_new ();
 	g_object_set (cell, "ellipsize", PANGO_ELLIPSIZE_END, NULL);
 	gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (column), cell, TRUE);
+	gtk_cell_renderer_set_padding(cell, 4.0f, 0.0);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "markup", NAME_COL);
 	gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (column), cell, "visible", USER_ROW_COL);
 

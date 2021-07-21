@@ -1,4 +1,4 @@
-/* -*- Mode: C; tab-width: 8; indent-tabs-mode: nil; c-basic-offset: 8 -*-
+/* -*- Mode: C; tab-width: 8; indent-tabs-mode: t; c-basic-offset: 8 -*-
  *
  * Copyright 2009-2010  Red Hat, Inc,
  *
@@ -27,9 +27,9 @@
 G_BEGIN_DECLS
 
 typedef enum {
-        UM_ICON_STYLE_NONE   = 0,
-        UM_ICON_STYLE_FRAME  = 1 << 0,
-        UM_ICON_STYLE_STATUS = 1 << 1
+	UM_ICON_STYLE_NONE     = 0,
+	UM_ICON_STYLE_ROUNDED  = 1 << 0,
+	UM_ICON_STYLE_STATUS   = 1 << 1
 } UmIconStyle;
 
 void     setup_tooltip_with_embedded_icon (GtkWidget   *widget,

@@ -46,7 +46,10 @@ render_user_image (UmCellRendererUserImage *cell_renderer)
 
 	if (cell_renderer->user != NULL) {
 		scale = gtk_widget_get_scale_factor (cell_renderer->parent);
-		surface = render_user_icon (cell_renderer->user, UM_ICON_STYLE_FRAME | UM_ICON_STYLE_STATUS, 48, scale);
+		surface = render_user_icon (cell_renderer->user,
+		                            UM_ICON_STYLE_ROUNDED | UM_ICON_STYLE_STATUS,
+		                            48,
+		                            scale);
 		g_object_set (GTK_CELL_RENDERER_PIXBUF (cell_renderer), "surface", surface, NULL);
 		cairo_surface_destroy (surface);
 	} else {

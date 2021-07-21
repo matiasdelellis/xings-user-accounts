@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-09-15 16:27+0630\n"
 "Last-Translator: Shantha kumar <shkumar@redhat.com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -45,17 +45,17 @@ msgstr "(_U) பயனர் பெயர்:"
 msgid "_Full Name"
 msgstr "முழுப் பெயர் (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "செந்தரம்"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "நிர்வாகி"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_T கணக்கு வகை"
 
@@ -73,7 +73,7 @@ msgstr "பயனர் அடுத்த புகுபதிவில் க
 msgid "Set a password _now"
 msgstr "கடவுச்சொல்லை இப்போது அமை"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "கடவுச்சொல் (_P)"
 
@@ -188,7 +188,7 @@ msgstr ""
 "உங்கள் கைரேகை வெற்றிகரமாக சேமிக்கப்பட்டது. இப்போது நீங்கள் கைரேகை வாசிப்பி மூலம் "
 "புகுபதிவு செய்ய முடியும்."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "பயனர்கள்"
 
@@ -238,34 +238,43 @@ msgstr "கடவுச்சொல்லை இப்போது அமை"
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "பயனர் சேர்"
+msgid "Unlock…"
+msgstr "பூட்டை திற"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "பயனர் சேர்"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "புகு பதிகை தேர்வுகள்"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_u தானியங்கி உள்நுழைவு"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_F கைரேகை புகுபதிவு:"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "பயனர் சின்னம்"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "கடந்த புகுபதிவு"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "கணக்கு நீக்கு"
 
@@ -387,7 +396,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "ஒரு பயனர் கணக்கை உருவாக்கு"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -399,7 +408,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "தேர்ந்தெடுத்த பயனர் கணக்கை நீக்கவும்"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -885,6 +894,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "பயனர் கணக்கு சேர்"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "பயனர் கணக்குகள்"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "புதிய கடவுச் சொல்லைச் சரிபார் (_V)"
@@ -4978,9 +4996,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "புகுபதிவு வரலாறு"
 
-#~ msgid "Add User Account"
-#~ msgstr "பயனர் கணக்கு சேர்"
-
 #~ msgid "Remove User Account"
 #~ msgstr "பயனர் கணக்கு நீக்கு"
 
@@ -6289,9 +6304,6 @@ msgstr "%b %e, %Y"
 #~ msgid "None"
 #~ msgstr "எதுவுமில்லை"
 
-#~ msgid "User Accounts"
-#~ msgstr "பயனர் கணக்குகள்"
-
 #~ msgid "Fair"
 #~ msgstr "மிதமான"
 
@@ -6593,9 +6605,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Wacom Graphics Tablet"
 #~ msgstr "வாகாம் வரைகலை தொடுதட்டு"
-
-#~ msgid "Unlock"
-#~ msgstr "பூட்டை திற"
 
 #~ msgid "Battery charging"
 #~ msgstr "மின்கல சக்தி ஏற்றம் ஆகிறது"

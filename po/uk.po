@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-15 21:21+0300\n"
 "Last-Translator: Daniel Korostil <ted.korostiled@gmail.com>\n"
 "Language-Team: linux.org.ua\n"
@@ -29,15 +29,15 @@ msgstr "_Користувач"
 msgid "_Full Name"
 msgstr "_Повне ім'я"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Стандартно"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Адміністратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Тип облікового запису"
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Вкажіть пароль _зараз"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Пароль"
 
@@ -169,7 +169,7 @@ msgstr ""
 "Відбиток було успішно збережено. Тепер можна увійти у систему з "
 "використанням пристрою сканування відбитків."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Користувачі"
 
@@ -217,34 +217,44 @@ msgid "Set a password now"
 msgstr "Вкажіть пароль зараз"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Додати користувача…"
+#, fuzzy
+msgid "Unlock…"
+msgstr "Розблокувати"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Додати користувача…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Параметри входу"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Автоматичний вхід"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Вхід через відбитки _пальців"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Піктограма користувача"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Останній вхід"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Вилучити обліковий запис"
 
@@ -366,7 +376,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Створити обліковий запис користувача"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -378,7 +388,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Вилучити вибраний обліковий запис користувача"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -861,6 +871,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Додати обліковий запис користувача"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Облікові записи"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Перевірити новий пароль"
@@ -5564,9 +5583,6 @@ msgstr "%e %b, %Y"
 #~ msgid "Login History"
 #~ msgstr "Історія входжень"
 
-#~ msgid "Add User Account"
-#~ msgstr "Додати обліковий запис користувача"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Вилучити обліковий запис користувача"
 
@@ -6721,9 +6737,6 @@ msgstr "%e %b, %Y"
 #~ msgid "None"
 #~ msgstr "Немає"
 
-#~ msgid "User Accounts"
-#~ msgstr "Облікові записи"
-
 #~ msgid "_Hint"
 #~ msgstr "_Підказка"
 
@@ -7075,9 +7088,6 @@ msgstr "%e %b, %Y"
 
 #~ msgid "cd;dvd;usb;audio;video;disc;"
 #~ msgstr "cd;dvd;usb;звук;відео;диск;"
-
-#~ msgid "Unlock"
-#~ msgstr "Розблокувати"
 
 #~ msgid "Battery discharging"
 #~ msgstr "Розряджання батареї"

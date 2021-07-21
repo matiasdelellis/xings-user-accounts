@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2012-09-21 20:04+0300\n"
 "Last-Translator: Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
@@ -28,17 +28,17 @@ msgstr "І_мя карыстальніка"
 msgid "_Full Name"
 msgstr "_Поўнае імя"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Звычайны"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Адміністратар"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Тып конта"
 
@@ -56,7 +56,7 @@ msgstr "Дазволіць карыстальніку наставіць пар�
 msgid "Set a password _now"
 msgstr "Зараз жа наставіць пароль"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "Пар_оль"
 
@@ -171,7 +171,7 @@ msgstr ""
 "Вашы адбіткі пальцаў паспяхова захаваныя. Цяпер вы можаце ўвайсці ў сеанс з "
 "дапамогай сканера адбіткаў."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Карыстальнікі"
 
@@ -223,35 +223,43 @@ msgid "Set a password now"
 msgstr "Зараз жа наставіць пароль"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "Дадаць карыстальніка"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Дадаць карыстальніка"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Параметры ўваходу"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Аўтаматычны ўваход"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Уваход з дапамогай адбіткаў пальцаў"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Значок карыстальніка"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Настройкі з папярэдняга ўваходу"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Выдаліць конт"
 
@@ -375,7 +383,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Стварыць конт карыстальніка"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -387,7 +395,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Выдаліць вылучаны конт карыстальніка"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -876,6 +884,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Іншыя конты"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Дадаць конт карыстальніка"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "П_ацвярджэнне новага пароля"
@@ -4901,9 +4918,6 @@ msgstr "%e %b, %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Гісторыя ўваходаў"
-
-#~ msgid "Add User Account"
-#~ msgstr "Дадаць конт карыстальніка"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Выдаліць конт карыстальніка"

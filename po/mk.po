@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2011-12-10 20:46+0100\n"
 "Last-Translator: Jovan N\n"
 "Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
@@ -36,17 +36,17 @@ msgstr "_Корисничко име"
 msgid "_Full Name"
 msgstr "_Цело име"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Стандардна"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Account _Type"
 msgstr "Тип на сметка"
@@ -66,7 +66,7 @@ msgstr "Изберете лозинка на следното најавувањ
 msgid "Set a password _now"
 msgstr "Изберете лозинка сега"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Лозинка"
 
@@ -178,7 +178,7 @@ msgstr ""
 "Вашиот отпечаток беше успешно зачуван. Сега можете да се најавувате со "
 "користење на Вашиот читач на отпечатоци."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 #, fuzzy
 msgid "Users"
 msgstr "Корисничко име"
@@ -233,35 +233,45 @@ msgstr "Изберете лозинка сега"
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "Нов корисник"
+msgid "Unlock…"
+msgstr "Отклучи"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+#, fuzzy
+msgid "Unlock to add users and change settings"
+msgstr "Поставувања за глушец и тачпад"
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Нов корисник"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Опции за најавување"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "А_втоматска најава"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Најава со _отпечаток"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Корисничка икона"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "Last Login"
 msgstr "А_втоматска најава"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Избриши ја сметката"
 
@@ -385,7 +395,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Креирај нова сметка"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -397,7 +407,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Избриши ја избраната корисничка сметка"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -884,6 +894,15 @@ msgstr "%b %d %Y"
 msgid "%b %e, %Y"
 msgstr "%b %d %Y"
 
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Додај корисничка сметка"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Кориснички сметки"
+
 #, fuzzy
 #~ msgid "_Verify New Password"
 #~ msgstr "_Нова лозинка"
@@ -1003,9 +1022,6 @@ msgstr "%b %d %Y"
 #~| msgid "Keyboard Shortcuts"
 #~ msgid "Keyboard Settings"
 #~ msgstr "Поставувања за тастатура"
-
-#~ msgid "Mouse and Touchpad Settings"
-#~ msgstr "Поставувања за глушец и тачпад"
 
 #~ msgid "Paired"
 #~ msgstr "Спарени"
@@ -2305,9 +2321,6 @@ msgstr "%b %d %Y"
 
 #~ msgid "Subnet Mask"
 #~ msgstr "Сабнет маска"
-
-#~ msgid "Unlock"
-#~ msgstr "Отклучи"
 
 #~ msgid "VPN"
 #~ msgstr "VPN"
@@ -3711,10 +3724,6 @@ msgstr "%b %d %Y"
 #~ msgid "_Account Type"
 #~ msgstr "_Тип на сметка"
 
-#~| msgid "seconds"
-#~ msgid "User Accounts"
-#~ msgstr "Кориснички сметки"
-
 #~| msgid "Change password"
 #~ msgid "Choose a generated password"
 #~ msgstr "Избери генерирана лозинка"
@@ -3781,9 +3790,6 @@ msgstr "%b %d %Y"
 
 #~ msgid "Account _type"
 #~ msgstr "_Тип на сметка"
-
-#~ msgid "Add User Account"
-#~ msgstr "Додај корисничка сметка"
 
 #~| msgid "Revert Font"
 #~ msgid "Remove User Account"

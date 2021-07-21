@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2013-05-23 18:26-0500\n"
 "Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
 "Language-Team: QIRIMTATARCA (Qırım Türkçesi) <tilde-birlik-meydan@lists."
@@ -28,17 +28,17 @@ msgstr "_Qullanıcı adı"
 msgid "_Full Name"
 msgstr "_Tam İsim"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Standart"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Memur"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Hesap _Türü"
 
@@ -60,7 +60,7 @@ msgid "Set a password _now"
 msgstr "Şimdi parola belirle"
 
 # tr
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Parola"
 
@@ -179,7 +179,7 @@ msgstr ""
 "Parmak iziniz başarıyla kaydedildi. Artık parmak izi okuyucusunu kullanarak "
 "giriş yapabilirsiniz."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Qullanıcılar"
 
@@ -237,41 +237,50 @@ msgstr "Sonraki girişte parola seç"
 msgid "Set a password now"
 msgstr "Şimdi parola belirle"
 
-# tr
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "Kullanıcı Ekle"
+msgid "Unlock…"
+msgstr "Kilidi Aç"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+# tr
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Kullanıcı Ekle"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "İçeri İmzalanma Seçenekleri"
 
 # tr
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Otomatik Giriş"
 
 # tr
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Parmak İziyle Giriş"
 
 # tr
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Kullanıcı Simgesi"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Soñki İçeri İmzalanma"
 
 # tr
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Hesabı Kaldır"
 
@@ -409,7 +418,7 @@ msgid "Create a user account"
 msgstr "Kullanıcı hesabı oluştur"
 
 # tr
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -423,7 +432,7 @@ msgid "Delete the selected user account"
 msgstr "Seçilen kullanıcı hesabını sil"
 
 # tr
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -943,6 +952,16 @@ msgstr "%d x %d (%s)"
 #, fuzzy
 msgid "%b %e, %Y"
 msgstr "%d x %d (%s)"
+
+# tr
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Kullanıcı Hesabı Ekle"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Qullanıcı Hesapları"
 
 # tr
 #, fuzzy
@@ -4497,10 +4516,6 @@ msgstr "%d x %d (%s)"
 #~ msgid "Account Information"
 #~ msgstr "Hesap bilgisi"
 
-# tr
-#~ msgid "Add User Account"
-#~ msgstr "Kullanıcı Hesabı Ekle"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Qullanıcı Hesabını Çetleştir"
 
@@ -7468,9 +7483,6 @@ msgstr "%d x %d (%s)"
 #~ msgid "Cr_eate"
 #~ msgstr "_İcat Et"
 
-#~ msgid "User Accounts"
-#~ msgstr "Qullanıcı Hesapları"
-
 # tr
 #~ msgid "_Hint"
 #~ msgstr "_İpucu"
@@ -9047,9 +9059,6 @@ msgstr "%d x %d (%s)"
 
 #~ msgid "Shutdown"
 #~ msgstr "Kapat"
-
-#~ msgid "Unlock"
-#~ msgstr "Kilidi Aç"
 
 #~ msgid "Clockwise"
 #~ msgstr "Saat Yönünde"

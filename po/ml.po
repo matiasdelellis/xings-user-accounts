@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ml\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2013-11-03 15:14+0530\n"
 "Last-Translator: Balasankar C <c.balasankar@gmail.com>\n"
 "Language-Team: Swatantra Malayalam Computing\n"
@@ -37,17 +37,17 @@ msgstr "_ഉപയോക്താവ്"
 msgid "_Full Name"
 msgstr "മുഴു_വന്‍ പേരു്"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "നിലവാരമുള്ള"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "അഡ്മിനിസ്ട്രേറ്റര്‍"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "അക്കൌണ്ട് _തരം"
 
@@ -65,7 +65,7 @@ msgstr "അടുത്ത തവണ പ്രവേശിയ്ക്കുമ�
 msgid "Set a password _now"
 msgstr "ഉടന്‍ ഒരു രഹസ്യവാക്ക് സജ്ജമാക്കുക"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_രഹസ്യവാക്ക്"
 
@@ -176,7 +176,7 @@ msgstr ""
 "നിങ്ങളുടെ വിരലടയാളം വിജയകരമായി സൂക്ഷിച്ചിരിക്കുന്നു. നിങ്ങള്‍ക്കിനി ഫിംഗര്‍പ്രിന്റ് റീഡര്‍ "
 "ഉപയോഗിച്ചു് ലോഗിന്‍ ചെയ്യുവാന്‍ സാധിക്കുന്നതാണു്."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ഉപയോക്താക്കള്‍"
 
@@ -228,35 +228,43 @@ msgid "Set a password now"
 msgstr "ഉടന്‍ ഒരു രഹസ്യവാക്ക് സജ്ജമാക്കുക"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "ഉപയോക്താവിനെ ചേര്‍ക്കുക"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "ഉപയോക്താവിനെ ചേര്‍ക്കുക"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "പ്രവേശന ഐച്ഛികങ്ങള്‍"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "ഓട്ടോമാറ്റിക് പ്രവേശനം"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "ഫിം_ ഗര്‍പിന്റ് ലോഗിന്‍"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ഉപയോക്തൃ ചിഹ്നം"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "അവസാന പ്രവേശനം"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "എക്കൗണ്ട് നീക്കം ചെയ്യുക"
 
@@ -380,7 +388,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "ഉപയോക്താവിനുള്ളൊരു അക്കൌണ്ട് തയ്യാറാക്കുക"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -392,7 +400,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "തെരഞ്ഞെടുത്ത ഉപയോക്താവിന്റെ അക്കൌണ്ട് വെട്ടി നീക്കുക"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -873,6 +881,15 @@ msgstr "%b %d %Y"
 #, fuzzy
 msgid "%b %e, %Y"
 msgstr "%b %d %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് ചേര്‍ക്കുക"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "ഉപയോക്താവിനുള്ള അക്കൌണ്ടുകള്‍"
 
 #, fuzzy
 #~ msgid "_Verify New Password"
@@ -4973,9 +4990,6 @@ msgstr "%b %d %Y"
 #~ msgid "Login History"
 #~ msgstr "പ്രവവേശന ചരിത്രം"
 
-#~ msgid "Add User Account"
-#~ msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് ചേര്‍ക്കുക"
-
 #~ msgid "Remove User Account"
 #~ msgstr "ഉപയോക്താവിന്റെ അക്കൌണ്ട് വെട്ടി നീക്കുക"
 
@@ -6247,9 +6261,6 @@ msgstr "%b %d %Y"
 #~ msgctxt "Zoom Grayscale"
 #~ msgid "None"
 #~ msgstr "ഒന്നുമില്ല"
-
-#~ msgid "User Accounts"
-#~ msgstr "ഉപയോക്താവിനുള്ള അക്കൌണ്ടുകള്‍"
 
 #~ msgid "Browse for more pictures..."
 #~ msgstr "കൂടുതല്‍ ചിത്രങ്ങള്‍ക്ക് വേണ്ടി ബ്രൗസ് ചെയ്യുക..."

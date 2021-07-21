@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-11-02 11:47+0100\n"
 "Last-Translator: Gianvito Cavasoli <gianvito@gmx.it>\n"
 "Language-Team: Italiano <gnome-it-list@gnome.org>\n"
@@ -31,15 +31,15 @@ msgstr "Nome _utente"
 msgid "_Full Name"
 msgstr "Nome _completo"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Normale"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Amministratore"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Tipo di account"
 
@@ -55,7 +55,7 @@ msgstr "_Permettere all'utente di impostare una password al prossimo accesso"
 msgid "Set a password _now"
 msgstr "Impostare una pass_word adesso"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "Pass_word"
 
@@ -171,7 +171,7 @@ msgstr ""
 "L'impronta digitale è stata salvata con successo. È ora possibile eseguire "
 "l'accesso utilizzando il lettore di impronte."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Utenti"
 
@@ -219,35 +219,44 @@ msgid "Set a password now"
 msgstr "Impostare una password adesso"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "A_ggiungi utente…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "A_ggiungi utente…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "Opzioni di ingrandimento"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Accesso a_utomatico"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Accesso con i_mpronta"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Icona utente"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Ultimo accesso"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Rimuovi account"
 
@@ -370,7 +379,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Crea un account utente"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -382,7 +391,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Elimina l'account utente selezionato"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -871,6 +880,15 @@ msgstr "%d %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Altri account"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Gestisce gli account online"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verifica nuova password"
@@ -5069,9 +5087,6 @@ msgstr "%e %b %Y"
 
 #~ msgid "_Enroll"
 #~ msgstr "_Registra"
-
-#~ msgid "Manage user accounts"
-#~ msgstr "Gestisce gli account online"
 
 #~ msgid "Authentication is required to change user data"
 #~ msgstr "È necessario autenticarsi per cambiare i dati utente"

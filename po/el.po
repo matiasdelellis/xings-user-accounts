@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-12 11:34+0300\n"
 "Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
 "Language-Team: Greek, Modern (1453-) <opensuse-translation-el@opensuse.org>\n"
@@ -61,15 +61,15 @@ msgstr "Όνομα _χρήστη"
 msgid "_Full Name"
 msgstr "_Πλήρες όνομα"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Τυπικός"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Διαχειριστής"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Τύπος λογαριασμού"
 
@@ -86,7 +86,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Καθο_ρισμός κωδικού πρόσβασης"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "Κω_δικός πρόσβασης"
 
@@ -205,7 +205,7 @@ msgstr ""
 "χρησιμοποιείτε τη συσκευή ανάγνωσης δακτυλικών αποτυπωμάτων για τη σύνδεσή "
 "σας."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Χρήστες"
 
@@ -257,34 +257,43 @@ msgid "Set a password now"
 msgstr "Καθορισμός κωδικού πρόσβασης"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "Π_ροσθήκη χρήστη…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Π_ροσθήκη χρήστη…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Επιλογές σύνδεσης"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Α_υτόματη σύνδεση"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Είσοδος με _δακτυλικό αποτύπωμα"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Εικονίδιο χρήστη"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Τελευταία σύνδεση"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Αφαίρεση λογαριασμού"
 
@@ -410,7 +419,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Δημιουργία νέου λογαριασμού χρήστη"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -422,7 +431,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Διαγραφή του επιλεγμένου λογαριασμού χρήστη"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -923,6 +932,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Άλλοι λογαριασμοί"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Προσθήκη λογαριασμού χρήστη"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Επα_λήθευση νέου κωδικού πρόσβασης"
@@ -5651,9 +5669,6 @@ msgstr "%e %b %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Ιστορικό συνδέσεων"
-
-#~ msgid "Add User Account"
-#~ msgstr "Προσθήκη λογαριασμού χρήστη"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Αφαίρεση λογαριασμού χρήστη"

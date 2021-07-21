@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.dz\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2008-09-11 11:47+0530\n"
 "Last-Translator: Dawa pemo <daws_403@hotmail.com>\n"
 "Language-Team: DZONGKHA <pgeyleg@dit.gov.bt>\n"
@@ -29,17 +29,17 @@ msgstr "ལག་ལེན་པའི་མིང་:(_s)"
 msgid "_Full Name"
 msgstr "མིང་ཆ་ཚང་།"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "ཚད་ལྡན་གྱི་ ཨེགསི་ཊར་མི་ནཱལ།"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "རྩ་གྲོལ་གཏང་མི་ "
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Account _Type"
 msgstr "དྲན་བརྡའི་དབྱེ་བ།"
@@ -58,7 +58,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "ཆོག་ཡིག་གསརཔ་:(_N)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 #, fuzzy
 msgid "_Password"
 msgstr "ཆོག་ཡིག་:(_P)"
@@ -165,7 +165,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr ""
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr ""
 
@@ -218,37 +218,45 @@ msgid "Set a password now"
 msgstr "ཆོག་ཡིག་གསརཔ་:(_N)"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
+msgid "Unlock…"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+msgid "Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "གདམ་ཁ་ཚུ།"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "User Icon"
 msgstr "ལག་ལེན་པའི་མིང་:"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "Last Login"
 msgstr "ནང་བསྐྱོད།"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr ""
 
@@ -370,7 +378,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -380,7 +388,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -862,6 +870,11 @@ msgstr "%b %d %Y"
 #, fuzzy
 msgid "%b %e, %Y"
 msgstr "%b %d %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "ལག་ལེན་པའི་མིང་:"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

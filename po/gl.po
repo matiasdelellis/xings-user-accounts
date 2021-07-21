@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center-master-po-gl-72290.merged\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-10 01:06+0200\n"
 "Last-Translator: Fran Dieguez <frandieguez@gnome.org>\n"
 "Language-Team: Galician\n"
@@ -38,15 +38,15 @@ msgstr "Nome de u_suario"
 msgid "_Full Name"
 msgstr "Nome _completo"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Estándar"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Administrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Tipo de conta"
 
@@ -64,7 +64,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Estabelecer un contrasinal _agora"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Contrasinal:"
 
@@ -179,7 +179,7 @@ msgstr ""
 "A súa pegada dixital foi gardada correctamente. Agora poderá iniciar a "
 "sesión usando o seu lector de pegadas dixitais."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Usuarios"
 
@@ -228,34 +228,43 @@ msgid "Set a password now"
 msgstr "Estabelecer un contrasinal agora"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Engadir usuario…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Engadir usuario…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Preferencias de inicio de sesión"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Inicio de sesión automático"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Inicio de sesión con _pegadas dixitais"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Icona de usuario"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Último inicio de sesión"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Retirar conta"
 
@@ -377,7 +386,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Crear unha conta de usuario"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -389,7 +398,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Eliminar a conta de usuario seleccionada"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -871,6 +880,15 @@ msgstr "%e de %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e de %b de %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Outras contas"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Engadir conta de usuario"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verificar novo contrasinal"
@@ -5533,9 +5551,6 @@ msgstr "%e de %b de %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Historial de inicio de sesión"
-
-#~ msgid "Add User Account"
-#~ msgstr "Engadir conta de usuario"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Retirar conta de usuario"

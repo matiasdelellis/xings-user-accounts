@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-09-22 11:54+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -60,17 +60,17 @@ msgstr "વપરાશકર્તા નામ (_U)"
 msgid "_Full Name"
 msgstr "સંપૂર્ણ નામ (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "પ્રમાણભૂત"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "વહીવટકર્તા"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "ખાતા પ્રકાર (_T)"
 
@@ -88,7 +88,7 @@ msgstr "પાસવર્ડને સુયોજિત કરવા વપર
 msgid "Set a password _now"
 msgstr "હવે પાસવર્ડને સુયોજિત કરો"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "પાસવર્ડ (_P)"
 
@@ -202,7 +202,7 @@ msgstr ""
 "તમારી આંગળી છાપ એ સફળતાપૂર્વક સંગ્રહ થયેલ છે. તમારે હવે તમારા આંગળી છાપ વાંચનાર ની "
 "મદદથી પ્રવેશવા માટે સક્ષમ થવુ જ જોઇએ."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "વપરાશકર્તાઓ"
 
@@ -252,34 +252,44 @@ msgstr "હવે પાસવર્ડને સુયોજિત કરો"
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "વપરાશકર્તાને ઉમેરો"
+msgid "Unlock…"
+msgstr "તાળુ ખોલો"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+#, fuzzy
+msgid "Unlock to add users and change settings"
+msgstr "માઉસ અને ટચપેડ સુયોજનો"
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "વપરાશકર્તાને ઉમેરો"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "પ્રવેશ વિકલ્પો"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "સ્વયં પ્રવેશ (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "આંગળીછાપન પ્રવેશ (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "વપરાશકર્તા ચિહ્ન"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "છેલ્લો પ્રવેશ"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "ખાતુ દૂર કરો"
 
@@ -402,7 +412,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "વપરાશકર્તા ખાતાને બનાવો"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -414,7 +424,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "પસંદ થયેલ વપરાશકર્તા ખાતાને કાઢી નાંખો"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -902,6 +912,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "વપરાશકર્તા ખાતાઓ"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "નવાં પાસવર્ડની ખાતરી કરો (_V)"
@@ -5318,9 +5337,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "પ્રવેશ ઇતિહાસ"
 
-#~ msgid "Add User Account"
-#~ msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
-
 #~ msgid "Remove User Account"
 #~ msgstr "વપરાશકર્તા ખાતુ દૂર કરો"
 
@@ -5664,9 +5680,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Type"
 #~ msgstr "પ્રકાર"
-
-#~ msgid "Mouse and Touchpad Settings"
-#~ msgstr "માઉસ અને ટચપેડ સુયોજનો"
 
 #~ msgid "Sound Settings"
 #~ msgstr "સાઉન્ડ સુયોજનો"
@@ -6305,9 +6318,6 @@ msgstr "%b %e, %Y"
 #~ msgid "C_ontinue"
 #~ msgstr "ચાલુ રાખો (_o)"
 
-#~ msgid "User Accounts"
-#~ msgstr "વપરાશકર્તા ખાતાઓ"
-
 #~ msgid "Log in without a password"
 #~ msgstr "પાસવર્જ વગર પ્રવેશો"
 
@@ -6745,9 +6755,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Speed"
 #~ msgstr "ઝડપ"
-
-#~ msgid "Unlock"
-#~ msgstr "તાળુ ખોલો"
 
 #~ msgid "Ask me"
 #~ msgstr "મને પૂછો"

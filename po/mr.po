@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-09-21 16:16+0530\n"
 "Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
 "Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
@@ -27,17 +27,17 @@ msgstr "वापरकर्तानाव (_U)"
 msgid "_Full Name"
 msgstr "संपूर्ण नाव (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "मानक"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "प्रशासक"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "खाते प्रकार (_T)"
 
@@ -55,7 +55,7 @@ msgstr "पुढील प्रवेशवेळी वापरकर्त�
 msgid "Set a password _now"
 msgstr "पासवर्ड आत्ता ठरवा"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "पासवर्ड (_P)"
 
@@ -170,7 +170,7 @@ msgstr ""
 "तुमचा फिंगरप्रिन्ट यशस्वीरित्या साठविले गेले. फिंगरप्रिन्ट रिडीरचा वापर करून तुम्ही आता "
 "दाखल करू शकता."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "वापरकर्ते"
 
@@ -219,35 +219,44 @@ msgid "Set a password now"
 msgstr "पासवर्ड आत्ता ठरवा"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "वापरकर्ता समाविष्ट करा"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+#, fuzzy
+msgid "Unlock to add users and change settings"
+msgstr "माऊस व टचपॅड सेटिंग्स्"
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "वापरकर्ता समाविष्ट करा"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "लॉगिन पर्याय"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "स्वयं प्रवेश (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "फिंगरप्रिन्ट प्रवेश (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "वापरकर्ता चिन्ह"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "मागील प्रवेश"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "खाते काढून टाका"
 
@@ -369,7 +378,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "वापरकर्ता खाते निर्माण करा"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -381,7 +390,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "निवडलेल्या वापरकर्त्याचे खाते नष्ट करा"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -861,6 +870,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "वापरकर्ता खाते समाविष्ट करा"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "वापरकर्ता खाते"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "नवीन पासवर्ड वैध करा (_V)"
@@ -4871,9 +4889,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "प्रवेश इतिहास"
 
-#~ msgid "Add User Account"
-#~ msgstr "वापरकर्ता खाते समाविष्ट करा"
-
 #~ msgid "Remove User Account"
 #~ msgstr "वापरकर्ता खाते काढून टाका"
 
@@ -5198,9 +5213,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Type"
 #~ msgstr "प्रकार"
-
-#~ msgid "Mouse and Touchpad Settings"
-#~ msgstr "माऊस व टचपॅड सेटिंग्स्"
 
 #~ msgid "Sound Settings"
 #~ msgstr "साऊंड सेटिंग्स्"
@@ -5845,9 +5857,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "C_ontinue"
 #~ msgstr "सुरू ठेवा (_o)"
-
-#~ msgid "User Accounts"
-#~ msgstr "वापरकर्ता खाते"
 
 #~ msgid "Log in without a password"
 #~ msgstr "पासवर्डविना प्रवेश करा"

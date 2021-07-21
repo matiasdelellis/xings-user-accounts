@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2011-04-04 15:55+0600\n"
 "Last-Translator: Zenat Rahnuma <zenat@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -35,17 +35,17 @@ msgstr "ব্যবহারকারীর নাম (_U)"
 msgid "_Full Name"
 msgstr "পূর্ণ নাম (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "আদর্শ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "প্রশাসক"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Account _Type"
 msgstr "একাউন্টের ধরন (_A)"
@@ -64,7 +64,7 @@ msgstr "পরবর্তী লগইনে পাসওয়ার্ড নি
 msgid "Set a password _now"
 msgstr "পাসওয়ার্ড এখনই নির্ধারণ"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 #, fuzzy
 msgid "_Password"
 msgstr "পাসওয়ার্ড"
@@ -187,7 +187,7 @@ msgstr ""
 "সাফল্যের সাথে আপনার আঙ্গুলের ছাপ সংরক্ষিত হয়েছে। আঙ্গুলের ছাপ রীডার সহযোগে আপনি "
 "এখন লগ-ইন করতে সক্ষম হবেন।"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 #, fuzzy
 msgid "Users"
 msgstr "ব্যবহারকারীর নাম"
@@ -241,38 +241,47 @@ msgid "Set a password now"
 msgstr "পাসওয়ার্ড এখনই নির্ধারণ"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr ""
+#, fuzzy
+msgid "Unlock…"
+msgstr "অনাবদ্ধ"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+msgid "Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "লগইন অপশন"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 #, fuzzy
 msgid "A_utomatic Login"
 msgstr "স্বয়ংক্রিয় লগইন"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 #, fuzzy
 msgid "_Fingerprint Login"
 msgstr "আঙ্গুলের ছাপ সহযোগে লগ-ইন"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "User Icon"
 msgstr "ব্যবহারকারীর একাউন্ট"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "Last Login"
 msgstr "স্বয়ংক্রিয় লগইন"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 #, fuzzy
 msgid "Remove Account"
 msgstr "আমার একাউন্ট"
@@ -399,7 +408,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "নতুন অবস্থান তৈরি"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 #, fuzzy
 msgid ""
 "To create a user account,\n"
@@ -413,7 +422,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "নির্বাচিত ব্যবহারকারী মুছে ফেলুন"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 #, fuzzy
 msgid ""
 "To delete the selected user account,\n"
@@ -893,6 +902,15 @@ msgstr ""
 msgid "%b %e, %Y"
 msgstr ""
 
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "অন্যান্য একাউন্ট"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "অন্যান্য একাউন্ট"
+
 #, fuzzy
 #~ msgid "_Verify New Password"
 #~ msgstr "নতুন পাসওয়ার্ড (_N)"
@@ -944,9 +962,6 @@ msgstr ""
 
 #~ msgid "Lock"
 #~ msgstr "আবদ্ধ"
-
-#~ msgid "Unlock"
-#~ msgstr "অনাবদ্ধ"
 
 #~ msgid "Locked"
 #~ msgstr "আবদ্ধ"

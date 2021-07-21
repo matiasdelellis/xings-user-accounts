@@ -1,4 +1,5 @@
 .intltool-merge-cache
 POTFILES
 *.gmo
+*.mo
 stamp-it

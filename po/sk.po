@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-30 08:44+0100\n"
 "Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
 "Language-Team: Slovak <gnome-sk-list@gnome.org>\n"
@@ -35,17 +35,17 @@ msgid "_Full Name"
 msgstr "_Celé meno"
 
 # GtkListStore item
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Štandardný"
 
 # GtkListStore item
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Správca"
 
 # GtkLabel
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Typ účtu:"
 
@@ -65,7 +65,7 @@ msgid "Set a password _now"
 msgstr "Nastaviť heslo _teraz"
 
 # GtkLabel label
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Heslo"
 
@@ -200,7 +200,7 @@ msgstr ""
 "Odtlačok vášho prsta bol úspešne uložený. Teraz by sa vám už malo podariť "
 "prihlásiť sa pomocou čítačky odtlačkov prstov."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Používatelia"
 
@@ -256,42 +256,51 @@ msgstr "Umožniť používateľovi zmeniť heslo pri najbližšom prihlásení"
 msgid "Set a password now"
 msgstr "Nastaviť heslo teraz"
 
-# GtkToolButton label
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Pridať používateľa…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+# GtkToolButton label
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Pridať používateľa…"
+
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Možnosti prihlásenia"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomatické prihlásenie"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Prihlásenie _odtlačkom prsta"
 
 # AtkObject
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Ikona používateľa"
 
 # GtkLabel
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Posledné prihlásenie"
 
 # GtkToolButton label
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Odstrániť účet"
 
@@ -419,7 +428,7 @@ msgid "Create a user account"
 msgstr "Vytvorí používateľský účet"
 
 # tooltip
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -433,7 +442,7 @@ msgid "Delete the selected user account"
 msgstr "Odstráni vybraný používateľský účet"
 
 # tooltip
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -938,6 +947,16 @@ msgstr "%e. %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e. %b, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Iné účty"
+
+# GtkToolButton label
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Pridať používateľský účet"
 
 # GtkLabel
 #~ msgid "_Verify New Password"
@@ -6487,10 +6506,6 @@ msgstr "%e. %b, %Y"
 # GtkDialog title
 #~ msgid "Login History"
 #~ msgstr "História prihlásení"
-
-# GtkToolButton label
-#~ msgid "Add User Account"
-#~ msgstr "Pridať používateľský účet"
 
 # GtkToolButton label
 #~ msgid "Remove User Account"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2013-02-16 10:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -28,17 +28,17 @@ msgstr "ئىشلەتكۈچى ئاتى(_U)"
 msgid "_Full Name"
 msgstr "تولۇق ئاتى(_F):"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "ئۆلچەملىك"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "باشقۇرغۇچى"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "ھېسابات تىپ(_T)"
 
@@ -56,7 +56,7 @@ msgstr "كېيىنكى قېتىم تىزىمغا كىرگەندە تاللا"
 msgid "Set a password _now"
 msgstr "ھازىر ئىم تەڭشە"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "ئىم(_P)"
 
@@ -167,7 +167,7 @@ msgstr ""
 "بارماق ئىزىڭىز مۇۋەپپەقىيەتلىك ساقلاندى. ئەمدى بارماق ئىزى ئوقۇغۇچىڭىز "
 "ئارقىلىق تىزىمغا كىرەلەيسىز."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ئىشلەتكۈچىلەر"
 
@@ -223,34 +223,43 @@ msgstr "ھازىر ئىم تەڭشە"
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "سەپلىمە ھۆججەت قوش(_A)…"
+msgid "Unlock…"
+msgstr "قۇلۇپ ئاچ"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "سەپلىمە ھۆججەت قوش(_A)…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "تىزىمغا كىرىش تاللانمىسى"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "ئۆزلۈكىدىن تىزىمغا كىرىش(_U)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "بارماق ئىزىدا تىزىمغا كىرىش(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ئىشلەتكۈچى سىنبەلگىسى"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "ئەڭ ئاخىرقى قېتىم كىرگەن ۋاقىت"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "ھېساباتنى چىقىرىۋېتىش"
 
@@ -374,7 +383,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "بىر ئىشلەتكۈچى ھېساباتى قۇرىدۇ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -386,7 +395,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "تاللانغان ئىشلەتكۈچى ھېساباتىنى ئۆچۈرىدۇ"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -865,6 +874,15 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "باشقا ھېساباتلار"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "ئىشلەتكۈچى ھېساباتى"
 
 #, fuzzy
 #~ msgid "_Verify New Password"
@@ -5591,9 +5609,6 @@ msgstr ""
 #~ msgid "Options..."
 #~ msgstr "تاللانما…"
 
-#~ msgid "User Accounts"
-#~ msgstr "ئىشلەتكۈچى ھېساباتى"
-
 #~ msgid "Browse for more pictures..."
 #~ msgstr "تېخىمۇ كۆپ رەسىمگە كۆز يۈگۈرت…"
 
@@ -5825,9 +5840,6 @@ msgstr ""
 
 #~ msgid "Subnet Mask"
 #~ msgstr "تارماق تور ماسكىسى"
-
-#~ msgid "Unlock"
-#~ msgstr "قۇلۇپ ئاچ"
 
 #~ msgid "_Network Name"
 #~ msgstr "تور ئاتى(_N)"

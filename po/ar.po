@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-21 14:40+0200\n"
 "Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
 "Language-Team: Arabic <doc@arabeyes.org>\n"
@@ -35,15 +35,15 @@ msgstr "ا_سم المستخدم"
 msgid "_Full Name"
 msgstr "الاسم بال_كامل"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "عادي"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "إداري"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_نوع الحساب"
 
@@ -59,7 +59,7 @@ msgstr "اسمح للمستخدم بوضع كلمة سر عند الولوج ا�
 msgid "Set a password _now"
 msgstr "_ضع كلمة سر الآن"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "كلمة ال_سر"
 
@@ -170,7 +170,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr "حُفظت بصمتك بنجاح. تستطيع الآن الولوج ببصمة أصبعك."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "المستخدمين"
 
@@ -218,34 +218,44 @@ msgid "Set a password now"
 msgstr "ضع كلمة سر الآن"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "أ_ضف مستخدمًا…"
+#, fuzzy
+msgid "Unlock…"
+msgstr "افتح"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "أ_ضف مستخدمًا…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "خيارات الولوج"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "الولوج الت_لقائي"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "الولوج بال_بصمة"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "أيقونة المستخدم"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "آخر ولوج"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "أزِل الحساب"
 
@@ -365,7 +375,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "أنشئ حساب مستخدِم"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -377,7 +387,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "احذف حساب المستخدِم المختار"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -852,6 +862,15 @@ msgstr "%e %B"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %B، %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "أضِف حساب مستخدِم"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "حسابات المستخدمين"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "أ_كّد كلمة السر الجديدة"
@@ -5159,9 +5178,6 @@ msgstr "%e %B، %Y"
 #~ msgid "Login History"
 #~ msgstr "تأريخ الولوج"
 
-#~ msgid "Add User Account"
-#~ msgstr "أضِف حساب مستخدِم"
-
 #~ msgid "Remove User Account"
 #~ msgstr "أزِل حساب مستخدِم"
 
@@ -6337,9 +6353,6 @@ msgstr "%e %B، %Y"
 #~ msgid "None"
 #~ msgstr "بلا"
 
-#~ msgid "User Accounts"
-#~ msgstr "حسابات المستخدمين"
-
 #~ msgid "Browse for more pictures..."
 #~ msgstr "تصفّح لمزيد من الصور..."
 
@@ -6652,9 +6665,6 @@ msgstr "%e %B، %Y"
 
 #~ msgid "Too many custom shortcuts"
 #~ msgstr "الكثير من الاختصارات المخصصة"
-
-#~ msgid "Unlock"
-#~ msgstr "افتح"
 
 #~ msgid "Battery charging"
 #~ msgstr "البطارية تُشحن"

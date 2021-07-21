@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2015-10-18 00:30+0200\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian <dev-l10n-web@lists.mozilla.org>\n"
@@ -37,17 +37,17 @@ msgstr "Nume _utilizator"
 msgid "_Full Name"
 msgstr "Nume _complet"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Tip cont"
 
@@ -65,7 +65,7 @@ msgstr "Permite alegerea unei parole folosită la următoarea autentificare"
 msgid "Set a password _now"
 msgstr "Definește o parolă nouă"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Parolă"
 
@@ -180,7 +180,7 @@ msgstr ""
 "Amprenta dumneavoastră a fost salvată cu succes. Acum ar trebui să vă puteți "
 "autentifica folosind cititorul de amprente."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Utilizatori"
 
@@ -230,35 +230,44 @@ msgid "Set a password now"
 msgstr "Definește o parolă nouă"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "Adaugă utilizator"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+#, fuzzy
+msgid "Unlock to add users and change settings"
+msgstr "Configurări pentru mouse și touchpad"
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Adaugă utilizator"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Opțiuni autentificare"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Autentificare a_utomată"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Autenti_ficare cu amprentă digitală"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Iconiță utilizator"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Ultimul login"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Ștergere cont"
 
@@ -380,7 +389,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Creează un cont de utilizator"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -392,7 +401,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Șterge contul de utilizator selectat"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -879,6 +888,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Adăugare cont utilizator"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Conturi utilizatori"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verifică nouă parolă"
@@ -4995,9 +5013,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "Istoric autentificare"
 
-#~ msgid "Add User Account"
-#~ msgstr "Adăugare cont utilizator"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Ștergere cont utilizator"
 
@@ -5911,9 +5926,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Add or remove users"
 #~ msgstr "Adaugă sau șterge utilizatori"
 
-#~ msgid "User Accounts"
-#~ msgstr "Conturi utilizatori"
-
 #~ msgid "Fair"
 #~ msgstr "Acceptabilă"
 
@@ -6130,9 +6142,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Set your Wacom tablet preferences"
 #~ msgstr "Configurați preferințele pentru tableta Wacom"
-
-#~ msgid "Mouse and Touchpad Settings"
-#~ msgstr "Configurări pentru mouse și touchpad"
 
 #~ msgid "Configure Bluetooth settings"
 #~ msgstr "Configurare parametri Bluetooth"

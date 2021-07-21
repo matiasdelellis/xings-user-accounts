@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-28 22:13+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -44,15 +44,15 @@ msgstr "_Benutzername"
 msgid "_Full Name"
 msgstr "_Vollständiger Name"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Standard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Systemverwalter"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Konten_typ"
 
@@ -68,7 +68,7 @@ msgstr "Bei der nächsten Anme_ldung Passwort wählen"
 msgid "Set a password _now"
 msgstr "_Jetzt ein Passwort festlegen"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Passwort"
 
@@ -185,7 +185,7 @@ msgstr ""
 "Ihr Fingerabdruck wurde erfolgreich gespeichert. Sie sollten sich jetzt mit "
 "Ihrem Fingerlesegerät anmelden können."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Benutzer"
 
@@ -235,34 +235,43 @@ msgid "Set a password now"
 msgstr "Jetzt ein Passwort festlegen"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "Benutzerkonto _hinzufügen …"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Benutzerkonto _hinzufügen …"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Anmeldeoptionen"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomatische Anmeldung"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Anmeldung mit _Fingerabdruck"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Benutzersymbol"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Letzte Anmeldung"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Konto entfernen"
 
@@ -389,7 +398,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Ein Benutzerkonto erstellen"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -401,7 +410,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Das gewählte Benutzerkonto löschen"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -893,6 +902,15 @@ msgstr "%e. %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e. %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Weitere Konten"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Benutzerkonto hinzufügen"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Neues Passwort über_prüfen"
@@ -5545,9 +5563,6 @@ msgstr "%e. %b %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Anmeldechronik"
-
-#~ msgid "Add User Account"
-#~ msgstr "Benutzerkonto hinzufügen"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Benutzerkonto löschen"

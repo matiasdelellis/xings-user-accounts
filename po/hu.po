@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-28 09:26+0200\n"
 "Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
 "Language-Team: Hungarian <openscope at gmail dot com>\n"
@@ -36,15 +36,15 @@ msgstr "_Felhasználónév"
 msgid "_Full Name"
 msgstr "_Teljes név"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Általános"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Rendszergazda"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Fióktípus"
 
@@ -60,7 +60,7 @@ msgstr "A felhasználó beállíthat jelszót a következő _bejelentkezéskor"
 msgid "Set a password _now"
 msgstr "Jelszó beállítása _most"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "Jels_zó"
 
@@ -176,7 +176,7 @@ msgstr ""
 "Az ujjlenyomata sikeresen mentve. Mostantól bejelentkezhet az ujjlenyomat-"
 "olvasója segítségével."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Felhasználók"
 
@@ -224,34 +224,43 @@ msgid "Set a password now"
 msgstr "Jelszó beállítása most"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "Felhasználó hozzá_adása…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Felhasználó hozzá_adása…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Bejelentkezési beállítások"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomatikus bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Ujjlenyomatos bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Felhasználói ikon"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Utolsó bejelentkezés"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Fiók eltávolítása"
 
@@ -373,7 +382,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Felhasználói fiók létrehozása"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -385,7 +394,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Kijelölt felhasználói fiók törlése"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -867,6 +876,15 @@ msgstr "%b. %e."
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%Y. %b. %e."
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Felhasználói fiók hozzáadása"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Felhasználói fiókok"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Új j_elszó ellenőrzése"
@@ -5537,9 +5555,6 @@ msgstr "%Y. %b. %e."
 #~ msgid "Login History"
 #~ msgstr "Bejelentkezési előzmények"
 
-#~ msgid "Add User Account"
-#~ msgstr "Felhasználói fiók hozzáadása"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Felhasználói fiók eltávolítása"
 
@@ -6759,9 +6774,6 @@ msgstr "%Y. %b. %e."
 #~ msgctxt "Zoom Grayscale"
 #~ msgid "None"
 #~ msgstr "Nincs"
-
-#~ msgid "User Accounts"
-#~ msgstr "Felhasználói fiókok"
 
 #~ msgid "_Hint"
 #~ msgstr "_Javaslat"

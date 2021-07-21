@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-08 06:18+0300\n"
 "Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
 "Language-Team: Bulgarian <dict@fsa-bg.org>\n"
@@ -36,15 +36,15 @@ msgstr "Потребителско _име"
 msgid "_Full Name"
 msgstr "П_ълно име"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Стандартна"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Вид на регистрацията"
 
@@ -60,7 +60,7 @@ msgstr "_Позволяване на потребителя да избере п
 msgid "Set a password _now"
 msgstr "Задаване на парола _сега"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Парола"
 
@@ -175,7 +175,7 @@ msgstr ""
 "Пръстовият ви отпечатък е запазен успешно. Оттук нататък би трябвало да "
 "имате възможността да се идентифицирате чрез четеца на отпечатъци."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Потребители"
 
@@ -225,34 +225,43 @@ msgid "Set a password now"
 msgstr "въвеждане на парола сега"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Добавяне на потребител…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Добавяне на потребител…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Настройки за влизане"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Автоматично влизане"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Влизане с _пръстов отпечатък"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Снимка за потребителя"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "_Последно влизане"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Премахване на регистрация"
 
@@ -375,7 +384,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Създаване на потребителска регистрация"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -387,7 +396,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Изтриване на избраната потребителска регистрация"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -869,6 +878,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%е %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Други регистрации"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Добавяне на потребителска регистрация"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Повтаряне на новата парола"
@@ -5565,9 +5583,6 @@ msgstr "%е %b %Y"
 
 #~ msgid "Login History"
 #~ msgstr "История на влизанията"
-
-#~ msgid "Add User Account"
-#~ msgstr "Добавяне на потребителска регистрация"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Премахване на потребителска регистрация"

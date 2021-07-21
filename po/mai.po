@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2009-03-15 16:11+0530\n"
 "Last-Translator: Sangeeta Kumari <sangeeta09@gmail.com>\n"
 "Language-Team: Maithili <maithili.sf.net>\n"
@@ -29,16 +29,16 @@ msgstr "प्रयोक्ता नाम (_s):"
 msgid "_Full Name"
 msgstr "पूरा नाम"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "मानक X-टर्मिनल"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Account _Type"
 msgstr "चेतावनीक प्रकार"
@@ -57,7 +57,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "नवीन कूटशब्द (_N):"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 #, fuzzy
 msgid "_Password"
 msgstr "कूटशब्द (_P):"
@@ -164,7 +164,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr ""
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr ""
 
@@ -217,35 +217,43 @@ msgid "Set a password now"
 msgstr "नवीन कूटशब्द (_N):"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
+msgid "Unlock…"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
-msgid "Login Options"
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+msgid "Add User…"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:8
-msgid "A_utomatic Login"
-msgstr ""
-
-#: ../data/user-accounts-dialog.ui.h:9
-msgid "_Fingerprint Login"
+msgid "Login Options"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:10
+msgid "A_utomatic Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:11
+msgid "_Fingerprint Login"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "User Icon"
 msgstr "प्रयोक्ता नामः"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr ""
 
@@ -366,7 +374,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -376,7 +384,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -854,6 +862,11 @@ msgstr "%b %d %Y"
 #, fuzzy
 msgid "%b %e, %Y"
 msgstr "%b %d %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "प्रयोक्ता नामः"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

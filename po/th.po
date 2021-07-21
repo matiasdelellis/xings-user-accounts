@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-13 10:42+0700\n"
 "Last-Translator: Theppitak Karoonboonyanan <theppitak@gmail.com>\n"
 "Language-Team: Thai <thai-l10n@googlegroups.com>\n"
@@ -32,15 +32,15 @@ msgstr "ชื่อ_ผู้ใช้"
 msgid "_Full Name"
 msgstr "ชื่_อเต็ม"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "มาตรฐาน"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "ผู้ดูแลระบบ"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_ชนิดของบัญชี:"
 
@@ -56,7 +56,7 @@ msgstr "อนุญาตให้ผู้ใช้ตั้งรหัสผ
 msgid "Set a password _now"
 msgstr "ตั้งรหัสผ่านเ_ดี๋ยวนี้"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_รหัสผ่าน"
 
@@ -167,7 +167,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr "บันทึกลายนิ้วมือของคุณสำเร็จแล้ว คุณควรสามารถเข้าระบบโดยใช้เครื่องอ่านลายนิ้วมือได้แล้ว"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ผู้ใช้"
 
@@ -215,34 +215,44 @@ msgid "Set a password now"
 msgstr "ตั้งรหัสผ่านเดี๋ยวนี้"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "เ_พิ่มผู้ใช้…"
+#, fuzzy
+msgid "Unlock…"
+msgstr "ปลดล็อค"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "เ_พิ่มผู้ใช้…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "ตัวเลือกของการเข้าระบบ"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "การเข้าระบบ_อัตโนมัติ"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "การเข้าระบบด้วย_ลายนิ้วมือ"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ไอคอนบัญชีผู้ใช้"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "เข้าระบบล่าสุด"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "ลบบัญชี"
 
@@ -360,7 +370,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "สร้างบัญชีผู้ใช้"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -372,7 +382,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "ลบบัญชีผู้ใช้ที่เลือก"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -845,6 +855,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Ey"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "เพิ่มบัญชีผู้ใช้"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "บัญชีผู้ใช้"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_ตรวจสอบรหัสผ่านใหม่"
@@ -5457,9 +5476,6 @@ msgstr "%e %b %Ey"
 #~ msgid "Login History"
 #~ msgstr "ประวัติการเข้าระบบ"
 
-#~ msgid "Add User Account"
-#~ msgstr "เพิ่มบัญชีผู้ใช้"
-
 #~ msgid "Remove User Account"
 #~ msgstr "ลบบัญชีผู้ใช้"
 
@@ -6459,9 +6475,6 @@ msgstr "%e %b %Ey"
 #~ msgid "None"
 #~ msgstr "ไม่มีสี"
 
-#~ msgid "User Accounts"
-#~ msgstr "บัญชีผู้ใช้"
-
 #~ msgid "_Hint"
 #~ msgstr "คำใ_บ้"
 
@@ -6580,9 +6593,6 @@ msgstr "%e %b %Ey"
 
 #~ msgid "Subnet Mask"
 #~ msgstr "แมสก์เครือข่ายย่อย"
-
-#~ msgid "Unlock"
-#~ msgstr "ปลดล็อค"
 
 #~ msgid "_Network Name"
 #~ msgstr "_ชื่อเครือข่าย"

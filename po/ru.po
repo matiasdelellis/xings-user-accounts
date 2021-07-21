@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ru\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-12-30 00:49+0300\n"
 "Last-Translator: Stas Solovey <whats_up@tut.by>\n"
 "Language-Team: Русский <gnome-cyr@gnome.org>\n"
@@ -42,15 +42,15 @@ msgstr "_Имя пользователя"
 msgid "_Full Name"
 msgstr "_Полное имя"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Обычный"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Тип учётной записи"
 
@@ -67,7 +67,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "_Установите пароль сейчас"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Пароль"
 
@@ -184,7 +184,7 @@ msgstr ""
 "Отпечаток успешно сохранён. Теперь можно войти в систему с помощью сканера "
 "отпечатков."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Пользователи"
 
@@ -232,34 +232,43 @@ msgid "Set a password now"
 msgstr "Установите пароль сейчас"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Добавить пользователя…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Добавить пользователя…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Параметры входа в систему"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Автоматический в_ход"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Вход по отпечатку"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Значок пользователя"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Последний вход"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Удалить учётную запись"
 
@@ -381,7 +390,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Создать учётную запись пользователя"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -393,7 +402,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Удалить выбранную учётную запись пользователя"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -877,6 +886,15 @@ msgstr "%e %b."
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b. %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Другие учётные записи"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Добавить учётную запись пользователя"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Подтвердить новый пароль"
@@ -5568,9 +5586,6 @@ msgstr "%e %b. %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Журнал входа в систему"
-
-#~ msgid "Add User Account"
-#~ msgstr "Добавить учётную запись пользователя"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Удалить учётную запись пользователя"

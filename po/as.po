@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: as\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-08-20 13:00+0530\n"
 "Last-Translator: Nilamdyuti Goswami <ngoswami@redhat.com>\n"
 "Language-Team: Assamese <kde-i18n-doc@kde.org>\n"
@@ -29,17 +29,17 @@ msgstr "ব্যৱহাৰকাৰীনাম (_U)"
 msgid "_Full Name"
 msgstr "সম্পূৰ্ণ নাম (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "প্ৰামাণিক"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "প্ৰশাসক"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "একাওন্টৰ ধৰণ (_T)"
 
@@ -57,7 +57,7 @@ msgstr "ব্যৱহাৰকাৰীক পৰৱৰ্তী লগিন�
 msgid "Set a password _now"
 msgstr "এটা নতুন পাছৱৰ্ড এতিয়া সংহতি কৰক"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "পাছৱৰ্ড (_P)"
 
@@ -172,7 +172,7 @@ msgstr ""
 "সাফল্যেৰ সৈতে আপোনাৰ আঙ্গুলিৰ ছাপ সংৰক্ষিত হৈছে। আঙ্গুলিৰ ছাপ পাঠৰ ব্যবস্থা (ৰিডাৰ) "
 "সহযোগে আপুনি এতিয়া লগিন কৰিবলৈ সক্ষম হ'ব।"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ব্যৱহাৰকাৰীসকল"
 
@@ -221,35 +221,43 @@ msgid "Set a password now"
 msgstr "এটা নতুন পাছৱৰ্ড এতিয়া সংহতি কৰক"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "ব্যৱহাৰকাৰী যোগ কৰক"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "ব্যৱহাৰকাৰী যোগ কৰক"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "লগিন বিকল্পসমূহ"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "স্বচালিত লগিন (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "আঙ্গুলিৰ ছাপ লগিন (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ব্যৱহাৰকাৰী আইকন"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "সৰ্বশেষ লগিন"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "একাওন্ট আতৰাওক"
 
@@ -372,7 +380,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "এজন ব্যৱহাৰকাৰীৰ একাওন্ট সৃষ্টি কৰক"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -384,7 +392,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "নিৰ্বাচিত ব্যৱহাৰকাৰী একাওন্ট মচি পেলাওক"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -869,6 +877,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "ব্যৱহাৰকাৰী একাওন্ট যোগ কৰক"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "ব্যৱহাৰকাৰী একাওন্টসমূহ"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "নতুন পাছৱৰ্ড সতা সত্য নিৰূপণ কৰক (_V)"
@@ -4902,9 +4919,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "লগিনৰ ইতিহাস"
 
-#~ msgid "Add User Account"
-#~ msgstr "ব্যৱহাৰকাৰী একাওন্ট যোগ কৰক"
-
 #~ msgid "Remove User Account"
 #~ msgstr "ব্যৱহাৰকাৰী একাওন্ট আতৰাওক"
 
@@ -6268,9 +6282,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Options..."
 #~ msgstr "বিকল্পসমূহ..."
-
-#~ msgid "User Accounts"
-#~ msgstr "ব্যৱহাৰকাৰী একাওন্টসমূহ"
 
 #~ msgid "Browse for more pictures..."
 #~ msgstr "অধিক ছবিৰ বাবে ব্ৰাউছ কৰক..."

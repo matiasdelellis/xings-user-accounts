@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.hy\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2010-09-02 11:06+0400\n"
 "Last-Translator: Nune <nune@instigatedesign.com>\n"
 "Language-Team:  <norayr@arnet.am>\n"
@@ -27,17 +27,17 @@ msgstr "Օ_գտագործողի անունը՝"
 msgid "_Full Name"
 msgstr "_Անվանում՝"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Ստանդարտ X–տերմինալ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Terminator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr ""
 
@@ -54,7 +54,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 #, fuzzy
 msgid "_Password"
 msgstr "_Գաղտնաբառ՝"
@@ -161,7 +161,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr ""
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr ""
 
@@ -213,35 +213,43 @@ msgid "Set a password now"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
+msgid "Unlock…"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+msgid "Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "_Ընտրանքներ..."
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr ""
 
@@ -362,7 +370,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Ստեղծել նոր տեղակայություն"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -372,7 +380,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -840,6 +848,11 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Երկրով"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

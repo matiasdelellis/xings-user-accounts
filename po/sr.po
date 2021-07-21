@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-30 11:00+0100\n"
 "Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
 "Language-Team: српски <gnome-sr@googlegroups.org>\n"
@@ -32,15 +32,15 @@ msgstr "_Корисник"
 msgid "_Full Name"
 msgstr "_Име и презиме"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Стандардни"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Администратор"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Врста налога"
 
@@ -56,7 +56,7 @@ msgstr "Дозволи кориснику да подеси _лозинку пр
 msgid "Set a password _now"
 msgstr "Постави лозинку са_да"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Лозинка"
 
@@ -171,7 +171,7 @@ msgstr ""
 "Ваш отисак прста је успешно сачуван. Сада се можете пријавити на систем "
 "преко читача отисака прстију."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Корисници"
 
@@ -219,34 +219,43 @@ msgid "Set a password now"
 msgstr "Постави лозинку сада"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Додај корисника…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Додај корисника…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Опције пријављивања"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Аутоматско _пријављивање"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Пријављивање _отиском прста"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Иконица корисника"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Последње пријављивање"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Уклони налог"
 
@@ -369,7 +378,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Направите кориснички налог"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -381,7 +390,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Обришите изабрани кориснички налог"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -864,6 +873,15 @@ msgstr "%e. %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e. %b, %Y."
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Остали налози"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Додај кориснички налог"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Потврди нову лозинку"
@@ -5539,9 +5557,6 @@ msgstr "%e. %b, %Y."
 
 #~ msgid "Login History"
 #~ msgstr "Историјат пријављивања"
-
-#~ msgid "Add User Account"
-#~ msgstr "Додај кориснички налог"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Уклони кориснички налог"

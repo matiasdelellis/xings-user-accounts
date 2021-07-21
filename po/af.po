@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.6-branch\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-02-29 20:57+0200\n"
 "Last-Translator: F Wolff <friedel@translate.org.za>\n"
 "Language-Team: translate-discuss-af@lists.sourceforge.net\n"
@@ -27,17 +27,17 @@ msgstr "Gebr_uikernaam"
 msgid "_Full Name"
 msgstr "_Volle naam"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Gewoon"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Administrateur"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Rekening_tipe"
 
@@ -53,7 +53,7 @@ msgstr "_Laat gebruiker toe om 'n wagwoord in te stel met volgende aanmelding"
 msgid "Set a password _now"
 msgstr "Stel 'n wagwoord _nou in"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Wagwoord"
 
@@ -165,7 +165,7 @@ msgstr ""
 "U vingerafdruk is suksesvol gestoor. U behoort nou te kan aanmeld m.b.v. die "
 "vingerafdrukleser."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Gebruikers"
 
@@ -217,34 +217,43 @@ msgstr "Stel 'n wagwoord nou in"
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "Voeg gebruiker by"
+msgid "Unlock…"
+msgstr "Ontsluit"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Voeg gebruiker by"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Aanmeldkeuses"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "O_utomatiese aanmelding"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Aanmelding met vingera_fdruk"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Gebruikerikoon"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Laas aangemeld"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Verwyder rekening"
 
@@ -369,7 +378,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Skep 'n gebruikerrekening"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -381,7 +390,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Skrap die gekose gebruikerrekening"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -870,6 +879,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Ander rekeninge"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Voeg gebruikerrekening by"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Be_vestig nuwe wagwoord"
@@ -4807,9 +4825,6 @@ msgstr "%e %b %Y"
 #~ msgid "Login History"
 #~ msgstr "Aanmeldgeskiedenis"
 
-#~ msgid "Add User Account"
-#~ msgstr "Voeg gebruikerrekening by"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Verwyder gebruikerrekening"
 
@@ -5809,9 +5824,6 @@ msgstr "%e %b %Y"
 
 #~ msgid "Subnet Mask"
 #~ msgstr "Subnetmasker"
-
-#~ msgid "Unlock"
-#~ msgstr "Ontsluit"
 
 #~ msgid "_Network Name"
 #~ msgstr "_Netwerknaam"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-10 19:59+0200\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
@@ -27,15 +27,15 @@ msgstr "_Korisničko ime"
 msgid "_Full Name"
 msgstr "_Puno ime"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Standardan"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Vrsta _računa"
 
@@ -51,7 +51,7 @@ msgstr "Dopušta korisniku postavljanje lozinke pri sljedećoj _prijavi"
 msgid "Set a password _now"
 msgstr "Postavi lozinku _odmah"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Lozinka"
 
@@ -166,7 +166,7 @@ msgstr ""
 "Vaš otisak prsta je uspješno spremljen. Sada biste trebali biti u mogućnosti "
 "prijaviti se koristeći čitač otisaka prsta."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Korisnici"
 
@@ -214,35 +214,44 @@ msgid "Set a password now"
 msgstr "Postavi lozinku odmah"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Dodaj korisnika..."
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Dodaj korisnika..."
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "Mogućnosti približenja/udaljenja"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomatska prijava"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Prijava otiskom prsta"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Ikona korisnika"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Posljednja prijava"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Ukloni račun"
 
@@ -364,7 +373,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Napravite korisnički račun"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -376,7 +385,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Obrišite odabrani korisnički račun"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -858,6 +867,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Ostali računi"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Upravljanje korisničkim računima"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Potvrdi novu lozinku"
@@ -5016,9 +5034,6 @@ msgstr "%e %b, %Y"
 
 #~ msgid "_Enroll"
 #~ msgstr "_Upiši"
-
-#~ msgid "Manage user accounts"
-#~ msgstr "Upravljanje korisničkim računima"
 
 #~ msgid "Authentication is required to change user data"
 #~ msgstr "Potrebna je ovjera za promjenu podataka korisnika"

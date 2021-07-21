@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center gnome-3-22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-10-06 04:15+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <gnome-l10n-id@googlegroups.com>\n"
@@ -29,15 +29,15 @@ msgstr "Nama pengg_una"
 msgid "_Full Name"
 msgstr "Nama _Lengkap"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Standar"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Administrator"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Tipe Akun"
 
@@ -53,7 +53,7 @@ msgstr "Ijinkan pengguna mengatur sandi saat _log masuk berikutnya"
 msgid "Set a password _now"
 msgstr "Isi sa_ndi sekarang"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Sandi"
 
@@ -168,7 +168,7 @@ msgstr ""
 "Sidik jari Anda telah berhasil disimpan. Anda sekarang dapat log masuk "
 "memakai pembaca sidik jari Anda."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Pengguna"
 
@@ -216,35 +216,44 @@ msgid "Set a password now"
 msgstr "Isi sandi sekarang"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "T_ambah Pengguna..."
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "T_ambah Pengguna..."
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "Pilihan Zum"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Log Mas_uk Otomatis"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Log Masuk _Sidik Jari"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Ikon Pengguna"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Log Masuk Terakhir"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Hapus Akun"
 
@@ -366,7 +375,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Buat akun pengguna"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -378,7 +387,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Hapus akun pengguna yang dipilih"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -860,6 +869,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Akun Lain"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Kelola akun pengguna"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verifikasi Sandi Baru"
@@ -5000,9 +5018,6 @@ msgstr "%e %b %Y"
 
 #~ msgid "_Enroll"
 #~ msgstr "_Daftarkan"
-
-#~ msgid "Manage user accounts"
-#~ msgstr "Kelola akun pengguna"
 
 #~ msgid "Authentication is required to change user data"
 #~ msgstr "Otentikasi diperlukan untuk mengubah data pengguna"

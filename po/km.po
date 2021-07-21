@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po_gnome-control-center-2.0-km\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2012-04-19 02:15+0000\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -30,17 +30,17 @@ msgstr "ឈ្មោះ​អ្នកប្រើ"
 msgid "_Full Name"
 msgstr "ឈ្មោះពេញ"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "ស្ដង់ដារ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "អ្នក​គ្រប់គ្រង"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "ប្រភេទ​គណនី"
 
@@ -59,7 +59,7 @@ msgstr "ជ្រើស​ពាក្យសម្ងាត់ នៅ​ពេ�
 msgid "Set a password _now"
 msgstr "កំណត់​ពាក្យសម្ងាត់​ឥឡូវនេះ"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "ពាក្យ​សម្ងាត់"
 
@@ -171,7 +171,7 @@ msgstr ""
 "ស្នាម​ម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​រក្សាទុក​ដោយ​ជោគជ័យ ។  ឥឡូវនេះ អ្នក​អាច​នឹង​ចូល​ដោយ​ប្រើ​កម្មវិធី​អាន​ស្នាម​"
 "ម្រាមដៃ​របស់​អ្នក​បាន ។"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 #, fuzzy
 msgid "Users"
 msgstr "ឈ្មោះ​អ្នកប្រើ"
@@ -225,36 +225,45 @@ msgid "Set a password now"
 msgstr "កំណត់​ពាក្យសម្ងាត់​ឥឡូវនេះ"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "បន្ថែម​អ្នកប្រើ"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+#, fuzzy
+msgid "Unlock to add users and change settings"
+msgstr "ការ​កំណត់​កណ្ដុរ និង​បន្ទះ​ប៉ះ"
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "បន្ថែម​អ្នកប្រើ"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "ជម្រើស​ចូល"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "ចូល​ស្វ័យប្រវត្តិ"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "ចូល​ដោយ​ប្រើ​ស្នាម​ម្រាម​ដៃ"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "រូបតំណាង​អ្នកប្រើ"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "Last Login"
 msgstr "ចូល​ស្វ័យប្រវត្តិ"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "យក​គណនី​ចេញ"
 
@@ -375,7 +384,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "បង្កើត​គណនី​អ្នកប្រើ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -387,7 +396,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "លុប​គណនី​អ្នកប្រើ​ដែល​បាន​ជ្រើស"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -869,6 +878,15 @@ msgstr ""
 msgid "%b %e, %Y"
 msgstr ""
 
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "បន្ថែម​គណនី​អ្នកប្រើ"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "គណនី​អ្នកប្រើ"
+
 #, fuzzy
 #~ msgid "_Verify New Password"
 #~ msgstr "ពាក្យសម្ងាត់​ថ្មី"
@@ -1000,9 +1018,6 @@ msgstr ""
 
 #~ msgid "Address"
 #~ msgstr "អាសយដ្ឋាន"
-
-#~ msgid "Mouse and Touchpad Settings"
-#~ msgstr "ការ​កំណត់​កណ្ដុរ និង​បន្ទះ​ប៉ះ"
 
 #~ msgid "Sound Settings"
 #~ msgstr "ការ​កំណត់​សំឡេង"
@@ -3903,9 +3918,6 @@ msgstr ""
 #~ msgid "C_ontinue"
 #~ msgstr "បន្ត"
 
-#~ msgid "User Accounts"
-#~ msgstr "គណនី​អ្នកប្រើ"
-
 #~ msgid "Log in without a password"
 #~ msgstr "ចូល​ដោយ​មិន​ប្រើ​ពាក្យសម្ងាត់"
 
@@ -3962,9 +3974,6 @@ msgstr ""
 
 #~ msgid "Account Information"
 #~ msgstr "ព័ត៌មាន​គណនី"
-
-#~ msgid "Add User Account"
-#~ msgstr "បន្ថែម​គណនី​អ្នកប្រើ"
 
 #~ msgid "Remove User Account"
 #~ msgstr "យក​គណនី​អ្នកប្រើ​ចេញ"

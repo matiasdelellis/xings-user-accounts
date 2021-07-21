@@ -22,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2006-03-08 12:53-0000\n"
 "Last-Translator: Rhys Jones <rhys@sucs.org>\n"
 "Language-Team: Cymraeg <gnome-cy@pengwyn.linux.org.uk>\n"
@@ -42,16 +42,16 @@ msgstr "_Enw Defnyddiwr:"
 msgid "_Full Name"
 msgstr "Enw Llawn"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "XTerminal arferol"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr ""
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 #, fuzzy
 msgid "Account _Type"
 msgstr "Math y Rhybudd"
@@ -70,7 +70,7 @@ msgstr ""
 msgid "Set a password _now"
 msgstr "Cyfrinair _newydd:"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 #, fuzzy
 msgid "_Password"
 msgstr "_Cyfrinair:"
@@ -176,7 +176,7 @@ msgid ""
 "using your fingerprint reader."
 msgstr ""
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr ""
 
@@ -228,37 +228,45 @@ msgid "Set a password now"
 msgstr "Cyfrinair _newydd:"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
+msgid "Unlock…"
 msgstr ""
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+msgid "Add User…"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "Opsiynau Cynllun:"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 #, fuzzy
 msgid "User Icon"
 msgstr "Enw defnyddiwr:"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 #, fuzzy
 msgid "Last Login"
 msgstr "Mewngofnodi"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr ""
 
@@ -380,7 +388,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -390,7 +398,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -863,6 +871,15 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Eraill"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Eraill"
 
 #, fuzzy
 #~ msgid "_Verify New Password"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-03-21 11:46+0900\n"
 "Last-Translator: Jiro Matsuzawa <jmatsuzawa@gnome.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -37,17 +37,17 @@ msgstr "ユーザー名(_U)"
 msgid "_Full Name"
 msgstr "フルネーム(_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "標準"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "管理者"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "アカウントの種類(_T)"
 
@@ -63,7 +63,7 @@ msgstr "次回ログイン時にユーザー自身でパスワードを設定さ
 msgid "Set a password _now"
 msgstr "いまパスワードを設定する(_N)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "パスワード(_P)"
 
@@ -178,7 +178,7 @@ msgstr ""
 "あなたの指紋を登録しました。今から指紋リーダーを使ってログインできるようにな"
 "りました。"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ユーザー"
 
@@ -229,35 +229,43 @@ msgid "Set a password now"
 msgstr "いまパスワードを設定する"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "ユーザーの追加"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "ユーザーの追加"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "ログインオプション"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "自動ログイン(_U)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "指紋認証ログイン(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ユーザーアイコン"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "最終ログイン"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "アカウントの削除"
 
@@ -378,7 +386,7 @@ msgstr "変更するには、まず * アイコンをクリックしてくださ
 msgid "Create a user account"
 msgstr "ユーザーアカウントを作成します"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -390,7 +398,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "選択したユーザーアカウントを削除します"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -875,6 +883,15 @@ msgstr "%m月%d日"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%Y年%m月%d日"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "他のアカウント"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "ユーザーアカウントの追加"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "新しいパスワードの確認(_V)"
@@ -4996,9 +5013,6 @@ msgstr "%Y年%m月%d日"
 
 #~ msgid "Login History"
 #~ msgstr "ログイン履歴"
-
-#~ msgid "Add User Account"
-#~ msgstr "ユーザーアカウントの追加"
 
 #~ msgid "Remove User Account"
 #~ msgstr "ユーザーアカウントの削除"

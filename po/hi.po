@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-09-23 15:25+0630\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -44,17 +44,17 @@ msgstr "उपयोक्ता नाम (_U)"
 msgid "_Full Name"
 msgstr "पूरा नाम (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "मानक"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "प्रशासक"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "खाता प्रकार (_T)"
 
@@ -72,7 +72,7 @@ msgstr "अगले लॉगिन में कूटशब्द सेट �
 msgid "Set a password _now"
 msgstr "अभी कूटशब्द निर्धारित करें"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "कूटशब्द (_P)"
 
@@ -187,7 +187,7 @@ msgstr ""
 "आपका फिंगरप्रिंट सफलतापूर्वक सहेजा गया था. आपको अब अपने फिंगरप्रिंट रीडर के प्रयोग से "
 "लॉगिन में समर्थ होना चाहिए."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "उपयोक्तानाम "
 
@@ -237,35 +237,44 @@ msgstr "अभी कूटशब्द निर्धारित करें
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "उपयोक्ता जोड़ें"
+msgid "Unlock…"
+msgstr "खोलें"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "उपयोक्ता जोड़ें"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "लॉगिन विकल्प"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "स्वचालित लॉगिन (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "फिंगरप्रिंट लॉगिन (_F)"
 
 #  set the timeout value  label with correct value of timeout
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "उपयोक्ता प्रतीक"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "अंतिम लॉगिन"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "खाता मिटाएँ"
 
@@ -391,7 +400,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "उपयोगकर्ता खाता बनाएँ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -403,7 +412,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "चयनित उपयोगकर्ता खाता को हटायें"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -890,6 +899,17 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#  set the timeout value  label with correct value of timeout
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "उपयोगकर्ता खाता जोड़ें"
+
+#  set the timeout value  label with correct value of timeout
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "उपयोक्ता खाता"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "नया कूटशब्द जाँचें (_V)"
@@ -5119,10 +5139,6 @@ msgstr "%b %e, %Y"
 #~ msgstr "लॉगिन इतिहास"
 
 #  set the timeout value  label with correct value of timeout
-#~ msgid "Add User Account"
-#~ msgstr "उपयोगकर्ता खाता जोड़ें"
-
-#  set the timeout value  label with correct value of timeout
 #~ msgid "Remove User Account"
 #~ msgstr "उपयोगकर्ता खाता हटायें"
 
@@ -6427,10 +6443,6 @@ msgstr "%b %e, %Y"
 #~ msgid "None"
 #~ msgstr "कुछ नहीं"
 
-#  set the timeout value  label with correct value of timeout
-#~ msgid "User Accounts"
-#~ msgstr "उपयोक्ता खाता"
-
 #~ msgid "_Hint"
 #~ msgstr "संकेत (_H)"
 
@@ -6793,9 +6805,6 @@ msgstr "%b %e, %Y"
 #~ msgstr ""
 #~ "URL जहाँ से अधिक डेस्कटॉप प्रसंग पाना है. यदि रिक्त स्ट्रिंग पर सेट किया जाता है कड़ी "
 #~ "प्रकट नहीं होगा."
-
-#~ msgid "Unlock"
-#~ msgstr "खोलें"
 
 #~ msgid "Locked"
 #~ msgstr "तालाबंद"

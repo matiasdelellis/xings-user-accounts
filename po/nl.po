@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-11-18 17:43+0100\n"
 "Last-Translator: Hannie Dumoleyn <hannie@ubuntu-nl.org>\n"
 "Language-Team: Dutch <gnome-nl-list@gnome.org>\n"
@@ -44,15 +44,15 @@ msgstr "_Gebruikersnaam"
 msgid "_Full Name"
 msgstr "_Volledige naam"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Standaard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Beheerder"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Account-_type"
 
@@ -68,7 +68,7 @@ msgstr "Gebruiker kan wachtwoord instellen bij de volgende keer _aanmelden"
 msgid "Set a password _now"
 msgstr "_Nu een wachtwoord instellen"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Wachtwoord"
 
@@ -184,7 +184,7 @@ msgid ""
 msgstr ""
 "Uw vingerafdruk is opgeslagen. U kunt nu aanmelden via uw vingerafdruklezer."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Gebruikers"
 
@@ -234,35 +234,44 @@ msgid "Set a password now"
 msgstr "Nu een wachtwoord instellen"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Gebruiker toevoegen…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Gebruiker toevoegen…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 #, fuzzy
 msgid "Login Options"
 msgstr "Zoomopties"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomatisch aanmelden"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Aanmelden met _vingerafdruk"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Gebruikerspictogram"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Laatste keer aangemeld"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Account verwijderen"
 
@@ -385,7 +394,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Gebruikersaccount aanmaken"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -397,7 +406,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "De geselecteerde gebruiker verwijderen"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -886,6 +895,15 @@ msgstr "%d %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%d %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Andere accounts"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Gebruikersaccount toevoegen"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Nieuw wachtwoord verifiëren"
@@ -5594,9 +5612,6 @@ msgstr "%d %b %Y"
 
 #~ msgid "Login History"
 #~ msgstr "Aanmeldgeschiedenis"
-
-#~ msgid "Add User Account"
-#~ msgstr "Gebruikersaccount toevoegen"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Gebruikersaccount verwijderen"

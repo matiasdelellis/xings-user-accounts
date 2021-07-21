@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.lv\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-11-09 19:45+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
@@ -31,15 +31,15 @@ msgstr "_Lietotājvārds"
 msgid "_Full Name"
 msgstr "_Vārds un uzvārds"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Standarta"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Administratora"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Konta _tips"
 
@@ -55,7 +55,7 @@ msgstr "Ļaut _lietotājam izvēlēties paroli nākamajā ierakstīšanās reiz�
 msgid "Set a password _now"
 msgstr "Iestatīt paroli _tagad"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Parole"
 
@@ -170,7 +170,7 @@ msgstr ""
 "Jūsu pirksta nospiedums sekmīgi saglabāts. Tagad, ja viss strādā pareizi, "
 "jūs varēsiet ierakstīties sistēmā, lietojot pirkstu nospiedumu lasītāju."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Lietotāji"
 
@@ -220,34 +220,43 @@ msgid "Set a password now"
 msgstr "Iestatīt paroli tagad"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Pievienot lietotāju…"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Pievienot lietotāju…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Ierakstīšanās opcijas"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "A_utomātiskā ierakstīšanās"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "_Ierakstīšanās ar pirkstu nospiedumu"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Lietotāja ikona"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Pēdējā ierakstīšanās"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Izņemt kontu"
 
@@ -369,7 +378,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Izveidot lietotāja kontu"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -381,7 +390,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Dzēst izvēlēto lietotāja kontu"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -863,6 +872,15 @@ msgstr "%e. %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e. %b, %Y."
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Citi konti"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Pievienot lietotāja kontu"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "Pārbaudīt jau_no paroli"
@@ -5529,9 +5547,6 @@ msgstr "%e. %b, %Y."
 
 #~ msgid "Login History"
 #~ msgstr "Ierakstīšanās vēsture"
-
-#~ msgid "Add User Account"
-#~ msgstr "Pievienot lietotāja kontu"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Izņemt lietotāja kontu"

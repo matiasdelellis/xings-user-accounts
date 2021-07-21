@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-08-26 22:57+0200\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
@@ -32,17 +32,17 @@ msgstr "_Uporabniško ime"
 msgid "_Full Name"
 msgstr "Polno _ime"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "Običajno"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "Skrbnik"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "Vrsta _računa"
 
@@ -58,7 +58,7 @@ msgstr "Dovoli uporabniku nastaviti geslo ob naslednji _prijavi"
 msgid "Set a password _now"
 msgstr "_Nastavi geslo"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Geslo"
 
@@ -173,7 +173,7 @@ msgstr ""
 "Prstni odtis je uspešno shranjen. Sedaj se je mogoče prijaviti z uporabo "
 "bralnika prstnih odtisov."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Uporabniki"
 
@@ -222,35 +222,43 @@ msgid "Set a password now"
 msgstr "Nastavi geslo"
 
 #: ../data/user-accounts-dialog.ui.h:1
-#, fuzzy
-msgid "_Add User…"
-msgstr "Dodaj uporabnika"
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "Dodaj uporabnika"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Možnosti prijave"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "_Samodejna prijava"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Prijava s _prstnimi odtisi"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Uporabniška ikona"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Zadnja prijava"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Odstrani račun"
 
@@ -373,7 +381,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Ustvari uporabniški račun"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -385,7 +393,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Izbriši izbran uporabniški račun"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -869,6 +877,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Dodaj uporabniški račun"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Uporabniški računi"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Overi novo geslo"
@@ -5007,9 +5024,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "Zgodovina prijav"
 
-#~ msgid "Add User Account"
-#~ msgstr "Dodaj uporabniški račun"
-
 #~ msgid "Remove User Account"
 #~ msgstr "Odstrani uporabniški račun"
 
@@ -6729,9 +6743,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Options..."
 #~ msgstr "Možnosti ..."
-
-#~ msgid "User Accounts"
-#~ msgstr "Uporabniški računi"
 
 #~ msgid "Browse for more pictures..."
 #~ msgstr "Brskanje med več slikami ..."

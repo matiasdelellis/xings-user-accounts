@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-05 07:22-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@list.sf.net>\n"
@@ -30,15 +30,15 @@ msgstr "ਯੂਜ਼ਰ ਨਾਂ(_U)"
 msgid "_Full Name"
 msgstr "ਪੂਰਾ ਨਾਂ(_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "ਸਟੈਂਡਰਡ"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "ਪਰਸ਼ਾਸ਼ਕ"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "ਅਕਾਊਂਟ ਕਿਸਮ(_T)"
 
@@ -54,7 +54,7 @@ msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਪਾਸਵਰਡ ਸੈੱਟ ਕ�
 msgid "Set a password _now"
 msgstr "ਹੁਣੇ ਪਾਸਵਰਡ ਦਿਓ(_n)"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "ਪਾਸਵਰਡ(_P)"
 
@@ -168,7 +168,7 @@ msgstr ""
 "ਤੁਹਾਡੇ ਫਿੰਗਰਪਰਿੰਟ ਸਫ਼ਲਤਾ ਨਾਲ ਸੰਭਾਲੇ ਗਏ ਹਨ। ਹੁਣ ਤੁਸੀਂ ਫਿੰਗਰਪਰਿੰਟ ਰੀਡਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਲਾਗਇਨ "
 "ਕਰਨ ਦੇ ਯੋਗ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "ਯੂਜ਼ਰ"
 
@@ -216,34 +216,44 @@ msgid "Set a password now"
 msgstr "ਹੁਣੇ ਪਾਸਵਰਡ ਦਿਓ"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਜੋੜੋ(_A)..."
+#, fuzzy
+msgid "Unlock…"
+msgstr "ਅਣ-ਲਾਕ"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "ਵਰਤੋਂਕਾਰ ਨੂੰ ਜੋੜੋ(_A)..."
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "ਲਾਗਇਨ ਚੋਣ"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "ਆਟੋਮੈਟਿਕ ਲਾਗਇਨ(_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "ਫਿੰਗਰਪਰਿੰਟ ਲਾਗਇਨ(_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "ਯੂਜ਼ਰ ਆਈਕਾਨ"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "ਆਖਰੀ ਲਾਗਇਨ"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "ਅਕਾਊਂਟ ਹਟਾਓ"
 
@@ -362,7 +372,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "ਨਵਾਂ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਬਣਾਓ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -374,7 +384,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "ਚੁਣਿਆ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਹਟਾਓ"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -852,6 +862,15 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "ਨਵੇਂ ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ(_V)"
@@ -5365,9 +5384,6 @@ msgstr "%e %b %Y"
 #~ msgid "Login History"
 #~ msgstr "ਲਾਗਇਨ ਅਤੀਤ"
 
-#~ msgid "Add User Account"
-#~ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
-
 #~ msgid "Remove User Account"
 #~ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਹਟਾਓ"
 
@@ -6577,9 +6593,6 @@ msgstr "%e %b %Y"
 #~ msgid "Options..."
 #~ msgstr "...ਚੋਣਾਂ"
 
-#~ msgid "User Accounts"
-#~ msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ"
-
 #~ msgid "Browse for more pictures..."
 #~ msgstr "...ਹੋਰ ਤਸਵੀਰਾਂ ਦੀ ਝਲਕ"
 
@@ -6948,9 +6961,6 @@ msgstr "%e %b %Y"
 #~ msgid "cd;dvd;usb;audio;video;disc;"
 #~ msgstr ""
 #~ "ਸੀਡੀ;ਡੀਵੀਡੀ;ਯੂਐਸਬੀ;ਆਡੀਓ;ਵਿਡੀਓ;ਵੀਡਿਓ;ਡਿਸਕ;cd;dvd;usb;audio;video;disc;"
-
-#~ msgid "Unlock"
-#~ msgstr "ਅਣ-ਲਾਕ"
 
 #~ msgid "Battery charging"
 #~ msgstr "ਬੈਟਰੀ ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ"

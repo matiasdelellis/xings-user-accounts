@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-11 09:37+0200\n"
 "Last-Translator: Jordi Mas <jmas@softcatala.org>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
@@ -38,15 +38,15 @@ msgstr "Nom d'_usuari"
 msgid "_Full Name"
 msgstr "_Nom complet"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "Estàndard"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "Administrador"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_Tipus de compte"
 
@@ -62,7 +62,7 @@ msgstr "_Permet a l'usuari establir la contrasenya a l'entrada següent"
 msgid "Set a password _now"
 msgstr "_Estableix una contrasenya ara"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_Contrasenya"
 
@@ -177,7 +177,7 @@ msgstr ""
 "La vostra empremta dactilar s'ha desat correctament. Hauríeu de poder entrar "
 "utilitzant el lector d'empremtes dactilars."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "Usuaris"
 
@@ -225,34 +225,43 @@ msgid "Set a password now"
 msgstr "Estableix una contrasenya ara"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "_Afegir usuari..."
-
-#: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock…"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:2
+msgid "Unlock to add users and change settings"
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "_Afegir usuari..."
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "Opcions d'entrada"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "Entrada a_utomàtica"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "Entrada amb _empremta dactilar"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "Icona d'usuari"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "Última entrada"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "Suprimeix el compte"
 
@@ -374,7 +383,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "Crea un compte d'usuari nou"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -386,7 +395,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "Suprimeix el compte d'usuari seleccionat"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -872,6 +881,15 @@ msgstr "%e de %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e de %b, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "Altres comptes"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "Afegeix un compte d'usuari"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "_Verifica la contrasenya nova"
@@ -5456,9 +5474,6 @@ msgstr "%e de %b, %Y"
 
 #~ msgid "_Assign"
 #~ msgstr "_Assigna"
-
-#~ msgid "Add User Account"
-#~ msgstr "Afegeix un compte d'usuari"
 
 #~ msgid "Remove User Account"
 #~ msgstr "Suprimeix el compte d'usuari"

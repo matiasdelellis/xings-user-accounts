@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.he\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2016-09-10 22:45+0300\n"
 "Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
 "Language-Team: עברית <>\n"
@@ -30,15 +30,15 @@ msgstr "_שם משתמש"
 msgid "_Full Name"
 msgstr "שם מ_לא"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 msgid "Standard"
 msgstr "רגיל"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 msgid "Administrator"
 msgstr "מנהל"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "_סוג החשבון"
 
@@ -54,7 +54,7 @@ msgstr "בחירת ססמה ב_כניסה הבאה"
 msgid "Set a password _now"
 msgstr "הגדרת ססמה _כעת"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "_ססמה"
 
@@ -168,7 +168,7 @@ msgstr ""
 "טביעת האצבע שלך נשמרה בהצלחה. כעת ההתחברות באמצעות קורא טביעות האצבעות שלך "
 "אמורה להיות אפשרית."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "משתמשים"
 
@@ -216,34 +216,44 @@ msgid "Set a password now"
 msgstr "הגדרת ססמה כעת"
 
 #: ../data/user-accounts-dialog.ui.h:1
-msgid "_Add User…"
-msgstr "הו_ספת משתמש…"
+#, fuzzy
+msgid "Unlock…"
+msgstr "שחרור"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "הו_ספת משתמש…"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "אפשרויות כניסה"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "כניסה _אוטומטית"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "כניסה באמצעות _טביעת אצבע"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "סמל משתמש"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "כניסה _אחרונה"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "הסרת חשבון"
 
@@ -363,7 +373,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "יצירת חשבון משתמש"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -375,7 +385,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "מחיקת חשבון המשתמש הנבחר"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -854,6 +864,15 @@ msgstr "%e ב%b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e ב%b, 2013"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "הוספת חשבון משתמש"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "חשבונות משתמשים"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "ססמה _חדשה"
@@ -5358,9 +5377,6 @@ msgstr "%e ב%b, 2013"
 #~ msgid "Login History"
 #~ msgstr "היסטוריית כניסה"
 
-#~ msgid "Add User Account"
-#~ msgstr "הוספת חשבון משתמש"
-
 #~ msgid "Remove User Account"
 #~ msgstr "הסרת חשבון משתמש"
 
@@ -6701,9 +6717,6 @@ msgstr "%e ב%b, 2013"
 #~ msgid "Options..."
 #~ msgstr "אפשרויות..."
 
-#~ msgid "User Accounts"
-#~ msgstr "חשבונות משתמשים"
-
 #~ msgid "Browse for more pictures..."
 #~ msgstr "עיון אחר תמונות נוספות..."
 
@@ -7003,9 +7016,6 @@ msgstr "%e ב%b, 2013"
 
 #~ msgid "Display Mapping..."
 #~ msgstr "הצגת המיפוי..."
-
-#~ msgid "Unlock"
-#~ msgstr "שחרור"
 
 #~ msgid "Battery charging"
 #~ msgstr "הסוללה נטענת"

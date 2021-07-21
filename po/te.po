@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-14 11:09-0300\n"
+"POT-Creation-Date: 2021-07-21 10:49-0300\n"
 "PO-Revision-Date: 2014-09-03 20:11+0630\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
@@ -39,17 +39,17 @@ msgstr "వాడుకరిపేరు (_U)"
 msgid "_Full Name"
 msgstr "పూర్తి నామము (_F)"
 
-#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:3
+#: ../data/account-dialog.ui.h:3 ../data/user-accounts-dialog.ui.h:5
 #, fuzzy
 msgid "Standard"
 msgstr "ప్రామాణికం"
 
-#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:4
+#: ../data/account-dialog.ui.h:4 ../data/user-accounts-dialog.ui.h:6
 #, fuzzy
 msgid "Administrator"
 msgstr "నిర్వాహకుడు"
 
-#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:5
+#: ../data/account-dialog.ui.h:5 ../data/user-accounts-dialog.ui.h:7
 msgid "Account _Type"
 msgstr "ఖాతా రకం (_T)"
 
@@ -67,7 +67,7 @@ msgstr "తరువాత ప్రవేశంలో సంకేతపదా�
 msgid "Set a password _now"
 msgstr "ఒక కొత్త సంకేతపదాన్ని అమర్చు"
 
-#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:7
+#: ../data/account-dialog.ui.h:9 ../data/user-accounts-dialog.ui.h:9
 msgid "_Password"
 msgstr "సంకేతపదం (_P)"
 
@@ -181,7 +181,7 @@ msgstr ""
 "మీ వేలిముద్ర విజయవంతంగా భద్రపరుచబడింది. మీరు ఇప్పుడు మీ వేలిముద్ర చదువరి(రీడర్) ఉపయోగించి "
 "ప్రవేశించగలుగుతారు."
 
-#: ../data/xings-user-accounts.desktop.in.h:1
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
 msgid "Users"
 msgstr "వాడుకరులు"
 
@@ -231,34 +231,43 @@ msgstr "ఒక కొత్త సంకేతపదాన్ని అమర్
 
 #: ../data/user-accounts-dialog.ui.h:1
 #, fuzzy
-msgid "_Add User…"
-msgstr "వాడుకరిని జతచేయండి"
+msgid "Unlock…"
+msgstr "అన్‌లాక్"
 
 #: ../data/user-accounts-dialog.ui.h:2
-msgid "Unlock to Add Users and Change Setting"
+msgid "Unlock to add users and change settings"
 msgstr ""
 
-#: ../data/user-accounts-dialog.ui.h:6
+#: ../data/user-accounts-dialog.ui.h:3
+msgid "Some settings must be unlocked before they can be changed."
+msgstr ""
+
+#: ../data/user-accounts-dialog.ui.h:4
+#, fuzzy
+msgid "Add User…"
+msgstr "వాడుకరిని జతచేయండి"
+
+#: ../data/user-accounts-dialog.ui.h:8
 msgid "Login Options"
 msgstr "ప్రవేశ ఐచ్ఛికాలు"
 
-#: ../data/user-accounts-dialog.ui.h:8
+#: ../data/user-accounts-dialog.ui.h:10
 msgid "A_utomatic Login"
 msgstr "స్వయంచాలక ప్రవేశం (_u)"
 
-#: ../data/user-accounts-dialog.ui.h:9
+#: ../data/user-accounts-dialog.ui.h:11
 msgid "_Fingerprint Login"
 msgstr "వేలిముద్ర ప్రవేశం (_F)"
 
-#: ../data/user-accounts-dialog.ui.h:10
+#: ../data/user-accounts-dialog.ui.h:12
 msgid "User Icon"
 msgstr "వాడుకరి ప్రతీక"
 
-#: ../data/user-accounts-dialog.ui.h:11
+#: ../data/user-accounts-dialog.ui.h:13
 msgid "Last Login"
 msgstr "చివరి ప్రవేశం"
 
-#: ../data/user-accounts-dialog.ui.h:12
+#: ../data/user-accounts-dialog.ui.h:14
 msgid "Remove Account"
 msgstr "ఖాతాను తీసివేయండి"
 
@@ -379,7 +388,7 @@ msgstr ""
 msgid "Create a user account"
 msgstr "వాడుకరిని ఖాతాను సృష్టించు"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1495
+#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -391,7 +400,7 @@ msgstr ""
 msgid "Delete the selected user account"
 msgstr "ఎంపికచేసిన వాడుకరి ఖాతాను తొలగించు"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1500
+#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -869,6 +878,15 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
+
+#: ../src/xings-user-accounts.c:66
+#, fuzzy
+msgid "User Accounts"
+msgstr "వాడుకరి ఖాతాను జతచేయి"
+
+#, fuzzy
+#~ msgid "Xings User Accounts"
+#~ msgstr "వాడుకరి ఖాతాలు"
 
 #~ msgid "_Verify New Password"
 #~ msgstr "కొత్త సంకేతపదం నిర్ధారించు (_V)"
@@ -5005,9 +5023,6 @@ msgstr "%b %e, %Y"
 #~ msgid "Login History"
 #~ msgstr "లాగిన్ చరిత్ర"
 
-#~ msgid "Add User Account"
-#~ msgstr "వాడుకరి ఖాతాను జతచేయి"
-
 #~ msgid "Remove User Account"
 #~ msgstr "వాడుకరి ఖాతాను తీసివేయి"
 
@@ -6239,9 +6254,6 @@ msgstr "%b %e, %Y"
 #~ msgid "None"
 #~ msgstr "ఏదీకాదు"
 
-#~ msgid "User Accounts"
-#~ msgstr "వాడుకరి ఖాతాలు"
-
 #~ msgid "_Hint"
 #~ msgstr "సూచన (_H)"
 
@@ -6586,9 +6598,6 @@ msgstr "%b %e, %Y"
 
 #~ msgid "Speed"
 #~ msgstr "వేగం"
-
-#~ msgid "Unlock"
-#~ msgstr "అన్‌లాక్"
 
 #~ msgid "Battery discharging"
 #~ msgstr "బ్యాటరీ చార్జుపోతోంది"

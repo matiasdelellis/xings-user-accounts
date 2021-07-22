@@ -35,14 +35,21 @@ static void
 xings_user_accounts_application_activate (GtkApplication *application,
                                           gpointer        user_data)
 {
-	CcUserPanel *user_panel = CC_USER_PANEL (g_object_new (CC_TYPE_USER_PANEL, NULL));
+	GtkWindow *window;
 
-	gtk_application_add_window (application, GTK_WINDOW (user_panel));
+	g_assert (GTK_IS_APPLICATION (application));
 
-	gtk_window_set_title (GTK_WINDOW (user_panel), _("Users"));
-	gtk_window_set_icon_name (GTK_WINDOW (user_panel), "system-users");
+	window = gtk_application_get_active_window (GTK_APPLICATION (application));
 
-	gtk_widget_show_all (GTK_WIDGET (user_panel));
+	if (window == NULL) {
+		window = GTK_WINDOW (g_object_new (CC_TYPE_USER_PANEL, NULL));
+		gtk_application_add_window (application, window);
+		gtk_window_set_title (window, _("Users"));
+		gtk_window_set_icon_name (window, "system-users");
+	}
+
+	gtk_window_present (window);
+
 }
 
 int

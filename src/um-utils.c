@@ -898,7 +898,7 @@ render_user_icon (ActUser     *user,
 	g_return_val_if_fail (icon_size > 12, NULL);
 
 	icon_file = act_user_get_icon_file (user);
-	if (icon_file != NULL) {
+	if (icon_file != NULL && *icon_file != '\0') {
 		pixbuf = gdk_pixbuf_new_from_file_at_size (icon_file,
 		                                           icon_size * scale,
 		                                           icon_size * scale,

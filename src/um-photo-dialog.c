@@ -902,7 +902,7 @@ get_settings_facesdirs (void)
 	g_strfreev (settings_dirs);
 	g_object_unref (settings);
 
-	return (GStrv) g_ptr_array_steal (facesdirs, NULL);
+	return (GStrv) g_ptr_array_free (facesdirs, FALSE);
 }
 
 static GStrv
@@ -923,7 +923,7 @@ get_system_facesdirs (void)
 
 	g_ptr_array_add (facesdirs, NULL);
 
-	return (GStrv) g_ptr_array_steal (facesdirs, NULL);
+	return (GStrv) g_ptr_array_free (facesdirs, FALSE);
 }
 
 static gboolean

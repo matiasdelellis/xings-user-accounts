@@ -168,6 +168,7 @@ dnl --------------------------------------------------------------------------
 AC_CONFIG_FILES([
 	Makefile
 	data/Makefile
+	data/appdata/Makefile
 	data/faces/Makefile
 	data/icons/Makefile
 	man/Makefile

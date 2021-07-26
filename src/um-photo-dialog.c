@@ -42,6 +42,7 @@
 
 #include "xings-user-accounts-common.h"
 
+#define DEFAUL_IMAGE_SIZE 512
 #define ROW_SPAN 6
 
 struct _UmPhotoDialog {
@@ -73,7 +74,10 @@ crop_dialog_response (GtkWidget     *dialog,
 	}
 
 	pb = cc_crop_area_get_picture (CC_CROP_AREA (um->crop_area));
-	pb2 = gdk_pixbuf_scale_simple (pb, 96, 96, GDK_INTERP_BILINEAR);
+	pb2 = gdk_pixbuf_scale_simple (pb,
+	                               DEFAUL_IMAGE_SIZE,
+	                               DEFAUL_IMAGE_SIZE,
+	                               GDK_INTERP_BILINEAR);
 
 	set_user_icon_data (um->user, pb2);
 
@@ -778,7 +782,9 @@ webcam_response_cb (GtkDialog     *dialog,
 		GdkPixbuf *pb, *pb2;
 
 		g_object_get (G_OBJECT (dialog), "pixbuf", &pb, NULL);
-		pb2 = gdk_pixbuf_scale_simple (pb, 96, 96, GDK_INTERP_BILINEAR);
+		pb2 = gdk_pixbuf_scale_simple (pb,
+		                               DEFAUL_IMAGE_SIZE, DEFAUL_IMAGE_SIZE,
+		                               GDK_INTERP_BILINEAR);
 
 		set_user_icon_data (um->user, pb2);
 

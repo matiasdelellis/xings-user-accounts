@@ -7,4 +7,4 @@ Center or Xfce4 settings manager.
 
 ## Screenshots
 
-![Users view](https://github.com/matiasdelellis/xings-night-light/raw/master/data/appdata/xua-screenshot.png)
+![Users view](data/appdata/xua-screenshot.png)

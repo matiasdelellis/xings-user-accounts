@@ -47,9 +47,9 @@
 
 #include "um-realm-manager.h"
 
-#include "cc-user-panel.h"
+#include "xings-user-accounts-common.h"
 
-#define USER_ACCOUNTS_PERMISSION "org.freedesktop.accounts.user-administration"
+#include "cc-user-panel.h"
 
 struct _CcUserPanel {
 	GtkWindow        _parent;
@@ -373,6 +373,7 @@ select_created_user (GObject      *object,
                      gpointer      user_data)
 {
 	UmAccountDialog *dialog;
+	GSettings *settings;
 	GtkTreeView *tv;
 	GtkTreeModel *model;
 	GtkTreeSelection *selection;
@@ -380,6 +381,7 @@ select_created_user (GObject      *object,
 	ActUser *current;
 	GtkTreePath *path;
 	ActUser *user;
+	gchar *defaut_avatar = NULL;
 	uid_t user_uid;
 
 	CcUserPanel *d = user_data;
@@ -391,6 +393,15 @@ select_created_user (GObject      *object,
 
 	if (user == NULL)
 		return;
+
+	settings = g_settings_new (XUA_SETTINGS_SCHEMA);
+	defaut_avatar = g_settings_get_string (settings, XUA_SETTINGS_KEY_DEFAULT_AVATAR);
+	if (defaut_avatar && *defaut_avatar != '\0') {
+		if (g_file_test(defaut_avatar, G_FILE_TEST_EXISTS))
+			act_user_set_icon_file (user, defaut_avatar);
+	}
+	g_free (defaut_avatar);
+	g_object_unref (settings);
 
 	tv = (GtkTreeView *)get_widget (d, "list-treeview");
 	model = gtk_tree_view_get_model (tv);
@@ -420,8 +431,11 @@ static void
 add_user (GtkButton *button, CcUserPanel *d)
 {
 	d->account_dialog = um_account_dialog_new ();
-	um_account_dialog_show (d->account_dialog, GTK_WINDOW (gtk_widget_get_toplevel (d->main_box)),
-		d->permission, select_created_user, d);
+	um_account_dialog_show (d->account_dialog,
+	                        GTK_WINDOW (gtk_widget_get_toplevel (d->main_box)),
+	                        d->permission,
+	                        select_created_user,
+	                        d);
 }
 
 static void

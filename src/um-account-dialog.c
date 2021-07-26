@@ -179,7 +179,7 @@ finish_action (UmAccountDialog *self)
 
 static void
 complete_dialog (UmAccountDialog *self,
-	ActUser         *user)
+                 ActUser         *user)
 {
 	gtk_widget_hide (GTK_WIDGET (self));
 
@@ -257,12 +257,12 @@ local_create_user (UmAccountDialog *self)
 
 	manager = act_user_manager_get_default ();
 	act_user_manager_create_user_async (manager,
-		username,
-		name,
-		account_type,
-		self->cancellable,
-		(GAsyncReadyCallback)create_user_done,
-		self);
+	                                    username,
+	                                    name,
+	                                    account_type,
+	                                    self->cancellable,
+	                                    (GAsyncReadyCallback)create_user_done,
+	                                    self);
 }
 
 static gint

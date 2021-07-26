@@ -31,6 +31,8 @@
 
 #include "cc-user-panel.h"
 
+#include "xings-user-accounts-common.h"
+
 static void
 xings_user_accounts_application_activate (GtkApplication *application,
                                           gpointer        user_data)
@@ -81,7 +83,7 @@ main (int    argc,
 
 	/* GtkApplication */
 
-	app = gtk_application_new ("org.xings.UserAccounts", G_APPLICATION_FLAGS_NONE);
+	app = gtk_application_new (XUA_DBUS_NAME, G_APPLICATION_FLAGS_NONE);
 	g_signal_connect (app, "activate",
 	                  G_CALLBACK (xings_user_accounts_application_activate), NULL);
 

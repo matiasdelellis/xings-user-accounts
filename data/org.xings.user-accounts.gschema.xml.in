@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema gettext-domain="@GETTEXT_PACKAGE@" id="org.xings.user-accounts" path="/org/xings/user-accounts/">
+    <key name="default-avatar" type="s">
+      <default>''</default>
+      <summary>Default avatar for new users.</summary>
+      <description>Override the default avatar for new users. Useful for organizations that need to customize it. By default, just show the 'avatar-default' icon from the current icon theme.</description>
+    </key>
+    <key name="avatar-directories" type="as">
+      <default>['@datadir@/pixmaps/xings/faces']</default>
+      <summary>Directories to search for avatar images.</summary>
+      <description>Override the default directories to search for avatar images. Useful for organizations that need to customize it.</description>
+    </key>
+  </schema>
+</schemalist>

@@ -45,6 +45,7 @@ xings_user_accounts_SOURCES =		\
 	um-user-image.c			\
 	pw-utils.h			\
 	pw-utils.c			\
+	xings-user-accounts-common.h	\
 	xings-user-accounts.c		\
 	$(BUILT_SOURCES)
 

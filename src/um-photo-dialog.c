@@ -40,6 +40,8 @@
 #include "cc-crop-area.h"
 #include "um-utils.h"
 
+#include "xings-user-accounts-common.h"
+
 #define ROW_SPAN 6
 
 struct _UmPhotoDialog {
@@ -868,101 +870,179 @@ menu_item_for_filename (UmPhotoDialog *um,
 	return menuitem;
 }
 
+static GStrv
+get_settings_facesdirs (void)
+{
+	GSettings *settings;
+	GStrv settings_dirs;
+	GPtrArray *facesdirs;
+	gchar *path = NULL;
+	gint i = 0;
+
+	settings = g_settings_new (XUA_SETTINGS_SCHEMA);
+	settings_dirs = g_settings_get_strv (settings, XUA_SETTINGS_KEY_AVATAR_DIRECTORIES);
+	facesdirs = g_ptr_array_new ();
+
+	if (settings_dirs != NULL) {
+		for (i = 0; settings_dirs[i] != NULL; i++) {
+			path = settings_dirs[i];
+			if (g_strcmp0 (path, "") != 0)
+				g_ptr_array_add (facesdirs, g_strdup (path));
+		}
+	}
+
+	g_ptr_array_add (facesdirs, NULL);
+
+	g_strfreev (settings_dirs);
+	g_object_unref (settings);
+
+	return (GStrv) g_ptr_array_steal (facesdirs, NULL);
+}
+
+static GStrv
+get_system_facesdirs (void)
+{
+	const char * const * data_dirs;
+	GPtrArray *facesdirs;
+	gchar *path = NULL;
+	int i = 0;
+
+	facesdirs = g_ptr_array_new ();
+
+	data_dirs = g_get_system_data_dirs ();
+	for (i = 0; data_dirs[i] != NULL; i++) {
+		path = g_build_filename (data_dirs[i], "pixmaps", "xings", "faces", NULL);
+		g_ptr_array_add (facesdirs, path);
+	}
+
+	g_ptr_array_add (facesdirs, NULL);
+
+	return (GStrv) g_ptr_array_steal (facesdirs, NULL);
+}
+
+static gboolean
+add_faces_from_dirs (UmPhotoDialog *um,
+                     GStrv          facesdirs,
+                     gboolean       add_all,
+                     guint         *x,
+                     guint         *y)
+{
+	GtkWidget *menuitem;
+	GDir *dir;
+	gboolean added_faces = FALSE;
+	const gchar *face;
+	gchar *filename;
+	guint i = 0;
+
+	for (i = 0; facesdirs[i] != NULL; i++) {
+		dir = g_dir_open (facesdirs[i], 0, NULL);
+		if (dir == NULL)
+			continue;
+
+		while ((face = g_dir_read_name (dir)) != NULL) {
+			filename = g_build_filename (facesdirs[i], face, NULL);
+			menuitem = menu_item_for_filename (um, filename);
+			g_free (filename);
+
+			if (menuitem == NULL)
+				continue;
+
+			gtk_menu_attach (GTK_MENU (um->photo_popup),
+			                 GTK_WIDGET (menuitem),
+			                 *x, *x + 1,
+			                 *y, *y + 1);
+			gtk_widget_show (menuitem);
+
+			(*x)++;
+			if (*x >= ROW_SPAN - 1) {
+				(*y)++;
+				*x = 0;
+			}
+
+			added_faces = TRUE;
+		}
+		g_dir_close (dir);
+
+		if (added_faces && !add_all)
+			break;
+	}
+
+	return added_faces;
+}
+
 static void
 setup_photo_popup (UmPhotoDialog *um)
 {
 	GtkWidget *menu, *menuitem, *image;
-	guint x, y;
-	const gchar * const * dirs;
-	guint i;
-	GDir *dir;
-	const char *face;
+	GStrv settings_facesdirs = NULL;
+	GStrv system_facesdirs = NULL;
+	guint x = 0, y = 0;
 	gboolean none_item_shown;
 	gboolean added_faces;
 
 	menu = gtk_menu_new ();
+	um->photo_popup = menu;
 
-	x = 0;
-	y = 0;
 	none_item_shown = added_faces = FALSE;
 
-	dirs = g_get_system_data_dirs ();
-	for (i = 0; dirs[i] != NULL; i++) {
-		char *path;
+	/* Add avatar from settings or default folders*/
+	settings_facesdirs = get_settings_facesdirs ();
+	added_faces = add_faces_from_dirs (um, settings_facesdirs, TRUE, &x, &y);
+	g_strfreev (settings_facesdirs);
 
-		path = g_build_filename (dirs[i], "pixmaps", "xings", "faces", NULL);
-		dir = g_dir_open (path, 0, NULL);
-		if (dir == NULL) {
-			g_free (path);
-			continue;
-		}
-
-		while ((face = g_dir_read_name (dir)) != NULL) {
-			char *filename;
-
-			added_faces = TRUE;
-
-			filename = g_build_filename (path, face, NULL);
-			menuitem = menu_item_for_filename (um, filename);
-			g_free (filename);
-			if (menuitem == NULL)
-				continue;
-
-			gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (menuitem),
-				x, x + 1, y, y + 1);
-			gtk_widget_show (menuitem);
-
-			x++;
-			if (x >= ROW_SPAN - 1) {
-				y++;
-				x = 0;
-			}
-		}
-		g_dir_close (dir);
-		g_free (path);
-
-		if (added_faces)
-			break;
+	if (!added_faces) {
+		system_facesdirs = get_system_facesdirs ();
+		added_faces = add_faces_from_dirs (um, system_facesdirs, FALSE, &x, &y);
+		g_strfreev (system_facesdirs);
 	}
 
 	if (!added_faces)
 		goto skip_faces;
 
+	/* Default avatar. */
 	image = gtk_image_new_from_icon_name ("avatar-default", GTK_ICON_SIZE_DIALOG);
 	menuitem = gtk_menu_item_new ();
 	gtk_container_add (GTK_CONTAINER (menuitem), image);
 	gtk_widget_show_all (menuitem);
-	gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (menuitem),
-	                 x, x + 1, y, y + 1);
+	gtk_menu_attach (GTK_MENU (menu),
+	                 GTK_WIDGET (menuitem),
+	                 x, x + 1,
+	                 y, y + 1);
 	g_signal_connect (G_OBJECT (menuitem), "activate",
-		G_CALLBACK (none_icon_selected), um);
+	                  G_CALLBACK (none_icon_selected), um);
 	gtk_widget_show (menuitem);
 	none_item_shown = TRUE;
 	y++;
 
-	skip_faces:
+skip_faces:
 	if (!none_item_shown) {
 		menuitem = gtk_menu_item_new_with_label (_("Disable image"));
-		gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (menuitem),
-			0, ROW_SPAN - 1, y, y + 1);
+		gtk_menu_attach (GTK_MENU (menu),
+		                 GTK_WIDGET (menuitem),
+		                 0, ROW_SPAN - 1,
+		                 y, y + 1);
 		g_signal_connect (G_OBJECT (menuitem), "activate",
-			G_CALLBACK (none_icon_selected), um);
+		                  G_CALLBACK (none_icon_selected), um);
 		gtk_widget_show (menuitem);
 		y++;
 	}
 
 	/* Separator */
 	menuitem = gtk_separator_menu_item_new ();
-	gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (menuitem),
-	                 0, ROW_SPAN - 1, y, y + 1);
+	gtk_menu_attach (GTK_MENU (menu),
+	                 GTK_WIDGET (menuitem),
+	                 0, ROW_SPAN - 1,
+	                 y, y + 1);
 	gtk_widget_show (menuitem);
 
 	y++;
 
 #ifdef HAVE_CHEESE
 	um->take_photo_menuitem = gtk_menu_item_new_with_label (_("Take a photo…"));
-	gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (um->take_photo_menuitem),
-	                 0, ROW_SPAN - 1, y, y + 1);
+	gtk_menu_attach (GTK_MENU (menu),
+	                 GTK_WIDGET (um->take_photo_menuitem),
+	                 0, ROW_SPAN - 1,
+	                 y, y + 1);
 	g_signal_connect (G_OBJECT (um->take_photo_menuitem), "activate",
 		G_CALLBACK (webcam_icon_selected), um);
 	gtk_widget_set_sensitive (um->take_photo_menuitem, FALSE);
@@ -975,17 +1055,19 @@ setup_photo_popup (UmPhotoDialog *um)
 		G_CALLBACK (device_removed), um);
 	cheese_camera_device_monitor_coldplug (um->monitor);
 
+	update_photo_menu_status (um);
+
 	y++;
 #endif /* HAVE_CHEESE */
 
 	menuitem = gtk_menu_item_new_with_label (_("Browse for more pictures…"));
-	gtk_menu_attach (GTK_MENU (menu), GTK_WIDGET (menuitem),
-	                 0, ROW_SPAN - 1, y, y + 1);
+	gtk_menu_attach (GTK_MENU (menu),
+	                 GTK_WIDGET (menuitem),
+	                 0, ROW_SPAN - 1,
+	                 y, y + 1);
 	g_signal_connect (G_OBJECT (menuitem), "activate",
-		G_CALLBACK (file_icon_selected), um);
+	                  G_CALLBACK (file_icon_selected), um);
 	gtk_widget_show (menuitem);
-
-	um->photo_popup = menu;
 }
 
 static void
@@ -1011,8 +1093,8 @@ popup_icon_menu (GtkToggleButton *button, UmPhotoDialog *um)
 
 static gboolean
 on_popup_button_button_pressed (GtkToggleButton *button,
-	GdkEventButton *event,
-	UmPhotoDialog  *um)
+                                GdkEventButton  *event,
+                                UmPhotoDialog   *um)
 {
 	if (event->button == 1) {
 		if (!gtk_widget_get_visible (um->photo_popup)) {
@@ -1068,9 +1150,11 @@ um_photo_dialog_new (GtkWidget *button)
 
 	um = g_new0 (UmPhotoDialog, 1);
 
-        /* Set up the popup */
+	/* Set up the popup */
 	um->popup_button = button;
+
 	setup_photo_popup (um);
+
 	g_signal_connect (button, "toggled",
 		G_CALLBACK (popup_icon_menu), um);
 	g_signal_connect (button, "button-press-event",

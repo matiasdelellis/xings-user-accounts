@@ -36,23 +36,25 @@ dnl ==============================================
 dnl Check that we meet the dependencies
 dnl ==============================================
 
-GLIB_REQUIRED_VERSION=2.39.91
-GDKPIXBUF_REQUIRED_VERSION=2.23.0
-POLKIT_REQUIRED_VERSION=0.103
-ACCOUNTSSERVICE_REQUIRED_VERSION=0.6.39
-PWQUALITY_REQUIRED_VERSION=1.2.2
+GLIB_REQUIRED_VERSION=2.58.3
+GTK_REQUIRED_VERSION=3.24.5
+GDKPIXBUF_REQUIRED_VERSION=2.38.1
+POLKIT_REQUIRED_VERSION=0.105
+ACCOUNTSSERVICE_REQUIRED_VERSION=0.6.45
+PWQUALITY_REQUIRED_VERSION=1.4.0
+KRB5_REQUIRED_VERSION=1.17
 
 PKG_CHECK_MODULES(XINGS_USER_ACCOUNTS,
-                  gtk+-3.0
                   glib-2.0 >= $GLIB_REQUIRED_VERSION
+                  gtk+-3.0 >= $GTK_REQUIRED_VERSION
+                  gdk-pixbuf-2.0 >= $GDKPIXBUF_REQUIRED_VERSION
+                  polkit-gobject-1 >= $POLKIT_REQUIRED_VERSION
+                  accountsservice >= $ACCOUNTSSERVICE_REQUIRED_VERSION
+                  pwquality >= $PWQUALITY_REQUIRED_VERSION
+                  krb5 >= $KRB5_REQUIRED_VERSION
                   gthread-2.0
                   gio-2.0
-                  gio-unix-2.0
-                  krb5
-                  polkit-gobject-1 >= $POLKIT_REQUIRED_VERSION
-                  gdk-pixbuf-2.0 >= $GDKPIXBUF_REQUIRED_VERSION
-                  pwquality >= $PWQUALITY_REQUIRED_VERSION
-                  accountsservice >= $ACCOUNTSSERVICE_REQUIRED_VERSION)
+                  gio-unix-2.0)
 
 dnl ============================================
 dnl Optional dependency to take face from webcam
@@ -178,8 +180,15 @@ AC_CONFIG_FILES([
 
 AC_OUTPUT
 
-if test "x$have_cheese" = "xyes"; then
-	AC_MSG_NOTICE([Webcam support enabled])
-else
-	AC_MSG_NOTICE([Webcam support disabled])
-fi
+dnl ==========================================================================
+echo "
+                    xings-user-accounts $VERSION
+                  ================================
+
+        prefix:                    ${prefix}
+        compiler:                  ${CC}
+        cflags:                    ${CFLAGS}
+        cppflags:                  ${CPPFLAGS}
+
+        Webcam support:            ${have_cheese}
+"

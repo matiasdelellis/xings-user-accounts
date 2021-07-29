@@ -4,6 +4,7 @@
 [type: gettext/glade]data/account-dialog.ui
 [type: gettext/glade]data/account-fingerprint.ui
 data/xings-user-accounts.desktop.in
+data/appdata/org.xings.UserAccounts.metainfo.xml.in
 [type: gettext/glade]data/password-dialog.ui
 [type: gettext/glade]data/user-accounts-dialog.ui
 src/cc-user-panel.c

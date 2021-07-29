@@ -1,4 +1,4 @@
-AC_INIT([xings-user-accounts], [0.2.2],
+AC_INIT([xings-user-accounts], [0.2.3],
 	[https://github.com/matiasdelellis/xings-user-accounts])
 
 AC_CONFIG_SRCDIR([src])
@@ -182,8 +182,8 @@ AC_OUTPUT
 
 dnl ==========================================================================
 echo "
-                    xings-user-accounts $VERSION
-                  ================================
+                    xings-user-accounts v$VERSION
+                  ==============================
 
         prefix:                    ${prefix}
         compiler:                  ${CC}

@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.3] - 2021-07-29
+
+### Added
+
+- Add appdata and funding.
+- Update requeriments and print build configuration options.
+
+### Fixed
+
+- Fix circle style on some old themes.
+
 ## [0.2.2] - 2021-07-26
 
 ### Fixed

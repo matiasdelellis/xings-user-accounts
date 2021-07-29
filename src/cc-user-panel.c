@@ -1555,11 +1555,12 @@ settings_or_null (const gchar *schema)
 static void
 cc_user_panel_init (CcUserPanel *self)
 {
-	GError *error;
-	volatile GType type G_GNUC_UNUSED;
 	GtkWidget *button;
+	GtkCssProvider *css_provider;
+	GError *error = NULL;
+	volatile GType type G_GNUC_UNUSED;
 
-        /* register types that the builder might need */
+	/* register types that the builder might need */
 	type = um_user_image_get_type ();
 	type = um_cell_renderer_user_image_get_type ();
 
@@ -1569,7 +1570,6 @@ cc_user_panel_init (CcUserPanel *self)
 	self->um = act_user_manager_get_default ();
 	self->cancellable = g_cancellable_new ();
 
-	error = NULL;
 	if (!gtk_builder_add_from_file (self->builder,
 	                                DATADIR "/user-accounts-dialog.ui",
 	                                &error))
@@ -1578,6 +1578,15 @@ cc_user_panel_init (CcUserPanel *self)
 		g_error_free (error);
 		return;
 	}
+
+	css_provider = gtk_css_provider_new ();
+	gtk_css_provider_load_from_path (css_provider,
+	                                 DATADIR "/user-accounts.css",
+	                                 NULL);
+	gtk_style_context_add_provider_for_screen (gtk_widget_get_screen (GTK_WIDGET (self)),
+	                                           GTK_STYLE_PROVIDER (css_provider),
+	                                           GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+	g_object_unref (css_provider);
 
 	self->login_screen_settings = settings_or_null ("org.gnome.login-screen");
 

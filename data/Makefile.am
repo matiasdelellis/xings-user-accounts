@@ -16,7 +16,8 @@ desktop_in_files = xings-user-accounts.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 uidir=$(pkgdatadir)
-ui_DATA=					\
+ui_DATA =					\
+	user-accounts.css			\
 	account-dialog.ui			\
 	account-fingerprint.ui			\
 	history-dialog.ui			\

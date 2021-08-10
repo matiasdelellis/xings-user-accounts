@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.gu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2014-09-22 11:54+0530\n"
 "Last-Translator: \n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -202,11 +202,12 @@ msgstr ""
 "તમારી આંગળી છાપ એ સફળતાપૂર્વક સંગ્રહ થયેલ છે. તમારે હવે તમારા આંગળી છાપ વાંચનાર ની "
 "મદદથી પ્રવેશવા માટે સક્ષમ થવુ જ જોઇએ."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "વપરાશકર્તાઓ"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "વપરાશકર્તાઓને ઉમેરો અથવા દૂર કરો અને તમારા પાસવર્ડને બદલો"
 
@@ -214,13 +215,19 @@ msgstr "વપરાશકર્તાઓને ઉમેરો અથવા દ
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "પ્રવેશ;નામ;આંગળીછાપન;અવતાર;લૉગો;ચહેરો;પાસવર્ડ;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "પાસવર્ડ બદલો"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "રદ કરો (_C)"
 
@@ -309,38 +316,38 @@ msgstr "ખાતુ દૂર કરો"
 msgid "Other Accounts"
 msgstr "બીજા ખાતાઓ"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "વપરાશકર્તાને કાઢી નાખતી વખતે નિષ્ફળતા"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "વપરાશકર્તાને કાઢી નાખતી વખતે નિષ્ફળતા"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "તમે તમારા પોતાના ખાતાને કાઢી શકતા નથી."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s હજુ પ્રવેશેલ છે"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr ""
 "વપરાશકર્તાને કાઢી રહ્યા છે જ્યારે તેઓ પ્રવેશેલ છે કે જે અસ્થાયી સ્થિતિમાં સિસ્ટમને છોડી શકે છે."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "શું તમે %s ની ફાઇલોને રાખવા માંગો છો?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -348,40 +355,40 @@ msgstr ""
 "તેની આજુબાજુ ઘર ડિરેક્ટરી, મેઇલ સ્પુલ અને કામચલાઉ ફાઇલોને રાખવાનું શક્ય છે જ્યારે વપરાશકર્તા "
 "ખાતાને કાઢી રહ્યા હોય."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "ફાઇલોને કાઢી નાંખો (_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "ફાઇલોને રાખો (_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "શું તમે ખરેખર ખાતાને દૂર કરવા માંગો છો?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "ફાઇલોને કાઢી નાંખો (_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "નિષ્ક્રિય થયેલ ખાતુ"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "આગળનાં પ્રવેશે સુયોજિત કરવા માટે"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "કઈ નહિં"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "પ્રવેશેલ છે"
 
@@ -389,7 +396,7 @@ msgstr "પ્રવેશેલ છે"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -398,21 +405,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "ખાતા સેવાને સંપર્ક કરવામાં નિષ્ફળ"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "મહેરબાની કરીને ખાતરી કરો કે AccountService એ સ્થાપિત અને સક્રિય થયેલ છે."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -420,11 +427,11 @@ msgstr ""
 "ફેરફારો કરવા માટે,\n"
 "પહેલાં * ચિહ્ન પર ક્લિક કરો"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "વપરાશકર્તા ખાતાને બનાવો"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -432,11 +439,11 @@ msgstr ""
 "વપરાશકર્તા ખાતાને બનાવવા માટે,\n"
 "પહેલાં * ચિહ્ન પર ક્લિક કરો"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "પસંદ થયેલ વપરાશકર્તા ખાતાને કાઢી નાંખો"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -444,8 +451,9 @@ msgstr ""
 "પસંદ થયેલ વપરાશકર્તા ખાતાને કાઢી નાંખવા માટે,\n"
 "પહેલાં * ચિહ્ન પર ક્લિક કરો"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "મારુ ખાતુ"
 
 #: ../src/pw-utils.c:81
@@ -828,33 +836,33 @@ msgstr "મહેરબાની કરીને ફરીથી તમારા
 msgid "Password could not be changed"
 msgstr "પાસવર્ડને બદલી શક્યા નહિં"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "પસંદ કરો"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "વધારે ચિત્રો માટે બ્રાઉઝ કરો"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "ખોલો (_O)"
 
 # #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
 # gtk/gtkinputdialog.c:238
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "ઇમેજને નિષ્ક્રિય કરો"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "ફોટો લો..."
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "વધારે ચિત્રો માટે બ્રાઉઝ કરો..."
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s દ્દારા વપરાયેલ છે"
@@ -924,11 +932,6 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "વપરાશકર્તા ખાતુ ઉમેરો"
 
 #~ msgid "Login Options"
 #~ msgstr "પ્રવેશ વિકલ્પો"

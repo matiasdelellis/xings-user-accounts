@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 3.3.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2014-08-25 14:05+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
@@ -171,11 +171,12 @@ msgid ""
 "using your fingerprint reader."
 msgstr "你的指紋已成功的儲存了。現在應該可以使用你的指紋辨識器來登入。"
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "使用者"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "加入或移除使用者並改變你的密碼"
 
@@ -185,13 +186,19 @@ msgstr ""
 "Login;Name;Fingerprint;Avatar;Logo;Face;Password;登入;姓名;指紋;大頭貼;標誌;"
 "臉;密碼;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "其他帳號"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "更改密碼"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "取消(_C)"
 
@@ -278,76 +285,76 @@ msgstr "移除帳號"
 msgid "Other Accounts"
 msgstr "其他帳號"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "刪除使用者失敗"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "刪除使用者失敗"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "你不能刪除自己的帳號。"
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s 仍在登入中"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr "在使用者登入期間刪除他會使系統處於不穩定的狀態。"
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "你想要保留 %s 的檔案嗎？"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
 msgstr "當刪除使用者時是可以保留家目錄、新進郵件(mail spool)和暫存檔案的。"
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "刪除檔案(_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "保留檔案(_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "確定要刪除這個帳號？"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "刪除檔案(_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "帳號已停用"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "在下次登入時設定"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "沒有"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "已登入"
 
@@ -355,7 +362,7 @@ msgstr "已登入"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -364,21 +371,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s，%s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "無法連接帳號服務"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "請確定 AccountService 已經安裝並啟用。"
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -386,11 +393,11 @@ msgstr ""
 "要進行更改，\n"
 "請先點選 * 圖示"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "建立新的使用者帳號"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -398,11 +405,11 @@ msgstr ""
 "要建立使用者帳號，\n"
 "請先點選 * 圖示"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "刪除選取的使用者帳號"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -410,8 +417,9 @@ msgstr ""
 "要刪除選取的使用者帳號，\n"
 "請先點選 * 圖示"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "我的帳號"
 
 #: ../src/pw-utils.c:81
@@ -783,31 +791,31 @@ msgstr "請再次輸入你目前的密碼。"
 msgid "Password could not be changed"
 msgstr "密碼無法更改"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "選取"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "瀏覽更多照片"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "開啟(_O)"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "停用圖片"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "照相…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "瀏覽更多照片…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "由 %s 使用"
@@ -877,11 +885,6 @@ msgstr "%b%e日"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%Y年%b%e日"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "其他帳號"
 
 #~ msgid "Login Options"
 #~ msgstr "登入選項"

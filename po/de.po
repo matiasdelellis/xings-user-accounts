@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2016-10-28 22:13+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
@@ -185,11 +185,12 @@ msgstr ""
 "Ihr Fingerabdruck wurde erfolgreich gespeichert. Sie sollten sich jetzt mit "
 "Ihrem Fingerlesegerät anmelden können."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "Benutzer"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "Benutzer hinzufügen oder entfernen und das Passwort ändern"
 
@@ -199,13 +200,19 @@ msgstr ""
 "Anmeldung;Name;Benutzerkonto;Fingerabdruck;Avatar;Benutzerbild;Logo;Gesicht;"
 "Passwort;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "Weitere Konten"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "Passwort ändern"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "Abbre_chen"
 
@@ -291,25 +298,25 @@ msgstr "Konto entfernen"
 msgid "Other Accounts"
 msgstr "Weitere Konten"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "Benutzer konnte nicht gelöscht werden"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 msgid "Failed to revoke remotely managed user"
 msgstr "Entfernt verwalteter Benutzer konnte nicht widerrufen werden"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "Sie können Ihr eigenes Konto nicht löschen."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s ist immer noch angemeldet"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -317,12 +324,12 @@ msgstr ""
 "Das Löschen von Benutzern, während sie angemeldet sind, kann das System in "
 "einen inkonsistenten Zustand versetzen."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "Wollen Sie die Dateien von %s behalten?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -330,41 +337,41 @@ msgstr ""
 "Es ist möglich, den persönlichen Ordner, die Mail-Warteschlange und die "
 "temporären Dateien zu behalten, wenn ein Benutzerkonto gelöscht wird."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "_Dateien löschen"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "Dateien _behalten"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr ""
 "Sind Sie sicher, dass Sie den entfernt verwalteten Benutzer »%s« widerrufen "
 "möchten?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 msgid "_Delete"
 msgstr "_Löschen"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "Konto ist deaktiviert"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "Bei der nächsten Anmeldung festlegen"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "Keine"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "Angemeldet"
 
@@ -373,7 +380,7 @@ msgstr "Angemeldet"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%H:%M"
@@ -382,23 +389,23 @@ msgstr "%H:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "Kontendienst konnte nicht kontaktiert werden"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr ""
 "Bitte stellen Sie sicher, dass der Kontendienst korrekt installiert und "
 "aktiviert ist."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -406,11 +413,11 @@ msgstr ""
 "Um Änderungen vorzunehmen,\n"
 "klicken Sie zuerst auf das Symbol *"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "Ein Benutzerkonto erstellen"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -418,11 +425,11 @@ msgstr ""
 "Um ein Benutzerkonto anzulegen,\n"
 "klicken Sie zuerst auf das Symbol *"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "Das gewählte Benutzerkonto löschen"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -430,8 +437,9 @@ msgstr ""
 "Um das gewählte Benutzerkonto zu löschen,\n"
 "klicken Sie zuerst auf das Symbol *"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "Mein Konto"
 
 #: ../src/pw-utils.c:81
@@ -817,31 +825,31 @@ msgstr "Bitte geben Sie Ihr aktuelles Passwort erneut ein."
 msgid "Password could not be changed"
 msgstr "Passwort konnte nicht geändert werden"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "Auswählen"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "Nach weiteren Bildern suchen"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "Ö_ffnen"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "Bild deaktivieren"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "Ein Foto aufnehmen …"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "Nach weiteren Bildern suchen …"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "Verwendet von %s"
@@ -914,11 +922,6 @@ msgstr "%e. %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e. %b %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "Weitere Konten"
 
 #~ msgid "Login Options"
 #~ msgstr "Anmeldeoptionen"

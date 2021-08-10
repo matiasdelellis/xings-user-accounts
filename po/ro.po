@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2015-10-18 00:30+0200\n"
 "Last-Translator: Jobava <jobaval10n@gmail.com>\n"
 "Language-Team: Romanian <dev-l10n-web@lists.mozilla.org>\n"
@@ -180,11 +180,12 @@ msgstr ""
 "Amprenta dumneavoastră a fost salvată cu succes. Acum ar trebui să vă puteți "
 "autentifica folosind cititorul de amprente."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "Utilizatori"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "Adăugați și ștergeți utilizatori și schimbați parola"
 
@@ -193,13 +194,19 @@ msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr ""
 "Login;Nume;Amprentă;Avatar;Logo;Figură;Parolă;Autentificare;Amprente;Față;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "Adăugare cont utilizator"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "Schimbă parola"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "_Renunță"
 
@@ -287,25 +294,25 @@ msgstr "Ștergere cont"
 msgid "Other Accounts"
 msgstr "Alte conturi"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "Ștergerea utilizatorului a eșuat"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 msgid "Failed to revoke remotely managed user"
 msgstr "A eșuat eliminarea utilizatorului gestionat la distanță"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "Nu vă puteți șterge propriul cont."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s este încă autentificat"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -313,12 +320,12 @@ msgstr ""
 "Ștergerea unui utilizator când acesta este încă autentificat poate aduce "
 "sistemul într-o stare inconsistentă."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "Doriți să păstrați fișierele lui %s?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -326,39 +333,39 @@ msgstr ""
 "Este posibil să păstrați dosarul personal, emailurile și fișierele temporare "
 "după ștergerea unui cont."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "Ș_terge fișierele"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "_Păstrează fișierele"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "Sigur doriți să eliminați contul gestionat de la distanță %s?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 msgid "_Delete"
 msgstr "Ș_terge fișierele"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "Cont dezactivat"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "Va fi definită la următoarea autentificare"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "Niciuna"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "Autentificat"
 
@@ -366,7 +373,7 @@ msgstr "Autentificat"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -375,21 +382,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "Contactarea serviciului pentru conturi a eșuat"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "Asigurați-vă că aplicația AccountService este corect instalată."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -397,11 +404,11 @@ msgstr ""
 "Pentru a face schimbări,\n"
 "dați clic întâi pe iconița *"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "Creează un cont de utilizator"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -409,11 +416,11 @@ msgstr ""
 "Pentru a crea un cont de utilizator,\n"
 "efectuați clic pe iconița *"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "Șterge contul de utilizator selectat"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -421,8 +428,9 @@ msgstr ""
 "Pentru a șterge un cont de utilizator,\n"
 "efectuați clic pe iconița *"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "Contul meu"
 
 #: ../src/pw-utils.c:81
@@ -804,31 +812,31 @@ msgstr "Tastează parola curentă încă o dată."
 msgid "Password could not be changed"
 msgstr "Parola nu a putut fi schimbată"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "Alege"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "Răsfoiește pentru mai multe imagini"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "_Deschide"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "Dezactivează imaginea"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "Faceți o fotografie…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "Răsfoiește pentru mai multe imagini…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "Folosit de %s"
@@ -900,11 +908,6 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "Adăugare cont utilizator"
 
 #~ msgid "Login Options"
 #~ msgstr "Opțiuni autentificare"

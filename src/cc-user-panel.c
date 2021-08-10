@@ -1419,7 +1419,7 @@ setup_main_window (CcUserPanel *d)
 	gtk_widget_style_get (userlist, "expander-size", &expander_size, NULL);
 	gtk_tree_view_set_level_indentation (GTK_TREE_VIEW (userlist), - (expander_size + 6));
 
-	title = g_strdup_printf ("<b><span foreground=\"#555555\">%s</span></b>", _("My Account"));
+	title = g_strdup_printf ("<b><span foreground=\"#555555\">%s</span></b>", _("Your Account"));
 	gtk_list_store_append (store, &iter);
 	gtk_list_store_set (store, &iter,
 	                    TITLE_COL, title,

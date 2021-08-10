@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2017-03-07 10:26+0100\n"
 "Last-Translator: GunChleoc <fios@foramnagaidhlig.net>\n"
 "Language-Team: Fòram na Gàidhlig\n"
@@ -173,11 +173,12 @@ msgstr ""
 "Chaidh lorg do mheòir a shàbhaladh. Bu chòir gun urrainn dhut clàradh a-"
 "steach le leughadair nam meur-lorg a-nis."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "Cleachdaichean"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr ""
 "Cuir cleachdaichean ris no thoir air falbh feadhainn is atharraich am facal-"
@@ -188,13 +189,19 @@ msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr ""
 "Clàraich a-steach;Ainm;Meur-lorg;Avatar;Suaicheantas;Aodann;Facal-faire;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "Cunntasan eile"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "Atharraich am facal-faire"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "_Sguir dheth"
 
@@ -281,25 +288,25 @@ msgstr "Thoir air falbh an cunntas"
 msgid "Other Accounts"
 msgstr "Cunntasan eile"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "Cha b' urrainn dhuinn an cleachdaiche a sguabadh às"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 msgid "Failed to revoke remotely managed user"
 msgstr "Cha deach leinn an cleachdaiche fo stiùireadh cèin a chùl-ghairm"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "Chan urrainn dhut an cunntas agad fhèin a sguabadh às."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "Tha %s clàraichte a-staigh fhathast"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -307,12 +314,12 @@ msgstr ""
 "Ma sguabas tu às cleachdaiche fhad 's a tha iad clàraichte a-staigh "
 "fhathast, dh'fhaoidte gum fàg sin an siostam neo-sheasmhach."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "A bheil thu airson na faidhlichean aig %s a chumail?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -320,41 +327,41 @@ msgstr ""
 "Gabhaidh am pasgan dachaidh, spàl a' phuist agus na faidhlichean sealach a "
 "ghlèidheadh nuair a sguabar às cunntas cleachdaiche."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "_Sguab às na faidhlichean"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "_Cum na faidhlichean"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr ""
 "A bheil thu cinnteach gu bheil thu airson an cunntas aig %s fo stiùireadh "
 "cèin a chùl-ghairm?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 msgid "_Delete"
 msgstr "_Sguab às"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "Chaidh an cunntas a chur à comas"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "Ri shuidheachadh an ath-thuras a nithear clàradh a-steach"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "Chan eil gin"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "Air clàradh a-steach"
 
@@ -362,7 +369,7 @@ msgstr "Air clàradh a-steach"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k.%M"
@@ -371,21 +378,21 @@ msgstr "%k.%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "Cha b' urrainn dhuinn fios a chur gu seirbheis nan cunntasan"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "Dèan cinnteach gun deach AccountService a stàladh agus an comas."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -393,11 +400,11 @@ msgstr ""
 "Gus atharraichean a dhèanamh,\n"
 "briog an ìomhaigheag * an toiseach"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "Cruthaich cunntas cleachdaiche"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -405,11 +412,11 @@ msgstr ""
 "Gus cunntas cleachdaiche a chruthachadh,\n"
 "briog air an ìomhaigheag * an toiseach"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "Sguab às cunntas a' chleachdaiche a thagh thu"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -417,8 +424,9 @@ msgstr ""
 "Gus cunntas a' chleachdaiche a thagh thu a sguabadh às,\n"
 "briog air an ìomhaigheag * an toiseach"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "An cunntas agam"
 
 #: ../src/pw-utils.c:81
@@ -809,31 +817,31 @@ msgstr "Nach cuir thu am facal-faire làithreach agad a-rithist?"
 msgid "Password could not be changed"
 msgstr "Cha b' urrainn dhuinn am facal-faire atharrachadh"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "Tagh"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "Brabhsaich airson barrachd dhealbhan"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "F_osgail"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "Cuir an dealbh à comas"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "Tog dealbh…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "Brabhsaich airson barrachd dhealbhan…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "'Ga chleachdadh le %s"
@@ -908,11 +916,6 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "Cunntasan eile"
 
 #~ msgid "Login Options"
 #~ msgstr "Roghainnean a' chlàraidh a-steach"

@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.te\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2014-09-03 20:11+0630\n"
 "Last-Translator: Krishnababu Krothapalli <kkrothap@redhat.com>\n"
 "Language-Team: Telugu <Fedora-trans-te@redhat.com>\n"
@@ -181,11 +181,12 @@ msgstr ""
 "మీ వేలిముద్ర విజయవంతంగా భద్రపరుచబడింది. మీరు ఇప్పుడు మీ వేలిముద్ర చదువరి(రీడర్) ఉపయోగించి "
 "ప్రవేశించగలుగుతారు."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "వాడుకరులు"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "వాడుకరులను జతచేయి లేదా తీసివేయి మరియు మీ సంకేతపదం మార్చు"
 
@@ -193,13 +194,19 @@ msgstr "వాడుకరులను జతచేయి లేదా తీస
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "ప్రవేశించు;పేరు;వేలిముద్ర;అవతారం;చిహ్నం;ముఖం;సంకేతపదం;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "వాడుకరి ఖాతాను జతచేయి"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "సంకేతపదమును మార్చు"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "రద్దుచేయి (_C)"
 
@@ -287,77 +294,77 @@ msgstr "ఖాతాను తీసివేయండి"
 msgid "Other Accounts"
 msgstr "ఇతర ఖాతాలు"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "వాడుకరిని తొలగించుటలో విఫలమైంది"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "వాడుకరిని తొలగించుటలో విఫలమైంది"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "మీరు మీ స్వంత ఖాతాను తొలగించలేరు."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s ఇంకా ప్రవేశించేవున్నారు"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr "ప్రవేశించివున్న వాడుకరిని తొలగించినచో వ్యవస్థను అస్థిరస్థితిలో వదిలివేయబడవచ్చు."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "%s యొక్క దస్త్రాలను ఉంచాలనుకుంటున్నారా?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
 msgstr ""
 "వాడుకరి ఖాతాను తొలగించునపుడు నివాస సంచయం,మెయిల్ స్పూల్ మరియు తాత్కాలిక దస్త్రాలను ఉంచడం కుదురుతుంది"
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "దస్త్రాలను తొలగించు (_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "దస్త్రాలను ఉంచు (_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "మీరు ఖచ్ఛితంగా ఖాతాను తీసివేయాలనుకుంటున్నారా?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "తొలగించు"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "ఖాతా అచేతనమైవుంది"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "తరువాతి ప్రవేశంలో అమర్చబడుతుంది"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "ఏదీకాదు"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "లాగిన్ అయెను"
 
@@ -365,7 +372,7 @@ msgstr "లాగిన్ అయెను"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -374,21 +381,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "ఖాతాల సేవను సంప్రదించుటలో విఫలమైంది"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "దయచేసి ఖాతాసేవ స్థాపించబడి మరియు చేతనపరచివుండునట్లు చూసుకోండి."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -396,11 +403,11 @@ msgstr ""
 "మార్పులు చేయడానికి,\n"
 "మొదటగా * ప్రతీకను నొక్కండి"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "వాడుకరిని ఖాతాను సృష్టించు"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -408,11 +415,11 @@ msgstr ""
 "ఒక వాడుకరిని సృష్టించుటకు,\n"
 "ముందుగా * ప్రతీకను నొక్కండి"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "ఎంపికచేసిన వాడుకరి ఖాతాను తొలగించు"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -420,8 +427,9 @@ msgstr ""
 "ఎంచుకున్న వాడుకరిని తొలగించుటకు,\n"
 "ముందుగా * ప్రతీకను నొక్కండి"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "నా ఖాతా"
 
 #: ../src/pw-utils.c:81
@@ -796,31 +804,31 @@ msgstr "దయచేసి మీ ప్రస్తుత సంకేతపద
 msgid "Password could not be changed"
 msgstr "సంకేతపదం మార్చబడదు"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "ఎంచుకోండి"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "మరిన్ని చిత్రముల కొరకు అన్వేషించు"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "తెరువు (_O)"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "బొమ్మని అచేతనపరుచు"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "ఒక ఫొటో తీయండి…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "మరిన్ని చిత్రముల కొరకు అన్వేషించు..."
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s చేత వాడబడింది"
@@ -890,11 +898,6 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "వాడుకరి ఖాతాను జతచేయి"
 
 #~ msgid "Login Options"
 #~ msgstr "ప్రవేశ ఐచ్ఛికాలు"

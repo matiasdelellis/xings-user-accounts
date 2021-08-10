@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: po_gnome-control-center-2.0-km\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2012-04-19 02:15+0000\n"
 "Last-Translator: Khoem Sokhem <khoemsokhem@khmeros.info>\n"
 "Language-Team: Khmer <support@khmeros.info>\n"
@@ -171,12 +171,13 @@ msgstr ""
 "ស្នាម​ម្រាមដៃ​របស់​អ្នក​ត្រូវ​បាន​រក្សាទុក​ដោយ​ជោគជ័យ ។  ឥឡូវនេះ អ្នក​អាច​នឹង​ចូល​ដោយ​ប្រើ​កម្មវិធី​អាន​ស្នាម​"
 "ម្រាមដៃ​របស់​អ្នក​បាន ។"
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 #, fuzzy
 msgid "Users"
 msgstr "ឈ្មោះ​អ្នកប្រើ"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 #, fuzzy
 msgid "Add or remove users and change your password"
 msgstr "បន្ថែម ឬ​យក​គណនី​អ្នកប្រើ​ចេញ"
@@ -185,14 +186,20 @@ msgstr "បន្ថែម ឬ​យក​គណនី​អ្នកប្រ�
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "បន្ថែម​គណនី​អ្នកប្រើ"
+
 #: ../data/password-dialog.ui.h:1
 #, fuzzy
 msgid "Change Password"
 msgstr "ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "បោះបង់"
 
@@ -283,77 +290,77 @@ msgstr "យក​គណនី​ចេញ"
 msgid "Other Accounts"
 msgstr "គណនី​ផ្សេងទៀត"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​លុប​អ្នកប្រើ"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​លុប​អ្នកប្រើ"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "អ្នក​មិន​អាច​លុប​គណនី​ផ្ទាល់ខ្លួន​របស់​អ្នក​បាន​ទេ ។"
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s នៅ​តែ​ត្រូវ​បាន​ចូល"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr "ការ​លុប​អ្នកប្រើ ខណៈ​ដែល​ពួកគេ​ចូល​អាច​ធ្វើឲ្យ​ប្រព័ន្ធ​ស្ថិត​ក្នុង​ស្ថានភាព​មិន​ប្រក្រតី ។"
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "តើ​អ្នក​ចង់​រក្សាទុក​ឯកសារ​របស់ %s ដែរ​ឬ​ទេ ?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
 msgstr ""
 "វា​ពិបាក​ក្នុង​ការ​រក្សាទុក​ថត​ផ្ទះ ស្ពូល​អ៊ីមែល និង​ឯកសារ​បណ្ដោះអាសន្ន​ណាស់ នៅ​ពេល​ដែល​លុប​គណនី​អ្នកប្រើ ។"
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "លុប​ឯកសារ"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "រក្សាទុក​ឯកសារ"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "តើ​អ្នក​ពិតជា​ចង់​យក​គណនី​ចេញ​ឬ ?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "លុប​ឯកសារ"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "គណនី​​ត្រូវ​បាន​បិទ"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "ត្រូវ​កំណត់ នៅ​ពេល​ចូល​លើកក្រោយ"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "គ្មាន"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr ""
 
@@ -361,7 +368,7 @@ msgstr ""
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr ""
@@ -370,21 +377,21 @@ msgstr ""
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "បាន​បរាជ័យ​ក្នុង​ការ​ទាក់ទង​សេវា​គណនី"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "សូម​ប្រាកដ​ថា AccountService ត្រូវ​បាន​ដំឡើង និង​បើក ។"
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -392,11 +399,11 @@ msgstr ""
 "ដើម្បី​ធ្វើការ​ផ្លាស់ប្ដូរ\n"
 "ចុចរូប​តំណាង * ជាមុន​សិន"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "បង្កើត​គណនី​អ្នកប្រើ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -404,11 +411,11 @@ msgstr ""
 "ដើម្បី​បង្កើត​គណនី​អ្នកប្រើ\n"
 "ចុច​រូប​តំណាង * ជាមុន"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "លុប​គណនី​អ្នកប្រើ​ដែល​បាន​ជ្រើស"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -416,8 +423,9 @@ msgstr ""
 "ដើម្បី​លុប​គណនី​អ្នកប្រើ​ដែល​បាន​ជ្រើស\n"
 "ចុច​រូប​តំណាង * ជាមុន"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "គណនី​របស់​ខ្ញុំ"
 
 #: ../src/pw-utils.c:81
@@ -788,33 +796,33 @@ msgstr "សូម​វាយ​បញ្ចូល​ពាក្យសម្ង
 msgid "Password could not be changed"
 msgstr "មិន​អាច​ផ្លាស់ប្ដូរ​ពាក្យសម្ងាត់​បាន​ឡើយ"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "ជ្រើស"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "រកមើល​រូបភាព​ផ្សេងទៀត"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr ""
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "បិទ​រូបភាព"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 #, fuzzy
 msgid "Take a photo…"
 msgstr "ថត​រូប..."
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 #, fuzzy
 msgid "Browse for more pictures…"
 msgstr "រកមើល​រូបភាព​ផ្សេងទៀត"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "ត្រូវ​បាន​ប្រើ​ដោយ %s"
@@ -889,11 +897,6 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "បន្ថែម​គណនី​អ្នកប្រើ"
 
 #~ msgid "Login Options"
 #~ msgstr "ជម្រើស​ចូល"

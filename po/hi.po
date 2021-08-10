@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2014-09-23 15:25+0630\n"
 "Last-Translator: rajesh <rajesh>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -187,11 +187,12 @@ msgstr ""
 "आपका फिंगरप्रिंट सफलतापूर्वक सहेजा गया था. आपको अब अपने फिंगरप्रिंट रीडर के प्रयोग से "
 "लॉगिन में समर्थ होना चाहिए."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "उपयोक्तानाम "
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "उपयोगकर्ताओं को जोड़ें या हटाने और अपना पासवर्ड बदलें"
 
@@ -199,13 +200,20 @@ msgstr "उपयोगकर्ताओं को जोड़ें या �
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 
+#  set the timeout value  label with correct value of timeout
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "उपयोगकर्ता खाता जोड़ें"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "कूटशब्द बदलें"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "रद्द करें (_C)"
 
@@ -294,38 +302,38 @@ msgstr "खाता मिटाएँ"
 msgid "Other Accounts"
 msgstr "अन्य खाता"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "उपयोक्ता मिटाने में विफल"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "उपयोक्ता मिटाने में विफल"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "आप अपने खुद के खाते को नष्ट नहीं कर सकते हैं."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s अभी भी लॉग इन है"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr ""
 "उपयोगकर्ता का विलोपन जब वे लॉग इन कर रहे हो से तंत्र को छोड़ सकते हैं असंगत स्थिति में."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "क्या आप %s के फाइल को रखना चाहते है?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -333,43 +341,43 @@ msgstr ""
 "उपयोगकर्ता खाते को हटाने के समय घर निर्देशिका, मेल स्पूल और अस्थायी फ़ाइलों को रखने की "
 "संभावना है."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "फ़ाइल मिटाएँ (_D)"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-app-helper.c:82 libgnomeui/gnome-app-helper.h:513
 # test-gnome/testgnome.xml.h:5
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "फ़ाइल रखें (_F)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "क्या आप वाक़ई ख़ाता को मिटाना चाहते हैं?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "फ़ाइल मिटाएँ (_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "खाता अक्षम"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "अगले लॉगिन में इसे सेट करें"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "कुछ नहीं"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "लाग्ड इन"
 
@@ -377,7 +385,7 @@ msgstr "लाग्ड इन"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -386,21 +394,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "खातों सेवा से संपर्क करने में विफल"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "कृपया सुनिश्चित करें कि खाता सेवा स्थापित और सक्षम है."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -408,11 +416,11 @@ msgstr ""
 "बदलाब लाने के लिए,\n"
 "क्लिक करें * चिह्न पर पहले"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "उपयोगकर्ता खाता बनाएँ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -420,11 +428,11 @@ msgstr ""
 "उपयोगकर्ता खाता बनाने के लिए,\n"
 "क्लिक करें * चिह्न पर पहले"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "चयनित उपयोगकर्ता खाता को हटायें"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -432,8 +440,9 @@ msgstr ""
 "चयनित उपयोगकर्ता खाता को हटाने के लिए,\n"
 "क्लिक करें * चिह्न पर पहले"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "मेरा खाता"
 
 #: ../src/pw-utils.c:81
@@ -814,33 +823,33 @@ msgstr "अपना मौजूदा कूटशब्द फिर टा�
 msgid "Password could not be changed"
 msgstr "आपका कूटशब्द बदला गया है"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "चुनें"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "अधिक छवियाँ के लिए ब्राउज़ करें"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "खोलें (_O)"
 
 # #-#-#-#-#  gnome-applets.gnome-2-2.hi.po (gnome-applets 2.x)  #-#-#-#-#
 # gtk/gtkinputdialog.c:238
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "छिव अक्षम करें"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "एक तस्वीर लें... "
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "अधिक छवियाँ के लिए ब्राउज़ करें…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s के द्वारा प्रयुक्त"
@@ -911,12 +920,6 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
-
-#  set the timeout value  label with correct value of timeout
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "उपयोगकर्ता खाता जोड़ें"
 
 #~ msgid "Login Options"
 #~ msgstr "लॉगिन विकल्प"

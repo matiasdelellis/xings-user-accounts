@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2011-04-04 15:55+0600\n"
 "Last-Translator: Zenat Rahnuma <zenat@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
@@ -187,12 +187,13 @@ msgstr ""
 "সাফল্যের সাথে আপনার আঙ্গুলের ছাপ সংরক্ষিত হয়েছে। আঙ্গুলের ছাপ রীডার সহযোগে আপনি "
 "এখন লগ-ইন করতে সক্ষম হবেন।"
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 #, fuzzy
 msgid "Users"
 msgstr "ব্যবহারকারীর নাম"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 #, fuzzy
 msgid "Add or remove users and change your password"
 msgstr "ব্যবহারকারী যোগ অথবা অপসারণ"
@@ -201,14 +202,20 @@ msgstr "ব্যবহারকারী যোগ অথবা অপসার
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "লগ ইন;নাম;ফিঙ্গারপ্রিন্ট;এভাটার;লোগো;ফেস;পাসওয়ার্ড;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "অন্যান্য একাউন্ট"
+
 #: ../data/password-dialog.ui.h:1
 #, fuzzy
 msgid "Change Password"
 msgstr "পাসওয়ার্ড পরিবর্তন (_s)"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "বাতিল (_C)"
 
@@ -302,26 +309,26 @@ msgstr "আমার একাউন্ট"
 msgid "Other Accounts"
 msgstr "অন্যান্য একাউন্ট"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "ব্যবহাকারী মুছে ফেলতে ব্যর্থ"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "ব্যবহারকারী তৈরি করতে ব্যর্থ"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "আপনি আপনার নিজের একাউন্ট মুছে ফেলতে পারবেননা।"
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s এখনো লগ ইন রয়েছে"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -329,12 +336,12 @@ msgstr ""
 "ব্যবহারকারীরা লগইন থাকা অবস্থায় তাদেরকে মুছে ফেললে সিস্টেমে অসামঞ্জস্য অবস্থা হতে "
 "পারে।"
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "%s ফইলটি রেখে দিতে চান?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -342,40 +349,40 @@ msgstr ""
 "ব্যবহারকারীর একাউন্ট মুছে ফেলার সময় প্রধান ডিরেক্টরি, মেইল স্পুল এবং অস্থায়ী ফাইল "
 "রেখে দেওয়া যায়।"
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "ফাইল মুছে ফেলুন (_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "ফাইল রাখুন (_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr ""
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "ফাইল মুছে ফেলুন (_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "একাউন্ট নিষ্ক্রিয়"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "পরবর্তী লগ ইনে নির্ধারণ"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "একটিও না"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr ""
 
@@ -383,7 +390,7 @@ msgstr ""
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr ""
@@ -392,22 +399,22 @@ msgstr ""
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "একাউন্ট সার্ভিসের সাথে যোগাযোগ করতে ব্যর্থ"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr ""
 "অনুগ্রহপূর্বক নিশ্চিত হোন যে একাউন্ট সার্ভিস সঠিকভাবে ইনস্টল ও সক্রিয় করা আছে কি না"
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -415,12 +422,12 @@ msgstr ""
 "পরিবর্তন করতে,\n"
 "*আইকনটি প্রথমে ক্লিক করুন"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 #, fuzzy
 msgid "Create a user account"
 msgstr "নতুন অবস্থান তৈরি"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 #, fuzzy
 msgid ""
 "To create a user account,\n"
@@ -429,20 +436,21 @@ msgstr ""
 "ব্যবহারকারী তৈরি করতে,\n"
 "*আইকনটি প্রথমে ক্লিক করুন"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 #, fuzzy
 msgid "Delete the selected user account"
 msgstr "নির্বাচিত ব্যবহারকারী মুছে ফেলুন"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 #, fuzzy
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
 msgstr "নির্বাচিত ব্যবহারকারী মুছে ফেলতে,*আইকনটি প্রথমে ক্লিক করুন"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "আমার একাউন্ট"
 
 #: ../src/pw-utils.c:81
@@ -819,33 +827,33 @@ msgstr "অনুগ্রহ করে আপনার বর্তমান �
 msgid "Password could not be changed"
 msgstr "পাসওয়ার্ড পরিবর্তন করা যাবেনা"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "নির্বাচন"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "আরো ছবির জন্য ব্রাউজ"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr ""
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "চিত্র নিষ্ক্রিয় "
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 #, fuzzy
 msgid "Take a photo…"
 msgstr "ফটো তুলুন..."
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 #, fuzzy
 msgid "Browse for more pictures…"
 msgstr "আরো ছবির জন্য ব্রাউজ"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s দ্বারা ব্যবহৃত"
@@ -913,11 +921,6 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "অন্যান্য একাউন্ট"
 
 #~ msgid "Login Options"
 #~ msgstr "লগইন অপশন"

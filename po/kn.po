@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2014-12-24 15:59+0530\n"
 "Last-Translator: Shankar Prasad <svenkate AT redhat Dot com>\n"
 "Language-Team: American English <kde-i18n-doc@kde.org>\n"
@@ -171,11 +171,12 @@ msgstr ""
 "ನಿಮ್ಮ ಬೆರಳಗುರುತನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ. ಈಗ ನೀವು ನಿಮ್ಮ ಬೆರಳಗುರುತಿನ ಓದುಗನನ್ನು "
 "ಬಳಸಿಕೊಂಡು ಪ್ರವೇಶಿಸಬಹುದಾಗಿದೆ."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "ಬಳಕೆದಾರರು"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿ ಅಥವ ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಿ"
 
@@ -183,13 +184,19 @@ msgstr "ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿ ಅಥವ ತೆ
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "ಪ್ರವೇಶ;ಹೆಸರು;ಬೆರಳಗುರುತ;ಅವತಾರ;ಲಾಂಛನ;ಮುಖ;ಗುಪ್ತಪದ;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "ಇತರೆ ಖಾತೆಗಳು"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "ರದ್ದು ಮಾಡು (_C)"
 
@@ -276,25 +283,25 @@ msgstr "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕು"
 msgid "Other Accounts"
 msgstr "ಇತರೆ ಖಾತೆಗಳು"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "ಬಳಕೆದಾರನನ್ನು ಅಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 msgid "Failed to revoke remotely managed user"
 msgstr "ದೂರದಿಂದ ನೋಡಿಕೊಳ್ಳಲಾಗುವ ಬಳಕೆದಾರನನ್ನು ರದ್ದುಗೊಳಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "ನೀವು ನಿಮ್ಮದೆ ಖಾತೆಯನ್ನು ಅಳಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ"
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s ಇನ್ನೂ ಸಹ ಒಳಗಿದ್ದಾರೆ"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -302,12 +309,12 @@ msgstr ""
 "ಬಳಕೆದಾರರು ಒಳಗೆ ಪ್ರವೇಶಿಸಿದಾಗ ಅವರನ್ನು ಅಳಿಸುವುದರಿಂದ ವ್ಯವಸ್ಥೆಯು ಒಂದು ಅಸ್ಥಿರ ಸ್ಥಿತಿಯಲ್ಲಿ "
 "ಇರಿಸುತ್ತದೆ."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "ನೀವು %s ರವರ ಕಡತಗಳನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು ಬಯಸುವಿರಾ?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -315,39 +322,39 @@ msgstr ""
 "ಬಳಕೆದಾರರ ಖಾತೆಯನ್ನು ಅಳಿಸುವಾಗ ನೆಲೆ ಕೋಶವನ್ನು, ಅಂಚೆ ಸ್ಪೂಲ್ ಅನ್ನು ಮತ್ತು ತಾತ್ಕಾಲಿಕ "
 "ಕಡತಗಳನ್ನು ಹಾಗೆಯೆ ಇರಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿರುತ್ತದೆ."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "ಕಡತಗಳನ್ನು ಅಳಿಸು (_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "ಕಡತಗಳನ್ನು ಇರಿಸಿಕೊ (_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "ದೂರದಿಂದ ನೋಡಿಕೊಳ್ಳಲಾಗುವ %s ನ ಖಾತೆಯನ್ನು ರದ್ದುಗೊಳಿಸಲು ನೀವು ಖಚಿತವೆ?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 msgid "_Delete"
 msgstr "ಅಳಿಸು (_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "ಖಾತೆಯನ್ನು ಅಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ ಹೊಂದಿಸಲಾಗುತ್ತದೆ"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "ಯಾವುದೂ ಇಲ್ಲ"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "ಪ್ರವೇಶಿಸಲಾಗಿದೆ"
 
@@ -355,7 +362,7 @@ msgstr "ಪ್ರವೇಶಿಸಲಾಗಿದೆ"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -364,23 +371,23 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "ಖಾತೆಗಳ ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಲು ವಿಫಲಗೊಂಡಿದೆ"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr ""
 "AccountService ಅನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗಿದೆಯೆ ಮತ್ತು ಸಕ್ರಿಯಗೊಂಡಿದೆಯೆ ಎಂದು "
 "ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -388,11 +395,11 @@ msgstr ""
 "ಬದಲಾವಣೆಗಳನ್ನು ಮಾಡಲು,\n"
 "* ಚಿಹ್ನೆಯ ಮೇಲೆ ಮೊದಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "ಬಳಕೆದಾರನನ್ನು ರಚಿಸು"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -400,11 +407,11 @@ msgstr ""
 "ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ರಚಿಸಲು,\n"
 "ಮೊದಲು * ಚಿಹ್ನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "ಆಯ್ದ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಅಳಿಸಿ"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -412,8 +419,9 @@ msgstr ""
 "ಆಯ್ದ ಬಳಕೆದಾರ ಖಾತೆಯನ್ನು ಅಳಿಸಲು,\n"
 "ಮೊದಲು * ಚಿಹ್ನೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "ನನ್ನ ಖಾತೆ"
 
 #: ../src/pw-utils.c:81
@@ -793,31 +801,31 @@ msgstr "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಈಗಿನ ಗುಪ್ತಪ
 msgid "Password could not be changed"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ."
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "ಆರಿಸು"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "ಹೆಚ್ಚಿನ ಚಿತ್ರಗಳಿಗಾಗಿ ನೋಡು"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "ತೆರೆ (_O)"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "ಚಿತ್ರವನ್ನು ಅಶಕ್ತಗೊಳಿಸು"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "ಒಂದು ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ..."
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "ಹೆಚ್ಚಿನ ಚಿತ್ರಗಳಿಗಾಗಿ ನೋಡು…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s ಇಂದ ಬಳಸಲಾಗಿದೆ"
@@ -888,11 +896,6 @@ msgstr "%b %e"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%b %e, %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "ಇತರೆ ಖಾತೆಗಳು"
 
 #~ msgid "Login Options"
 #~ msgstr "ಪ್ರವೇಶದ ಆಯ್ಕೆಗಳು"

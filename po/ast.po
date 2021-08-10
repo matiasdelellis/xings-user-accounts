@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: control-center-2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2011-10-23 19:59+0100\n"
 "Last-Translator: ivarela <ivarela@softastur.org>\n"
 "Language-Team: Softastur <alministradores@softastur.org>\n"
@@ -175,12 +175,13 @@ msgstr ""
 "La to buelga dixital guardóse correutamente. Agora deberíes poder aniciar "
 "sesión emplegando'l llector de buelgues dixital."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 #, fuzzy
 msgid "Users"
 msgstr "Nome d'usuariu/a"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 #, fuzzy
 msgid "Add or remove users and change your password"
 msgstr "Amestar o quitar usuarios"
@@ -189,14 +190,20 @@ msgstr "Amestar o quitar usuarios"
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "aniciu;sesión;nome;buelga;avatar;logu;cara;contraseña;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "Otres cuentes"
+
 #: ../data/password-dialog.ui.h:1
 #, fuzzy
 msgid "Change Password"
 msgstr "Camudar la Contraseña"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "_Encaboxar"
 
@@ -289,26 +296,26 @@ msgstr "La mio cuenta"
 msgid "Other Accounts"
 msgstr "Otres cuentes"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "Falló al desaniciar l'usuariu"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "Falló al crear l'usuariu"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "Nun pues desaniciar la to propia cuenta."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s aínda ta rexistráu nel sistema"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -316,12 +323,12 @@ msgstr ""
 "Desaniciar a un usuariu mentanto ta coneutáu nel sistema pue dexar al "
 "sistema nun estáu inconsistente."
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "¿Quies caltener los ficheros de %s?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -329,40 +336,40 @@ msgstr ""
 "Ye dable caltener la carpeta personal, el «spool» del corréu y los ficheros "
 "temporales al desaniciar una cuenta d'usuariu."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "_Desaniciar ficheros"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "_Caltener ficheros"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "¿Tas seguru de que quies desaniciar la cuenta?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "Desaniciar"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "Cuenta desactivada"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "Pa configurar nel siguiente aniciu de sesión"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "Dengún"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr ""
 
@@ -370,7 +377,7 @@ msgstr ""
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr ""
@@ -379,21 +386,21 @@ msgstr ""
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "Falló al contautar col serviciu de cuentes"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "Asegúrate de que'l serviciu de cuentes ta instaláu y activáu."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -401,12 +408,12 @@ msgstr ""
 "Pa facer los cambeos\n"
 "calca primero l'iconu *"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 #, fuzzy
 msgid "Create a user account"
 msgstr "Crear una cuenta nueva"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 #, fuzzy
 msgid ""
 "To create a user account,\n"
@@ -415,12 +422,12 @@ msgstr ""
 "Pa crear un usuariu\n"
 "calca primero l'iconu *"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 #, fuzzy
 msgid "Delete the selected user account"
 msgstr "Desaniciar l'usuariu esbilláu"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 #, fuzzy
 msgid ""
 "To delete the selected user account,\n"
@@ -429,8 +436,9 @@ msgstr ""
 "Pa desaniciar l'usuariu esbilláu\n"
 "calca primero l'iconu *"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "La mio cuenta"
 
 #: ../src/pw-utils.c:81
@@ -804,33 +812,33 @@ msgstr "Escribi otra vuelta la contraseña actual."
 msgid "Password could not be changed"
 msgstr "Nun pudo camudase la contraseña"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "Seleicionar"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "Restolar pa buscar más imáxenes"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr ""
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "Desactivar imaxe"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 #, fuzzy
 msgid "Take a photo…"
 msgstr "Tomar una semeya…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 #, fuzzy
 msgid "Browse for more pictures…"
 msgstr "Restolar pa buscar más imáxenes"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "Usada por %s"
@@ -907,11 +915,6 @@ msgstr "%d %b %Y"
 #, fuzzy
 msgid "%b %e, %Y"
 msgstr "%d %b %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "Otres cuentes"
 
 #~ msgid "Login Options"
 #~ msgstr "Opciones d'aniciu de sesión"

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2016-09-05 07:22-0600\n"
 "Last-Translator: A S Alam <aalam@users.sf.net>\n"
 "Language-Team: Punjabi <punjabi-users@list.sf.net>\n"
@@ -168,11 +168,12 @@ msgstr ""
 "ਤੁਹਾਡੇ ਫਿੰਗਰਪਰਿੰਟ ਸਫ਼ਲਤਾ ਨਾਲ ਸੰਭਾਲੇ ਗਏ ਹਨ। ਹੁਣ ਤੁਸੀਂ ਫਿੰਗਰਪਰਿੰਟ ਰੀਡਰ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਲਾਗਇਨ "
 "ਕਰਨ ਦੇ ਯੋਗ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।"
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "ਯੂਜ਼ਰ"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 msgid "Add or remove users and change your password"
 msgstr "ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਜੋੜੋ ਜਾਂ ਹਟਾਉ, ਅਤੇ ਆਪਣਾ ਪਾਸਵਰਡ ਬਦਲੋ"
 
@@ -180,13 +181,19 @@ msgstr "ਵਰਤੋਂਕਾਰਾਂ ਨੂੰ ਜੋੜੋ ਜਾਂ ਹਟ�
 msgid "Login;Name;Fingerprint;Avatar;Logo;Face;Password;"
 msgstr "ਲਾਗਇਨ;ਨਾਂ;ਫਿੰਗਰਪਰਿੰਟ;ਅਵਤਾਰ;ਲੋਗੋ;ਚਿਹਰਾ;ਪਾਸਵਰਡ;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
+
 #: ../data/password-dialog.ui.h:1
 msgid "Change Password"
 msgstr "ਪਾਸਵਰਡ ਬਦਲੋ"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "ਰੱਦ ਕਰੋ(_C)"
 
@@ -273,75 +280,75 @@ msgstr "ਅਕਾਊਂਟ ਹਟਾਓ"
 msgid "Other Accounts"
 msgstr "ਹੋਰ ਅਕਾਊਂਟ"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "ਯੂਜ਼ਰ ਹਟਾਉਣ ਲਈ ਫੇਲ੍ਹ"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 msgid "Failed to revoke remotely managed user"
 msgstr "ਰਿਮੋਟ ਤੋਂ ਪ੍ਰਬੰਧ ਅਧੀਨ ਵਰਤੋਂਕਾਰ ਮਨਸੂਖ ਕਰਨ ਲਈ ਫੇਲ੍ਹ"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "ਤੁਸੀਂ ਆਪਣਾ ਖੁਦ ਦਾ ਅਕਾਊਂਟ ਹਟਾ ਨਹੀਂ ਸਕਦੇ।"
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s ਹਾਲੇ ਲਾਗਇਨ ਹੈ"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
 msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਲਾਗਇਨ ਹੋਵੇ ਤਾਂ ਉਸ ਨੂੰ ਹਟਾਉਣ ਨਾਲ ਸਿਸਟਮ ਖਰਾਬ ਹੋਣ ਦੀ ਹਾਲਤ 'ਚ ਆ ਸਕਦਾ ਹੈ।"
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "ਕੀ ਤੁਸੀਂ %s ਦੀਆਂ ਫਾਇਲਾਂ ਰੱਖਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
 msgstr ""
 "ਘਰ ਡਾਇਰੈਕਟਰੀ, ਮੇਲ ਸਪੂਲ ਅਤੇ ਆਰਜ਼ੀ ਫਾਇਲਾਂ ਨੂੰ ਰੱਖਣਾ ਸੰਭਵ ਹੈ, ਜਦੋਂ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਹਟਾਉਣਾ ਹੋਵੇ।"
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "ਫਾਇਲਾਂ ਹਟਾਓ(_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "ਫਾਇਲਾਂ ਰੱਖੋ(_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "ਕੀ ਤੁਸੀਂ ਰਿਮੋਟ ਤੋਂ ਪ੍ਰਬੰਧ ਕੀਤੇ %s ਦੇ ਖਾਤੇ ਨੂੰ ਮਨਸੂਖ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 msgid "_Delete"
 msgstr "ਹਟਾਓ(_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "ਅਕਾਊਂਟ ਬੰਦ ਹੈ"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "ਅਗਲੇ ਲਾਗਇਨ ਸਮੇਂ ਸੈੱਟ ਕਰੋ"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "ਕੋਈ ਨਹੀਂ"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "ਲਾਗਇਨ ਕੀਤਾ"
 
@@ -349,7 +356,7 @@ msgstr "ਲਾਗਇਨ ਕੀਤਾ"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr "%k:%M"
@@ -358,21 +365,21 @@ msgstr "%k:%M"
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "ਅਕਾਊਂਟ ਸਰਵਿਸ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਲਈ ਫੇਲ੍ਹ"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "ਯਕੀਨੀ ਬਣਾਉ ਕਿ ਅਕਾਊਂਟਸਰਵਿਸ (AccountService) ਇੰਸਟਾਲ ਹੈ ਅਤੇ ਯੋਗ ਹੈ"
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -380,11 +387,11 @@ msgstr ""
 "ਬਦਲਾਅ ਕਰਨ ਲਈ,\n"
 "ਪਹਿਲਾਂ * ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "ਨਵਾਂ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਬਣਾਓ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -392,11 +399,11 @@ msgstr ""
 "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਬਣਾਉਣ ਲਈ,\n"
 "ਪਹਿਲਾਂ * ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "ਚੁਣਿਆ ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਹਟਾਓ"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -404,8 +411,9 @@ msgstr ""
 "ਚੁਣੇ ਯੂਜ਼ਰ ਨੂੰ ਅਕਾਊਂਟ ਹਟਾਉਣ ਲਈ,\n"
 "ਪਹਿਲਾਂ * ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "ਮੇਰਾ ਅਕਾਊਂਟ"
 
 #: ../src/pw-utils.c:81
@@ -780,31 +788,31 @@ msgstr "ਆਪਣਾ ਮੌਜੂਦਾ ਪਾਸਵਰਡ ਫੇਰ ਲਿਖ�
 msgid "Password could not be changed"
 msgstr "ਪਾਸਵਰਡ ਬਦਲਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ।"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "ਚੁਣੋ"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "ਹੋਰ ਤਸਵੀਰਾਂ ਵੇਖੋ"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr "ਖੋਲ੍ਹੋ(_O)"
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "ਚਿੱਤਰ ਹਟਾਓ"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "…ਫੋਟੋ ਲਵੋ"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "…ਹੋਰ ਤਸਵੀਰਾਂ ਵੇਖੋ"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s ਵਲੋਂ ਵਰਤੀ"
@@ -874,11 +882,6 @@ msgstr "%e %b"
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr "%e %b %Y"
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "ਯੂਜ਼ਰ ਅਕਾਊਂਟ ਸ਼ਾਮਲ"
 
 #~ msgid "Login Options"
 #~ msgstr "ਲਾਗਇਨ ਚੋਣ"

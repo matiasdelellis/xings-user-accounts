@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-21 12:54-0300\n"
+"POT-Creation-Date: 2021-08-10 09:54-0300\n"
 "PO-Revision-Date: 2013-02-16 10:05+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -167,11 +167,12 @@ msgstr ""
 "بارماق ئىزىڭىز مۇۋەپپەقىيەتلىك ساقلاندى. ئەمدى بارماق ئىزى ئوقۇغۇچىڭىز "
 "ئارقىلىق تىزىمغا كىرەلەيسىز."
 
-#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:42
+#: ../data/xings-user-accounts.desktop.in.h:1 ../src/xings-user-accounts.c:49
 msgid "Users"
 msgstr "ئىشلەتكۈچىلەر"
 
 #: ../data/xings-user-accounts.desktop.in.h:2
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:2
 #, fuzzy
 msgid "Add or remove users and change your password"
 msgstr "ئىشلەتكۈچى قوشىدۇ ياكى ئۆچۈرىدۇ"
@@ -182,14 +183,20 @@ msgstr ""
 "Login;Name;Fingerprint;Avatar;Logo;Face;Password;تىزىمغا كىر;ئات;بارماق ئىزى;"
 "سىما;تۇغ;چىراي;ئىم;"
 
+#: ../data/appdata/org.xings.UserAccounts.metainfo.xml.in.h:1
+#: ../src/xings-user-accounts.c:75
+#, fuzzy
+msgid "User Accounts"
+msgstr "باشقا ھېساباتلار"
+
 #: ../data/password-dialog.ui.h:1
 #, fuzzy
 msgid "Change Password"
 msgstr "بۇ ئىشلەتكۈچىنىڭ ئىمنى ئۆزگەرتىدۇ"
 
-#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:698
-#: ../src/cc-user-panel.c:716 ../src/um-fingerprint-dialog.c:268
-#: ../src/um-photo-dialog.c:94 ../src/um-photo-dialog.c:714
+#: ../data/password-dialog.ui.h:2 ../src/cc-user-panel.c:712
+#: ../src/cc-user-panel.c:730 ../src/um-fingerprint-dialog.c:268
+#: ../src/um-photo-dialog.c:102 ../src/um-photo-dialog.c:203
 msgid "_Cancel"
 msgstr "ئەمەلدىن قالدۇر(_C)"
 
@@ -279,26 +286,26 @@ msgstr "ھېساباتنى چىقىرىۋېتىش"
 msgid "Other Accounts"
 msgstr "باشقا ھېساباتلار"
 
-#: ../src/cc-user-panel.c:438
+#: ../src/cc-user-panel.c:452
 msgid "Failed to delete user"
 msgstr "ئىشلەتكۈچى ئۆچۈرۈش مەغلۇپ بولدى"
 
-#: ../src/cc-user-panel.c:499 ../src/cc-user-panel.c:559
-#: ../src/cc-user-panel.c:612
+#: ../src/cc-user-panel.c:513 ../src/cc-user-panel.c:573
+#: ../src/cc-user-panel.c:626
 #, fuzzy
 msgid "Failed to revoke remotely managed user"
 msgstr "ئىشلەتكۈچى ئۆچۈرۈش مەغلۇپ بولدى"
 
-#: ../src/cc-user-panel.c:667
+#: ../src/cc-user-panel.c:681
 msgid "You cannot delete your own account."
 msgstr "ئۆزىڭىزنىڭ ھېساباتىنى ئۆچۈرەلمەيسىز."
 
-#: ../src/cc-user-panel.c:676
+#: ../src/cc-user-panel.c:690
 #, c-format
 msgid "%s is still logged in"
 msgstr "%s يەنىلا تىزىمدا بار"
 
-#: ../src/cc-user-panel.c:680
+#: ../src/cc-user-panel.c:694
 msgid ""
 "Deleting a user while they are logged in can leave the system in an "
 "inconsistent state."
@@ -306,12 +313,12 @@ msgstr ""
 "ئىشلەتكۈچى سىستېمىنى ئىشلىتىۋاتقان ئۇنى ئۆچۈرسە سىستېما مۇقىمسىز ھالەتكە "
 "كېلىپ قالىدۇ"
 
-#: ../src/cc-user-panel.c:689
+#: ../src/cc-user-panel.c:703
 #, c-format
 msgid "Do you want to keep %s's files?"
 msgstr "%s نىڭ ھۆججىتىنى ساقلاپ قالامسىز؟"
 
-#: ../src/cc-user-panel.c:693
+#: ../src/cc-user-panel.c:707
 msgid ""
 "It is possible to keep the home directory, mail spool and temporary files "
 "around when deleting a user account."
@@ -319,40 +326,40 @@ msgstr ""
 "ئىشلەتكۈچى ھېساباتىنى ئۆچۈرگەندە ماكان مۇندەرىجە، ئېلخەت مۇندەرىجە ۋە "
 "ۋاقىتلىق ھۆججەتنى ساقلاپ قېلىشقا بولىدۇ."
 
-#: ../src/cc-user-panel.c:696
+#: ../src/cc-user-panel.c:710
 msgid "_Delete Files"
 msgstr "ھۆججەت ئۆچۈر(_D)"
 
-#: ../src/cc-user-panel.c:697
+#: ../src/cc-user-panel.c:711
 msgid "_Keep Files"
 msgstr "ھۆججەتنى ساقلاپ قال(_K)"
 
-#: ../src/cc-user-panel.c:711
+#: ../src/cc-user-panel.c:725
 #, fuzzy, c-format
 msgid "Are you sure you want to revoke remotely managed %s's account?"
 msgstr "ھېساباتنى راستلا چىقىرىۋېتەمسىز؟"
 
-#: ../src/cc-user-panel.c:715
+#: ../src/cc-user-panel.c:729
 #, fuzzy
 msgid "_Delete"
 msgstr "ھۆججەت ئۆچۈر(_D)"
 
-#: ../src/cc-user-panel.c:767
+#: ../src/cc-user-panel.c:781
 msgctxt "Password mode"
 msgid "Account disabled"
 msgstr "ھېسابات چەكلەنگەن"
 
-#: ../src/cc-user-panel.c:775
+#: ../src/cc-user-panel.c:789
 msgctxt "Password mode"
 msgid "To be set at next login"
 msgstr "كېيىنكى قېتىم تىزىمغا كىرگەندە تەڭشە"
 
-#: ../src/cc-user-panel.c:778
+#: ../src/cc-user-panel.c:792
 msgctxt "Password mode"
 msgid "None"
 msgstr "يوق"
 
-#: ../src/cc-user-panel.c:827
+#: ../src/cc-user-panel.c:841
 msgid "Logged in"
 msgstr "كىرگەن"
 
@@ -360,7 +367,7 @@ msgstr "كىرگەن"
 #. It indicates a login time which follows a date.
 #. Translators: This is a time format string in the style of "22:58".
 #. * It indicates a login time which follows a date.
-#: ../src/cc-user-panel.c:834 ../src/um-history-dialog.c:177
+#: ../src/cc-user-panel.c:848 ../src/um-history-dialog.c:177
 msgctxt "login date-time"
 msgid "%k:%M"
 msgstr ""
@@ -369,21 +376,21 @@ msgstr ""
 #. The first %s is a date, and the second %s a time.
 #. Translators: This indicates a login date-time.
 #. * The first %s is a date, and the second %s a time.
-#: ../src/cc-user-panel.c:838 ../src/um-history-dialog.c:180
+#: ../src/cc-user-panel.c:852 ../src/um-history-dialog.c:180
 #, c-format
 msgctxt "login date-time"
 msgid "%s, %s"
 msgstr ""
 
-#: ../src/cc-user-panel.c:1113
+#: ../src/cc-user-panel.c:1127
 msgid "Failed to contact the accounts service"
 msgstr "ھېسابات مۇلازىمېتىرى بىلەن ئالاقىلىشىش مەغلۇپ بولدى"
 
-#: ../src/cc-user-panel.c:1115
+#: ../src/cc-user-panel.c:1129
 msgid "Please make sure that the AccountService is installed and enabled."
 msgstr "AccountService توغرا ئورنىتىلىپ قوزغىتىلغانلىقىنى جەزملەڭ."
 
-#: ../src/cc-user-panel.c:1156
+#: ../src/cc-user-panel.c:1170
 msgid ""
 "To make changes,\n"
 "click the * icon first"
@@ -391,11 +398,11 @@ msgstr ""
 "ئۆزگەرتىشتە،\n"
 "ئالدى بىلەن * سىنبەلگىنى چېكىڭ"
 
-#: ../src/cc-user-panel.c:1197
+#: ../src/cc-user-panel.c:1211
 msgid "Create a user account"
 msgstr "بىر ئىشلەتكۈچى ھېساباتى قۇرىدۇ"
 
-#: ../src/cc-user-panel.c:1208 ../src/cc-user-panel.c:1499
+#: ../src/cc-user-panel.c:1222 ../src/cc-user-panel.c:1515
 msgid ""
 "To create a user account,\n"
 "click the * icon first"
@@ -403,11 +410,11 @@ msgstr ""
 "ئىشلەتكۈچى ھېساباتى قۇرۇش ئۈچۈن،\n"
 "ئالدى بىلەن * سىنبەلگىسىنى چېكىڭ"
 
-#: ../src/cc-user-panel.c:1218
+#: ../src/cc-user-panel.c:1232
 msgid "Delete the selected user account"
 msgstr "تاللانغان ئىشلەتكۈچى ھېساباتىنى ئۆچۈرىدۇ"
 
-#: ../src/cc-user-panel.c:1230 ../src/cc-user-panel.c:1504
+#: ../src/cc-user-panel.c:1244 ../src/cc-user-panel.c:1520
 msgid ""
 "To delete the selected user account,\n"
 "click the * icon first"
@@ -415,8 +422,9 @@ msgstr ""
 "تاللانغان ئىشلەتكۈچى ھېساباتىنى ئۆچۈرۈش ئۈچۈن،\n"
 "ئالدى بىلەن * سىنبەلگىسىنى چېكىڭ"
 
-#: ../src/cc-user-panel.c:1408
-msgid "My Account"
+#: ../src/cc-user-panel.c:1422
+#, fuzzy
+msgid "Your Account"
 msgstr "ھېساباتىم"
 
 #: ../src/pw-utils.c:81
@@ -788,31 +796,31 @@ msgstr "ھازىرقى ئىمنى قايتا كىرگۈزۈڭ."
 msgid "Password could not be changed"
 msgstr "ئىمنى ئۆزگەرتكىلى بولمىدى"
 
-#: ../src/um-photo-dialog.c:95
+#: ../src/um-photo-dialog.c:103
 msgid "Select"
 msgstr "تاللا"
 
-#: ../src/um-photo-dialog.c:711
+#: ../src/um-photo-dialog.c:200
 msgid "Browse for more pictures"
 msgstr "تېخىمۇ كۆپ سۈرەتكە كۆز يۈگۈرت"
 
-#: ../src/um-photo-dialog.c:715
+#: ../src/um-photo-dialog.c:204
 msgid "_Open"
 msgstr ""
 
-#: ../src/um-photo-dialog.c:945
+#: ../src/um-photo-dialog.c:507
 msgid "Disable image"
 msgstr "سۈرەتنى ئىناۋەتسىز قىل"
 
-#: ../src/um-photo-dialog.c:963
+#: ../src/um-photo-dialog.c:529
 msgid "Take a photo…"
 msgstr "سۈرەت تارتىش…"
 
-#: ../src/um-photo-dialog.c:981
+#: ../src/um-photo-dialog.c:551
 msgid "Browse for more pictures…"
 msgstr "تېخىمۇ كۆپ سۈرەتكە كۆز يۈگۈرت…"
 
-#: ../src/um-photo-dialog.c:1209
+#: ../src/um-photo-dialog.c:781
 #, c-format
 msgid "Used by %s"
 msgstr "%s ئىشلەتكەن"
@@ -886,11 +894,6 @@ msgstr ""
 #: ../src/um-utils.c:827
 msgid "%b %e, %Y"
 msgstr ""
-
-#: ../src/xings-user-accounts.c:66
-#, fuzzy
-msgid "User Accounts"
-msgstr "باشقا ھېساباتلار"
 
 #~ msgid "Login Options"
 #~ msgstr "تىزىمغا كىرىش تاللانمىسى"

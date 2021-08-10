@@ -35,6 +35,9 @@
 
 #include "um-utils.h"
 
+#define LOGGED_IN_EMBLEM_SIZE 15
+#define LOGGED_IN_EMBLEM_ICON "emblem-default"
+
 typedef struct {
 	gchar   *text;
 	gchar   *placeholder_str;
@@ -837,49 +840,42 @@ get_smart_date (GDateTime *date)
 static GdkPixbuf *
 logged_in_pixbuf (GdkPixbuf *pixbuf, gint scale)
 {
-	cairo_format_t format;
-	cairo_surface_t *surface;
-	cairo_pattern_t *pattern;
-	cairo_t *cr;
-	gint width, height;
-	GdkRGBA color;
+	GdkPixbuf *emblem = NULL;
+	gint width, height, emblem_wide;
+	GError *error = NULL;
+
+	emblem_wide = scale * LOGGED_IN_EMBLEM_SIZE;
+
+	emblem = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
+	                                   LOGGED_IN_EMBLEM_ICON,
+	                                   emblem_wide,
+	                                   GTK_ICON_LOOKUP_FORCE_SIZE,
+	                                   &error);
+
+	if (!emblem) {
+		g_warning ("Failed to load the logged icon: %s", error->message);
+		g_clear_error (&error);
+		return NULL;
+	}
 
 	width = gdk_pixbuf_get_width (pixbuf);
 	height = gdk_pixbuf_get_height (pixbuf);
 
-	g_return_val_if_fail (width > 15 && height > 15, pixbuf);
+	gdk_pixbuf_composite (emblem, pixbuf,
+	                      width - emblem_wide,
+	                      height - emblem_wide,
+	                      emblem_wide,
+	                      emblem_wide,
+	                      width - emblem_wide,
+	                      height - emblem_wide,
+	                      1.0,
+	                      1.0,
+	                      GDK_INTERP_BILINEAR,
+	                      255);
 
-	format = gdk_pixbuf_get_has_alpha (pixbuf) ? CAIRO_FORMAT_ARGB32 : CAIRO_FORMAT_RGB24;
-	surface = cairo_image_surface_create (format, width, height);
-	cr = cairo_create (surface);
+	g_object_unref (emblem);
 
-	gdk_cairo_set_source_pixbuf (cr, pixbuf, 0, 0);
-	cairo_paint (cr);
-
-	/* Draw pattern */
-	cairo_rectangle (cr, 0, 0, width, height);
-	pattern = cairo_pattern_create_radial (width - 9.5 * scale, height - 10 * scale, 0,
-	                                       width - 8.5 * scale, height - 7.5 * scale, 7.7 * scale);
-	cairo_pattern_add_color_stop_rgb (pattern, 0, 0.4, 0.9, 0);
-	cairo_pattern_add_color_stop_rgb (pattern, 0.7, 0.3, 0.6, 0);
-	cairo_pattern_add_color_stop_rgb (pattern, 0.8, 0.4, 0.4, 0.4);
-	cairo_pattern_add_color_stop_rgba (pattern, 1.0, 0, 0, 0, 0);
-	cairo_set_source (cr, pattern);
-	cairo_fill (cr);
-
-	/* Draw border */
-	cairo_set_line_width (cr, 0.9 * scale);
-	cairo_arc (cr, width - 8.5 * scale, height - 8.5 * scale, 6 * scale, 0, 2 * G_PI);
-	gdk_rgba_parse (&color, "#ffffff");
-	gdk_cairo_set_source_rgba (cr, &color);
-	cairo_stroke (cr);
-
-	pixbuf = gdk_pixbuf_get_from_surface (surface, 0, 0, width, height);
-
-	cairo_surface_finish (surface);
-	cairo_destroy (cr);
-
-	return pixbuf;
+	return g_object_ref (pixbuf);
 }
 
 cairo_surface_t *

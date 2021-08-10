@@ -285,7 +285,7 @@ user_removed (ActUserManager *um, ActUser *user, CcUserPanel *d)
 	GtkListStore *store;
 	GtkTreeIter iter, next;
 	ActUser *u;
-	gint key;
+	gint key = 0;
 
 	g_debug ("user removed: %s\n", act_user_get_user_name (user));
 	tv = (GtkTreeView *)get_widget (d, "list-treeview");

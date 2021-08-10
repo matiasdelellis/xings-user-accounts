@@ -467,13 +467,11 @@ setup_photo_popup (UmPhotoDialog *um)
 	GStrv settings_facesdirs = NULL;
 	GStrv system_facesdirs = NULL;
 	guint x = 0, y = 0;
-	gboolean none_item_shown;
+	gboolean none_item_shown = FALSE;
 	gboolean added_faces;
 
 	menu = gtk_menu_new ();
 	um->photo_popup = menu;
-
-	none_item_shown = added_faces = FALSE;
 
 	/* Add avatar from settings or default folders*/
 	settings_facesdirs = get_settings_facesdirs ();

@@ -42,8 +42,10 @@
 
 #include "xings-user-accounts-common.h"
 
-#define DEFAUL_IMAGE_SIZE 512
+#define DEFAULT_IMAGE_SIZE 512
 #define ROW_SPAN 6
+
+#define PREVIEW_IMAGE_WIDTH 96
 
 struct _UmPhotoDialog {
 	GtkWidget *photo_popup;
@@ -75,8 +77,8 @@ crop_dialog_response (GtkWidget     *dialog,
 
 	pb = cc_crop_area_get_picture (CC_CROP_AREA (um->crop_area));
 	pb2 = gdk_pixbuf_scale_simple (pb,
-	                               DEFAUL_IMAGE_SIZE,
-	                               DEFAUL_IMAGE_SIZE,
+	                               DEFAULT_IMAGE_SIZE,
+	                               DEFAULT_IMAGE_SIZE,
 	                               GDK_INTERP_BILINEAR);
 
 	set_user_icon_data (um->user, pb2);
@@ -152,558 +154,39 @@ file_chooser_response (GtkDialog     *chooser,
 	g_object_unref (pixbuf);
 }
 
-static char *
-expand_thumbnailing_script (const char *script,
-                            const int   size, 
-                            const char *inuri,
-                            const char *outfile)
-{
-	GString *str;
-	const char *p, *last;
-	char *localfile, *quoted;
-	gboolean got_in;
-
-	str = g_string_new (NULL);
-
-	got_in = FALSE;
-	last = script;
-	while ((p = strchr (last, '%')) != NULL)
-	{
-		g_string_append_len (str, last, p - last);
-		p++;
-
-		switch (*p) {
-			case 'u':
-				quoted = g_shell_quote (inuri);
-				g_string_append (str, quoted);
-				g_free (quoted);
-				got_in = TRUE;
-				p++;
-				break;
-			case 'i':
-				localfile = g_filename_from_uri (inuri, NULL, NULL);
-				if (localfile)
-				{
-					quoted = g_shell_quote (localfile);
-					g_string_append (str, quoted);
-					got_in = TRUE;
-					g_free (quoted);
-					g_free (localfile);
-				}
-				p++;
-				break;
-			case 'o':
-				quoted = g_shell_quote (outfile);
-				g_string_append (str, quoted);
-				g_free (quoted);
-				p++;
-				break;
-			case 's':
-				g_string_append_printf (str, "%d", size);
-				p++;
-				break;
-			case '%':
-				g_string_append_c (str, '%');
-				p++;
-				break;
-			case 0:
-			default:
-				break;
-		}
-		last = p;
-	}
-	g_string_append (str, last);
-
-	if (got_in)
-		return g_string_free (str, FALSE);
-
-	g_string_free (str, TRUE);
-
-	return NULL;
-}
-
-typedef struct {
-	gint     width;
-	gint     height;
-	gint     input_width;
-	gint     input_height;
-	gboolean preserve_aspect_ratio;
-} SizePrepareContext;
-
-static GdkPixbuf *
-gnome_desktop_thumbnail_scale_down_pixbuf (GdkPixbuf *pixbuf,
-                                           int        dest_width,
-                                           int        dest_height)
-{
-	int source_width, source_height;
-	int s_x1, s_y1, s_x2, s_y2;
-	int s_xfrac, s_yfrac;
-	int dx, dx_frac, dy, dy_frac;
-	div_t ddx, ddy;
-	int x, y;
-	int r, g, b, a;
-	int n_pixels;
-	gboolean has_alpha;
-	guchar *dest, *src, *xsrc, *src_pixels;
-	GdkPixbuf *dest_pixbuf;
-	int pixel_stride;
-	int source_rowstride, dest_rowstride;
-
-	if (dest_width == 0 || dest_height == 0) {
-		return NULL;
-	}
-
-	source_width = gdk_pixbuf_get_width (pixbuf);
-	source_height = gdk_pixbuf_get_height (pixbuf);
-
-	g_assert (source_width >= dest_width);
-	g_assert (source_height >= dest_height);
-
-	ddx = div (source_width, dest_width);
-	dx = ddx.quot;
-	dx_frac = ddx.rem;
-
-	ddy = div (source_height, dest_height);
-	dy = ddy.quot;
-	dy_frac = ddy.rem;
-
-	has_alpha = gdk_pixbuf_get_has_alpha (pixbuf);
-	source_rowstride = gdk_pixbuf_get_rowstride (pixbuf);
-	src_pixels = gdk_pixbuf_get_pixels (pixbuf);
-
-	dest_pixbuf = gdk_pixbuf_new (GDK_COLORSPACE_RGB, has_alpha, 8,
-	                              dest_width, dest_height);
-	dest = gdk_pixbuf_get_pixels (dest_pixbuf);
-	dest_rowstride = gdk_pixbuf_get_rowstride (dest_pixbuf);
-
-	pixel_stride = (has_alpha)?4:3;
-
-	s_y1 = 0;
-	s_yfrac = -dest_height/2;
-	while (s_y1 < source_height) {
-		s_y2 = s_y1 + dy;
-		s_yfrac += dy_frac;
-		if (s_yfrac > 0) {
-			s_y2++;
-			s_yfrac -= dest_height;
-		}
-
-		s_x1 = 0;
-		s_xfrac = -dest_width/2;
-		while (s_x1 < source_width) {
-			s_x2 = s_x1 + dx;
-			s_xfrac += dx_frac;
-			if (s_xfrac > 0) {
-				s_x2++;
-				s_xfrac -= dest_width;
-			}
-
-			/* Average block of [x1,x2[ x [y1,y2[ and store in dest */
-			r = g = b = a = 0;
-			n_pixels = 0;
-
-			src = src_pixels + s_y1 * source_rowstride + s_x1 * pixel_stride;
-			for (y = s_y1; y < s_y2; y++) {
-				xsrc = src;
-				if (has_alpha) {
-					for (x = 0; x < s_x2-s_x1; x++) {
-						n_pixels++;
-
-						r += xsrc[3] * xsrc[0];
-						g += xsrc[3] * xsrc[1];
-						b += xsrc[3] * xsrc[2];
-						a += xsrc[3];
-						xsrc += 4;
-					}
-				} else {
-					for (x = 0; x < s_x2-s_x1; x++) {
-						n_pixels++;
-						r += *xsrc++;
-						g += *xsrc++;
-						b += *xsrc++;
-					}
-				}
-				src += source_rowstride;
-			}
-
-			if (has_alpha) {
-				if (a != 0) {
-					*dest++ = r / a;
-					*dest++ = g / a;
-					*dest++ = b / a;
-					*dest++ = a / n_pixels;
-				} else {
-					*dest++ = 0;
-					*dest++ = 0;
-					*dest++ = 0;
-					*dest++ = 0;
-				}
-			} else {
-				*dest++ = r / n_pixels;
-				*dest++ = g / n_pixels;
-				*dest++ = b / n_pixels;
-			}
-
-			s_x1 = s_x2;
-		}
-		s_y1 = s_y2;
-		dest += dest_rowstride - dest_width * pixel_stride;
-	}
-
-	return dest_pixbuf;
-}
-
 static void
-size_prepared_cb (GdkPixbufLoader *loader, 
-                  int              width,
-                  int              height,
-                  gpointer         data)
+update_preview (GtkFileChooser *icon_chooser,
+                GtkWidget      *preview_widget)
 {
-	SizePrepareContext *info = data;
-
-	g_return_if_fail (width > 0 && height > 0);
-
-	info->input_width = width;
-	info->input_height = height;
-
-	if (width < info->width && height < info->height) return;
-
-	if (info->preserve_aspect_ratio && 
-		(info->width > 0 || info->height > 0)) {
-		if (info->width < 0)
-		{
-			width = width * (double)info->height/(double)height;
-			height = info->height;
-		}
-		else if (info->height < 0)
-		{
-			height = height * (double)info->width/(double)width;
-			width = info->width;
-		}
-		else if ((double)height * (double)info->width >
-		         (double)width * (double)info->height)
-		{
-			width = 0.5 + (double)width * (double)info->height / (double)height;
-			height = info->height;
-		}
-		else {
-			height = 0.5 + (double)height * (double)info->width / (double)width;
-			width = info->width;
-		}
-	}
-	else
-	{
-		if (info->width > 0)
-			width = info->width;
-		if (info->height > 0)
-			height = info->height;
-	}
-
-	gdk_pixbuf_loader_set_size (loader, width, height);
-}
-
-static GdkPixbuf *
-_gdk_pixbuf_new_from_uri_at_scale (const char *uri,
-                                   gint        width,
-                                   gint        height,
-                                   gboolean    preserve_aspect_ratio)
-{
-	gboolean result;
-	char buffer[0x1000];
-	gsize bytes_read;
-	GdkPixbufLoader *loader;
-	GdkPixbuf *pixbuf;  
-	GdkPixbufAnimation *animation;
-	GdkPixbufAnimationIter *iter;
-	gboolean has_frame;
-	SizePrepareContext info;
-	GFile *file;
-	GFileInfo *file_info;
-	GInputStream *input_stream;
-
-	g_return_val_if_fail (uri != NULL, NULL);
-
-	input_stream = NULL;
-
-	file = g_file_new_for_uri (uri);
-
- 	/* First see if we can get an input stream via preview::icon  */
-	file_info = g_file_query_info (file,
-	                               G_FILE_ATTRIBUTE_PREVIEW_ICON,
-	                               G_FILE_QUERY_INFO_NONE,
-	                               NULL,  /* GCancellable */
-	                               NULL); /* return location for GError */
-
-	if (file_info != NULL) {
-		GObject *object;
-
-		object = g_file_info_get_attribute_object (file_info,
-		                                           G_FILE_ATTRIBUTE_PREVIEW_ICON);
-
-		if (object != NULL && G_IS_LOADABLE_ICON (object)) {
-			input_stream = g_loadable_icon_load (G_LOADABLE_ICON (object),
-			                                     0,     /* size */
-			                                     NULL,  /* return location for type */
-			                                     NULL,  /* GCancellable */
-			                                     NULL); /* return location for GError */
-		}
-		g_object_unref (file_info);
-	}
-
-	if (input_stream == NULL) {
-		input_stream = G_INPUT_STREAM (g_file_read (file, NULL, NULL));
-		if (input_stream == NULL) {
-			g_object_unref (file);
-			return NULL;
-		}
-	}
-
-	loader = gdk_pixbuf_loader_new ();
-	if (1 <= width || 1 <= height) {
-		info.width = width;
-		info.height = height;
-		info.input_width = info.input_height = 0;
-		info.preserve_aspect_ratio = preserve_aspect_ratio;        
-		g_signal_connect (loader, "size-prepared", G_CALLBACK (size_prepared_cb), &info);
-	}
-
-	has_frame = FALSE;
-
-	result = FALSE;
-	while (!has_frame) {
-		bytes_read = g_input_stream_read (input_stream,
-		                                  buffer,
-		                                  sizeof (buffer),
-		                                  NULL,
-		                                  NULL);
-		if (bytes_read == -1) {
-			break;
-		}
-		result = TRUE;
-		if (bytes_read == 0) {
-			break;
-		}
-
-		if (!gdk_pixbuf_loader_write (loader,
-		                              (unsigned char *)buffer,
-		                              bytes_read,
-		                              NULL))
-		{
-			result = FALSE;
-			break;
-		}
-
-		animation = gdk_pixbuf_loader_get_animation (loader);
-		if (animation) {
-			iter = gdk_pixbuf_animation_get_iter (animation, NULL);
-			if (!gdk_pixbuf_animation_iter_on_currently_loading_frame (iter)) {
-				has_frame = TRUE;
-			}
-			g_object_unref (iter);
-		}
-	}
-
-	gdk_pixbuf_loader_close (loader, NULL);
-
-	if (!result) {
-		g_object_unref (G_OBJECT (loader));
-		g_input_stream_close (input_stream, NULL, NULL);
-		g_object_unref (input_stream);
-		g_object_unref (file);
-		return NULL;
-	}
-
-	g_input_stream_close (input_stream, NULL, NULL);
-	g_object_unref (input_stream);
-	g_object_unref (file);
-
-	pixbuf = gdk_pixbuf_loader_get_pixbuf (loader);
-	if (pixbuf != NULL) {
-		g_object_ref (G_OBJECT (pixbuf));
-		g_object_set_data (G_OBJECT (pixbuf), "gnome-original-width",
-			GINT_TO_POINTER (info.input_width));
-		g_object_set_data (G_OBJECT (pixbuf), "gnome-original-height",
-			GINT_TO_POINTER (info.input_height));
-	}
-	g_object_unref (G_OBJECT (loader));
-
-	return pixbuf;
-}
-
-static GdkPixbuf *
-desktop_thumbnail_factory_generate_thumbnail (GHashTable *scripts_hash,
-                                              const char *uri,
-                                              const char *mime_type)
-{
-	GdkPixbuf *pixbuf, *scaled, *tmp_pixbuf;
-	char *script, *expanded_script;
-	int width, height, size;
-	int original_width = 0;
-	int original_height = 0;
-	char dimension[12];
+	GdkPixbuf *scaled_pixbuf = NULL, *pixbuf = NULL;
+	gchar *filename = NULL;
 	double scale;
-	int exit_status;
-	char *tmpname;
 
-	g_return_val_if_fail (uri != NULL, NULL);
-	g_return_val_if_fail (mime_type != NULL, NULL);
-
-	size = 128;
-
-	pixbuf = NULL;
-
-	script = NULL;
-	if (scripts_hash)
-	{
-		script = g_hash_table_lookup (scripts_hash, mime_type);
-		if (script)
-			script = g_strdup (script);
+	filename = gtk_file_chooser_get_filename (icon_chooser);
+	if (filename != NULL) {
+		pixbuf = gdk_pixbuf_new_from_file (filename, NULL);
 	}
 
-	if (script)
-	{
-		int fd;
+	if (pixbuf != NULL) {
+		if (gdk_pixbuf_get_width (pixbuf) > PREVIEW_IMAGE_WIDTH) {
+			scale = (double) gdk_pixbuf_get_height (pixbuf) /
+			                 gdk_pixbuf_get_width (pixbuf);
 
-		fd = g_file_open_tmp (".gnome_desktop_thumbnail.XXXXXX", &tmpname, NULL);
+			scaled_pixbuf = gdk_pixbuf_scale_simple (pixbuf,
+			                                         PREVIEW_IMAGE_WIDTH,
+			                                         scale * PREVIEW_IMAGE_WIDTH,
+			                                         GDK_INTERP_BILINEAR);
 
-		if (fd != -1)
-		{
-			close (fd);
-
-			expanded_script = expand_thumbnailing_script (script, size, uri, tmpname);
-			if (expanded_script != NULL &&
-				g_spawn_command_line_sync (expanded_script,
-					NULL, NULL, &exit_status, NULL) &&
-				exit_status == 0)
-			{
-				pixbuf = gdk_pixbuf_new_from_file (tmpname, NULL);
-			}
-
-			g_free (expanded_script);
-			g_unlink (tmpname);
-			g_free (tmpname);
-		}
-
-		g_free (script);
-	}
-
-	/* Fall back to gdk-pixbuf */
-	if (pixbuf == NULL)
-	{
-		pixbuf = _gdk_pixbuf_new_from_uri_at_scale (uri, size, size, TRUE);
-
-		if (pixbuf != NULL)
-		{
-			original_width = GPOINTER_TO_INT (g_object_get_data (G_OBJECT (pixbuf),
-				"gnome-original-width"));
-			original_height = GPOINTER_TO_INT (g_object_get_data (G_OBJECT (pixbuf),
-				"gnome-original-height"));
-		}
-	}
-
-	if (pixbuf == NULL)
-		return NULL;
-
-	/* The pixbuf loader may attach an "orientation" option to the pixbuf,
-	 * if the tiff or exif jpeg file had an orientation tag. Rotate/flip
-	 * the pixbuf as specified by this tag, if present. */
-	tmp_pixbuf = gdk_pixbuf_apply_embedded_orientation (pixbuf);
-	g_object_unref (pixbuf);
-	pixbuf = tmp_pixbuf;
-
-	width = gdk_pixbuf_get_width (pixbuf);
-	height = gdk_pixbuf_get_height (pixbuf);
-
-	if (width > size || height > size)
-	{
-		const gchar *orig_width, *orig_height;
-		scale = (double)size / MAX (width, height);
-
-		scaled = gnome_desktop_thumbnail_scale_down_pixbuf (pixbuf,
-		                                                    floor (width * scale + 0.5),
-		                                                    floor (height * scale + 0.5));
-
-		orig_width = gdk_pixbuf_get_option (pixbuf, "tEXt::Thumb::Image::Width");
-		orig_height = gdk_pixbuf_get_option (pixbuf, "tEXt::Thumb::Image::Height");
-
-		if (orig_width != NULL) {
-			gdk_pixbuf_set_option (scaled, "tEXt::Thumb::Image::Width", orig_width);
-		}
-		if (orig_height != NULL) {
-			gdk_pixbuf_set_option (scaled, "tEXt::Thumb::Image::Height", orig_height);
-		}
-
-		g_object_unref (pixbuf);
-		pixbuf = scaled;
-	}
-
-	if (original_width > 0) {
-		g_snprintf (dimension, sizeof (dimension), "%i", original_width);
-		gdk_pixbuf_set_option (pixbuf, "tEXt::Thumb::Image::Width", dimension);
-	}
-	if (original_height > 0) {
-		g_snprintf (dimension, sizeof (dimension), "%i", original_height);
-		gdk_pixbuf_set_option (pixbuf, "tEXt::Thumb::Image::Height", dimension);
-	}
-
-	return pixbuf;
-}
-
-static void
-update_preview (GtkFileChooser *chooser,
-                GHashTable     *scripts_hash)
-{
-	gchar *uri;
-
-	uri = gtk_file_chooser_get_uri (chooser);
-
-	if (uri) {
-		GdkPixbuf *pixbuf = NULL;
-		const gchar *mime_type = NULL;
-		GFile *file;
-		GFileInfo *file_info;
-		GtkWidget *preview;
-
-		preview = gtk_file_chooser_get_preview_widget (chooser);
-
-		file = g_file_new_for_uri (uri);
-		file_info = g_file_query_info (file,
-		                               "standard::*",
-		                               G_FILE_QUERY_INFO_NONE,
-		                               NULL, NULL);
-		g_object_unref (file);
-
-		if (file_info != NULL &&
-			g_file_info_get_file_type (file_info) != G_FILE_TYPE_DIRECTORY)
-		{
-			mime_type = g_file_info_get_content_type (file_info);
-			g_object_unref (file_info);
-		}
-
-		if (mime_type) {
-			pixbuf = desktop_thumbnail_factory_generate_thumbnail (scripts_hash,
-			                                                       uri,
-			                                                       mime_type);
-		}
-
-		gtk_dialog_set_response_sensitive (GTK_DIALOG (chooser),
-		                                   GTK_RESPONSE_ACCEPT,
-		                                   (pixbuf != NULL));
-
-		if (pixbuf != NULL) {
-			gtk_image_set_from_pixbuf (GTK_IMAGE (preview), pixbuf);
 			g_object_unref (pixbuf);
+			pixbuf = scaled_pixbuf;
 		}
-		else {
-			gtk_image_set_from_icon_name (GTK_IMAGE (preview),
-			                              "dialog-question",
-			                              GTK_ICON_SIZE_DIALOG);
-		}
-
-		g_free (uri);
+		gtk_image_set_from_pixbuf (GTK_IMAGE (preview_widget), pixbuf);
 	}
-
-	gtk_file_chooser_set_preview_widget_active (chooser, TRUE);
+	else {
+		gtk_image_set_from_icon_name (GTK_IMAGE (preview_widget),
+		                              "dialog-question",
+		                              GTK_ICON_SIZE_DIALOG);
+	}
 }
 
 static void
@@ -734,7 +217,7 @@ um_photo_dialog_select_file (UmPhotoDialog *um)
 	 * Preview also has to be generated on "selection-changed" signal to reflect
 	 * all changes (Bug 660877). */
 	g_signal_connect_after (chooser, "selection-changed",
-		G_CALLBACK (update_preview), NULL);
+	                        G_CALLBACK (update_preview), preview);
 
 	folder = g_get_user_special_dir (G_USER_DIRECTORY_PICTURES);
 	if (folder)
@@ -783,7 +266,8 @@ webcam_response_cb (GtkDialog     *dialog,
 
 		g_object_get (G_OBJECT (dialog), "pixbuf", &pb, NULL);
 		pb2 = gdk_pixbuf_scale_simple (pb,
-		                               DEFAUL_IMAGE_SIZE, DEFAUL_IMAGE_SIZE,
+		                               DEFAULT_IMAGE_SIZE,
+		                               DEFAULT_IMAGE_SIZE,
 		                               GDK_INTERP_BILINEAR);
 
 		set_user_icon_data (um->user, pb2);

@@ -1,4 +1,4 @@
-AC_INIT([xings-user-accounts], [0.2.3],
+AC_INIT([xings-user-accounts], [0.2.4],
 	[https://github.com/matiasdelellis/xings-user-accounts])
 
 AC_CONFIG_SRCDIR([src])

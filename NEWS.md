@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.4] - 2021-08-10
+
+### Changed
+
+- Greatly simplify the preview code when select file for avatar.
+- Just change My Account to Your Account that best reflects that it means.
+- Use emblem-default to indicate logged in users instead custom drawing.
+
+### Fixed
+
+- Misc fixes of scan-build reports.
+
 ## [0.2.3] - 2021-07-29
 
 ### Added
